@@ -55,6 +55,22 @@ Connect the TUI to the ReAct Agent with real-time streaming LLM responses displa
 
 Events flow from Agent to TUI via a channel:
 
+### Bidirectional Communication
+
+```
+TUI                                  Agent
+  │                                    │
+  ├──── SubmitTask(TaskRequest) ──────>│
+  │                                    │
+  │<──── AgentEvent (via channel) ─────┤
+  │<──── AgentEvent (via channel) ─────┤
+  │                                    │
+  ├──── Cancel() ─────────────────────>│
+  │                                    │
+```
+
+### Agent-to-TUI Events
+
 ```go
 type AgentEvent interface {
     Type() string
@@ -81,10 +97,24 @@ type ToolCompleteEvent struct {
 }
 
 type StepCompleteEvent struct {
-    Step      int
-    Finished  bool
-    Result    string // only if Finished=true
+    Step        int
+    Finished    bool
+    Interrupted bool     // true if user cancelled
+    Result      string   // only if Finished=true
 }
+```
+
+### TUI-to-Agent Requests
+
+```go
+type TaskRequest struct {
+    Task string
+}
+
+type CancelRequest struct {
+    // Empty - signals cancellation
+}
+```
 ```
 
 ## Data Structures
@@ -106,10 +136,11 @@ type TreeNode struct {
 
 type NodeState int
 const (
-    StateThinking  NodeState = 0
-    StateExecuting NodeState = 1
-    StateComplete  NodeState = 2
-    StateError     NodeState = 3
+    StateThinking     NodeState = 0
+    StateExecuting    NodeState = 1
+    StateComplete     NodeState = 2
+    StateError        NodeState = 3
+    StateInterrupted  NodeState = 4
 )
 ```
 
@@ -153,7 +184,9 @@ type StreamEvent struct {
 
 ### Token Throttling
 
-Accumulate tokens in a string builder. Send `ThinkingEvent` every 50ms to avoid flooding TUI. Final event marks `Streaming: false`.
+**Owner:** Agent Controller
+
+The Agent Controller accumulates tokens in a string builder as they arrive from the Streaming Client. Every 50ms, it publishes a `ThinkingEvent` with the accumulated content to avoid flooding the TUI. When streaming completes, it publishes a final event with `Streaming: false`.
 
 ## Error Handling
 
