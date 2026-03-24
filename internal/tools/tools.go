@@ -2,12 +2,26 @@ package tools
 
 import (
 	"context"
+	"path/filepath"
+	"strings"
 )
 
 type Tool interface {
 	Name() string
 	Description() string
 	Execute(ctx context.Context, input string) (string, error)
+}
+
+func validatePath(baseDir, path string) bool {
+	cleanBase := filepath.Clean(baseDir)
+	cleanPath := filepath.Clean(path)
+	if cleanPath == cleanBase {
+		return true
+	}
+	if !strings.HasSuffix(cleanBase, string(filepath.Separator)) {
+		cleanBase += string(filepath.Separator)
+	}
+	return strings.HasPrefix(cleanPath+string(filepath.Separator), cleanBase)
 }
 
 type ToolRegistry struct {

@@ -82,6 +82,29 @@ func TestReadTool_PathTraversal(t *testing.T) {
 	}
 }
 
+func TestValidatePath(t *testing.T) {
+	tests := []struct {
+		baseDir  string
+		path     string
+		expected bool
+	}{
+		{"/home/user", "/home/user/file.txt", true},
+		{"/home/user", "/home/user/subdir/file.txt", true},
+		{"/home/user", "/home/user", true},
+		{"/home/user", "/home/userother/file.txt", false},
+		{"/home/user", "/home/other/file.txt", false},
+		{"/home/user", "/etc/passwd", false},
+		{"/home/user", "/home/user/../other/file.txt", false},
+	}
+
+	for _, tt := range tests {
+		result := validatePath(tt.baseDir, tt.path)
+		if result != tt.expected {
+			t.Errorf("validatePath(%q, %q) = %v, want %v", tt.baseDir, tt.path, result, tt.expected)
+		}
+	}
+}
+
 func TestWriteTool_Create(t *testing.T) {
 	tmpDir := t.TempDir()
 	tool := NewWriteTool(tmpDir)

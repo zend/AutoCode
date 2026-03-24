@@ -57,7 +57,7 @@ func (t *ShellTool) Execute(ctx context.Context, input string) (string, error) {
 	if req.WorkDir != "" {
 		workDir = filepath.Join(t.baseDir, req.WorkDir)
 		workDir = filepath.Clean(workDir)
-		if !strings.HasPrefix(workDir, t.baseDir) {
+		if !validatePath(t.baseDir, workDir) {
 			return "", fmt.Errorf("work_dir must be within base directory")
 		}
 	}

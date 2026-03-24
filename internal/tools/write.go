@@ -46,7 +46,7 @@ func (t *WriteTool) Execute(ctx context.Context, input string) (string, error) {
 	path := filepath.Join(t.baseDir, req.Path)
 	path = filepath.Clean(path)
 
-	if !strings.HasPrefix(path, t.baseDir) {
+	if !validatePath(t.baseDir, path) {
 		return "", fmt.Errorf("path must be within base directory")
 	}
 
@@ -117,10 +117,7 @@ func (t *WriteTool) editFile(path string, req WriteInput) (string, error) {
 		return "", fmt.Errorf("old_string appears %d times, please provide more context or set expected_count", count)
 	}
 
-	newContent := strings.Replace(content, req.OldString, req.NewString, 1)
-	if count > 1 {
-		newContent = strings.Replace(content, req.OldString, req.NewString, count)
-	}
+	newContent := strings.ReplaceAll(content, req.OldString, req.NewString)
 
 	if err := os.WriteFile(path, []byte(newContent), 0644); err != nil {
 		return "", fmt.Errorf("write file: %w", err)

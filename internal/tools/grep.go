@@ -52,7 +52,7 @@ func (t *GrepTool) Execute(ctx context.Context, input string) (string, error) {
 	}
 	searchPath = filepath.Clean(searchPath)
 
-	if !strings.HasPrefix(searchPath, t.baseDir) {
+	if !validatePath(t.baseDir, searchPath) {
 		return "", fmt.Errorf("path must be within base directory")
 	}
 

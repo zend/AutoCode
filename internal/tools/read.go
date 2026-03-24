@@ -43,7 +43,7 @@ func (t *ReadTool) Execute(ctx context.Context, input string) (string, error) {
 	path := filepath.Join(t.baseDir, req.Path)
 	path = filepath.Clean(path)
 
-	if !strings.HasPrefix(path, t.baseDir) {
+	if !validatePath(t.baseDir, path) {
 		return "", fmt.Errorf("path must be within base directory")
 	}
 
