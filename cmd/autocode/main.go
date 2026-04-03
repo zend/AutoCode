@@ -12,6 +12,12 @@ import (
 )
 
 func main() {
+	// Initialize traffic logger
+	if err := llm.InitTrafficLogger("traffic.log"); err != nil {
+		fmt.Fprintf(os.Stderr, "Warning: Failed to init traffic logger: %v\n", err)
+	}
+	defer llm.CloseTrafficLogger()
+
 	// Detect provider based on environment variables
 	anthropicToken := os.Getenv("ANTHROPIC_AUTH_TOKEN")
 	openaiKey := os.Getenv("OPENAI_API_KEY")

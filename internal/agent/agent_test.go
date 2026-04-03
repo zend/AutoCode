@@ -317,7 +317,12 @@ func TestExecuteToolWithEvents(t *testing.T) {
 		{
 			name:    "no action",
 			resp:    &AgentResponse{Thought: "test"},
-			wantErr: true,
+			wantErr: false, // Empty action now returns helpful message instead of error
+		},
+		{
+			name:    "none action",
+			resp:    &AgentResponse{Thought: "test", Action: "none"},
+			wantErr: false, // "none" action is treated as no tool needed
 		},
 		{
 			name:    "unknown tool",

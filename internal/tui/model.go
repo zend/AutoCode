@@ -23,6 +23,9 @@ type Model struct {
 	messages     []Message
 	renderer     *glamour.TermRenderer
 	input        string
+	cursorPos    int            // Cursor position in input
+	inputHistory []string       // History of user inputs
+	historyIndex int            // Current position in history (-1 = new input)
 	running      bool
 	width        int
 	height       int
@@ -32,6 +35,7 @@ type Model struct {
 	cancelCtx    context.CancelFunc // Function to cancel agent context
 	providerName string             // Provider name (Anthropic/OpenAI)
 	modelName    string             // Model name
+	currentStep  int                // Current agent step for tracking message updates
 }
 
 // NewModel creates a new TUI model with chat interface
@@ -40,6 +44,9 @@ func NewModel(agent *agent.Agent, providerName, modelName string) *Model {
 		agent:        agent,
 		messages:     make([]Message, 0),
 		input:        "",
+		cursorPos:    0,
+		inputHistory: make([]string, 0),
+		historyIndex: -1,
 		providerName: providerName,
 		modelName:    modelName,
 	}
@@ -105,7 +112,11 @@ func (m *Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 func (m *Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 	switch msg.Type {
 	case tea.KeyCtrlD:
-		return m, tea.Quit
+		// Only quit if input is empty and not running
+		if m.input == "" && !m.running {
+			return m, tea.Quit
+		}
+		return m, nil
 
 	case tea.KeyEsc:
 		if m.running {
@@ -121,14 +132,54 @@ func (m *Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 		// Clear input if not running
 		if m.input != "" {
 			m.input = ""
+			m.cursorPos = 0
 		}
+		return m, nil
+
+	case tea.KeyCtrlU:
+		// Clear input line
+		m.input = ""
+		m.cursorPos = 0
+		m.historyIndex = -1
+		return m, nil
+
+	case tea.KeyCtrlW:
+		// Delete word before cursor
+		if m.cursorPos > 0 {
+			// Find start of word
+			pos := m.cursorPos - 1
+			for pos > 0 && m.input[pos-1] == ' ' {
+				pos--
+			}
+			for pos > 0 && m.input[pos-1] != ' ' {
+				pos--
+			}
+			m.input = m.input[:pos] + m.input[m.cursorPos:]
+			m.cursorPos = pos
+		}
+		return m, nil
+
+	case tea.KeyCtrlA:
+		// Move to beginning of line
+		m.cursorPos = 0
+		return m, nil
+
+	case tea.KeyCtrlE:
+		// Move to end of line
+		m.cursorPos = len(m.input)
 		return m, nil
 
 	case tea.KeyEnter:
 		if m.input != "" && !m.running {
 			task := m.input
 			m.input = ""
+			m.cursorPos = 0
 			m.running = true
+			m.currentStep = 0 // Reset step tracking for new task
+
+			// Add to history
+			m.inputHistory = append(m.inputHistory, task)
+			m.historyIndex = -1
 
 			// Add user message
 			m.messages = append(m.messages, NewUserMessage(task))
@@ -139,18 +190,41 @@ func (m *Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 		return m, nil
 
 	case tea.KeyBackspace:
-		if len(m.input) > 0 {
-			m.input = m.input[:len(m.input)-1]
+		if m.cursorPos > 0 {
+			m.input = m.input[:m.cursorPos-1] + m.input[m.cursorPos:]
+			m.cursorPos--
 		}
 		return m, nil
 
 	case tea.KeyUp:
-		// Scroll viewport up
+		// If input is focused (not running), navigate history
+		if !m.running && len(m.inputHistory) > 0 {
+			if m.historyIndex < len(m.inputHistory)-1 {
+				m.historyIndex++
+				m.input = m.inputHistory[len(m.inputHistory)-1-m.historyIndex]
+				m.cursorPos = len(m.input)
+			}
+			return m, nil
+		}
+		// Otherwise scroll viewport
 		m.viewport.LineUp(1)
 		return m, nil
 
 	case tea.KeyDown:
-		// Scroll viewport down
+		// If navigating history
+		if !m.running && m.historyIndex >= 0 {
+			if m.historyIndex > 0 {
+				m.historyIndex--
+				m.input = m.inputHistory[len(m.inputHistory)-1-m.historyIndex]
+				m.cursorPos = len(m.input)
+			} else {
+				m.historyIndex = -1
+				m.input = ""
+				m.cursorPos = 0
+			}
+			return m, nil
+		}
+		// Otherwise scroll viewport
 		m.viewport.LineDown(1)
 		return m, nil
 
@@ -162,8 +236,31 @@ func (m *Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 		m.viewport.HalfViewDown()
 		return m, nil
 
+	case tea.KeyLeft:
+		if m.cursorPos > 0 {
+			m.cursorPos--
+		}
+		return m, nil
+
+	case tea.KeyRight:
+		if m.cursorPos < len(m.input) {
+			m.cursorPos++
+		}
+		return m, nil
+
 	case tea.KeyRunes:
-		m.input += msg.String()
+		// Insert at cursor position
+		runes := msg.String()
+		m.input = m.input[:m.cursorPos] + runes + m.input[m.cursorPos:]
+		m.cursorPos += len(runes)
+		m.historyIndex = -1
+		return m, nil
+
+	case tea.KeySpace:
+		// Insert space at cursor position
+		m.input = m.input[:m.cursorPos] + " " + m.input[m.cursorPos:]
+		m.cursorPos++
+		m.historyIndex = -1
 		return m, nil
 	}
 
@@ -174,12 +271,23 @@ func (m *Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 func (m *Model) handleAgentEvent(event agent.AgentEvent) (tea.Model, tea.Cmd) {
 	switch e := event.(type) {
 	case agent.ThinkingEvent:
-		// Find or create assistant message
-		if len(m.messages) == 0 || !m.messages[len(m.messages)-1].IsAssistant() {
-			m.messages = append(m.messages, NewAssistantMessage(""))
+		// Create new message if this is a new step or no assistant message exists
+		needNewMsg := len(m.messages) == 0 || !m.messages[len(m.messages)-1].IsAssistant()
+
+		// If step changed, create new message for this step
+		if !needNewMsg && m.currentStep != e.Step {
+			needNewMsg = true
+			m.currentStep = e.Step
 		}
 
-		// Update the last assistant message
+		if needNewMsg {
+			m.messages = append(m.messages, NewAssistantMessage(""))
+			m.currentStep = e.Step
+		}
+
+		// Update the last assistant message with the thought content
+		// The agent sends full thought content each time, so we replace (not append)
+		// This is correct because each ThinkingEvent contains the accumulated thought so far
 		lastMsg := &m.messages[len(m.messages)-1]
 		lastMsg.Content = e.Thought
 		m.updateViewport()
@@ -233,8 +341,8 @@ func (m *Model) handleAgentEvent(event agent.AgentEvent) (tea.Model, tea.Cmd) {
 		} else if e.Step < 0 {
 			// Error case (Step = -1 from runAgent) - display error and stop
 			m.running = false
-			if e.Result != "" {
-				// Add error as assistant message
+			if e.Result != "" && !strings.Contains(e.Result, "Task completed") {
+				// Only add error message if it's a real error (not just "Task completed")
 				m.messages = append(m.messages, NewAssistantMessage(fmt.Sprintf("**Error:** %s", e.Result)))
 				m.updateViewport()
 			}
@@ -281,23 +389,22 @@ func (m *Model) runAgent(task string) tea.Cmd {
 
 		err := m.agent.Run(ctx, task)
 
-		// Close stop channel to signal event listening to stop
-		if m.stopListen != nil {
-			close(m.stopListen)
-		}
-
+		// Don't send duplicate StepCompleteEvent - agent already sends one
+		// Only send error event if there was an actual error
 		if err != nil {
+			// Close stop channel to signal event listening to stop
+			if m.stopListen != nil {
+				close(m.stopListen)
+			}
 			return agent.StepCompleteEvent{
 				Step:     -1,
 				Finished: false,
 				Result:   fmt.Sprintf("Error: %v", err),
 			}
 		}
-		return agent.StepCompleteEvent{
-			Step:     -1,
-			Finished: true,
-			Result:   "Task completed",
-		}
+		// Return nil instead of duplicate event - agent's event will be processed
+		// Note: We don't close stopListen here because agent's event still needs to be processed
+		return nil
 	}
 }
 
@@ -312,7 +419,11 @@ func (m *Model) listenForEvents() tea.Cmd {
 		// Use select to listen for events or stop signal
 		// Also include a timeout to prevent blocking forever
 		select {
-		case event := <-eventCh:
+		case event, ok := <-eventCh:
+			if !ok {
+				// Channel closed
+				return nil
+			}
 			return event
 		case <-m.stopListen:
 			// Stop listening, return nil
@@ -423,8 +534,6 @@ func (m *Model) renderInput() string {
 
 	// Input prompt with "> " like Claude Code
 	prompt := inputPromptStyle.Render("> ")
-	input := inputStyle.Render(m.input)
-	cursor := cursorStyle.Render("▋")
 
 	if m.running {
 		// Show spinner/status when running
@@ -432,8 +541,13 @@ func (m *Model) renderInput() string {
 		b.WriteString(runningStyle.Render("Processing... (Press Esc to cancel)"))
 	} else {
 		b.WriteString(prompt)
-		b.WriteString(input)
+		// Render input with cursor at correct position
+		beforeCursor := inputStyle.Render(m.input[:m.cursorPos])
+		cursor := cursorStyle.Render("▋")
+		afterCursor := inputStyle.Render(m.input[m.cursorPos:])
+		b.WriteString(beforeCursor)
 		b.WriteString(cursor)
+		b.WriteString(afterCursor)
 	}
 
 	b.WriteString("\n")
@@ -446,7 +560,7 @@ func (m *Model) helpText() string {
 	if m.running {
 		return "  esc: cancel • ctrl+d: quit"
 	}
-	return "  enter: submit • esc: clear • ↑/↓: scroll • ctrl+d: quit"
+	return "  enter: submit • ↑/↓: history • ctrl+a/e: home/end • ctrl+u: clear • ctrl+d: quit"
 }
 
 // Styles

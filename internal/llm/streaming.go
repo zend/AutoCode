@@ -9,6 +9,7 @@ import (
 	"io"
 	"net/http"
 	"strings"
+	"time"
 )
 
 type SSEEvent struct {
@@ -48,15 +49,21 @@ type StreamEvent struct {
 }
 
 func (c *Client) StreamChat(ctx context.Context, req ChatRequest) (<-chan StreamEvent, error) {
+	startTime := time.Now()
 	req.Stream = true
+
+	// Log request
+	LogRequest("openai", req.Model, req)
 
 	body, err := json.Marshal(req)
 	if err != nil {
+		LogError("openai", req.Model, err)
 		return nil, fmt.Errorf("marshal request: %w", err)
 	}
 
 	httpReq, err := http.NewRequestWithContext(ctx, "POST", c.baseURL+"/chat/completions", bytes.NewReader(body))
 	if err != nil {
+		LogError("openai", req.Model, err)
 		return nil, fmt.Errorf("create request: %w", err)
 	}
 
@@ -65,6 +72,7 @@ func (c *Client) StreamChat(ctx context.Context, req ChatRequest) (<-chan Stream
 
 	resp, err := c.httpClient.Do(httpReq)
 	if err != nil {
+		LogError("openai", req.Model, err)
 		return nil, fmt.Errorf("do request: %w", err)
 	}
 
@@ -72,7 +80,9 @@ func (c *Client) StreamChat(ctx context.Context, req ChatRequest) (<-chan Stream
 		// Read error body for more details
 		body, _ := io.ReadAll(resp.Body)
 		resp.Body.Close()
-		return nil, fmt.Errorf("api error (status %s): %s", resp.Status, string(body))
+		err := fmt.Errorf("api error (status %s): %s", resp.Status, string(body))
+		LogError("openai", req.Model, err)
+		return nil, err
 	}
 
 	ch := make(chan StreamEvent, 10)
@@ -80,6 +90,8 @@ func (c *Client) StreamChat(ctx context.Context, req ChatRequest) (<-chan Stream
 	go func() {
 		defer resp.Body.Close()
 		defer close(ch)
+
+		var fullContent strings.Builder
 
 		scanner := bufio.NewScanner(resp.Body)
 		for scanner.Scan() {
@@ -91,6 +103,10 @@ func (c *Client) StreamChat(ctx context.Context, req ChatRequest) (<-chan Stream
 			data := strings.TrimPrefix(line, "data: ")
 			if data == "[DONE]" {
 				ch <- StreamEvent{Done: true}
+				// Log complete response
+				LogResponse("openai", req.Model, map[string]string{
+					"content": fullContent.String(),
+				}, time.Since(startTime))
 				return
 			}
 
@@ -113,6 +129,7 @@ func (c *Client) StreamChat(ctx context.Context, req ChatRequest) (<-chan Stream
 			if len(streamResp.Choices) > 0 {
 				token := streamResp.Choices[0].Delta.Content
 				if token != "" {
+					fullContent.WriteString(token)
 					ch <- StreamEvent{Token: token}
 				}
 			}
@@ -120,6 +137,7 @@ func (c *Client) StreamChat(ctx context.Context, req ChatRequest) (<-chan Stream
 
 		if err := scanner.Err(); err != nil {
 			ch <- StreamEvent{Error: err}
+			LogError("openai", req.Model, err)
 		}
 	}()
 

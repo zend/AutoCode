@@ -189,6 +189,7 @@ func TestModel_handleKey_Enter_EmptyInput(t *testing.T) {
 func TestModel_handleKey_Backspace(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.input = "hello"
+	model.cursorPos = len(model.input)
 
 	msg := tea.KeyMsg{Type: tea.KeyBackspace}
 	newModel, _ := model.handleKey(msg)
@@ -202,6 +203,7 @@ func TestModel_handleKey_Backspace(t *testing.T) {
 func TestModel_handleKey_Backspace_Empty(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.input = ""
+	model.cursorPos = 0
 
 	msg := tea.KeyMsg{Type: tea.KeyBackspace}
 	newModel, _ := model.handleKey(msg)
@@ -215,6 +217,7 @@ func TestModel_handleKey_Backspace_Empty(t *testing.T) {
 func TestModel_handleKey_Runes(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.input = "hel"
+	model.cursorPos = len(model.input)
 
 	msg := tea.KeyMsg{Type: tea.KeyRunes, Runes: []rune{'l', 'o'}}
 	newModel, _ := model.handleKey(msg)

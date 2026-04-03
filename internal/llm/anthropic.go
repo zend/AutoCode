@@ -78,6 +78,8 @@ func (c *AnthropicClient) SetModel(model string) {
 
 // Chat sends a chat completion request to Anthropic
 func (c *AnthropicClient) Chat(ctx context.Context, req ChatRequest) (*ChatResponse, error) {
+	startTime := time.Now()
+
 	// Convert OpenAI format to Anthropic format
 	anthropicReq := AnthropicMessageRequest{
 		Model:       c.model,
@@ -105,8 +107,12 @@ func (c *AnthropicClient) Chat(ctx context.Context, req ChatRequest) (*ChatRespo
 		})
 	}
 
+	// Log request
+	LogRequest("anthropic", c.model, anthropicReq)
+
 	body, err := json.Marshal(anthropicReq)
 	if err != nil {
+		LogError("anthropic", c.model, err)
 		return nil, fmt.Errorf("marshal request: %w", err)
 	}
 
@@ -188,6 +194,9 @@ func (c *AnthropicClient) Chat(ctx context.Context, req ChatRequest) (*ChatRespo
 		},
 	}
 
+	// Log response
+	LogResponse("anthropic", c.model, anthropicResp, time.Since(startTime))
+
 	return chatResp, nil
 }
 
@@ -209,6 +218,8 @@ func (c *AnthropicClient) handleErrorResponse(statusCode int, body []byte, heade
 
 // StreamChat sends a streaming chat request to Anthropic
 func (c *AnthropicClient) StreamChat(ctx context.Context, req ChatRequest) (<-chan StreamEvent, error) {
+	startTime := time.Now()
+
 	anthropicReq := AnthropicMessageRequest{
 		Model:       c.model,
 		MaxTokens:   req.MaxTokens,
@@ -235,8 +246,12 @@ func (c *AnthropicClient) StreamChat(ctx context.Context, req ChatRequest) (<-ch
 		})
 	}
 
+	// Log request
+	LogRequest("anthropic", c.model, anthropicReq)
+
 	body, err := json.Marshal(anthropicReq)
 	if err != nil {
+		LogError("anthropic", c.model, err)
 		return nil, fmt.Errorf("marshal request: %w", err)
 	}
 
@@ -277,12 +292,19 @@ func (c *AnthropicClient) StreamChat(ctx context.Context, req ChatRequest) (<-ch
 
 		reader := bufio.NewReader(resp.Body)
 		var eventType string
+		var fullContent strings.Builder // Collect full response for logging
 
 		for {
 			line, err := reader.ReadString('\n')
 			if err != nil {
 				if err != io.EOF {
 					ch <- StreamEvent{Error: fmt.Errorf("read stream: %w", err)}
+					LogError("anthropic", c.model, err)
+				} else {
+					// Log complete response
+					LogResponse("anthropic", c.model, map[string]string{
+						"content": fullContent.String(),
+					}, time.Since(startTime))
 				}
 				return
 			}
@@ -314,15 +336,22 @@ func (c *AnthropicClient) StreamChat(ctx context.Context, req ChatRequest) (<-ch
 						continue
 					}
 					if deltaEvent.Delta.Text != "" {
+						fullContent.WriteString(deltaEvent.Delta.Text)
 						ch <- StreamEvent{Token: deltaEvent.Delta.Text}
 					}
 
 				case "message_stop":
 					ch <- StreamEvent{Done: true}
+					// Log complete response
+					LogResponse("anthropic", c.model, map[string]string{
+						"content": fullContent.String(),
+					}, time.Since(startTime))
 					return
 
 				case "error":
-					ch <- StreamEvent{Error: fmt.Errorf("anthropic stream error: %s", data)}
+					err := fmt.Errorf("anthropic stream error: %s", data)
+					ch <- StreamEvent{Error: err}
+					LogError("anthropic", c.model, err)
 					return
 				}
 			}

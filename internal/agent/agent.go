@@ -288,8 +288,10 @@ func (a *Agent) streamThinking(step int, streamCh <-chan llm.StreamEvent, builde
 
 // executeToolWithEvents executes a tool and publishes ToolStartEvent and ToolCompleteEvent
 func (a *Agent) executeToolWithEvents(ctx context.Context, step int, resp *AgentResponse) (string, error) {
-	if resp.Action == "" {
-		return "", fmt.Errorf("no action specified")
+	// Handle empty or "none" action - LLM is thinking without executing a tool
+	if resp.Action == "" || resp.Action == "none" {
+		// Ask LLM to either provide a tool action or mark as finished
+		return "No tool action specified. Please either provide a valid tool action (read, write, grep, shell) or set finish=true if the task is complete.", nil
 	}
 
 	tool, ok := a.registry.Get(resp.Action)
