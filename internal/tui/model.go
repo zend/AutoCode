@@ -2,6 +2,7 @@ package tui
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"strings"
 	"time"
@@ -23,9 +24,9 @@ type Model struct {
 	messages     []Message
 	renderer     *glamour.TermRenderer
 	input        string
-	cursorPos    int            // Cursor position in input
-	inputHistory []string       // History of user inputs
-	historyIndex int            // Current position in history (-1 = new input)
+	cursorPos    int      // Cursor position in input
+	inputHistory []string // History of user inputs
+	historyIndex int      // Current position in history (-1 = new input)
 	running      bool
 	width        int
 	height       int
@@ -285,20 +286,19 @@ func (m *Model) handleAgentEvent(event agent.AgentEvent) (tea.Model, tea.Cmd) {
 			m.currentStep = e.Step
 		}
 
-		// Update the last assistant message with the thought content
-		// The agent sends full thought content each time, so we replace (not append)
-		// This is correct because each ThinkingEvent contains the accumulated thought so far
+		// Update the last assistant message with formatted thought content
+		// Parse JSON and display thought/response nicely instead of raw JSON
 		lastMsg := &m.messages[len(m.messages)-1]
-		lastMsg.Content = e.Thought
+		lastMsg.Content = formatThinkingContent(e.Thought)
 		m.updateViewport()
 
 	case agent.ToolStartEvent:
 		// Append tool info to the last assistant message
 		if len(m.messages) > 0 && m.messages[len(m.messages)-1].IsAssistant() {
 			lastMsg := &m.messages[len(m.messages)-1]
-			toolInfo := fmt.Sprintf("\n\n**Tool:** %s\n", e.Action)
-			if e.Input != nil {
-				toolInfo += fmt.Sprintf("**Input:** `%s`\n", formatJSON(e.Input))
+			toolInfo := fmt.Sprintf("\n\n🔧 **Running:** `%s`", e.Action)
+			if e.Input != nil && len(e.Input) > 0 {
+				toolInfo += fmt.Sprintf(" → %s", formatJSON(e.Input))
 			}
 			lastMsg.Content += toolInfo
 			m.updateViewport()
@@ -309,9 +309,13 @@ func (m *Model) handleAgentEvent(event agent.AgentEvent) (tea.Model, tea.Cmd) {
 		if len(m.messages) > 0 && m.messages[len(m.messages)-1].IsAssistant() {
 			lastMsg := &m.messages[len(m.messages)-1]
 			if e.Error != "" {
-				lastMsg.Content += fmt.Sprintf("\n**Error:** %s\n", e.Error)
+				lastMsg.Content += fmt.Sprintf("\n❌ **Error:** %s", e.Error)
 			} else {
-				lastMsg.Content += fmt.Sprintf("\n**Output:**\n```\n%s\n```\n", e.Output)
+				output := e.Output
+				if len(output) > 500 {
+					output = output[:500] + "... (truncated)"
+				}
+				lastMsg.Content += fmt.Sprintf("\n✓ **Result:**\n```\n%s\n```", output)
 			}
 			m.updateViewport()
 		}
@@ -365,6 +369,67 @@ func formatJSON(input map[string]interface{}) string {
 		parts = append(parts, fmt.Sprintf("%s=%v", k, v))
 	}
 	return strings.Join(parts, ", ")
+}
+
+// thinkingResponse represents the parsed LLM response structure
+type thinkingResponse struct {
+	Thought     string                 `json:"thought"`
+	Action      string                 `json:"action,omitempty"`
+	ActionInput map[string]interface{} `json:"action_input,omitempty"`
+	Response    string                 `json:"response,omitempty"`
+	Finish      bool                   `json:"finish,omitempty"`
+	Result      string                 `json:"result,omitempty"`
+}
+
+// formatThinkingContent parses JSON content and formats it nicely for display
+func formatThinkingContent(content string) string {
+	content = strings.TrimSpace(content)
+
+	// Try to parse as JSON
+	jsonStart := strings.Index(content, "{")
+	jsonEnd := strings.LastIndex(content, "}")
+	if jsonStart == -1 || jsonEnd == -1 || jsonEnd < jsonStart {
+		// Not JSON, return as-is
+		return content
+	}
+
+	jsonStr := content[jsonStart : jsonEnd+1]
+	var resp thinkingResponse
+	if err := json.Unmarshal([]byte(jsonStr), &resp); err != nil {
+		// Parse failed, return raw content
+		return content
+	}
+
+	// Build formatted output
+	var result strings.Builder
+
+	// Show thought with a nice prefix
+	if resp.Thought != "" {
+		result.WriteString("💭 *Thinking:* ")
+		result.WriteString(resp.Thought)
+		result.WriteString("\n")
+	}
+
+	// Show response if present (for conversational replies)
+	if resp.Response != "" {
+		result.WriteString("\n")
+		result.WriteString(resp.Response)
+	}
+
+	// Show action if it's a real tool (not "none")
+	if resp.Action != "" && resp.Action != "none" {
+		result.WriteString(fmt.Sprintf("\n\n🔧 *Action:* `%s`", resp.Action))
+		if len(resp.ActionInput) > 0 {
+			result.WriteString(fmt.Sprintf(" (%s)", formatJSON(resp.ActionInput)))
+		}
+	}
+
+	// Show finish/result
+	if resp.Finish && resp.Result != "" {
+		result.WriteString(fmt.Sprintf("\n\n✅ *Done:* %s", resp.Result))
+	}
+
+	return result.String()
 }
 
 // updateViewport refreshes the viewport content

@@ -349,7 +349,7 @@ func TestModel_handleAgentEvent_ToolStartEvent(t *testing.T) {
 		t.Fatalf("expected 1 message, got %d", len(m.messages))
 	}
 	content := m.messages[0].Content
-	if !strings.Contains(content, "**Tool:** shell") {
+	if !strings.Contains(content, "**Running:** `shell`") {
 		t.Errorf("expected content to contain tool info, got:\n%s", content)
 	}
 }
