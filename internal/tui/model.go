@@ -177,9 +177,8 @@ func (m *Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 
 			// Add user message
 			m.messages = append(m.messages, NewUserMessage(task))
-			m.updateViewport()
 
-			return m, tea.Batch(m.runAgent(task), m.listenForEvents())
+			return m, tea.Batch(m.updateViewport(), m.runAgent(task), m.listenForEvents())
 		}
 		return m, nil
 
@@ -266,10 +265,9 @@ func (m *Model) handleAgentEvent(event agent.AgentEvent) (tea.Model, tea.Cmd) {
 		}
 
 		// Update the last assistant message with formatted thought content
-		// Parse JSON and display thought/response nicely instead of raw JSON
+		// Don't print yet - wait for step completion
 		lastMsg := &m.messages[len(m.messages)-1]
 		lastMsg.Content = formatThinkingContent(e.Thought)
-		m.updateViewport()
 
 	case agent.ToolStartEvent:
 		// Append tool info to the last assistant message
@@ -280,7 +278,6 @@ func (m *Model) handleAgentEvent(event agent.AgentEvent) (tea.Model, tea.Cmd) {
 				toolInfo += fmt.Sprintf(" → %s", formatJSON(e.Input))
 			}
 			lastMsg.Content += toolInfo
-			m.updateViewport()
 		}
 
 	case agent.ToolCompleteEvent:
@@ -296,43 +293,43 @@ func (m *Model) handleAgentEvent(event agent.AgentEvent) (tea.Model, tea.Cmd) {
 				}
 				lastMsg.Content += fmt.Sprintf("\n✓ **Result:**\n```\n%s\n```", output)
 			}
-			m.updateViewport()
 		}
 
 	case agent.StepCompleteEvent:
+		// Handle different step completion states
 		if e.Finished {
 			m.running = false
-			// Finalize the last assistant message with result
-			if len(m.messages) > 0 && m.messages[len(m.messages)-1].IsAssistant() {
+			// Result is already shown in the message content via formatThinkingContent
+			// Only add result if not already present
+			if e.Result != "" && len(m.messages) > 0 && m.messages[len(m.messages)-1].IsAssistant() {
 				lastMsg := &m.messages[len(m.messages)-1]
-				if e.Result != "" {
-					lastMsg.Content += fmt.Sprintf("\n\n**Result:** %s\n", e.Result)
+				// Check if result already shown (contains ✅ Done or similar)
+				if !strings.Contains(lastMsg.Content, "✅") && !strings.Contains(lastMsg.Content, e.Result) {
+					lastMsg.Content += fmt.Sprintf("\n\n**Result:** %s", e.Result)
 				}
-				m.updateViewport()
 			}
-			// Don't continue listening - task is complete
-			return m, nil
+			// Print and stop - task is complete
+			return m, m.updateViewport()
 		} else if e.Interrupted {
 			m.running = false
+			// Add interrupted notice
 			if len(m.messages) > 0 && m.messages[len(m.messages)-1].IsAssistant() {
 				lastMsg := &m.messages[len(m.messages)-1]
-				lastMsg.Content += fmt.Sprintf("\n\n*Interrupted: %s*\n", e.Result)
-				m.updateViewport()
+				lastMsg.Content += fmt.Sprintf("\n\n*Interrupted: %s*", e.Result)
 			}
-			// Don't continue listening - task was interrupted
-			return m, nil
+			// Print and stop - task was interrupted
+			return m, m.updateViewport()
 		} else if e.Step < 0 {
-			// Error case (Step = -1 from runAgent) - display error and stop
+			// Error case
 			m.running = false
 			if e.Result != "" && !strings.Contains(e.Result, "Task completed") {
-				// Only add error message if it's a real error (not just "Task completed")
 				m.messages = append(m.messages, NewAssistantMessage(fmt.Sprintf("**Error:** %s", e.Result)))
-				m.updateViewport()
 			}
-			// Don't continue listening - there was an error
-			return m, nil
+			// Print and stop - there was an error
+			return m, m.updateViewport()
 		}
-		// Otherwise it's an intermediate step - continue listening
+		// Intermediate step - print current state and continue listening
+		return m, tea.Batch(m.updateViewport(), m.listenForEvents())
 	}
 
 	return m, m.listenForEvents()
@@ -411,15 +408,27 @@ func formatThinkingContent(content string) string {
 	return result.String()
 }
 
-// updateViewport prints new messages to terminal for shell-style output
-func (m *Model) updateViewport() {
-	// Print any new messages that haven't been printed yet
+// printMsg is a message that triggers printing to terminal
+type printMsg struct {
+	content string
+}
+
+// updateViewport returns a command to print new messages for shell-style output
+func (m *Model) updateViewport() tea.Cmd {
+	// Collect new messages to print
+	var lines []string
 	for i := m.printedMessages; i < len(m.messages); i++ {
 		msg := m.messages[i]
-		fmt.Println(m.renderMessage(msg))
-		fmt.Println()
+		lines = append(lines, m.renderMessage(msg), "")
 	}
 	m.printedMessages = len(m.messages)
+
+	if len(lines) == 0 {
+		return nil
+	}
+
+	// Return a command that prints the messages
+	return tea.Println(strings.Join(lines, "\n"))
 }
 
 // runAgent runs the agent in a goroutine
