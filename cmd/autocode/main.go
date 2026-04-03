@@ -71,11 +71,8 @@ func main() {
 	// Create TUI Model
 	model := tui.NewModel(agentInstance, providerName, modelName)
 
-	// Run TUI
-	p := tea.NewProgram(
-		model,
-		tea.WithAltScreen(),
-	)
+	// Run TUI (without alt screen - shell-style output)
+	p := tea.NewProgram(model)
 
 	if _, err := p.Run(); err != nil {
 		fmt.Fprintf(os.Stderr, "Error: %v\n", err)

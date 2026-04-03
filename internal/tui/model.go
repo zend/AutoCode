@@ -7,7 +7,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/glamour"
 	"github.com/charmbracelet/lipgloss"
@@ -25,24 +24,23 @@ type rendererMsg struct {
 
 // Model implements tea.Model for the chat-style TUI
 type Model struct {
-	agent        *agent.Agent
-	viewport     viewport.Model
-	messages     []Message
-	renderer     *glamour.TermRenderer
-	input        string
-	cursorPos    int      // Cursor position in input
-	inputHistory []string // History of user inputs
-	historyIndex int      // Current position in history (-1 = new input)
-	running      bool
-	width        int
-	height       int
-	ready        bool
-	glamourErr   error
-	stopListen   chan struct{}      // Channel to stop event listening
-	cancelCtx    context.CancelFunc // Function to cancel agent context
-	providerName string             // Provider name (Anthropic/OpenAI)
-	modelName    string             // Model name
-	currentStep  int                // Current agent step for tracking message updates
+	agent           *agent.Agent
+	messages        []Message
+	renderer        *glamour.TermRenderer
+	input           string
+	cursorPos       int      // Cursor position in input
+	inputHistory    []string // History of user inputs
+	historyIndex    int      // Current position in history (-1 = new input)
+	running         bool
+	width           int
+	ready           bool
+	glamourErr      error
+	stopListen      chan struct{}      // Channel to stop event listening
+	cancelCtx       context.CancelFunc // Function to cancel agent context
+	providerName    string             // Provider name (Anthropic/OpenAI)
+	modelName       string             // Model name
+	currentStep     int                // Current agent step for tracking message updates
+	printedMessages int                // Number of messages already printed to terminal
 }
 
 // NewModel creates a new TUI model with chat interface
@@ -70,17 +68,9 @@ func (m *Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case tea.WindowSizeMsg:
 		m.width = msg.Width
-		m.height = msg.Height
 		if !m.ready {
-			// Initialize viewport with available height minus input area
-			m.viewport = viewport.New(msg.Width, msg.Height-4)
-			m.viewport.SetContent(m.renderMessages())
 			m.ready = true
-		} else {
-			m.viewport.Width = msg.Width
-			m.viewport.Height = msg.Height - 4
 		}
-		m.viewport.SetContent(m.renderMessages())
 		// Update glamour word wrap asynchronously
 		return m, m.initRenderer(msg.Width - 4)
 
@@ -88,7 +78,6 @@ func (m *Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		// Glamour renderer ready
 		if msg.err == nil {
 			m.renderer = msg.renderer
-			m.viewport.SetContent(m.renderMessages())
 		}
 		return m, nil
 
@@ -110,10 +99,7 @@ func (m *Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		return m, nil
 	}
 
-	// Handle viewport updates
-	var cmd tea.Cmd
-	m.viewport, cmd = m.viewport.Update(msg)
-	return m, cmd
+	return m, nil
 }
 
 // handleKey handles keyboard input
@@ -205,21 +191,18 @@ func (m *Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 		return m, nil
 
 	case tea.KeyUp:
-		// If input is focused (not running), navigate history
+		// Navigate history when not running
 		if !m.running && len(m.inputHistory) > 0 {
 			if m.historyIndex < len(m.inputHistory)-1 {
 				m.historyIndex++
 				m.input = m.inputHistory[len(m.inputHistory)-1-m.historyIndex]
 				m.cursorPos = len(m.input)
 			}
-			return m, nil
 		}
-		// Otherwise scroll viewport
-		m.viewport.LineUp(1)
 		return m, nil
 
 	case tea.KeyDown:
-		// If navigating history
+		// Navigate history when not running
 		if !m.running && m.historyIndex >= 0 {
 			if m.historyIndex > 0 {
 				m.historyIndex--
@@ -230,18 +213,7 @@ func (m *Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 				m.input = ""
 				m.cursorPos = 0
 			}
-			return m, nil
 		}
-		// Otherwise scroll viewport
-		m.viewport.LineDown(1)
-		return m, nil
-
-	case tea.KeyPgUp:
-		m.viewport.HalfViewUp()
-		return m, nil
-
-	case tea.KeyPgDown:
-		m.viewport.HalfViewDown()
 		return m, nil
 
 	case tea.KeyLeft:
@@ -439,11 +411,15 @@ func formatThinkingContent(content string) string {
 	return result.String()
 }
 
-// updateViewport refreshes the viewport content
+// updateViewport prints new messages to terminal for shell-style output
 func (m *Model) updateViewport() {
-	m.viewport.SetContent(m.renderMessages())
-	// Auto-scroll to bottom
-	m.viewport.GotoBottom()
+	// Print any new messages that haven't been printed yet
+	for i := m.printedMessages; i < len(m.messages); i++ {
+		msg := m.messages[i]
+		fmt.Println(m.renderMessage(msg))
+		fmt.Println()
+	}
+	m.printedMessages = len(m.messages)
 }
 
 // runAgent runs the agent in a goroutine
@@ -519,38 +495,15 @@ func (m *Model) listenForEvents() tea.Cmd {
 	}
 }
 
-// View renders the TUI
+// View renders the TUI (shell-style: only input line)
 func (m *Model) View() string {
 	if !m.ready {
-		return "Initializing..."
+		return ""
 	}
 
 	var b strings.Builder
 
-	// Dynamic header style with full width
-	headerStyle := lipgloss.NewStyle().
-		Bold(true).
-		Foreground(lipgloss.Color("#D97757")).
-		Background(lipgloss.Color("#1A1A1A")).
-		Padding(0, 1).
-		Width(m.width)
-
-	// Header with provider info
-	providerInfo := ""
-	if m.providerName != "" && m.modelName != "" {
-		providerInfo = fmt.Sprintf("  [%s: %s]", m.providerName, m.modelName)
-	} else if m.providerName != "" {
-		providerInfo = fmt.Sprintf("  [%s]", m.providerName)
-	}
-	header := headerStyle.Render("  AutoCode Agent — Chat Mode" + providerInfo)
-	b.WriteString(header)
-	b.WriteString("\n")
-
-	// Viewport with messages
-	b.WriteString(m.viewport.View())
-	b.WriteString("\n")
-
-	// Input area at bottom
+	// Input area
 	inputLine := m.renderInput()
 	b.WriteString(inputLine)
 
@@ -562,115 +515,60 @@ func (m *Model) View() string {
 	return b.String()
 }
 
-// renderMessages renders the message history
-func (m *Model) renderMessages() string {
-	if len(m.messages) == 0 {
-		welcomeStyle := lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#808080")).
-			Italic(true).
-			Margin(2, 4)
-		return welcomeStyle.Render("Welcome to AutoCode! Type a task and press Enter to start.")
-	}
-
-	var b strings.Builder
-	for _, msg := range m.messages {
-		b.WriteString(m.renderMessage(msg))
-		b.WriteString("\n\n")
-	}
-
-	return b.String()
-}
-
-// renderMessage renders a single message
+// helpText returns context-sensitive help
 func (m *Model) renderMessage(msg Message) string {
 	var b strings.Builder
 
-	// Calculate dynamic widths based on screen width
-	availableWidth := m.width
-	if availableWidth < 40 {
-		availableWidth = 40 // Minimum width
-	}
+	// Timestamp style
+	tsStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#606060"))
 
-	// User message right-aligned, max 60% of screen width
-	userMaxWidth := int(float64(availableWidth) * 0.6)
-	if userMaxWidth > 80 {
-		userMaxWidth = 80 // Cap at 80 for readability
-	}
-	userMarginLeft := availableWidth - userMaxWidth - 4
+	// User style
+	userStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#4A90D9")).
+		Bold(true)
 
-	// Dynamic styles
-	userMsgStyle := lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#E0E0E0")).
-		Background(lipgloss.Color("#2D3748")).
-		Padding(0, 1).
-		MarginLeft(userMarginLeft).
-		MarginRight(2).
-		Width(userMaxWidth)
-
-	userTSStyle := lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#606060")).
-		Align(lipgloss.Right).
-		MarginLeft(userMarginLeft).
-		MarginRight(2)
-
-	assistantMsgStyle := lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#E0E0E0")).
-		MarginLeft(2).
-		MarginRight(2).
-		Width(availableWidth - 4)
-
-	assistantTSStyle := lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#606060")).
-		MarginLeft(2)
-
-	assistantPrefixStyle := lipgloss.NewStyle().
+	// Assistant style
+	assistantStyle := lipgloss.NewStyle().
 		Foreground(lipgloss.Color("#D97757")).
-		Bold(true).
-		MarginLeft(2)
+		Bold(true)
 
 	if msg.IsUser() {
-		// User message
-		timestamp := userTSStyle.Render(msg.FormatTimestamp())
-		b.WriteString(timestamp)
-		b.WriteString("\n")
-
-		// Wrap content in bubble style
-		content := userMsgStyle.Render(msg.Content)
-		b.WriteString(content)
+		// User message: [time] You: content
+		b.WriteString(tsStyle.Render(msg.FormatTimestamp()))
+		b.WriteString(" ")
+		b.WriteString(userStyle.Render("You:"))
+		b.WriteString(" ")
+		b.WriteString(msg.Content)
 	} else {
-		// Assistant message
-		timestamp := assistantTSStyle.Render(msg.FormatTimestamp())
-		b.WriteString(timestamp)
-		b.WriteString("\n")
-
-		// Add assistant prefix
-		b.WriteString(assistantPrefixStyle.Render("  AutoCode"))
-		b.WriteString("\n")
+		// Assistant message: [time] AutoCode: content
+		b.WriteString(tsStyle.Render(msg.FormatTimestamp()))
+		b.WriteString(" ")
+		b.WriteString(assistantStyle.Render("AutoCode:"))
 
 		// Render markdown content using glamour if available
 		if m.renderer != nil {
 			rendered, err := m.renderer.Render(msg.Content)
 			if err == nil {
-				// Wrap in assistant style
-				b.WriteString(assistantMsgStyle.Render(rendered))
+				b.WriteString(rendered)
 			} else {
-				b.WriteString(assistantMsgStyle.Render(msg.Content))
+				b.WriteString("\n")
+				b.WriteString(msg.Content)
 			}
 		} else {
-			b.WriteString(assistantMsgStyle.Render(msg.Content))
+			b.WriteString("\n")
+			b.WriteString(msg.Content)
 		}
 	}
 
 	return b.String()
 }
 
-// renderInput renders the input prompt at the bottom
+// renderInput renders the input prompt
 func (m *Model) renderInput() string {
 	var b strings.Builder
 
 	// Dynamic styles for input area
-	separatorStyle := lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#404040"))
 	inputPromptStyle := lipgloss.NewStyle().
 		Foreground(lipgloss.Color("#D97757")).
 		Bold(true)
@@ -681,19 +579,25 @@ func (m *Model) renderInput() string {
 	runningStyle := lipgloss.NewStyle().
 		Foreground(lipgloss.Color("#808080")).
 		Italic(true)
+	providerStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#606060"))
 
-	// Separator line
-	b.WriteString(separatorStyle.Render(strings.Repeat("─", m.width)))
-	b.WriteString("\n")
+	// Show provider info in prompt
+	providerInfo := ""
+	if m.providerName != "" && m.modelName != "" {
+		providerInfo = providerStyle.Render(fmt.Sprintf("[%s:%s] ", m.providerName, m.modelName))
+	}
 
-	// Input prompt with "> " like Claude Code
+	// Input prompt
 	prompt := inputPromptStyle.Render("> ")
 
 	if m.running {
-		// Show spinner/status when running
+		// Show status when running
+		b.WriteString(providerInfo)
 		b.WriteString(prompt)
-		b.WriteString(runningStyle.Render("Processing... (Press Esc to cancel)"))
+		b.WriteString(runningStyle.Render("Processing... (Esc to cancel)"))
 	} else {
+		b.WriteString(providerInfo)
 		b.WriteString(prompt)
 		// Render input with cursor at correct position
 		beforeCursor := inputStyle.Render(m.input[:m.cursorPos])
@@ -712,7 +616,7 @@ func (m *Model) renderInput() string {
 // helpText returns context-sensitive help
 func (m *Model) helpText() string {
 	if m.running {
-		return "  esc: cancel • ctrl+d: quit"
+		return "esc: cancel • ctrl+d: quit"
 	}
-	return "  enter: submit • ↑/↓: history • ctrl+a/e: home/end • ctrl+u: clear • ctrl+d: quit"
+	return "enter: submit • ↑/↓: history • ctrl+a/e: home/end • ctrl+u: clear • ctrl+d: quit"
 }

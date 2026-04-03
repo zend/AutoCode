@@ -5,7 +5,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/zend/AutoCode/internal/agent"
 )
@@ -56,7 +55,7 @@ func TestModel_Init(t *testing.T) {
 func TestModel_Update_WindowSize(t *testing.T) {
 	model := NewModel(nil, "", "")
 
-	// First WindowSizeMsg should initialize viewport
+	// WindowSizeMsg should set width and ready
 	msg := tea.WindowSizeMsg{Width: 100, Height: 40}
 	newModel, cmd := model.Update(msg)
 	m := newModel.(*Model)
@@ -64,33 +63,21 @@ func TestModel_Update_WindowSize(t *testing.T) {
 	if m.width != 100 {
 		t.Errorf("expected width 100, got %d", m.width)
 	}
-	if m.height != 40 {
-		t.Errorf("expected height 40, got %d", m.height)
-	}
 	if !m.ready {
-		t.Error("expected ready to be true after first WindowSizeMsg")
+		t.Error("expected ready to be true after WindowSizeMsg")
 	}
-	if m.viewport.Width != 100 {
-		t.Errorf("expected viewport width 100, got %d", m.viewport.Width)
-	}
-	if m.viewport.Height != 36 { // 40 - 4 for input area
-		t.Errorf("expected viewport height 36, got %d", m.viewport.Height)
-	}
-	// WindowSizeMsg now returns a command to init glamour renderer
+	// WindowSizeMsg returns a command to init glamour renderer
 	if cmd == nil {
 		t.Error("expected a command from WindowSizeMsg (initRenderer)")
 	}
 
-	// Second WindowSizeMsg should update dimensions
+	// Second WindowSizeMsg should update width
 	msg2 := tea.WindowSizeMsg{Width: 80, Height: 30}
 	newModel2, _ := m.Update(msg2)
 	m2 := newModel2.(*Model)
 
-	if m2.viewport.Width != 80 {
-		t.Errorf("expected viewport width 80 after resize, got %d", m2.viewport.Width)
-	}
-	if m2.viewport.Height != 26 { // 30 - 4 for input area
-		t.Errorf("expected viewport height 26 after resize, got %d", m2.viewport.Height)
+	if m2.width != 80 {
+		t.Errorf("expected width 80 after resize, got %d", m2.width)
 	}
 }
 
@@ -229,11 +216,8 @@ func TestModel_handleKey_Runes(t *testing.T) {
 func TestModel_handleKey_Up(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20) // Initialize viewport
-	model.viewport.SetContent("Line 1\nLine 2\nLine 3\nLine 4\nLine 5")
 
 	// First scroll down to set position
-	model.viewport.LineDown(3)
 
 	msg := tea.KeyMsg{Type: tea.KeyUp}
 	newModel, _ := model.handleKey(msg)
@@ -247,8 +231,6 @@ func TestModel_handleKey_Up(t *testing.T) {
 func TestModel_handleKey_Down(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
-	model.viewport.SetContent("Line 1\nLine 2\nLine 3\nLine 4\nLine 5")
 
 	msg := tea.KeyMsg{Type: tea.KeyDown}
 	newModel, _ := model.handleKey(msg)
@@ -260,7 +242,6 @@ func TestModel_handleKey_Down(t *testing.T) {
 func TestModel_handleKey_PgUp(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 
 	msg := tea.KeyMsg{Type: tea.KeyPgUp}
 	newModel, _ := model.handleKey(msg)
@@ -270,7 +251,6 @@ func TestModel_handleKey_PgUp(t *testing.T) {
 func TestModel_handleKey_PgDown(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 
 	msg := tea.KeyMsg{Type: tea.KeyPgDown}
 	newModel, _ := model.handleKey(msg)
@@ -280,7 +260,6 @@ func TestModel_handleKey_PgDown(t *testing.T) {
 func TestModel_handleAgentEvent_ThinkingEvent(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 
 	event := agent.ThinkingEvent{
 		Step:      0,
@@ -308,7 +287,6 @@ func TestModel_handleAgentEvent_ThinkingEvent(t *testing.T) {
 func TestModel_handleAgentEvent_ThinkingEvent_UpdateExisting(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 	model.messages = []Message{NewAssistantMessage("Previous content")}
 
 	event := agent.ThinkingEvent{
@@ -331,7 +309,6 @@ func TestModel_handleAgentEvent_ThinkingEvent_UpdateExisting(t *testing.T) {
 func TestModel_handleAgentEvent_ToolStartEvent(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 	model.messages = []Message{NewAssistantMessage("Thinking...")}
 
 	event := agent.ToolStartEvent{
@@ -355,7 +332,6 @@ func TestModel_handleAgentEvent_ToolStartEvent(t *testing.T) {
 func TestModel_handleAgentEvent_ToolCompleteEvent(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 	model.messages = []Message{NewAssistantMessage("Thinking...")}
 
 	event := agent.ToolCompleteEvent{
@@ -378,7 +354,6 @@ func TestModel_handleAgentEvent_ToolCompleteEvent(t *testing.T) {
 func TestModel_handleAgentEvent_ToolCompleteEvent_WithError(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 	model.messages = []Message{NewAssistantMessage("Thinking...")}
 
 	event := agent.ToolCompleteEvent{
@@ -401,7 +376,6 @@ func TestModel_handleAgentEvent_ToolCompleteEvent_WithError(t *testing.T) {
 func TestModel_handleAgentEvent_StepCompleteEvent_Finished(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 	model.messages = []Message{NewAssistantMessage("Working...")}
 	model.running = true
 
@@ -427,7 +401,6 @@ func TestModel_handleAgentEvent_StepCompleteEvent_Finished(t *testing.T) {
 func TestModel_handleAgentEvent_StepCompleteEvent_Interrupted(t *testing.T) {
 	model := NewModel(nil, "", "")
 	model.ready = true
-	model.viewport = viewport.New(80, 20)
 	model.messages = []Message{NewAssistantMessage("Working...")}
 	model.running = true
 
@@ -447,32 +420,6 @@ func TestModel_handleAgentEvent_StepCompleteEvent_Interrupted(t *testing.T) {
 	content := m.messages[0].Content
 	if !strings.Contains(content, "Interrupted") {
 		t.Errorf("expected content to contain interrupted notice, got:\n%s", content)
-	}
-}
-
-func TestModel_renderMessages_Empty(t *testing.T) {
-	model := NewModel(nil, "", "")
-	model.ready = true
-	model.viewport = viewport.New(80, 20)
-
-	content := model.renderMessages()
-	if !strings.Contains(content, "Welcome to AutoCode") {
-		t.Errorf("expected welcome message, got:\n%s", content)
-	}
-}
-
-func TestModel_renderMessages_WithMessages(t *testing.T) {
-	model := NewModel(nil, "", "")
-	model.ready = true
-	model.viewport = viewport.New(80, 20)
-	model.messages = []Message{
-		NewUserMessage("Hello"),
-		NewAssistantMessage("Hi there!"),
-	}
-
-	content := model.renderMessages()
-	if !strings.Contains(content, "Hello") {
-		t.Errorf("expected user message content, got:\n%s", content)
 	}
 }
 
@@ -544,21 +491,6 @@ func TestModel_helpText_Running(t *testing.T) {
 	help := model.helpText()
 	if !strings.Contains(help, "esc: cancel") {
 		t.Errorf("expected cancel hint in help, got: %s", help)
-	}
-}
-
-func TestModel_updateViewport(t *testing.T) {
-	model := NewModel(nil, "", "")
-	model.ready = true
-	model.viewport = viewport.New(80, 20)
-	model.messages = []Message{NewUserMessage("Test")}
-
-	model.updateViewport()
-
-	// Viewport should have content set
-	content := model.viewport.View()
-	if content == "" {
-		t.Error("expected viewport to have content after updateViewport")
 	}
 }
 
