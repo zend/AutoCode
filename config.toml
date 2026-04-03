@@ -1,0 +1,43 @@
+data_dir = ""
+language = "zh"
+
+[[projects]]
+  name = "AutoCode"
+  [projects.agent]
+    type = "claudecode"
+    [projects.agent.options]
+      mode = "default"
+      work_dir = "/home/mike/dev"
+
+  [[projects.platforms]]
+    type = "feishu"
+    [projects.platforms.options]
+      app_id = "cli_a929ae8cde38dbcd"
+      app_secret = "AkfOrgZstn7KX8oTXDo8khaw6sr1IkIT"
+
+[log]
+  level = "info"
+
+[speech]
+  enabled = false
+  provider = ""
+  language = ""
+  [speech.openai]
+    api_key = ""
+    base_url = ""
+    model = ""
+  [speech.groq]
+    api_key = ""
+    model = ""
+  [speech.qwen]
+    api_key = ""
+    base_url = ""
+    model = ""
+
+[display]
+
+[stream_preview]
+
+[rate_limit]
+
+[cron]

@@ -5,82 +5,69 @@ import (
 	"os"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/lipgloss"
+
+	"github.com/zend/AutoCode/internal/agent"
+	"github.com/zend/AutoCode/internal/llm"
+	"github.com/zend/AutoCode/internal/tui"
 )
-
-// Model represents the application state
-type Model struct {
-	ready   bool
-	width   int
-	height  int
-	message string
-}
-
-// Styles
-var (
-	titleStyle = lipgloss.NewStyle().
-			Bold(true).
-			Foreground(lipgloss.Color("15")).
-			Background(lipgloss.Color("62")).
-			Padding(0, 1).
-			MarginBottom(1)
-
-	boxStyle = lipgloss.NewStyle().
-			Border(lipgloss.RoundedBorder()).
-			BorderForeground(lipgloss.Color("62")).
-			Padding(1, 2).
-			Margin(1, 2)
-
-	helpStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("241")).
-			MarginTop(1)
-)
-
-func initialModel() Model {
-	return Model{
-		message: "AutoCode - ReAct Agent Framework",
-	}
-}
-
-func (m Model) Init() tea.Cmd {
-	return nil
-}
-
-func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
-	switch msg := msg.(type) {
-	case tea.WindowSizeMsg:
-		m.width = msg.Width
-		m.height = msg.Height
-		m.ready = true
-		return m, nil
-
-	case tea.KeyMsg:
-		switch msg.String() {
-		case "ctrl+c", "q":
-			return m, tea.Quit
-		case "enter":
-			m.message = "Ready to code!"
-		}
-	}
-
-	return m, nil
-}
-
-func (m Model) View() string {
-	if !m.ready {
-		return "\n  Initializing..."
-	}
-
-	title := titleStyle.Render("🦞 AutoCode")
-	content := boxStyle.Render(m.message)
-	help := helpStyle.Render("Press q to quit • Enter to start")
-
-	return fmt.Sprintf("%s\n%s\n%s", title, content, help)
-}
 
 func main() {
+	// Detect provider based on environment variables
+	anthropicToken := os.Getenv("ANTHROPIC_AUTH_TOKEN")
+	openaiKey := os.Getenv("OPENAI_API_KEY")
+
+	var client agent.LLMClient
+	var providerName string
+	var modelName string
+
+	if anthropicToken != "" {
+		// Use Anthropic provider
+		baseURL := os.Getenv("ANTHROPIC_BASE_URL")
+		if baseURL == "" {
+			baseURL = "https://api.anthropic.com/v1"
+		}
+		anthropicClient := llm.NewAnthropicClient(baseURL, anthropicToken)
+		// Set custom model if provided
+		modelName = os.Getenv("ANTHROPIC_MODEL")
+		if modelName != "" {
+			anthropicClient.SetModel(modelName)
+		} else {
+			modelName = "claude-3-sonnet-20240229" // default
+		}
+		client = anthropicClient
+		providerName = "Anthropic"
+	} else if openaiKey != "" {
+		// Use OpenAI provider
+		baseURL := os.Getenv("OPENAI_BASE_URL")
+		if baseURL == "" {
+			baseURL = "https://api.openai.com/v1"
+		}
+		client = llm.NewClient(baseURL, openaiKey)
+		providerName = "OpenAI"
+		modelName = "gpt-4" // default
+	} else {
+		fmt.Fprintln(os.Stderr, "Error: No LLM provider configured")
+		fmt.Fprintln(os.Stderr, "")
+		fmt.Fprintln(os.Stderr, "Please set one of the following environment variables:")
+		fmt.Fprintln(os.Stderr, "  - ANTHROPIC_AUTH_TOKEN: For Anthropic Claude models")
+		fmt.Fprintln(os.Stderr, "  - OPENAI_API_KEY: For OpenAI GPT models")
+		fmt.Fprintln(os.Stderr, "")
+		fmt.Fprintln(os.Stderr, "Optional environment variables:")
+		fmt.Fprintln(os.Stderr, "  - ANTHROPIC_BASE_URL: Custom Anthropic API endpoint (default: https://api.anthropic.com)")
+		fmt.Fprintln(os.Stderr, "  - ANTHROPIC_MODEL: Model to use (default: claude-3-sonnet-20240229)")
+		fmt.Fprintln(os.Stderr, "  - OPENAI_BASE_URL: Custom OpenAI API endpoint (default: https://api.openai.com/v1)")
+		os.Exit(1)
+	}
+
+	// Create Agent
+	agentInstance := agent.New(client, ".")
+
+	// Create TUI Model
+	model := tui.NewModel(agentInstance, providerName, modelName)
+
+	// Run TUI
 	p := tea.NewProgram(
-		initialModel(),
+		model,
 		tea.WithAltScreen(),
 	)
 

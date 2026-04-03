@@ -5,6 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"strings"
+	"sync"
+	"time"
 
 	"github.com/zend/AutoCode/internal/llm"
 	"github.com/zend/AutoCode/internal/tools"
@@ -30,12 +32,21 @@ Format your responses as JSON:
 When the task is complete, respond with:
 {"thought": "task completed", "finish": true, "result": "final result"}`
 
+// LLMClient defines the interface for LLM operations needed by the Agent
+type LLMClient interface {
+	StreamChat(ctx context.Context, req llm.ChatRequest) (<-chan llm.StreamEvent, error)
+	Chat(ctx context.Context, req llm.ChatRequest) (*llm.ChatResponse, error)
+}
+
 type Agent struct {
-	client   *llm.Client
-	registry *tools.ToolRegistry
-	baseDir  string
-	maxSteps int
-	history  []Message
+	client     LLMClient
+	registry   *tools.ToolRegistry
+	baseDir    string
+	maxSteps   int
+	history    []Message
+	eventCh    chan AgentEvent // NEW: events to TUI
+	cancelCh   chan struct{}   // NEW: cancellation signal
+	cancelOnce sync.Once       // NEW: ensures Cancel() only closes channel once
 }
 
 type Message struct {
@@ -51,7 +62,7 @@ type AgentResponse struct {
 	Result      string                 `json:"result,omitempty"`
 }
 
-func New(client *llm.Client, baseDir string) *Agent {
+func New(client LLMClient, baseDir string) *Agent {
 	registry := tools.NewRegistry()
 	registry.Register(tools.NewReadTool(baseDir))
 	registry.Register(tools.NewWriteTool(baseDir))
@@ -64,6 +75,7 @@ func New(client *llm.Client, baseDir string) *Agent {
 		baseDir:  baseDir,
 		maxSteps: 50,
 		history:  make([]Message, 0),
+		eventCh:  make(chan AgentEvent, 100),
 	}
 }
 
@@ -71,7 +83,32 @@ func (a *Agent) SetMaxSteps(max int) {
 	a.maxSteps = max
 }
 
-func (a *Agent) Run(ctx context.Context, task string) (string, error) {
+// EventChannel returns the channel for receiving agent events
+func (a *Agent) EventChannel() <-chan AgentEvent {
+	return a.eventCh
+}
+
+// Cancel signals the agent to stop processing
+func (a *Agent) Cancel() {
+	a.cancelOnce.Do(func() { close(a.cancelCh) })
+}
+
+// publishEvent safely sends an event to the event channel with timeout
+func (a *Agent) publishEvent(event AgentEvent) {
+	select {
+	case a.eventCh <- event:
+	case <-time.After(100 * time.Millisecond):
+		// Channel blocked or closed, drop event
+	}
+}
+
+// Run starts the agent processing in an event-driven manner
+// Events are published to eventCh instead of returning results directly
+func (a *Agent) Run(ctx context.Context, task string) error {
+	a.cancelCh = make(chan struct{}) // Reset for each run
+	// Reset cancelOnce so Cancel() can be called again
+	a.cancelOnce = sync.Once{}
+
 	a.history = append(a.history, Message{
 		Role:    "user",
 		Content: task,
@@ -84,6 +121,19 @@ func (a *Agent) Run(ctx context.Context, task string) (string, error) {
 	})
 
 	for i := 0; i < a.maxSteps; i++ {
+		// Check for cancellation at start of each step
+		select {
+		case <-a.cancelCh:
+			a.publishEvent(StepCompleteEvent{
+				Step:        i,
+				Finished:    false,
+				Interrupted: true,
+				Result:      "Cancelled by user",
+			})
+			return nil
+		default:
+		}
+
 		llmMessages := make([]llm.Message, len(messages))
 		copy(llmMessages, messages)
 		for _, h := range a.history {
@@ -93,39 +143,56 @@ func (a *Agent) Run(ctx context.Context, task string) (string, error) {
 			})
 		}
 
-		resp, err := a.client.Chat(ctx, llm.ChatRequest{
+		// Stream LLM response
+		streamCh, err := a.client.StreamChat(ctx, llm.ChatRequest{
 			Model:    "gpt-4",
 			Messages: llmMessages,
 		})
 		if err != nil {
-			return "", fmt.Errorf("llm chat: %w", err)
+			return fmt.Errorf("llm stream chat: %w", err)
 		}
 
-		if len(resp.Choices) == 0 {
-			return "", fmt.Errorf("no response from llm")
+		// Collect streaming response and publish thinking events
+		var assistantMsg strings.Builder
+		err = a.streamThinking(i, streamCh, &assistantMsg)
+		if err != nil {
+			return err
 		}
 
-		assistantMsg := resp.Choices[0].Message.Content
+		content := assistantMsg.String()
 		a.history = append(a.history, Message{
 			Role:    "assistant",
-			Content: assistantMsg,
+			Content: content,
 		})
 
-		agentResp, err := a.parseResponse(assistantMsg)
+		agentResp, err := a.parseResponse(content)
 		if err != nil {
 			observation := fmt.Sprintf("Error parsing response: %v. Please respond with valid JSON.", err)
 			a.history = append(a.history, Message{
 				Role:    "user",
 				Content: observation,
 			})
+			a.publishEvent(StepCompleteEvent{
+				Step:        i,
+				Finished:    false,
+				Interrupted: false,
+				Result:      observation,
+			})
 			continue
 		}
 
 		if agentResp.Finish {
-			return agentResp.Result, nil
+			a.publishEvent(StepCompleteEvent{
+				Step:        i,
+				Finished:    true,
+				Interrupted: false,
+				Result:      agentResp.Result,
+			})
+			return nil
 		}
 
-		observation, err := a.executeTool(ctx, agentResp)
+		// Execute tool with events
+		observation, err := a.executeToolWithEvents(ctx, i, agentResp)
 		if err != nil {
 			observation = fmt.Sprintf("Error: %v", err)
 		}
@@ -134,9 +201,138 @@ func (a *Agent) Run(ctx context.Context, task string) (string, error) {
 			Role:    "user",
 			Content: fmt.Sprintf("Observation: %s", observation),
 		})
+
+		a.publishEvent(StepCompleteEvent{
+			Step:        i,
+			Finished:    false,
+			Interrupted: false,
+			Result:      observation,
+		})
 	}
 
-	return "", fmt.Errorf("max steps (%d) exceeded", a.maxSteps)
+	// Max steps exceeded
+	a.publishEvent(StepCompleteEvent{
+		Step:        a.maxSteps,
+		Finished:    false,
+		Interrupted: false,
+		Result:      fmt.Sprintf("max steps (%d) exceeded", a.maxSteps),
+	})
+	return fmt.Errorf("max steps (%d) exceeded", a.maxSteps)
+}
+
+// streamThinking processes the LLM stream and publishes ThinkingEvents
+func (a *Agent) streamThinking(step int, streamCh <-chan llm.StreamEvent, builder *strings.Builder) error {
+	ticker := time.NewTicker(50 * time.Millisecond)
+	defer ticker.Stop()
+
+	var currentThought strings.Builder
+	lastPublishLen := 0
+
+	for {
+		select {
+		case <-a.cancelCh:
+			// Drain streamCh to prevent goroutine leak
+			go func() {
+				for range streamCh {
+				}
+			}()
+			return fmt.Errorf("interrupted")
+		case event, ok := <-streamCh:
+			if !ok {
+				// Stream closed, publish final thinking event
+				publishFinal := currentThought.Len() > lastPublishLen
+				if publishFinal {
+					a.publishEvent(ThinkingEvent{
+						Step:      step,
+						Thought:   currentThought.String(),
+						Streaming: false,
+					})
+				}
+				builder.WriteString(currentThought.String())
+				return nil
+			}
+
+			if event.Error != nil {
+				return event.Error
+			}
+
+			if event.Done {
+				// Final thinking event
+				publishFinal := currentThought.Len() > lastPublishLen
+				if publishFinal {
+					a.publishEvent(ThinkingEvent{
+						Step:      step,
+						Thought:   currentThought.String(),
+						Streaming: false,
+					})
+				}
+				builder.WriteString(currentThought.String())
+				return nil
+			}
+
+			currentThought.WriteString(event.Token)
+
+		case <-ticker.C:
+			// Throttle events to every 50ms
+			if currentThought.Len() > lastPublishLen {
+				a.publishEvent(ThinkingEvent{
+					Step:      step,
+					Thought:   currentThought.String(),
+					Streaming: true,
+				})
+				lastPublishLen = currentThought.Len()
+			}
+		}
+	}
+}
+
+// executeToolWithEvents executes a tool and publishes ToolStartEvent and ToolCompleteEvent
+func (a *Agent) executeToolWithEvents(ctx context.Context, step int, resp *AgentResponse) (string, error) {
+	if resp.Action == "" {
+		return "", fmt.Errorf("no action specified")
+	}
+
+	tool, ok := a.registry.Get(resp.Action)
+	if !ok {
+		return "", fmt.Errorf("unknown tool: %s", resp.Action)
+	}
+
+	// Publish ToolStartEvent
+	a.publishEvent(ToolStartEvent{
+		Step:   step,
+		Action: resp.Action,
+		Input:  resp.ActionInput,
+	})
+
+	inputBytes, err := json.Marshal(resp.ActionInput)
+	if err != nil {
+		a.publishEvent(ToolCompleteEvent{
+			Step:   step,
+			Action: resp.Action,
+			Output: "",
+			Error:  fmt.Sprintf("marshal action input: %v", err),
+		})
+		return "", fmt.Errorf("marshal action input: %w", err)
+	}
+
+	startTime := time.Now()
+	output, err := tool.Execute(ctx, string(inputBytes))
+	duration := time.Since(startTime)
+
+	// Publish ToolCompleteEvent
+	toolErr := ""
+	if err != nil {
+		toolErr = err.Error()
+	}
+	a.publishEvent(ToolCompleteEvent{
+		Step:     step,
+		Action:   resp.Action,
+		Output:   output,
+		Error:    toolErr,
+		Duration: duration,
+	})
+
+	return output, err
 }
 
 func (a *Agent) parseResponse(content string) (*AgentResponse, error) {
@@ -156,24 +352,6 @@ func (a *Agent) parseResponse(content string) (*AgentResponse, error) {
 	}
 
 	return &resp, nil
-}
-
-func (a *Agent) executeTool(ctx context.Context, resp *AgentResponse) (string, error) {
-	if resp.Action == "" {
-		return "", fmt.Errorf("no action specified")
-	}
-
-	tool, ok := a.registry.Get(resp.Action)
-	if !ok {
-		return "", fmt.Errorf("unknown tool: %s", resp.Action)
-	}
-
-	inputBytes, err := json.Marshal(resp.ActionInput)
-	if err != nil {
-		return "", fmt.Errorf("marshal action input: %w", err)
-	}
-
-	return tool.Execute(ctx, string(inputBytes))
 }
 
 func (a *Agent) GetHistory() []Message {
