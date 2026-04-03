@@ -400,8 +400,9 @@ func formatThinkingContent(content string) string {
 		}
 	}
 
-	// Show finish/result
-	if resp.Finish && resp.Result != "" {
+	// Show finish/result only if no response was shown (tool-based completion)
+	// For conversational replies, response already contains the answer
+	if resp.Finish && resp.Result != "" && resp.Response == "" {
 		result.WriteString(fmt.Sprintf("\n\n✅ *Done:* %s", resp.Result))
 	}
 
