@@ -22,14 +22,17 @@ You have access to the following tools:
 
 For each step, you should:
 1. Think about what to do next
-2. Choose and execute a tool
+2. Choose and execute a tool if needed
 3. Observe the result
 4. Repeat until the task is complete
 
 Format your responses as JSON:
 {"thought": "your reasoning", "action": "tool_name", "action_input": {"param": "value"}}
 
-When the task is complete, respond with:
+IMPORTANT: For simple greetings or conversations that don't require tool usage, respond immediately with:
+{"thought": "responding to greeting", "response": "your friendly reply here", "finish": true, "result": "your reply here"}
+
+When a coding task is complete, respond with:
 {"thought": "task completed", "finish": true, "result": "final result"}`
 
 // LLMClient defines the interface for LLM operations needed by the Agent
@@ -290,8 +293,9 @@ func (a *Agent) streamThinking(step int, streamCh <-chan llm.StreamEvent, builde
 func (a *Agent) executeToolWithEvents(ctx context.Context, step int, resp *AgentResponse) (string, error) {
 	// Handle empty or "none" action - LLM is thinking without executing a tool
 	if resp.Action == "" || resp.Action == "none" {
-		// Ask LLM to either provide a tool action or mark as finished
-		return "No tool action specified. Please either provide a valid tool action (read, write, grep, shell) or set finish=true if the task is complete.", nil
+		// If there's a response field, treat it as a conversational reply
+		// and consider the step complete (no further tool execution needed)
+		return "", nil // Return empty observation, agent will continue or finish based on Finish flag
 	}
 
 	tool, ok := a.registry.Get(resp.Action)
