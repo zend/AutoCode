@@ -17,6 +17,12 @@ import (
 // tickMsg is sent when listenForEvents times out to prevent blocking
 type tickMsg struct{}
 
+// rendererMsg is sent when glamour renderer is ready
+type rendererMsg struct {
+	renderer *glamour.TermRenderer
+	err      error
+}
+
 // Model implements tea.Model for the chat-style TUI
 type Model struct {
 	agent        *agent.Agent
@@ -55,8 +61,8 @@ func NewModel(agent *agent.Agent, providerName, modelName string) *Model {
 
 // Init initializes the model
 func (m *Model) Init() tea.Cmd {
-	// Glamour renderer will be created when we get window size
-	return m.listenForEvents()
+	// No initial command needed - wait for WindowSizeMsg to initialize
+	return nil
 }
 
 // Update handles messages and updates the model
@@ -70,30 +76,21 @@ func (m *Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			m.viewport = viewport.New(msg.Width, msg.Height-4)
 			m.viewport.SetContent(m.renderMessages())
 			m.ready = true
-			// Initialize glamour renderer with dynamic width
-			renderer, err := glamour.NewTermRenderer(
-				glamour.WithAutoStyle(),
-				glamour.WithWordWrap(msg.Width-4), // Leave some margin
-			)
-			if err != nil {
-				m.glamourErr = err
-			}
-			m.renderer = renderer
 		} else {
 			m.viewport.Width = msg.Width
 			m.viewport.Height = msg.Height - 4
-			// Update glamour word wrap for new width
-			if m.renderer != nil {
-				renderer, err := glamour.NewTermRenderer(
-					glamour.WithAutoStyle(),
-					glamour.WithWordWrap(msg.Width-4),
-				)
-				if err == nil {
-					m.renderer = renderer
-				}
-			}
 		}
 		m.viewport.SetContent(m.renderMessages())
+		// Update glamour word wrap asynchronously
+		return m, m.initRenderer(msg.Width - 4)
+
+	case rendererMsg:
+		// Glamour renderer ready
+		if msg.err == nil {
+			m.renderer = msg.renderer
+			m.viewport.SetContent(m.renderMessages())
+		}
+		return m, nil
 
 	case tea.KeyMsg:
 		return m.handleKey(msg)
@@ -480,6 +477,17 @@ func (m *Model) runAgent(task string) tea.Cmd {
 		// Return nil instead of duplicate event - agent's event will be processed
 		// Note: We don't close stopListen here because agent's event still needs to be processed
 		return nil
+	}
+}
+
+// initRenderer creates a glamour renderer asynchronously
+func (m *Model) initRenderer(width int) tea.Cmd {
+	return func() tea.Msg {
+		renderer, err := glamour.NewTermRenderer(
+			glamour.WithAutoStyle(),
+			glamour.WithWordWrap(width),
+		)
+		return rendererMsg{renderer: renderer, err: err}
 	}
 }
 

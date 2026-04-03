@@ -47,13 +47,10 @@ func TestModel_Init(t *testing.T) {
 	model := NewModel(nil, "", "")
 	cmd := model.Init()
 
-	if cmd == nil {
-		t.Error("expected Init to return a command")
+	// Init now returns nil - renderer is initialized async on WindowSizeMsg
+	if cmd != nil {
+		t.Error("expected Init to return nil (no initial command)")
 	}
-
-	// Check that renderer was initialized (or error was captured)
-	// Note: In test environment without a real TTY, glamour may fail
-	// So we just verify the field was attempted to be set
 }
 
 func TestModel_Update_WindowSize(t *testing.T) {
@@ -79,8 +76,9 @@ func TestModel_Update_WindowSize(t *testing.T) {
 	if m.viewport.Height != 36 { // 40 - 4 for input area
 		t.Errorf("expected viewport height 36, got %d", m.viewport.Height)
 	}
-	if cmd != nil {
-		t.Error("expected no command from WindowSizeMsg")
+	// WindowSizeMsg now returns a command to init glamour renderer
+	if cmd == nil {
+		t.Error("expected a command from WindowSizeMsg (initRenderer)")
 	}
 
 	// Second WindowSizeMsg should update dimensions
