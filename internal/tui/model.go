@@ -55,16 +55,7 @@ func NewModel(agent *agent.Agent, providerName, modelName string) *Model {
 
 // Init initializes the model
 func (m *Model) Init() tea.Cmd {
-	// Initialize glamour renderer with dark theme
-	renderer, err := glamour.NewTermRenderer(
-		glamour.WithAutoStyle(),
-		glamour.WithWordWrap(80),
-	)
-	if err != nil {
-		m.glamourErr = err
-	}
-	m.renderer = renderer
-
+	// Glamour renderer will be created when we get window size
 	return m.listenForEvents()
 }
 
@@ -79,9 +70,28 @@ func (m *Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			m.viewport = viewport.New(msg.Width, msg.Height-4)
 			m.viewport.SetContent(m.renderMessages())
 			m.ready = true
+			// Initialize glamour renderer with dynamic width
+			renderer, err := glamour.NewTermRenderer(
+				glamour.WithAutoStyle(),
+				glamour.WithWordWrap(msg.Width-4), // Leave some margin
+			)
+			if err != nil {
+				m.glamourErr = err
+			}
+			m.renderer = renderer
 		} else {
 			m.viewport.Width = msg.Width
 			m.viewport.Height = msg.Height - 4
+			// Update glamour word wrap for new width
+			if m.renderer != nil {
+				renderer, err := glamour.NewTermRenderer(
+					glamour.WithAutoStyle(),
+					glamour.WithWordWrap(msg.Width-4),
+				)
+				if err == nil {
+					m.renderer = renderer
+				}
+			}
 		}
 		m.viewport.SetContent(m.renderMessages())
 
@@ -509,6 +519,14 @@ func (m *Model) View() string {
 
 	var b strings.Builder
 
+	// Dynamic header style with full width
+	headerStyle := lipgloss.NewStyle().
+		Bold(true).
+		Foreground(lipgloss.Color("#D97757")).
+		Background(lipgloss.Color("#1A1A1A")).
+		Padding(0, 1).
+		Width(m.width)
+
 	// Header with provider info
 	providerInfo := ""
 	if m.providerName != "" && m.modelName != "" {
@@ -529,6 +547,8 @@ func (m *Model) View() string {
 	b.WriteString(inputLine)
 
 	// Help text
+	helpStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#606060"))
 	b.WriteString(helpStyle.Render(m.helpText()))
 
 	return b.String()
@@ -537,6 +557,10 @@ func (m *Model) View() string {
 // renderMessages renders the message history
 func (m *Model) renderMessages() string {
 	if len(m.messages) == 0 {
+		welcomeStyle := lipgloss.NewStyle().
+			Foreground(lipgloss.Color("#808080")).
+			Italic(true).
+			Margin(2, 4)
 		return welcomeStyle.Render("Welcome to AutoCode! Type a task and press Enter to start.")
 	}
 
@@ -553,18 +577,61 @@ func (m *Model) renderMessages() string {
 func (m *Model) renderMessage(msg Message) string {
 	var b strings.Builder
 
+	// Calculate dynamic widths based on screen width
+	availableWidth := m.width
+	if availableWidth < 40 {
+		availableWidth = 40 // Minimum width
+	}
+
+	// User message right-aligned, max 60% of screen width
+	userMaxWidth := int(float64(availableWidth) * 0.6)
+	if userMaxWidth > 80 {
+		userMaxWidth = 80 // Cap at 80 for readability
+	}
+	userMarginLeft := availableWidth - userMaxWidth - 4
+
+	// Dynamic styles
+	userMsgStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#E0E0E0")).
+		Background(lipgloss.Color("#2D3748")).
+		Padding(0, 1).
+		MarginLeft(userMarginLeft).
+		MarginRight(2).
+		Width(userMaxWidth)
+
+	userTSStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#606060")).
+		Align(lipgloss.Right).
+		MarginLeft(userMarginLeft).
+		MarginRight(2)
+
+	assistantMsgStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#E0E0E0")).
+		MarginLeft(2).
+		MarginRight(2).
+		Width(availableWidth - 4)
+
+	assistantTSStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#606060")).
+		MarginLeft(2)
+
+	assistantPrefixStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#D97757")).
+		Bold(true).
+		MarginLeft(2)
+
 	if msg.IsUser() {
 		// User message
-		timestamp := userTimestampStyle.Render(msg.FormatTimestamp())
+		timestamp := userTSStyle.Render(msg.FormatTimestamp())
 		b.WriteString(timestamp)
 		b.WriteString("\n")
 
 		// Wrap content in bubble style
-		content := userMessageStyle.Render(msg.Content)
+		content := userMsgStyle.Render(msg.Content)
 		b.WriteString(content)
 	} else {
 		// Assistant message
-		timestamp := assistantTimestampStyle.Render(msg.FormatTimestamp())
+		timestamp := assistantTSStyle.Render(msg.FormatTimestamp())
 		b.WriteString(timestamp)
 		b.WriteString("\n")
 
@@ -577,12 +644,12 @@ func (m *Model) renderMessage(msg Message) string {
 			rendered, err := m.renderer.Render(msg.Content)
 			if err == nil {
 				// Wrap in assistant style
-				b.WriteString(assistantMessageStyle.Render(rendered))
+				b.WriteString(assistantMsgStyle.Render(rendered))
 			} else {
-				b.WriteString(assistantMessageStyle.Render(msg.Content))
+				b.WriteString(assistantMsgStyle.Render(msg.Content))
 			}
 		} else {
-			b.WriteString(assistantMessageStyle.Render(msg.Content))
+			b.WriteString(assistantMsgStyle.Render(msg.Content))
 		}
 	}
 
@@ -592,6 +659,20 @@ func (m *Model) renderMessage(msg Message) string {
 // renderInput renders the input prompt at the bottom
 func (m *Model) renderInput() string {
 	var b strings.Builder
+
+	// Dynamic styles for input area
+	separatorStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#404040"))
+	inputPromptStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#D97757")).
+		Bold(true)
+	inputStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#E0E0E0"))
+	cursorStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#D97757"))
+	runningStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("#808080")).
+		Italic(true)
 
 	// Separator line
 	b.WriteString(separatorStyle.Render(strings.Repeat("─", m.width)))
@@ -627,70 +708,3 @@ func (m *Model) helpText() string {
 	}
 	return "  enter: submit • ↑/↓: history • ctrl+a/e: home/end • ctrl+u: clear • ctrl+d: quit"
 }
-
-// Styles
-var (
-	// Header
-	headerStyle = lipgloss.NewStyle().
-			Bold(true).
-			Foreground(lipgloss.Color("#D97757")).
-			Background(lipgloss.Color("#1A1A1A")).
-			Padding(0, 1)
-
-	// Welcome message
-	welcomeStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#808080")).
-			Italic(true).
-			Margin(2, 4)
-
-	// User message styles
-	userMessageStyle = lipgloss.NewStyle().
-				Foreground(lipgloss.Color("#E0E0E0")).
-				Background(lipgloss.Color("#2D3748")).
-				Padding(0, 1).
-				MarginLeft(20).
-				MarginRight(2).
-				Width(60)
-
-	userTimestampStyle = lipgloss.NewStyle().
-				Foreground(lipgloss.Color("#606060")).
-				Align(lipgloss.Right).
-				MarginLeft(20).
-				MarginRight(2)
-
-	// Assistant message styles
-	assistantMessageStyle = lipgloss.NewStyle().
-				Foreground(lipgloss.Color("#E0E0E0")).
-				MarginLeft(2).
-				MarginRight(20)
-
-	assistantTimestampStyle = lipgloss.NewStyle().
-				Foreground(lipgloss.Color("#606060")).
-				MarginLeft(2)
-
-	assistantPrefixStyle = lipgloss.NewStyle().
-				Foreground(lipgloss.Color("#D97757")).
-				Bold(true).
-				MarginLeft(2)
-
-	// Input styles
-	inputPromptStyle = lipgloss.NewStyle().
-				Foreground(lipgloss.Color("#D97757")).
-				Bold(true)
-
-	inputStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#E0E0E0"))
-
-	cursorStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#D97757"))
-
-	runningStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#808080")).
-			Italic(true)
-
-	separatorStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#404040"))
-
-	helpStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#606060"))
-)
