@@ -5,11 +5,19 @@ import (
 	"os"
 
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
+	"github.com/muesli/termenv"
 
 	"github.com/zend/AutoCode/internal/agent"
 	"github.com/zend/AutoCode/internal/llm"
 	"github.com/zend/AutoCode/internal/tui"
 )
+
+func init() {
+	// Set lipgloss color profile to ANSI256 to avoid OSC escape sequences
+	// that some terminals display as garbage characters
+	lipgloss.SetColorProfile(termenv.ANSI256)
+}
 
 func main() {
 	// Initialize traffic logger

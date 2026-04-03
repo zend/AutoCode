@@ -459,8 +459,9 @@ func (m *Model) runAgent(task string) tea.Cmd {
 // initRenderer creates a glamour renderer asynchronously
 func (m *Model) initRenderer(width int) tea.Cmd {
 	return func() tea.Msg {
+		// Use dark style instead of auto-detect to avoid OSC escape sequences
 		renderer, err := glamour.NewTermRenderer(
-			glamour.WithAutoStyle(),
+			glamour.WithStylePath("dark"),
 			glamour.WithWordWrap(width),
 		)
 		return rendererMsg{renderer: renderer, err: err}
