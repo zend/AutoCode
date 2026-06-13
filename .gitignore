@@ -27,3 +27,6 @@ Thumbs.db
 # Temp
 tmp/
 *.tmp
+
+# Scraper cache
+docs/.kanto_pokemon_cache.json
