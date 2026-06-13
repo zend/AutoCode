@@ -30,3 +30,7 @@ tmp/
 
 # Scraper cache
 docs/.kanto_pokemon_cache.json
+
+# Python
+__pycache__/
+*.pyc
