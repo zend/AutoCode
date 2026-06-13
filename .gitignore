@@ -27,3 +27,12 @@ Thumbs.db
 # Temp
 tmp/
 *.tmp
+
+# Scraper cache
+docs/.kanto_pokemon_cache.json
+docs/.national_pokemon_list.json
+docs/.national_pokemon_details.json
+
+# Python
+__pycache__/
+*.pyc
