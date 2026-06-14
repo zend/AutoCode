@@ -1,0 +1,88 @@
+{
+  "entry_id": "0960",
+  "national_id": 960,
+  "form": "default",
+  "names": {
+    "en": "Wiglett",
+    "ja": "ウミディグダ",
+    "zh": "海地鼠"
+  },
+  "generation": 9,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "あなごポケモン",
+  "category_zh": "糯鳗宝可梦",
+  "abilities": [
+    {
+      "name_en": "gooey",
+      "name_zh": "黏滑 / 或 / 胆怯",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 1.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 49,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "special_attack": 35,
+    "special_defense": 25,
+    "speed": 95,
+    "total": 245
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 961,
+        "name_en": "wugtrio",
+        "name_zh": "三海地鼠",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 288
+  },
+  "flavor_text_zh": "海地鼠有着白色可伸长的身体和一个红色的鼻子，乍看起来和地鼠很相像，却是完全不同的种类。在沙子里时它的身体是怎样的，究竟有多长，至今仍是未解之谜。 海地鼠栖息在海边或是海里，看起来会让人误认为是 帕底亚的样子 的 地鼠 。但由于栖息处和食物都不一样，由此可知它们是完全不同的种类。根据研究结果，二者似乎都为了潜入地面或沙中，适应生活环境，偶然形成了相似的体型。 [ 1 ] 它的嗅觉极佳，就算身处20米之外，它也能嗅出 轻身鳕 散发出的气味。它总是在警惕周围，性格胆小，一旦发现别的宝可梦的气味，就会缩到沙子里藏身。它会从沙子里露出身体的一部分来吃海里的食物。 [ 2 ]",
+  "flavor_text_en": "Though it looks like Diglett, Wiglett is an entirely different species. The resemblance seems to be a coincidental result of environmental adaptation.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 960,
+    "pokeapi_species_id": 960,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/960"
+  }
+}

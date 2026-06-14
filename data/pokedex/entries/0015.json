@@ -1,0 +1,88 @@
+{
+  "entry_id": "0015",
+  "national_id": 15,
+  "form": "default",
+  "names": {
+    "en": "Beedrill",
+    "ja": "スピアー",
+    "zh": "大针蜂"
+  },
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "types_zh": [
+    "虫",
+    "毒"
+  ],
+  "category": "どくばちポケモン",
+  "category_zh": "毒蜂宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "狙击手",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 29.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 178,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 40,
+    "special_attack": 45,
+    "special_defense": 80,
+    "speed": 75,
+    "total": 395
+  },
+  "ev_yield": {
+    "attack": 2,
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 14,
+        "name_en": "kakuna",
+        "name_zh": "铁壳蛹",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 15,
+    "城都": 29,
+    "密阿雷": 20
+  },
+  "flavor_text_zh": "大针蜂的身体分为三节，有四条腿。它的头部比较圆，长有两个触角，眼睛是红色的，嘴部是尖的。它的腹部很圆，四条腿都附着在腹部上。它的尾部黄黑相间，在末端长有毒针。它的双足细长，双手上有又大又粗的白色针。背部有两对翅膀，翅膀上有繁复的纹路。 超级大针蜂身体的三部分不再直接连接，之间长出了黑色的链接部分。头上的触角变短且向头部后方延伸了很长一段它的尾部变为锥形，前面有两个锥形凹槽。尾部整体指向前方，末端的毒针也更加长。双手的毒针长出了类似骑枪护手的部分，双足也变为带有黑黄条纹的双针。 大针蜂领地意识非常强，有时会成群结队地出现。它一生气，就会群起而攻之。所以为了安全起见，不要接近它的住处。它能以超快的速度飞来飞去，并用双手和尾部的三根毒针反复刺伤敌人，三个毒针中以尾部附有的毒性攻击力最强。遇到多么可怕的敌人都会用锐利的毒刺攻击，然后带回巢穴作为食物，用毒针攻击后迅速飞离的战法是它的拿手绝招。无论是怎么样的敌人，一遇到毒针强力的攻击，也难逃一死，偶尔会集体攻击对手。 熊宝宝 的蜂蜜正是由水果和大针蜂收集的花粉混合后制成的。 超级大针蜂的双脚也变化为毒针。用手脚的针猛刺之后会以尾部的毒针给出最后一击。",
+  "flavor_text_en": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 15,
+    "pokeapi_species_id": 15,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/15"
+  }
+}

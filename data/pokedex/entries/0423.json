@@ -1,0 +1,96 @@
+{
+  "entry_id": "0423",
+  "national_id": 423,
+  "form": "default",
+  "names": {
+    "en": "Gastrodon",
+    "ja": "トリトドン",
+    "zh": "海兔兽"
+  },
+  "generation": 4,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "types_zh": [
+    "水",
+    "地面"
+  ],
+  "category": "ウミウシポケモン",
+  "category_zh": "海兔宝可梦",
+  "abilities": [
+    {
+      "name_en": "sticky-hold",
+      "name_zh": "黏着",
+      "hidden": false
+    },
+    {
+      "name_en": "storm-drain",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 29.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 111,
+    "attack": 83,
+    "defense": 68,
+    "special_attack": 92,
+    "special_defense": 82,
+    "speed": 39,
+    "total": 475
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 422,
+        "name_en": "shellos",
+        "name_zh": "无壳海兔",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 61,
+    "阿罗拉": 261,
+    "伽勒尔": 231,
+    "洗翠": 83,
+    "帕底亚": 328
+  },
+  "flavor_text_zh": "海兔兽有像牛角一样的触角，额头上有类似眼睛的花纹，使它看起来好像有三只眼睛。它有西海和东海两种不同的形态，西海海兔兽头和背部为红褐色，腹部为粉红色；东海海兔兽头和背部为叶绿色，腹部为天蓝色。另外由于形态的不同，它头上的角状物和背上的球状物也有所不同， 海兔兽在分类上，与 大舌贝 和 刺甲贝 是亲戚。它栖息在海边的浅滩，在波浪平稳的岩岸有很多。相较于晴天，在阴天及雨天时活动会更加活跃。虽然平时都待在海岸，但如果雨下个不停，有时也会在离海很遥远的山里发现它的踪影。它没有骨头，身体软瘫瘫的。它虽然身体软瘫瘫的但十分强韧，它身体的软度可以帮助分散它所受到的冲击。在遥远的过去，它整个背部都被坚硬的甲壳覆盖，会用结实的壳保护身体，现在在背的里面还有着又硬又薄的壳的痕迹。海兔兽全身包裹着滑溜溜的液体，经过的地方会留下黏糊糊的粘液。它被天敌袭击的时候会从体内释放出紫色液体逃命，虽然汁里并没有毒，但是一旦沾到就很难清掉；而且会让肉变苦，所以不能吃。它也会用黏液慢慢溶解并吸食捕捉到的猎物。它的再生能力很高，即使被鱼宝可梦咬断也会在几小时内恢复原状。它以海中沙子作为粮食，无形的浮游生物也是它的主要食物。有时为了觅食也会从海里上来，因为害怕干燥，所以能在陆地上活动的时间非常短。受栖息地和食物的影响，它的颜色和形状会发生变化。不同颜色的海兔兽相遇时，将会展开激烈无比的斗争。为了寻找尚未发现过的其他颜色的海兔兽，研究小组在全世界的大海展开调查。研究小组也正研究着在非出生海域培育海兔兽会变成什么样。过去西海的海兔兽的它，数量可谓压倒性地多；虽然曾经很少遇见东海的海兔兽，但现在它们有增加的倾向。",
+  "flavor_text_en": "Eats beach sand for nourishment. Should one Gastrodon encounter another of a different color, a fierce battle will inevitably ensue.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 423,
+    "pokeapi_species_id": 423,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/423"
+  }
+}

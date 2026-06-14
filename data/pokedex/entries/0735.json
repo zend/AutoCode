@@ -1,0 +1,89 @@
+{
+  "entry_id": "0735",
+  "national_id": 735,
+  "form": "default",
+  "names": {
+    "en": "Gumshoos",
+    "ja": "デカグース",
+    "zh": "猫鼬探长"
+  },
+  "generation": 7,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "はりこみポケモン",
+  "category_zh": "蹲守宝可梦",
+  "abilities": [
+    {
+      "name_en": "stakeout",
+      "name_zh": "蹲守 / 或 / 强壮之颚",
+      "hidden": false
+    },
+    {
+      "name_en": "strong-jaw",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "适应力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 14.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 127,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 146,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 88,
+    "attack": 110,
+    "defense": 60,
+    "special_attack": 55,
+    "special_defense": 60,
+    "speed": 45,
+    "total": 418
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 734,
+        "name_en": "yungoos",
+        "name_zh": "猫鼬少",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 14,
+    "帕底亚": 28
+  },
+  "flavor_text_zh": "猫鼬探长的外形与进化前十分相似。除了头顶与颈腹部为黄色，它的身体大部分皮毛都是褐色的。猫鼬探长的双足各有三根尖锐的黑色脚趾。与猫鼬少不同的是，猫鼬探长双足站立，并且普遍体型较大。 猫鼬探长原本在阿罗拉是没有的，但过去 小拉达 大量出现的时候被带了过来。它喜欢吃小拉达和拉达，但因为昼行性而无法遇到，但如果见到就会忘乎所以地扑过去。猫鼬探长守候猎物的作风，和 猫鼬少 正好相反。相对来来回回行走的猫鼬少，猫鼬探长找到猎物的踪迹后，就会坚持蹲守在那个地方，以无比的耐心持续等待。它对于目标的猎物，抱有一份持续守候的执着，但是，会因为在日落时分筋疲力竭而在该地方睡着。它对饥饿的忍耐力非常强。等待猎物期间，会完全动也不动，即使什么都不吃也能够持续进行蹲守，是以忍耐力强而自豪的宝可梦。 [ 1 ] 它还擅长专心致志地追寻猎物的足迹，然而它似乎觉得个性单纯的 贪心栗鼠 追起来不够过瘾。",
+  "flavor_text_en": "Patient by nature, this Pokémon loses control of itself and pounces when it spots its favorite meal—Rattata!",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 735,
+    "pokeapi_species_id": 735,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/735"
+  }
+}

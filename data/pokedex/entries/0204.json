@@ -1,0 +1,84 @@
+{
+  "entry_id": "0204",
+  "national_id": 204,
+  "form": "default",
+  "names": {
+    "en": "Pineco",
+    "ja": "クヌギダマ",
+    "zh": "榛果球"
+  },
+  "generation": 2,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "みのむしポケモン",
+  "category_zh": "蓑衣虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 7.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 90,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 15,
+    "total": 290
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 205,
+        "name_en": "forretress",
+        "name_zh": "佛烈托斯",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 93,
+    "帕底亚": 258
+  },
+  "flavor_text_zh": "榛果球身体的颜色由偏灰的墨绿色为主。它的外表由一层层坚硬的鳞片构成，鳞片向上展开，最上的两层鳞片之间有一双红色的眼睛。顶上有一个果柄，像突出的刺。 榛果球外形酷似树果，会挂在树上静静等待作为它猎物的虫宝可梦送上门来，自己本身很少活动。在阿罗拉，它喜欢吃的是 萌虻 。虽然会被鸟宝可梦误啄，但身体有着坚硬外壳的保护。口中吐出的液体是它用来粘树皮的胶水，一接触到空气就会凝固。它会用唾液将树皮粘在自己身上加厚外壳，从而让自己变得又厚又大，就算变重了也不会在意，上了年纪的榛果球是无比巨大的。如果有谁摇树打扰它进食，它就会在落到地上的瞬间突然爆炸。",
+  "flavor_text_en": "It sticks tree bark to itself with its saliva, making itself thicker and larger. Elderly Pineco are ridiculously huge.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 204,
+    "pokeapi_species_id": 204,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/204"
+  }
+}

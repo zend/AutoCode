@@ -1,0 +1,84 @@
+{
+  "entry_id": "0683",
+  "national_id": 683,
+  "form": "default",
+  "names": {
+    "en": "Aromatisse",
+    "ja": "フレフワン",
+    "zh": "芳香精"
+  },
+  "generation": 6,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "ほうこうポケモン",
+  "category_zh": "芳香宝可梦",
+  "abilities": [
+    {
+      "name_en": "healer",
+      "name_zh": "治愈之心",
+      "hidden": false
+    },
+    {
+      "name_en": "aroma-veil",
+      "name_zh": "芳香幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 15.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 140,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 162,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 101,
+    "attack": 72,
+    "defense": 72,
+    "special_attack": 99,
+    "special_defense": 89,
+    "speed": 29,
+    "total": 462
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 682,
+        "name_en": "spritzee",
+        "name_zh": "粉香香",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 213,
+    "密阿雷": 97
+  },
+  "flavor_text_zh": "芳香精头部有紫色的羽毛，头上突出来的两个小角也有一小部分为黄色，进化后长出了双手，腹部上拥有非常多的羽毛。羽毛背后有一个黑色蝴蝶结状物，紫色的双脚变得更大，眉毛也多了一些。 芳香精会不断从体毛里散发出强烈的香气，导致伙伴训练家的嗅觉失灵。因为气味过于强烈，如果不是相当喜爱它的训练家要带着走路都相当困难。它能制作出各种各样的气味，会发出恶臭让敌人丧失战意，或者发出芳香的味道来帮助自己的伙伴，让战斗朝对自己有利的方向推进。",
+  "flavor_text_en": "The scents Aromatisse can produce range from sweet smells that bolster allies to foul smells that sap an opponent’s will to fight.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 683,
+    "pokeapi_species_id": 683,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/683"
+  }
+}

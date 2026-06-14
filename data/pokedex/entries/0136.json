@@ -1,0 +1,90 @@
+{
+  "entry_id": "0136",
+  "national_id": 136,
+  "form": "default",
+  "names": {
+    "en": "Flareon",
+    "ja": "ブースター",
+    "zh": "火伊布"
+  },
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ほのおポケモン",
+  "category_zh": "火宝可梦",
+  "abilities": [
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火",
+      "hidden": false
+    },
+    {
+      "name_en": "guts",
+      "name_zh": "毅力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 25.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "special_attack": 95,
+    "special_defense": 110,
+    "speed": 65,
+    "total": 525
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 133,
+        "name_en": "eevee",
+        "name_zh": "伊布",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 136,
+    "城都": 183,
+    "神奥": 166,
+    "阿罗拉": 126,
+    "伽勒尔": 199,
+    "洗翠": 28,
+    "帕底亚": 182,
+    "密阿雷": 103
+  },
+  "flavor_text_zh": "火伊布的皮肤是火红色的。它有一条大而毛绒绒的尾巴，脖上也有绒毛，额头上也有一撮小毛，这些毛全部都是奶黄色的。它有着粉红色的肉垫。 火伊布平均体温在700~800度，囊状的内脏中燃烧着火焰。当它在身体中积蓄火焰的时候，体温会超过900度。蓬松的体毛有着向空气中散热，让过热的体温下降的功能。展开颈部蓬松的体毛，可以使上升到900度的体温冷却下来。兴奋时，它体内的火袋就会着火，大口吸入空气就是要攻击的前兆。它会将吸入的空气的一部分传送到自己体内的火囊里，制造出1700度的火焰再吐出。如果寻获树果或是捉到猎物，就会喷出火焰将其烤至完全熟透，之后大口大口吃掉。",
+  "flavor_text_en": "Flames burn within a saclike organ inside this Pokémon. When Flareon inhales, these flames grow in intensity, reaching a mighty 3,000 degrees Fahrenheit.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 136,
+    "pokeapi_species_id": 136,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/136"
+  }
+}

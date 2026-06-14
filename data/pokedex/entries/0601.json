@@ -1,0 +1,87 @@
+{
+  "entry_id": "0601",
+  "national_id": 601,
+  "form": "default",
+  "names": {
+    "en": "Klinklang",
+    "ja": "ギギギアル",
+    "zh": "齿轮怪"
+  },
+  "generation": 5,
+  "types": [
+    "steel"
+  ],
+  "types_zh": [
+    "钢"
+  ],
+  "category": "はぐるまポケモン",
+  "category_zh": "齿轮宝可梦",
+  "abilities": [
+    {
+      "name_en": "plus",
+      "name_zh": "正电 / 或 / 负电",
+      "hidden": false
+    },
+    {
+      "name_en": "minus",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 81.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 234,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 100,
+    "defense": 115,
+    "special_attack": 70,
+    "special_defense": 85,
+    "speed": 90,
+    "total": 520
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 600,
+        "name_en": "klang",
+        "name_zh": "齿轮组",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 107,
+    "伽勒尔": 115
+  },
+  "flavor_text_zh": "齿轮怪有3个齿轮，新增出来的那个带着尖刺的齿轮并不是生物。新加的小齿轮在右边齿轮的下前方，与其保持垂直旋转，它的中央是红色的。这个小齿轮还带动了外面的一个漂浮的金属环，虽不与之连接却保持着相同的旋转速度。金属环环住了齿轮怪的整个身体，外侧有6根尖刺，可以向外发射能量。 齿轮怪红色核心担当着能量罐的角色，里面填充着非常多的能量，填充好的能量会从尖刺射向周围。通过带有红色核心的小齿轮高速旋转，可以快速填充能量，将红色核心中蓄积的能量充入小齿轮中一口气释放出去。他还会从尖刺的前端发出强力电击。",
+  "flavor_text_en": "The three gears that compose this Pokémon spin at high speed. Its new spiked gear isn’t a living creature.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 601,
+    "pokeapi_species_id": 601,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/601"
+  }
+}

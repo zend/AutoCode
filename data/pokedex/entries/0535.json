@@ -1,0 +1,89 @@
+{
+  "entry_id": "0535",
+  "national_id": 535,
+  "form": "default",
+  "names": {
+    "en": "Tympole",
+    "ja": "オタマロ",
+    "zh": "圆蝌蚪"
+  },
+  "generation": 5,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "おたまポケモン",
+  "category_zh": "蝌蚪宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 湿润之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "water-absorb",
+      "name_zh": "储水",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 4.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 59,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 40,
+    "special_attack": 50,
+    "special_defense": 40,
+    "speed": 64,
+    "total": 294
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 536,
+        "name_en": "palpitoad",
+        "name_zh": "蓝蟾蜍",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 41,
+    "伽勒尔": 132
+  },
+  "flavor_text_zh": "圆蝌蚪是有着黑色身躯和米黄色脸庞的宝可梦。它的面部除了嘴巴与两只大眼睛外，另有两条音符般的眉毛翘起。圆蝌蚪的身体两侧有着蓝色的瘤状物，狭长的蓝色尾巴拖在身后。 圆蝌蚪通过音波来联系伙伴，通过音波的节奏对话。它会振动脸颊上的振动膜，发出人类和其他宝可梦无法听见的音波向伙伴们传递危险警告。如果水面上扩散开美丽的波纹，就代表有圆蝌蚪正在水下面用高昂的声音鸣叫。",
+  "flavor_text_en": "It uses sound waves to communicate with others of its kind. People and other Pokémon species can’t hear its cries of warning.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 535,
+    "pokeapi_species_id": 535,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/535"
+  }
+}

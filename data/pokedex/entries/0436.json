@@ -1,0 +1,92 @@
+{
+  "entry_id": "0436",
+  "national_id": 436,
+  "form": "default",
+  "names": {
+    "en": "Bronzor",
+    "ja": "ドーミラー",
+    "zh": "铜镜怪"
+  },
+  "generation": 4,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "types_zh": [
+    "钢",
+    "超能力"
+  ],
+  "category": "せいどうポケモン",
+  "category_zh": "青铜宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮 / 或 / 耐热",
+      "hidden": false
+    },
+    {
+      "name_en": "heatproof",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "heavy-metal",
+      "name_zh": "重金属",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 60.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 57,
+    "attack": 24,
+    "defense": 86,
+    "special_attack": 24,
+    "special_defense": 86,
+    "speed": 23,
+    "total": 300
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 437,
+        "name_en": "bronzong",
+        "name_zh": "青铜钟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 88,
+    "伽勒尔": 118,
+    "洗翠": 180,
+    "帕底亚": 153,
+    "北上": 154
+  },
+  "flavor_text_zh": "铜镜怪像是一个古代铜镜，呈青铜色。周围镶有六个铜珠，中间有同心圆图案，圆心两侧有一双黄色的眼睛。它的背部有一个类似树的图案，有五片树叶，一片在上方，两旁各有两片。 铜镜怪靠着不可思议的能量漂浮在半空。它能在古墓找到，身上的纹路不属于伽勒尔文化，因此至今仍然谜团重重。从古墓里挖掘出了与铜镜怪一模一样的道具，但两者之间的关系还未知。据说它背上的花纹蕴藏着神秘的力量，人们将其视为神圣，相同纹路有时会被刻在古时的坟墓等地。为了调查它的身体构造而用Ｘ光拍摄了照片，但照片上却空无一物。有研究者认为这种宝可梦在过去会像镜子一样反射。虽然人们说把铜镜怪打磨到发光，它就能映照出真相，但其实它非常讨厌被打磨。",
+  "flavor_text_en": "Floats using a mysterious energy. The pattern engraved upon its back is held as sacred and can sometimes be found in imagery from ancient cemeteries and other such timeworn places.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 436,
+    "pokeapi_species_id": 436,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/436"
+  }
+}

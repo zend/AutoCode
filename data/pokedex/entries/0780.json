@@ -1,0 +1,84 @@
+{
+  "entry_id": "0780",
+  "national_id": 780,
+  "form": "default",
+  "names": {
+    "en": "Drampa",
+    "ja": "ジジーロン",
+    "zh": "老翁龙"
+  },
+  "generation": 7,
+  "types": [
+    "normal",
+    "dragon"
+  ],
+  "types_zh": [
+    "一般",
+    "龙"
+  ],
+  "category": "ゆうゆうポケモン",
+  "category_zh": "悠游宝可梦",
+  "abilities": [
+    {
+      "name_en": "berserk",
+      "name_zh": "怒火冲天",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "cloud-nine",
+      "name_zh": "无关天气",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.0,
+  "weight_kg": 185.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 70,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 170,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 60,
+    "defense": 85,
+    "special_attack": 135,
+    "special_defense": 91,
+    "speed": 36,
+    "total": 485
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 244,
+    "伽勒尔": 346,
+    "密阿雷": 224
+  },
+  "flavor_text_zh": "老翁龙是一条青绿色的龙，身上有浅绿色的部分。老翁龙的头顶、下巴、腹部和尾巴都是白色的毛发，看起来像是一个老人。老翁龙有着黄色的眉毛和粉红色的眼睛。 老翁龙在海拔超越3000m的山上以非群体方式生活。由于无法在山上取得其食粮树果，所以会在黎明时分降落至山麓进食。老翁龙心地非常善良，容易和人亲近，最喜欢和人与宝可梦交流。它最喜欢小孩子，会为了和关系好的小孩子玩耍会从深山里降落到城镇。它对孩子特别温柔，经常出没在聚集了孩子的公园和学校。即使遇到危险也会保护孩子，所以妈妈们也很放心。虽然平时是非常善良的宝可梦，但当友好的孩子遭遇不幸时，会变得极为愤怒。它被激怒时会用非常猛烈的气息把周围破坏殆尽，那时候的 龙息 甚至能达到将建筑物吹走的威力。如果和自己成为朋友的孩子被欺负，就会找到欺负他的那个孩子家，然后用火燃烧殆尽。 [ 1 ] 超级老翁龙是它激活全身细胞，恢复青春后的模样。能操控大气，呼风唤雨。",
+  "flavor_text_en": "Drampa is a kind and friendly Pokémon—up until it’s angered. When that happens, it stirs up a gale and flattens everything around.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 780,
+    "pokeapi_species_id": 780,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/780"
+  }
+}

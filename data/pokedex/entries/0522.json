@@ -1,0 +1,89 @@
+{
+  "entry_id": "0522",
+  "national_id": 522,
+  "form": "default",
+  "names": {
+    "en": "Blitzle",
+    "ja": "シママ",
+    "zh": "斑斑马"
+  },
+  "generation": 5,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "たいでんポケモン",
+  "category_zh": "带电宝可梦",
+  "abilities": [
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "避雷针 / 或 / 电气引擎",
+      "hidden": false
+    },
+    {
+      "name_en": "motor-drive",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 29.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 59,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 60,
+    "defense": 32,
+    "special_attack": 50,
+    "special_defense": 32,
+    "speed": 76,
+    "total": 295
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 523,
+        "name_en": "zebstrika",
+        "name_zh": "雷电斑马",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 28,
+    "蓝莓": 23
+  },
+  "flavor_text_zh": "斑斑马全身的皮肤是黑色的，有着白色的锯齿状花纹。斑斑马有著黄色眼白，蓝色瞳仁的眼睛。嘴上方明显凸出的黑色部分是斑斑马的鼻子。白色的锯齿状背刺般的鬃毛从后背一直延伸到头顶，仿佛一条电光状的白角。头顶一双立起的黑边耳朵，在耳朵的内部是蓝色的皮肤颜色。斑斑马的身上有纵横均匀的白色条纹，多分布于脖子于身体交接的部位，同样其的后腿上也有两条白色斑纹。短小的刺状白色的尾巴长在身后，身体下方是四条修长的腿，脚尖处的蹄子是白色的，蹄子顶端为黑色。 斑斑马在天空雷雨云密布时就会出现，喜欢经常发生落雷的地方。它会用鬃毛接住雷电，将电力储存到身体中。它放电时鬃毛就会发光，通过鬃毛闪耀的次数和节奏与伙伴对话。它用心跳来发电，受惊导致心跳加速时，电压也会随之上升。",
+  "flavor_text_en": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 522,
+    "pokeapi_species_id": 522,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/522"
+  }
+}

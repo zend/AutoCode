@@ -1,0 +1,91 @@
+{
+  "entry_id": "0529",
+  "national_id": 529,
+  "form": "default",
+  "names": {
+    "en": "Drilbur",
+    "ja": "モグリュー",
+    "zh": "螺钉地鼠"
+  },
+  "generation": 5,
+  "types": [
+    "ground"
+  ],
+  "types_zh": [
+    "地面"
+  ],
+  "category": "もぐらポケモン",
+  "category_zh": "鼹鼠宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-rush",
+      "name_zh": "拨沙 / 或 / 沙之力",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 8.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 40,
+    "special_attack": 30,
+    "special_defense": 45,
+    "speed": 68,
+    "total": 328
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 530,
+        "name_en": "excadrill",
+        "name_zh": "龙头地鼠",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 35,
+    "伽勒尔": 166,
+    "蓝莓": 99,
+    "密阿雷": 120
+  },
+  "flavor_text_zh": "螺钉地鼠是全身覆盖黑色皮毛，上面带有藏青色斜纹的宝可梦。它的面部呈白色，而高翘的鼻子末端呈粉红色。它拥有一双比脚掌还大的手掌，其末端由外向内成弧状，分成三只尖锐的白色利爪。 螺钉地鼠将双掌上的爪子并拢，并让身体高速旋转的话就会以迅猛的速度在地里前进。地中行进时速为50公里以上，可以和地上奔驰的汽车有的一拼。它会用爪子在地底挖掘前进，一些农民因为担心它会因此糟蹋蔬菜而讨厌它。",
+  "flavor_text_en": "It’s a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 529,
+    "pokeapi_species_id": 529,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/529"
+  }
+}

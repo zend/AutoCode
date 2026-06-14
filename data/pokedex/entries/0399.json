@@ -1,0 +1,91 @@
+{
+  "entry_id": "0399",
+  "national_id": 399,
+  "form": "default",
+  "names": {
+    "en": "Bidoof",
+    "ja": "ビッパ",
+    "zh": "大牙狸"
+  },
+  "generation": 4,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "まるねずみポケモン",
+  "category_zh": "圆鼠宝可梦",
+  "abilities": [
+    {
+      "name_en": "simple",
+      "name_zh": "单纯 / 或 / 纯朴",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moody",
+      "name_zh": "心情不定",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 20.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 50,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 59,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 35,
+    "special_defense": 40,
+    "speed": 31,
+    "total": 250
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 400,
+        "name_en": "bibarel",
+        "name_zh": "大尾狸",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 13,
+    "洗翠": 10
+  },
+  "flavor_text_zh": "大牙狸全身是棕褐色的，门牙很大。它的身体有着很多的弧形毛发，主要分布在大牙狸的下巴位置以及其尾部位置，它以四脚站立移动，有着四个看起来非常小的脚部。雄性大牙狸的尾卷更多。 大牙狸表情木讷，遇到何事都能处之泰然。它遇到任何事都不慌不忙，是神经很大条的家伙，但能能做出与外表不符的灵敏动作。它在水边结群筑巢生活，只要找到一处中意的水边，就会在那建起水坝挡水筑巢。虽然水流会被暂时中断，但其实对环境是有益处的。它总是啃大树和石头来磨结实的门牙，因此巢穴周围的石头和树都被削去了一层。经过比较，人们发现大牙狸和 小拉达 的门牙生长速度不相上下。过去曾在洗翠地区发生大牙狸光明正大地跑进村里，还光明正大地把房屋啃了一番的离奇事件。",
+  "flavor_text_en": "Bidoof has an unsophisticated face and is rarely flustered by anything. There have been incidents involving Bidoof sauntering into villages and gnawing on the houses without a single care.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 399,
+    "pokeapi_species_id": 399,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/399"
+  }
+}

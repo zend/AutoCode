@@ -1,0 +1,93 @@
+{
+  "entry_id": "0435",
+  "national_id": 435,
+  "form": "default",
+  "names": {
+    "en": "Skuntank",
+    "ja": "スカタンク",
+    "zh": "坦克臭鼬"
+  },
+  "generation": 4,
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "types_zh": [
+    "毒",
+    "恶"
+  ],
+  "category": "スカンクポケモン",
+  "category_zh": "臭鼬宝可梦",
+  "abilities": [
+    {
+      "name_en": "stench",
+      "name_zh": "恶臭 / 或 / 诱爆",
+      "hidden": false
+    },
+    {
+      "name_en": "aftermath",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 38.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 103,
+    "attack": 93,
+    "defense": 67,
+    "special_attack": 71,
+    "special_defense": 61,
+    "speed": 84,
+    "total": 479
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 434,
+        "name_en": "stunky",
+        "name_zh": "臭鼬噗",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 85,
+    "伽勒尔": 131,
+    "洗翠": 111,
+    "帕底亚": 227
+  },
+  "flavor_text_zh": "坦克臭鼬通体呈紫色，夹杂有乳白色的花纹。它的獠牙微微露出嘴边，头上多了一缕乳白色的长毛，庞大的身躯使它看上去就像坦克一样。坦克臭鼬下体与爪子呈奶油色，尾巴背在背上。 坦克臭鼬会在地面上挖洞建造巢穴。它会在肚子里囤满臭液，在与猎物对峙时从尾巴尖端喷出奇臭无比的液体进行攻击。液体在肚子里发酵的时间越长，气味就会变得越臭，连发时臭味会减轻。它喷射距离能达到50米以上，然而面对来自上方的攻击时会不知所措。液体的臭味会因吃下的东西而不同。有时会因为自身的毒液过于恶臭难耐，而吃不下到手的猎物。",
+  "flavor_text_en": "Sprays a poisonous fluid to take down prey. Sometimes, unable to stomach the stench of its own fluid, it leaves the bested prey uneaten.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 435,
+    "pokeapi_species_id": 435,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/435"
+  }
+}

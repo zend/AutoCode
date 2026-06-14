@@ -1,0 +1,98 @@
+{
+  "entry_id": "0305",
+  "national_id": 305,
+  "form": "default",
+  "names": {
+    "en": "Lairon",
+    "ja": "コドラ",
+    "zh": "可多拉"
+  },
+  "generation": 3,
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "types_zh": [
+    "钢",
+    "岩石"
+  ],
+  "category": "てつヨロイポケモン",
+  "category_zh": "铁铠宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "heavy-metal",
+      "name_zh": "重金属",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 120.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 151,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster"
+  ],
+  "egg_groups_zh": [
+    "怪兽"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 140,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 40,
+    "total": 430
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 304,
+        "name_en": "aron",
+        "name_zh": "可可多拉",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 306,
+        "name_en": "aggron",
+        "name_zh": "波士可多拉",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 71,
+    "密阿雷": 200
+  },
+  "flavor_text_zh": "可多拉体型低矮，有著深灰色的皮肤、天空蓝色的双眼。它的背上覆盖著几段片状的钢甲，每片中央都有突出的脊，两旁有圆形的洞。下颚有几个扁平的突起，嘴里只有两颗尖牙。每支脚上都有一对有角的带子，上面的是深灰色，下面的是银色。它用四足行走，牙齿极为尖利。 可多拉栖息的山上有着丰富的泉水和铁矿石，会在埋藏有铁矿石的山上和美味的泉水附近筑巢，因此会和那些前来挖铁矿的人争斗。它非常喜欢吃铁矿石，通过喝上满满一肚子含有铁质的泉水来锻炼自己的钢铁之躯。当两只可多拉相遇时会彼此碰撞钢铁的身体来争夺地盘，有着用钢甲撞击岩石时产生的火花大小来显示自己强大的习性。互相碰撞时的声音可传到几公里远，仔细看会发现钢铁盔甲上有伤痕和凹陷。",
+  "flavor_text_en": "During territorial disputes, Lairon fight by slamming into each other. Close inspection of their steel armor reveals scratches and dents.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 305,
+    "pokeapi_species_id": 305,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/305"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "entry_id": "0196",
+  "national_id": 196,
+  "form": "default",
+  "names": {
+    "en": "Espeon",
+    "ja": "エーフィ",
+    "zh": "太阳伊布"
+  },
+  "generation": 2,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "たいようポケモン",
+  "category_zh": "太阳宝可梦",
+  "abilities": [
+    {
+      "name_en": "synchronize",
+      "name_zh": "同步",
+      "hidden": false
+    },
+    {
+      "name_en": "magic-bounce",
+      "name_zh": "魔法镜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 26.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 130,
+    "special_defense": 95,
+    "speed": 110,
+    "total": 525
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 133,
+        "name_en": "eevee",
+        "name_zh": "伊布",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 184,
+    "神奥": 167,
+    "阿罗拉": 127,
+    "伽勒尔": 200,
+    "洗翠": 29,
+    "帕底亚": 183,
+    "密阿雷": 104
+  },
+  "flavor_text_zh": "太阳伊布有着小型猫科动物的特征，体毛和眼睛是紫色的。它的头上有一块红宝石，体毛有着天鹅绒般的光泽和手感。 太阳伊布本来没有任何能力，但据说为了保护自己从而觉醒了预知能力。它对自己认可的训练家极为忠诚，据说为了保护训练家的安全，预知能力变得非常发达。它全身的体毛都很敏感，会利用又细又短的体毛感受空气的流动，觉察出空气里微小的变化，准确地预测出接下来的天气和对手的行动等等。它预知对手的行动时，分叉的尾巴前端就会微妙地摆动。它不擅长夜间战斗，如果沐浴在阳光下，额上红珠会发亮，开始储存精神力量。它会从额头的珠子放射出精神力量进行战斗，当它使用精神力量时，额头的珠子也会放出光芒。当力量用尽时，珠子的颜色也会褪去。",
+  "flavor_text_en": "Wields an arcane power with which it can predict the weather and even people's thoughts. When bathed in sunshine, the scarlet orb on its brow glows and builds energy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 196,
+    "pokeapi_species_id": 196,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/196"
+  }
+}

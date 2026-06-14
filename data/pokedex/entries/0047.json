@@ -1,0 +1,96 @@
+{
+  "entry_id": "0047",
+  "national_id": 47,
+  "form": "default",
+  "names": {
+    "en": "Parasect",
+    "ja": "パラセクト",
+    "zh": "派拉斯特"
+  },
+  "generation": 1,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "types_zh": [
+    "虫",
+    "草"
+  ],
+  "category": "きのこポケモン",
+  "category_zh": "蘑菇宝可梦",
+  "abilities": [
+    {
+      "name_en": "effect-spore",
+      "name_zh": "孢子 / 或 / 干燥皮肤",
+      "hidden": false
+    },
+    {
+      "name_en": "dry-skin",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "damp",
+      "name_zh": "湿气",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 29.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 142,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "虫",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "special_attack": 60,
+    "special_defense": 80,
+    "speed": 30,
+    "total": 405
+  },
+  "ev_yield": {
+    "attack": 2,
+    "defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 46,
+        "name_en": "paras",
+        "name_zh": "派拉斯",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 47,
+    "城都": 71,
+    "阿罗拉": 148,
+    "洗翠": 54
+  },
+  "flavor_text_zh": "派拉斯特作为虫子的下半部分全身为橙色，双眼是白色的，有三对足，最前的一对足变成了大钳子。背上的黄斑红蘑菇成长得比本体还大。 派拉斯特喜欢黑暗潮湿的地方，这不是虫，而是它背上巨大的蘑菇的喜好。由于虫子的精华不断被吸走，在思考的似乎已经不是虫子，而是背上的蘑菇了。底下的虫子基本上死了，真正的本体是背上的蘑菇，以长得比虫子身体还大的蘑菇的意志来行动。如果蘑菇掉下来，它就不会动了。森林中存在着背上蘑菇脱落后丝毫不动的个体，此样本足可用以证明大大的蘑菇才是真身的学说。从虫身上榨干营养之后，背上的蘑菇会把孢子种在虫的卵上。大大的蘑菇操纵着派拉斯特，成群地贴在大树的根上吸取养分，树枯萎后会一起转移到其他的树那里，经常和 灯罩夜菇 争夺领地。它从蘑菇的菌伞处撒出有毒的孢子，背上的蘑菇长得越大，播撒出来的蘑菇孢子的效果就越强。收集孢子用水煎就能成为中药，阿罗拉产的好像品质不怎么样。",
+  "flavor_text_en": "Mushroom-lacking specimens of this Pokémon lie unmoving in the forest, lending credence to the hypothesis that the large mushroom is in control of Parasect's actions.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 47,
+    "pokeapi_species_id": 47,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/47"
+  }
+}

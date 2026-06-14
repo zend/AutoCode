@@ -1,0 +1,85 @@
+{
+  "entry_id": "0753",
+  "national_id": 753,
+  "form": "default",
+  "names": {
+    "en": "Fomantis",
+    "ja": "カリキリ",
+    "zh": "伪螳草"
+  },
+  "generation": 7,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "かまくさポケモン",
+  "category_zh": "镰草宝可梦",
+  "abilities": [
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "叶子防守",
+      "hidden": false
+    },
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 50,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 55,
+    "defense": 35,
+    "special_attack": 50,
+    "special_defense": 35,
+    "speed": 35,
+    "total": 250
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 754,
+        "name_en": "lurantis",
+        "name_zh": "兰螳花",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 143,
+    "帕底亚": 247,
+    "北上": 31
+  },
+  "flavor_text_zh": "伪螳草有着粉红色的小身体和小脸，头顶上有类似草冠的绿绿的东西，颈部有绿色的叶子，手掌呈白色，一双腿之间有一条深粉红色的间条，眼珠也是深粉红色的。 伪螳草为夜行性的。它在白天时会沐浴着阳光一边睡觉，一边将4片叶子向四方伸展进行光合作用，非常讨厌在睡午觉时被打扰。到了晚上它就会开始走动，寻找更安全的睡床。由于经常身处在相同的地方会有危险，所以太阳下山后就会开始寻找翌日的处身之所。它在沐浴阳光后会从头顶发出发出清爽而又甘甜的香味吸引虫宝可梦聚集过来。在伪螳草藏匿的草丛里，经常聚集着 萌虻 。伪螳草非常喜欢阳光，会用通过日光浴储存的能量放射出光束。光合作用对它不只是单纯的能量来源，而且对于进化后变得更为颜色鲜艳和强大是必要的。对于阻碍其进行光合作用的东西，伪螳草会施以激烈的攻击。 [ 1 ] 有很多训练家会给伪螳草它专用的花盆，好让它能平静地享受日光浴。",
+  "flavor_text_en": "During the day, Fomantis basks in sunlight and sleeps peacefully. It wakes and moves around at night.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 753,
+    "pokeapi_species_id": 753,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/753"
+  }
+}

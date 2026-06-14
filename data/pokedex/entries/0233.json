@@ -1,0 +1,97 @@
+{
+  "entry_id": "0233",
+  "national_id": 233,
+  "form": "default",
+  "names": {
+    "en": "Porygon2",
+    "ja": "ポリゴン２",
+    "zh": "多边兽２型"
+  },
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "バーチャルポケモン",
+  "category_zh": "虚拟宝可梦",
+  "abilities": [
+    {
+      "name_en": "trace",
+      "name_zh": "复制 / 或 / 下载",
+      "hidden": false
+    },
+    {
+      "name_en": "download",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "analytic",
+      "name_zh": "分析",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 32.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 180,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 80,
+    "defense": 90,
+    "special_attack": 105,
+    "special_defense": 95,
+    "speed": 60,
+    "total": 515
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 137,
+        "name_en": "porygon",
+        "name_zh": "多边兽",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 474,
+        "name_en": "porygon-z",
+        "name_zh": "多边兽乙型",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 216,
+    "神奥": 193,
+    "阿罗拉": 218,
+    "洗翠": 134,
+    "蓝莓": 130
+  },
+  "flavor_text_zh": "多边兽２型的身体是蓝色和红色的，身上处处都是圆弧形的。 多边兽２型是通过最新科技进化的人工宝可梦，人们为了使它能开发行星以当时的最新技术进行了升级。然而它似乎还远远无法胜任，连飞上天都做不到，离实现梦想还有很长距离。虽然在真空的宇宙空间里也可以活动，不会死亡。但在无重力的环境下，它无法顺利地转动身体。它装有人工智能，动作种类增多，且表情更加丰富。在装载了ＡＩ功能后，它会自己学习各种各样的事情实现成长，但也会记住一些多余的东西。随着研究的不断深入，它的能力得到了提高，开始用只有彼此能懂的神秘语言互相交流了，有时会展现出程序里没有的行为。",
+  "flavor_text_en": "A bizarre item caused this Pokémon to evolve. While it now exhibits many new gestures and expressions, its biology remains inscrutable.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 233,
+    "pokeapi_species_id": 233,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/233"
+  }
+}

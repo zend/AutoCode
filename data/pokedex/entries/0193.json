@@ -1,0 +1,93 @@
+{
+  "entry_id": "0193",
+  "national_id": 193,
+  "form": "default",
+  "names": {
+    "en": "Yanma",
+    "ja": "ヤンヤンマ",
+    "zh": "蜻蜻蜓"
+  },
+  "generation": 2,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "types_zh": [
+    "虫",
+    "飞行"
+  ],
+  "category": "うすばねポケモン",
+  "category_zh": "薄翼宝可梦",
+  "abilities": [
+    {
+      "name_en": "speed-boost",
+      "name_zh": "加速 / 或 / 复眼",
+      "hidden": false
+    },
+    {
+      "name_en": "compound-eyes",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 38.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 78,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 45,
+    "special_attack": 75,
+    "special_defense": 45,
+    "speed": 95,
+    "total": 390
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 469,
+        "name_en": "yanmega",
+        "name_zh": "远古巨蜓",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 101,
+    "神奥": 183,
+    "洗翠": 105,
+    "北上": 3
+  },
+  "flavor_text_zh": "蜻蜻蜓通体为红色，有着三对脚。它的头上长有两支小角，尾部两侧有类似飞机尾翼的构造，末端有一对小刺。 蜻蜻蜓翅膀看似脆弱，薄到可以透光。然而当它飞翔之时却能拂乱大气，发挥足以吹倒家屋的强劲力度。它能高速振动翅膀在空中自由自在地飞行或让自身停留在空中以监视自己的地盘，高速挥动翅膀时会产生冲击波依次震碎周围的玻璃窗。它有着头不动就可以360度全方位环视的眼睛，所以连敌人和或是可以作为食物的虫子也能马上发现，就算是正后方的猎物也不会看漏。它擅长急停和转向，很快便能将它盯上的猎物追得走投无路。",
+  "flavor_text_en": "Its frail wings are so thin that one can see clear through them. However, during flight these wings exhibit the power to churn air with force enough to launch a house skyward.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 193,
+    "pokeapi_species_id": 193,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/193"
+  }
+}

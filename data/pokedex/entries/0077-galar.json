@@ -1,0 +1,92 @@
+{
+  "entry_id": "0077-galar",
+  "national_id": 77,
+  "form": "galar",
+  "names": {
+    "en": "Ponyta",
+    "ja": "ポニータ",
+    "zh": "小火马（伽勒尔的样子）"
+  },
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "ひのうまポケモン",
+  "category_zh": "火马宝可梦",
+  "abilities": [
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑",
+      "hidden": false
+    },
+    {
+      "name_en": "pastel-veil",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "anticipation",
+      "name_zh": "危险预知",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 24.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 82,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 55,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 90,
+    "total": 410
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 78,
+        "name_en": "rapidash",
+        "name_zh": "烈焰马",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 77,
+    "城都": 201,
+    "神奥": 90,
+    "伽勒尔": 333,
+    "洗翠": 23
+  },
+  "flavor_text_zh": "小火马是马外形的四足宝可梦。它的身体是白色的，从头顶至尾巴以及四肢上长着燃烧着的火焰鬃毛，仔细看的话头上的毛发比起其他地方更加整齐。它脚上的蹄子有钻石的十倍硬，无论什么东西都能踩扁。伽勒尔小火马完全没有火焰的样子，鬃毛变为了浅紫色和偏蓝绿色，四只蹄子上也覆盖着紫色的毛。和一般样子的小火马不同，头上长着一只角。在沐浴了森林的能量后，它的鬃毛会变为随时间变化的幻彩的颜色。 小火马在草原上群居生活。它的身体很轻，脚的力量很强，弹跳力在宝可梦当中也算是顶级水平，一跳就可以飞过东京铁塔。在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。感到背后有气息时，它便会用后脚给踹飞。得到了小火马认可的人，在触摸它燃烧着的鬃毛时不会觉得烫手，真是不可思议。小火马刚出生时身上没有火焰鬃毛，而是会在出生后一小时左右长出来。它连站起来都十分不易，还很不会跑。但随着和伙伴们不断地赛跑，在跌倒中追赶双亲，它锻炼出了强韧结实的腰腿。跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。它整天都在山野里到处乱跑，跳过每天长高的杂草作为锻炼。 伽勒尔小火马自古以来就栖息在伽勒尔地区的某片森林里。据说小火马是因为世世代代沐浴着森林里满溢的生命能量，所以才变成了伽勒尔地区独有的样子。它能够吸收空气中的生命能量，并将其储存在鬃毛里。能量储存得越多，鬃毛的颜色就越发鲜艳并且会闪闪发亮。小小的角里蕴藏着治愈之力，如果只是一点小伤，它只要用角轻擦伤口就能治愈。它能从眼神中读取对方的内心，如果发现了邪恶的想法，就会在转眼间消失不见。 [ 1 ]",
+  "flavor_text_en": "These Pokémon live in herds out in the grassland. Newborn foals lack their fiery manes, which will develop about an hour after birth.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10162,
+    "pokeapi_species_id": 77,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10162"
+  }
+}

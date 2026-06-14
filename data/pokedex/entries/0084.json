@@ -1,0 +1,93 @@
+{
+  "entry_id": "0084",
+  "national_id": 84,
+  "form": "default",
+  "names": {
+    "en": "Doduo",
+    "ja": "ドードー",
+    "zh": "嘟嘟"
+  },
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "ふたごどりポケモン",
+  "category_zh": "两头鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑 / 或 / 早起",
+      "hidden": false
+    },
+    {
+      "name_en": "early-bird",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "tangled-feet",
+      "name_zh": "蹒跚",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 39.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 62,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 85,
+    "defense": 45,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 75,
+    "total": 310
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 85,
+        "name_en": "dodrio",
+        "name_zh": "嘟嘟利",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 84,
+    "城都": 199,
+    "丰缘": 92,
+    "蓝莓": 1
+  },
+  "flavor_text_zh": "嘟嘟有两个头，头上长着长而尖锐的鸟喙和小黑豆一样的眼睛。雄性的脖子是黑色的，雌性的是米色的。它的肚子是球形的，没有翅膀，身上和脑袋也只有一层绒毛。 嘟嘟是因为突变而被发现的，有着两个脑袋的宝可梦。它羽毛较短所以不擅长飞行，但是拥有发达的双脚，能够以100公里的时速奔跑。它住在视野良好的草原里，在大地上飞奔时会留下巨大的脚印，脚印深度可达10厘米。使两个头顺序上下摆动，在跑步时可以提高安定感。它的两个脑袋有着相同的大脑，但研究表明有极少数的嘟嘟会生来拥有不同的大脑。它的两个脑袋从来不会同时睡着，能用类似心灵感应的力量来互通想法。不管是吃东西还是在午睡时，其中一颗头总是随时在警戒着周围。",
+  "flavor_text_en": "Its short wings make flying difficult. Instead, this Pokémon runs at high speed on developed legs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 84,
+    "pokeapi_species_id": 84,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/84"
+  }
+}

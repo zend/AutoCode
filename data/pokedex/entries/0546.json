@@ -1,0 +1,95 @@
+{
+  "entry_id": "0546",
+  "national_id": 546,
+  "form": "default",
+  "names": {
+    "en": "Cottonee",
+    "ja": "モンメン",
+    "zh": "木棉球"
+  },
+  "generation": 5,
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "types_zh": [
+    "草",
+    "妖精"
+  ],
+  "category": "わたたまポケモン",
+  "category_zh": "棉球宝可梦",
+  "abilities": [
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心 / 或 / 穿透",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 0.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 56,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 27,
+    "defense": 60,
+    "special_attack": 37,
+    "special_defense": 50,
+    "speed": 66,
+    "total": 280
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 547,
+        "name_en": "whimsicott",
+        "name_zh": "风妖精",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 52,
+    "阿罗拉": 87,
+    "伽勒尔": 262,
+    "蓝莓": 56
+  },
+  "flavor_text_zh": "木棉球是一种白色、全身呈圆形的宝可梦。它头顶和下侧是白色的蓬松部分，在这个蓬松的部分背面有一个绿色的呈星形的梗。木棉球有橙色的椭圆形眼睛，在它身体两边各有一片卷曲并有缺口的叶子。 木棉球乘着风随性飘动，有时会被台风吹到地球的另一边。一旦被袭击它就会从体内喷出棉花，趁着敌人把棉花错认为是自己时便逃之夭夭。喷出的棉花很快又会长出来。如果淋到雨，棉花就会受潮变重，身体变得动弹不得。它似乎在集体中才能安下心来，一发现伙伴就会贴上去，贴得太多的话，有时候看上去就像积雨云。使用木棉球吐出的棉花制作而成的枕头和被褥是又轻又透气的高级商品。将木棉球和 白蓬蓬 的棉花混合后编织出的布料极其精致，因此常被高级品牌选用。",
+  "flavor_text_en": "Weaving together the cotton of both Cottonee and Eldegoss produces exquisite cloth that’s highly prized by many luxury brands.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 546,
+    "pokeapi_species_id": 546,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/546"
+  }
+}

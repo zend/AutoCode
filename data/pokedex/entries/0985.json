@@ -1,0 +1,68 @@
+{
+  "entry_id": "0985",
+  "national_id": 985,
+  "form": "default",
+  "names": {
+    "en": "Scream Tail",
+    "ja": "サケブシッポ",
+    "zh": "吼叫尾"
+  },
+  "generation": 9,
+  "types": [
+    "fairy",
+    "psychic"
+  ],
+  "types_zh": [
+    "妖精",
+    "超能力"
+  ],
+  "category": "パラドックスポケモン",
+  "category_zh": "悖谬宝可梦",
+  "abilities": [
+    {
+      "name_en": "protosynthesis",
+      "name_zh": "古代活性",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 8.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 50,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 285,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 115,
+    "attack": 65,
+    "defense": 99,
+    "special_attack": 65,
+    "special_defense": 115,
+    "speed": 111,
+    "total": 570
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 377
+  },
+  "flavor_text_zh": "吼叫尾在帕底亚某处的森林被人目击到，过去只有1次目击纪录。据说该生物似 胖丁 般可爱，但性情富有攻击性，接近它便会遭到袭击。因其充满原始气息的模样和凶暴的性情，有种说法认为它是十亿年前的胖丁。 [ 1 ] 而吼叫尾之名取自《朱之书》中记载的名为吼叫之尾的神秘生物。",
+  "flavor_text_en": "It resembles a mysterious Pokémon described in a paranormal magazine as a Jigglypuff from one billion years ago.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 985,
+    "pokeapi_species_id": 985,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/985"
+  }
+}

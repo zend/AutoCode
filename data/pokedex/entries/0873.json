@@ -1,0 +1,86 @@
+{
+  "entry_id": "0873",
+  "national_id": 873,
+  "form": "default",
+  "names": {
+    "en": "Frosmoth",
+    "ja": "モスノウ",
+    "zh": "雪绒蛾"
+  },
+  "generation": 8,
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "types_zh": [
+    "冰",
+    "虫"
+  ],
+  "category": "こおりがポケモン",
+  "category_zh": "冰蛾宝可梦",
+  "abilities": [
+    {
+      "name_en": "shield-dust",
+      "name_zh": "鳞粉",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-scales",
+      "name_zh": "冰鳞粉",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.3,
+  "weight_kg": 42.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 125,
+    "special_defense": 90,
+    "speed": 65,
+    "total": 475
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 872,
+        "name_en": "snom",
+        "name_zh": "雪吞虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 350,
+    "帕底亚": 351
+  },
+  "flavor_text_zh": "雪绒蛾有著纯白色的身体，双眼呈蓝色，眉间有一个蓝色的菱形斑点，一对大大羽毛状的触角长在头上。雪绒蛾有一对半透明的翅膀，上头长著类似雪花的斑纹。两只小手抱在胸前，看起来像围著围巾一般。 雪绒蛾喜欢干净的雪融水。它翅膀的温度为零下180度，触角能够感知大气的流动。当它飞过山野时，带有冷气的鳞粉会像下雪般地飘落下来。它绝不放过破坏山野环境的人，会用能释放寒气的巨大翅膀飞来飞去，引发暴风雪来惩罚他们。",
+  "flavor_text_en": "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 873,
+    "pokeapi_species_id": 873,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/873"
+  }
+}

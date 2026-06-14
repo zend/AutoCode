@@ -1,0 +1,93 @@
+{
+  "entry_id": "0406",
+  "national_id": 406,
+  "form": "default",
+  "names": {
+    "en": "Budew",
+    "ja": "スボミー",
+    "zh": "含羞苞"
+  },
+  "generation": 4,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "つぼみポケモン",
+  "category_zh": "花苞宝可梦",
+  "abilities": [
+    {
+      "name_en": "natural-cure",
+      "name_zh": "自然回复 / 或 / 毒刺",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-point",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "叶子防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 1.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 56,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 35,
+    "special_attack": 50,
+    "special_defense": 70,
+    "speed": 55,
+    "total": 280
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 315,
+        "name_en": "roselia",
+        "name_zh": "毒蔷薇",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 25,
+    "伽勒尔": 59,
+    "洗翠": 89,
+    "密阿雷": 29
+  },
+  "flavor_text_zh": "含羞苞的身体玲珑娇小，它有两只黄绿色的小腿，身体连着头上还没开的花苞，眼睛像是眯著。它的整体颜色偏向于绿色，胸前有着比较深绿色的三篇花瓣状的花纹，而头上花瓣的花纹则要偏向淡一些的颜色。 含羞苞栖息在清澈的池塘边。它对温度的变化十分敏感，冬季会合上花苞忍受严寒；春天到来时当日照变强，头顶上的花苞就会开放，飞散出花粉。人们由此得知寒冬已过，新芽生长的季节已经到来。它散播的花粉带有毒素，能够引发喷嚏不停、鼻涕不止的症状。培育时所用的水越干净，所含有的毒性就越高。",
+  "flavor_text_en": "When the sun's light strengthens, the bud atop this Pokémon's head opens. This is a sign to the people that the harsh winter is over, and the season of budding has begun.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 406,
+    "pokeapi_species_id": 406,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/406"
+  }
+}

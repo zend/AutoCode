@@ -1,0 +1,93 @@
+{
+  "entry_id": "0580",
+  "national_id": 580,
+  "form": "default",
+  "names": {
+    "en": "Ducklett",
+    "ja": "コアルヒー",
+    "zh": "鸭宝宝"
+  },
+  "generation": 5,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "types_zh": [
+    "水",
+    "飞行"
+  ],
+  "category": "みずどりポケモン",
+  "category_zh": "水鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 健壮胸肌",
+      "hidden": false
+    },
+    {
+      "name_en": "big-pecks",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 5.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 62,
+    "attack": 44,
+    "defense": 50,
+    "special_attack": 44,
+    "special_defense": 50,
+    "speed": 55,
+    "total": 305
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 581,
+        "name_en": "swanna",
+        "name_zh": "舞天鹅",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 86,
+    "北上": 181
+  },
+  "flavor_text_zh": "鸭宝宝的外形与天鹅的幼鸟十分相似，全身覆盖著浅蓝色羽毛，头顶突出的羽毛呈现爱心的形状，有著黄色的蹼和喙。它腹部的蓝色的羽毛也呈心形，在那之下还有云状的蓝色皮肤。 比起飞行，鸭宝宝更擅长游泳，会看着双亲舞天鹅跳舞来学习如何拍动翅膀。它会在池中水深的地方游来游去，顺便锻炼身体，潜入水中开心地吃非常喜欢的水青苔。如果被敌人袭击，就会从全身的羽毛里喷出水花，混在一片水雾中逃之夭夭。",
+  "flavor_text_en": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 580,
+    "pokeapi_species_id": 580,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/580"
+  }
+}

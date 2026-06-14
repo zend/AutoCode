@@ -1,0 +1,86 @@
+{
+  "entry_id": "0818",
+  "national_id": 818,
+  "form": "default",
+  "names": {
+    "en": "Inteleon",
+    "ja": "インテレオン",
+    "zh": "千面避役"
+  },
+  "generation": 8,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "エージェントポケモン",
+  "category_zh": "特工宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "狙击手",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 45.2,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 265,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 65,
+    "special_attack": 125,
+    "special_defense": 65,
+    "speed": 120,
+    "total": 530
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 817,
+        "name_en": "drizzile",
+        "name_zh": "变涩蜥",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 9,
+    "蓝莓": 235
+  },
+  "flavor_text_zh": "千面避役的皮肤是由有淡蓝、深蓝、黑色、白色四种颜色所组成的，细长的四肢，坚定的大眼，灵活的手指及又长又弯的尾巴。头顶上的构造类似鱼鳍，背上的翼膜类似披风，两者皆为淡黄色。其眼睛的瞳孔为黄色，眼皮为淡黄色。千面避役的手掌为黑色，有著五根手指，三根脚指。它的肚子上有著一大块似白色菱形的斑纹。超极巨化的千面避役除了有变得特别巨大且长的尾巴之外，身体并没有太大变化，手里拿着一把水压缩制成的狙击枪。 千面避役的眼睛里长有特殊的膜，尾巴里藏有锋利的刀刃，身上隐藏着多种特殊能力，能够灵机应变地选择并运用这些能力。它不仅能用背部的翼膜滑翔，通过瞬膜看穿敌人的弱点并准确地击中要害，还能将压缩于体内的水以3马赫的速度从指尖射出，瞄准对手的要害进行攻击。千面避役的智商非常高，沉着冷静并喜欢深思熟虑，时刻展现着它的绅士风度。在战斗时能冷静分析对手的弱点和习惯并制定战略，擅长活用自身智能进行战斗。对于自己所认可的训练家，它似乎也会展现出百分之百的忠诚之心。 [ 1 ] 超极巨化使千面避役获得了超长的尾巴，据说其长度大约是40米。超极巨化时，尾巴会像柱子一样垂直地伸长，而它则会坐在上面蓄势待发，水枪的速度也达到了7马赫。同时，隐藏在千面避役体内的各种能力也得到了提升。双眼上的膜不但能让它看到和目标之间的距离，还能让它看到气温、气压和湿度等信息。千面避役会运用自身的聪明头脑，借由计算弹道在重力下的下降幅度来进行惊人的准确狙击，甚至能轻易地射穿位于15公里外的树果。 [ 2 ]",
+  "flavor_text_en": "Its nictitating membranes let it pick out foes’ weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 818,
+    "pokeapi_species_id": 818,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/818"
+  }
+}

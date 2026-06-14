@@ -1,0 +1,97 @@
+{
+  "entry_id": "0042",
+  "national_id": 42,
+  "form": "default",
+  "names": {
+    "en": "Golbat",
+    "ja": "ゴルバット",
+    "zh": "大嘴蝠"
+  },
+  "generation": 1,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "types_zh": [
+    "毒",
+    "飞行"
+  ],
+  "category": "こうもりポケモン",
+  "category_zh": "蝙蝠宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 55.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 75,
+    "speed": 90,
+    "total": 455
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 41,
+        "name_en": "zubat",
+        "name_zh": "超音蝠",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 169,
+        "name_en": "crobat",
+        "name_zh": "叉字蝠",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 42,
+    "城都": 38,
+    "丰缘": 64,
+    "神奥": 29,
+    "阿罗拉": 69,
+    "洗翠": 35
+  },
+  "flavor_text_zh": "大嘴蝠身体大部分为蓝色，翅膀的隔膜为紫色。它有白色的眼睛，耳朵变小了。它的嘴巴异常得大，几乎占了它整个身子。四颗尖锐的牙齿分立上下颚，雌性大嘴蝠的牙齿较小。它粗粗的牙齿像吸管一样，中间是空的，因而意想不到的脆弱，是为了汲取而特别进化的。 大嘴蝠非常喜欢活物的血液，人与宝可梦的血液是它的最爱。在没有月亮的漆黑夜晚，会频繁地飞来飞去并从背后袭击人和宝可梦，以猎物脖子处的血管为目标。它有着即使是坚硬的皮肤也能轻易咬穿的牙，咬住就不会松口。只要有小小的洞，就能从中贪婪地汲取。它还会用小而灵活的脚走路，悄悄接近正在睡觉的猎物，用尖牙咬住对方吸取血液。当它用它的尖牙刺入猎物之后，可以一瞬间狂吸300毫升血液。虽然能吸300毫升的血，但一次吸太多的话，身体就因变重而摇摇晃晃，有时会重得无法靠自己飞行。因汲取过多无法飞行而落到地面成为其他宝可梦的食物，这样的事也有过。因为它肚子太饿而去咬了钢属性宝可梦，所以偶尔会看见缺了牙的大嘴蝠。据说也会把自己吸到的血分给肚子饿扁了的伙伴。",
+  "flavor_text_en": "It sinks its sharp fangs into other creatures and slurps up their blood. A closer look at the fangs reveals that they are hollow and akin to straws.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 42,
+    "pokeapi_species_id": 42,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/42"
+  }
+}

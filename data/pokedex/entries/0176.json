@@ -1,0 +1,102 @@
+{
+  "entry_id": "0176",
+  "national_id": 176,
+  "form": "default",
+  "names": {
+    "en": "Togetic",
+    "ja": "トゲチック",
+    "zh": "波克基古"
+  },
+  "generation": 2,
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "types_zh": [
+    "妖精",
+    "飞行"
+  ],
+  "category": "しあわせポケモン",
+  "category_zh": "幸福宝可梦",
+  "abilities": [
+    {
+      "name_en": "hustle",
+      "name_zh": "活力 / 或 / 天恩",
+      "hidden": false
+    },
+    {
+      "name_en": "serene-grace",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "super-luck",
+      "name_zh": "超幸运",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 3.2,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 142,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "flying",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "飞行",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 40,
+    "defense": 85,
+    "special_attack": 80,
+    "special_defense": 105,
+    "speed": 40,
+    "total": 405
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 175,
+        "name_en": "togepi",
+        "name_zh": "波克比",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 468,
+        "name_en": "togekiss",
+        "name_zh": "波克基斯",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 47,
+    "神奥": 174,
+    "伽勒尔": 258,
+    "洗翠": 128
+  },
+  "flavor_text_zh": "波克基古的身体是白色的，身上有着红色和蓝色的三角形式样的环。它有较长的脖子和腿，背上长着一对翅膀。 波克基古至今尚无在野外遇见它的纪录，据说是会带来幸运的宝可梦。它几乎不扇动翅膀，能平稳地浮在空中。它为了分发幸福，在全世界飞来飞去寻觅心地善良的人。如果发现心灵纯洁、性格温柔的人或宝可梦，就会现身撒下被称为幸福之粉的闪亮羽毛，并将幸福分给他们。若有人能知其心意并加以庇护，它便会改变形貌并为此人带来福报。它会跟在训练家身后，不待在温柔的人身边就会变得没有精神。",
+  "flavor_text_en": "No records exist of Togetic being seen in the wilds. Rumors abound that it evolves under the loving care of a trusted human companion, upon whom the Pokémon then bestows great joy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 176,
+    "pokeapi_species_id": 176,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/176"
+  }
+}

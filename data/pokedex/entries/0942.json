@@ -1,0 +1,88 @@
+{
+  "entry_id": "0942",
+  "national_id": 942,
+  "form": "default",
+  "names": {
+    "en": "Maschiff",
+    "ja": "オラチフ",
+    "zh": "偶叫獒"
+  },
+  "generation": 9,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "わかぞうポケモン",
+  "category_zh": "小辈宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 逃跑",
+      "hidden": false
+    },
+    {
+      "name_en": "run-away",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "stakeout",
+      "name_zh": "蹲守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 16.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 150,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 68,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 78,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 51,
+    "speed": 51,
+    "total": 340
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 943,
+        "name_en": "mabosstiff",
+        "name_zh": "獒教父",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 196
+  },
+  "flavor_text_zh": "偶叫獒为了不被对手看扁而总是皱着一张脸，却反而会让哭泣的孩子破涕为笑。它群体的凝聚力非常强。为了不被看扁，会露出不悦的表情威慑对手。它发达的颚部和獠牙拥有能咬碎岩石的强大威力。厚厚脂肪的防御力相当突出。",
+  "flavor_text_en": "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 942,
+    "pokeapi_species_id": 942,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/942"
+  }
+}

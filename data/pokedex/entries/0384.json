@@ -1,0 +1,69 @@
+{
+  "entry_id": "0384",
+  "national_id": 384,
+  "form": "default",
+  "names": {
+    "en": "Rayquaza",
+    "ja": "レックウザ",
+    "zh": "烈空坐"
+  },
+  "generation": 3,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "types_zh": [
+    "龙",
+    "飞行"
+  ],
+  "category": "てんくうポケモン",
+  "category_zh": "天空宝可梦",
+  "abilities": [
+    {
+      "name_en": "air-lock",
+      "name_zh": "气闸",
+      "hidden": false
+    }
+  ],
+  "height_m": 7.0,
+  "weight_kg": 206.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 150,
+    "defense": 90,
+    "special_attack": 150,
+    "special_defense": 90,
+    "speed": 95,
+    "total": 680
+  },
+  "ev_yield": {
+    "attack": 2,
+    "special_attack": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 200
+  },
+  "flavor_text_zh": "烈空坐是一条飞龙，全身大部分是绿色的，在肩和身体下方处有着红色边缘、像舵一样的侧翼，它的尾巴末梢上还有相似样子的鳍。烈空坐的身体上围绕着黄色环状的图案，最终延伸至头顶上的黄色圆环。它有两肢，上面带着三只爪的腕子。它的头上有两个长而扁平的角一样的结构，其下面还有两个小些的角。烈空坐有突出的牙龈，在上吻部的尖端有两颗清晰可辨的獠牙，而其他的牙齿似乎完全被它的牙龈组织包裹住了。它有小的黄色眼睛，其中有黑色的瞳孔。超级烈空坐绿色的皮肤像绿宝石般闪闪生辉。它额头新增类似“Δ”的纹样，牙龈组织变成了金色，下面的一对角延伸至嘴部前方呈拱卫状，并且上角、下角和尾端有着类似绸带的金色长状物，连在下角上的触须有类似“∞”的图样，原本环状图案的位置镶嵌着发光的金色宝玉。 烈空坐在地球的臭氧层中生活了数亿年，半夜时飞翔的姿态就像流星一样，从未降落到地面过。因为栖息在高高的云层之上的臭氧层，所以从地面无法看见它的样子。世间流传着其调解 固拉多 与 盖欧卡 之间争斗的传说，据说当盖欧卡与固拉多互相战斗时，它就会降临地面。它似乎以大气层中的水和颗粒为食，吞食陨石作为食物，用储存在体内的陨石能量来超级进化。传言说，烈空坐掌握着 超级进化 的秘密 [ 1 ] 。 超级烈空坐从突出下颚伸出的长长的触须放出粒子。这些粒子能控制气体的浓度和湿度，操纵天气。 [ 2 ] 夜空中闪耀的流星可能是它追逐陨石飞舞的身姿。 得文公司 的研究员称，烈空坐之所以不需要 超级石 就能 超级进化 ，是因为它体内的“ 三角器官 （日文︰ ミカド器官 ，英文︰ Mikado organ ）”能够发挥如同超级石的力量，三角器官会将烈空坐吞下的陨石和烈空坐原本的能量相结合，成为代替超级石的力量。",
+  "flavor_text_en": "It flies forever through the ozone layer, consuming meteoroids for sustenance. The many meteoroids in its body provide the energy it needs to Mega Evolve.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 384,
+    "pokeapi_species_id": 384,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/384"
+  }
+}

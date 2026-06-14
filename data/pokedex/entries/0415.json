@@ -1,0 +1,88 @@
+{
+  "entry_id": "0415",
+  "national_id": 415,
+  "form": "default",
+  "names": {
+    "en": "Combee",
+    "ja": "ミツハニー",
+    "zh": "三蜜蜂"
+  },
+  "generation": 4,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "types_zh": [
+    "虫",
+    "飞行"
+  ],
+  "category": "はちのこポケモン",
+  "category_zh": "幼蜂宝可梦",
+  "abilities": [
+    {
+      "name_en": "honey-gather",
+      "name_zh": "采蜜",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "活力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 5.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 49,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 42,
+    "special_attack": 30,
+    "special_defense": 42,
+    "speed": 70,
+    "total": 244
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 416,
+        "name_en": "vespiquen",
+        "name_zh": "蜂女王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 53,
+    "伽勒尔": 116,
+    "洗翠": 70,
+    "帕底亚": 38
+  },
+  "flavor_text_zh": "三蜜蜂像三个蜂孔，每个蜂孔各有张脸，上面两张脸各有一只触角，边上还各有一只翅膀。雄性三蜜蜂下面的脸上方没有红点。 三蜜蜂从出生时起就是三只一起，但每一只对花蜜的喜好却略有不同。它对身为女王的宝可梦宣誓效忠。为了自己的族群并取悦蜂女王，它从早到晚一直都在辛勤搬运甜甜的花蜜，花蜜的风味依群体的不同而异。有时它也会被性情贪婪的 狩猎凤蝶 驱赶，以便独占狩猎凤蝶爱吃的花蜜。三蜜蜂积蓄在巢中的花蜜也时常被 熊宝宝 毫不客气地占为己有。到了夜晚就会有大约100只的三蜜蜂聚成一团，互相依偎着入睡，形成巨大的蜂巢。 绅士蛾 会在深夜里很活跃地飞来飞去，从睡着的三蜜蜂的巢穴里化为己用蜂蜜后逃走。",
+  "flavor_text_en": "They swear fealty to a queen Pokémon and work diligently to gather nectar. Each swarm produces a different flavor of honey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 415,
+    "pokeapi_species_id": 415,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/415"
+  }
+}

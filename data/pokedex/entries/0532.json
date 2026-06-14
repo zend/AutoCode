@@ -1,0 +1,90 @@
+{
+  "entry_id": "0532",
+  "national_id": 532,
+  "form": "default",
+  "names": {
+    "en": "Timburr",
+    "ja": "ドッコラー",
+    "zh": "搬运小匠"
+  },
+  "generation": 5,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "きんこつポケモン",
+  "category_zh": "筋骨宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力 / 或 / 强行",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 12.5,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 61,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 55,
+    "special_attack": 25,
+    "special_defense": 35,
+    "speed": 35,
+    "total": 305
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 533,
+        "name_en": "gurdurr",
+        "name_zh": "铁骨土人",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 38,
+    "伽勒尔": 171,
+    "北上": 85
+  },
+  "flavor_text_zh": "搬运小匠是全身灰黄色皮肤的宝可梦，总是在肩上扛著一块长柱状的木条。搬运小匠全身有粉红色的青筋突出，充满活力的大眼睛下是棕色的鼻子。其头部前额略微凸起，后脑勺则有仿佛头巾般的两条梭状构造。 搬运小匠通过挥舞方材战斗。它喜欢帮忙做建筑的工作，经常拿着方材走，是会出现在建筑工地帮忙干活的宝可梦。因为下雨而停工时会乱挥木材大闹一番。它长大后会换大的方材拿，如果搬运小匠可以搬起自己体重3倍左右的方材，就代表它进化的日子要到了。",
+  "flavor_text_en": "Timburr that have started carrying logs that are about three times their size are nearly ready to evolve.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 532,
+    "pokeapi_species_id": 532,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/532"
+  }
+}

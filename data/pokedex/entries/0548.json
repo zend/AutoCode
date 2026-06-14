@@ -1,0 +1,92 @@
+{
+  "entry_id": "0548",
+  "national_id": 548,
+  "form": "default",
+  "names": {
+    "en": "Petilil",
+    "ja": "チュリネ",
+    "zh": "百合根娃娃"
+  },
+  "generation": 5,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "ねっこポケモン",
+  "category_zh": "根茎宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素 / 或 / 我行我素",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "叶子防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 6.6,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 56,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 35,
+    "defense": 50,
+    "special_attack": 70,
+    "special_defense": 50,
+    "speed": 30,
+    "total": 280
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 549,
+        "name_en": "lilligant",
+        "name_zh": "裙儿小姐",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 54,
+    "阿罗拉": 85,
+    "洗翠": 93,
+    "帕底亚": 104,
+    "北上": 66
+  },
+  "flavor_text_zh": "百合根娃娃身体大部分是绿色的。圆形的头和条纹使它看起来像洋葱一类植物的球根。它头上长有三根椭圆形的叶子，白色的脸蛋上看起来没有鼻子或嘴，只有一双细长的褐色竖卵形的眼睛。它的脖子上有绿色的托叶，下方的身体有五个粗短的桩，其中两个像是手臂，两个像是腿。百合根娃娃只有雌性，也没有对应的雄性宝可梦与它配对。 百合根娃娃会出现在清澈的水边。因为非常喜欢水分和营养充足的土壤，所以百合根娃娃居住的土地，作物生长旺盛。如果栖息地的环境变差，就会群体迁移到新的地方去。有时也会在被精心照料过的田地或花坛里定居下来。它头上的叶子的颜色越深就越健康，就算落了也会立马长回来。如果时不时修剪叶子，就会长成圆鼓鼓很华丽的样子。头上的叶片是人们爱用的药材，苦得让人头晕眼花，但用来一咬就能瞬间恢复精神。用它头上的叶子煮出的汤有时会被作为驱虫剂使用。如果利用阳光晒干它头上的叶子，再煎煮后饮用，会马上变得有活力，在老年人中很受欢迎。",
+  "flavor_text_en": "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 548,
+    "pokeapi_species_id": 548,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/548"
+  }
+}

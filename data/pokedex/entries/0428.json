@@ -1,0 +1,92 @@
+{
+  "entry_id": "0428",
+  "national_id": 428,
+  "form": "default",
+  "names": {
+    "en": "Lopunny",
+    "ja": "ミミロップ",
+    "zh": "长耳兔"
+  },
+  "generation": 4,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "うさぎポケモン",
+  "category_zh": "兔子宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "klutz",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "limber",
+      "name_zh": "柔软",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 33.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 76,
+    "defense": 84,
+    "special_attack": 54,
+    "special_defense": 96,
+    "speed": 105,
+    "total": 480
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 427,
+        "name_en": "buneary",
+        "name_zh": "卷卷耳",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 68,
+    "洗翠": 65,
+    "密阿雷": 110
+  },
+  "flavor_text_zh": "长耳兔形似一只兔子，全身是棕色的，脚和团状毛是奶油色的。它有粉红色的眼睛和一个粉红色的小鼻子。它的耳朵是折叠起来的。超级长耳兔的耳朵发生了变化，腿部的皮肤也变为黑色。它耳朵的毛发变得少了很多。 长耳兔是警戒心很强的宝可梦，会轻盈地蹦跳着奔跑。一旦感知到危险，就会用耳朵尖上蓬松柔软的毛包住身体，然后轻巧地跳起来逃之夭夭。它不喜欢战斗，但遇到危险时便会施展破坏力超群的踢击。它能够用柔软的脚使出有力的脚踢，使出彷如空手道大师般的踢击将来犯的对手轻松击退。它一年会换两次毛，当高温的季节结束后，就会换上富含空气的体毛，准备抵御寒冷。寒冷季节的毛非常柔软，保暖力十足且极为轻盈，品质上乘。用这个毛制作的围巾和帽子非常温暖。它的耳朵似乎非常敏感，触摸时要温柔小心，否则会被它用柔软的脚狠踹。它很爱干净，常常会梳理耳朵尖的毛，从不疏于保养自己。 超级长耳兔脾气暴躁又好战。它战斗的本能因超级进化而觉醒，舍弃了干扰它攻击的毛发后会像鞭子一样挥动耳朵鞭打敌人。",
+  "flavor_text_en": "Its fur is warm and yet remarkably light. This Pokémon kicks as though it were a master of karate, driving back its opponents with ease.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 428,
+    "pokeapi_species_id": 428,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/428"
+  }
+}

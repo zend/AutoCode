@@ -1,0 +1,85 @@
+{
+  "entry_id": "0846",
+  "national_id": 846,
+  "form": "default",
+  "names": {
+    "en": "Arrokuda",
+    "ja": "サシカマス",
+    "zh": "刺梭鱼"
+  },
+  "generation": 8,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "とつげきポケモン",
+  "category_zh": "突击宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": false
+    },
+    {
+      "name_en": "propeller-tail",
+      "name_zh": "螺旋尾鳍",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 56,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 41,
+    "attack": 63,
+    "defense": 40,
+    "special_attack": 40,
+    "special_defense": 30,
+    "speed": 66,
+    "total": 280
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 847,
+        "name_en": "barraskewda",
+        "name_zh": "戽斗尖梭",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 180,
+    "帕底亚": 136,
+    "北上": 90
+  },
+  "flavor_text_zh": "刺梭鱼体呈鱼雷状，头如梭，嘴巴尖，下颌稍长于上颌，长有突出的犬齿。尾鳍三片，形似螺旋桨。 刺梭鱼尖锐的下巴是它的骄傲。它会用又硬又尖的下巴发动突击捕杀猎物，但它视力很差，因此成功率很低。它只能直线游泳，只要发现周围有什么小动作，就会一直线冲过去。因吃太饱而动作变得迟缓的个体会先遭到 电海燕 的群体袭击，也会被 古月鸟 整只吞了下去。",
+  "flavor_text_en": "After it’s eaten its fill, its movements become extremely sluggish. That’s when Cramorant swallows it up.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 846,
+    "pokeapi_species_id": 846,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/846"
+  }
+}

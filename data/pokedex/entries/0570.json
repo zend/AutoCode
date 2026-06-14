@@ -1,0 +1,79 @@
+{
+  "entry_id": "0570",
+  "national_id": 570,
+  "form": "default",
+  "names": {
+    "en": "Zorua",
+    "ja": "ゾロア",
+    "zh": "索罗亚"
+  },
+  "generation": 5,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "わるぎつねポケモン",
+  "category_zh": "恶狐宝可梦",
+  "abilities": [
+    {
+      "name_en": "illusion",
+      "name_zh": "幻觉",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 12.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 66,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 40,
+    "special_attack": 80,
+    "special_defense": 40,
+    "speed": 65,
+    "total": 330
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 571,
+        "name_en": "zoroark",
+        "name_zh": "索罗亚克",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 76,
+    "帕底亚": 228
+  },
+  "flavor_text_zh": "索罗亚是一只外形类似狐狸崽的宝可梦。它的身体呈灰黑色，瞳孔呈淡蓝色，脖子上的毛为黑色，四肢、眼睛周围以及头上突起的如同火焰般形状的毛发上均为暗红色。洗翠索罗亚的身体呈灰白色，瞳孔呈淡橙色，脖子和头上的毛和尾巴为红白相间，额上有红色的两个圆。与至今被发现的样子不同，它们头部、颈部和尾部的长毛所散发出的怨恨能量会显现出像是对方亡灵的模样。 索罗亚会幻化成人类或其他宝可梦，通过隐藏自己的本来面貌来保护自己不受危险侵害。它经常幻化成和对手一模一样的外表，趁对方受骗惊吓的空当逃之夭夭。之所以学会了幻化成其他东西的能力，似乎是因为它的性格比较胆小。它不和伙伴呆在一起的时候，通常都会幻化成其他东西。为了寻找食物，有时甚至会幻化成人类出现在城镇里，在多数情况下会幻化成沉默的小孩。平时很爱说话的孩子如果突然不说话了，或许是被索罗亚替换了。 洗翠索罗亚因为会让对手看见不可思议的幻影，因此过去在别的地方被人忌讳并被赶出了栖息地。但由于无法忍受与其他宝可梦的斗争和严苛的自然环境，最后不幸丧生。残留下来的灵魂对人类和宝可梦的强烈怨恨能量转化为力量，从其头部冉冉飘升，索罗亚也转生成了这个 幽灵属性 的样子。有时在发现单独行动的宝可梦或人之后，洗翠地区的索罗亚会幻化成对方的模样现身去洗刷仇恨。它们似乎还会吸收对方在看到这一景象后所产生的恐惧，并转化为自己的力量。 [ 1 ]",
+  "flavor_text_en": "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 570,
+    "pokeapi_species_id": 570,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/570"
+  }
+}

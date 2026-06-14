@@ -1,0 +1,91 @@
+{
+  "entry_id": "0582",
+  "national_id": 582,
+  "form": "default",
+  "names": {
+    "en": "Vanillite",
+    "ja": "バニプッチ",
+    "zh": "迷你冰"
+  },
+  "generation": 5,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "しんせつポケモン",
+  "category_zh": "新雪宝可梦",
+  "abilities": [
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯 / 或 / 雪隐",
+      "hidden": false
+    },
+    {
+      "name_en": "snow-cloak",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 5.7,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 61,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 36,
+    "attack": 50,
+    "defense": 50,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 44,
+    "total": 305
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 583,
+        "name_en": "vanillish",
+        "name_zh": "多多冰",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 88,
+    "阿罗拉": 255,
+    "伽勒尔": 72,
+    "密阿雷": 113
+  },
+  "flavor_text_zh": "官方四格漫画中无雪状态时的迷你冰 迷你冰长得类似冰淇淋，其上半的冰的部分仅仅只是盖了一层薄薄的雪状奶油，奶油下面的冰才是本体。 [ 1 ] 它的瞳孔呈蓝色，脸部两旁有个四边形的物体，而它的下半身是蓝色的冰柱，比头部小很多，两旁有两只小手，周围有一些寒气。 迷你冰被认为是从朝阳照射但仍不愿融化的冰柱中诞生的宝可梦，到了晚上会把身体埋在雪里睡觉。它无法在炎热的地方生存，会为了能让自己生活得更舒适吐出零下50度的冷气冻住四周。如果呆在温暖的场所，就会一点点地变小。 冰鬼护 喜欢吃的是迷你冰等原本就冻着的宝可梦。它能用冰冷的气息制造雪的结晶，让天上下雪。抱紧它的话就会感觉凉凉的非常舒服。在炎热地区，是每家必备一只的便利宝可梦。",
+  "flavor_text_en": "Supposedly, this Pokémon was born from an icicle. It spews out freezing air at −58 degrees Fahrenheit to make itself more comfortable.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 582,
+    "pokeapi_species_id": 582,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/582"
+  }
+}

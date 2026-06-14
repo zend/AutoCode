@@ -1,0 +1,93 @@
+{
+  "entry_id": "0167",
+  "national_id": 167,
+  "form": "default",
+  "names": {
+    "en": "Spinarak",
+    "ja": "イトマル",
+    "zh": "圆丝蛛"
+  },
+  "generation": 2,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "types_zh": [
+    "虫",
+    "毒"
+  ],
+  "category": "いとはきポケモン",
+  "category_zh": "吐丝宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感 / 或 / 不眠",
+      "hidden": false
+    },
+    {
+      "name_en": "insomnia",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "狙击手",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 8.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 50,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 40,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 30,
+    "total": 250
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 168,
+        "name_en": "ariados",
+        "name_zh": "阿利多斯",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 32,
+    "阿罗拉": 22,
+    "北上": 1,
+    "密阿雷": 58
+  },
+  "flavor_text_zh": "圆丝蛛的头部与腹部是浅青色的，头上长有一条白色的角。它的牙齿是红色的，眼瞳是黑色的。它有三对足，足部上有黄色与深青色花纹。它的腹部上有两个深青色的圆点和一个半月形的印记。 圆丝蛛是有耐心的宝可梦，爱吃 萌虻 。它在用又细又结实的丝布满陷阱后，就会一直等着猎物落网。它在猎物上门之前会在自己的巢穴中好几天保持同一姿势，一动不动地持续等待。即使有猎物被困在它用丝做成的巢里，它也会一动不动地等待到天黑。它牙齿上的毒并不强烈，但用来削弱那些挂在网上无法动弹的猎物是绰绰有余了。用丝做成的陷阱是它的第二条神经网络，据说仅凭丝上传来的细微振动，它就能判断出猎物的种类。由它吐丝制成的巢穴非常坚固，即便放上十公斤重的岩石也不会破掉。有些渔夫会用其坚韧的丝，编织制作成可以捕捉鱼宝可梦的网。",
+  "flavor_text_en": "Although the poison from its fangs isn’t that strong, it’s potent enough to weaken prey that gets caught in its web.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 167,
+    "pokeapi_species_id": 167,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/167"
+  }
+}

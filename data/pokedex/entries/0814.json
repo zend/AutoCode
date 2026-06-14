@@ -1,0 +1,93 @@
+{
+  "entry_id": "0814",
+  "national_id": 814,
+  "form": "default",
+  "names": {
+    "en": "Raboot",
+    "ja": "ラビフット",
+    "zh": "腾蹴小将"
+  },
+  "generation": 8,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "うさぎポケモン",
+  "category_zh": "兔子宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "libero",
+      "name_zh": "自由者",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 9.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 147,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 86,
+    "defense": 60,
+    "special_attack": 55,
+    "special_defense": 60,
+    "speed": 94,
+    "total": 420
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 813,
+        "name_en": "scorbunny",
+        "name_zh": "炎兔儿",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 815,
+        "name_en": "cinderace",
+        "name_zh": "闪焰王牌",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 5,
+    "蓝莓": 231
+  },
+  "flavor_text_zh": "腾蹴小将全身毛色为灰色、红色、黑色，耳朵下垂，眼睛瞳孔为红色，眼神冷酷。身体上的红、黑色毛皮造型类似于帽T，且遮住嘴巴，脚底有一块红色斑点。全身的体毛变得更长，蓬松的体毛不仅帮助它增强了抵御寒冷的能力，还发挥着控制“火之能量”的效果，使它能在更短的时间内达到能量全开的状态，能够使出温度更高的火属性招式。前额和脚底的温度上升得更高，会使出高温的头槌和踢击。 进化使腾蹴小将拥有了更强的脚力，行动时会把手藏进腹部的体毛里。虽然它是为了训练脚技而不使用自己的双手，但那似乎也有帮助它保持体温的效果。它还经常用脚踢落高高树木上的树果，在食用之前会先拿来练习颠球，借此锻炼自己的脚法。 [ 1 ]",
+  "flavor_text_en": "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 814,
+    "pokeapi_species_id": 814,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/814"
+  }
+}

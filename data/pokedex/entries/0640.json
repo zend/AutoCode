@@ -1,0 +1,68 @@
+{
+  "entry_id": "0640",
+  "national_id": 640,
+  "form": "default",
+  "names": {
+    "en": "Virizion",
+    "ja": "ビリジオン",
+    "zh": "毕力吉翁"
+  },
+  "generation": 5,
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "types_zh": [
+    "草",
+    "格斗"
+  ],
+  "category": "そうげんポケモン",
+  "category_zh": "草原宝可梦",
+  "abilities": [
+    {
+      "name_en": "justified",
+      "name_zh": "正义之心",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 200.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 91,
+    "attack": 90,
+    "defense": 72,
+    "special_attack": 90,
+    "special_defense": 129,
+    "speed": 108,
+    "total": 580
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 146
+  },
+  "flavor_text_zh": "毕力吉翁是一种与羚羊和鹿相像的四足宝可梦，身体大部分为绿色。在其头部两侧各有一只末端钝而卷曲的角。它的口鼻部尖，一道黑色的纹路自其鼻一直延伸到头部后侧，面部、后腿以及身体暗面为白色。在其颈部两侧各有一片末端呈粉色的叶子，肩部有如草般茂盛的绒毛。背部有数丛尖尖的绒毛，并最终汇成了毕力吉翁的尾。小腿类似及膝长靴，并在膝部缀有粉色花纹，蹄呈黑色。 毕力吉翁头上的角是锋利的刀刃，会以敏捷的身手像旋风一般将敌人玩弄于股掌之中，用锋利的角毫不留情地切斩对手。它与 勾帕路翁 和 代拉基翁 一起教会了 凯路迪欧 如何战斗。传说它也曾经与勾帕路翁和代拉基翁一起，为了保护由于人类的战争而失去故乡的合众地区的宝可梦而与人类作战。",
+  "flavor_text_en": "It darts around opponents with a flurry of quick movements, slicing them up with its horns.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 640,
+    "pokeapi_species_id": 640,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/640"
+  }
+}

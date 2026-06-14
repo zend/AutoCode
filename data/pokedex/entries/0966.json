@@ -1,0 +1,85 @@
+{
+  "entry_id": "0966",
+  "national_id": 966,
+  "form": "default",
+  "names": {
+    "en": "Revavroom",
+    "ja": "ブロロローム",
+    "zh": "普隆隆姆"
+  },
+  "generation": 9,
+  "types": [
+    "steel",
+    "poison"
+  ],
+  "types_zh": [
+    "钢",
+    "毒"
+  ],
+  "category": "たきとうポケモン",
+  "category_zh": "多汽缸宝可梦",
+  "abilities": [
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": false
+    },
+    {
+      "name_en": "filter",
+      "name_zh": "过滤",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 120.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 119,
+    "defense": 90,
+    "special_attack": 54,
+    "special_defense": 67,
+    "speed": 90,
+    "total": 500
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 965,
+        "name_en": "varoom",
+        "name_zh": "噗隆隆",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 294
+  },
+  "flavor_text_zh": "普隆隆姆通过增加到8个之多的汽缸里诱爆混有毒素和岩石成分的气体来制造能量。它会用排气的声音猛烈地威吓对手，会从圆筒形的嘴巴吐出舌头并喷洒毒液。 天星队 的 奥尔迪加 活用家族的设计才能，将普隆隆姆改造成了各帮班的 天星队车 。",
+  "flavor_text_en": "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 966,
+    "pokeapi_species_id": 966,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/966"
+  }
+}

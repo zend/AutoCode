@@ -1,0 +1,92 @@
+{
+  "entry_id": "0462",
+  "national_id": 462,
+  "form": "default",
+  "names": {
+    "en": "Magnezone",
+    "ja": "ジバコイル",
+    "zh": "自爆磁怪"
+  },
+  "generation": 4,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "types_zh": [
+    "电",
+    "钢"
+  ],
+  "category": "じばポケモン",
+  "category_zh": "磁场宝可梦",
+  "abilities": [
+    {
+      "name_en": "magnet-pull",
+      "name_zh": "磁力 / 或 / 结实",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "analytic",
+      "name_zh": "分析",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 180.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 241,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 115,
+    "special_attack": 130,
+    "special_defense": 90,
+    "speed": 60,
+    "total": 535
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 82,
+        "name_en": "magneton",
+        "name_zh": "三合一磁怪",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 180,
+    "阿罗拉": 49,
+    "洗翠": 179,
+    "帕底亚": 211,
+    "蓝莓": 118
+  },
+  "flavor_text_zh": "自爆磁怪的身体呈灰色。它能够在空中漂浮而不接触地面。其躯体中间的红色眼睛外观近似装饰性花纹，实际具备视觉功能并且可以转动，但不具备情感表达能力。两侧肩上的圆形眼睛则表现出更为明显的生物意识。 在特殊磁场的影响下，三合一磁怪的分子构造被重组，从而进化成了自爆磁怪，可以从三个组件中放出磁力。有时会放出过强的磁力，使自爆磁怪之间互相吸引，变得动弹不得。据说它通过头部的天线接收来自宇宙的电波，受到未知对象的操控。它会一边在空中来回飞行，一边从独角向天空发送怪异电波和接收未知电波。经常有把飞向夜空的自爆磁怪错看成ＵＦＯ的报告，直至今日仍有人们相信它是来自宇宙的。它会用雷达监视着自己的领地。一旦发现入侵者，就会立即用破坏光线惩治。有集团曾经试图用科学的力量让自爆磁怪进化，但是以失败告终。",
+  "flavor_text_en": "I theorize that a special magnetic field influenced this Pokémon, changing its molecular structure and causing it to evolve. It emits strange radio waves toward space from its antenna.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 462,
+    "pokeapi_species_id": 462,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/462"
+  }
+}

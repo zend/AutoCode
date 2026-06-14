@@ -1,0 +1,90 @@
+{
+  "entry_id": "0526",
+  "national_id": 526,
+  "form": "default",
+  "names": {
+    "en": "Gigalith",
+    "ja": "ギガイアス",
+    "zh": "庞岩怪"
+  },
+  "generation": 5,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "こうあつポケモン",
+  "category_zh": "高压宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 扬沙",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-stream",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 260.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 232,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 135,
+    "defense": 130,
+    "special_attack": 60,
+    "special_defense": 80,
+    "speed": 25,
+    "total": 515
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 525,
+        "name_en": "boldore",
+        "name_zh": "地幔岩",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 32,
+    "阿罗拉": 100,
+    "伽勒尔": 170
+  },
+  "flavor_text_zh": "庞岩怪是由一块巨岩的和四块藏青色的岩石构成的宝可梦。其身上布满许多尖锐棱角的橙色结晶石。庞岩怪身体的主干由一个近似圆锥体的岩石构成，胸前和身后正中心各有一颗橙色的结晶石。它的头部有一道从正头顶贯冲到眉心直下到下巴的橙色结晶石，而下巴左右也各有一颗结晶石，头两侧也各有一颗橙色的结晶石相衬。庞岩怪岩石构成的双眼是黄色外圈，橙色内心，且有黑色的瞳孔。庞岩怪用于行走的脚由前后各两块一共四块的藏青色近似于三角体的岩石构成，这些岩石的正前末端都有两粒尖锐橙色的结晶石，就像爪子，而脚的四周也有凸起的橙色结晶石。庞岩怪四只脚和身体的连接处是四个灰色的条状结构。 庞岩怪平常都把身体藏在地底深处。它会用生长在身上的橙色结晶吸收的太阳光线，并在能量核心中发生反应后从嘴中作为光球发射出去。能量弹的威力巨大，足以吹飞山岳，具有可以击飞翻斗车的破坏力。如果以全力射出能量，那力量能让它自己的身体骤然产生出无数裂缝。但是它在晚上和雨天无法射击，只有在晴天才能射击。因为它拥有健壮的身体和相当大的马力，所以深受建设相关人员喜爱，被选作同伴的宝可梦。有时可以在工地或采石场看到它和 大王铜象 还有人类一起工作。",
+  "flavor_text_en": "Although its energy blasts can blow away a dump truck, they have a limitation— they can only be fired when the sun is out.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 526,
+    "pokeapi_species_id": 526,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/526"
+  }
+}

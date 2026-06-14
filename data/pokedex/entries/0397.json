@@ -1,0 +1,95 @@
+{
+  "entry_id": "0397",
+  "national_id": 397,
+  "form": "default",
+  "names": {
+    "en": "Staravia",
+    "ja": "ムクバード",
+    "zh": "姆克鸟"
+  },
+  "generation": 4,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "むくどりポケモン",
+  "category_zh": "椋鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 15.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 75,
+    "defense": 50,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 80,
+    "total": 340
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 396,
+        "name_en": "starly",
+        "name_zh": "姆克儿",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 398,
+        "name_en": "staraptor",
+        "name_zh": "姆克鹰",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 11,
+    "洗翠": 13,
+    "帕底亚": 98,
+    "北上": 29
+  },
+  "flavor_text_zh": "姆克鸟头顶的羽毛翘得更高，卷曲程度变得更大，爪子的前端出现了黑色的部分，显得更为锐利。它胸前的白色斑点更大，额头上的圆班则变为了灰色，雌性姆克鸟前额的斑点更小。它尾部的羽毛也变得更长，鸟喙尖端依然有着黑色的一块花纹。 姆克鸟在森林和草原上空飞来飞去，追捕虫宝可梦，独处时会发出吵闹的叫声。它对自己的弱小心知肚明，所以平时总是形成醒目的大群体来生活，群体内总是纷争不断。各个团队之间的争斗很激烈，如果遇到同类的团队，就会开始争夺领地。据考察，头顶上冠羽的气派程度对它们而言是强者的象征。",
+  "flavor_text_en": "They form remarkably large flocks and are constantly fighting amongst themselves. I suspect that those with magnificent plumes on their heads are the strong ones.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 397,
+    "pokeapi_species_id": 397,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/397"
+  }
+}

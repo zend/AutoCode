@@ -1,0 +1,90 @@
+{
+  "entry_id": "0216",
+  "national_id": 216,
+  "form": "default",
+  "names": {
+    "en": "Teddiursa",
+    "ja": "ヒメグマ",
+    "zh": "熊宝宝"
+  },
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "こぐまポケモン",
+  "category_zh": "小熊宝可梦",
+  "abilities": [
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾 / 或 / 飞毛腿",
+      "hidden": false
+    },
+    {
+      "name_en": "quick-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "honey-gather",
+      "name_zh": "采蜜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 8.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 40,
+    "total": 330
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 217,
+        "name_en": "ursaring",
+        "name_zh": "圈圈熊",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 193,
+    "洗翠": 112,
+    "帕底亚": 215
+  },
+  "flavor_text_zh": "熊宝宝的身体是浅褐色的，头上有新月形的白色图案，它还有一个棕色的球形小尾巴。 熊宝宝一直在寻找蜂蜜，会把甜甜的蜜渗入手掌里后舔个不停，每只熊宝宝的蜜味道都不一样。感到不安时只要舔舔手掌，就会喜笑颜开。它找到蜂蜜后，新月花纹就会闪闪发光，有着在食物短缺的冬季之前将食物藏在各处的习性。熊宝宝的蜂蜜是由水果和 大针蜂 收集的花粉混合后制成的， 三蜜蜂 积蓄在巢中的花蜜也时常被它毫不客气地占为己有。它会偷偷跟踪三蜜蜂找出它们的巢，然后用手掌挖起大量蜜汁来享用。",
+  "flavor_text_en": "It licks its paws because of the sweet honey that has soaked into them. It is cunning, stealing into the nests of Combee and taking for itself the honey that the Combee have amassed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 216,
+    "pokeapi_species_id": 216,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/216"
+  }
+}

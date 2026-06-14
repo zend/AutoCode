@@ -1,0 +1,91 @@
+{
+  "entry_id": "0545",
+  "national_id": 545,
+  "form": "default",
+  "names": {
+    "en": "Scolipede",
+    "ja": "ペンドラー",
+    "zh": "蜈蚣王"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "types_zh": [
+    "虫",
+    "毒"
+  ],
+  "category": "メガムカデポケモン",
+  "category_zh": "巨蜈蚣宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺",
+      "hidden": false
+    },
+    {
+      "name_en": "swarm",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "speed-boost",
+      "name_zh": "加速",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.5,
+  "weight_kg": 200.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 218,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 100,
+    "defense": 89,
+    "special_attack": 55,
+    "special_defense": 69,
+    "speed": 112,
+    "total": 485
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 544,
+        "name_en": "whirlipede",
+        "name_zh": "车轮球",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 51,
+    "密阿雷": 70
+  },
+  "flavor_text_zh": "蜈蚣王有着梅红色与黑色相间的身体，瞳仁呈黄色，身上有形似圆圈的紫色斑纹，触角的颜色紫红相间，腹部呈灰黑色。 蜈蚣王具有较强的攻击性。它能以敏捷的动作穷追敌人，用头上的角进行攻击，在敌人毙命前绝不罢手。它会用颈部的爪子夹住猎物后直接将其摔向地面，等猎物动弹不得之后将带毒的尖刺猛戳进去施以剧毒，一击毙命。它睡觉时会把身体蜷起来，大概是进化前留下的习惯。蜈蚣王会和 焚焰蚣 激烈地争夺领地。输掉的那一方会成为另一方的猎物。 闪烁暗淡光芒的剧毒会作用于超级蜈蚣王的精神，让它变得更加凶暴。",
+  "flavor_text_en": "Scolipede engage in fierce territorial battles with Centiskorch. At the end of one of these battles, the victor makes a meal of the loser.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 545,
+    "pokeapi_species_id": 545,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/545"
+  }
+}

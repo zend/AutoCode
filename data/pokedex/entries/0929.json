@@ -1,0 +1,92 @@
+{
+  "entry_id": "0929",
+  "national_id": 929,
+  "form": "default",
+  "names": {
+    "en": "Dolliv",
+    "ja": "オリーニョ",
+    "zh": "奥利纽"
+  },
+  "generation": 9,
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "types_zh": [
+    "草",
+    "一般"
+  ],
+  "category": "オリーブポケモン",
+  "category_zh": "橄榄宝可梦",
+  "abilities": [
+    {
+      "name_en": "early-bird",
+      "name_zh": "早起",
+      "hidden": false
+    },
+    {
+      "name_en": "harvest",
+      "name_zh": "收获",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 11.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 124,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 52,
+    "attack": 53,
+    "defense": 60,
+    "special_attack": 78,
+    "special_defense": 78,
+    "speed": 33,
+    "total": 354
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 928,
+        "name_en": "smoliv",
+        "name_zh": "迷你芙",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 930,
+        "name_en": "arboliva",
+        "name_zh": "奥利瓦",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 85
+  },
+  "flavor_text_zh": "奥利纽乐于分享自己香气新鲜又美味可口的油，自古以来都与人类共存。当头上的果实沐浴了充足的阳光而开始成熟时，它就会远离人烟，踏上旅途。",
+  "flavor_text_en": "It basks in the sun to its heart’s content until the fruits on its head ripen. After that, Dolliv departs from human settlements and goes on a journey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 929,
+    "pokeapi_species_id": 929,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/929"
+  }
+}

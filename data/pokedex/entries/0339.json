@@ -1,0 +1,96 @@
+{
+  "entry_id": "0339",
+  "national_id": 339,
+  "form": "default",
+  "names": {
+    "en": "Barboach",
+    "ja": "ドジョッチ",
+    "zh": "泥泥鳅"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "types_zh": [
+    "水",
+    "地面"
+  ],
+  "category": "ひげうおポケモン",
+  "category_zh": "须鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝 / 或 / 危险预知",
+      "hidden": false
+    },
+    {
+      "name_en": "anticipation",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 1.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 48,
+    "defense": 43,
+    "special_attack": 46,
+    "special_defense": 41,
+    "speed": 60,
+    "total": 288
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 340,
+        "name_en": "whiscash",
+        "name_zh": "鲶鱼王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 127,
+    "神奥": 80,
+    "阿罗拉": 93,
+    "伽勒尔": 228,
+    "洗翠": 97,
+    "帕底亚": 168,
+    "北上": 162
+  },
+  "flavor_text_zh": "泥泥鳅的身体呈浅灰色，两侧有锯齿状的黑色花纹。它的眼睛很小，嘴巴为浅蓝色，上面长着两根细长的胡子。它的鱼鳍均为圆形，呈浅蓝色，胸鳍和背鳍上有黑点，尾鳍则没有。 泥泥鳅以水质混浊的沼泽为居所，藏身于浊水之中躲避天敌的视线。它的胡子上布满神经，是灵敏的雷达，能像人类的鼻子和舌头那样感知气味和味道。它会用两根长长的胡须探索浑浊的湖底，即使在泥泞浑浊的水中，也能侦查到猎物的位置。它从泥巴里只伸出２根胡子，等着猎物靠近自己。它身上覆盖着黏糊糊的膜，所以就算被鸟宝可梦啄到也可以哧溜一下挣脱出来，甚至因此诞生了比试徒手捕捉量的节日。包住全身的黏滑粘膜还具有能阻绝泥水里的微生物进入体内的作用，粘液干掉后身体就会变弱，某个地区流传着泥泥鳅是由泥土凝结而成的说法。",
+  "flavor_text_en": "Makes its home in swamps with murky water. The poor visibility hides this Pokémon from predators, and the slime on its body makes grasping it difficult.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 339,
+    "pokeapi_species_id": 339,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/339"
+  }
+}

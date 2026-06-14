@@ -1,0 +1,73 @@
+{
+  "entry_id": "0877",
+  "national_id": 877,
+  "form": "default",
+  "names": {
+    "en": "Morpeko",
+    "ja": "モルペコ",
+    "zh": "莫鲁贝可"
+  },
+  "generation": 8,
+  "types": [
+    "electric",
+    "dark"
+  ],
+  "types_zh": [
+    "电",
+    "恶"
+  ],
+  "category": "にめんポケモン",
+  "category_zh": "双面宝可梦",
+  "abilities": [
+    {
+      "name_en": "hunger-switch",
+      "name_zh": "饱了又饿",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 153,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 58,
+    "attack": 95,
+    "defense": 58,
+    "special_attack": 70,
+    "special_defense": 58,
+    "speed": 97,
+    "total": 436
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 344,
+    "北上": 95
+  },
+  "flavor_text_zh": "莫鲁贝可的身体在饱腹时分为三种颜色，左侧为黑色，右侧为褐色，中间和下身为黄色。瞳孔为黑色，两侧有粉色脸颊。在空腹状态时，两侧统一为黑色，中间和下身则变为紫色。同时瞳孔变为红色，牙齿紧闭，眼睛和嘴型均呈残月状。 莫鲁贝可有着每时每刻颊囊都会不停产生电能的特征。因为在产生电能的同时会消耗自身的能量，所以它随时都饿着肚子。它的胃很小，所以不常吃袋子里的种子的话，肚子马上就会饿。也因此，它无论何时都把用电烘烤过的树果种子装在像口袋一样的袋子，走到哪吃到哪。虽然总是在靠吃种子来抑制饥饿感，但若是饿过头，就会心烦意乱变得粗暴。 如果莫鲁贝可持续处于空腹状态的话，荷尔蒙的平衡就会产生变化，储存在颊囊里的能量也会从电属性变为恶属性。这不仅会使它的性情变得凶暴，连体毛的颜色都会变得不同。因为肚子饿扁了，会做尽一切的坏事直到把肚子填饱为止。即使用光了恶能量，也会大闹到填饱肚子为止。 [ 1 ]",
+  "flavor_text_en": "It carries electrically roasted seeds with it as if they’re precious treasures. No matter how much it eats, it always gets hungry again in short order.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 877,
+    "pokeapi_species_id": 877,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/877"
+  }
+}

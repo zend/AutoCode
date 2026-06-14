@@ -1,0 +1,86 @@
+{
+  "entry_id": "0291",
+  "national_id": 291,
+  "form": "default",
+  "names": {
+    "en": "Ninjask",
+    "ja": "テッカニン",
+    "zh": "铁面忍者"
+  },
+  "generation": 3,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "types_zh": [
+    "虫",
+    "飞行"
+  ],
+  "category": "しのびポケモン",
+  "category_zh": "忍者宝可梦",
+  "abilities": [
+    {
+      "name_en": "speed-boost",
+      "name_zh": "加速",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 12.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 160,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 61,
+    "attack": 90,
+    "defense": 45,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 160,
+    "total": 456
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 290,
+        "name_en": "nincada",
+        "name_zh": "土居忍士",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 43,
+    "伽勒尔": 105
+  },
+  "flavor_text_zh": "铁面忍者的脑袋是黄色的，两眼间有一道黑色的条纹，条纹中间是一个小圆。它的身子是黑色的，有一双灰色的前肢，还有两对翅膀。 铁面忍者非常喜欢甘甜的树液，会聚集在树液周围。它是行动十分迅速的宝可梦，会在四周飞快地移动。由于移动的速度过快，有时很难看到它的身影，说它无论什么攻击都能避开也不夸张。因为只能听见叫声，所以很长一段时间里它一直被认为是透明的宝可梦。如果一直听它的叫声，就会让人头痛不止。如果没有好好培育，它就会不听话，会持续大叫，所以据说它是用来测试训练家本领的宝可梦。",
+  "flavor_text_en": "This Pokémon is so quick, it is said to be able to avoid any attack. It loves to feed on tree sap.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 291,
+    "pokeapi_species_id": 291,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/291"
+  }
+}

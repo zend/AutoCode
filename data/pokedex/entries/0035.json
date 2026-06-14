@@ -1,0 +1,102 @@
+{
+  "entry_id": "0035",
+  "national_id": 35,
+  "form": "default",
+  "names": {
+    "en": "Clefairy",
+    "ja": "ピッピ",
+    "zh": "皮皮"
+  },
+  "generation": 1,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "ようせいポケモン",
+  "category_zh": "妖精宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯 / 或 / 魔法防守",
+      "hidden": false
+    },
+    {
+      "name_en": "magic-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "friend-guard",
+      "name_zh": "友情防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 7.5,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 150,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 113,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 45,
+    "defense": 48,
+    "special_attack": 60,
+    "special_defense": 65,
+    "speed": 35,
+    "total": 323
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 173,
+        "name_en": "cleffa",
+        "name_zh": "皮宝宝",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 36,
+        "name_en": "clefable",
+        "name_zh": "皮可西",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 35,
+    "城都": 41,
+    "神奥": 100,
+    "阿罗拉": 211,
+    "伽勒尔": 255,
+    "洗翠": 200,
+    "北上": 152,
+    "密阿雷": 56
+  },
+  "flavor_text_zh": "皮皮身体的皮毛是粉色的，身体呈星状的，背后有小翅膀。它的手上有三趾，脚只有一个趾。它的嘴里有一个小齿，眼睛边上有皱纹。它的耳朵是粉色的，尖端是褐色的。它两耳间的头顶有带卷的一簇毛发，尾巴也是带卷的。 皮皮是几乎见不到的宝可梦，被认为和伙伴们一起生活在安静的深山里，不可思议地在满月之夜见到的很多。在满月的夜晚，不知从何处而来的皮皮们会聚集起来跳舞，精力十足地玩耍，那周围也会被异常的磁场包围。它好像能通过将月光聚集在后背的翅膀上来浮在空中，沐浴着月光的翅膀会发出淡淡的光辉，那舞动的身姿如同妖精般惹人怜爱。即便不挥动翅膀，它也能浮在空中翩翩起舞。破晓时分，玩累了的皮皮们就会返回安静的深山里和伙伴们依偎在一起睡觉。据说在满月的夜晚，如果能看到皮皮们聚在一起跳舞，就能得到幸福。它是因可爱的举止和叫声而广受欢迎的宝可梦，有许多人都为它著迷。它在当宠物方面很受人欢迎，但是因为它生长或栖息的地方不多，数量稀少，所以不容易发现。如果随便把它带出来炫耀，就会被小偷盯上。",
+  "flavor_text_en": "It can be found in quiet mountain areas on a full moon's night. Its dancing and its tiny, faintly glowing wings confer upon it a lovely fairylike quality.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 35,
+    "pokeapi_species_id": 35,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/35"
+  }
+}

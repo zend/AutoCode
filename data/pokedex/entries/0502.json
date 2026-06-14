@@ -1,0 +1,92 @@
+{
+  "entry_id": "0502",
+  "national_id": 502,
+  "form": "default",
+  "names": {
+    "en": "Dewott",
+    "ja": "フタチマル",
+    "zh": "双刃丸"
+  },
+  "generation": 5,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "しゅぎょうポケモン",
+  "category_zh": "修行宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "硬壳盔甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 24.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 145,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 60,
+    "special_attack": 83,
+    "special_defense": 60,
+    "speed": 60,
+    "total": 413
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 501,
+        "name_en": "oshawott",
+        "name_zh": "水水獭",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 503,
+        "name_en": "samurott",
+        "name_zh": "大剑鬼",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 8,
+    "洗翠": 8,
+    "蓝莓": 207
+  },
+  "flavor_text_zh": "双刃丸是酷似忍者般的水属性宝可梦。说它酷似忍者是因为它有着类似手刃般的 扇贝贝 。它有着白色的猫一般的胡须，类似于 大尾狸 更小一点的梭状尾巴以及如同小丑般小小的椭圆红色鼻子。 双刃丸性情勤勉，严以律己，绝不疏忽对扇贝贝的保养。它会通过踏踏实实地反复练习来掌握运用扇贝贝的技巧。经过严格又残酷的修炼后，每只双刃丸都会习得不同套路的扇贝贝刀法，能使用两枚扇贝贝施展的如行云流水般的太刀技。或许是拜平日的锻炼所赐，运用两枚扇贝贝刀的高超技术令剑豪也甘拜下风，据说被人们当作了剑术的范本。",
+  "flavor_text_en": "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 502,
+    "pokeapi_species_id": 502,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/502"
+  }
+}

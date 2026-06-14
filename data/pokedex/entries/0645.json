@@ -1,0 +1,76 @@
+{
+  "entry_id": "0645",
+  "national_id": 645,
+  "form": "default",
+  "names": {
+    "en": "Landorus",
+    "ja": "ランドロス",
+    "zh": "土地云"
+  },
+  "generation": 5,
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "types_zh": [
+    "地面",
+    "飞行"
+  ],
+  "category": "ほうじょうポケモン",
+  "category_zh": "丰饶宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 68.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 3,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 89,
+    "attack": 125,
+    "defense": 90,
+    "special_attack": 115,
+    "special_defense": 80,
+    "speed": 101,
+    "total": 600
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 151,
+    "洗翠": 233
+  },
+  "flavor_text_zh": "化身形态的土地云是一种通体橘色，肌肉发达的宝可梦。在其额头有三个尖锐的粉色角呈弓形分布。土地云在脑后长有白色的、形状与原木相似的突出结构。其有锯齿状的白色胡须，头部两侧有两只尖尖的橙色耳朵。土地云的眼睛为黄色，白色的瞳孔小而圆，它的右眼比左眼小一些。以橙黄色为底色的上半身随机分布着大小不一的，形似钻石、卵石和雨滴的深粉色斑点。土地云胸部呈粉色，它的肩部、肘部和肚脐均有雨滴状的图案装饰。土地云的双臂肌肉发达，长有五指的手。它的整个下半身由洁白的云完全包裹，粗而卷曲的棕色树枝状尾巴从中伸出。土地云的尾巴上有许多前段平整的凸起，每个凸起的末端均为深粉色。灵兽形态的土地云变得像一只老虎，它的头部变化不大，但眼睛的大小变得比之前更加明显。原本下半身的云转移到了四足上，胡子略有变化并将嘴盖住，头上的尖刺的形状也变得更长，肚脐处粉色图案处有一颗米色宝石。土地云只有雄性，它对应的雌性宝可梦是 眷恋云 。 土地云能吸收风和雷后变成能量给予土壤营养令大地丰饶。尾部流出的能量补充了土壤的养分令农作物茁壮成长。它造访的土地，作物收成必定大好，因此被称为农田之神。化身形态的土地云会在 旋风 与 电击 的化身互相斗争之时现身并加以平息。在风暴与雷电过后，大地必将迎来丰收。灵兽形态的土地云以灵兽之姿翱翔天际时，会为大地带来丰收，因而受到洗翠地区众人崇敬。只需一刻光阴便能纵断洗翠大地。",
+  "flavor_text_en": "When the incarnations of wind and of lightning clash, Landorus arrives to quell the conflict. After the tempests and thunderbolts abate, the land is sure to be blessed with bountiful harvests.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 645,
+    "pokeapi_species_id": 645,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/645"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "entry_id": "0859",
+  "national_id": 859,
+  "form": "default",
+  "names": {
+    "en": "Impidimp",
+    "ja": "ベロバー",
+    "zh": "捣蛋小妖"
+  },
+  "generation": 8,
+  "types": [
+    "dark",
+    "fairy"
+  ],
+  "types_zh": [
+    "恶",
+    "妖精"
+  ],
+  "category": "いじわるポケモン",
+  "category_zh": "捉弄宝可梦",
+  "abilities": [
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 5.5,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 53,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 45,
+    "defense": 30,
+    "special_attack": 55,
+    "special_defense": 40,
+    "speed": 50,
+    "total": 265
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 860,
+        "name_en": "morgrem",
+        "name_zh": "诈唬魔",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 238,
+    "帕底亚": 285,
+    "北上": 190
+  },
+  "flavor_text_zh": "捣蛋小妖外表上看起来就像是传统印象中喜欢捣蛋的小妖精，它的身体小，四肢很瘦。它的皮肤是粉红色。它的眼睛眼白较大但瞳孔很小。他的嘴里出现了紫色的舌头和两个尖牙。它的手只有三个手指。它的头部很大，大概等同于自己的身体，它的头部后面有一片不同颜色的翘起的部位，像单片的翅膀。捣蛋小妖只有雄性，对应的雌性宝可梦为 迷布莉姆 。 捣蛋小妖成群结队地生活，彼此之间会恶作剧和找不痛快，以此来磨炼制造麻烦的技能。它会用鼻子吸收人类或宝可梦情绪糟糕时产生的负能量，来为自己补充活力。它不但会溜进民宅偷盗，还会吸收人们悔恨时的负面能量。它之所以会欺负与自己亲密的对象，是因为如果不吸收负面情绪，就会很烦躁。",
+  "flavor_text_en": "It sneaks into people’s homes, stealing things and feasting on the negative energy of the frustrated occupants.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 859,
+    "pokeapi_species_id": 859,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/859"
+  }
+}

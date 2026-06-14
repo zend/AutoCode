@@ -1,0 +1,84 @@
+{
+  "entry_id": "0653",
+  "national_id": 653,
+  "form": "default",
+  "names": {
+    "en": "Fennekin",
+    "ja": "フォッコ",
+    "zh": "火狐狸"
+  },
+  "generation": 6,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "キツネポケモン",
+  "category_zh": "狐狸宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "magician",
+      "name_zh": "魔术师",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 9.4,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 61,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 62,
+    "special_defense": 60,
+    "speed": 60,
+    "total": 307
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 654,
+        "name_en": "braixen",
+        "name_zh": "长尾火狐",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "蓝莓": 212,
+    "密阿雷": 217
+  },
+  "flavor_text_zh": "火狐狸的身材娇小可爱，有一对类似于耳廓狐的大耳朵。毛色以红色、黄色为主。 火狐狸拥有容易亢奋的性格。体温也很容易变得过高，因此会利用耳朵放热冷静下来。它随身带着小树枝，会嘎吱嘎吱地当零食吃。吃小树枝后就会变得充满活力，会从大大的耳朵里喷出超过摄氏200度的热气威吓对手。",
+  "flavor_text_en": "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 653,
+    "pokeapi_species_id": 653,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/653"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "entry_id": "0978",
+  "national_id": 978,
+  "form": "default",
+  "names": {
+    "en": "Tatsugiri",
+    "ja": "シャリタツ",
+    "zh": "米立龙"
+  },
+  "generation": 9,
+  "types": [
+    "dragon",
+    "water"
+  ],
+  "types_zh": [
+    "龙",
+    "水"
+  ],
+  "category": "ぎたいポケモン",
+  "category_zh": "拟态宝可梦",
+  "abilities": [
+    {
+      "name_en": "commander",
+      "name_zh": "未知",
+      "hidden": false
+    },
+    {
+      "name_en": "storm-drain",
+      "name_zh": "引水",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 8.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 100,
+  "color": "pink",
+  "color_zh": "黄色",
+  "base_experience": 166,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 50,
+    "defense": 60,
+    "special_attack": 120,
+    "special_defense": 95,
+    "speed": 82,
+    "total": 475
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {},
+  "flavor_text_zh": "膨胀和收缩白色喉囊的米立龙 米立龙有三种不同的形态，上弓姿势的米立龙身体是浅橙色的，上面有橙色的花纹，腹部为白色。下垂姿势的米立龙身体是品红色的，背鳍是白色的，胸鳍的末端有白色花纹，腹部为白色。平挺姿势的米立龙身体是黄色的。三种形态的米立龙脖颈处都长有可膨胀的白色喉囊。 米立龙是非常狡猾奸诈的宝可梦，会膨胀喉囊来拟态。虽然体型小又没力气，却懂得运用智慧来求生。即使在龙宝可梦当中，它的智商也是名列前茅。它会住在 吃吼霸 嘴里，保护自己免于外敌袭击。为了争夺作为搭档的吃吼霸，米立龙之间会展开激烈的战斗。吃吼霸会和它联手捕捉猎物，把它当作头领般敬重。鸟宝可梦是米立龙主要的猎物，它会假装虚弱来吸引猎物接近，接着让自己同伙的宝可梦发动攻击。就算被敌人整个吞下，也会尝试用鼓起喉囊之类的方法脱身。它会凭借高智商判断情况，只要发现没有胜算，就会一溜烟地逃跑。它对自己的弱小心知肚明，因此会和伙伴结伴狩猎。身体的颜色和花纹会有差异，似乎是为了便于引诱猎物，而配合其喜好产生的变化。 超级米立龙会用超级进化的能量制成像盘子一样的东西，乘上去后在空中也能自由自在地移动。超级进化使它的大脑活性化，让它变得更加精明狡猾。会制造并熟练使用分身。它会凝聚超级进化的能量作为溢出的能量射出，一碰到东西就会发生大爆炸。",
+  "flavor_text_en": "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 978,
+    "pokeapi_species_id": 978,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/978"
+  }
+}

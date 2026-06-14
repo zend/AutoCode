@@ -1,0 +1,92 @@
+{
+  "entry_id": "0056",
+  "national_id": 56,
+  "form": "default",
+  "names": {
+    "en": "Mankey",
+    "ja": "マンキー",
+    "zh": "猴怪"
+  },
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "ぶたざるポケモン",
+  "category_zh": "猪猴宝可梦",
+  "abilities": [
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲 / 或 / 愤怒穴位",
+      "hidden": false
+    },
+    {
+      "name_en": "anger-point",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "defiant",
+      "name_zh": "不服输",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 28.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 35,
+    "special_attack": 35,
+    "special_defense": 45,
+    "speed": 70,
+    "total": 305
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 57,
+        "name_en": "primeape",
+        "name_zh": "火暴猴",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 56,
+    "城都": 134,
+    "阿罗拉": 79,
+    "帕底亚": 158,
+    "北上": 99
+  },
+  "flavor_text_zh": "猴怪全身披淡黄色的毛，四肢末端变为褐色。它拥有一只粉红色类似猪鼻子的鼻子和三角形的眼睛。它的双手与双脚分为三指，一条长长又灵活的尾巴末端也是褐色的。 猴怪是在树上群居的宝可梦，和伙伴分散的猴怪会因寂寞而动不动就生气。它的身体很灵活，性格很凶暴，暴怒后的大闹很难去制止。只要有1只发怒，周围的猴怪也会跟着发怒，所以猴怪群里没有一刻是安静的。它常因鸡毛蒜皮的小事发火而飞扑到周围的东西上，一发现合适的猎物，就成群结队地发动袭击。在平时就算心情再怎么好，也会因为一点小事就突然暴怒，十分可怕。虽然身体颤抖，鼻息急促是它发怒的前兆，但因为是瞬间暴怒，所以根本来不及逃跑。如果大肆胡闹后谁都不在了的话，又会因无法忍受孤独而再次发怒。它无缘无故发火暴怒后，甚至会变得敌我不分，这时靠近它会非常危险。发泄完怒气后累得睡着了，却在梦里发怒而醒来，于是又因为醒来而再次发怒了。由于不会积累压力，所以能活相当长的时间。",
+  "flavor_text_en": "An agile Pokémon that lives in trees. It angers easily and will not hesitate to attack anything.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 56,
+    "pokeapi_species_id": 56,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/56"
+  }
+}

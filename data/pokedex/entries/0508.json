@@ -1,0 +1,89 @@
+{
+  "entry_id": "0508",
+  "national_id": 508,
+  "form": "default",
+  "names": {
+    "en": "Stoutland",
+    "ja": "ムーランド",
+    "zh": "长毛狗"
+  },
+  "generation": 5,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "かんだいポケモン",
+  "category_zh": "宽大宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 拨沙",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-rush",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "胆量",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 61.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 225,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 110,
+    "defense": 90,
+    "special_attack": 45,
+    "special_defense": 90,
+    "speed": 80,
+    "total": 500
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 507,
+        "name_en": "herdier",
+        "name_zh": "哈约克",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 14,
+    "阿罗拉": 122
+  },
+  "flavor_text_zh": "长毛狗面部的浅黄色毛皮就像长长的胡子，鼻子两边长出了黑色短胡。它咖啡色毛皮被更多的毛皮遮掩，身上也覆盖有一些深蓝色毛皮，下半部有浅灰色毛皮，目光更具有威慑力。多亏了那身又长又暖和的毛，抵御寒冷根本不在话下。它以自己气派的胡须为傲。据说每只个体在族群中的地位，就是根据胡须长度来决定的。 长毛狗聪明温厚而勇敢，是救援队队员们可以信赖的伙伴。它擅长救援海上和山中的遇难者，如果被它长长的体毛包裹着就会变得温暖又舒适，即使是在冬天的山上也能淡定地度过一晚。它似乎喜欢和人类一起生活，就算是野生的长毛狗，捕捉后只要过个三天就能和人亲近。因为不用担心会朝人猛扑过来，所以也有家长会把保护孩子的任务交给它。过去在寒冷的地方，每家都会养一只长毛狗。",
+  "flavor_text_en": "Stoutland is immensely proud of its impressive moustache. It’s said that moustache length is what determines social standing among this species.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 508,
+    "pokeapi_species_id": 508,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/508"
+  }
+}

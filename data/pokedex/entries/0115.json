@@ -1,0 +1,81 @@
+{
+  "entry_id": "0115",
+  "national_id": 115,
+  "form": "default",
+  "names": {
+    "en": "Kangaskhan",
+    "ja": "ガルーラ",
+    "zh": "袋兽"
+  },
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "おやこポケモン",
+  "category_zh": "亲子宝可梦",
+  "abilities": [
+    {
+      "name_en": "early-bird",
+      "name_zh": "早起",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.2,
+  "weight_kg": 80.0,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster"
+  ],
+  "egg_groups_zh": [
+    "怪兽"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 95,
+    "defense": 80,
+    "special_attack": 40,
+    "special_defense": 80,
+    "speed": 90,
+    "total": 490
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "关都": 115,
+    "城都": 205,
+    "阿罗拉": 165,
+    "密阿雷": 223
+  },
+  "flavor_text_zh": "袋兽全身大部分为褐色，耳朵以及腹部为灰黄色。它的肩部及腿部有多处凸起，肚子前面的育儿袋里面有着它的孩子。小袋兽的身体为淡紫色，其余部分与它的母亲很相似。超级袋兽袋中的孩子变大了很多，眼睛是红色的，下面有一个红晕。它的腹部以及膝盖长出了凸起，尾巴上有一个尖刺。小袋兽还没有育儿袋。袋兽只有雌性，没有与它对应的雄性宝可梦。 袋兽在腹部的袋子里养育自己的宝宝，宝宝在妈妈肚子上的袋子里几乎不出来。睡觉的时候也为了不压到腹袋里的宝宝而不躺着，稳坐着睡觉。如果是在安全的地方，孩子就会从腹袋中出来玩。母亲会静静地在旁守护。就算只有一只袋兽宝宝在玩，也绝对不要去捉它，因为那样在它附近的母亲会非常生气。大约3年之后宝宝就会离开母亲，只有在那个时候母亲才会大声地鸣叫。袋兽的母爱很深，为了保护宝宝，不管受多么严重的伤都不会放弃战斗。对于胆敢伤害自己孩子的家伙，会毫不留情地予以痛击。如果是为了守护自己的孩子，据说连死都毫不畏惧。虽然腹部的袋子里装着宝宝，步法却极为轻盈。它擅长连续拳攻击，会用快速的刺拳威吓对手。据记载，曾有没孩子的袋兽将遇难人类的小孩抚养长大。 超级袋兽之所以强大，是母亲因孩子的成长而喜悦，变得干劲十足的缘故。沐浴惊人能量后的孩子得到了暂时性的成长，可总是争强好胜，母亲对其将来有点担心。亲子二人的合作搭配不容小觑，看到孩子超级进化后的背影，母亲就会想起终将来临的离别之日。",
+  "flavor_text_en": "There are records of a lost human child being raised by a childless Kangaskhan.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 115,
+    "pokeapi_species_id": 115,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/115"
+  }
+}

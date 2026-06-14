@@ -1,0 +1,95 @@
+{
+  "entry_id": "0709",
+  "national_id": 709,
+  "form": "default",
+  "names": {
+    "en": "Trevenant",
+    "ja": "オーロット",
+    "zh": "朽木妖"
+  },
+  "generation": 6,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "types_zh": [
+    "幽灵",
+    "草"
+  ],
+  "category": "ろうぼくポケモン",
+  "category_zh": "老树宝可梦",
+  "abilities": [
+    {
+      "name_en": "natural-cure",
+      "name_zh": "自然回复 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "harvest",
+      "name_zh": "收获",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 71.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 110,
+    "defense": 76,
+    "special_attack": 65,
+    "special_defense": 82,
+    "speed": 56,
+    "total": 474
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 708,
+        "name_en": "phantump",
+        "name_zh": "小木灵",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 197,
+    "伽勒尔": 339,
+    "北上": 69,
+    "密阿雷": 183
+  },
+  "flavor_text_zh": "朽木妖像一棵树，手腕上，头上有一丛草，身体用一节一节的树皮连接，眼睛是红色的。 朽木妖脚尖伸出来的根须能连结森林中的树木，并且自由自在地加以操纵。它通过根茎连接树木监视森林的每个角落，会用咒术击退可疑分子。它对住在森林里的宝可梦很亲切，即使头上繁茂的叶子被当成住所也不会在意。人们惧怕它，认为它是森林的妖怪，会吃掉砍倒森林里树木的人。樵夫们会带着朽木妖讨厌的火属性宝可梦再进入森林。",
+  "flavor_text_en": "Small roots that extend from the tips of this Pokémon’s feet can tie into the trees of the forest and give Trevenant control over them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 709,
+    "pokeapi_species_id": 709,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/709"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "entry_id": "0774",
+  "national_id": 774,
+  "form": "default",
+  "names": {
+    "en": "Minior",
+    "ja": "メテノ",
+    "zh": "小陨星"
+  },
+  "generation": 7,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "types_zh": [
+    "岩石",
+    "飞行"
+  ],
+  "category": "ながれぼしポケモン",
+  "category_zh": "流星宝可梦",
+  "abilities": [
+    {
+      "name_en": "shields-down",
+      "name_zh": "界限盾壳",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 40.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 154,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 100,
+    "special_attack": 60,
+    "special_defense": 100,
+    "speed": 60,
+    "total": 440
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 213,
+    "蓝莓": 106
+  },
+  "flavor_text_zh": "主页面： 形态变化 → 小陨星 小陨星由坚硬而重的外壳和在其中间的核心所构成，从外壳的花纹来看小陨星的中间黑色位置好像它的两个眼睛，但同时花纹看起来又像是爪子，周边有五个角从外壳凸出，内核的小陨星有着不同的颜色，两只眼睛看起来就像是拖拽着尾巴，身上有着三角形的花纹。小陨星没有性别。 流星的样子 红色核心 橙色核心 黄色核心 绿色核心 浅蓝色核心 蓝色核心 紫色核心 小陨星在平流层出生，栖息在臭氧层，是纳米粒子突变诞生而成的宝可梦。它靠吸收在周围的尘粒生活着，是更强大的宝可梦的食物，会在逃跑的过程中掉落到地上。据说当身体吸收了很多尘粒而变重后，也会降落到地面。它的外壳非常坚固，但落到地上的强烈的冲击会让它碎成细屑。当它的壳坏掉后身体会变轻，从而能够发动迅速的攻击。小陨星会根据吃下的大气中的尘埃的成分来决定内核的色调。能遇到从夜空掉落的小陨星的地点是有限的，阿罗拉正是这宝贵的地方之一。小陨星的内核如果一直暴露着，就会很快消散。听说如果赶紧放入精灵球，就能活下来。由于淡淡的颜色看上去很可爱，所以是经常被当成衣服和首饰图案的宝可梦。 [ 1 ]",
+  "flavor_text_en": "Although its outer shell is uncommonly durable, the shock of falling to the ground smashes the shell to smithereens.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 774,
+    "pokeapi_species_id": 774,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/774"
+  }
+}

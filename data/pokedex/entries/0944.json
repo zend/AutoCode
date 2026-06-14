@@ -1,0 +1,90 @@
+{
+  "entry_id": "0944",
+  "national_id": 944,
+  "form": "default",
+  "names": {
+    "en": "Shroodle",
+    "ja": "シルシュルー",
+    "zh": "滋汁鼹"
+  },
+  "generation": 9,
+  "types": [
+    "poison",
+    "normal"
+  ],
+  "types_zh": [
+    "毒",
+    "一般"
+  ],
+  "category": "どくねずみポケモン",
+  "category_zh": "毒鼠宝可梦",
+  "abilities": [
+    {
+      "name_en": "unburden",
+      "name_zh": "轻装 / 或 / 顺手牵羊",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.7,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 58,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 35,
+    "special_attack": 40,
+    "special_defense": 35,
+    "speed": 75,
+    "total": 290
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 945,
+        "name_en": "grafaiai",
+        "name_zh": "涂标客",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 202
+  },
+  "flavor_text_zh": "滋汁鼹虽然性格温和，但一旦被谁激怒，就会用渗入了毒的锋利门牙咬住对方，使其全身麻痹。它凭借与其小小身体不相称的又长又大的门牙和毒唾液来抵抗敌人，保卫自身。为了不让敌人靠近地盘，它会用带着刺鼻臭味的毒液在巢的周围画出图形。",
+  "flavor_text_en": "To keep enemies away from its territory, it paints markings around its nest using a poisonous liquid that has an acrid odor.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 944,
+    "pokeapi_species_id": 944,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/944"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "entry_id": "0621",
+  "national_id": 621,
+  "form": "default",
+  "names": {
+    "en": "Druddigon",
+    "ja": "クリムガン",
+    "zh": "赤面龙"
+  },
+  "generation": 5,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "ほらあなポケモン",
+  "category_zh": "洞穴宝可梦",
+  "abilities": [
+    {
+      "name_en": "rough-skin",
+      "name_zh": "粗糙皮肤 / 或 / 强行",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 139.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 170,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "dragon",
+    "monster"
+  ],
+  "egg_groups_zh": [
+    "龙",
+    "怪兽"
+  ],
+  "base_stats": {
+    "hp": 77,
+    "attack": 120,
+    "defense": 90,
+    "special_attack": 60,
+    "special_defense": 90,
+    "speed": 48,
+    "total": 485
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 127
+  },
+  "flavor_text_zh": "赤面龙在外表上呈现站立型的模样，身体有很多菱形的结构，长了很多尖角，有两个翅膀。它的头部是红色的，红色脸孔上的皮肤比岩石还要硬。它的腹部呈现分节结构，手臂相对也比较长。 赤面龙性情凶暴而狡猾，生活在地洞里，会把其他宝可梦挖出的巢穴抢来当做自己的住处。它会在狭小的洞穴里来回奔走，有时在 龙头地鼠 或 大岩蛇 挖出的狭窄隧道中穿梭，用锋利的爪子捕获猎物。他也会入侵 地鼠 或 三地鼠 挖掘的隧道，静静地等待着猎物的经过。在狭窄的洞窟中，会用脸朝向敌人发动突击。如果它体温下降就会变得无法动弹。所以用翅膀接收阳光的日光浴必不可缺。",
+  "flavor_text_en": "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 621,
+    "pokeapi_species_id": 621,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/621"
+  }
+}

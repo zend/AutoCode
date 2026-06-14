@@ -1,0 +1,66 @@
+{
+  "entry_id": "0796",
+  "national_id": 796,
+  "form": "default",
+  "names": {
+    "en": "Xurkitree",
+    "ja": "デンジュモク",
+    "zh": "电束木"
+  },
+  "generation": 7,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "でんしょくポケモン",
+  "category_zh": "灯饰宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 3.8,
+  "weight_kg": 100.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 83,
+    "attack": 89,
+    "defense": 71,
+    "special_attack": 173,
+    "special_defense": 71,
+    "speed": 83,
+    "total": 570
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 296
+  },
+  "flavor_text_zh": "电束木是 究极异兽 的一种，代号为“ＵＢ０３：雷电”。它是一个非常高的宝可梦，类似于人形的电线。它的头部像一个白色的明亮发光的“星星”，但没有可见的脸。头下面是一条黑色的电缆，分成四肢和一条尾巴，每根电缆由三根白色的叶子绑在一起，像是拉链或圣诞灯。两条手臂把缆绳分开在最外层的两条线之间，并以类似于手的铜制结构结束，每一根手臂都有六个扁平的“手指”。它的两条腿都没有松动的缆绳，露出铜制的爪子，脚上的两个脚趾向前，两个脚趾向后。尾巴末端有一个松散的电缆，类似于三线插头。 电束木是从 究极之洞 出现的谜一般的生物究极异兽的一种。它在这个世界是很危险的异类，但在原本栖息的世界好像只是寻常能见的生物。它被目击到了从全身喷涌出骇人电击的光景，也有像树木一样将手脚插入地面后一动不动的样子。因为袭击了发电厂，所以被认为电力就是它的能量。 根据 碧珂 的研究，电束木最大的特征是拥有发电器官。其身体构造与电线非常的相似，因此能够以很高的效率操纵电。能放出高达１００万伏特的电。如果电力不足，就会用双脚和尾巴扎在大地上，以树木般的形态从地面吸取电。",
+  "flavor_text_en": "They’ve been dubbed Ultra Beasts. Some of them stand unmoving, like trees, with their arms and legs stuck into the ground.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 796,
+    "pokeapi_species_id": 796,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/796"
+  }
+}

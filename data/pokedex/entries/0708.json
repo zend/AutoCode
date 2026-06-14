@@ -1,0 +1,95 @@
+{
+  "entry_id": "0708",
+  "national_id": 708,
+  "form": "default",
+  "names": {
+    "en": "Phantump",
+    "ja": "ボクレー",
+    "zh": "小木灵"
+  },
+  "generation": 6,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "types_zh": [
+    "幽灵",
+    "草"
+  ],
+  "category": "きりかぶポケモン",
+  "category_zh": "树桩宝可梦",
+  "abilities": [
+    {
+      "name_en": "natural-cure",
+      "name_zh": "自然回复 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "harvest",
+      "name_zh": "收获",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 7.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 62,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 43,
+    "attack": 70,
+    "defense": 48,
+    "special_attack": 50,
+    "special_defense": 60,
+    "speed": 38,
+    "total": 309
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 709,
+        "name_en": "trevenant",
+        "name_zh": "朽木妖",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 196,
+    "伽勒尔": 338,
+    "北上": 68,
+    "密阿雷": 182
+  },
+  "flavor_text_zh": "小木灵有著黑色的身躯、木质的大头和一双红色的大眼。木头旁延伸出两条长著树叶的小树枝。 小木灵是在森林中迷路死去的孩子的魂魄附在树桩上转生成的宝可梦。它居住在人类不会接近的森林，会徘徊在森林中寻找伙伴。它会用类似人类小孩的悲鸣般的诡异声音鸣叫，把大人引到森林的深处，让他们在其中迷失方向做自己的伙伴。传说，摘取绿色的树叶煎煮饮用的话能治百病，可一旦摘下来便会马上枯萎。",
+  "flavor_text_en": "With a voice like a human child’s, it cries out to lure adults deep into the forest, getting them lost among the trees.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 708,
+    "pokeapi_species_id": 708,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/708"
+  }
+}

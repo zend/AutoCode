@@ -1,0 +1,92 @@
+{
+  "entry_id": "0298",
+  "national_id": 298,
+  "form": "default",
+  "names": {
+    "en": "Azurill",
+    "ja": "ルリリ",
+    "zh": "露力丽"
+  },
+  "generation": 3,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "types_zh": [
+    "一般",
+    "妖精"
+  ],
+  "category": "みずたまポケモン",
+  "category_zh": "水珠宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 大力士",
+      "hidden": false
+    },
+    {
+      "name_en": "huge-power",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 2.0,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 150,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 38,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 40,
+    "special_attack": 20,
+    "special_defense": 40,
+    "speed": 20,
+    "total": 190
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 183,
+        "name_en": "marill",
+        "name_zh": "玛力露",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 54,
+    "神奥": 124,
+    "帕底亚": 46
+  },
+  "flavor_text_zh": "露力丽像一只蓝色的水鼠，它的两颊各有一个白色的圆形斑点，脚很小，没有手臂，尾巴末端的圆形物体很大。 露力丽是生活在水边的宝可梦，在晴天的时候会聚集在水边玩水。它像皮球一般弹性十足，当露力丽在河里玩的时候， 玛力露丽 会制作填满空气的泡泡包住露力丽。它球形的尾巴拥有如同橡胶球一般的弹性，里面贮满了它成长所需的营养，会坐在尾巴上玩耍。坐在大尾巴上跳动的话，就可以在地上快速移动。飘浮在水里的时候尾巴可以当做救生圈使用。它会运用套索的要领挥舞尾巴，利用投出去的力量把自己带飞出去，有着飞出10米的最远纪录。虽然是种性情温顺的宝可梦，但生起气来便会嗖嗖地挥舞起尾巴上的大球来猛烈击打对手，会挥舞尾巴来对抗体形比自己还大的对手。",
+  "flavor_text_en": "Although Azurill are normally docile, an angry one will swing around the big ball on its tail and try to smash its opponents.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 298,
+    "pokeapi_species_id": 298,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/298"
+  }
+}

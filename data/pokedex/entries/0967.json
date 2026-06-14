@@ -1,0 +1,75 @@
+{
+  "entry_id": "0967",
+  "national_id": 967,
+  "form": "default",
+  "names": {
+    "en": "Cyclizar",
+    "ja": "モトトカゲ",
+    "zh": "摩托蜥"
+  },
+  "generation": 9,
+  "types": [
+    "dragon",
+    "normal"
+  ],
+  "types_zh": [
+    "龙",
+    "一般"
+  ],
+  "category": "ライドポケモン",
+  "category_zh": "坐骑宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 63.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 175,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 95,
+    "defense": 65,
+    "special_attack": 85,
+    "special_defense": 65,
+    "speed": 121,
+    "total": 501
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 295
+  },
+  "flavor_text_zh": "摩托蜥的外观与 故勒顿 和 密勒顿 相似。但摩托蜥的身体是绿色的。它的耳朵是橙色的，脖子上有着轮胎状的结构。它的尾巴是墨绿色的，尾巴尖端则是白色的。 自古以来，摩托蜥就在帕底亚地区与家家户户的人们一起生活。它性格温和，人们会在日常生活中坐在它的背上来移动。喉部的褶皱储有能量，因此它能够载着人长距离持续奔跑。一万年前的壁画里描绘着那样的情景。它不讨厌这点，似乎是因为能借由人类的体温来温暖背部，抵抗它耐不住的寒冷，恢复活力。它有着着重于奔驰的身躯，载着人时的最快速度可达到时速120km。非常坚硬的头部和柔韧的粗尾巴不但有助于缓和奔驰时的冲击并维持平衡，还是对战中强劲的攻击手段。 [ 1 ]",
+  "flavor_text_en": "It can sprint at over 70 mph while carrying a human. The rider’s body heat warms Cyclizar’s back and lifts the Pokémon’s spirit.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 967,
+    "pokeapi_species_id": 967,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/967"
+  }
+}

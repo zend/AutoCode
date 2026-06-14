@@ -1,0 +1,81 @@
+{
+  "entry_id": "0948",
+  "national_id": 948,
+  "form": "default",
+  "names": {
+    "en": "Toedscool",
+    "ja": "ノノクラゲ",
+    "zh": "原野水母"
+  },
+  "generation": 9,
+  "types": [
+    "ground",
+    "grass"
+  ],
+  "types_zh": [
+    "地面",
+    "草"
+  ],
+  "category": "きくらげポケモン",
+  "category_zh": "木耳宝可梦",
+  "abilities": [
+    {
+      "name_en": "mycelium-might",
+      "name_zh": "菌丝之力",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 33.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 67,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "special_attack": 50,
+    "special_defense": 100,
+    "speed": 70,
+    "total": 335
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 949,
+        "name_en": "toedscruel",
+        "name_zh": "陆地水母",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 244,
+    "北上": 74
+  },
+  "flavor_text_zh": "原野水母看起来像 玛瑙水母 ，其实是截然不同的种类。 原野水母栖息在潮湿的森林里。它身上脱落的薄片富有嚼劲，非常美味。虽然它的脚很细，但是跑起来能达到时速50公里。",
+  "flavor_text_en": "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 948,
+    "pokeapi_species_id": 948,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/948"
+  }
+}

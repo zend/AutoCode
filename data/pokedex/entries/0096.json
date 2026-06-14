@@ -1,0 +1,91 @@
+{
+  "entry_id": "0096",
+  "national_id": 96,
+  "form": "default",
+  "names": {
+    "en": "Drowzee",
+    "ja": "スリープ",
+    "zh": "催眠貘"
+  },
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "さいみんポケモン",
+  "category_zh": "催眠宝可梦",
+  "abilities": [
+    {
+      "name_en": "insomnia",
+      "name_zh": "不眠 / 或 / 预知梦",
+      "hidden": false
+    },
+    {
+      "name_en": "forewarn",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 32.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "special_attack": 43,
+    "special_defense": 90,
+    "speed": 42,
+    "total": 328
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 97,
+        "name_en": "hypno",
+        "name_zh": "引梦貘人",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 96,
+    "城都": 87,
+    "阿罗拉": 54,
+    "帕底亚": 66
+  },
+  "flavor_text_zh": "催眠貘的身体上半身为黄色，下半身为褐色，其颜色的分界线为波浪状。它的双手分为三指，双脚分为两趾。鼻子略长，上有褶皱。 催眠貘能在娱乐设施的附近见到其身影，会偷吃那晚孩子们所做的美梦。它是吞食梦来生存的宝可梦，据说是传说中叫做貘的食梦动物的子孙，被认为与 食梦梦 和 梦梦蚀 有着共同的祖先。它非常擅长催眠术，会让对方睡着然后去吃梦。但如果吃的全是恶梦，好像就会吃坏肚子。听说愉快的梦特别美味，它最喜欢吃愉快的梦。而恶梦酸酸的，它好像不怎么喜欢吃。它记得所有自己吃过的梦，由于小孩子的梦比较美味，因此几乎不吃大人的梦。如果你每晚与它一起睡觉，它偶尔会让你梦见它以前吃过的梦。变得亲密后，有时也会呈现最美味的梦哦。明明做了一个美梦，却怎么也想不起来的时候，那就一定是被催眠貘吃掉了。如果你睡着时觉得鼻子很痒，那就是站在枕边的催眠貘想从你鼻孔中食梦的信号。据说它那突出的鼻子在抽动时，无论是谁在哪里做着怎样的梦，都会被它知道得一清二楚。",
+  "flavor_text_en": "If you sleep by it all the time, it will sometimes show you dreams it had eaten in the past.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 96,
+    "pokeapi_species_id": 96,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/96"
+  }
+}

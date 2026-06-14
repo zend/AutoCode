@@ -1,0 +1,95 @@
+{
+  "entry_id": "0356",
+  "national_id": 356,
+  "form": "default",
+  "names": {
+    "en": "Dusclops",
+    "ja": "サマヨール",
+    "zh": "彷徨夜灵"
+  },
+  "generation": 3,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "てまねきポケモン",
+  "category_zh": "招手宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 30.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 159,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 70,
+    "defense": 130,
+    "special_attack": 60,
+    "special_defense": 130,
+    "speed": 25,
+    "total": 455
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 355,
+        "name_en": "duskull",
+        "name_zh": "夜巡灵",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 477,
+        "name_en": "dusknoir",
+        "name_zh": "黑夜魔灵",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 149,
+    "神奥": 190,
+    "伽勒尔": 136,
+    "洗翠": 159,
+    "北上": 140
+  },
+  "flavor_text_zh": "彷徨夜灵全身被灰色的绷带所包裹。它有一双长有五指的淡灰色大手，身上有淡灰色的飘带一样的装饰，头顶也有这样的结构。它的独眼非常大，瞳孔的颜色是红色。 彷徨夜灵身体内部是空洞，什么都没有，被认为只有一个灵魂在里面燃烧着。据说在体内燃烧着的鲜红独眼才是彷徨夜灵的真身，但并没有人亲眼见过。一旦窥视到其体内燃烧着的灵火，自己的灵魂就会被其吸走。它只要一张开嘴就会像黑洞一样吸入所有东西，无论多大的东西都能吸进去，一旦被吸进去就回不来了。它会寻找游走的灵魂，吸入自己空洞的身体里，没人知道被吸入后会发生什么事。它会用怪异的手部动作和独眼的力量让对手陷入催眠状态，将其控制。据说盯着它神秘手部动作看的话，灵魂会被它从身体里抽走，因此被大家所深深恐惧。",
+  "flavor_text_en": "There are rumors that peeking inside its bandage-wrapped body will cause one to get pulled in through the gaps between the bandages, never to return. I've been too scared to verify.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 356,
+    "pokeapi_species_id": 356,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/356"
+  }
+}

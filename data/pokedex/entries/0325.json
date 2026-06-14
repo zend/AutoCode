@@ -1,0 +1,90 @@
+{
+  "entry_id": "0325",
+  "national_id": 325,
+  "form": "default",
+  "names": {
+    "en": "Spoink",
+    "ja": "バネブー",
+    "zh": "跳跳猪"
+  },
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "とびはねポケモン",
+  "category_zh": "弹跳宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 我行我素",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 30.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 66,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 25,
+    "defense": 35,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 60,
+    "total": 330
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 326,
+        "name_en": "grumpig",
+        "name_zh": "噗噗猪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 110,
+    "帕底亚": 111,
+    "北上": 125
+  },
+  "flavor_text_zh": "跳跳猪的身体是灰色的，有暗色的圆形眼睛、短而粗的手臂、一个大大的灰色鼻子和小小的耳朵。它没有后腿，有着弹簧似的尾巴。 跳跳猪用尾巴代替弹簧，通过弹跳来让心脏跳动，一旦停下来就会死亡。它不能停止弹跳，即使在睡觉的时候也不断弹跳着。从地底长出来的香菇是它的最爱。它能自由自在地操纵超能力，会把 珍珠贝 产出的珍珠戴在头上。戴在头上的珍珠有提高跳跳猪精神力量的功效，它也一直在寻找大珍珠。",
+  "flavor_text_en": "Spoink keeps a pearl on top of its head. The pearl functions to amplify this Pokémon’s psychokinetic powers. It is therefore on a constant search for a bigger pearl.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 325,
+    "pokeapi_species_id": 325,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/325"
+  }
+}

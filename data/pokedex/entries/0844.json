@@ -1,0 +1,91 @@
+{
+  "entry_id": "0844",
+  "national_id": 844,
+  "form": "default",
+  "names": {
+    "en": "Sandaconda",
+    "ja": "サダイジャ",
+    "zh": "沙螺蟒"
+  },
+  "generation": 8,
+  "types": [
+    "ground"
+  ],
+  "types_zh": [
+    "地面"
+  ],
+  "category": "すなへびポケモン",
+  "category_zh": "沙蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-spit",
+      "name_zh": "吐沙",
+      "hidden": false
+    },
+    {
+      "name_en": "shed-skin",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.8,
+  "weight_kg": 65.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 179,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 107,
+    "defense": 125,
+    "special_attack": 65,
+    "special_defense": 70,
+    "speed": 71,
+    "total": 510
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 843,
+        "name_en": "silicobra",
+        "name_zh": "沙包蛇",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 313,
+    "帕底亚": 271
+  },
+  "flavor_text_zh": "沙螺蟒外形是一条盘成螺旋形的大蛇，爬行时依然保持打卷的姿态，仅使用身体着地的部位向前推进。颈部颜色较深并呈轮胎状，这是它储存沙子的沙囊。双管枪一样的鼻子可以喷射沙子来抵御敌人。超极巨化的沙螺蟒依然是盘旋的身体，但是它的身子直立了起来，沙囊也变得巨大无比。储存在沙囊中的沙子溢了出来，围绕在它的颈部周围。与卷起的沙子相结合，围绕着身体的沙子超过了100万吨，那身姿仿佛是巨大的龙卷风一样。 沙螺蟒会鼓起沙囊裹住头部保护自己免受外敌的攻击。这个沙囊一次可以储存100kg以上的沙子，伸缩性和厚度都很强，甚至连 铁蚁 的牙都无法将其咬破。蜷缩身体后会从鼻孔猛地射出沙囊中的沙子进行攻击。沙子中混合着尖锐的砂砾，一旦触碰就有可能划伤，十分危险。那是它用唾液凝固了沙子而成的，形状千奇百怪。它也会把身体伸展到极限，用足以冲走翻斗车的气势喷射出沙子。沙螺蟒虽然在沙囊满满的时候气势汹汹，但当沙囊空了，它似乎就会变得十分脆弱。它之所以会以独特的方式盘绕自己的身体，是为了能更高效地喷射砂囊中的沙子。有时，沙螺蟒也会食用铁蚁的蛋。 超极巨化的沙螺蟒在战斗时会高速旋转身体，通过让缠绕着自己的沙子快速旋转来进行攻击。高速旋转增强了锐利沙子的破坏力，能给予碰到沙子的对手巨大的伤害，甚至连高楼大厦都能粉碎。 [ 1 ]",
+  "flavor_text_en": "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 844,
+    "pokeapi_species_id": 844,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/844"
+  }
+}

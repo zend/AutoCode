@@ -1,0 +1,89 @@
+{
+  "entry_id": "0634",
+  "national_id": 634,
+  "form": "default",
+  "names": {
+    "en": "Zweilous",
+    "ja": "ジヘッド",
+    "zh": "双首暴龙"
+  },
+  "generation": 5,
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "types_zh": [
+    "恶",
+    "龙"
+  ],
+  "category": "らんぼうポケモン",
+  "category_zh": "粗暴宝可梦",
+  "abilities": [
+    {
+      "name_en": "hustle",
+      "name_zh": "活力",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 50.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 147,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 85,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 70,
+    "speed": 58,
+    "total": 420
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 633,
+        "name_en": "deino",
+        "name_zh": "单首龙",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 635,
+        "name_en": "hydreigon",
+        "name_zh": "三首恶龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 140,
+    "伽勒尔": 387,
+    "帕底亚": 371
+  },
+  "flavor_text_zh": "双首暴龙拥有两个脑袋，身体主色为蓝色。它前身有黑色的毛皮覆盖，肚子上有两排紫色的条纹，背上也长出了一对翅。 双首暴龙两颗脑袋关系很差，会争抢同一个食物，想比对方吃得更多来学会主导权，会因为摄食时经常争夺食物结果一直吃撑。如果没有得到公平对等的疼爱，就会因争风吃醋而开始大吵。明明没有去和别人战斗，却总是遍体鳞伤。由于头之间也互相争斗，因此不靠外力也能变强。它会在自己的领地走来走去寻找食物，两个头各有喜好，时常会为了前进的方向而争吵。如果吃光了领地内的食物，就会向其他土地移动。",
+  "flavor_text_en": "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 634,
+    "pokeapi_species_id": 634,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/634"
+  }
+}

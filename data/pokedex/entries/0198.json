@@ -1,0 +1,94 @@
+{
+  "entry_id": "0198",
+  "national_id": 198,
+  "form": "default",
+  "names": {
+    "en": "Murkrow",
+    "ja": "ヤミカラス",
+    "zh": "黑暗鸦"
+  },
+  "generation": 2,
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "types_zh": [
+    "恶",
+    "飞行"
+  ],
+  "category": "くらやみポケモン",
+  "category_zh": "黑暗宝可梦",
+  "abilities": [
+    {
+      "name_en": "insomnia",
+      "name_zh": "不眠 / 或 / 超幸运",
+      "hidden": false
+    },
+    {
+      "name_en": "super-luck",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 2.1,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 81,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 42,
+    "special_attack": 85,
+    "special_defense": 42,
+    "speed": 91,
+    "total": 405
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 430,
+        "name_en": "honchkrow",
+        "name_zh": "乌鸦头头",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 208,
+    "神奥": 74,
+    "阿罗拉": 277,
+    "洗翠": 140,
+    "帕底亚": 232
+  },
+  "flavor_text_zh": "黑暗鸦类似于乌鸦，通体黑色，喙与爪呈黄色。头上的羽毛形成了类似巫师帽的样子，尾巴则形似扫把。黑暗鸦有性别差异，雌性的帽子更小。 黑暗鸦会在日落时醒来，在夜晚飞行。俗话说，黑暗鸦出窝，赶紧要回家。人们相信如果在晚上看到它的身影，就会发生不吉利的事。因此过去曾为世人所恐惧嫌弃，是受人忌讳的宝可梦。它为将旅人诱入森林深处而聚集在其附近，遇见黑暗鸦时，若是毫无提防地跟随其后就会受到迷惑，并被丢在山路上。据说有追赶者的时候，会将其引入黑暗的山路中令其彻底迷路。人们说遇见它时念这段咒语可保平安：“黑暗鸦，黑压压，你黑暗呀我大发”。黑暗鸦对于发光的东西毫无抵抗力，会想去抢女性的戒指。它捡到闪闪发光的东西后，总会把它藏到秘密的地方去，会经常和 喵喵 互相争夺。它会为 老大 去寻找闪闪发光的东西，也会把亮晶晶发着光的东西送给关系好的训练家。为了追求宝物，有时候会潜入爱储存宝石的 尖牙陆鲨 的巢穴。据说乌鸦头头绝对不会容许跟班黑暗鸦失败或是背叛。",
+  "flavor_text_en": "Widely shunned as a bearer of ill fortune. Upon crossing paths with this creature, I've been told one must chant ”Workrum, Workrum—bad luck, don't come” as a protective incantation.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 198,
+    "pokeapi_species_id": 198,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/198"
+  }
+}

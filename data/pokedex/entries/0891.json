@@ -1,0 +1,76 @@
+{
+  "entry_id": "0891",
+  "national_id": 891,
+  "form": "default",
+  "names": {
+    "en": "Kubfu",
+    "ja": "ダクマ",
+    "zh": "熊徒弟"
+  },
+  "generation": 8,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "けんぽうポケモン",
+  "category_zh": "拳法宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 12.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 3,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 77,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 60,
+    "special_attack": 53,
+    "special_defense": 50,
+    "speed": 72,
+    "total": 385
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 892,
+        "name_en": "urshifu",
+        "name_zh": "武道熊师",
+        "trigger": "tower-of-darkness"
+      }
+    ]
+  },
+  "regional_dex": {},
+  "flavor_text_zh": "熊徒弟从外表看起来就像是双足站立的小熊，它的毛发偏向米色，眼神看起来很坚毅，它的身上有着白色的花纹，主要集中在头部的位置以及胸部上方的位置，头部的后面也垂着白色的毛发，这让熊徒弟看起来就像是系着一条白色的头巾。拉紧头上又白又长的体毛，就会变得斗气势高昂，并从丹田涌出力量。它的爪子是黑色的，脚部的爪子向上翘起，且比较锋利。它的下腹部有着能产生“格斗能量”的器官，会通过独特的呼吸法和集中精神来增强自身的能力，迎接对战。 熊徒弟努力锻炼身心，日积月累地进行艰苦锻炼，认真钻研招式，是一种性情认真的宝可梦。要是在对战中输掉了，它会更热衷于锻炼，发奋图强。虽然熊徒弟主要栖息在远离伽勒尔地区的山区，但其实它曾经是生活在伽勒尔地区的宝可梦。历史书有这样的一段记载：“熊徒弟经常和人们一同前往未开拓的地区进行交易和探险。来到远方的熊徒弟最终野生化，在山区定居下来。”熊徒弟进化后的样子会根据所习得的招式不同而改变。 [ 1 ]",
+  "flavor_text_en": "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 891,
+    "pokeapi_species_id": 891,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/891"
+  }
+}

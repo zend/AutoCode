@@ -1,0 +1,92 @@
+{
+  "entry_id": "0456",
+  "national_id": 456,
+  "form": "default",
+  "names": {
+    "en": "Finneon",
+    "ja": "ケイコウオ",
+    "zh": "荧光鱼"
+  },
+  "generation": 4,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "はねうおポケモン",
+  "category_zh": "飞翅鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 引水",
+      "hidden": false
+    },
+    {
+      "name_en": "storm-drain",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "water-veil",
+      "name_zh": "水幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 7.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 66,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 49,
+    "attack": 49,
+    "defense": 56,
+    "special_attack": 49,
+    "special_defense": 61,
+    "speed": 66,
+    "total": 330
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 457,
+        "name_en": "lumineon",
+        "name_zh": "霓虹鱼",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 134,
+    "阿罗拉": 108,
+    "洗翠": 172,
+    "帕底亚": 333,
+    "蓝莓": 83
+  },
+  "flavor_text_zh": "荧光鱼的身体顶部是黑色的，腹部是浅蓝色的，中间有着一条粉红色的条带。它的眼睛粉红色，头上有二条黑色的鳍。尾巴浅蓝色，看起来就像是一个蝴蝶，尾巴中粉红色的斑点。雌性荧光鱼的尾鳍下部更大。 荧光鱼白天会在海面附近，到了夜里就向海的深处移动。它身体侧面和尾鳍上粉色的花纹会在白天储存阳光，到了天暗的时候就会发出颜色鲜艳的光来，听说是用来做保护色的。它还能用发光的尾鳍引诱猎物。它能用两片尾鳍活力四射地跳跃，但跳出海面的那一刻会被 长翅鸥 叼走。它通过像蝴蝶一样扇动两片尾鳍来游泳，摇曳着桃红色的长长尾鳍在水中游泳的艳丽身姿使它获得了海中 狩猎凤蝶 和 盛装鱼 （日文︰ 晴れ着魚 ，英文︰ finery fish ）的别称。它很受潜水者欢迎，所以有时会被驯养在度假地。",
+  "flavor_text_en": "What a gorgeous sight this Pokémon is as it swims with its long, pink-painted caudal fins fluttering behind it. Finneon's beautiful appearance has led to its nickname: ”finery fish.”",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 456,
+    "pokeapi_species_id": 456,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/456"
+  }
+}

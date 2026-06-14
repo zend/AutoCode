@@ -1,0 +1,88 @@
+{
+  "entry_id": "0069",
+  "national_id": 69,
+  "form": "default",
+  "names": {
+    "en": "Bellsprout",
+    "ja": "マダツボミ",
+    "zh": "喇叭芽"
+  },
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "フラワーポケモン",
+  "category_zh": "花宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 4.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 60,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 35,
+    "special_attack": 70,
+    "special_defense": 30,
+    "speed": 40,
+    "total": 300
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 70,
+        "name_en": "weepinbell",
+        "name_zh": "口呆花",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 69,
+    "城都": 64,
+    "北上": 23,
+    "密阿雷": 74
+  },
+  "flavor_text_zh": "喇叭芽黄色的头部就像喇叭一样。因为花苞长得像人脸，所以私底下它被说成是某种传说中的风茄。它长着黑色的小眼睛，嘴巴有一圈粉红色的边缘。它的手是小片绿色的叶子，腿是褐色的根部，身体则是根部会聚成的稍粗一点的茎。 喇叭芽喜欢温度高，有一定湿度的地方。它会把脚伸到地下深处补充水分，但若在此时遭到袭击就会无法逃脱。它会用身上的藤蔓抓小虫来吃，只要周围有会动的东西，它随时都会马上作出反应，将细细的藤蔓伸过去。虽然体型瘦弱，但伸长藤蔓捕捉猎物时的动作非常迅速，快到肉眼无法看清。它会从嘴里吐出连铁都能溶化的液体，无论多强的攻击，都可以通过弯曲纤细柔软的身体来回避。",
+  "flavor_text_en": "Prefers hot and humid places. It ensnares tiny bugs with its vines and devours them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 69,
+    "pokeapi_species_id": 69,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/69"
+  }
+}

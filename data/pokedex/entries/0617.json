@@ -1,0 +1,89 @@
+{
+  "entry_id": "0617",
+  "national_id": 617,
+  "form": "default",
+  "names": {
+    "en": "Accelgor",
+    "ja": "アギルダー",
+    "zh": "敏捷虫"
+  },
+  "generation": 5,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "からぬけポケモン",
+  "category_zh": "脱壳宝可梦",
+  "abilities": [
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯 / 或 / 黏着",
+      "hidden": false
+    },
+    {
+      "name_en": "sticky-hold",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "轻装",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 25.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 40,
+    "special_attack": 100,
+    "special_defense": 60,
+    "speed": 145,
+    "total": 495
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 616,
+        "name_en": "shelmet",
+        "name_zh": "小嘴蜗",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 123,
+    "伽勒尔": 276
+  },
+  "flavor_text_zh": "敏捷虫是直立型的宝可梦，它经常以双手抱胸的姿态站着，全身被粘膜包裹着，无法看到它的脚。它的头部有一个四角星的形状，头顶可以看到螺旋形状部位，背后有两条延伸出去的带子。 敏捷虫脱掉了沉重的壳而变得轻巧。它的身体干燥就会变弱，为了防止干燥会将带状的粘膜裹在身上。它行动迅速，会用简直是忍者般的身手战斗，同时会喷出毒液。敏捷虫担任主角的电影和漫画拥有极高的人气。",
+  "flavor_text_en": "Discarding its shell made it nimble. To keep itself from dehydrating, it wraps its body in bands of membrane.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 617,
+    "pokeapi_species_id": 617,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/617"
+  }
+}

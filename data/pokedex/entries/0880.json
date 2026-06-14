@@ -1,0 +1,78 @@
+{
+  "entry_id": "0880",
+  "national_id": 880,
+  "form": "default",
+  "names": {
+    "en": "Dracozolt",
+    "ja": "パッチラゴン",
+    "zh": "雷鸟龙"
+  },
+  "generation": 8,
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "types_zh": [
+    "电",
+    "龙"
+  ],
+  "category": "かせきポケモン",
+  "category_zh": "化石宝可梦",
+  "abilities": [
+    {
+      "name_en": "volt-absorb",
+      "name_zh": "蓄电 / 或 / 活力",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-rush",
+      "name_zh": "拨沙",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 190.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 177,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "special_attack": 80,
+    "special_defense": 70,
+    "speed": 75,
+    "total": 505
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 374
+  },
+  "flavor_text_zh": "雷鸟龙的头与身躯有着很大的差异，与下半身相比，上半身真的太小了。它的头部外围是淡黄色毛发，而内部毛发与它的脸庞和嘴是黄色的。它的脸颊上有一小块腮红。它的脖子很细，连接着黄色的上半身，上半身的两只爪子也很小，臂膀处长着一对淡黄色闪电状的翅。上半身的腹部位置是淡黄色的。雷鸟龙的下半身就完全是一只墨绿的带有红色条纹的霸王龙的样子。粗壮的腿和尾巴，尾巴上长了红色的尖刺。 雷鸟龙在远古时代曾凭借自己强大的下半身而所向无敌，但因吃光了赖以为生的植物而灭绝了。它会用尾部结实的肌肉发电。",
+  "flavor_text_en": "The powerful muscles in its tail generate its electricity. Compared to its lower body, its upper half is entirely too small.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 880,
+    "pokeapi_species_id": 880,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/880"
+  }
+}

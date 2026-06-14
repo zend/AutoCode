@@ -1,0 +1,86 @@
+{
+  "entry_id": "0724",
+  "national_id": 724,
+  "form": "default",
+  "names": {
+    "en": "Decidueye",
+    "ja": "ジュナイパー",
+    "zh": "狙射树枭"
+  },
+  "generation": 7,
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "types_zh": [
+    "草",
+    "幽灵"
+  ],
+  "category": "やばねポケモン",
+  "category_zh": "箭羽宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "long-reach",
+      "name_zh": "胆量",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 36.6,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 107,
+    "defense": 75,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 70,
+    "total": 530
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 723,
+        "name_en": "dartrix",
+        "name_zh": "投羽枭",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 3,
+    "蓝莓": 220
+  },
+  "flavor_text_zh": "用0.1秒发放羽毛箭 狙射树枭外表看起来就像是披着一件大大的披风，实际上身上都覆盖着满满的羽毛，它羽毛呈现绿色，而身体则是白色色调，狙射树枭比较不同的就是脸部有着深色的眼睑以及鸟喙，它的胸部有着领结一样的带子，头顶的羽毛颜色较为不同，头部的颜色更深一些，形似兜帽。 为了在严苛的自然环境中生存下去，洗翠地区的投羽枭进化成性情粗暴又坚韧的狙射树枭。它看起来戴着一顶斗笠，实际上却是红色的羽毛，相比起一般的狙射树枭，它的“披风”更短。为抵抗洗翠地区的严寒气候，羽毛的芯中含有空气，因而能够防寒。 狙射树枭把藏在翅膀里的羽毛箭像弓箭一样发射，由拔箭到发射为止的时间只需0.1秒左右，在敌人发现前贯穿其要害，在一瞬之间决出胜负。在绝对不想射偏时，会拉紧头上的藤蔓集中精神，有着连前方100米的小石头也能穿透的精度，即使在1公里以外也能准确无误射中目标。同时，狙射树枭也擅长特技般的曲线射击。狙射树枭可把自己的气息完全消除，趁着对手看不见自己的时机进行攻击。它会飞上高空且以快速旋转的姿态下降，并连续射穿多个目标。虽然狙射树枭平常表现得沉着冷静，但不擅长应付突发状况，受到突如其来的袭击它会表现得惊慌失措。 [ 1 ] 洗翠地区的狙射树枭没有固定的地盘，会为找寻食物而四处改变居所。它的脚力十分发达，踢击的威力之大能折断树木，击裂岩石。与至今为止所发现的样子不同，它会积极发动近身战并以力量制服对手。擅长利用飞翔冲向对手发出踢技，并用藏在翅膀里的箭释放连续攻击的战法。另一方面，对于不存敌意的对手它似乎会有宽容的一面。 [ 2 ]",
+  "flavor_text_en": "The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 724,
+    "pokeapi_species_id": 724,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/724"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "entry_id": "0343",
+  "national_id": 343,
+  "form": "default",
+  "names": {
+    "en": "Baltoy",
+    "ja": "ヤジロン",
+    "zh": "天秤偶"
+  },
+  "generation": 3,
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "types_zh": [
+    "地面",
+    "超能力"
+  ],
+  "category": "どぐうポケモン",
+  "category_zh": "泥偶宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 21.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 55,
+    "special_attack": 40,
+    "special_defense": 70,
+    "speed": 55,
+    "total": 300
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 344,
+        "name_en": "claydol",
+        "name_zh": "念力土偶",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 131,
+    "伽勒尔": 82
+  },
+  "flavor_text_zh": "天秤偶的身体是褐色的，眉毛位置是红色拱形条纹，眼睛通常闭成一条线，红色条纹在肚子和腰间个围成一圈。它的手是扁长的，头上和下端各有一个尖刺，下端的尖刺像脚一样。 天秤偶是在古代遗迹中发现的珍奇宝可梦，会大量出现在古代的墓地里。它会用单脚旋转着移动，晚上睡觉的时候也是单脚站着，也能看到颠倒过来旋转的天秤偶。它一边旋转着移动，一边寻找同伴组成群体。如果发现了伙伴，就会吵吵闹闹地叫唤着聚集。在原始人所居住的洞穴墙壁上，描绘着像是天秤偶的宝可梦的样子。在繁荣于公元前古代都市里的壁画中，就画有天秤偶，描绘了天秤偶和人类共同生活。",
+  "flavor_text_en": "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 343,
+    "pokeapi_species_id": 343,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/343"
+  }
+}

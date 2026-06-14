@@ -1,0 +1,89 @@
+{
+  "entry_id": "0191",
+  "national_id": 191,
+  "form": "default",
+  "names": {
+    "en": "Sunkern",
+    "ja": "ヒマナッツ",
+    "zh": "向日种子"
+  },
+  "generation": 2,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "たねポケモン",
+  "category_zh": "种子宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素 / 或 / 太阳之力",
+      "hidden": false
+    },
+    {
+      "name_en": "solar-power",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "early-bird",
+      "name_zh": "早起",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 235,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 36,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 30,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 30,
+    "total": 180
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 192,
+        "name_en": "sunflora",
+        "name_zh": "向日花怪",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 102,
+    "帕底亚": 31
+  },
+  "flavor_text_zh": "向日种子有着一对大眼睛，全身为黄色并带有三条褐色纹路。 向日种子非常弱小，会在某日清晨突然从天上掉下来。被 烈雀 袭击时，也只能拼命挥动着叶子来勉强赶走敌人。它仅靠饮用叶子背面储存的朝露生活，据说除此之外什么都不吃。它对自己的弱小心知肚明，所以直到进化为止会不断积存养分。为了将体内储存的营养一直保留到进化那一刻，它几乎不会动一下。如果某年夏天的温度很低，那第二年它们的数量就会暴增。",
+  "flavor_text_en": "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 191,
+    "pokeapi_species_id": 191,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/191"
+  }
+}

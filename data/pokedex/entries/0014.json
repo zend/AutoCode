@@ -1,0 +1,89 @@
+{
+  "entry_id": "0014",
+  "national_id": 14,
+  "form": "default",
+  "names": {
+    "en": "Kakuna",
+    "ja": "コクーン",
+    "zh": "铁壳蛹"
+  },
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "types_zh": [
+    "虫",
+    "毒"
+  ],
+  "category": "さなぎポケモン",
+  "category_zh": "蛹宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 10.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 25,
+    "defense": 50,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 35,
+    "total": 205
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 13,
+        "name_en": "weedle",
+        "name_zh": "独角虫",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 15,
+        "name_en": "beedrill",
+        "name_zh": "大针蜂",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 14,
+    "城都": 28,
+    "密阿雷": 19
+  },
+  "flavor_text_zh": "铁壳蛹是淡黄色的虫蛹外形宝可梦。铁壳蛹有圆形的头顶和黑色的三角形眼睛。在它身体中间有镰刀状的手臂。 铁壳蛹是为了进化为成虫所形成的蛹状态。它为了不被天敌发现，会隐藏在巨大的树上的叶子背后或树枝间隙中，自己本身几乎不动，等待进化时刻的到来。尽管它是个蛹，但还是能轻微活动身体，若敌人来袭，遇到了危险，就会伸出毒针攻击并让外壳变硬并以此来保护自己。它的身体会逐渐长成成熟的状态，身体会变得很热，在为进化而忙碌地准备着。虽然内部十分柔软，但外壳会越变越硬。",
+  "flavor_text_en": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 14,
+    "pokeapi_species_id": 14,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/14"
+  }
+}

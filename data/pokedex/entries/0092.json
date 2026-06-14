@@ -1,0 +1,88 @@
+{
+  "entry_id": "0092",
+  "national_id": 92,
+  "form": "default",
+  "names": {
+    "en": "Gastly",
+    "ja": "ゴース",
+    "zh": "鬼斯"
+  },
+  "generation": 1,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "types_zh": [
+    "幽灵",
+    "毒"
+  ],
+  "category": "ガスじょうポケモン",
+  "category_zh": "气体状宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.3,
+  "weight_kg": 0.1,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 35,
+    "defense": 30,
+    "special_attack": 100,
+    "special_defense": 35,
+    "speed": 80,
+    "total": 310
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 93,
+        "name_en": "haunter",
+        "name_zh": "鬼斯通",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 92,
+    "城都": 58,
+    "神奥": 69,
+    "阿罗拉": 61,
+    "伽勒尔": 141,
+    "洗翠": 136,
+    "帕底亚": 68,
+    "北上": 118,
+    "密阿雷": 65
+  },
+  "flavor_text_zh": "鬼斯是稀薄的瓦斯状生命体，核心呈黑色球形。它有白色的大眼睛、黑色的小瞳孔和长着一对獠牙的嘴巴。它的样子几乎看不到，但鬼斯一旦出现，附近就会发出淡淡的甜香味。 鬼斯据说是怨念寄宿在了墓地散发出的气体中，并最终变成了宝可梦。它从毒瓦斯中诞生，身体的95%是毒瓦斯，剩下的5%据说是死于毒瓦斯的死者的灵魂。它是气体状的生命体，几乎无法被看到，难以捉摸。它能用稀薄气体状的身体潜入任何地方，但只要起风就会被吹跑。遇到强风后，气体状的身体转眼间就会被吹散变小，躲过风吹后的鬼斯会聚集在屋檐下。它似乎会在没人居住的旧屋子里出现，形状不清，仿佛就像是气体一样。如果在已成废墟的建筑物里亮着怪异的光，说明那里潜藏着鬼斯。它毒性强烈，若吸入它身体的一部分就会立即失去意识，极其危险。它会利用气体状的身体缠住猎物，从皮肤缓缓注入毒素，使猎物变得虚弱。不管对手的体型多大，它由气体构成的轻盈身体都可以将其裹住并结束它的性命。如果被含毒的气体状身体裹住的话，不管是谁都会昏迷过去，连印度大象也会在2秒内倒下。",
+  "flavor_text_en": "Gaseous and completely impalpable. Also highly dangerous— inhaling part of its poisonous body will cause one to faint instantly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 92,
+    "pokeapi_species_id": 92,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/92"
+  }
+}

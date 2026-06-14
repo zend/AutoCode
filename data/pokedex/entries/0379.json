@@ -1,0 +1,72 @@
+{
+  "entry_id": "0379",
+  "national_id": 379,
+  "form": "default",
+  "names": {
+    "en": "Registeel",
+    "ja": "レジスチル",
+    "zh": "雷吉斯奇鲁"
+  },
+  "generation": 3,
+  "types": [
+    "steel"
+  ],
+  "types_zh": [
+    "钢"
+  ],
+  "category": "くろがねポケモン",
+  "category_zh": "黑金宝可梦",
+  "abilities": [
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "light-metal",
+      "name_zh": "轻金属",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 205.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 75,
+    "defense": 150,
+    "special_attack": 75,
+    "special_defense": 150,
+    "speed": 50,
+    "total": 580
+  },
+  "ev_yield": {
+    "defense": 2,
+    "special_defense": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 195
+  },
+  "flavor_text_zh": "雷吉斯奇鲁的上半身灰色，呈球形。它的身上有些黑色条纹，其面部有由七个红点组成的六边形图案。雷吉斯奇鲁的每条黑色手臂上有三根手指，腿为圆柱状。 雷吉斯奇鲁据说诞生于地幔之中，在距今约1万年前现身于地面之上，过去是曾被人封印的宝可梦。它身体内部好像成为了空洞，不清楚该宝可梦以什么为食。它经过长达几万年地下压力的锤炼拥有比任何金属都坚硬的身体，金属的身躯变得刀枪不入。虽然也拥有能伸能缩的柔软性，但它其实是由比任何金属都要结实的神秘物质构成的，人们认为构成其身体的金属是地球上不存在的物质。",
+  "flavor_text_en": "It’s rumored that this Pokémon was born deep underground in the planet’s mantle and that it emerged onto the surface 10,000 years ago.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 379,
+    "pokeapi_species_id": 379,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/379"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "entry_id": "0742",
+  "national_id": 742,
+  "form": "default",
+  "names": {
+    "en": "Cutiefly",
+    "ja": "アブリー",
+    "zh": "萌虻"
+  },
+  "generation": 7,
+  "types": [
+    "bug",
+    "fairy"
+  ],
+  "types_zh": [
+    "虫",
+    "妖精"
+  ],
+  "category": "ツリアブポケモン",
+  "category_zh": "蜂虻宝可梦",
+  "abilities": [
+    {
+      "name_en": "honey-gather",
+      "name_zh": "采蜜 / 或 / 鳞粉",
+      "hidden": false
+    },
+    {
+      "name_en": "shield-dust",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sweet-veil",
+      "name_zh": "甜幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.1,
+  "weight_kg": 0.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "虫",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 55,
+    "special_defense": 40,
+    "speed": 84,
+    "total": 304
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 743,
+        "name_en": "ribombee",
+        "name_zh": "蝶结萌虻",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 83,
+    "伽勒尔": 187,
+    "北上": 16
+  },
+  "flavor_text_zh": "萌虻是一个拥有较大翅膀，身体却非常微小的宝可梦。它的身体主要呈黄色，而脸和尾巴则呈白色。一双大眼睛上长着像方块的斑点，还有长褐色的鼻子。在非常像天线的头上有两片透明的羽毛。背上的翅膀宽而平坦，白色的翅膀上画着褐色的圈圈。四个腿则非常的细长。 萌虻主要栖息在郊外的原野。但是，由于会被生物的感情所吸引，所以也会出现在街上或建筑物中。它能够感知人、宝可梦和植物等生物的气场，很擅长从气场中预先读取敌人的行动，能轻盈地躲开攻击玩弄对方并进行反击。感受到人和宝可梦身上有似乎很快乐的气场时，它便会用长长的嘴巴刺过来，十分痛。花粉和花蜜是萌虻的最爱。它会用长长的嘴吸取花粉和蜜，吃不完的花粉则会被它储蓄在体毛的缝隙间。它能通过气场的颜色和光暗找寻花朵，采集花蜜和花粉，分辨出要开放的花。它会在花圃里寻找食物，和 巴大蝶 展开小冲突。 圆丝蛛 爱吃落入它巢中的萌虻， 榛果球 也喜欢吃飞过的萌虻。为了采集 幼棉棉 的花粉，萌虻会在它们附近飞来飞去。有时萌虻也会聚集在 伪螳草 藏匿的草丛里。听说生物的感情激昂时的气场，和花朵满开时的气场十分相似。因此，也会靠近心情大喜或大悲的人和宝可梦。 [ 1 ]",
+  "flavor_text_en": "An opponent’s aura can tell Cutiefly what that opponent’s next move will be. Then Cutiefly can glide around the attack and strike back.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 742,
+    "pokeapi_species_id": 742,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/742"
+  }
+}

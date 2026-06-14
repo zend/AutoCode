@@ -1,0 +1,85 @@
+{
+  "entry_id": "0947",
+  "national_id": 947,
+  "form": "default",
+  "names": {
+    "en": "Brambleghast",
+    "ja": "アノホラグサ",
+    "zh": "怖纳噬草"
+  },
+  "generation": 9,
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "types_zh": [
+    "草",
+    "幽灵"
+  ],
+  "category": "ころがりぐさポケモン",
+  "category_zh": "滚草宝可梦",
+  "abilities": [
+    {
+      "name_en": "wind-rider",
+      "name_zh": "乘风",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 6.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 115,
+    "defense": 70,
+    "special_attack": 80,
+    "special_defense": 70,
+    "speed": 90,
+    "total": 480
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 946,
+        "name_en": "bramblin",
+        "name_zh": "纳噬草",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 243
+  },
+  "flavor_text_zh": "怖纳噬草会在干燥地带流浪，有极低的概率会大量出现，把一座城镇塞得满满当当。它能张开头部的枝条来吞食猎物，在尽情吸食精气之后，就会把猎物吐出来扔掉。",
+  "flavor_text_en": "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 947,
+    "pokeapi_species_id": 947,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/947"
+  }
+}

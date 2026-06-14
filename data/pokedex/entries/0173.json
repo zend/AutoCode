@@ -1,0 +1,94 @@
+{
+  "entry_id": "0173",
+  "national_id": 173,
+  "form": "default",
+  "names": {
+    "en": "Cleffa",
+    "ja": "ピィ",
+    "zh": "皮宝宝"
+  },
+  "generation": 2,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "ほしがたポケモン",
+  "category_zh": "星形宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯 / 或 / 魔法防守",
+      "hidden": false
+    },
+    {
+      "name_en": "magic-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "friend-guard",
+      "name_zh": "友情防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.0,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 150,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 44,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 25,
+    "defense": 28,
+    "special_attack": 45,
+    "special_defense": 55,
+    "speed": 15,
+    "total": 218
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 35,
+        "name_en": "clefairy",
+        "name_zh": "皮皮",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 40,
+    "神奥": 99,
+    "阿罗拉": 210,
+    "伽勒尔": 254,
+    "洗翠": 199,
+    "北上": 151,
+    "密阿雷": 55
+  },
+  "flavor_text_zh": "皮宝宝有着星星一样的轮廓，身体是粉色的。它的耳朵是褐色的，有两个小小的黑眼睛，一个小嘴巴。它的前额上有一个小小的卷曲，尾巴也有弯曲。 从皮宝宝的轮廓判断，它被认为是星星的转世，人们相信它是乘着流星而来的。如果找到了流星坠落的地点，在那里也一定能发现皮宝宝。在流星很多的夜晚能看到皮宝宝们围成一圈跳舞的身影，在流星倾注的夜里与同胞们一起舞动的模样宛如星星的化身。如果能在那时看到它们，就会遇到一些好事情。它们会一直跳到日出并用夜露润喉，早晨太阳升起后，它们就不见了。它在流星闪耀的深夜里凝望着天空的样子，似乎是在怀念故乡，不知为何很喜欢 小陨星 。",
+  "flavor_text_en": "In silhouette, they resemble twinkling starlight. When shooting stars rain from the night sky, Cleffa gather in numbers and dance as though they are indeed incarnations of the stars.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 173,
+    "pokeapi_species_id": 173,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/173"
+  }
+}

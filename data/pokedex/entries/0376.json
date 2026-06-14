@@ -1,0 +1,86 @@
+{
+  "entry_id": "0376",
+  "national_id": 376,
+  "form": "default",
+  "names": {
+    "en": "Metagross",
+    "ja": "メタグロス",
+    "zh": "巨金怪"
+  },
+  "generation": 3,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "types_zh": [
+    "钢",
+    "超能力"
+  ],
+  "category": "てつあしポケモン",
+  "category_zh": "铁足宝可梦",
+  "abilities": [
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "light-metal",
+      "name_zh": "轻金属",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 550.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 135,
+    "defense": 130,
+    "special_attack": 95,
+    "special_defense": 90,
+    "speed": 70,
+    "total": 600
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 375,
+        "name_en": "metang",
+        "name_zh": "金属怪",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 192,
+    "阿罗拉": 216,
+    "蓝莓": 139,
+    "密阿雷": 227
+  },
+  "flavor_text_zh": "巨金怪由2只金属怪组合而成。它全身青蓝色，身体呈铁饼状，从身体的四个方向伸出粗壮的腿。它的两眼为红色，脸上有一个“X”型的银色金属交叉，它的眼睛分别长在了“X”形交叉的右下角和左下角。它的腹部长着一张大嘴，嘴内有牙齿。超级巨金怪是1只巨金怪、1只金属怪和2只铁哑铃组合在一起的样子，原本的四条腿变四根粗壮的手臂并向前伸出，背后也伸有四根较小的手臂，上面一对比下面略大。它脸上的金属交叉变成了金色，下颚长出了一根尖刺。 巨金怪的四个大脑连接在一起，构成了复杂的神经网络，是比超级计算机还要聪明的宝可梦。通过四个大脑的并行处理，完成什么样的计算都只要一瞬间。它能用比超级计算机更厉害的运算能力分析并打败对手，冷静地将对手逼入绝境。它还可以收起四只脚浮在空中，将脚折叠起来飞行。不只是精神力量，它还以怪力而自豪。能用四只脚抓住猎物，用爪子封住对方的行动。用四只爪子和庞大的身体牢牢地按住猎物后，它会用腹部的牙齿嘎嘣嘎嘣地啃咬。由于当气温下降至０度以下时磁力会增强，栖息在雪山上的巨金怪特别有活力。 超级巨金怪因为超级进化，大脑受到刺激，变成了为胜利不择手段的冷酷性格。它的头脑变得更优秀了，其结果令战斗变得冷酷得惨不忍睹。如果判断自己无法战胜，就会用爪子抓住对手，开始大爆炸的倒计时。",
+  "flavor_text_en": "Metagross is the result of the fusion of two Metang. This Pokémon defeats its opponents through use of its supercomputer-level brain.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 376,
+    "pokeapi_species_id": 376,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/376"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "entry_id": "0691",
+  "national_id": 691,
+  "form": "default",
+  "names": {
+    "en": "Dragalge",
+    "ja": "ドラミドロ",
+    "zh": "毒藻龙"
+  },
+  "generation": 6,
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "types_zh": [
+    "毒",
+    "龙"
+  ],
+  "category": "クサモドキポケモン",
+  "category_zh": "似草宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-touch",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "适应力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 81.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 55,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 75,
+    "defense": 90,
+    "special_attack": 97,
+    "special_defense": 123,
+    "speed": 44,
+    "total": 494
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 690,
+        "name_en": "skrelp",
+        "name_zh": "垃垃藻",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 338,
+    "密阿雷": 162
+  },
+  "flavor_text_zh": "毒藻龙有着紫色的皮肤，周身是一圈干枯的海草，有着像是海马一般的外形。它头部上方是一片红色的十字构造叶子，其中延伸出两根如同角一般的干枯海草。脑后长有两根如同触须一般的海草，而身体的左右两边分别延伸出一条叶瓣状附肢。 毒藻龙会混在海藻里等待着猎物。它性格粗暴，会不顾一切地向入侵领地者吐出剧毒，给猎物致命一击。它还会将能够腐蚀金属的毒液喷向进入自己领地的油轮，使其化为碎屑，葬身海底。据说，误入毒藻龙居住海域的船是无法平安回来的。毒藻龙能通过将头上的伞状部分伸出海面吸收阳光的方式，在体内制造龙之能量。由于游泳游不赢 波普海豚 ，因此会混在碎藻里来靠近它，然后使出带毒的攻击让它动弹不得。不知为何，它只和 破破舵轮 关系非常好。 超级毒藻龙会吐出能让细胞的再生力失控的液体。除了自己，对谁都是剧毒。",
+  "flavor_text_en": "Dragalge generates dragon energy by sticking the plume on its head out above the ocean’s surface and bathing it in sunlight.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 691,
+    "pokeapi_species_id": 691,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/691"
+  }
+}

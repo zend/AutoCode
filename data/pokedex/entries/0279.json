@@ -1,0 +1,96 @@
+{
+  "entry_id": "0279",
+  "national_id": 279,
+  "form": "default",
+  "names": {
+    "en": "Pelipper",
+    "ja": "ペリッパー",
+    "zh": "大嘴鸥"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "types_zh": [
+    "水",
+    "飞行"
+  ],
+  "category": "みずどりポケモン",
+  "category_zh": "水鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 降雨",
+      "hidden": false
+    },
+    {
+      "name_en": "drizzle",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "雨盘",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 28.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 154,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 100,
+    "special_attack": 95,
+    "special_defense": 70,
+    "speed": 65,
+    "total": 440
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 278,
+        "name_en": "wingull",
+        "name_zh": "长翅鸥",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 28,
+    "神奥": 120,
+    "阿罗拉": 41,
+    "伽勒尔": 63,
+    "帕底亚": 133
+  },
+  "flavor_text_zh": "大嘴鸥黄色的鸟喙占了身体的大部分，它的羽毛是白色，爪、翼尖和额头处为蓝色。它的鸟嘴鼓得大大的，幼儿园小朋友这么大的孩子正好能完全进入。 大嘴鸥会在海边的峭壁上筑巢，把孩子放进鸟嘴里保护，风平浪静的日子会浮在海面上小憩。它能擦着海面飞行寻找食物，发现食物之后就把大大的鸟嘴伸进海里，连同海水一起捞起来后一口气吞掉。肚子饿的时候，它也会为了寻找食物而潜入水中。它会叼走只有独自一只的 爱心鱼 ，也会用大大的鸟嘴捞起30只以上的 弱丁鱼 后整个吞下。收集食物是年轻雄性大嘴鸥的活儿，它会在大大的鸟嘴里储藏食物后运送到伙伴等待的巢穴中。它还是把小型宝可梦和蛋放进鸟嘴里保护起来，并运送到安全地方的空中运送员，累了就会浮在海上休息。",
+  "flavor_text_en": "Skimming the water’s surface, it dips its large bill in the sea, scoops up food and water, and carries it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 279,
+    "pokeapi_species_id": 279,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/279"
+  }
+}

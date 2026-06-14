@@ -1,0 +1,94 @@
+{
+  "entry_id": "0129",
+  "national_id": 129,
+  "form": "default",
+  "names": {
+    "en": "Magikarp",
+    "ja": "コイキング",
+    "zh": "鲤鱼王"
+  },
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "さかなポケモン",
+  "category_zh": "鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 10.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 40,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water2",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "水中2",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "special_attack": 15,
+    "special_defense": 20,
+    "speed": 80,
+    "total": 200
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 130,
+        "name_en": "gyarados",
+        "name_zh": "暴鲤龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 129,
+    "城都": 76,
+    "丰缘": 52,
+    "神奥": 23,
+    "阿罗拉": 91,
+    "伽勒尔": 144,
+    "洗翠": 80,
+    "帕底亚": 134,
+    "北上": 43,
+    "密阿雷": 32
+  },
+  "flavor_text_zh": "鲤鱼王的身体是红色的而且非常坚硬，它有两根像鲶鱼一样的长丝长在口边。它的背鳍和腹鳍的形状看起来像王冠。雄性鲤鱼王的胡须为黄色，雌性鲤鱼王的则是白色的。 鲤鱼王生命力顽强，即便在污水中也毫不在意，生活在世界各地的水边。海里、河里、池子里、还有水洼里......它们会在各种地方游来游去。由于游泳力气太弱，在水流很缓的河川也无法逆流而上，只能被水冲走。看一眼流水停滞的地方，里面堆满了被冲走的鲤鱼王。它因靠不住而出名，身体孱弱、心智驽钝，派不上用场。它的力量和速度几乎都不行，是世界上最弱最可怜的宝可梦，谁也说不清为什么被称为世界最弱的鲤鱼王能够存活至今。但它的繁殖力惊人，多得简直要看腻了。在非常遥远的过去，它还是十分强大的，但随着时间的推移，它变得越来越弱，越来越弱了。鲤鱼王不知为何总是跳个不停，甚至还有研究者调查过它为什么会跳。总之它就是跳啊、跳啊、不停地跳啊、无意义地跳，跳的时候会被飞来的 比比鸟 、 大比鸟 之流给抓住。因为胡乱跃起，马上就被袭击了。但据说多亏了鲤鱼王，大多数宝可梦都能活得更久。即使偶尔跳得比较高，也只能勉强超过2米。活了很久的鲤鱼王可以一跳就翻过大山，但招式的威力却还是那么弱。",
+  "flavor_text_en": "A feeble, pitiful imbecile of a Pokémon that is nonetheless very hardy. Unperturbed by turbid water, it can be found living in all sorts of places.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 129,
+    "pokeapi_species_id": 129,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/129"
+  }
+}

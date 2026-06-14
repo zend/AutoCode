@@ -1,0 +1,68 @@
+{
+  "entry_id": "0386",
+  "national_id": 386,
+  "form": "default",
+  "names": {
+    "en": "Deoxys",
+    "ja": "デオキシス",
+    "zh": "代欧奇希斯"
+  },
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "ＤＮＡポケモン",
+  "category_zh": "ＤＮＡ宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 60.8,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 150,
+    "defense": 50,
+    "special_attack": 150,
+    "special_defense": 50,
+    "speed": 150,
+    "total": 600
+  },
+  "ev_yield": {
+    "attack": 1,
+    "special_attack": 1,
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 202
+  },
+  "flavor_text_zh": "代欧奇希斯是一种长得像外星人的两足宝可梦，拥有四种形态，各自注重不同的能力。四种形态具有共同特征，其躯体主要为橘红色，面部蓝绿色，背部有三个蓝绿色的点。面部有一道紫色条纹贯穿，胸腔有结晶的气管。其矩形的黑色眼眶中长有白色的圆形眼睛。 代欧奇希斯是附着在陨石上的宇宙病毒的DNA受到激光照射后发生突变而生成的宝可梦，会出现在极光的附近。它智商很高，会操控超能力，胸部的水晶体好像是它的大脑。它能从胸部的水晶体发射出激光，变化形态的时候会出现极光。 变化为攻击形态的代欧奇希斯能够变换形态来迷惑对手，变化为防御形态时可以通过变化细胞形态来吸取攻击。速度形态的身体形状很适合快速移动。",
+  "flavor_text_en": "Deoxys emerged from a virus that came from space. It is highly intelligent and wields psychokinetic powers. This Pokémon shoots lasers from the crystalline organ on its chest.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 386,
+    "pokeapi_species_id": 386,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/386"
+  }
+}

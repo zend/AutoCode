@@ -1,0 +1,79 @@
+{
+  "entry_id": "0241",
+  "national_id": 241,
+  "form": "default",
+  "names": {
+    "en": "Miltank",
+    "ja": "ミルタンク",
+    "zh": "大奶罐"
+  },
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ちちうしポケモン",
+  "category_zh": "奶牛宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 胆量",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 75.5,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 172,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 80,
+    "defense": 105,
+    "special_attack": 40,
+    "special_defense": 70,
+    "speed": 100,
+    "total": 490
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "城都": 149,
+    "阿罗拉": 138
+  },
+  "flavor_text_zh": "大奶罐看起来像一只粉红色的乳牛，尾巴末端有一个黑色的球。大奶罐只有雌性，与它对应的雄性宝可梦是 肯泰罗 。 大奶罐每天能产出20升营养丰富的牛奶，因此从很久以前开始就一直支持着人类和宝可梦的生活。如果不每天帮它挤鲜奶，它的身体就会不舒服。越是能长出优质牧草的土地，它所产出的牛奶也就越香浓可口，鲜奶的味道会随季节改变。在哺乳期挤出来的牛奶中，贮存着比平时更多的营养。甜甜的牛奶大人小孩都非常喜欢，喝不惯牛奶的人会将其制成酸奶食用。对老人和病人来说，这是最好的饮料。都说喝着大奶罐的奶长大的孩子，会变得健康又强壮。这款牛奶热量很高，所以饮用过量的话就会变成大奶罐那样的体型。如果喝多了，有时就会拉肚子。给大奶罐挤奶的时候，窍门是从上到下有节奏地挤压乳头。人们几乎都是为了采集牛奶而培育它，但因为相当强壮和结实，也会用来战斗。",
+  "flavor_text_en": "This Pokémon needs to be milked every day, or else it will fall ill. The flavor of Miltank milk changes with the seasons.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 241,
+    "pokeapi_species_id": 241,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/241"
+  }
+}

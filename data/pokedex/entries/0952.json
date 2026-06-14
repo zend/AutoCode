@@ -1,0 +1,90 @@
+{
+  "entry_id": "0952",
+  "national_id": 952,
+  "form": "default",
+  "names": {
+    "en": "Scovillain",
+    "ja": "スコヴィラン",
+    "zh": "狠辣椒"
+  },
+  "generation": 9,
+  "types": [
+    "grass",
+    "fire"
+  ],
+  "types_zh": [
+    "草",
+    "火"
+  ],
+  "category": "ハバネロポケモン",
+  "category_zh": "热辣宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "insomnia",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moody",
+      "name_zh": "心情不定",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 15.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 170,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 108,
+    "defense": 65,
+    "special_attack": 108,
+    "special_defense": 65,
+    "speed": 75,
+    "total": 486
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 951,
+        "name_en": "capsakid",
+        "name_zh": "热辣娃",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 251
+  },
+  "flavor_text_zh": "狠辣椒虽然２颗头的性格迥异，擅长的战斗方式也不同，但战斗时却能默契配合。绿色的头会变得凶暴，是因为脑部受到了辣味成分的刺激，一旦暴怒起来就会一发不可收拾。它会把辣味成分转换成火之能量，然后从红色的头朝四周发射出辣到爆炸的火焰。 超级狠辣椒的辣味更强了，会挥舞变得像领带的部分狠狠地殴打对手。",
+  "flavor_text_en": "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 952,
+    "pokeapi_species_id": 952,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/952"
+  }
+}

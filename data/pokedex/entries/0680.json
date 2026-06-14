@@ -1,0 +1,88 @@
+{
+  "entry_id": "0680",
+  "national_id": 680,
+  "form": "default",
+  "names": {
+    "en": "Doublade",
+    "ja": "ニダンギル",
+    "zh": "双剑鞘"
+  },
+  "generation": 6,
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "types_zh": [
+    "钢",
+    "幽灵"
+  ],
+  "category": "とうけんポケモン",
+  "category_zh": "刀剑宝可梦",
+  "abilities": [
+    {
+      "name_en": "no-guard",
+      "name_zh": "无防守",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 4.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 157,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 59,
+    "attack": 110,
+    "defense": 150,
+    "special_attack": 45,
+    "special_defense": 49,
+    "speed": 35,
+    "total": 448
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 679,
+        "name_en": "honedge",
+        "name_zh": "独剑鞘",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 681,
+        "name_en": "aegislash",
+        "name_zh": "坚盾剑怪",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 331,
+    "密阿雷": 72
+  },
+  "flavor_text_zh": "独剑鞘进化之后变成了双胞胎，分裂为两把呈X型交叉状的剑。眼睛和缎带的颜色变为了品红色。背后有一个盾牌，两只剑鞘和盾牌似乎是固定在一起的。战斗时两把剑会飞出来，一只手保护着后面的盾牌，直到下次进化后盾牌变得完整，才可以用盾牌承受攻击。 双剑鞘通过心灵感应对话，用互相摩擦剑刃发出的金属音来威吓对手，用配合攻击砍碎敌人。两把剑会用令人眼花缭乱的速度不断交替攻击和防御，借以制服猎物。要抵挡住两把剑发出的复杂的连续攻击，即便是用剑高手也不可能。",
+  "flavor_text_en": "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 680,
+    "pokeapi_species_id": 680,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/680"
+  }
+}

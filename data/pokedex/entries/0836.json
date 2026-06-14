@@ -1,0 +1,83 @@
+{
+  "entry_id": "0836",
+  "national_id": 836,
+  "form": "default",
+  "names": {
+    "en": "Boltund",
+    "ja": "パルスワン",
+    "zh": "逐电犬"
+  },
+  "generation": 8,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "いぬポケモン",
+  "category_zh": "狗宝可梦",
+  "abilities": [
+    {
+      "name_en": "strong-jaw",
+      "name_zh": "强壮之颚",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "好胜",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 34.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 172,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 69,
+    "attack": 90,
+    "defense": 60,
+    "special_attack": 90,
+    "special_defense": 60,
+    "speed": 121,
+    "total": 490
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 835,
+        "name_en": "yamper",
+        "name_zh": "来电汪",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 47
+  },
+  "flavor_text_zh": "逐电犬的头部大体为金黄色有一部分延伸到尾部，而腹部和颈下中间部分是白色，身体呈茶色。四肢都有淡黄的环纹，前腿的爪子是白色的而后腿则是金橘色。 它会制造电能，并传送到脚上作为奔跑时的辅助动力。当它以最高速度奔跑时，时速可以轻易超过90公里，可以不眠不休地奔跑三天三夜。它还是 猾大狐 的天敌。",
+  "flavor_text_en": "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 836,
+    "pokeapi_species_id": 836,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/836"
+  }
+}

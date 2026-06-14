@@ -1,0 +1,102 @@
+{
+  "entry_id": "0067",
+  "national_id": 67,
+  "form": "default",
+  "names": {
+    "en": "Machoke",
+    "ja": "ゴーリキー",
+    "zh": "豪力"
+  },
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "かいりきポケモン",
+  "category_zh": "怪力宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力 / 或 / 无防守",
+      "hidden": false
+    },
+    {
+      "name_en": "no-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "steadfast",
+      "name_zh": "不屈之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 70.5,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "special_attack": 50,
+    "special_defense": 60,
+    "speed": 45,
+    "total": 405
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 66,
+        "name_en": "machop",
+        "name_zh": "腕力",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 68,
+        "name_en": "machamp",
+        "name_zh": "怪力",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 67,
+    "城都": 141,
+    "丰缘": 74,
+    "神奥": 41,
+    "阿罗拉": 96,
+    "伽勒尔": 139,
+    "洗翠": 155,
+    "密阿雷": 126
+  },
+  "flavor_text_zh": "豪力的皮肤是灰色的，浑身上下的都是健壮的肌肉。它戴了一条用来限制力量的金色腰带，腰部有类似三角裤的黑色图案。他的手和脚都是五根指头，每边手臂上有六道红色的痕迹。它的头部仍有三片瓦片状隆起，面部类似蜥蜴类动物，吻部较长并长有利齿。 豪力十分健壮，是兼具强健肉体与持久耐力的强者。它不会闲着，无论何时都全力行动，是顽强不屈又结实的宝可梦。它会为了锻炼身体活用自己那单手举翻斗车的力量，开心地帮人们干些例如搬运沉重行李之类的力气活。休息天则会在山野中锻炼身体。不断锻炼的结果就是拥有了非常惊人的力量，锻炼过的肌肉硬如钢铁。它全身的肌肉都涌出了力量，就算一动不动也会发散出很强的威压感。对战中使用的肌肉还会不断变粗。它有着只需1根手指就能轻松举起相扑力士的怪力，有时会与 铁骨土人 一起比拼肌肉。它的肉体非常强韧，有着深不可测的力量，所以戴着力量限制腰带来控制力量。由于太过危险，没有人把它拿下来过。但如果遇到了真正的强敌，它就会解开腰上的力量限制腰带并使出全力，变得势不可挡。豪力作为雕刻的主题也很受欢迎，锻炼到极致的肌肉俘获了很多艺术家的心。",
+  "flavor_text_en": "A sturdy creature boasting a robust physique and boundless stamina. Loves training above all else and voluntarily assists with tasks such as construction and clearing land.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 67,
+    "pokeapi_species_id": 67,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/67"
+  }
+}

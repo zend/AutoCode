@@ -1,0 +1,90 @@
+{
+  "entry_id": "0218",
+  "national_id": 218,
+  "form": "default",
+  "names": {
+    "en": "Slugma",
+    "ja": "マグマッグ",
+    "zh": "熔岩虫"
+  },
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ようがんポケモン",
+  "category_zh": "熔岩宝可梦",
+  "abilities": [
+    {
+      "name_en": "magma-armor",
+      "name_zh": "熔岩铠甲 / 或 / 火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "flame-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 35.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 50,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 40,
+    "special_attack": 70,
+    "special_defense": 40,
+    "speed": 20,
+    "total": 250
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 219,
+        "name_en": "magcargo",
+        "name_zh": "熔岩蜗牛",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 211,
+    "丰缘": 103,
+    "北上": 144
+  },
+  "flavor_text_zh": "熔岩虫全身是红色的，有着由熔岩构成的身体。它有一双黄色的眼睛，头顶有一对火焰状的触角。嘴巴两侧下方垂下来了水滴状物。 熔岩虫聚集的地方地面温度较高，会大量出现在火山地带，为了寻找温暖的地方会慢吞吞地爬来爬去。据说在火山活动频繁的太古时代，世界上生活着比现在还多的熔岩虫。代替了体内血液的灼热熔岩正在不断循环，为身体输送着必要的营养和氧气。虽然体内有灼热的熔岩不断卷动，但一直不动的话熔岩构成的身体便会冷却硬化、凝固崩裂、身体变小，因此会不眠不休地走动。由熔岩构成的身体有时会因变冷而缺损，但只要泡到熔岩中就能恢复。因为身体变冷后，皮肤就会变硬而无法行动，所以会在岩浆附近睡觉。",
+  "flavor_text_en": "Slugma does not have any blood in its body. Instead, intensely hot magma circulates throughout this Pokémon’s body, carrying essential nutrients and oxygen to its organs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 218,
+    "pokeapi_species_id": 218,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/218"
+  }
+}

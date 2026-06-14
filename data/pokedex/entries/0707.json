@@ -1,0 +1,77 @@
+{
+  "entry_id": "0707",
+  "national_id": 707,
+  "form": "default",
+  "names": {
+    "en": "Klefki",
+    "ja": "クレッフィ",
+    "zh": "钥圈儿"
+  },
+  "generation": 6,
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "types_zh": [
+    "钢",
+    "妖精"
+  ],
+  "category": "かぎたばポケモン",
+  "category_zh": "钥匙串宝可梦",
+  "abilities": [
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": false
+    },
+    {
+      "name_en": "magician",
+      "name_zh": "魔术师",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 3.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 165,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 57,
+    "attack": 80,
+    "defense": 91,
+    "special_attack": 80,
+    "special_defense": 87,
+    "speed": 75,
+    "total": 470
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 241,
+    "帕底亚": 240,
+    "密阿雷": 188
+  },
+  "flavor_text_zh": "钥圈儿像一个钥匙圈，喜欢在身上挂着各种钥匙，嘴巴下面还有一个粉红色的吊饰。 钥圈儿过去一直住在矿山里，但因为作为食物的矿物不断减少，便开始出现在村落里。它会把头上的角刺入金属的缝隙中，吸取金属离子。它会轻易丢掉吸取金属离子的钥匙，而自己中意的钥匙则会带在身边好几十年。它性格稳重，却会偷偷潜入民宅偷盗钥匙。之所以长得像钥匙，据说是因为太过喜欢钥匙，情不自禁进行了模仿。它有着收集钥匙的习性，如果给它钥匙的话就会很高兴，不过好像不是万能钥匙就不喜欢。它对于喜欢的钥匙绝对不放手，如果把重要的钥匙托付给它，无论发生什么它都会全力守护，所以为了防止盗窃会让它拿着金库的钥匙。过去的贵族会将掌管金库钥匙的钥圈儿一代代地传承下去，好好珍惜。如果被敌人袭击，它就会哐啷哐啷敲响钥匙威吓对方。",
+  "flavor_text_en": "Klefki sucks in metal ions with the horn topping its head. It seems this Pokémon loves keys so much that its head needed to look like one, too.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 707,
+    "pokeapi_species_id": 707,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/707"
+  }
+}

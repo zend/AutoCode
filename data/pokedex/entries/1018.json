@@ -1,0 +1,92 @@
+{
+  "entry_id": "1018",
+  "national_id": 1018,
+  "form": "default",
+  "names": {
+    "en": "Archaludon",
+    "ja": "ブリジュラス",
+    "zh": "铝钢桥龙"
+  },
+  "generation": 9,
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "types_zh": [
+    "钢",
+    "龙"
+  ],
+  "category": "ごうきんポケモン",
+  "category_zh": "合金宝可梦",
+  "abilities": [
+    {
+      "name_en": "stamina",
+      "name_zh": "持久力 / 或 / 结实",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "stalwart",
+      "name_zh": "坚毅",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 60.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 10,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 300,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "矿物",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 105,
+    "defense": 130,
+    "special_attack": 125,
+    "special_defense": 65,
+    "speed": 85,
+    "total": 600
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 884,
+        "name_en": "duraludon",
+        "name_zh": "铝钢龙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "蓝莓": 162
+  },
+  "flavor_text_zh": "铝钢桥龙将身躯伸直 铝钢桥龙在遇上危机时会伸直平时弯曲的身躯，以动作变缓慢为代价来让重心稳定下来。此时的样子看上去就像是宏伟的铁桥。它能通过在手脚末端收集并填充静电，将本来不会在体内生成的电能以强力的光束放出。因为在暴风雨等恶劣天气下容易收集到静电，所以能比平时更快放出光束。 [ 1 ] 铝钢桥龙会在山里挖洞寻找食物。它身体坚硬，即使遇到塌方也毫无问题。",
+  "flavor_text_en": "It digs holes on mountains, searching for food. It’s so durable that being caught in a cave-in won’t faze it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1018,
+    "pokeapi_species_id": 1018,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1018"
+  }
+}

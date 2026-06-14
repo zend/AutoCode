@@ -1,0 +1,92 @@
+{
+  "entry_id": "0016",
+  "national_id": 16,
+  "form": "default",
+  "names": {
+    "en": "Pidgey",
+    "ja": "ポッポ",
+    "zh": "波波"
+  },
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "ことりポケモン",
+  "category_zh": "小鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 蹒跚",
+      "hidden": false
+    },
+    {
+      "name_en": "tangled-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "big-pecks",
+      "name_zh": "健壮胸肌",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 50,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 56,
+    "total": 251
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 17,
+        "name_en": "pidgeotto",
+        "name_zh": "比比鸟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 16,
+    "城都": 10,
+    "密阿雷": 21
+  },
+  "flavor_text_zh": "波波的外形像小型鸟类。它的脸部、腹部和翅膀末端的羽毛是奶油色的，其他部位是褐色的。它的喙和爪子是紫色的，爪子有三个趾，两根朝前，一根朝后。头顶上有三簇毛，两边的毛是白色的，中间的则是褐色。它的尾羽由三簇褐色羽毛组成。 波波在草丛和森林里分布相当多，遇到敌人时会先惊叫再拍动翅膀丢洒沙砾来驱退敌人。虽然它性情温和不喜战斗，但要是随意对它出手的话，就会受到它强烈的反击。它的方向感非常好，无论离自己的巢穴多远，都能毫不迷路地飞回来。它经常藏身在草丛中，会用翅膀拍击地面激起沙尘，捕食小虫子。 阿柏蛇 喜食鸟宝可梦的蛋，有时会将波波或 烈雀 的蛋整个吞下去。 橡实果 以吓唬过来啄食的波波这类的宝可梦为乐。",
+  "flavor_text_en": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 16,
+    "pokeapi_species_id": 16,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/16"
+  }
+}

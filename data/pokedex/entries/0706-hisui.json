@@ -1,0 +1,94 @@
+{
+  "entry_id": "0706-hisui",
+  "national_id": 706,
+  "form": "hisui",
+  "names": {
+    "en": "Goodra",
+    "ja": "ヌメルゴン",
+    "zh": "黏美龙（洗翠的样子）"
+  },
+  "generation": 6,
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "types_zh": [
+    "钢",
+    "龙"
+  ],
+  "category": "ドラゴンポケモン",
+  "category_zh": "龙宝可梦",
+  "abilities": [
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "gooey",
+      "name_zh": "黏滑",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 334.1,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 70,
+    "special_attack": 110,
+    "special_defense": 150,
+    "speed": 80,
+    "total": 600
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 705,
+        "name_en": "sliggoo",
+        "name_zh": "黏美儿",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 180,
+    "伽勒尔": 391,
+    "帕底亚": 174,
+    "北上": 180,
+    "密阿雷": 167
+  },
+  "flavor_text_zh": "身材高壮的黏美龙，其实个性非常温驯。身体大部分为紫色调，十分光滑。有条巨大的尾巴，而在尾巴和脖子上有绿色斑圈。两条触角强而有力，可以攻击或抓住敌人扔出去。全身都有黏液，手和下巴的黏液最集中、明显。洗翠黏美龙背上有一个巨大的壳，使它看上去像蜗牛。 黏美龙是和人很亲近的性格温和的龙属性宝可梦。它性格善良，会为了保护其他宝可梦而努力。为了不让保护皮肤的黏液干掉，洞窟里的黏美龙栖息在水源附近。它热爱雨水，下雨时能看见它漫步在山野间的身姿。它黏糊糊的皮肤下面有很厚的脂肪层，可以卸掉敌人的攻击后用伸长角产生的力道来攻击对手，产生的威力比重量级拳击手的拳击还强100倍。它一旦生气便会令人束手无措，会用强到可以撞飞翻斗车的尾巴攻击来大闹特闹。因为很温顺就去戏弄的话，就会被它用角狠狠戳，用粗粗的尾巴扫荡。它会抱着非常喜爱的训练家，会用被黏糊糊的黏液包裹着的身体抱住人的身体，用粘液把对方弄得黏糊糊的。如果不管它的话就会很寂寞，流着黏糊糊的眼泪鸣叫。有时会因为无法理解训练家的指令而目瞪口呆，那可爱的举止让它深受欢迎。 洗翠黏美龙能自在操纵可刚可柔的金属外壳。它的性情执着且厌恶孤独，一旦喜爱的对象离开自己便会怒不可遏。它一不高兴就会缩在壳里，如橡胶球一般跳来跳去，横扫树木，把山掏得千疮百孔。",
+  "flavor_text_en": "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10242,
+    "pokeapi_species_id": 706,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10242"
+  }
+}

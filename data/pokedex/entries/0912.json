@@ -1,0 +1,85 @@
+{
+  "entry_id": "0912",
+  "national_id": 912,
+  "form": "default",
+  "names": {
+    "en": "Quaxly",
+    "ja": "クワッス",
+    "zh": "润水鸭"
+  },
+  "generation": 9,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "こがもポケモン",
+  "category_zh": "小鸭宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "moxie",
+      "name_zh": "自信过度",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 6.1,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "蓝色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "飞行",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 45,
+    "special_attack": 50,
+    "special_defense": 45,
+    "speed": 50,
+    "total": 310
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 913,
+        "name_en": "quaxwell",
+        "name_zh": "涌跃鸭",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 7
+  },
+  "flavor_text_zh": "润水鸭有着蓝色的羽毛构成的飞机头，它身体的羽毛是白色的，脚掌是蓝色的。它有着黄色的扁扁的喙，眼睛则是深蓝色的。 润水鸭很久以前从远方的土地来到这里栖息。总是会跟在训练家的身后，性格认真顽固。它爱干净，非常讨厌头部被弄脏。由羽毛分泌出的凝胶有防水和防污的效果，因此身体总能保持光润。头上的毛会用饱含水分的乳液来梳理，晾干后就会变得乱蓬蓬的。它的脚力很强，即使在水流湍急的地方也能自在游动，在对战中会快速且多次地向对手发动踢击。 [ 1 ]",
+  "flavor_text_en": "Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 912,
+    "pokeapi_species_id": 912,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/912"
+  }
+}

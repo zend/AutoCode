@@ -1,0 +1,70 @@
+{
+  "entry_id": "0797",
+  "national_id": 797,
+  "form": "default",
+  "names": {
+    "en": "Celesteela",
+    "ja": "テッカグヤ",
+    "zh": "铁火辉夜"
+  },
+  "generation": 7,
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "types_zh": [
+    "钢",
+    "飞行"
+  ],
+  "category": "うちあげポケモン",
+  "category_zh": "发射宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 9.2,
+  "weight_kg": 999.9,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 97,
+    "attack": 101,
+    "defense": 103,
+    "special_attack": 107,
+    "special_defense": 101,
+    "speed": 61,
+    "total": 570
+  },
+  "ev_yield": {
+    "attack": 1,
+    "defense": 1,
+    "special_attack": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 297
+  },
+  "flavor_text_zh": "铁火辉夜是 究极异兽 的一种，代号为“ＵＢ０４：喷射器”。它的身躯大部分由金属组成，身体两边各有一根巨大的竹形柱，充当手臂，末端伸出八根小喷射管。大部分部位是灰色和青色的，而圆柱体的灰色头盔下露出它的下巴和嘴部，还有纤细的颈部，有两个像喉结一样的突兀处按三等分点分布在狭长的脖颈上。脖颈通向它的身体，身体上覆盖着青色和白色相间的六边形分割花纹，而上半身则是被渐变的绿色外壳包裹着，每一个都呈矩形，越短的矩形颜色越深。从领口处被一个灰色的金属外壳包裹，形成一个以脖颈为中心且向前倾斜的圆形。头盔上伸出一根白色的钻头，末端尖利。头盔上有分布均匀的几色斑点，下半部分呈分叉状，同时向外伸出四根如蜻蜓翅翼般的触角，而后方伸展出金属外壳，像女性的长发，而末端同样有分叉。手臂分为几节，最上端开口处边缘呈蓝绿色而内部为金黄色，分节处各有一圈白色的棱。墨绿色的手掌有八根外向倾斜黑色喷射管，但手心却与顶端中心相同，是金黄色的开口。每根黑色喷射管根部有蓝绿色翼状板，伸延至手腕处。它的身体最下方同样伸出八根和手指一样的黑色喷射管。 铁火辉夜是从 究极之洞 出现的危险的究极异兽的一种。它在这个世界是很危险的异类，但在原本栖息的世界好像只是寻常能见的生物。从它巨大的双臂中检测出来很高的能量反应，从它两条手臂喷出气体烧毁森林的样子已被确认无疑。被人目击到以高速在空中飞行的样子。 根据 碧珂 的研究，铁火辉夜最大的特征是体内隐藏着能量。身体内保存着大量的可燃性气体，并能从巨大的双臂中将其放出。主要是在飞行和战斗时使用，但人们认为，该力量也能被用于飞向太空。生态接近植物，会从土壤中吸取养分。",
+  "flavor_text_en": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 797,
+    "pokeapi_species_id": 797,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/797"
+  }
+}

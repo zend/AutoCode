@@ -1,0 +1,87 @@
+{
+  "entry_id": "0318",
+  "national_id": 318,
+  "form": "default",
+  "names": {
+    "en": "Carvanha",
+    "ja": "キバニア",
+    "zh": "利牙鱼"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "types_zh": [
+    "水",
+    "恶"
+  ],
+  "category": "どうもうポケモン",
+  "category_zh": "凶猛宝可梦",
+  "abilities": [
+    {
+      "name_en": "rough-skin",
+      "name_zh": "粗糙皮肤",
+      "hidden": false
+    },
+    {
+      "name_en": "speed-boost",
+      "name_zh": "加速",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 20.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 61,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 90,
+    "defense": 20,
+    "special_attack": 65,
+    "special_defense": 20,
+    "speed": 65,
+    "total": 305
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 319,
+        "name_en": "sharpedo",
+        "name_zh": "巨牙鲨",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 97,
+    "阿罗拉": 264,
+    "密阿雷": 140
+  },
+  "flavor_text_zh": "利牙鱼的背部是蓝色的，腹部是红色的。它的鳍除尾鳍外基本是黄色的，腹部上有星形图案。 利牙鱼栖息于流经丛林的大河中，每个群体都拥有自己的领地。它会毫不留情地露出牙齿，成群结队地袭击那些在自己领地上胡闹的家伙，并用尖牙将其咬碎。它发达的颚与尖锐的牙齿有着能咬碎船底的破坏力，有很多船只因遭到利牙鱼的袭击而沉没，水手们绝不会主动靠近利牙鱼的栖息地。它即使一丝丝血的味道也能闻到，会围绕食物的问题和 野蛮鲈鱼 争斗。不过它非常胆小，即使发现猎物也不会单独发起攻击，会等待伙伴到来发动集体攻击。如果聚集了五只左右的话，就会一下子变得很粗暴。虽然被称为非常凶暴的宝可梦，不过一旦剩下一只时就会马上逃掉。",
+  "flavor_text_en": "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 318,
+    "pokeapi_species_id": 318,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/318"
+  }
+}

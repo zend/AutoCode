@@ -1,0 +1,87 @@
+{
+  "entry_id": "0269",
+  "national_id": 269,
+  "form": "default",
+  "names": {
+    "en": "Dustox",
+    "ja": "ドクケイル",
+    "zh": "毒粉蛾"
+  },
+  "generation": 3,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "types_zh": [
+    "虫",
+    "毒"
+  ],
+  "category": "どくがポケモン",
+  "category_zh": "毒蛾宝可梦",
+  "abilities": [
+    {
+      "name_en": "shield-dust",
+      "name_zh": "鳞粉",
+      "hidden": false
+    },
+    {
+      "name_en": "compound-eyes",
+      "name_zh": "复眼",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 31.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "special_attack": 50,
+    "special_defense": 90,
+    "speed": 65,
+    "total": 385
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 268,
+        "name_en": "cascoon",
+        "name_zh": "盾甲茧",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 18,
+    "神奥": 52,
+    "洗翠": 22
+  },
+  "flavor_text_zh": "毒粉蛾的身体呈紫色，黄色的复眼上均有三个黑点，有金黄色的棒状触角。它的两对足呈深粉色，有绿色的翅膀，翅膀上有红色的环状花纹。雌性毒粉蛾的触角更小。 毒粉蛾是夜行性宝可梦，太阳下山后就会开始活动。它有着被灯光吸引的习性，被路灯引诱的毒粉蛾群会把行道树上的叶子吃得一塌糊涂。它会用像雷达一样的触角寻找食物，感觉到危险就会从翅膀撒下剧毒的粉末，受到袭击时也会猛烈地扇动翅膀撒出剧毒的粉末来对抗敌人的攻击。毒性猛烈的鳞粉一旦吸入就连职业摔角手也会卧病不起，人们为了将它们驱离村落而煞费苦心。",
+  "flavor_text_en": "Tends to be drawn to bonfires on dark nights. Difficult to chase away from settlements because of the way it scatters highly toxic scales.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 269,
+    "pokeapi_species_id": 269,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/269"
+  }
+}

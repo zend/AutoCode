@@ -1,0 +1,98 @@
+{
+  "entry_id": "0280",
+  "national_id": 280,
+  "form": "default",
+  "names": {
+    "en": "Ralts",
+    "ja": "ラルトス",
+    "zh": "拉鲁拉丝"
+  },
+  "generation": 3,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "types_zh": [
+    "超能力",
+    "妖精"
+  ],
+  "category": "きもちポケモン",
+  "category_zh": "心情宝可梦",
+  "abilities": [
+    {
+      "name_en": "synchronize",
+      "name_zh": "同步 / 或 / 复制",
+      "hidden": false
+    },
+    {
+      "name_en": "trace",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 6.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 235,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 40,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "humanshape",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "人型",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 28,
+    "attack": 25,
+    "defense": 25,
+    "special_attack": 45,
+    "special_defense": 35,
+    "speed": 40,
+    "total": 198
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 281,
+        "name_en": "kirlia",
+        "name_zh": "奇鲁莉安",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 29,
+    "神奥": 157,
+    "伽勒尔": 120,
+    "洗翠": 101,
+    "帕底亚": 62,
+    "北上": 57,
+    "密阿雷": 87
+  },
+  "flavor_text_zh": "拉鲁拉丝有白色的身体，它绿色的头发遮住了拉鲁拉丝大半的脸。它的头发被两个在中间插下去的平坦的红色的角分开，一个大一点的朝前方，一个小一点的在后面。拉鲁拉丝的眼睛是红色的。 拉鲁拉丝能敏锐地使用头上红色的角捕捉人和宝可梦的感情。虽然几乎不会出现在人的面前，但感受到积极向上的情绪后就会靠过来，感受到敌意后就会躲进暗处。据说它会出现在心情愉快的人面前，倾向于亲近心情开朗之人而非心情低落之人，且无男女老少之分。它用红色的角捕捉到人和宝可梦的温情后，全身也会稍稍变暖起来。它有着可以察觉人类感情的力量，在训练家心情开朗的时候，它也会随着训练家一起开心。",
+  "flavor_text_en": "Tends to prefer people with a chipper disposition to those who are gloomy, but it has shown no discrimination with regard to age or gender. Needs more research.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 280,
+    "pokeapi_species_id": 280,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/280"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "entry_id": "0210",
+  "national_id": 210,
+  "form": "default",
+  "names": {
+    "en": "Granbull",
+    "ja": "グランブル",
+    "zh": "布鲁皇"
+  },
+  "generation": 2,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "ようせいポケモン",
+  "category_zh": "妖精宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 飞毛腿",
+      "hidden": false
+    },
+    {
+      "name_en": "quick-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 48.7,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 158,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 75,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 45,
+    "total": 450
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 209,
+        "name_en": "snubbull",
+        "name_zh": "布鲁",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 124,
+    "阿罗拉": 259,
+    "蓝莓": 152
+  },
+  "flavor_text_zh": "布鲁皇类似于 斗牛犬 ，全身以淡紫色为主，手腕、脖子处有黑色的条纹，下颚有重而巨大的犬齿，因为牙齿太大而一直倾斜着头。 布鲁皇面相虽凶，内心却比布鲁更加胆小，遭袭击时会拼命地挥动四肢驱赶敌人。它的下颚十分发达，啃咬的力道十分厉害，发达的下颚和沉重的牙齿是它的武器。颚的力量很强，但不喜欢争斗，所以很少有展露的机会。除非受到惊吓，否则不会到处乱咬；然而一旦开始发怒，就会用大牙齿来反击。看到它张开大嘴露出粗大的牙齿后，大多数宝可梦都会逃走。它与外表之间的反差萌很受欢迎，在年轻女性中人气很高。虽然深受年轻女性的欢迎，但它胆小怕事，内心柔弱，所以无法成为一条看门犬。",
+  "flavor_text_en": "Although it’s popular with young people, Granbull is timid and sensitive, so it’s totally incompetent as a watchdog.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 210,
+    "pokeapi_species_id": 210,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/210"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "entry_id": "0630",
+  "national_id": 630,
+  "form": "default",
+  "names": {
+    "en": "Mandibuzz",
+    "ja": "バルジーナ",
+    "zh": "秃鹰娜"
+  },
+  "generation": 5,
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "types_zh": [
+    "恶",
+    "飞行"
+  ],
+  "category": "ほねわしポケモン",
+  "category_zh": "骨鹰宝可梦",
+  "abilities": [
+    {
+      "name_en": "big-pecks",
+      "name_zh": "健壮胸肌 / 或 / 防尘",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 39.5,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 179,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 65,
+    "defense": 105,
+    "special_attack": 55,
+    "special_defense": 95,
+    "speed": 80,
+    "total": 510
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 629,
+        "name_en": "vullaby",
+        "name_zh": "秃鹰丫头",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 136,
+    "阿罗拉": 78,
+    "伽勒尔": 284,
+    "北上": 128,
+    "蓝莓": 35
+  },
+  "flavor_text_zh": "秃鹰娜的外貌像一只兀鹫，但她头上有羽毛束成的马尾并以骨头棒作发簪，腰上还佩戴着布满尖牙的下颚骨。秃鹰娜只有雌性，与它对应的雄性宝可梦是 勇士雄鹰 。 秃鹰娜为了 秃鹰丫头 而一直寻找着食物。它会在天空绕着圈圈飞行，从空中观察地面情况，有时也会被 嘎啦嘎啦 从天上用像回力镖的骨头击落。一旦发现弱小的猎物就发动袭击，用脚爪抓住它并轻巧地带回骨窝中。它最喜欢吃的是 卡拉卡拉 ，会使用所吃猎物的骨头灵巧地做成自己的巢穴。它有用骨头装饰在身上的习性，在骨头形状这方面似乎也是有流行趋势的。据说，用骨头华丽地装饰是为了吸引雄性，但还没有发现过雄性的秃鹰娜。虽然它的性情粗暴，但如果遇到了迷路的秃鹰丫头便会精心照顾它，直到它长大离巢。",
+  "flavor_text_en": "They adorn themselves with bones. There seem to be fashion trends among them, as different bones come into and fall out of popularity.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 630,
+    "pokeapi_species_id": 630,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/630"
+  }
+}

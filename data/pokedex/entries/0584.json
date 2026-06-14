@@ -1,0 +1,91 @@
+{
+  "entry_id": "0584",
+  "national_id": 584,
+  "form": "default",
+  "names": {
+    "en": "Vanilluxe",
+    "ja": "バイバニラ",
+    "zh": "双倍多多冰"
+  },
+  "generation": 5,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "ブリザードポケモン",
+  "category_zh": "暴风雪宝可梦",
+  "abilities": [
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯 / 或 / 降雪",
+      "hidden": false
+    },
+    {
+      "name_en": "snow-warning",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.3,
+  "weight_kg": 57.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 241,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 71,
+    "attack": 95,
+    "defense": 85,
+    "special_attack": 110,
+    "special_defense": 95,
+    "speed": 79,
+    "total": 535
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 583,
+        "name_en": "vanillish",
+        "name_zh": "多多冰",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 90,
+    "阿罗拉": 257,
+    "伽勒尔": 74,
+    "密阿雷": 115
+  },
+  "flavor_text_zh": "双倍多多冰的外貌类似冰淇淋。它身上铺着很多的白雪，脸颊旁都有一些冰块依附在它的脸部上。它拥有两个脸，左脸的头上有个喷孔可以喷出寒气。它的下半身是呈蓝色的，拥有朝下的三个冰柱，但中间的冰柱显得比两旁的冰柱还要更大。 双倍多多冰是因朝阳而开始融化的2只多多冰贴在一起，在寒冷的夜里再次冻结时诞生而成的宝可梦。它的体温在零下6度左右。即使失去了一侧的头也不会有什么问题，能继续活着。两个头拥有各自的大脑，如果两者同时发怒达到极限，就会从角上喷出猛烈的暴风雪袭击敌人。令敌人痛苦不堪的暴风雪会把敌人和伙伴都冻成冰块。如果2个头的意见不合，就会连移动都成问题。在它不动的时候注意观察的话，就会发现其中一个头在睡觉。它无论在哪里都能制作出雪来，会在喝入大量水后在体内制作雪云，所以很受滑雪和滑雪板爱好者欢迎。",
+  "flavor_text_en": "People believe this Pokémon formed when two Vanillish stuck together. Its body temperature is roughly 21 degrees Fahrenheit.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 584,
+    "pokeapi_species_id": 584,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/584"
+  }
+}

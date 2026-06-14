@@ -1,0 +1,94 @@
+{
+  "entry_id": "0476",
+  "national_id": 476,
+  "form": "default",
+  "names": {
+    "en": "Probopass",
+    "ja": "ダイノーズ",
+    "zh": "大朝北鼻"
+  },
+  "generation": 4,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "types_zh": [
+    "岩石",
+    "钢"
+  ],
+  "category": "コンパスポケモン",
+  "category_zh": "罗盘宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 磁力",
+      "hidden": false
+    },
+    {
+      "name_en": "magnet-pull",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 340.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 145,
+    "special_attack": 75,
+    "special_defense": 150,
+    "speed": 40,
+    "total": 525
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 299,
+        "name_en": "nosepass",
+        "name_zh": "朝北鼻",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 156,
+    "阿罗拉": 199,
+    "洗翠": 191,
+    "北上": 108
+  },
+  "flavor_text_zh": "大朝北鼻看起来像个1米高的石雕人头像，能自在操纵像浓密胡子般积蓄在身上的大量铁沙。 大朝北鼻可以本体不动，从全身放出强大的磁力，会发射坚硬的块状物攻击猎物。它会用磁力自由操纵３个被称为小朝北鼻的组件，从３个方向干掉对手或捕捉猎物，本体基本上只负责下命令。但这些部件好像偶尔也会迷路，没法回来。因为会释放强大的磁力，所以导致附近的电器都变得无法使用。",
+  "flavor_text_en": "It is able to emit powerful magnetism, allowing it control over the iron sand that forms its luscious mustache. Using this iron sand, Probopass forms hard stones with which it smites its prey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 476,
+    "pokeapi_species_id": 476,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/476"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "entry_id": "1006",
+  "national_id": 1006,
+  "form": "default",
+  "names": {
+    "en": "Iron Valiant",
+    "ja": "テツノブジン",
+    "zh": "铁武者"
+  },
+  "generation": 9,
+  "types": [
+    "fairy",
+    "fighting"
+  ],
+  "types_zh": [
+    "妖精",
+    "格斗"
+  ],
+  "category": "パラドックスポケモン",
+  "category_zh": "悖谬宝可梦",
+  "abilities": [
+    {
+      "name_en": "quark-drive",
+      "name_zh": "夸克充能",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 35.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 10,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 295,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 74,
+    "attack": 130,
+    "defense": 90,
+    "special_attack": 120,
+    "special_defense": 60,
+    "speed": 116,
+    "total": 590
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 398
+  },
+  "flavor_text_zh": "铁武者看起来既像 沙奈朵 ，又像 艾路雷朵 ，样子十分奇妙。 有说法认为铁武者是某个疯狂科学家制造出的机器人，而那名科学家一心渴求最强的超能力宝可梦，罕有人目击到铁武者。它的性情残暴，出现对峙者时，会用闪亮的利刃毫不犹豫地劈斩过去。 [ 1 ] 它的名字来自奇书《紫之书》中所记载的神秘物体。",
+  "flavor_text_en": "It’s possible that this is the object listed as Iron Valiant in a certain expedition journal.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1006,
+    "pokeapi_species_id": 1006,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1006"
+  }
+}

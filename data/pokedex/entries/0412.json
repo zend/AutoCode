@@ -1,0 +1,90 @@
+{
+  "entry_id": "0412",
+  "national_id": 412,
+  "form": "default",
+  "names": {
+    "en": "Burmy",
+    "ja": "ミノムッチ",
+    "zh": "结草儿"
+  },
+  "generation": 4,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "みのむしポケモン",
+  "category_zh": "蓑衣虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 3.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 45,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 29,
+    "defense": 45,
+    "special_attack": 29,
+    "special_defense": 45,
+    "speed": 36,
+    "total": 224
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 413,
+        "name_en": "wormadam",
+        "name_zh": "结草贵妇",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 414,
+        "name_en": "mothim",
+        "name_zh": "绅士蛾",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 45,
+    "洗翠": 43
+  },
+  "flavor_text_zh": "为了抵御寒冷的秋风，结草儿会用小树枝和落叶当材料，做成蓑衣裹在身上。随著衣裳材质不同，结草儿有着不同外貌。 结草儿身体被蓑衣包着，能忍耐寒冷季节，炎热的季节蓑衣也会较薄。就算是生长在找不到包裹身体的材料的地方，也会不知不觉地缠上蓑衣。如果蓑衣在战斗中坏掉了，就会用附近的材料立刻重新做一件蓑衣。有时 铁炮鱼 会击落并猎捕吊在树枝上的结草儿。 草木蓑衣样子的结草儿只要蓑衣稍有缺损，就会立即用身边的材料加以修补。蓑衣内的身体十分细瘦且畏惧寒冷。砂土蓑衣样子的结草儿会将吐出的丝揉合泥沙制成蓑衣。泥沙所制的蓑衣不耐风雨，因此它会躲藏在洞穴等处。垃圾蓑衣样子的结草儿当身边找不到适合的材料时就会用尘土草芥等垃圾来做蓑衣。裹起来的感觉似乎意外地还不坏。",
+  "flavor_text_en": "If its cloak is even slightly damaged, Burmy will immediately repair it with whatever is close at hand. The Pokémon within the cloak is scrawny and vulnerable to the cold.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 412,
+    "pokeapi_species_id": 412,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/412"
+  }
+}

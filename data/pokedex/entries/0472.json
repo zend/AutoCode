@@ -1,0 +1,92 @@
+{
+  "entry_id": "0472",
+  "national_id": 472,
+  "form": "default",
+  "names": {
+    "en": "Gliscor",
+    "ja": "グライオン",
+    "zh": "天蝎王"
+  },
+  "generation": 4,
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "types_zh": [
+    "地面",
+    "飞行"
+  ],
+  "category": "キバさそりポケモン",
+  "category_zh": "牙蝎宝可梦",
+  "abilities": [
+    {
+      "name_en": "hyper-cutter",
+      "name_zh": "怪力钳 / 或 / 沙隐",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-heal",
+      "name_zh": "毒疗",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 42.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 179,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 125,
+    "special_attack": 45,
+    "special_defense": 75,
+    "speed": 95,
+    "total": 510
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 207,
+        "name_en": "gligar",
+        "name_zh": "天蝎",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 154,
+    "洗翠": 186,
+    "北上": 122
+  },
+  "flavor_text_zh": "天蝎王具有蝎子和蝙蝠的特征，通体灰紫色。它的耳朵里、手臂和腹部是红色的，有着一双亮黄色的大眼睛。天蝎王的背后有一片巨大的黑色蝙蝠翅膀，它的翅膀与手完全分开。 天蝎王可以用漆黑的双翼悄无声息地在空中滑翔飞舞，只要顺利乘上微风，哪怕一次翅膀都不拍，也能环绕这个星球一周。它用尾巴倒挂在树枝上观察猎物，瞅准空当就从上空发动袭击。一旦猎物靠近，它能在一瞬间用长长的尾巴捕捉猎物，再用牙齿一击刺中要害。而后将锐利的獠牙刺进猎物的喉咙，直至吸尽猎物血液后才会满足。",
+  "flavor_text_en": "It glides soundlessly on pitch-black wings and sinks sharp fangs into the throat of its prey. It takes on a look of satisfaction once it has entirely drained its prey of blood.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 472,
+    "pokeapi_species_id": 472,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/472"
+  }
+}

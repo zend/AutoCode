@@ -1,0 +1,86 @@
+{
+  "entry_id": "0252",
+  "national_id": 252,
+  "form": "default",
+  "names": {
+    "en": "Treecko",
+    "ja": "キモリ",
+    "zh": "木守宫"
+  },
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "もりトカゲポケモン",
+  "category_zh": "林蜥宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "轻装",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 5.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special_attack": 65,
+    "special_defense": 55,
+    "speed": 70,
+    "total": 310
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 253,
+        "name_en": "grovyle",
+        "name_zh": "森林蜥蜴",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 1,
+    "蓝莓": 182
+  },
+  "flavor_text_zh": "木守宫的身体是草绿色的，尾巴的颜色较深。它的肚皮是玫瑰红的，眼睛很大，是黄色的。手上有三根手指，脚上长着三根圆形的脚趾。头顶有两道起伏。 木守宫在森林里的大树中筑巢而居。它会激烈地威吓侵入地盘的敌人，被称作保护森林之树的宝可梦。它性格沉着冷静，对任何事都能镇定自若，就算被体型很大的宝可梦瞪住也会毫不退让地瞪回去。它的脚底长有许多小刺，能够用脚底的小刺钩住垂直的墙壁轻快地攀爬。所以它就算倒挂着也不会掉下来，能够在墙壁和天花板上行走。它会甩动粗粗的尾巴进行摔打，也会用尾巴感知空气的湿度，以此来判断明天的天气。",
+  "flavor_text_en": "Treecko is cool, calm, and collected—it never panics under any situation. If a bigger foe were to glare at this Pokémon, it would glare right back without conceding an inch of ground.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 252,
+    "pokeapi_species_id": 252,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/252"
+  }
+}

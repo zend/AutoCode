@@ -1,0 +1,90 @@
+{
+  "entry_id": "0354",
+  "national_id": 354,
+  "form": "default",
+  "names": {
+    "en": "Banette",
+    "ja": "ジュペッタ",
+    "zh": "诅咒娃娃"
+  },
+  "generation": 3,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "ぬいぐるみポケモン",
+  "category_zh": "布偶宝可梦",
+  "abilities": [
+    {
+      "name_en": "insomnia",
+      "name_zh": "不眠",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "cursed-body",
+      "name_zh": "咒术之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 12.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 159,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 115,
+    "defense": 65,
+    "special_attack": 83,
+    "special_defense": 63,
+    "speed": 65,
+    "total": 455
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 353,
+        "name_en": "shuppet",
+        "name_zh": "怨影娃娃",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 147,
+    "帕底亚": 299,
+    "密阿雷": 112
+  },
+  "flavor_text_zh": "诅咒娃娃像一只嘴上有拉链的普通布偶。超级诅咒娃娃全身像是穿上了拉链服。 诅咒娃娃原本只是被丢弃的可怜玩偶。咒术的能量渗入被丢弃玩偶的棉花里，强烈的怨念将玩偶变成了宝可梦。它以垃圾场作为栖息地，可以在昏暗的巷子里发现它。据说它会寻找遗弃它的小孩，并在它周围到处走动，打算寻找丢弃自己的人来报仇。听说，如果满足它受重视的需求，就会变回原来的玩偶。它用针刺伤自己的身体时，就会产生强烈的咒术能量。如果张开嘴，咒术的能量就会从口中逃走。 超级诅咒娃娃因为超级进化而怨念增强，拉链里面收纳着的咒术之力满溢了出来。过大的能量增强了咒术，无法压制。就连自己的训练家也会憎恨。",
+  "flavor_text_en": "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 354,
+    "pokeapi_species_id": 354,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/354"
+  }
+}

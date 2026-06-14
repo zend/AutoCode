@@ -1,0 +1,91 @@
+{
+  "entry_id": "0405",
+  "national_id": 405,
+  "form": "default",
+  "names": {
+    "en": "Luxray",
+    "ja": "レントラー",
+    "zh": "伦琴猫"
+  },
+  "generation": 4,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "がんこうポケモン",
+  "category_zh": "目光宝可梦",
+  "abilities": [
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心 / 或 / 威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "guts",
+      "name_zh": "毅力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 42.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 235,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 79,
+    "special_attack": 95,
+    "special_defense": 79,
+    "speed": 70,
+    "total": 523
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 404,
+        "name_en": "luxio",
+        "name_zh": "勒克猫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 19,
+    "洗翠": 17,
+    "帕底亚": 96,
+    "北上": 111
+  },
+  "flavor_text_zh": "伦琴猫是一种四足兽形宝可梦，外形类似成年狮子。它的脸、后腿、躯干和前腿后部为蓝色，而其大部分身体则被蓬松的黑色皮毛所覆盖。体毛在肩膀和尾巴的根部较长，并在其头部形成鬃毛。眼睛呈黄色且巩膜为红色。耳朵为圆形的，内部呈黄色。尾巴细长，末端有一个黄色的四角星。雌性伦琴猫的鬃毛更短。 伦琴猫是行动时有条不紊的宝可梦，会以一只雄性个体为首领形成群体。它有着一双能够透视任何物体的眼睛，对于发现危险的事物非常有帮助。它拥有能看见墙壁另一边的力量，这不仅可以用来追捕逃跑的猎物，还可以用来寻找迷路的孩子。它的瞳孔闪着金色时，能发现躲藏在墙壁另一侧的猎物并将其捕获。传说中，当其双眼闪耀金色光辉，便能够看透世间万物。由于透视需要消耗大量的电能，因此它会睡很长时间来积蓄能量。",
+  "flavor_text_en": "They form packs, each having one male as leader. Legends say that when Luxray's two eyes shimmer with gold, the Pokémon can see through anything.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 405,
+    "pokeapi_species_id": 405,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/405"
+  }
+}

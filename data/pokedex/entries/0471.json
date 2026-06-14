@@ -1,0 +1,88 @@
+{
+  "entry_id": "0471",
+  "national_id": 471,
+  "form": "default",
+  "names": {
+    "en": "Glaceon",
+    "ja": "グレイシア",
+    "zh": "冰伊布"
+  },
+  "generation": 4,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "しんせつポケモン",
+  "category_zh": "新雪宝可梦",
+  "abilities": [
+    {
+      "name_en": "snow-cloak",
+      "name_zh": "雪隐",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 25.9,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 110,
+    "special_attack": 130,
+    "special_defense": 95,
+    "speed": 65,
+    "total": 525
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 133,
+        "name_en": "eevee",
+        "name_zh": "伊布",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 170,
+    "阿罗拉": 130,
+    "伽勒尔": 203,
+    "洗翠": 32,
+    "帕底亚": 186,
+    "密阿雷": 107
+  },
+  "flavor_text_zh": "冰伊布长得有些像狐狸，全身的皮肤是淡蓝色的。它的皮肤上长满了锋利的毛刺，但很难分辨出来。它看起来像是戴着一顶 双层编结御寒帽 。冰伊布的内耳、背上和尾巴上都有一些菱形的深蓝色的斑点，与它身体的淡蓝色形成鲜明的对比。它额头上有蓝色的毛，像辫子一样延伸到前方，末端也有深蓝色的菱形斑点。冰伊布的四肢上也有深蓝色的区域，看起来就像是穿着靴子一样。 冰伊布体温最低可下降到零下60度。它会把体毛冻住，变成锐利的针来保护身体。它拥有高速降低体温冻结大气的能力，能引发细碎冰晶如同宝石般闪耀飞舞的现象，被它的美貌迷住的猎物会在不知不觉间被冻住。它还能瞬间将周围的水分冻住，做成冰粒朝着猎物发射出去。或是把体毛冻得像锐利的冰柱那样尖之后，朝猎物射出或冲撞过去。冰伊布释放出的冷气能制造出粉状的雪，这使它受到各个滑雪场的热烈欢迎。",
+  "flavor_text_en": "Glaceon is able to lower its body temperature very quickly. It freezes the atmosphere, creating diamond dust that glitters like gems while it flutters and dances around.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 471,
+    "pokeapi_species_id": 471,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/471"
+  }
+}

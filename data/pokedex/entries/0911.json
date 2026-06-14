@@ -1,0 +1,85 @@
+{
+  "entry_id": "0911",
+  "national_id": 911,
+  "form": "default",
+  "names": {
+    "en": "Skeledirge",
+    "ja": "ラウドボーン",
+    "zh": "骨纹巨声鳄"
+  },
+  "generation": 9,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "types_zh": [
+    "火",
+    "幽灵"
+  ],
+  "category": "シンガーポケモン",
+  "category_zh": "歌手宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "纯朴",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 326.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 265,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 104,
+    "attack": 75,
+    "defense": 100,
+    "special_attack": 110,
+    "special_defense": 75,
+    "speed": 66,
+    "total": 530
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 910,
+        "name_en": "crocalor",
+        "name_zh": "炙烫鳄",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 6
+  },
+  "flavor_text_zh": "骨纹巨声鳄红色的身体上覆盖着长方形的鳞片，火焰围绕在头部两侧。腹部棱角分明的白色鳞片两侧有黑色的条纹，它的身上也有各种白色的图案，脚上有三只黑色的爪子。它的鼻尖上有一只火焰组成的小鸟。 骨纹巨声鳄会使用3000度的火焰将敌人烧成灰烬。它鼻尖能以歌声改变外形的火鸟，据说是由灵魂寄宿在头上的火球所形成的。受到寄宿在头上火球中的灵魂的影响，它获得了 幽灵属性 的力量。这火球中的灵魂独立存在，能通过骨纹巨声鳄歌声的力量来改变外形。骨纹巨声鳄非常会照顾他人，爱管闲事。它强力又温柔的歌声充满了生命力，能够疗愈听者的心，使其内心温暖充实，并让对手丧失战意。 [ 1 ]",
+  "flavor_text_en": "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 911,
+    "pokeapi_species_id": 911,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/911"
+  }
+}

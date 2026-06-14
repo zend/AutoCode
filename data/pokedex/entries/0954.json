@@ -1,0 +1,86 @@
+{
+  "entry_id": "0954",
+  "national_id": 954,
+  "form": "default",
+  "names": {
+    "en": "Rabsca",
+    "ja": "ベラカス",
+    "zh": "虫甲圣"
+  },
+  "generation": 9,
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "types_zh": [
+    "虫",
+    "超能力"
+  ],
+  "category": "ころがしポケモン",
+  "category_zh": "滚动宝可梦",
+  "abilities": [
+    {
+      "name_en": "synchronize",
+      "name_zh": "同步",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 165,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 50,
+    "defense": 85,
+    "special_attack": 115,
+    "special_defense": 100,
+    "speed": 45,
+    "total": 470
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 953,
+        "name_en": "rellor",
+        "name_zh": "虫滚泥",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 255,
+    "蓝莓": 31
+  },
+  "flavor_text_zh": "虫甲圣支撑着球的身体几乎不动，因此人们认为它的本体其实是在球里面。它为了能让睡在球里面的宝宝睡得更香甜，会用脚转动球，让宝宝感到安心。",
+  "flavor_text_en": "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 954,
+    "pokeapi_species_id": 954,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/954"
+  }
+}

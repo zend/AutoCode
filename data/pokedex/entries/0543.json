@@ -1,0 +1,91 @@
+{
+  "entry_id": "0543",
+  "national_id": 543,
+  "form": "default",
+  "names": {
+    "en": "Venipede",
+    "ja": "フシデ",
+    "zh": "百足蜈蚣"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "types_zh": [
+    "虫",
+    "毒"
+  ],
+  "category": "ムカデポケモン",
+  "category_zh": "蜈蚣宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺 / 或 / 虫之预感",
+      "hidden": false
+    },
+    {
+      "name_en": "swarm",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "speed-boost",
+      "name_zh": "加速",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 5.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 52,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 59,
+    "special_attack": 30,
+    "special_defense": 39,
+    "speed": 57,
+    "total": 260
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 544,
+        "name_en": "whirlipede",
+        "name_zh": "车轮球",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 49,
+    "密阿雷": 68
+  },
+  "flavor_text_zh": "百足蜈蚣的身体主要是深红色，它的触角上的颜色是红黑相间的，瞳仁则呈黄色。它有四对黑色的腿，胸部上有黑色的圆圈图案，腹部上有深绿色的三节条状斑纹。 百足蜈蚣性格非常粗暴。它的牙齿上有剧毒，一旦发现看上去能吃的猎物就会不假思索地扑上去咬住对手施以剧毒。就连它的天敌大型鸟宝可梦也会因被其咬伤而身体麻痹，动弹不得。它会用头和尾巴上的触角感知空气的流动，探查周围的情况，掌握猎物的位置和动向。虽然与 烧火蚣 是种类相近的伙伴，但是一见面就会大打一番。",
+  "flavor_text_en": "Its fangs are highly venomous. If this Pokémon finds prey it thinks it can eat, it leaps for them without any thought of how things might turn out.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 543,
+    "pokeapi_species_id": 543,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/543"
+  }
+}

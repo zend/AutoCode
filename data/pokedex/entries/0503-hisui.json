@@ -1,0 +1,86 @@
+{
+  "entry_id": "0503-hisui",
+  "national_id": 503,
+  "form": "hisui",
+  "names": {
+    "en": "Samurott",
+    "ja": "ダイケンキ",
+    "zh": "大剑鬼（洗翠的样子）"
+  },
+  "generation": 5,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "types_zh": [
+    "水",
+    "恶"
+  ],
+  "category": "かんろくポケモン",
+  "category_zh": "威严宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "sharpness",
+      "name_zh": "锋锐",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 58.2,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 238,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 100,
+    "defense": 85,
+    "special_attack": 108,
+    "special_defense": 70,
+    "speed": 70,
+    "total": 528
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 502,
+        "name_en": "dewott",
+        "name_zh": "双刃丸",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 9,
+    "蓝莓": 208
+  },
+  "flavor_text_zh": "海报中展示大剑鬼用其前腿另一侧的足刃 大剑鬼是四足蓝色海兽宝可梦。长长的白胡须从头部的口鼻处延伸，其头部背面有一个巨大的米黄色圆形有矛状尖刺，类似头盔的外壳尖锐地突出在前面。它的腹部被一个蓝灰色的贝壳状的甲壳覆盖，其四肢覆盖着米黄色分段的如护腕般的覆盖物，它会在战斗时抽出由贝壳组成的看似前肢护腕，被称为 足刃 的剑。贝壳就像它身体的一部分。下部分的护腕和上部分及尖刺分别构成两把剑的剑鞘和足刃的剑柄。大剑鬼每个肢体前端都有三个深蓝色的脚趾，鳍状八字形的尾巴最内层的部分是米黄色的。 不同于至今为止所发现的大剑鬼，洗翠地区的大剑鬼身上覆盖着的贝壳变为深蓝色，弯曲的形状宛如层层波浪。贝壳上有着酒红色的花纹，与同样是酒红色的脚趾共同透露着一丝威严。它也有着鳍状八字形的尾巴，但其最内层却是深蓝色的。 大剑鬼前脚盔甲的一部分化成了巨大的剑，是拔刀术的高手，会用收在前腿铠甲里的大刀一剑定胜负。它瞪一眼就能让敌人不敢出声，咆哮一声便能威吓住敌人，能在敌人眨眼的瞬间用前脚上带有的双足刃切斩对手，然后将其收回。它统率群体且性情严格，会毫不留情地教训不遵守规矩的家伙。 相较于至今为止所发现的样子是堂堂正正的性情，洗翠的样子的大剑鬼性情与刀路皆是残酷无情，会为了胜利不择手段。平时不会发出一点声音，十分安静，但只要敌人靠近，会以迅雷不及掩耳的速度用双足刃相向。对战中擅长突袭与暗算等刁钻狡猾的战法。由双足刃所释放的怒涛般的连续攻击尤为突出。那攻击就像是叠起的层层大浪汹涌而来一般。据说一旦遭受这种攻击，伤口在之后漫长的岁月里都很难愈合。 [ 1 ]",
+  "flavor_text_en": "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10236,
+    "pokeapi_species_id": 503,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10236"
+  }
+}

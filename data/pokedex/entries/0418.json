@@ -1,0 +1,87 @@
+{
+  "entry_id": "0418",
+  "national_id": 418,
+  "form": "default",
+  "names": {
+    "en": "Buizel",
+    "ja": "ブイゼル",
+    "zh": "泳圈鼬"
+  },
+  "generation": 4,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "うみイタチポケモン",
+  "category_zh": "海鼬宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": false
+    },
+    {
+      "name_en": "water-veil",
+      "name_zh": "水幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 29.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 35,
+    "special_attack": 60,
+    "special_defense": 30,
+    "speed": 85,
+    "total": 330
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 419,
+        "name_en": "floatzel",
+        "name_zh": "浮潜鼬",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 56,
+    "洗翠": 41,
+    "帕底亚": 51
+  },
+  "flavor_text_zh": "泳圈鼬的身体是橙色的。只有下半脸、肚皮、眉毛和尾巴顶端是米黄色的。它的脖子上有个浮囊，手背上有蓝色的鱼鳍，眼睛下面有两条黑纹。雄性泳圈鼬的背面有两个白点，而雌性泳圈鼬只有一个。 泳圈鼬脖子上的浮囊充满空气后会像泳圈一样膨胀，潜水的时候浮囊会瘪掉。它使脖子上的浮囊膨胀，来让脸部露出水面，以此探查岸上猎物的动静。像螺旋桨一样旋转着尾巴，不仅能形成推进力，让它在水里游泳，还能切断缠住自己的海草。",
+  "flavor_text_en": "It moves freely in the water by spinning its forked tail for propulsion. The resemblance to the screw of a steamboat is coincidental.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 418,
+    "pokeapi_species_id": 418,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/418"
+  }
+}

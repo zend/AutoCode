@@ -1,0 +1,95 @@
+{
+  "entry_id": "0715",
+  "national_id": 715,
+  "form": "default",
+  "names": {
+    "en": "Noivern",
+    "ja": "オンバーン",
+    "zh": "音波龙"
+  },
+  "generation": 6,
+  "types": [
+    "flying",
+    "dragon"
+  ],
+  "types_zh": [
+    "飞行",
+    "龙"
+  ],
+  "category": "おんぱポケモン",
+  "category_zh": "音波宝可梦",
+  "abilities": [
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉 / 或 / 穿透",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 85.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 187,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "飞行",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 70,
+    "defense": 80,
+    "special_attack": 97,
+    "special_defense": 80,
+    "speed": 123,
+    "total": 535
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 714,
+        "name_en": "noibat",
+        "name_zh": "嗡蝠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 177,
+    "帕底亚": 304,
+    "北上": 89,
+    "密阿雷": 187
+  },
+  "flavor_text_zh": "音波龙是一种大型的蝙蝠类宝可梦。它有一对巨大的耳朵，脖子上长着一圈白色的绒毛。它有一对巨大的蝙翼，内黑外紫，翼膜为青色，上面还有两只红色的爪子。当它嘴巴张开时，下颚可以看到两颗尖齿。 音波龙性格粗暴，好勇斗狠，是血气方刚，性情残忍的宝可梦。但如果给它喜爱吃的成熟水果，就会一反常态，变得很亲切。它飞行在连月光都没有的黑夜里，袭击那些疏忽大意的猎物。它在黑暗的战斗中所向无敌，一边飞行一边用耳朵发出能粉碎巨大岩石的超音波痛击敌人，然后用利齿给予致命的一击。如果在黑暗中，就连 三首恶龙 也会惧怕它，在天色变暗之前会避开战斗。",
+  "flavor_text_en": "Flying through the darkness, it weakens enemies with ultrasonic waves that could crush stone. Its fangs finish the fight.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 715,
+    "pokeapi_species_id": 715,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/715"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "entry_id": "0637",
+  "national_id": 637,
+  "form": "default",
+  "names": {
+    "en": "Volcarona",
+    "ja": "ウルガモス",
+    "zh": "火神蛾"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "fire"
+  ],
+  "types_zh": [
+    "虫",
+    "火"
+  ],
+  "category": "たいようポケモン",
+  "category_zh": "太阳宝可梦",
+  "abilities": [
+    {
+      "name_en": "flame-body",
+      "name_zh": "火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 46.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 15,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 248,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 60,
+    "defense": 65,
+    "special_attack": 135,
+    "special_defense": 105,
+    "speed": 100,
+    "total": 550
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 636,
+        "name_en": "larvesta",
+        "name_zh": "燃烧虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 143,
+    "帕底亚": 275
+  },
+  "flavor_text_zh": "火神蛾是一种大型蛾类宝可梦，双眼呈蓝色，一对红色的触角环绕在双颊。它躯体饱满，上身围着一圈白色绒毛，且长有四个小脚。它的腹部中央为黑色，外部为浅蓝色。它背部长有三对橘红色翅膀，同时翅膀和腹部外侧还分布了黑色斑点。 当地面因火山灰而变得一片漆黑时，火神蛾的火焰就会代替太阳的作用。它战斗时会一边从6根翅膀到处飞撒火花鳞粉一边到处飞翔，把周围变成一片火海，古代的人们惧怕地称之为太阳的怒火。最危险的不是高温，而是会耗尽周围的氧气。它在炎热之地因其燃烧的身体而备受嫌弃，但在寒冷之地却被信奉为太阳的化身，在古代的壁画上被描绘为火之神。传说它从熊熊燃烧着火焰的茧中诞生，会在严寒的冬天出现，救助受寒冷之苦的人和宝可梦。",
+  "flavor_text_en": "This Pokémon emerges from a cocoon formed of raging flames. Ancient murals depict Volcarona as a deity of fire.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 637,
+    "pokeapi_species_id": 637,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/637"
+  }
+}

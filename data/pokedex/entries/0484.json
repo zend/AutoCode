@@ -1,0 +1,74 @@
+{
+  "entry_id": "0484",
+  "national_id": 484,
+  "form": "default",
+  "names": {
+    "en": "Palkia",
+    "ja": "パルキア",
+    "zh": "帕路奇亚"
+  },
+  "generation": 4,
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "types_zh": [
+    "水",
+    "龙"
+  ],
+  "category": "くうかんポケモン",
+  "category_zh": "空间宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 4.2,
+  "weight_kg": 336.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 100,
+    "special_attack": 150,
+    "special_defense": 120,
+    "speed": 100,
+    "total": 680
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "神奥": 150,
+    "洗翠": 236
+  },
+  "flavor_text_zh": "帕路奇亚是一种通体淡紫色、有兽脚亚目特征的宝可梦，长有紫黑色的条纹，手臂内侧呈灰色。在其肩部长有缀有紫色条纹的盘状物，其中各嵌有一颗珍珠，分别被灰色环环绕。帕路奇亚的手臂上有与金属手套相像的伸长结构，在每个手腕上各有一个紫色带状物。帕路奇亚的颈长，头上有尖冠并一直连向其翼，嘴旁长有两个象牙般的角，尾部粗壮。 起源形态的帕路奇亚类似人马，尾巴呈马尾状，其中后腿非常粗壮。头部如同骑士的头盔，腰部的紫色圆环呈波动状，肩膀上的盘状物和背后的双翼相连。 帕路奇亚拥有扭曲空间的能力，在 神奥地区 的神话里被描述成神。它可以凭借自己操纵空间的连接从而能够移动到远处的异空间。随着帕路奇亚的每一次呼吸，空间变得更加安定。 洗翠地区 流传着这样的神话传说：当此神诞生，阻隔现世的屏障消失，出现了无边无际的空间。据说帕路奇亚居住在平行排列的空间狭缝中，有很强的领地意识，会和 帝牙卢卡 发生暴力冲突。 起源形态的帕路奇亚是帕路奇亚原来的样子，模仿 创造主 的模样正是将其力化为己有的方法。它翱翔天际的姿态令人联想起万物的创造主。它拥有将空间扭曲、破坏和再生的力量。据说在它所存在的世界里，空间会被撕裂得支离破碎。它擅长被称为 亚空裂斩 的强大招式，其攻击会将对手连同周围的空间一起撕裂。 [ 1 ]",
+  "flavor_text_en": "This Pokémon is feared as a deity in Hisuian legend. The birth of Palkia was what caused the walls of our world to disappear, creating a sky that spans for infinity.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 484,
+    "pokeapi_species_id": 484,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/484"
+  }
+}

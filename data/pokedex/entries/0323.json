@@ -1,0 +1,94 @@
+{
+  "entry_id": "0323",
+  "national_id": 323,
+  "form": "default",
+  "names": {
+    "en": "Camerupt",
+    "ja": "バクーダ",
+    "zh": "喷火驼"
+  },
+  "generation": 3,
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "types_zh": [
+    "火",
+    "地面"
+  ],
+  "category": "ふんかポケモン",
+  "category_zh": "喷火宝可梦",
+  "abilities": [
+    {
+      "name_en": "magma-armor",
+      "name_zh": "熔岩铠甲",
+      "hidden": false
+    },
+    {
+      "name_en": "solid-rock",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "anger-point",
+      "name_zh": "愤怒穴位",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 220.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 150,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 161,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 70,
+    "special_attack": 105,
+    "special_defense": 75,
+    "speed": 40,
+    "total": 460
+  },
+  "ev_yield": {
+    "attack": 1,
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 322,
+        "name_en": "numel",
+        "name_zh": "呆火驼",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 102,
+    "帕底亚": 152,
+    "蓝莓": 126,
+    "密阿雷": 117
+  },
+  "flavor_text_zh": "喷火驼的外表以橘红色为主，嘴巴附近为淡肤色，身体两侧各有三个亮蓝色的圆圈。背上的驼峰有类似岩石的结构，头上有三撮上翘的毛发，脚部有蹄。雌性喷火驼的体型较小而驼峰较大。超级喷火驼从原本的双峰驼变成了单峰驼，而且背后的火山变得更大了。 喷火驼是生活在火山口的宝可梦，背上的驼峰火山每十年就会进行一次大喷发，但暴怒时也会喷发，便因而闻名。它背上的驼峰是由骨头演变而来的，时不时会从背上的驼峰里喷出体内储存的1万摄氏度的熔岩，目前正在研究它喷火的原因。体内的岩浆变多后会先开始震动，然后发生大爆炸。 超级喷火驼背上的火山变成一个巨大的活火山。体内的岩浆非常烫热，极讨厌水和湿气，非常小气。会重复喷火来威吓对手。 [ 1 ] 愤怒到达沸点后，背上巨大的驼峰火山会大喷发并喷射熔岩。",
+  "flavor_text_en": "The humps on Camerupt’s back are formed by a transformation of its bones. They sometimes blast out molten magma. This Pokémon apparently erupts often when it is enraged.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 323,
+    "pokeapi_species_id": 323,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/323"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entry_id": "0900",
+  "national_id": 900,
+  "form": "default",
+  "names": {
+    "en": "Kleavor",
+    "ja": "バサギリ",
+    "zh": "劈斧螳螂"
+  },
+  "generation": 8,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "types_zh": [
+    "虫",
+    "岩石"
+  ],
+  "category": "まさかりポケモン",
+  "category_zh": "斧钺宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感 / 或 / 强行",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sharpness",
+      "name_zh": "锋锐",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 89.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 115,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 135,
+    "defense": 95,
+    "special_attack": 45,
+    "special_defense": 70,
+    "speed": 85,
+    "total": 500
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 123,
+        "name_en": "scyther",
+        "name_zh": "飞天螳螂",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "洗翠": 73,
+    "蓝莓": 21
+  },
+  "flavor_text_zh": "飞天螳螂 在 洗翠地区 特殊的矿石作用下进化后的样子，其身体的一部分变得像岩石一样。劈斧螳螂身体的一部分为黄色岩石，手上的斧子、脚爪、肩膀以及脸部的“毛发”为棕色岩石，后背有两对非常短小的翅膀，其余部分为白色，好似日本武士。岩石的部分在激烈的战斗下常有破损，经历越多战斗的劈斧螳螂，岩石的破损就越严重。不过，破损的部分反而会变得尖锐，锋利的程度也会提升。据说洗翠地区的人们会将破损掉落的碎片当作石器使用。 劈斧螳螂如同大斧的手臂，随意一挥就能命中目标，用坚硬的岩石守护自身，以粗犷的斧头砍倒大树。它性情暴躁易怒，拥有强大的破坏力，能让结实的对手也受到巨大的伤害。此外，它会用这条手臂在树干上留下印记，并通过砍树的行为来宣扬地盘。如果树上留有锐利的切口，或是成排的树木交叠地倒着，那或许就是劈斧螳螂做的。要是在荒野遇见它，逃跑将是唯一选择。 [ 1 ]",
+  "flavor_text_en": "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 900,
+    "pokeapi_species_id": 900,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/900"
+  }
+}

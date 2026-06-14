@@ -1,0 +1,94 @@
+{
+  "entry_id": "0087",
+  "national_id": 87,
+  "form": "default",
+  "names": {
+    "en": "Dewgong",
+    "ja": "ジュゴン",
+    "zh": "白海狮"
+  },
+  "generation": 1,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "types_zh": [
+    "水",
+    "冰"
+  ],
+  "category": "あしかポケモン",
+  "category_zh": "海狮宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 湿润之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 120.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "special_attack": 70,
+    "special_defense": 95,
+    "speed": 70,
+    "total": 475
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 86,
+        "name_en": "seel",
+        "name_zh": "小海狮",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 87,
+    "城都": 177,
+    "蓝莓": 144
+  },
+  "flavor_text_zh": "白海狮全身覆盖有雪白的毛发。它的头上长有尖角，嘴巴边有两个向下的牙齿。它身体有鳍，有一条尾巴。 白海狮因为全身覆盖着雪白的体毛，所以天敌无法在雪中发现它。它白天在浅海海底睡觉，会在水温下降的夜里寻求食物而游来游去，特别喜欢吃 弱丁鱼 。它进食后会在沙滩上晒日光浴，会通过提高体温来帮助消化。它非常喜欢在寒冷的冰面上睡觉，会为了抵抗寒冷而在身体里蓄积热量。与其说它耐寒，倒不如说越冷它越有精神。以前有水手看到它在冰山上的睡姿后，把它误认成了人鱼。它最喜欢漂有浮冰的寒冷海水，流线型的身体能减少水的阻力，以8节的速度在冰冷的海水中游动，长尾巴起到快速转向的作用。",
+  "flavor_text_en": "Its entire body is a snowy white. Unharmed by even intense cold, it swims powerfully in icy waters.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 87,
+    "pokeapi_species_id": 87,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/87"
+  }
+}

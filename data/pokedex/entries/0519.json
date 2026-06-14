@@ -1,0 +1,91 @@
+{
+  "entry_id": "0519",
+  "national_id": 519,
+  "form": "default",
+  "names": {
+    "en": "Pidove",
+    "ja": "マメパト",
+    "zh": "豆豆鸽"
+  },
+  "generation": 5,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "こばとポケモン",
+  "category_zh": "小鸽宝可梦",
+  "abilities": [
+    {
+      "name_en": "big-pecks",
+      "name_zh": "健壮胸肌 / 或 / 超幸运",
+      "hidden": false
+    },
+    {
+      "name_en": "super-luck",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.1,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 53,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 55,
+    "defense": 50,
+    "special_attack": 36,
+    "special_defense": 30,
+    "speed": 43,
+    "total": 264
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 520,
+        "name_en": "tranquill",
+        "name_zh": "咕咕鸽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 25,
+    "伽勒尔": 26
+  },
+  "flavor_text_zh": "豆豆鸽是娇小的鸟类宝可梦。其外貌看似聪明且充满活力，羽毛和全身皮肤呈灰褐色，翅膀上有部分条纹的斑纹形羽毛，后颈处也有黑色的条纹羽毛。豆豆鸽头部占身体较小的部分，全部皆为灰褐色的羽毛覆盖。在头顶顶部后高处有突出的和羽毛同样颜色的毛发。豆豆鸽有一双黄色的眼睛，深邃的黑色瞳孔显得很有精神。两眼之间是较钝且短小的黑色的喙，喙上方有肉色的鼻膜，呈两个半圆形。豆豆鸽的前胸挺拔，胸前是心形的浅灰色胸口。它的双翅呈一个逗号的样子，在翅膀的最边缘处是波浪形的翅膀羽毛。翅膀的内部呈淡灰色，外部是灰褐色的带有黑色条纹的样子。肉色偏粉色的双脚前面各有两个脚趾，后方各有一个用来勾住帮助站立的脚趾。 豆豆鸽是生活在街道上的宝可梦，会出现在人类生活的地方。因为不怎么怕人，所以会大量聚集在公园或广场。一旦撒出饲料就会有好几百只豆豆鸽聚集而来，千万要小心。它是非常健忘的宝可梦。明明训练家已经下了命令，却还在等待着新命令。很听从训练家的命令，但却无法理解复杂的指示。虽然既健忘又不太聪明，但因为性格认真且容易亲近人受到了许多训练家的喜爱。",
+  "flavor_text_en": "It’s forgetful and not very bright, but many Trainers love it anyway for its friendliness and sincerity.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 519,
+    "pokeapi_species_id": 519,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/519"
+  }
+}

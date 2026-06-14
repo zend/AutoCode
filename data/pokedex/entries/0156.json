@@ -1,0 +1,93 @@
+{
+  "entry_id": "0156",
+  "national_id": 156,
+  "form": "default",
+  "names": {
+    "en": "Quilava",
+    "ja": "マグマラシ",
+    "zh": "火岩鼠"
+  },
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "かざんポケモン",
+  "category_zh": "火山宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 19.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special_attack": 80,
+    "special_defense": 65,
+    "speed": 80,
+    "total": 405
+  },
+  "ev_yield": {
+    "special_attack": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 155,
+        "name_en": "cyndaquil",
+        "name_zh": "火球鼠",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 157,
+        "name_en": "typhlosion",
+        "name_zh": "火暴兽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 5,
+    "洗翠": 5,
+    "蓝莓": 177
+  },
+  "flavor_text_zh": "火岩鼠头顶上多了一处类似于毛发的火焰，身体也变长了。覆盖身体的毛皮是绝对不会烧起来的，不管怎样的火焰攻击都不怕。 火岩鼠会用炎热的火焰、火势和热风来威吓对手。它在战斗前会背过身去向对手展示自己的火焰有多么厉害。在摆出战斗的架势时，背上的火焰会烧得更旺。会在用敏捷的身手躲避对手攻击的同时会用火焰点燃对手。如果它在战斗中背过身去，那就要注意了。这是它即将用背上的火焰发动攻击的前兆。",
+  "flavor_text_en": "This creature's fur is most mysterious—it is wholly impervious to the burning touch of flame. Should Quilava turn its back to you, take heed! Such a posture indicates a forthcoming attack.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 156,
+    "pokeapi_species_id": 156,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/156"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "entry_id": "0596",
+  "national_id": 596,
+  "form": "default",
+  "names": {
+    "en": "Galvantula",
+    "ja": "デンチュラ",
+    "zh": "电蜘蛛"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "types_zh": [
+    "虫",
+    "电"
+  ],
+  "category": "でんきグモポケモン",
+  "category_zh": "电蜘蛛宝可梦",
+  "abilities": [
+    {
+      "name_en": "compound-eyes",
+      "name_zh": "复眼 / 或 / 紧张感",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 14.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 165,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 77,
+    "defense": 60,
+    "special_attack": 97,
+    "special_defense": 60,
+    "speed": 108,
+    "total": 472
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 595,
+        "name_en": "joltik",
+        "name_zh": "电电虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 102,
+    "伽勒尔": 65,
+    "蓝莓": 133
+  },
+  "flavor_text_zh": "电蜘蛛全身黄色，背上有紫色的条纹，腹部也是紫色的。它有六只眼睛，两只大的长在头的两边，四只小的呈正方形排布，长在大眼睛之间。他有六条蓝色的腿，四条较大的支撑着身体，两条较小的长在头的下方。它的身体后方长有蓝色的绒毛。 电蜘蛛为了捕捉不太会飞的幼鸟，会在鸟宝可梦的巢穴附近用带电的丝设下陷阱。它会慢慢地享用触电后无法动弹的猎物。它被敌人袭击的话，会吐出大量带电的丝，制作成电的屏障。用带电丝线做成的防护罩可以使对手麻痹，所以不仅用于防守，也可以当做武器。他还能发射腹部带电的毛来攻击，要是被它的毛刺中就会全身麻痹三天三夜。",
+  "flavor_text_en": "It lays traps of electrified threads near the nests of bird Pokémon, aiming to snare chicks that are not yet good at flying.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 596,
+    "pokeapi_species_id": 596,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/596"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "entry_id": "0420",
+  "national_id": 420,
+  "form": "default",
+  "names": {
+    "en": "Cherubi",
+    "ja": "チェリンボ",
+    "zh": "樱花宝"
+  },
+  "generation": 4,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "さくらんぼポケモン",
+  "category_zh": "樱桃宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 3.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 55,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 35,
+    "defense": 45,
+    "special_attack": 62,
+    "special_defense": 53,
+    "speed": 35,
+    "total": 275
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 421,
+        "name_en": "cherrim",
+        "name_zh": "樱花儿",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 58,
+    "伽勒尔": 128,
+    "洗翠": 66
+  },
+  "flavor_text_zh": "樱花宝有一个圆圆的粉色身体。它有着亮晶晶的眼睛，和一个有着紫红色条纹的脸。樱花宝的头上有一个短茎，连接着两片绿色的叶子。在叶子的另一端，通过一条短茎连接着一个粉色的小果子。这个小果子虽然有着脸，却只是樱花宝用来储存营养的地方。 樱花宝在阳光下会渐渐变红，身体越红的樱花宝含有的营养越丰富，味道也很甜很好吃。它身上的小球不仅营养而且美味，是鸟宝可梦的最爱， 姆克儿 总喜欢啄食。它会为了小球不被啄到而四处逃跑。它进化所需的养分都积蓄在小球里，会在真身旁的果实长大成熟后使用果实的营养来进化。小球瘪掉的话，就是说快要进化了。进化之后果实会自己掉落，成为其他生物的食粮。",
+  "flavor_text_en": "Once the fruit growing alongside the main body is large and plump, Cherubi will use the nutrients within to evolve. The fruit then detaches, becoming nourishment for other creatures.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 420,
+    "pokeapi_species_id": 420,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/420"
+  }
+}

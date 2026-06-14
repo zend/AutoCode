@@ -1,0 +1,101 @@
+{
+  "entry_id": "0271",
+  "national_id": 271,
+  "form": "default",
+  "names": {
+    "en": "Lombre",
+    "ja": "ハスブレロ",
+    "zh": "莲帽小童"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "types_zh": [
+    "水",
+    "草"
+  ],
+  "category": "ようきポケモン",
+  "category_zh": "爽朗宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 雨盘",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 32.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 50,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 50,
+    "total": 340
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 270,
+        "name_en": "lotad",
+        "name_zh": "莲叶童子",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 272,
+        "name_en": "ludicolo",
+        "name_zh": "乐天河童",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 20,
+    "伽勒尔": 37,
+    "北上": 105
+  },
+  "flavor_text_zh": "莲帽小童是两足宝可梦，有绿色的身体，手指和脚趾是红色的。它有着短又圆的耳朵和鸟喙似的红色嘴巴。头顶着大片莲叶，两边有槽口。 莲帽小童住在日照良好，食物丰富的水边，是傍晚时开始活动的夜行性宝可梦，经常被误认为是人类的孩子。根据 北上乡 的古老传说记载，这是喜爱恶作剧的小孩转生而来的宝可梦。它白天在水草做的床上睡觉，太阳下山后就会出来活动。傍晚时分会从河里突然地冒出来，以吓人为乐。它为了不和鸟宝可梦争夺食物而变成了夜行性的宝可梦。如果遇到垂钓者，就会从水中扯线捣乱并引以为乐。它的全身覆盖着黏糊糊的粘液，如果被它的手摸到，就会感觉很恶心。它喜欢吃河底的水苔，以附着在河边岩石上的水草为食。",
+  "flavor_text_en": "It lives at the water’s edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 271,
+    "pokeapi_species_id": 271,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/271"
+  }
+}

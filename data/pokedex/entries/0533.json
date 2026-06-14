@@ -1,0 +1,97 @@
+{
+  "entry_id": "0533",
+  "national_id": 533,
+  "form": "default",
+  "names": {
+    "en": "Gurdurr",
+    "ja": "ドテッコツ",
+    "zh": "铁骨土人"
+  },
+  "generation": 5,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "きんこつポケモン",
+  "category_zh": "筋骨宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力 / 或 / 强行",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 40.0,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 105,
+    "defense": 85,
+    "special_attack": 40,
+    "special_defense": 50,
+    "speed": 40,
+    "total": 405
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 532,
+        "name_en": "timburr",
+        "name_zh": "搬运小匠",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 534,
+        "name_en": "conkeldurr",
+        "name_zh": "修建老匠",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 39,
+    "伽勒尔": 172,
+    "北上": 86
+  },
+  "flavor_text_zh": "铁骨土人是浑身皮肤灰黄，总是手持工字钢的宝可梦。它拥有如蓬松毛发般凸起的头部、圆而大的红色鼻子及细瘦的腰部。铁骨土人的肩颈双腿侧，皆被粉红色的筋肉包裹着。 铁骨土人扛着工字钢锻炼身体，肌肉锻炼得很棒，会和伙伴互相炫耀经过锻炼的肌肉。即使是职业摔角手一拥而上进行攻击，也是纹丝不动。它会与其他的伙伴还有 豪力 一起比拼肌肉，输掉的那一方会暂时躲起来。它能够灵巧地操纵工字钢，将整座屋子拆除。虽然对拆除得心应手，但却不太擅长组装。",
+  "flavor_text_en": "Gurdurr excels at demolition—construction is not its forte. In any case, there’s skill in the way this Pokémon wields its metal beam.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 533,
+    "pokeapi_species_id": 533,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/533"
+  }
+}

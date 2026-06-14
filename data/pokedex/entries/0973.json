@@ -1,0 +1,80 @@
+{
+  "entry_id": "0973",
+  "national_id": 973,
+  "form": "default",
+  "names": {
+    "en": "Flamigo",
+    "ja": "カラミンゴ",
+    "zh": "缠红鹤"
+  },
+  "generation": 9,
+  "types": [
+    "flying",
+    "fighting"
+  ],
+  "types_zh": [
+    "飞行",
+    "格斗"
+  ],
+  "category": "シンクロポケモン",
+  "category_zh": "同步宝可梦",
+  "abilities": [
+    {
+      "name_en": "scrappy",
+      "name_zh": "胆量 / 或 / 蹒跚",
+      "hidden": false
+    },
+    {
+      "name_en": "tangled-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "costar",
+      "name_zh": "同台共演",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 37.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 100,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 175,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 82,
+    "attack": 115,
+    "defense": 74,
+    "special_attack": 75,
+    "special_defense": 64,
+    "speed": 90,
+    "total": 500
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 346
+  },
+  "flavor_text_zh": "缠红鹤的外形看起来像现实中的火烈鸟，身体是粉红色的，脸部、腿部与足部是白色的，喙的末端为黑色，眼睛是黄色的。它有着圆圆的身体和翅膀，脖子细长，在颈根处打了个结。它的腿很细，而且通常用一只脚站立。 缠红鹤为了避免积蓄在肚子里的能量流出，似乎会把自己的脖子系在颈根部上。它拥有被称为同步的习性，因此会整个群体一起有条不紊地发动攻击。当规模大时会超过１万只的缠红鹤群体在同步彼此动作时，所呈现出的那幅景象非常壮观。",
+  "flavor_text_en": "Thanks to a behavior of theirs known as “synchronizing,” an entire flock of these Pokémon can attack simultaneously in perfect harmony.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 973,
+    "pokeapi_species_id": 973,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/973"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "entry_id": "0262",
+  "national_id": 262,
+  "form": "default",
+  "names": {
+    "en": "Mightyena",
+    "ja": "グラエナ",
+    "zh": "大狼犬"
+  },
+  "generation": 3,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "かみつきポケモン",
+  "category_zh": "紧咬宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 飞毛腿",
+      "hidden": false
+    },
+    {
+      "name_en": "quick-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moxie",
+      "name_zh": "自信过度",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 37.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 127,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 147,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 70,
+    "total": 420
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 261,
+        "name_en": "poochyena",
+        "name_zh": "土狼犬",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 11,
+    "北上": 8
+  },
+  "flavor_text_zh": "大狼犬的身体是灰色的。它的尾部、背部、四肢均有黑色的毛发，其中背部的毛发分为两行且十分浓密。虹膜呈红色，眼白呈黄色。 野生的大狼犬们都是集体行动，过着有严格上下关系的群体生活，会忠实听从首领的命令。它们会组成一个10只左右的群体，凭借有条不紊的团队合作追击并解决猎物，绝不会让盯上的猎物逃掉。当嗅到远处有猎物的味道时，就会遵从首领的指示，成群结队地一齐出动。首领一旦吼叫起来，其他大狼犬也会跟着吼叫，以此为远处的伙伴传递信息。它体内残留着群体行动的野性血液，只会认优秀的训练家为首领，并听从其命令。发出凶猛的吼声并压低身体的时候，就是它准备发动攻击的前兆，会用锋利的尖牙一口咬住对手。",
+  "flavor_text_en": "Mightyena travel and act as a pack in the wild. The memory of its life in the wild compels the Pokémon to obey only those Trainers that it recognizes to possess superior skill.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 262,
+    "pokeapi_species_id": 262,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/262"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "entry_id": "0673",
+  "national_id": 673,
+  "form": "default",
+  "names": {
+    "en": "Gogoat",
+    "ja": "ゴーゴート",
+    "zh": "坐骑山羊"
+  },
+  "generation": 6,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "ライドポケモン",
+  "category_zh": "坐骑宝可梦",
+  "abilities": [
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": false
+    },
+    {
+      "name_en": "grass-pelt",
+      "name_zh": "草之毛皮",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 91.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 186,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 123,
+    "attack": 100,
+    "defense": 62,
+    "special_attack": 97,
+    "special_defense": 81,
+    "speed": 68,
+    "total": 531
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 672,
+        "name_en": "skiddo",
+        "name_zh": "坐骑小羊",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 222,
+    "密阿雷": 42
+  },
+  "flavor_text_zh": "坐骑山羊的体型更大，而且眼神也变得比较刚毅，它们的角也变得更加长，看起来类似草丛的背部在进化后也有了变化，全身不再是被单纯的一层颜色所覆盖而是出现了其他的不同颜色，不过它依然有着看起来像是树叶组合而成的尾巴，它依然有着白色的腿部，以及有白色配色的脸庞。 坐骑山羊在山岳地带生活，在山岳地带成群生活。会用角互相顶撞比力气来一较高下，胜利的个体将成为领袖。它用角一碰就可以感受到对方的心情，能从握角的细微差异读取训练家的心情。它会心灵一体奔跑，从5000年前起就一直协助着人类工作至今。",
+  "flavor_text_en": "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 673,
+    "pokeapi_species_id": 673,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/673"
+  }
+}

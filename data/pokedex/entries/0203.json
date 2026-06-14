@@ -1,0 +1,94 @@
+{
+  "entry_id": "0203",
+  "national_id": 203,
+  "form": "default",
+  "names": {
+    "en": "Girafarig",
+    "ja": "キリンリキ",
+    "zh": "麒麟奇"
+  },
+  "generation": 2,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "types_zh": [
+    "一般",
+    "超能力"
+  ],
+  "category": "くびながポケモン",
+  "category_zh": "长颈宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力 / 或 / 早起",
+      "hidden": false
+    },
+    {
+      "name_en": "early-bird",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 41.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 65,
+    "special_attack": 90,
+    "special_defense": 65,
+    "speed": 85,
+    "total": 455
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 981,
+        "name_en": "farigiraf",
+        "name_zh": "奇麒麟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 147,
+    "丰缘": 164,
+    "神奥": 121,
+    "帕底亚": 192,
+    "蓝莓": 25
+  },
+  "flavor_text_zh": "麒麟奇类似于长颈鹿。它的前半身主色为黄色，有褐色的斑纹，头上有犄角。后半身颜色则与前半身相反，尾巴上也有着小小的大脑。雌性麒麟奇身上的黄色部分更大。 麒麟奇吃草和树的嫩芽，当麒麟奇正在吃草的时候，尾巴也会津津有味地作出吃东西的动作。虽然尾巴上的脑袋小到无法思考，但却是可以发挥出强大超能力的重要器官。尾巴上的脑袋不睡觉也没关系，所以会24小时持续监视周围的情况。如果有谁靠近的话，它就会对其气味和声音产生反应并受本能驱使地一口咬过来，陷入危机的时候尾巴会使用不可思议的力量将敌人赶走，就算背对着敌人也可以通过本能战斗。",
+  "flavor_text_en": "Girafarig’s rear head contains a tiny brain that is too small for thinking. However, the rear head doesn’t need to sleep, so it can keep watch over its surroundings 24 hours a day.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 203,
+    "pokeapi_species_id": 203,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/203"
+  }
+}

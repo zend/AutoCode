@@ -1,0 +1,101 @@
+{
+  "entry_id": "0860",
+  "national_id": 860,
+  "form": "default",
+  "names": {
+    "en": "Morgrem",
+    "ja": "ギモー",
+    "zh": "诈唬魔"
+  },
+  "generation": 8,
+  "types": [
+    "dark",
+    "fairy"
+  ],
+  "types_zh": [
+    "恶",
+    "妖精"
+  ],
+  "category": "しょうわるポケモン",
+  "category_zh": "坏心眼宝可梦",
+  "abilities": [
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 12.5,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 130,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 45,
+    "special_attack": 75,
+    "special_defense": 55,
+    "speed": 70,
+    "total": 370
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 859,
+        "name_en": "impidimp",
+        "name_zh": "捣蛋小妖",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 861,
+        "name_en": "grimmsnarl",
+        "name_zh": "长毛巨魔",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 239,
+    "帕底亚": 286,
+    "北上": 191
+  },
+  "flavor_text_zh": "诈唬魔看起来是偏向于人形的宝可梦，它有着两个非常长的手臂，手臂的长度甚至直接延伸到了自己的脚部。它有着和 捣蛋小妖 一样很标志性的耳朵，鼻子很长，露出尖牙，是典型的恶魔形象，它头顶的毛发很长，且延伸到背部甚至是脚部，这让它尾端的毛发看起来就像是它的尾巴一样。诈唬魔只有雄性，对应的雌性宝可梦为 提布莉姆 。 诈唬魔喜欢动歪脑筋，把人们引诱到深夜的森林中。它喜欢采取偷袭之类的卑鄙战术，那是因为它对自己的肌肉力量没信心。它会先装成要下跪道歉的样子，然后用后脑勺尖如长矛的头发刺向对手。它靠吸收负面情绪来转换成自身能量，思考方式消极的人群很喜欢它。它似乎还拥有培育农作物的能力。",
+  "flavor_text_en": "With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 860,
+    "pokeapi_species_id": 860,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/860"
+  }
+}

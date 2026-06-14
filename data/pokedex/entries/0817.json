@@ -1,0 +1,93 @@
+{
+  "entry_id": "0817",
+  "national_id": 817,
+  "form": "default",
+  "names": {
+    "en": "Drizzile",
+    "ja": "ジメレオン",
+    "zh": "变涩蜥"
+  },
+  "generation": 8,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "みずとかげポケモン",
+  "category_zh": "水蜥宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "狙击手",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 11.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 147,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 55,
+    "special_attack": 95,
+    "special_defense": 55,
+    "speed": 90,
+    "total": 420
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 816,
+        "name_en": "sobble",
+        "name_zh": "泪眼蜥",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 818,
+        "name_en": "inteleon",
+        "name_zh": "千面避役",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 8,
+    "蓝莓": 234
+  },
+  "flavor_text_zh": "变涩蜥的肤色变得灰暗，也不再有水汪汪的眼睛，它头上的鳍状结构垂到头上，手上、脚上和眼睛上方为灰绿色，肚皮则是白色的。 变涩蜥会用布满粘液的舌头灵活地进行战斗和捕食，尽管平时把舌头收在嘴里，在需要的时候它也会以迅雷不及掩耳之势迅速地伸出舌头瞄准猎物。平时松懈懒散的变涩蜥在这个瞬间会发挥出令人惊讶的集中力。它是一种警戒心非常强的宝可梦，头脑聪明但是怕麻烦。为了不让敌人接近自己的地盘，它会在自己所栖息的树洞或岩地的周围用自己所擅长的水属性招式制造出许多陷阱。在战斗时，它不仅擅长活用地形的游击战，还能活用自己会因水份而变透明的身体考量战术，对脑力比拼得心应手。它还会把手掌分泌出的水分做成水弹攻击敌人，很有战略头脑。 [ 1 ]",
+  "flavor_text_en": "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 817,
+    "pokeapi_species_id": 817,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/817"
+  }
+}

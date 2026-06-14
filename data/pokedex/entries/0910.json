@@ -1,0 +1,90 @@
+{
+  "entry_id": "0910",
+  "national_id": 910,
+  "form": "default",
+  "names": {
+    "en": "Crocalor",
+    "ja": "アチゲータ",
+    "zh": "炙烫鳄"
+  },
+  "generation": 9,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ほのおワニポケモン",
+  "category_zh": "火鳄宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "纯朴",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 30.7,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 144,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 81,
+    "attack": 55,
+    "defense": 78,
+    "special_attack": 90,
+    "special_defense": 58,
+    "speed": 49,
+    "total": 411
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 909,
+        "name_en": "fuecoco",
+        "name_zh": "呆火鳄",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 911,
+        "name_en": "skeledirge",
+        "name_zh": "骨纹巨声鳄",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 5
+  },
+  "flavor_text_zh": "炙烫鳄形似鳄鱼，身体大部分是红色的，面部和腹部是白色的，四肢是黑色的。它的背和尾巴上有黄色的矩形鳞片，胸前有黑黄色相间的条纹。它有长长的吻，脸颊上有红色的方形图案，鼻尖则是三角形的。 由于火之能量与炙烫鳄过剩的生命力相互结合，形成了蛋状的火球并驻留在了它的头上。在对战时，它能将蛋状的火球作为招式自由自在地使出。它的声带和火囊的阀紧邻在一起，具有在喷出火焰的同时发出声音的习性，但那个声音实在称不上悦耳。当它准备喷出强烈的火焰时，就会发出更具破坏力的声音，有的对手会因此受到伤害。 [ 1 ]",
+  "flavor_text_en": "The valve in Crocalor’s flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 910,
+    "pokeapi_species_id": 910,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/910"
+  }
+}

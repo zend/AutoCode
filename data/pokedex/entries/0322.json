@@ -1,0 +1,93 @@
+{
+  "entry_id": "0322",
+  "national_id": 322,
+  "form": "default",
+  "names": {
+    "en": "Numel",
+    "ja": "ドンメル",
+    "zh": "呆火驼"
+  },
+  "generation": 3,
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "types_zh": [
+    "火",
+    "地面"
+  ],
+  "category": "どんかんポケモン",
+  "category_zh": "迟钝宝可梦",
+  "abilities": [
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝 / 或 / 单纯",
+      "hidden": false
+    },
+    {
+      "name_en": "simple",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 24.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 40,
+    "special_attack": 65,
+    "special_defense": 45,
+    "speed": 35,
+    "total": 305
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 323,
+        "name_en": "camerupt",
+        "name_zh": "喷火驼",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 101,
+    "帕底亚": 151,
+    "蓝莓": 125,
+    "密阿雷": 116
+  },
+  "flavor_text_zh": "呆火驼全身以黄色为主，腹部和嘴巴则是较浅的黄色，背上的驼峰顶端附近则有绿色斑块。它的头上有两个黄色的小耳朵，中间夹著一小撮黄色毛发。它的眼睛外框有咖啡色的圆圈，眼皮总是半闭的。雌性呆火驼的驼峰更大。 呆火驼会把灼热的熔岩储存在背上的驼峰里，1200度的熔岩一直在沸腾。一旦被水淋湿或气温变低，熔岩就会冷凝、变重，动作也会因此变得迟缓。虽然迟钝到被人敲打也不会察觉，但是对于饥饿1秒都无法忍耐。它背上的驼峰里燃烧的熔岩会转换成能量，发挥出惊人的力量。使用火属性的招式后，驼峰就会瘪下去。它拥有能搬运100公斤重货物的力量，长久以来一直在帮助人类工作。",
+  "flavor_text_en": "Numel stores magma of almost 2,200 degrees Fahrenheit within its body. If it gets wet, the magma cools and hardens. In that event, the Pokémon’s body grows heavy and its movements become sluggish.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 322,
+    "pokeapi_species_id": 322,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/322"
+  }
+}

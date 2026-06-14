@@ -1,0 +1,87 @@
+{
+  "entry_id": "0240",
+  "national_id": 240,
+  "form": "default",
+  "names": {
+    "en": "Magby",
+    "ja": "ブビィ",
+    "zh": "鸭嘴宝宝"
+  },
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ひだねポケモン",
+  "category_zh": "火种宝可梦",
+  "abilities": [
+    {
+      "name_en": "flame-body",
+      "name_zh": "火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 21.4,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 73,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 75,
+    "defense": 37,
+    "special_attack": 70,
+    "special_defense": 55,
+    "speed": 83,
+    "total": 365
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 126,
+        "name_en": "magmar",
+        "name_zh": "鸭嘴火兽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 150,
+    "神奥": 200,
+    "阿罗拉": 166,
+    "洗翠": 174,
+    "蓝莓": 13
+  },
+  "flavor_text_zh": "鸭嘴宝宝的身体是红色的，腹部及嘴部为黄色。鸭嘴宝宝有着像圆台形的嘴巴，头上有许多球状突起，背上有一个小刺。它的脖子处还有一圈黑褐色花纹。 鸭嘴宝宝栖息在火山地带，在火山口被发现，会浸泡在岩浆中疗愈一整天的疲劳。它吸入和吐出空气的时候，会从嘴巴和鼻子中冒出火星。它从嘴里喷出黄色火焰是健康的证明，但疲劳的时候就会混杂着黑烟。当火焰哧溜哧溜地从鼻子里漏出来时，就表示它感冒了，这时就让它去熔岩里休息会。它体内流淌着熔岩一样的血液，体温高达600度，因此就算个子小也不能轻视。如果鸭嘴宝宝掉到池塘里，池塘里的水就会被蒸发干净。它不但身材很小，而且还很胆小。每次感到兴奋或是吃惊的时候，都会从嘴巴和鼻子里冒出火花，鸭嘴宝宝的身姿变大是喷火的前兆。如果冒失地给了它食物的话会很高兴，激动地喷出600度的火。有和鸭嘴宝宝一起生活的著名的陶艺家，听说会用柔和的火创作出很棒的作品。",
+  "flavor_text_en": "This Pokémon lives in volcanic areas. With each breath, sparks spurt from its mouth and nose. When Magby is in good health, its flames gain a yellow tint.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 240,
+    "pokeapi_species_id": 240,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/240"
+  }
+}

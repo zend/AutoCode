@@ -1,0 +1,105 @@
+{
+  "entry_id": "0112",
+  "national_id": 112,
+  "form": "default",
+  "names": {
+    "en": "Rhydon",
+    "ja": "サイドン",
+    "zh": "钻角犀兽"
+  },
+  "generation": 1,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "types_zh": [
+    "地面",
+    "岩石"
+  ],
+  "category": "ドリルポケモン",
+  "category_zh": "钻锥宝可梦",
+  "abilities": [
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "避雷针 / 或 / 坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 120.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 170,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 130,
+    "defense": 120,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 40,
+    "total": 485
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 111,
+        "name_en": "rhyhorn",
+        "name_zh": "独角犀牛",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 464,
+        "name_en": "rhyperior",
+        "name_zh": "超甲狂犀",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 112,
+    "城都": 207,
+    "丰缘": 170,
+    "神奥": 187,
+    "伽勒尔": 265,
+    "洗翠": 121,
+    "蓝莓": 6
+  },
+  "flavor_text_zh": "钻角犀兽全身呈灰色，额头上有一个很尖锐的钻锥，雌性的角较小。它的头上有几个突出来的尖角，背部上有几个尖刺物。它的颈部粗且短，其上有个弘形的盔甲。它的手上有三个爪，脚上有两个爪，拥有一条强而有力的尾巴。 钻角犀兽仅仅靠后腿就能站立，前腿就变得自由了，尾巴能一击扫塌大楼。虽然它的智力发达了，但还总是忘事。它的全身被铠甲般的皮肤保护着，连大炮也无法伤及分毫。它拥有连岩浆的热度都感觉不到的结实皮肤，但也因此变得迟钝。它能在2000度的熔岩里生存，这使它得以横行于火山地带。它轻松地转动变成钻头的角的话，连钻石原石也可以轻易粉碎。如果被它的角刺中，就连岩石也会被开个洞。它用钻头般的角来钻开岩石，挖掘隧道。虽然这样做有时会让熔岩喷发，但像铠甲一样的皮肤不会感觉到热度。",
+  "flavor_text_en": "Rapidly rotates its horn to bore through bedrock. It swaggers around volcanic regions, protected from the lava's heat by its tough, armorlike hide.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 112,
+    "pokeapi_species_id": 112,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/112"
+  }
+}

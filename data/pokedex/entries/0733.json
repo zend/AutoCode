@@ -1,0 +1,91 @@
+{
+  "entry_id": "0733",
+  "national_id": 733,
+  "form": "default",
+  "names": {
+    "en": "Toucannon",
+    "ja": "ドデカバシ",
+    "zh": "铳嘴大鸟"
+  },
+  "generation": 7,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "おおづつポケモン",
+  "category_zh": "铳炮宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 连续攻击",
+      "hidden": false
+    },
+    {
+      "name_en": "skill-link",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 26.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 218,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 75,
+    "special_attack": 75,
+    "special_defense": 75,
+    "speed": 60,
+    "total": 485
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 732,
+        "name_en": "trumbeak",
+        "name_zh": "喇叭啄鸟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 12,
+    "蓝莓": 49
+  },
+  "flavor_text_zh": "铳嘴大鸟在外形上和没有进化之前的小笃儿有着很大的不同，它有着一个大大的嘴巴，而且嘴巴很长，不过身体配色基本上还是小笃儿以及喇叭啄鸟的配色，它的尾巴也变长了，并且在身体和尾巴的连接处有着红色的羽毛，它依然有着锐利而细长的爪子，眼神相对来说变得成熟不少。 铳嘴大鸟让鸟嘴发热来战斗，那温度足足超过100度，只要被啄到就会严重灼伤。它会让体内的气体在嘴里爆发，发射出树果的种子，连巨大岩石也能粉碎。它与伙伴互相敲击鸟嘴进行交流。通过敲击的强度和次数来互相传达心情。 铳嘴大鸟因成双成对感情和睦而闻名，它被视为一种吉祥的象征，常被带到结婚仪式去。它会被 甜竹竹 的气味诱惑，将其整个吞下。",
+  "flavor_text_en": "Known for forming harmonious couples, this Pokémon is brought to wedding ceremonies as a good luck charm.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 733,
+    "pokeapi_species_id": 733,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/733"
+  }
+}

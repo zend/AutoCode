@@ -1,0 +1,93 @@
+{
+  "entry_id": "0887",
+  "national_id": 887,
+  "form": "default",
+  "names": {
+    "en": "Dragapult",
+    "ja": "ドラパルト",
+    "zh": "多龙巴鲁托"
+  },
+  "generation": 8,
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "types_zh": [
+    "龙",
+    "幽灵"
+  ],
+  "category": "ステルスポケモン",
+  "category_zh": "隐形宝可梦",
+  "abilities": [
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯 / 或 / 穿透",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "cursed-body",
+      "name_zh": "咒术之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.0,
+  "weight_kg": 50.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 300,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "indeterminate",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "不定形",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 88,
+    "attack": 120,
+    "defense": 75,
+    "special_attack": 100,
+    "special_defense": 75,
+    "speed": 142,
+    "total": 600
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 886,
+        "name_en": "drakloak",
+        "name_zh": "多龙奇",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 397,
+    "帕底亚": 307
+  },
+  "flavor_text_zh": "多龙巴鲁托头部呈三角形，向两侧延展的角上有四个发射口般的洞。它的尾部末端渐渐变得透明，如同幽灵漂浮在空中。它头部的角的洞里经常会各自栖息着一只多龙梅西亚。 多龙巴鲁托会让多龙梅西亚住在自己角上的洞里，战斗开始后会用音速将多龙梅西亚发射出去。它角里的多龙梅西亚似乎满心期待着能被以音速发射出去，群体里飞得最快的个体总是被想要体验音速飞行的多龙梅西亚包围。它磨炼意志就能让全身变透明，就连角里的多龙梅西亚也变得看不到。",
+  "flavor_text_en": "Apparently the Dreepy inside Dragapult’s horns eagerly look forward to being launched out at Mach speeds.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 887,
+    "pokeapi_species_id": 887,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/887"
+  }
+}

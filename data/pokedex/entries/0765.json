@@ -1,0 +1,82 @@
+{
+  "entry_id": "0765",
+  "national_id": 765,
+  "form": "default",
+  "names": {
+    "en": "Oranguru",
+    "ja": "ヤレユータン",
+    "zh": "智挥猩"
+  },
+  "generation": 7,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "types_zh": [
+    "一般",
+    "超能力"
+  ],
+  "category": "けんじゃポケモン",
+  "category_zh": "贤者宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力 / 或 / 心灵感应",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "symbiosis",
+      "name_zh": "共生",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 76.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 172,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 80,
+    "special_attack": 90,
+    "special_defense": 110,
+    "speed": 60,
+    "total": 490
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 176,
+    "伽勒尔": 342,
+    "帕底亚": 313
+  },
+  "flavor_text_zh": "智挥猩是白色猩猩形象的宝可梦，面部和手脚为浅灰色，额头上有类似四角星的图案，如同斗篷般的紫色体毛覆盖了它的后背并垂肩而下，随着年龄越来越长。它手持着像扇子一样的东西是它自己手制的，据说是通过堆叠叶子并用自己的体毛把它们固定起来制成。 智挥猩独自在森林深处过着安静的生活，平常很少进行活动，多在树上冥想，对森林的各个角落都了如指掌。它能够通过挥动扇子随心所欲地指挥宝可梦。它那对着森林的宝可梦们接二连三下达指示的样子，使从前的人觉得智挥猩是生活在森林深处的人类，因此称之为森林中的人。它同类之间关系很差，总是反反复复地斗智，看谁更聪明，水平更高。它偶尔也出现在海边，与 呆呆王 较量谁更聪明。它能温柔地对待居住在森林里的宝可梦，如果有宝可梦受伤了，就会去寻找药草为它们治疗，并会提供食物给饥饿的宝可梦。智挥猩因为非常聪明而被知晓，看不起没经验的训练家，是面向资深训练家的宝可梦。它有时会擅用人类的道具，对于训练家来说是拥有难相处的一面的宝可梦。据说还有人见过它随意投掷精灵球，命令宝可梦。 [ 1 ]",
+  "flavor_text_en": "It knows the forest inside and out. If it comes across a wounded Pokémon, Oranguru will gather medicinal herbs to treat it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 765,
+    "pokeapi_species_id": 765,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/765"
+  }
+}

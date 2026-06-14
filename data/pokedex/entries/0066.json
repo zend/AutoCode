@@ -1,0 +1,95 @@
+{
+  "entry_id": "0066",
+  "national_id": 66,
+  "form": "default",
+  "names": {
+    "en": "Machop",
+    "ja": "ワンリキー",
+    "zh": "腕力"
+  },
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "かいりきポケモン",
+  "category_zh": "怪力宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力 / 或 / 无防守",
+      "hidden": false
+    },
+    {
+      "name_en": "no-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "steadfast",
+      "name_zh": "不屈之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 19.5,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 61,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 35,
+    "total": 305
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 67,
+        "name_en": "machoke",
+        "name_zh": "豪力",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 66,
+    "城都": 140,
+    "丰缘": 73,
+    "神奥": 40,
+    "阿罗拉": 95,
+    "伽勒尔": 138,
+    "洗翠": 154,
+    "密阿雷": 125
+  },
+  "flavor_text_zh": "腕力身材如同小童，通体灰色。它有着红色的瞳仁和黑色的瞳孔，头顶有三个状似瓦片的物体。它的手部分为五个手指，足部不分趾。此外，它还拥有着尾巴。 腕力生活在远离人烟的山里，体格虽小却力大无比，时时刻刻都充满力量。它虽然只有小孩那么大，却能毫不费力地同时举起并抛出好几只 小拳石 ，扔飞100个成年人。它最喜欢锻炼身体，挑战各种各样的格斗技变得越来越强，就算修炼了一整天也完全不满足。它通过多次反复上下举动 隆隆石 来锻炼全身的肌肉，努力将自己锻炼到更高境界。由于体力过剩而去举起岩石消磨时间，也因此变得更强。它拥有特殊肌肉，不管怎样运动都不会疼。它会盯着自己每天不断增大的肌肉，愈加勤奋地锻炼。在和伙伴们的锻炼中获得了自信和肌肉后，就会去向 幕下力士 挑战。不但如此，它还精通各种格斗技能，实力十分惊人。也有些腕力会为了精通所有的格斗技而周游世界各地，持续着严格的训练。它喜食营养价值高的食物，为了能有效地增长肌肉，它发自本能地追求着这些食物。",
+  "flavor_text_en": "Though as small as a child, it has strength enough to easily throw a well-built adult. Striving to become ever stronger, Machop trains by carrying a Graveler on its shoulders.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 66,
+    "pokeapi_species_id": 66,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/66"
+  }
+}

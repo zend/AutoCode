@@ -1,0 +1,83 @@
+{
+  "entry_id": "0919",
+  "national_id": 919,
+  "form": "default",
+  "names": {
+    "en": "Nymble",
+    "ja": "マメバッタ",
+    "zh": "豆蟋蟀"
+  },
+  "generation": 9,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "バッタポケモン",
+  "category_zh": "蝗虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": false
+    },
+    {
+      "name_en": "tinted-lens",
+      "name_zh": "有色眼镜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 42,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 33,
+    "attack": 46,
+    "defense": 40,
+    "special_attack": 21,
+    "special_defense": 25,
+    "speed": 45,
+    "total": 210
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 920,
+        "name_en": "lokix",
+        "name_zh": "烈腿蝗",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 14
+  },
+  "flavor_text_zh": "豆蟋蟀的身体是白色的，分为三段，其余部分大部分是黑色。它的第三对脚折叠在身体上方，上面有一个白色圆环图案。他的眼睛周围有四瓣花瓣一样的橙色花纹，眼睛的形状与花纹形状一致，为黑色。 豆蟋蟀总是将第3双脚折起来，拥有陷入危机时能够跳跃10米以上的脚力。活用跳跃力来闪避攻击，并同时给予对手伤害，是它很擅长的战斗方式。",
+  "flavor_text_en": "It’s highly skilled at a fighting style in which it uses its jumping capabilities to dodge incoming attacks while also dealing damage to opponents.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 919,
+    "pokeapi_species_id": 919,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/919"
+  }
+}

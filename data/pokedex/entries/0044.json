@@ -1,0 +1,102 @@
+{
+  "entry_id": "0044",
+  "national_id": 44,
+  "form": "default",
+  "names": {
+    "en": "Gloom",
+    "ja": "クサイハナ",
+    "zh": "臭臭花"
+  },
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "ざっそうポケモン",
+  "category_zh": "杂草宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "stench",
+      "name_zh": "恶臭",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 8.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 138,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 70,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 40,
+    "total": 395
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 43,
+        "name_en": "oddish",
+        "name_zh": "走路草",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 45,
+        "name_en": "vileplume",
+        "name_zh": "霸王花",
+        "trigger": "use-item"
+      },
+      {
+        "national_id": 182,
+        "name_en": "bellossom",
+        "name_zh": "美丽花",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 44,
+    "城都": 84,
+    "丰缘": 89,
+    "伽勒尔": 56,
+    "蓝莓": 63
+  },
+  "flavor_text_zh": "臭臭花有蓝色的类似植物球根的身体，一双手臂和一对足。它头顶上有一朵红褐色有白色斑点的花朵，花有四个球型花瓣以及四片浅褐色的花萼。臭臭花的眼睛似乎一直是闭着的，有着紫色的嘴唇，看起来一直在流着口水。雌性臭臭花的每一个花苞上都只有一个斑点，而且比雄性的斑点更大。 臭臭花雌蕊溢出的花粉会散发一种极其强烈的恶臭，能让两公里远的人昏倒。即使如此，一千个人里总会出现一个人喜欢闻这种味道。感到危险的时候，雌蕊放出的臭味会变得更加强烈，但心平气和的时候就不会放出臭味。它一点点渗出垂下的看似口水的东西其实是甜甜的蜜，可以引诱猎物靠近。蜜非常黏稠，只要碰到就会一直黏住。从嘴里流出来的蜜也有着就算在两公里外也能把鼻子熏歪的强烈臭味，令人难以靠近。闻到从嘴里流出的蜜的味道，似乎会让人忘了其他的臭味，不过也有喜爱这种气味的狂热者存在。臭臭花好像特别喜欢从嘴里流出的强烈臭味。闻到那味道后会分泌出更多的花蜜。进化前的臭臭花越臭，就越是能进化为带着美丽花儿的 美丽花 。",
+  "flavor_text_en": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 44,
+    "pokeapi_species_id": 44,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/44"
+  }
+}

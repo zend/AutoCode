@@ -1,0 +1,88 @@
+{
+  "entry_id": "0661",
+  "national_id": 661,
+  "form": "default",
+  "names": {
+    "en": "Fletchling",
+    "ja": "ヤヤコマ",
+    "zh": "小箭雀"
+  },
+  "generation": 6,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "コマドリポケモン",
+  "category_zh": "知更鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "big-pecks",
+      "name_zh": "健壮胸肌",
+      "hidden": false
+    },
+    {
+      "name_en": "gale-wings",
+      "name_zh": "疾风之翼",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.7,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 56,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 43,
+    "special_attack": 40,
+    "special_defense": 38,
+    "speed": 62,
+    "total": 278
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 662,
+        "name_en": "fletchinder",
+        "name_zh": "火箭雀",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 158,
+    "帕底亚": 19,
+    "蓝莓": 87,
+    "密阿雷": 10
+  },
+  "flavor_text_zh": "小箭雀是一种小型的鸟类宝可梦。它有着橘红色的头部，每只眼睛后有着三角形的黄色标记。它的躯干和双翼是灰色的，翅膀末端是白色的。小箭雀有很长的黑色尾巴，末端带有白色的V形花纹。它的尾巴在末端分叉，与身体相连的部分有两根羽毛突出，给人以箭羽的感觉。它的爪是黑色的，又细又长，两趾朝前，一趾朝后。 小箭雀在山野间和街上生活，因为与 怒鹦哥 争地盘，而在街上展开大混战。它通过美妙婉转的叫声以及挥动尾羽的动作向伙伴传递信号，优美的鸣叫其实是威吓。对于进入自己领地的家伙，它会毫不留情地啄个不停，非常粗暴。它平时性情温和，和人很亲近，是易于训练的宝可梦。但一旦进入战斗，荷尔蒙的平衡发生变化，就会变得非常凶猛，具有攻击性。一旦兴奋体温就会上升两倍，如果强行触碰，赤手去摸甚至有可能会被灼伤。它的身体一直都很温暖，听说寒冷地区的训练家会和它一起睡在床上。",
+  "flavor_text_en": "When this Pokémon gets excited, its body temperature increases sharply. If you touch a Fletchling with bare hands, you might get burned.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 661,
+    "pokeapi_species_id": 661,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/661"
+  }
+}

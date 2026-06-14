@@ -1,0 +1,95 @@
+{
+  "entry_id": "0933",
+  "national_id": 933,
+  "form": "default",
+  "names": {
+    "en": "Naclstack",
+    "ja": "ジオヅム",
+    "zh": "盐石垒"
+  },
+  "generation": 9,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "がんえんポケモン",
+  "category_zh": "岩盐宝可梦",
+  "abilities": [
+    {
+      "name_en": "purifying-salt",
+      "name_zh": "洁净之盐 / 或 / 结实",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 105.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 124,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 100,
+    "special_attack": 35,
+    "special_defense": 65,
+    "speed": 35,
+    "total": 355
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 932,
+        "name_en": "nacli",
+        "name_zh": "盐石宝",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 934,
+        "name_en": "garganacl",
+        "name_zh": "盐石巨灵",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 130
+  },
+  "flavor_text_zh": "盐石垒能在体内压缩岩盐，以此形成坚硬的盐弹，发射后的威力连铁板都能贯穿。它会朝着猎物喷出盐，并将其做成盐腌物。猎物体内的水分会在此过程中被夺走。它性格健忘，别说自己盐腌的猎物了，连训练家的指示也经常忘记。",
+  "flavor_text_en": "It compresses rock salt inside its body and shoots out hardened salt pellets with enough force to perforate an iron sheet.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 933,
+    "pokeapi_species_id": 933,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/933"
+  }
+}

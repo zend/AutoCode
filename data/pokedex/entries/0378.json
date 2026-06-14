@@ -1,0 +1,71 @@
+{
+  "entry_id": "0378",
+  "national_id": 378,
+  "form": "default",
+  "names": {
+    "en": "Regice",
+    "ja": "レジアイス",
+    "zh": "雷吉艾斯"
+  },
+  "generation": 3,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "ひょうざんポケモン",
+  "category_zh": "冰山宝可梦",
+  "abilities": [
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 175.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 50,
+    "defense": 100,
+    "special_attack": 100,
+    "special_defense": 200,
+    "speed": 50,
+    "total": 580
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 194
+  },
+  "flavor_text_zh": "雷吉艾斯拥有一副由冰构成的身体，其面部有由七个黄色点组成的“+”形图案。它的腿部呈锥形，在圆柱形的胳膊末端各有三根晶状手指。它的背部有4根冰刺，两侧各2根。 雷吉艾斯全身都是由南极的冰所构成，由研究者调查之后的结果得知似乎是冰河时期就已结成的冰。据说它是诞生于冰河时期冻得厚厚实实的冰块之下，曾在冰河中沉睡了数千年。它的身体被零下200度的冷气包裹着，即使在熔岩中也无法融化，哪怕只是接近也会被冻住。它会操控冰冷至零下200度的冷气，将接近自己的家伙一下子冰镇起来。",
+  "flavor_text_en": "This Pokémon’s body is made of solid ice. It’s said that Regice was born beneath thick ice in the ice age.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 378,
+    "pokeapi_species_id": 378,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/378"
+  }
+}

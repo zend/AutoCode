@@ -1,0 +1,111 @@
+{
+  "entry_id": "0281",
+  "national_id": 281,
+  "form": "default",
+  "names": {
+    "en": "Kirlia",
+    "ja": "キルリア",
+    "zh": "奇鲁莉安"
+  },
+  "generation": 3,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "types_zh": [
+    "超能力",
+    "妖精"
+  ],
+  "category": "かんじょうポケモン",
+  "category_zh": "感情宝可梦",
+  "abilities": [
+    {
+      "name_en": "synchronize",
+      "name_zh": "同步 / 或 / 复制",
+      "hidden": false
+    },
+    {
+      "name_en": "trace",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 20.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 97,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "humanshape",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "人型",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 35,
+    "defense": 35,
+    "special_attack": 65,
+    "special_defense": 55,
+    "speed": 50,
+    "total": 278
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 280,
+        "name_en": "ralts",
+        "name_zh": "拉鲁拉丝",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 282,
+        "name_en": "gardevoir",
+        "name_zh": "沙奈朵",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 475,
+        "name_en": "gallade",
+        "name_zh": "艾路雷朵",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 30,
+    "神奥": 158,
+    "伽勒尔": 121,
+    "洗翠": 102,
+    "帕底亚": 63,
+    "北上": 58,
+    "密阿雷": 88
+  },
+  "flavor_text_zh": "奇鲁莉安的身体是白色的，外貌宛若清纯少女，有很纤细的绿色的双腿。它的头发没有完全挡住眼睛，而是有垂肩的刘海。它的两个红色的角也变了位置，位于头的两侧。 奇鲁莉安能够敏锐地感受到训练家的情绪，训练家开朗的情绪是它精神力量的源泉，开心时会旋转着跳舞。据说经常接触训练家开朗情绪的奇鲁莉安会成长得十分美丽。它会用发达的头脑来操纵精神力量，能从以超能力形成的空间缺口里看见未来所发生之事的力量。据说使用被头上的角增强过的精神力量时，周围的空间会出现扭曲，并能看见现实中没有的景色。据推测其秘密就在红色发饰之中。",
+  "flavor_text_en": "It resembles a maiden in appearance, but it wields strange powers to project visions of paradise. I suspect the crimson ornaments on its head are the key to its abilities.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 281,
+    "pokeapi_species_id": 281,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/281"
+  }
+}

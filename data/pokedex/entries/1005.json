@@ -1,0 +1,68 @@
+{
+  "entry_id": "1005",
+  "national_id": 1005,
+  "form": "default",
+  "names": {
+    "en": "Roaring Moon",
+    "ja": "トドロクツキ",
+    "zh": "轰鸣月"
+  },
+  "generation": 9,
+  "types": [
+    "dragon",
+    "dark"
+  ],
+  "types_zh": [
+    "龙",
+    "恶"
+  ],
+  "category": "パラドックスポケモン",
+  "category_zh": "悖谬宝可梦",
+  "abilities": [
+    {
+      "name_en": "protosynthesis",
+      "name_zh": "古代活性",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 380.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 10,
+  "color": "green",
+  "color_zh": "蓝色",
+  "base_experience": 295,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 139,
+    "defense": 71,
+    "special_attack": 55,
+    "special_defense": 101,
+    "speed": 119,
+    "total": 590
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 397
+  },
+  "flavor_text_zh": "轰鸣月的样子与在其他地区 暴飞龙 身上发生的 某种现象 所产生的结果十分相似，但二者的关联性不明。它会一边散落羽毛，一边高速飞行并四处袭击猎物。推测其凶暴的性情比暴飞龙有过之而无不及，即使不慎遇上，也绝对要避免与它接触。 [ 1 ] 这个名字取自奇书《朱之书》中所记载的神秘生物。",
+  "flavor_text_en": "According to an article in a dubious magazine, this Pokémon has some connection to a phenomenon that occurs in a certain region.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1005,
+    "pokeapi_species_id": 1005,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1005"
+  }
+}

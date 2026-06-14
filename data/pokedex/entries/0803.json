@@ -1,0 +1,74 @@
+{
+  "entry_id": "0803",
+  "national_id": 803,
+  "form": "default",
+  "names": {
+    "en": "Poipole",
+    "ja": "ベベノム",
+    "zh": "毒贝比"
+  },
+  "generation": 7,
+  "types": [
+    "poison"
+  ],
+  "types_zh": [
+    "毒"
+  ],
+  "category": "どくばりポケモン",
+  "category_zh": "毒针宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 1.8,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 189,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 67,
+    "attack": 73,
+    "defense": 67,
+    "special_attack": 73,
+    "special_defense": 67,
+    "speed": 73,
+    "total": 420
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 804,
+        "name_en": "naganadel",
+        "name_zh": "四颚针龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {},
+  "flavor_text_zh": "异色毒贝比 毒贝比是 究极异兽 的一种，代号为“ＵＢ：沾黏”。毒贝比的外观看起来有点趋于人形，它顶着一个非常大的脑袋，脑袋的顶上有三根管状的毒针，中间的毒针相对来说比其他的两根毒针大一些，在动画中可以很形象地看出毒贝比可以把身子倒立然后利用毒针在地上或者是墙上涂鸦，它有着比较短的手臂，还有着比较长的尾巴，眼睛呈现为椭圆形。毒贝比巨大的头部里注满了毒液，可以从头部尖端的毒针发射。 毒贝比存在于被奈克洛兹玛夺去了光的世界，被 四颚针龙 当作自己的孩子来养育。它在异世界是亲切的究极异兽，甚至能被选为踏上旅程的 同伴 。它会从头部的毒针朝对手喷出毒液，咯咯咯大笑。毒贝比属于感情丰富的宝可梦，据说如果与它长时间接触，它也会理解人类的语言。 [ 1 ] - **百科链接**: [毒贝比](https://wiki.52poke.com/wiki/%E6%AF%92%E8%B4%9D%E6%AF%94)",
+  "flavor_text_en": "An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 803,
+    "pokeapi_species_id": 803,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/803"
+  }
+}

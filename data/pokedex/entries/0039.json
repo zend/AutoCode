@@ -1,0 +1,101 @@
+{
+  "entry_id": "0039",
+  "national_id": 39,
+  "form": "default",
+  "names": {
+    "en": "Jigglypuff",
+    "ja": "プリン",
+    "zh": "胖丁"
+  },
+  "generation": 1,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "types_zh": [
+    "一般",
+    "妖精"
+  ],
+  "category": "ふうせんポケモン",
+  "category_zh": "气球宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯 / 或 / 好胜",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "friend-guard",
+      "name_zh": "友情防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 5.5,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 170,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 95,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special_attack": 45,
+    "special_defense": 25,
+    "speed": 20,
+    "total": 270
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 174,
+        "name_en": "igglybuff",
+        "name_zh": "宝宝丁",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 40,
+        "name_en": "wigglytuff",
+        "name_zh": "胖可丁",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 39,
+    "城都": 44,
+    "丰缘": 138,
+    "阿罗拉": 135,
+    "帕底亚": 60
+  },
+  "flavor_text_zh": "胖丁是圆形的粉色球状宝可梦。它有小而尖且类似猫耳的耳朵和天蓝色的大眼睛，有一束卷状的毛发在头顶。它拥有有弹性的皮肤。它的手臂十分短小，脚较大。 胖丁会用圆溜溜的大眼睛盯着对手来诱惑对手，并唱起不可思议的歌曲，这令人舒服的悦耳歌曲会让对手睡着。只要盯着它圆溜溜的眼睛，它就会唱起让听众惬意得无法抵挡睡意的歌曲。它身体胀大后唱出的摇篮曲会比平时持续的时间更长，绝对会让对方变得昏昏欲睡。它唱歌时声音的波形与熟睡时脑电波的形状是完全一样的，没人能在听到胖丁的歌声后不会睡着的。胖丁拥有超过12个音阶的音域，至于歌唱得好不好就要靠胖丁们各自努力了。因为有着可以随意改变声音波长的声带，所以能以对手最容易睡着的波长来唱歌。它肺活量之大，在整个宝可梦界数一数二，唱歌时一口气都不会换。所以当遇上不容易睡着的对手时，唱歌不换气的胖丁也相当于是在拼命了，会一直哼唱摇篮曲直到对方睡着。栖息的地区不同，它唱的歌也完全不同。里面甚至还有一些歌听起来像是在大喊大叫。可以在百货商店的寝具区买到收录有胖丁那神奇摇篮曲的ＣＤ。",
+  "flavor_text_en": "By freely changing the wavelength of its voice, Jigglypuff sings a mysterious melody sure to make any listener sleepy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 39,
+    "pokeapi_species_id": 39,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/39"
+  }
+}

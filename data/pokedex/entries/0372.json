@@ -1,0 +1,93 @@
+{
+  "entry_id": "0372",
+  "national_id": 372,
+  "form": "default",
+  "names": {
+    "en": "Shelgon",
+    "ja": "コモルー",
+    "zh": "甲壳龙"
+  },
+  "generation": 3,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "にんたいポケモン",
+  "category_zh": "耐力宝可梦",
+  "abilities": [
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 110.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 147,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 100,
+    "special_attack": 60,
+    "special_defense": 50,
+    "speed": 50,
+    "total": 420
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 371,
+        "name_en": "bagon",
+        "name_zh": "宝贝龙",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 373,
+        "name_en": "salamence",
+        "name_zh": "暴飞龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 188,
+    "阿罗拉": 118,
+    "帕底亚": 277,
+    "密阿雷": 221
+  },
+  "flavor_text_zh": "甲壳龙全身被白色的壳包围，只露出眼睛和四肢。它覆盖着身体的是像骨头一样的东西，分为大小接近的六瓣将甲壳龙整个包裹住，上面三瓣还有凸起的花纹。 甲壳龙一动不动地潜伏在洞穴深处，不吃也不喝等待着进化，梦想着飞上天空的那一天。它籍由挺住空腹让自己变强，不知为何不会死掉。它有着如铁一样坚硬的壳，能反弹敌人的攻击。因为壳非常重，所以动作迟缓。在坚硬的壳内部，细胞正在以爆发般的速度变化并形成崭新的身体，为了身体进化得更大而积蓄着能量。据说当它用尽积蓄的能量后，就会开始进化，在进化的瞬间外壳会剥落下来。",
+  "flavor_text_en": "Shelgon ignores its hunger entirely, never eating any food. Apparently, Shelgon will evolve once all its energy stores are used up.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 372,
+    "pokeapi_species_id": 372,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/372"
+  }
+}

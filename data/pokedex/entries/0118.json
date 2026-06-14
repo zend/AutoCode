@@ -1,0 +1,93 @@
+{
+  "entry_id": "0118",
+  "national_id": 118,
+  "form": "default",
+  "names": {
+    "en": "Goldeen",
+    "ja": "トサキント",
+    "zh": "角金鱼"
+  },
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "きんぎょポケモン",
+  "category_zh": "金鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 水幕",
+      "hidden": false
+    },
+    {
+      "name_en": "water-veil",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "避雷针",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 15.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 64,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 67,
+    "defense": 60,
+    "special_attack": 35,
+    "special_defense": 50,
+    "speed": 63,
+    "total": 320
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 119,
+        "name_en": "seaking",
+        "name_zh": "金鱼王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 118,
+    "城都": 78,
+    "丰缘": 50,
+    "神奥": 78,
+    "阿罗拉": 153,
+    "伽勒尔": 146
+  },
+  "flavor_text_zh": "角金鱼身体大部分为白色，肢体连接处为红色。它的头顶上有着尖利的角，雄性的角更长。它有着粉色的嘴唇，身体两侧有鳍，尾巴呈波浪状。 角金鱼是会在水中优雅地摇摆绚丽鱼鳍的宝可梦。它游泳时尾鳍像连衣裙一样优雅地飘动，因此被称作水中女王。它的背鳍和尾鳍像肌肉那样发达，在水流湍急的河里也能以5节的速度迅猛地逆流而上。到了春天产卵期，角金鱼群就会为了结成对而在水中悠游自如的来回游动，成群的角金鱼会逆流而行或是攀登瀑布朝着上游游去，那画面正如告知春天的风景诗。它非常喜欢在河流或池塘里游动，要是把它放入水槽之类的话，就算是厚厚的玻璃，它也能用角一击撞碎后逃走。虽然漂亮的尾鳍是其特征，但角金鱼之间好像会比谁的角更粗更尖锐。感到自身有危险的话，就会用尖锐的角反击。被角的长度和鱼鳍的美丽而迷住，只培育角金鱼的风雅训练家也是很多的。",
+  "flavor_text_en": "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 118,
+    "pokeapi_species_id": 118,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/118"
+  }
+}

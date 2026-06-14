@@ -1,0 +1,87 @@
+{
+  "entry_id": "0158",
+  "national_id": 158,
+  "form": "default",
+  "names": {
+    "en": "Totodile",
+    "ja": "ワニノコ",
+    "zh": "小锯鳄"
+  },
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "おおあごポケモン",
+  "category_zh": "大颚宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 9.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 63,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 64,
+    "special_attack": 44,
+    "special_defense": 48,
+    "speed": 43,
+    "total": 314
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 159,
+        "name_en": "croconaw",
+        "name_zh": "蓝鳄",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 7,
+    "蓝莓": 179,
+    "密阿雷": 7
+  },
+  "flavor_text_zh": "小锯鳄的身体是蓝色的。它拥有发达的下颚，上颌有两颗尖牙，下颌两侧各有一排三颗尖牙。它的肚子上有著浅黄色的V形条纹，一直延伸到手臂。它的背部有四个红色的角，手掌长有五爪，脚则有三趾。它眼瞳为红色，眼睛周围有着黑色的花纹。 小锯鳄个子虽小，却是个粗暴的家伙。只要眼前有东西在动，就会上去先咬一口再说，不注意而被看到后背的话可不行。因为它发达的颚充满了力量，不管是什么都能咬碎。这力量强大到小锯鳄只是想轻轻咬一下，但却会让对方遭受重伤的程度，所以就算是它的训练家也要当心。",
+  "flavor_text_en": "Despite the smallness of its body, Totodile’s jaws are very powerful. While the Pokémon may think it is just playfully nipping, its bite has enough power to cause serious injury.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 158,
+    "pokeapi_species_id": 158,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/158"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "entry_id": "0685",
+  "national_id": 685,
+  "form": "default",
+  "names": {
+    "en": "Slurpuff",
+    "ja": "ペロリーム",
+    "zh": "胖甜妮"
+  },
+  "generation": 6,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "ホイップポケモン",
+  "category_zh": "泡沫奶油宝可梦",
+  "abilities": [
+    {
+      "name_en": "sweet-veil",
+      "name_zh": "甜幕",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "轻装",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 5.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 140,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 82,
+    "attack": 80,
+    "defense": 86,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 72,
+    "total": 480
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 684,
+        "name_en": "swirlix",
+        "name_zh": "绵绵泡芙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 211,
+    "密阿雷": 99
+  },
+  "flavor_text_zh": "胖甜妮头上有类似头发的粉红色附属物和一个红色球体，颈部有一条像红色围巾的斑纹，进化后长出了脚、手和身体，身体左手边有一个红斑。它的体毛里富含空气，摸起来十分柔软，重量也比看起来要轻。 胖甜妮的嗅觉比人类灵敏1亿倍以上，通过空气中飘浮的细微气味就能完全了解周围的情形。它即便是细微气味也能区分，是西点师傅的好帮手。它还能从人们身上的气味里嗅出他们的身心状态，在医疗领域的实际应用备受瞩目。",
+  "flavor_text_en": "Slurpuff’s fur contains a lot of air, making it soft to the touch and lighter than it looks.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 685,
+    "pokeapi_species_id": 685,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/685"
+  }
+}

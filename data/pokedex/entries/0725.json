@@ -1,0 +1,84 @@
+{
+  "entry_id": "0725",
+  "national_id": 725,
+  "form": "default",
+  "names": {
+    "en": "Litten",
+    "ja": "ニャビー",
+    "zh": "火斑喵"
+  },
+  "generation": 7,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ひねこポケモン",
+  "category_zh": "火猫宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 4.3,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 64,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 65,
+    "defense": 40,
+    "special_attack": 60,
+    "special_defense": 40,
+    "speed": 70,
+    "total": 320
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 726,
+        "name_en": "torracat",
+        "name_zh": "炎热喵",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 4,
+    "蓝莓": 221
+  },
+  "flavor_text_zh": "火斑喵是小猫型的宝可梦，全身毛发为黑色。它的面部长著红色的斑纹和胡须，四肢也有红色条纹。火斑喵有一双黄色的眼睛，尾巴末端有些许刺状的毛。 火斑喵经常用舌头舔舔身体来打理毛发，并通过此举收集掉落的毛。它的毛含有油分，因此十分易燃。火斑喵一年要换两次毛，到了换毛的时候会用火点燃自己的身体，烧掉旧毛。它还会将积在腹中的落毛燃烧，喷出火焰攻击。根据吐毛的方式不同，火焰也会变化。火斑喵总是表现得很冷静，独自生活，不会将情感挂在脸上。要取得它的信任，得花点时间。它如果被纠缠不休，就不会再打开心扉。即使亲近起来，过多的亲密接触也是禁忌。如果在得到火斑喵的信任前就想抚摸它的话，要小心它用尖锐的爪子抓你。但是，当训练家和伙伴陷入紧急关头时，它也会使出全力拯救大家。 [ 1 ] 时常打理毛发 燃烧收集回来的毛球作出攻击！",
+  "flavor_text_en": "Trying to pet Litten before it trusts you will result in a nasty scratch from its sharp claws. Be careful.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 725,
+    "pokeapi_species_id": 725,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/725"
+  }
+}

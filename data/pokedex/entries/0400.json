@@ -1,0 +1,93 @@
+{
+  "entry_id": "0400",
+  "national_id": 400,
+  "form": "default",
+  "names": {
+    "en": "Bibarel",
+    "ja": "ビーダル",
+    "zh": "大尾狸"
+  },
+  "generation": 4,
+  "types": [
+    "normal",
+    "water"
+  ],
+  "types_zh": [
+    "一般",
+    "水"
+  ],
+  "category": "ビーバーポケモン",
+  "category_zh": "河狸宝可梦",
+  "abilities": [
+    {
+      "name_en": "simple",
+      "name_zh": "单纯 / 或 / 纯朴",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moody",
+      "name_zh": "心情不定",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 31.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 127,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 144,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 79,
+    "attack": 85,
+    "defense": 60,
+    "special_attack": 55,
+    "special_defense": 60,
+    "speed": 71,
+    "total": 410
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 399,
+        "name_en": "bidoof",
+        "name_zh": "大牙狸",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 14,
+    "洗翠": 11
+  },
+  "flavor_text_zh": "大尾狸的身体是棕色的，腹部则是浅黄色的。它有着两个大牙齿和非常大的尾部，尾部有黄色条纹。雄性大尾狸的面部米色的部分更大。 大尾狸以勤劳而闻名。它能勤劳地用锐利的门牙啃断树枝和树根，用树干和泥巴筑坝堵住河流，堆积起来在水边筑巢。只要有大尾狸筑坝的河流，绝对不会发生洪灾，因此附近的居民非常感激它。虽然在陆地上行动迟缓，但游起泳来却快得和 丑丑鱼 不相上下。它的体毛有着极佳的防水效果，且保温性十足，性能十分优秀。",
+  "flavor_text_en": "Bibarel fur repels water and is also a fantastic material for heat retention. These Pokémon create dams on rivers to live in.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 400,
+    "pokeapi_species_id": 400,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/400"
+  }
+}

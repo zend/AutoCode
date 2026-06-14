@@ -1,0 +1,91 @@
+{
+  "entry_id": "0904",
+  "national_id": 904,
+  "form": "default",
+  "names": {
+    "en": "Overqwil",
+    "ja": "ハリーマン",
+    "zh": "万针鱼"
+  },
+  "generation": 8,
+  "types": [
+    "dark",
+    "poison"
+  ],
+  "types_zh": [
+    "恶",
+    "毒"
+  ],
+  "category": "けんざんポケモン",
+  "category_zh": "剑山宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺 / 或 / 悠游自如",
+      "hidden": false
+    },
+    {
+      "name_en": "swift-swim",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.5,
+  "weight_kg": 60.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 135,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 179,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 115,
+    "defense": 95,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 85,
+    "total": 510
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 211,
+        "name_en": "qwilfish",
+        "name_zh": "千针鱼",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "洗翠": 85,
+    "蓝莓": 147
+  },
+  "flavor_text_zh": "万针鱼身体上半部分为黑色，有少量紫色斑点，针尖、眼眶和嘴唇为紫色。下半部分则都为白色。万针鱼少部分刺非常长，大部分则比较短。它的尾巴呈扁平状，内部为一个Q图案。 万针鱼个性凶悍，性情粗暴，会吞下毒物作为自身的粮食。它毒针的尖端呈锯齿状，强化得又粗又长的毒针能够自行针对会动的东西发起攻击，被刺中时无法轻易拔出。即使在它睡着的时候，只要有会动的东西接近，毒针就会无意识地作出反应刺过去。身上如同枪尖般的针以及凶暴的性情使这种宝可梦得到了海鬼的外号。",
+  "flavor_text_en": "Its lancelike spikes and savage temperament have earned it the nickname ”sea fiend.” It slurps up poison to nourish itself.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 904,
+    "pokeapi_species_id": 904,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/904"
+  }
+}

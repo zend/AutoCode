@@ -1,0 +1,86 @@
+{
+  "entry_id": "0401",
+  "national_id": 401,
+  "form": "default",
+  "names": {
+    "en": "Kricketot",
+    "ja": "コロボーシ",
+    "zh": "圆法师"
+  },
+  "generation": 4,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "こおろぎポケモン",
+  "category_zh": "蟋蟀宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 39,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 37,
+    "attack": 25,
+    "defense": 41,
+    "special_attack": 25,
+    "special_defense": 41,
+    "speed": 25,
+    "total": 194
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 402,
+        "name_en": "kricketune",
+        "name_zh": "音箱蟀",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 15,
+    "洗翠": 39,
+    "帕底亚": 33,
+    "北上": 61
+  },
+  "flavor_text_zh": "圆法师像一只圆滚滚的蟋蟀，以红色和浅黄色为主体。它的脖子周围有领子状突起看上去像穿着礼服，头上有两根黑色弯曲的触角，它的四肢也是黑色的。雌性圆法师的领子状突起相对雄性更大。 圆法师在树木染上秋色时数量便会变多。每当腿短的它快要跌倒时，坚硬的触角就会互相摩擦，发出如木琴般的声音。它前后摇晃头部让触角相互碰撞的话，就会奏出叮叮咚咚如同木琴一般的音色，听起来很像马林巴这种异国乐器。它也用互相撞击触角发出的声音和伙伴对话。那音色是秋夜的风景诗。",
+  "flavor_text_en": "When the trees take on new hues, more of these Pokémon appear. The tone they create by striking their antennae together resembles that of the marimba, an instrument of foreign lands.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 401,
+    "pokeapi_species_id": 401,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/401"
+  }
+}

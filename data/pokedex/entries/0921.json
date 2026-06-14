@@ -1,0 +1,88 @@
+{
+  "entry_id": "0921",
+  "national_id": 921,
+  "form": "default",
+  "names": {
+    "en": "Pawmi",
+    "ja": "パモ",
+    "zh": "布拨"
+  },
+  "generation": 9,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "ねずみポケモン",
+  "category_zh": "鼠宝可梦",
+  "abilities": [
+    {
+      "name_en": "static",
+      "name_zh": "静电 / 或 / 自然回复",
+      "hidden": false
+    },
+    {
+      "name_en": "natural-cure",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 48,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 20,
+    "special_attack": 40,
+    "special_defense": 25,
+    "speed": 60,
+    "total": 240
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 922,
+        "name_en": "pawmo",
+        "name_zh": "布土拨",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 22
+  },
+  "flavor_text_zh": "布拨通体是橙色的，双手和尾巴是米色的。在它的脑袋上有着一团毛，两边的耳朵里面是墨绿色的。 布拨不仅脸颊上有电囊，手部的肉球也是放电器官。但是它脸颊上的电囊尚未发达，必须拼命摩擦前脚的肉球才得以制造出电力。包裹着它全身的松软皮毛不仅非常耐寒，还拥有储存电力的作用。它警戒心很强，一旦感觉到不安就会抚摸脸颊开始准备放电。它会先来回抚摸自己的脸颊充好电后，努力用后脚站立起来，然后从手掌释放出电击，通过双手触摸让对方触电。 [ 1 ]",
+  "flavor_text_en": "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 921,
+    "pokeapi_species_id": 921,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/921"
+  }
+}

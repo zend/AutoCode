@@ -1,0 +1,85 @@
+{
+  "entry_id": "0906",
+  "national_id": 906,
+  "form": "default",
+  "names": {
+    "en": "Sprigatito",
+    "ja": "ニャオハ",
+    "zh": "新叶喵"
+  },
+  "generation": 9,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "くさねこポケモン",
+  "category_zh": "草猫宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "protean",
+      "name_zh": "变幻自如",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 4.1,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 61,
+    "defense": 54,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 65,
+    "total": 310
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 907,
+        "name_en": "floragato",
+        "name_zh": "蒂蕾喵",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 1
+  },
+  "flavor_text_zh": "新叶喵的外形像一只小猫，它的身体是浅绿色的。在它脸部正中有如同四片叶子重叠的深绿色花纹，它的胸前也有着绿色的类似领子的毛发。 新叶喵毛茸茸的体毛有着近似于植物的成分，会吸收阳光来制造能量。它会通过理毛来让体毛获得水分，会勤于洗脸以防止干燥，这样似乎更容易进行光合作用。它会通过前爪按按摩摩的动作来向周围放出甜甜的香气，让周围的一切为之倾倒，晒到阳光后香气会更加浓郁。这种香气带有芳香效果，会让对手丧失斗志。新叶喵性情多变又爱撒娇。如果训练家宠爱除了自己以外的宝可梦，它或许就会闹别扭。 [ 1 ]",
+  "flavor_text_en": "The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 906,
+    "pokeapi_species_id": 906,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/906"
+  }
+}

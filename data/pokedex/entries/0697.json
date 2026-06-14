@@ -1,0 +1,87 @@
+{
+  "entry_id": "0697",
+  "national_id": 697,
+  "form": "default",
+  "names": {
+    "en": "Tyrantrum",
+    "ja": "ガチゴラス",
+    "zh": "怪颚龙"
+  },
+  "generation": 6,
+  "types": [
+    "rock",
+    "dragon"
+  ],
+  "types_zh": [
+    "岩石",
+    "龙"
+  ],
+  "category": "ぼうくんポケモン",
+  "category_zh": "暴君宝可梦",
+  "abilities": [
+    {
+      "name_en": "strong-jaw",
+      "name_zh": "强壮之颚",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.5,
+  "weight_kg": 270.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 182,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 82,
+    "attack": 121,
+    "defense": 119,
+    "special_attack": 69,
+    "special_defense": 59,
+    "speed": 71,
+    "total": 521
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 696,
+        "name_en": "tyrunt",
+        "name_zh": "宝宝暴龙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "密阿雷": 194
+  },
+  "flavor_text_zh": "怪颚龙是一只巨大的暗红色暴龙。它的眼睛周围和尾巴上都有橙色的岩石突起，身体的各个地方也有少量橙色分布。怪颚龙的肚子是灰色的，两边有两条白色花纹，身上有六边形的鳞片。它的下巴一半是白色的毛发，一半是灰色的，脖子和身体的交界处有一圈白色的毛发让它看起来像威严的老国王。怪颚龙的前肢异常短小，后肢则十分粗壮。 怪颚龙是大约1亿年前的宝可梦，是 冰雪龙 的天敌。它曾是以无敌而自豪、像国王一样行动的宝可梦，是古代的王者。据说要完全复原它是不可能的，实际上它全身都是羽毛一样的毛发。它大颚的力量很惊人，连汽车也能轻易咬碎。虽然凶暴，堂堂正正的举止却略显王者之风。",
+  "flavor_text_en": "A single bite of Tyrantrum’s massive jaws will demolish a car. This Pokémon was the king of the ancient world.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 697,
+    "pokeapi_species_id": 697,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/697"
+  }
+}

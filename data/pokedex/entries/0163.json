@@ -1,0 +1,93 @@
+{
+  "entry_id": "0163",
+  "national_id": 163,
+  "form": "default",
+  "names": {
+    "en": "Hoothoot",
+    "ja": "ホーホー",
+    "zh": "咕咕"
+  },
+  "generation": 2,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "ふくろうポケモン",
+  "category_zh": "猫头鹰宝可梦",
+  "abilities": [
+    {
+      "name_en": "insomnia",
+      "name_zh": "不眠 / 或 / 锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "keen-eye",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "tinted-lens",
+      "name_zh": "有色眼镜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 21.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 52,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 30,
+    "defense": 30,
+    "special_attack": 36,
+    "special_defense": 56,
+    "speed": 50,
+    "total": 262
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 164,
+        "name_en": "noctowl",
+        "name_zh": "猫头夜鹰",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 15,
+    "神奥": 106,
+    "伽勒尔": 19,
+    "北上": 45
+  },
+  "flavor_text_zh": "咕咕的身体是褐色的，上腹部是米色的。它的瞳孔是红色的，眼睛被像眼镜的黑色物体包围。它的头上有一个V形黑色物体，很像钟表的指针。它的身体是球形的，它有两条巨大并且可以支撑它全身的腿，腿上有五个脚趾。它有一双很小的翅膀和喙，喙的颜色与腿一样是浅粉红色。 咕咕一直用单脚站立，即使受到攻击也不会用两只脚来稳住身体。由于换脚的瞬间过快，基本上无法看清。它会把 强颚鸡母虫 从生活的土中挖出来。它的体内有着可以感知地球自转的器官，所以每天会在同一时间鸣叫。不管在什么时候，它体内的生物钟都准确无比，会用固定的节奏倾斜头部。因为它能够准确报时，所以过去人们非常重视它，把它当做报时的神使。在某些国家它被当成通晓世界真理的智慧之神。",
+  "flavor_text_en": "It begins to hoot at the same time every day. Some Trainers use them in place of clocks.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 163,
+    "pokeapi_species_id": 163,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/163"
+  }
+}

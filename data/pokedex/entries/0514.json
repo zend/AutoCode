@@ -1,0 +1,84 @@
+{
+  "entry_id": "0514",
+  "national_id": 514,
+  "form": "default",
+  "names": {
+    "en": "Simisear",
+    "ja": "バオッキー",
+    "zh": "爆香猿"
+  },
+  "generation": 5,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ひのこポケモン",
+  "category_zh": "火花宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 28.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 174,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 98,
+    "defense": 63,
+    "special_attack": 98,
+    "special_defense": 63,
+    "speed": 101,
+    "total": 498
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 513,
+        "name_en": "pansear",
+        "name_zh": "爆香猴",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 20,
+    "密阿雷": 80
+  },
+  "flavor_text_zh": "爆香猿的头顶上有三束“山”字型如同燃烧般的火焰的红色毛发。而在中间的那束红色毛发前侧还有一团火红色的卷毛。爆香猴拥有巨大的椭圆形的耳朵，中间是一张充满活力的脸。爆香猿的脖子处有一条白色的围巾般的绒毛，这条绒毛在喉咙处有一个缺口。而在这条白色的绒毛两侧即是爆香猿厚实而健壮的火红色双臂。爆香猿拥有五根土黄色的手指，像人类一样。爆香猿的鲜红色的臀部十分大，下半身与上方的土黄色部分以锯齿状的花纹所分隔开来，而爆香猿粗大的双脚末端延伸出了一双有三根圆脚趾的大脚。爆香猿的尾巴是一团火红色的绒毛，十分耀红艳丽且柔软。 爆香猿会燃烧体内的火焰制造能量。它兴奋的时候会从头和尾巴纷纷扬扬地撒出火花，把敌人都烧焦。不知为何，它很喜欢吃甜的东西。",
+  "flavor_text_en": "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 514,
+    "pokeapi_species_id": 514,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/514"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "entry_id": "0311",
+  "national_id": 311,
+  "form": "default",
+  "names": {
+    "en": "Plusle",
+    "ja": "プラスル",
+    "zh": "正电拍拍"
+  },
+  "generation": 3,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "おうえんポケモン",
+  "category_zh": "加油宝可梦",
+  "abilities": [
+    {
+      "name_en": "plus",
+      "name_zh": "正电",
+      "hidden": false
+    },
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "避雷针",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 4.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 142,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 40,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 95,
+    "total": 405
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 80,
+    "蓝莓": 119
+  },
+  "flavor_text_zh": "正电拍拍的身体是淡黄色的，耳朵、尾巴和手的前端是红色。它的脸颊上有两个红色的圆形电气囊，上面各有一个淡黄色的正号。它的尾巴是正号的形状。 正电拍拍会一直为伙伴宝可梦加油，从身体散发出火花来协助伙伴。伙伴加油努力的话，它就会让身体短路，从全身发出电火花产生噼里啪啦的火花声来表达自己的喜悦。如果伙伴输了，就会放声大哭。它可以将两手所散发出的电力发射出去，以做出火花的碰撞效果，有时会爬上电柱吸取电力。",
+  "flavor_text_en": "When Plusle is cheering on its partner, it flashes with electric sparks from all over its body. If its partner loses, this Pokémon cries loudly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 311,
+    "pokeapi_species_id": 311,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/311"
+  }
+}

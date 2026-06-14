@@ -1,0 +1,91 @@
+{
+  "entry_id": "0403",
+  "national_id": 403,
+  "form": "default",
+  "names": {
+    "en": "Shinx",
+    "ja": "コリンク",
+    "zh": "小猫怪"
+  },
+  "generation": 4,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "せんこうポケモン",
+  "category_zh": "闪光宝可梦",
+  "abilities": [
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心 / 或 / 威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "guts",
+      "name_zh": "毅力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 9.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 235,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 53,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 65,
+    "defense": 34,
+    "special_attack": 40,
+    "special_defense": 34,
+    "speed": 45,
+    "total": 263
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 404,
+        "name_en": "luxio",
+        "name_zh": "勒克猫",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 17,
+    "洗翠": 15,
+    "帕底亚": 94,
+    "北上": 109
+  },
+  "flavor_text_zh": "小猫怪是一只蓝色的小兽，头部和前半段身体是浅蓝色，后半段身体和尾巴是黑色。它的耳朵和尾巴有黄色四芒星的图案，脖子末端是黑色，前腿有黄色环带。雌性小猫怪的后脚是蓝色，头顶的毛更短。 小猫怪会震动身体来产生电力，前脚有着通过肌肉运动来制造电力的构造。每当活动身体时，肌肉就会伸缩产生电。如果看到它兴奋地浑身颤抖，就说明它正在猛烈发电。体毛通电后就会发光，一旦感知到危险，全身的体毛都会发光，趁对手眼睛被闪到时逃之夭夭。它也会摇晃明亮发光的尾巴尖端来向伙伴发送信号。它有着与体格不相称的凶猛性情，驯服它需要很大的耐心。",
+  "flavor_text_en": "Shakes its body to generate electricity. Its stature belies its aggression—one must be patient to tame this Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 403,
+    "pokeapi_species_id": 403,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/403"
+  }
+}

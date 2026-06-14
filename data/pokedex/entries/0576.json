@@ -1,0 +1,91 @@
+{
+  "entry_id": "0576",
+  "national_id": 576,
+  "form": "default",
+  "names": {
+    "en": "Gothitelle",
+    "ja": "ゴチルゼル",
+    "zh": "哥德小姐"
+  },
+  "generation": 5,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "てんたいポケモン",
+  "category_zh": "天体宝可梦",
+  "abilities": [
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉 / 或 / 好胜",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "shadow-tag",
+      "name_zh": "踩影",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 44.0,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 50,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 55,
+    "defense": 95,
+    "special_attack": 95,
+    "special_defense": 110,
+    "speed": 65,
+    "total": 490
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 575,
+        "name_en": "gothorita",
+        "name_zh": "哥德小童",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 82,
+    "伽勒尔": 269,
+    "帕底亚": 236,
+    "蓝莓": 103
+  },
+  "flavor_text_zh": "哥德小姐身体大部分由黑色组成，蓝色的瞳孔，红色的嘴巴，紫色的脸颊，头两旁扩张出了八个圆盘状如发髻的结构。它头上突出的角后有一个白色的蝴蝶结，身上穿着黑色的类似圣诞树的裙子，裙子上分别有四个白色的蝴蝶结。它的手掌和脸一样呈紫色，并且戴有白色的手镯。 哥德小姐拥有强大的精神力量，但生性并不喜好纷争。它总是摆出看似冷淡的态度，是因为它知道万物的终结。受强大的精神力量的影响，它周围的空间会扭曲，数万光年之外的星空也能映照出来。它拥有根据星星的分布和动向来预知未来的能力，知道了训练家的寿命时会发出悲痛的叫声。它能释放强大的精神力量，让对手陷入宇宙终结的梦境，内容似乎既虚幻又美丽。从它那里看到了自己下场的恶人在那之后便销声匿迹了。",
+  "flavor_text_en": "A criminal who was shown his fate by a Gothitelle went missing that same day and was never seen again.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 576,
+    "pokeapi_species_id": 576,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/576"
+  }
+}

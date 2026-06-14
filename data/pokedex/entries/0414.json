@@ -1,0 +1,87 @@
+{
+  "entry_id": "0414",
+  "national_id": 414,
+  "form": "default",
+  "names": {
+    "en": "Mothim",
+    "ja": "ガーメイル",
+    "zh": "绅士蛾"
+  },
+  "generation": 4,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "types_zh": [
+    "虫",
+    "飞行"
+  ],
+  "category": "ミノガポケモン",
+  "category_zh": "蓑衣蛾宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": false
+    },
+    {
+      "name_en": "tinted-lens",
+      "name_zh": "有色眼镜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 23.3,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 148,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 94,
+    "defense": 50,
+    "special_attack": 94,
+    "special_defense": 50,
+    "speed": 66,
+    "total": 424
+  },
+  "ev_yield": {
+    "attack": 1,
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 412,
+        "name_en": "burmy",
+        "name_zh": "结草儿",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 47,
+    "洗翠": 45
+  },
+  "flavor_text_zh": "绅士蛾身体基本上是黑色的，腹部有一条橙色的间条。它的眼睛是橙色的，两只眼睛中间由细到粗延伸出一条白色的触角，触角顶端也是橙色的。它拥有一对翅膀，上面一半的翅膀有三条突出的东西，下面一半的翅膀则有两条突出的东西。绅士蛾只有雄性，与它对应的雌性宝可梦是 结草贵妇 。 绅士蛾没有固定的住处，它拍动翅膀时会洒下银灰色的鳞粉。为了寻找爱吃的花蜜，它会不停地飞过山野。虽然观察结果显示其主食是花蜜，但是从不自己采集，很少在花田看见它们。它在深夜里会很活跃地飞来飞去，从睡着的 三蜜蜂 的巢穴里抢夺蜂蜜后逃走。",
+  "flavor_text_en": "Scatters steel-colored scales as it flaps its wings. Despite being observed feeding primarily on the nectar of flowers, Mothim is not often seen around flower gardens.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 414,
+    "pokeapi_species_id": 414,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/414"
+  }
+}

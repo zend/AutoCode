@@ -1,0 +1,92 @@
+{
+  "entry_id": "0668",
+  "national_id": 668,
+  "form": "default",
+  "names": {
+    "en": "Pyroar",
+    "ja": "カエンジシ",
+    "zh": "火炎狮"
+  },
+  "generation": 6,
+  "types": [
+    "fire",
+    "normal"
+  ],
+  "types_zh": [
+    "火",
+    "一般"
+  ],
+  "category": "おうじゃポケモン",
+  "category_zh": "王者宝可梦",
+  "abilities": [
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moxie",
+      "name_zh": "自信过度",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 81.5,
+  "gender_ratio": {
+    "male_percent": 12.5,
+    "female_percent": 87.5,
+    "genderless": false
+  },
+  "capture_rate": 65,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 177,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 86,
+    "attack": 68,
+    "defense": 72,
+    "special_attack": 109,
+    "special_defense": 66,
+    "speed": 106,
+    "total": 507
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 667,
+        "name_en": "litleo",
+        "name_zh": "小狮狮",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 225,
+    "蓝莓": 37,
+    "密阿雷": 46
+  },
+  "flavor_text_zh": "火炎狮有着大朵的红色和黄色相间的鬃毛，雌性和雄性的鬃毛形状是不一样的。雄性头部的鬃毛环绕整个脸部一圈，而雌性的鬃毛则只有头顶有，但比雄性的长得多。雄性的腿比雌性的腿还粗。 群体中，拥有最大火焰鬃毛的雄性火炎狮会作为老大率领着伙伴。雄性平时总是拖拖拉拉的，但如果有强敌来袭，就会不顾自身，保护伙伴。在战斗时，雄性的鬃毛会提升到2000摄氏度，光是靠近都会造成重度灼伤。它会吐出摄氏6000度的气息猛烈地威吓对手，但不会用于猎物，因为它更喜欢吃生的肉。雌性的火炎狮会保护群体中的孩子，合力捕杀猎物，因此群体中不会有谁挨饿。 超级火炎狮能吐出超过１万度的火焰。会一边乱摆熊熊燃烧的鬃毛，一边保护伙伴。",
+  "flavor_text_en": "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn’t use it on its prey. This Pokémon prefers to eat raw meat.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 668,
+    "pokeapi_species_id": 668,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/668"
+  }
+}

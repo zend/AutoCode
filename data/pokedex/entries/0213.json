@@ -1,0 +1,82 @@
+{
+  "entry_id": "0213",
+  "national_id": 213,
+  "form": "default",
+  "names": {
+    "en": "Shuckle",
+    "ja": "ツボツボ",
+    "zh": "壶壶"
+  },
+  "generation": 2,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "types_zh": [
+    "虫",
+    "岩石"
+  ],
+  "category": "はっこうポケモン",
+  "category_zh": "发酵宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 20.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 177,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 230,
+    "special_attack": 10,
+    "special_defense": 230,
+    "speed": 5,
+    "total": 505
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "城都": 166,
+    "伽勒尔": 227
+  },
+  "flavor_text_zh": "壶壶是看起来像一只小龟的宝可梦。它的身体是一个可以存放树果的红色中空硬壳，上面有很多孔洞直通身体内部，孔洞的边沿是白色的环形凸起，头部及四肢从其中一些孔洞中伸出。 壶壶会在壶形甲壳里储藏着树果，树果在里面发酵后会渐渐与体液相混合，在不知不觉间变成黏糊糊的美味果汁。为了避免受到袭击，它会一动不动地躲在岩石下面，会在岩石下面一边吃着甲壳里储存的树果一边隐藏身体。为了在岩石上挖洞筑巢而从触手尖端分泌出的体液是树果混合而成的果汁。",
+  "flavor_text_en": "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 213,
+    "pokeapi_species_id": 213,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/213"
+  }
+}

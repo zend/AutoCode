@@ -1,0 +1,94 @@
+{
+  "entry_id": "0551",
+  "national_id": 551,
+  "form": "default",
+  "names": {
+    "en": "Sandile",
+    "ja": "メグロコ",
+    "zh": "黑眼鳄"
+  },
+  "generation": 5,
+  "types": [
+    "ground",
+    "dark"
+  ],
+  "types_zh": [
+    "地面",
+    "恶"
+  ],
+  "category": "さばくワニポケモン",
+  "category_zh": "沙漠鳄鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 自信过度",
+      "hidden": false
+    },
+    {
+      "name_en": "moxie",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "anger-point",
+      "name_zh": "愤怒穴位",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 15.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 58,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 72,
+    "defense": 35,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 65,
+    "total": 292
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 552,
+        "name_en": "krokorok",
+        "name_zh": "混混鳄",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 57,
+    "阿罗拉": 232,
+    "帕底亚": 267,
+    "蓝莓": 27,
+    "密阿雷": 122
+  },
+  "flavor_text_zh": "黑眼鳄的外表是一只陆上鳄鱼，身体底色是褐色，腹部是淡粉红色，全身共有四条黑色条纹，其中三条分布在身体与尾巴，将身体围绕一圈，另外一条则是在鼻子上的黑色块。四只短短的脚各有三个爪子。它最明显的特征就是凸起的眼睛，外面有黑色的膜保护着眼睛。 黑眼鳄潜藏在沙漠被太阳烘得暖暖的沙子中生活。它潜藏在沙中，露出眼睛和鼻子像游泳一样移动，是为了不被敌人发现和不让体温下降而采取的机智行为。沙漠到了夜里会比较冷，因此它会潜伏到沙子深处，睡到太阳出来为止。对它来说，全年温暖的阿罗拉是很容易生活的环境，即使在沙漠以外也时常能见到。黑眼鳄个头虽小，腰腿却很有力。它会把身体潜藏在沙子中，一口吃掉在上面行走的猎物的脚，最喜欢吃的东西是 大颚蚁 。因为它还不太擅长狩猎，所以主要是吃倒毙在沙漠里的东西，被称为沙漠的清扫者。",
+  "flavor_text_en": "Sandile is small, but its legs and lower body are powerful. Pushing sand aside as it goes, Sandile moves through the desert as if it’s swimming.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 551,
+    "pokeapi_species_id": 551,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/551"
+  }
+}

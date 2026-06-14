@@ -1,0 +1,75 @@
+{
+  "entry_id": "1014",
+  "national_id": 1014,
+  "form": "default",
+  "names": {
+    "en": "Okidogi",
+    "ja": "イイネイヌ",
+    "zh": "够赞狗"
+  },
+  "generation": 9,
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "types_zh": [
+    "毒",
+    "格斗"
+  ],
+  "category": "수하포켓몬",
+  "category_zh": "随从宝可梦",
+  "abilities": [
+    {
+      "name_en": "toxic-chain",
+      "name_zh": "毒锁链",
+      "hidden": false
+    },
+    {
+      "name_en": "guard-dog",
+      "name_zh": "看门犬",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 92.2,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 3,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 278,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 88,
+    "attack": 128,
+    "defense": 115,
+    "special_attack": 58,
+    "special_defense": 86,
+    "speed": 80,
+    "total": 555
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "北上": 197
+  },
+  "flavor_text_zh": "够赞狗、 愿增猿 和 吉雉鸡 被当做曾经守护过 北上乡 的英雄而备受村民喜爱，村民为表感谢之情还为它们建了石像。 [ 1 ] 够赞狗只有雄性，没有对应的雌性宝可梦。据 翠绿镇 的村民说，敬奉它会让人内心温柔，并提升人际关系。它原本身材很小，力气也很羸弱，是截然不同的宝可梦，但因其渴望变得强劲，于是获得了强韧的身体。有种说法认为， 桃歹郎 为了得到在很久以前和自己一起生活的老夫妇想要的面具，而用“锁链粘糕”让 宝伴 随从自己，并动身前往了北上乡。它脖子上的毒素锁链刺激了全身的肌肉，让身体变得更为强壮。它是很容易失去冷静的粗暴家伙，会甩动脖子上的锁链击碎一切。",
+  "flavor_text_en": "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1014,
+    "pokeapi_species_id": 1014,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1014"
+  }
+}

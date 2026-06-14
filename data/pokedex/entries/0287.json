@@ -1,0 +1,80 @@
+{
+  "entry_id": "0287",
+  "national_id": 287,
+  "form": "default",
+  "names": {
+    "en": "Slakoth",
+    "ja": "ナマケロ",
+    "zh": "懒人獭"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "なまけものポケモン",
+  "category_zh": "懒人宝可梦",
+  "abilities": [
+    {
+      "name_en": "truant",
+      "name_zh": "懒惰",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 24.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 56,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 30,
+    "total": 280
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 288,
+        "name_en": "vigoroth",
+        "name_zh": "过动猿",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 36,
+    "帕底亚": 78,
+    "蓝莓": 59
+  },
+  "flavor_text_zh": "懒人獭有褐灰色的毛发，背上有褐色的纹路，每一肢都有两个小爪子。它有着粉色的鼻子，眼圈为褐色。 懒人獭一整天里绝大部分时间都在睡觉，每天会趴上20小时以上，只要能吃上3片叶子就满足了。虽然它一生都不会改变巢穴，但是偶尔会在河里游泳作长距离移动。它心脏每分钟只跳动1次，因为是不管怎样都会一直趴着的宝可梦，所以几乎不会看到它动的样子。懒人獭慵懒的样子会深深地刺激看着它的人的懒惰之心，让人昏昏欲睡。",
+  "flavor_text_en": "Slakoth’s heart beats just once a minute. Whatever happens, it is content to loaf around motionless. It is rare to see this Pokémon in motion.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 287,
+    "pokeapi_species_id": 287,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/287"
+  }
+}

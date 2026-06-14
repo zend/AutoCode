@@ -1,0 +1,90 @@
+{
+  "entry_id": "0677",
+  "national_id": 677,
+  "form": "default",
+  "names": {
+    "en": "Espurr",
+    "ja": "ニャスパー",
+    "zh": "妙喵"
+  },
+  "generation": 6,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "じせいポケモン",
+  "category_zh": "自制宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 穿透",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 71,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 62,
+    "attack": 48,
+    "defense": 54,
+    "special_attack": 63,
+    "special_defense": 60,
+    "speed": 68,
+    "total": 355
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 678,
+        "name_en": "meowstic",
+        "name_zh": "超能妙喵",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 208,
+    "蓝莓": 104,
+    "密阿雷": 43
+  },
+  "flavor_text_zh": "妙喵的身体主要为灰色，有着清澈的粉红色眼睛，紫色眼珠，白色手掌，头上、脸侧和颈部都有灰毛。 妙喵为了不让强大的精神力量漏出，用耳朵捂住释放力量的器官。它一直都面无表情，其实是因为它在努力不让自己强力的精神力量漏出。它拥有足以把100米内的东西全都吹飞、弹飞职业摔角手的精神力量，但却因无法好好控制而感到烦恼。",
+  "flavor_text_en": "There’s enough psychic power in Espurr to send a wrestler flying, but because this power can’t be controlled, Espurr finds it troublesome.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 677,
+    "pokeapi_species_id": 677,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/677"
+  }
+}

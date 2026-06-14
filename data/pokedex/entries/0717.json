@@ -1,0 +1,68 @@
+{
+  "entry_id": "0717",
+  "national_id": 717,
+  "form": "default",
+  "names": {
+    "en": "Yveltal",
+    "ja": "イベルタル",
+    "zh": "伊裴尔塔尔"
+  },
+  "generation": 6,
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "types_zh": [
+    "恶",
+    "飞行"
+  ],
+  "category": "はかいポケモン",
+  "category_zh": "破坏宝可梦",
+  "abilities": [
+    {
+      "name_en": "dark-aura",
+      "name_zh": "暗黑气场",
+      "hidden": false
+    }
+  ],
+  "height_m": 5.8,
+  "weight_kg": 203.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 126,
+    "attack": 131,
+    "defense": 95,
+    "special_attack": 131,
+    "special_defense": 98,
+    "speed": 99,
+    "total": 680
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "密阿雷": 229
+  },
+  "flavor_text_zh": "伊裴尔塔尔是一只和大型鸟类相似的宝可梦。它的翅膀和尾巴与身体的接合处有三点向着边缘伸展。一对翅膀，和身后的一条尾巴宽大的外缘上都长有五只爪，其中三只向内弯曲。伊裴尔塔尔皮肤以红色为底，黑色的分枝镶嵌在其中。它的头部和颈部亦有相似的图案。伊裴尔塔尔有喙一般尖锐的口鼻。黑色的觡从蓝色眼睛上伸出，一部分向前大幅度弯曲，较小的叉朝向后方。灰色的环状羽毛领包围它的颈项并延伸至背面。伊裴尔塔尔有形似鹰爪的有力的爪子。正如底部的其他部分，它脚的皮肤是有黑色图案的红色，而指甲是灰色的。每双脚都有两根向前的脚趾和一根向后的脚趾。当伊裴尔塔尔的翅膀和尾巴完全展开时，它的形状就像是英文字母Y。伊裴尔塔尔没有性别。 伊裴尔塔尔展开翅膀和尾羽，闪着红色光芒时，就会吸取生物的生命。听说它寿命终结时，会吸光所有生物的生命，返回到茧的样子。 茧的样子",
+  "flavor_text_en": "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 717,
+    "pokeapi_species_id": 717,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/717"
+  }
+}

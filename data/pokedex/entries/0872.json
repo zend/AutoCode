@@ -1,0 +1,86 @@
+{
+  "entry_id": "0872",
+  "national_id": 872,
+  "form": "default",
+  "names": {
+    "en": "Snom",
+    "ja": "ユキハミ",
+    "zh": "雪吞虫"
+  },
+  "generation": 8,
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "types_zh": [
+    "冰",
+    "虫"
+  ],
+  "category": "いもむしポケモン",
+  "category_zh": "虫宝宝宝可梦",
+  "abilities": [
+    {
+      "name_en": "shield-dust",
+      "name_zh": "鳞粉",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-scales",
+      "name_zh": "冰鳞粉",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 37,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 25,
+    "defense": 35,
+    "special_attack": 45,
+    "special_defense": 30,
+    "speed": 20,
+    "total": 185
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 873,
+        "name_en": "frosmoth",
+        "name_zh": "雪绒蛾",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 349,
+    "帕底亚": 350
+  },
+  "flavor_text_zh": "雪吞虫是一只类似蛾类幼虫的宝可梦，浑身雪白，眼睛是两个黑点。雪吞虫的身上覆盖着冰晶，有两个肉球状的口器。 雪吞虫会吃地面上的积雪。它尤其喜爱刚下的松软白雪，会朝着山顶一路吃过去。它会吃掉雪来获得寒气，并利用体内的器官加强冰冷的程度，以此来制作如冰柱般的尖刺。它吃得越多，背上的刺就会长得越挺拔。它能吐出带着冷气的丝，会用丝把自己挂在树枝上一边装成冰柱一边睡觉。",
+  "flavor_text_en": "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 872,
+    "pokeapi_species_id": 872,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/872"
+  }
+}

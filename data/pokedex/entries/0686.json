@@ -1,0 +1,94 @@
+{
+  "entry_id": "0686",
+  "national_id": 686,
+  "form": "default",
+  "names": {
+    "en": "Inkay",
+    "ja": "マーイーカ",
+    "zh": "好啦鱿"
+  },
+  "generation": 6,
+  "types": [
+    "dark",
+    "psychic"
+  ],
+  "types_zh": [
+    "恶",
+    "超能力"
+  ],
+  "category": "かいてんポケモン",
+  "category_zh": "回转宝可梦",
+  "abilities": [
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调 / 或 / 吸盘",
+      "hidden": false
+    },
+    {
+      "name_en": "suction-cups",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 3.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 53,
+    "attack": 54,
+    "defense": 53,
+    "special_attack": 37,
+    "special_defense": 46,
+    "speed": 45,
+    "total": 288
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 687,
+        "name_en": "malamar",
+        "name_zh": "乌贼王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 290,
+    "蓝莓": 80,
+    "密阿雷": 159
+  },
+  "flavor_text_zh": "好啦鱿是一只外形像鱿鱼的宝可梦。它的身体是蓝色的，有着两条辫子一般的白色触手。 好啦鱿倒立会让它血流通畅，头脑清晰，因此超能力招式的威力也会大大提高。它会让身上的发光体以复杂的节奏发光，通过改变闪烁的方式来和其他伙伴交换信息。因此，也会不由自主地对发光物及水里回响的声音做出反应。它会旋转着闪烁自己的发光体，如果对手盯着它闪烁的发光体看，就会头晕眼花，斗志全无，从而保护自己不受强敌袭击。然后在那空当隐藏自己的身体。有时也会让猎物受诱惑靠近后，用长长的触手缠住对方封住其行动。",
+  "flavor_text_en": "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 686,
+    "pokeapi_species_id": 686,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/686"
+  }
+}

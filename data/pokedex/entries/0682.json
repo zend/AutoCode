@@ -1,0 +1,84 @@
+{
+  "entry_id": "0682",
+  "national_id": 682,
+  "form": "default",
+  "names": {
+    "en": "Spritzee",
+    "ja": "シュシュプ",
+    "zh": "粉香香"
+  },
+  "generation": 6,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "こうすいポケモン",
+  "category_zh": "香水宝可梦",
+  "abilities": [
+    {
+      "name_en": "healer",
+      "name_zh": "治愈之心",
+      "hidden": false
+    },
+    {
+      "name_en": "aroma-veil",
+      "name_zh": "芳香幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 68,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 52,
+    "defense": 60,
+    "special_attack": 63,
+    "special_defense": 65,
+    "speed": 23,
+    "total": 341
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 683,
+        "name_en": "aromatisse",
+        "name_zh": "芳香精",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 212,
+    "密阿雷": 96
+  },
+  "flavor_text_zh": "粉香香像一只鸟。它拥有一个漂亮形状的鸟冠，脸部与啄部是白色的，瞳孔是红色的，并且拥有华丽的黑色眉毛。它拥有一双小小的翅膀，还有一双紫色的小脚。 粉香香可以用体内的香囊制造香气，会从身体里飘出令闻者神魂颠倒的香气。如果更换喂给它的食物，制造出的香气也会随之改变。听说过去的贵妇们会带着能散发自己喜欢的香气的粉香香来代替香水，对它钟爱万分。",
+  "flavor_text_en": "The scent its body gives off enraptures those who smell it. Noble ladies had no shortage of love for Spritzee.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 682,
+    "pokeapi_species_id": 682,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/682"
+  }
+}

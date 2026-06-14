@@ -1,0 +1,103 @@
+{
+  "entry_id": "0075",
+  "national_id": 75,
+  "form": "default",
+  "names": {
+    "en": "Graveler",
+    "ja": "ゴローン",
+    "zh": "隆隆石"
+  },
+  "generation": 1,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "types_zh": [
+    "岩石",
+    "地面"
+  ],
+  "category": "がんせきポケモン",
+  "category_zh": "岩石宝可梦",
+  "abilities": [
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "电气皮肤",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 105.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 137,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 95,
+    "defense": 115,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 35,
+    "total": 390
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 74,
+        "name_en": "geodude",
+        "name_zh": "小拳石",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 76,
+        "name_en": "golem",
+        "name_zh": "隆隆岩",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 75,
+    "城都": 35,
+    "丰缘": 58,
+    "神奥": 32,
+    "阿罗拉": 230,
+    "洗翠": 47,
+    "北上": 81
+  },
+  "flavor_text_zh": "隆隆石是拥有石头外表的球状宝可梦。它的皮肤呈灰色，比进化前更加坚硬且凹凸不平。隆隆石有四只手臂，每只手脚有三根手指，并主要使用比较长的两只去举起东西，用比较短的两只去防御攻击。此外，它另有两只很短的脚。不过比起用脚走路，隆隆石更常蜷缩六肢，像球一样通过滚来移动。阿罗拉隆隆石的身体内掺杂了一些金色的矿物。此外，它的眉毛和眼角旁都都长出了黑色的铁条，较长的两只手的前臂长有不少针状的黑色铁砂，每只手脚只有两根手指。 隆隆石以悬崖峭壁上的洞穴为巢，性格豪爽。在险峻悬崖的半山腰有时可以找到几处横洞，这些洞就是隆隆石的住处。火山上的隆隆石极其结实，连灼热的岩浆也承受得住。它喜欢像落石般往下滚落，因此走在山路上时一定要小心头上。它因腿脚笨拙，走路很慢，而把身体蜷成一团翻滚着移动。它会不断压碎阻碍它前进的东西，从来不关心前面的路上都有什么。蓄势而发的话，时速能超过100千米。它会爬上山崖前往山顶，到达山顶后立刻沿着来时的山路滚下去，滚得身体到处缺损也毫不在意。带着气势的它无论什么宝可梦都很难停下，速度太快的话就会撞向巨大的岩石而停下来。如果不慎落入河里，它就会来个大爆炸以作最后挣扎。它是靠吃岩石成长的宝可梦，在从山脚爬到山顶的过程中，会嘎嘣嘎嘣地吃自己非常爱吃的岩石。它好像更喜欢吃长有苔藓的岩石。一天要吃掉1吨的岩石。 腕力 会通过多次反复上下举动隆隆石来锻炼全身的肌肉。 阿罗拉隆隆石很喜欢吃镁电气石，吃下的成分会形成结晶，在身体的某些地方显现出来。受到喜欢吃的石头影响，它全身都带着电，性格非常好斗。在滚下山路的时候，它会把挡路的东西全部撞开，同时让其触电。它会为寻找吃的石头而打架，每次隆隆石之间互相碰撞都会迸发出爆炸声和光芒，当地人把这种现象称为陆地烟花。",
+  "flavor_text_en": "Dwells in holes dug into sheer walls of stone. It enjoys rolling down slopes as though it were a boulder during a rockfall, so keep an eye upward while traversing mountain roads.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 75,
+    "pokeapi_species_id": 75,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/75"
+  }
+}

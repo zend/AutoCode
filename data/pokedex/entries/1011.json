@@ -1,0 +1,99 @@
+{
+  "entry_id": "1011",
+  "national_id": 1011,
+  "form": "default",
+  "names": {
+    "en": "Dipplin",
+    "ja": "カミッチュ",
+    "zh": "裹蜜虫"
+  },
+  "generation": 9,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "types_zh": [
+    "草",
+    "龙"
+  ],
+  "category": "사과사탕포켓몬",
+  "category_zh": "糖苹果宝可梦",
+  "abilities": [
+    {
+      "name_en": "supersweet-syrup",
+      "name_zh": "甘露之蜜 / 或 / 贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sticky-hold",
+      "name_zh": "黏着",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 9.7,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 170,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "plant",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 110,
+    "special_attack": 95,
+    "special_defense": 80,
+    "speed": 40,
+    "total": 485
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 840,
+        "name_en": "applin",
+        "name_zh": "啃果虫",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 1019,
+        "name_en": "hydrapple",
+        "name_zh": "蜜集大蛇",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "北上": 36
+  },
+  "flavor_text_zh": "裹蜜虫是两只虫虫住在一个包裹着糖浆的苹果里。外头虫露出眼睛，头顶上有一根长长的角，里头虫露出尾巴，尾巴上有两片小叶子一样的结构。裹蜜虫的背后尾巴的右边有一个灰黑色的斑点，位置正好在进化成 蜜集大蛇 之后第二个里头虫尾巴钻出来的地方。 裹蜜虫露出脑袋的外头虫与露出尾巴的里头虫互相帮助，一起生活在苹果里面。它以仅能在某地区栽培的特殊苹果进化而成。是２只为一体的宝可梦。它会用产自体内的蜜糖包裹苹果，散发香味的蜜糖层能用来迷惑对手。 [ 1 ]",
+  "flavor_text_en": "The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1011,
+    "pokeapi_species_id": 1011,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1011"
+  }
+}

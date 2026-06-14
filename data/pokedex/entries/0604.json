@@ -1,0 +1,82 @@
+{
+  "entry_id": "0604",
+  "national_id": 604,
+  "form": "default",
+  "names": {
+    "en": "Eelektross",
+    "ja": "シビルドン",
+    "zh": "麻麻鳗鱼王"
+  },
+  "generation": 5,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "でんきうおポケモン",
+  "category_zh": "电鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.1,
+  "weight_kg": 80.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 232,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 115,
+    "defense": 80,
+    "special_attack": 105,
+    "special_defense": 80,
+    "speed": 50,
+    "total": 515
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 603,
+        "name_en": "eelektrik",
+        "name_zh": "麻麻鳗",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 110,
+    "帕底亚": 343,
+    "北上": 177,
+    "蓝莓": 136,
+    "密阿雷": 144
+  },
+  "flavor_text_zh": "麻麻鳗鱼王有着灰蓝色的身体。有着两条灰蓝色的手臂，手臂前端有3个刺型爪子。 麻麻鳗鱼王用手臂的力量从海里爬出，袭击水边的猎物，在一瞬间将对方拖入海中。它会用吸盘的嘴吸附在对手身上，并从刺入的牙齿中释放电流使对方触电。 超级麻麻鳗鱼王由于发电器官得到强化，变得可以产生带电的粘液了。这种粘液会从手臂前端与躯干流出，变为近似果冻或软糖的状态。双臂上形成了形似麻麻鳗的粘液，学者会把它右臂的粘液称为右麻鳗，左臂的粘液称为左麻鳗，合在一起统称为假麻麻鳗。假麻麻鳗的牙齿组成的形状会在+和-之间变换。凭借假麻麻鳗，它在游泳时变得更加稳定，游泳速度也提升至超级进化前的将近2倍。它发出的多半电力都会传送至左右边的假麻麻鳗，发电量是超级进化前的１０倍。这种电力十分强大，足以让 吼鲸王 这样的超大型宝可梦麻痹到无法动弹。超级进化的状态结束后，形成假麻麻鳗的粘液会溶化并消失。在0度以下的环境下可维持果冻状进行保存，因此作为二次利用，也会被用于美容或健身等方面，不过效果如何似乎没有定论。 [ 1 ]",
+  "flavor_text_en": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 604,
+    "pokeapi_species_id": 604,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/604"
+  }
+}

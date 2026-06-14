@@ -1,0 +1,96 @@
+{
+  "entry_id": "0072",
+  "national_id": 72,
+  "form": "default",
+  "names": {
+    "en": "Tentacool",
+    "ja": "メノクラゲ",
+    "zh": "玛瑙水母"
+  },
+  "generation": 1,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "types_zh": [
+    "水",
+    "毒"
+  ],
+  "category": "くらげポケモン",
+  "category_zh": "水母宝可梦",
+  "abilities": [
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯 / 或 / 污泥浆",
+      "hidden": false
+    },
+    {
+      "name_en": "liquid-ooze",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "雨盘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 45.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 67,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "special_attack": 50,
+    "special_defense": 100,
+    "speed": 70,
+    "total": 335
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 73,
+        "name_en": "tentacruel",
+        "name_zh": "毒刺水母",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 72,
+    "城都": 162,
+    "丰缘": 66,
+    "神奥": 136,
+    "阿罗拉": 106,
+    "洗翠": 170,
+    "蓝莓": 50
+  },
+  "flavor_text_zh": "玛瑙水母通体为蓝色，有一个菱形的鼻子。它的头部两侧有两大块类似红色玛瑙的透明物体，额头正中有一块稍小一点的。身体下部有两条灰色的触手。它身体的99%是水分，剩下的1%中包含了用来制造毒素的器官。虽然 原野水母 看起来像玛瑙水母，其实是截然不同的种类。 玛瑙水母平时漂浮在浅海中，退潮时偶尔会在海滩见到它们被晒得干瘪的身影。在沙滩等地方晒干后，依然能存活的情况也有很多。因为身体的绝大部分都是水组成的，所以离开大海后就会变得干巴巴的，但是它只要沾到水就能复活。它会利用体内的水分折射太阳光线，将其转化成光束一样的能量，并从水晶般的眼珠里将其发射出来。它能以2只长长的触手缠住敌人全身，再刺进毒针。虽然有毒的触手也会断掉，但过一段时间就会重新长出来。它游泳能力并不强，在海中会和海水混为一体，非常难以发现。它在波涛中漂流寻找猎物的时候，会对所有碰到的东西伸出有毒的触手，经常会听到垂钓者因错把它钓上来而被蛰的事。一旦被有毒的触手刺到或是被咬到，就要立刻去医院。",
+  "flavor_text_en": "They fire beams from the glassy, magenta orbs that resemble eyes atop their heads, and they drift in shallow seas. During low tide, they can sometimes be found on beaches, desiccated.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 72,
+    "pokeapi_species_id": 72,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/72"
+  }
+}

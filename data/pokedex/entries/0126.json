@@ -1,0 +1,95 @@
+{
+  "entry_id": "0126",
+  "national_id": 126,
+  "form": "default",
+  "names": {
+    "en": "Magmar",
+    "ja": "ブーバー",
+    "zh": "鸭嘴火兽"
+  },
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ひふきポケモン",
+  "category_zh": "吐火宝可梦",
+  "abilities": [
+    {
+      "name_en": "flame-body",
+      "name_zh": "火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.3,
+  "weight_kg": 44.5,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "special_attack": 100,
+    "special_defense": 85,
+    "speed": 93,
+    "total": 495
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 240,
+        "name_en": "magby",
+        "name_zh": "鸭嘴宝宝",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 467,
+        "name_en": "magmortar",
+        "name_zh": "鸭嘴炎兽",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 126,
+    "城都": 151,
+    "神奥": 201,
+    "阿罗拉": 167,
+    "洗翠": 175,
+    "蓝莓": 14
+  },
+  "flavor_text_zh": "鸭嘴火兽头上的两个瘤状物有向上的火焰，腹部上有形似火的花纹。它的手上有突起的红色物体，脖子和脚脖子上有类似于钢铁的物体。 鸭嘴火兽在火山口出生并在那里长大。越热的地方，它的身体就会越好，越活动自如。据说比起其他地方来，阿罗拉的鸭嘴火兽长得更壮实。它很怕寒冷的地方，会为把周围变得适于居住而喷出炽热的火焰。它体温高达1200度，在身体表面会不断产生像太阳一样的火焰热浪。鸭嘴火兽深呼吸时，身体周围会产生热浪，使身影变得模糊难以看清。它全身都在燃烧，光是呼出的气息就带着高温，打喷嚏时会同时喷出火焰。所以人们难以分辨它和火球的区别，藏进自己身体燃烧的橘红色的火焰里就完全辨别不出来了。它进入战斗后，会从体内向上喷出灼热的火焰威吓对手，用火焰终结猎物的性命。产生的热风甚至能点燃周围的草木，不过经常掌握不好火候，一不小心就把猎物烧得焦黑，让自己后悔莫及。它生气的时候会从全身喷出灼热的火焰，不把对手烧成灰烬就无法平息怒火。它感到疲劳时就跳入火山口，浸泡在熔岩中让身体解乏。当它负伤之时，也会像泡温泉般浸于熔岩之中，借此治愈伤势。大家认为它是引发火灾的原因之一，非常惧怕它。",
+  "flavor_text_en": "Legend has it that this Pokémon was born from the crater of a volcano. When wounded, it bathes in lava to heal its body, much as one would soak in a hot spring.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 126,
+    "pokeapi_species_id": 126,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/126"
+  }
+}

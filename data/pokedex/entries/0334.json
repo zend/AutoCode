@@ -1,0 +1,91 @@
+{
+  "entry_id": "0334",
+  "national_id": 334,
+  "form": "default",
+  "names": {
+    "en": "Altaria",
+    "ja": "チルタリス",
+    "zh": "七夕青鸟"
+  },
+  "generation": 3,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "types_zh": [
+    "龙",
+    "飞行"
+  ],
+  "category": "ハミングポケモン",
+  "category_zh": "哼唱宝可梦",
+  "abilities": [
+    {
+      "name_en": "natural-cure",
+      "name_zh": "自然回复",
+      "hidden": false
+    },
+    {
+      "name_en": "cloud-nine",
+      "name_zh": "无关天气",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 20.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 172,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "flying",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "飞行",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 70,
+    "defense": 90,
+    "special_attack": 70,
+    "special_defense": 105,
+    "speed": 80,
+    "total": 490
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 333,
+        "name_en": "swablu",
+        "name_zh": "青绵鸟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 122,
+    "神奥": 172,
+    "帕底亚": 220,
+    "蓝莓": 115,
+    "密阿雷": 94
+  },
+  "flavor_text_zh": "七夕青鸟拥有天蓝色的身躯，蓬松的翅膀仿佛棉花一般。超级七夕青鸟更像是一团巨大的棉花，它的尾巴变得更长了一些，原本洁白蓬松的羽毛大量分布于背部，不再分布在胸前。 七夕青鸟在晴朗日子里会混在棉花云里悠然自由地在空中飞来飞去，在蓝天与白云的交界处飞行。它能用棉花云一样的翅膀借助上升气流飞向高空，它在天空飞翔的身姿看上去就像棉花云一样。它会用优美的高音歌唱，如果用通透的声音鸣出旋律，就会让听者心醉神迷，仿佛置身梦境。如果在远离人烟的深山中听到了美妙的音色，那就是七夕青鸟的哼唱。当它有了心意相通的人时，会用柔软又美丽的翅膀轻轻包裹对方并哼唱。虽然性情温顺，但如果被惹怒，就会用尖锐的叫声威吓对方，并且毫不留情地发动进攻，从口中吐出灼热的火球。 超级七夕青鸟全身被如珍珠发光的特殊羽毛包裹。羽毛的增加强化对身体的保护。歌声比进化前更动听，性格善于交际。 [ 1 ] 它的羽毛有溶化般的触感，只需几根就能吊起翻斗车，十分强韧。",
+  "flavor_text_en": "This Pokémon has a kind disposition, but if it’s provoked, it will threaten opponents with shrill cries before attacking them without mercy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 334,
+    "pokeapi_species_id": 334,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/334"
+  }
+}

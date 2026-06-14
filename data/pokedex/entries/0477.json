@@ -1,0 +1,87 @@
+{
+  "entry_id": "0477",
+  "national_id": 477,
+  "form": "default",
+  "names": {
+    "en": "Dusknoir",
+    "ja": "ヨノワール",
+    "zh": "黑夜魔灵"
+  },
+  "generation": 4,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "てづかみポケモン",
+  "category_zh": "抓握宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.2,
+  "weight_kg": 106.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 236,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 100,
+    "defense": 135,
+    "special_attack": 65,
+    "special_defense": 135,
+    "speed": 45,
+    "total": 525
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 356,
+        "name_en": "dusclops",
+        "name_zh": "彷徨夜灵",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 191,
+    "伽勒尔": 137,
+    "洗翠": 160,
+    "北上": 141
+  },
+  "flavor_text_zh": "黑夜魔灵全身基本都是黑色的，有鬼魅一样的尾巴而没有脚。它有一个灰色的头部，在头顶则有黄色的圆盘形的天线。它的额部有一条黄色的带子，下方是一只瞪着的眼睛，有着黄色的虹膜和红色的瞳仁，巩膜则是黑色的。连接它的头和躯干的部分有一个类似与衣领的结构，上面有六个花瓣似的结构围住了它的头部。在它躯干上有两个杏仁形眼睛一样的标记和一个可以像嘴一样张开的黄色横向折线，看上去像是一张生气的脸。在它的背上也有像一张脸一样的标记，但眼睛形状的标记变成圆形，像嘴一样的横线像是在微笑一样。黑夜魔灵现在有完全形成的手臂，黑色手腕边上有两条黄色的带子，手和手腕的连接处有一个黑色圆环，手掌则是灰色的。 黑夜魔灵往来于这个世界与另一个世界，没人知道它是否拥有意识。它用头部的天线接收来自灵界的电波，接收指示后将人带往灵界。它会来到寿命将尽之人身旁，将其魂魄引向黄泉，偶尔会误将阳寿未尽之人的魂魄带走。它会用腹部的嘴将猎物整个吞下，只会吃掉对方的魂魄，离去时会把肉体吐出来。据说，它会把无处可去的徘徊的魂魄吸入它那具有弹力的身体中，并带往另一个世界，因此为人们所畏惧。",
+  "flavor_text_en": "Comes to those whose lives have come to an end and escorts their souls to the afterlife. Known to mistakenly take the souls of those who yet have life left in them, albeit rarely.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 477,
+    "pokeapi_species_id": 477,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/477"
+  }
+}

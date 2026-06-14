@@ -1,0 +1,90 @@
+{
+  "entry_id": "0135",
+  "national_id": 135,
+  "form": "default",
+  "names": {
+    "en": "Jolteon",
+    "ja": "サンダース",
+    "zh": "雷伊布"
+  },
+  "generation": 1,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "かみなりポケモン",
+  "category_zh": "雷宝可梦",
+  "abilities": [
+    {
+      "name_en": "volt-absorb",
+      "name_zh": "蓄电",
+      "hidden": false
+    },
+    {
+      "name_en": "quick-feet",
+      "name_zh": "飞毛腿",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 24.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 110,
+    "special_defense": 95,
+    "speed": 130,
+    "total": 525
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 133,
+        "name_en": "eevee",
+        "name_zh": "伊布",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 135,
+    "城都": 182,
+    "神奥": 165,
+    "阿罗拉": 125,
+    "伽勒尔": 198,
+    "洗翠": 27,
+    "帕底亚": 181,
+    "密阿雷": 102
+  },
+  "flavor_text_zh": "雷伊布的身体是黄色的，颈部和身体布满了白色和黄色的尖刺。 雷伊布肺中有能产生电力的器官，有时会吐出大约有10000伏特的高压电。它能够吸入空气中的负离子，体毛之间的空隙里也会产生大量的负离子，所以经常会发出噼里啪啦的声音。它会通过体毛间的静电来增强细胞发出的微电流，聚集到一起便能产生落雷，释放强力的电击。它稍微受点刺激就会大叫或生气，每当心情变化时都会蓄电。当电力在体内蓄积时，只要情绪激昂起来，浑身上下竖立的毛发就会开始变得尖锐起来，像导弹一样一根根发射出去。当它生气或是吃惊时，它全身的体毛会像针一样竖起来刺穿对手。它还能将竖起来的毛发像针一样射出去，趁着敌人虚弱的时候用10000伏特的电击解决它。它体毛竖起来的话就是要喷出电的信号，因为旁边也可能会有雷落下，所以要注意。因为相当神经质，所以要与它变得亲密是非常困难的。",
+  "flavor_text_en": "Bristles its fur into sharp, needlelike points when enraged. One can hear electricity crackle in its breath when it exhales.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 135,
+    "pokeapi_species_id": 135,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/135"
+  }
+}

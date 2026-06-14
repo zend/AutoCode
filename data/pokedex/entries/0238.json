@@ -1,0 +1,90 @@
+{
+  "entry_id": "0238",
+  "national_id": 238,
+  "form": "default",
+  "names": {
+    "en": "Smoochum",
+    "ja": "ムチュール",
+    "zh": "迷唇娃"
+  },
+  "generation": 2,
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "types_zh": [
+    "冰",
+    "超能力"
+  ],
+  "category": "くちづけポケモン",
+  "category_zh": "亲吻宝可梦",
+  "abilities": [
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝 / 或 / 预知梦",
+      "hidden": false
+    },
+    {
+      "name_en": "forewarn",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 6.0,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 15,
+    "special_attack": 85,
+    "special_defense": 65,
+    "speed": 65,
+    "total": 305
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 124,
+        "name_en": "jynx",
+        "name_zh": "迷唇姐",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 152
+  },
+  "flavor_text_zh": "迷唇娃看起来像小女孩。它的头很大，有金色的头发、粉色的皮肤、大大的眼睛和厚厚的双唇。它有浅色的胸部、手臂和脚，还有紫红色的腹部。迷唇娃只有雌性，没有与它对应的雄性宝可梦。 迷唇娃是好奇心旺盛的宝可梦。它嘴唇的神经最为发达，因此遇到不知道的东西会先用嘴唇去碰触而不是手去触碰试试，能用嘴唇记住自己喜欢和讨厌的东西。为了不让嘴唇干裂，它每天都会用树汁涂抹嘴唇来保湿。它一直做出要接吻的样子，随着节奏悠闲地前后摇晃脑袋。它会精力十足地跑来跑去，但经常摔倒。慢慢爬起来后，就会跑到湖边去照自己的脸，看看有没有哪里弄脏了。它只要稍微弄脏了脸就会立刻去洗干净，会经常用舌头舔去污渍。身上脏了倒是不太在意。",
+  "flavor_text_en": "This is a very curious Pokémon. Smoochum decides what it likes and dislikes by touching things with its lips.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 238,
+    "pokeapi_species_id": 238,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/238"
+  }
+}

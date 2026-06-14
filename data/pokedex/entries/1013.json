@@ -1,0 +1,85 @@
+{
+  "entry_id": "1013",
+  "national_id": 1013,
+  "form": "default",
+  "names": {
+    "en": "Sinistcha",
+    "ja": "ヤバソチャ",
+    "zh": "来悲粗茶"
+  },
+  "generation": 9,
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "types_zh": [
+    "草",
+    "幽灵"
+  ],
+  "category": "말차포켓몬",
+  "category_zh": "抹茶宝可梦",
+  "abilities": [
+    {
+      "name_en": "hospitality",
+      "name_zh": "款待",
+      "hidden": false
+    },
+    {
+      "name_en": "heatproof",
+      "name_zh": "耐热",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 2.2,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 60,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 178,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "mineral",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "矿物",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 71,
+    "attack": 60,
+    "defense": 106,
+    "special_attack": 121,
+    "special_defense": 80,
+    "speed": 70,
+    "total": 508
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 1012,
+        "name_en": "poltchageist",
+        "name_zh": "斯魔茶",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "北上": 77
+  },
+  "flavor_text_zh": "斯魔茶会拿着茶勺，而来悲粗茶则会把茶筅戴在头上。 来悲粗茶喜欢待在民宅的地板下和架子深处等阴凉的地方。它曾经会假装成茶混到民宅的餐桌上，从不慎将其喝下的人类身上吸取精气。如今它那副罕见的茶碗般的样子反倒弄巧成拙，似乎让这个战术失效了。作为替代手段，它会在傍晚时到城里或郊外徘徊，寻找宝可梦和人类当猎物。当它用头上的茶筅做出搅拌自己身体的动作时，就代表它进入了战斗状态。越是搅拌头上的茶筅就越能补充更多能量，贸然接近它的话，会被它泼撒能吸取精气的茶并受到毫不留情的攻击。 [ 1 ] 杰作的样子的来悲粗茶会住到由著名烧制技艺大师所制作的精美茶碗中，是让爱好者痴迷不已的宝可梦。虽然乍看之下没有区别，但如果想分别看出它们不同样子之间的区别，就需要仔细观察。",
+  "flavor_text_en": "It prefers cool, dark places, such as the back of a shelf or the space beneath a home's floorboards. It wanders in search of prey after sunset.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1013,
+    "pokeapi_species_id": 1013,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1013"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "0293",
+  "national_id": 293,
+  "form": "default",
+  "names": {
+    "en": "Whismur",
+    "ja": "ゴニョニョ",
+    "zh": "咕妞妞"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ささやきポケモン",
+  "category_zh": "细语宝可梦",
+  "abilities": [
+    {
+      "name_en": "soundproof",
+      "name_zh": "隔音",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 16.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 48,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 51,
+    "defense": 23,
+    "special_attack": 51,
+    "special_defense": 23,
+    "speed": 28,
+    "total": 240
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 294,
+        "name_en": "loudred",
+        "name_zh": "吼爆弹",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 45
+  },
+  "flavor_text_zh": "咕妞妞的躯干呈球形，有着两只长耳朵，眼睛看起来是四个椭圆形的点点。 咕妞妞平时叫起来细声细气，不注意听就听不到。但如果察觉到危险，就会用能引起头痛的叫声大叫，让敌人畏缩。它叫声的音量超过了100分贝，和喷气式飞机同等音量。一旦开始喊叫，就会被自己的声音惊吓到，然后以更大的声音大吼大叫起来。它可以从耳朵的洞里吸进空气，因此可以一直持续大叫而不会没气，把耳朵的盖子合上会停止大叫。停止大叫后就会累得睡着。如果听到它在近处大叫，之后的一整天都会头痛不止。",
+  "flavor_text_en": "When Whismur cries, the sound of its own voice startles it, making the Pokémon cry even louder. It cries until it’s exhausted, then it falls asleep.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 293,
+    "pokeapi_species_id": 293,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/293"
+  }
+}

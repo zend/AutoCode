@@ -1,0 +1,83 @@
+{
+  "entry_id": "0128",
+  "national_id": 128,
+  "form": "default",
+  "names": {
+    "en": "Tauros",
+    "ja": "ケンタロス",
+    "zh": "肯泰罗（帕底亚的样子 （ 火炽种 ））"
+  },
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "格斗",
+    "火"
+  ],
+  "category": "あばれうしポケモン",
+  "category_zh": "暴牛宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "anger-point",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "反刍",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 88.4,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 172,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "special_attack": 40,
+    "special_defense": 70,
+    "speed": 110,
+    "total": 490
+  },
+  "ev_yield": {
+    "attack": 1,
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "关都": 128,
+    "城都": 148,
+    "阿罗拉": 137,
+    "蓝莓": 22
+  },
+  "flavor_text_zh": "肯泰罗的外形是牛，颈部有毛发，它拥有三条尾巴。额头上有三个点。肯泰罗只有雄性，与它对应的雌性宝可梦是 大奶罐 。斗战种的帕底亚肯泰罗特征是厚实有力的肌肉。火炽种的帕底亚肯泰罗3根尾巴总是拧在一起。水澜种的帕底亚肯泰罗因脂肪含量高而容易浮在水面上。 肯泰罗精力充沛且个性火暴，是性格粗野的宝可梦，总在种群中打架确认自己的强度。保护群体的强大肯泰罗会以伤痕累累的角为傲，在群体中，谁的角最粗最长，并伤痕累累，谁就是老大。比起其他地区来，阿罗拉的肯泰罗更温和稳重一点，这好像和当地的气候有关。在世界各地都有骑着肯泰罗生活的历史，但这一切的开端据说是在阿罗拉。栖息在伽勒尔的肯泰罗性格暴躁，决不允许人类骑在自己的背上。它准备要撞击过来的时候，会用三条尾巴狠狠地抽打自己的身体。提高自己的战意后，就会全速冲撞过来。一旦开始奔跑，在撞到东西之前都不会停下脚步。它战斗时会用角互相顶撞，不经常大闹一番就会觉得心里不痛快。没有交战对手时就会去撞大树，通过把树撞倒来平复心情。斗战种的帕底亚肯泰罗有着粗鲁暴躁的性格。它擅长以肌肉发达的身体打格斗战，会用短短的角瞄准对手的要害。火炽种的帕底亚肯泰罗会喷出高温的鼻息。它用火之能量加热过的角高达摄氏1000度，被它刺中的敌人会遭受创伤和灼伤之苦。水澜种的帕底亚肯泰罗会从角喷出水来游泳。它也会从角尖端的洞猛烈地喷射出水，以形成高压的水流将敌人贯穿。",
+  "flavor_text_en": "The Tauros of the Galar region are volatile in nature, and they won’t allow people to ride on their backs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 128,
+    "pokeapi_species_id": 128,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/128"
+  }
+}

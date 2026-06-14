@@ -1,0 +1,92 @@
+{
+  "entry_id": "1019",
+  "national_id": 1019,
+  "form": "default",
+  "names": {
+    "en": "Hydrapple",
+    "ja": "カミツオロチ",
+    "zh": "蜜集大蛇"
+  },
+  "generation": 9,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "types_zh": [
+    "草",
+    "龙"
+  ],
+  "category": "りんごオロチポケモン",
+  "category_zh": "苹果大蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "supersweet-syrup",
+      "name_zh": "甘露之蜜 / 或 / 再生力",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sticky-hold",
+      "name_zh": "黏着",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 93.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 10,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 270,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "plant",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 106,
+    "attack": 80,
+    "defense": 110,
+    "special_attack": 120,
+    "special_defense": 80,
+    "speed": 44,
+    "total": 540
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 1011,
+        "name_en": "dipplin",
+        "name_zh": "裹蜜虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "蓝莓": 163
+  },
+  "flavor_text_zh": "蜜集大蛇是裹蜜虫的进化形，住在苹果中的青虫从两只增加到了７只，它们被称为“蛇虫虫”。 位在正中间负责发号施令的那只体格最大的蛇虫虫头上的角增加为两根，其中左角上还插着一颗小苹果。环绕在周围的四只较小的蛇虫虫，平时隐藏在糖浆下面，只露出绿叶状的眼睑，当这四只蛇虫虫探出头来时会让蜜集大蛇看起来就像有五个头。另外的两只蛇虫虫则像进化前的里头虫一样在苹果后面露出尾巴。 虽然会由在正中间露出头部的蛇虫虫负责指挥来行动，但7只蛇虫虫很善变，并非随时都能默契配合。不过，当它们偶尔心意相通时，就会发挥出真正的力量。 [ 1 ]",
+  "flavor_text_en": "These capricious syrpents have banded together. On the rare occasion that their moods align, their true power is unleashed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1019,
+    "pokeapi_species_id": 1019,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1019"
+  }
+}

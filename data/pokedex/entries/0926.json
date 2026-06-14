@@ -1,0 +1,85 @@
+{
+  "entry_id": "0926",
+  "national_id": 926,
+  "form": "default",
+  "names": {
+    "en": "Fidough",
+    "ja": "パピモッチ",
+    "zh": "狗仔包"
+  },
+  "generation": 9,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "こいぬポケモン",
+  "category_zh": "小狗宝可梦",
+  "abilities": [
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素",
+      "hidden": false
+    },
+    {
+      "name_en": "klutz",
+      "name_zh": "笨拙",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 10.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 37,
+    "attack": 55,
+    "defense": 70,
+    "special_attack": 30,
+    "special_defense": 55,
+    "speed": 65,
+    "total": 312
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 927,
+        "name_en": "dachsbun",
+        "name_zh": "麻花犬",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 76
+  },
+  "flavor_text_zh": "狗仔包是一只像小狗的宝可梦。它身体的颜色像发酵的面团一样，上面还有一些黄色的部分。它的身体就像几块拼起来的面包。它有黑色的眼睛，眼睛上方有黄色的眉毛。 狗仔包摸起来既湿润又光滑的皮肤富有弹性，同时兼备刚柔的特质。它自古以来便与人类共生，并带来丰富的饮食生活。它情绪激昂时会膨胀身体，使自己显得庞大来威吓对手。它会在自己体内培育酵母，它吐息中包含的酵母可以让周围的东西发酵。这种酵母能在做料理时派上用场，因此自古以来便受到人们的保护。 [ 2 ]",
+  "flavor_text_en": "The yeast in Fidough’s breath is useful for cooking, so this Pokémon has been protected by people since long ago.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 926,
+    "pokeapi_species_id": 926,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/926"
+  }
+}

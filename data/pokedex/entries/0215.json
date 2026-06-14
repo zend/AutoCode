@@ -1,0 +1,101 @@
+{
+  "entry_id": "0215",
+  "national_id": 215,
+  "form": "default",
+  "names": {
+    "en": "Sneasel",
+    "ja": "ニューラ",
+    "zh": "狃拉"
+  },
+  "generation": 2,
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "types_zh": [
+    "恶",
+    "冰"
+  ],
+  "category": "かぎづめポケモン",
+  "category_zh": "钩爪宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "keen-eye",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 28.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 86,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 95,
+    "defense": 55,
+    "special_attack": 35,
+    "special_defense": 75,
+    "speed": 115,
+    "total": 430
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 461,
+        "name_en": "weavile",
+        "name_zh": "玛狃拉",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 903,
+        "name_en": "sneasler",
+        "name_zh": "大狃拉",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 213,
+    "神奥": 144,
+    "阿罗拉": 249,
+    "伽勒尔": 292,
+    "帕底亚": 230,
+    "北上": 170
+  },
+  "flavor_text_zh": "狃拉的身体以黑色为主色，尾部为红色，爪子为银白色，额前和胸口有金色点点，左耳是红色的。它的手指中藏有锋利的爪子，会突然伸出那利爪，让袭击自己的对手心生怯意。洗翠狃拉的身体主要以银色为主色，眼睛呈现红色，它的左耳、尾部、面部、爪子、身体中间为紫色。狃拉与洗翠狃拉均存在 性别差异 ，雌性的左耳更短。 狃拉生活在寒冷的地方，性格狡黠凶恶。它们会潜藏在黑暗中让自己不显眼，趁着夜色依靠团队合作袭击猎物。一只负责引开双亲，另一只负责偷走蛋，但也会为了由谁来吃而争吵不休。它能把手脚上的钩爪插进树干来爬树，偷盗鸟宝可梦的蛋作为食物。它会用爪子在蛋上开个孔，吸食里面的美味。有时会被培育家憎恶而遭到驱逐。在阿罗拉地区，它们也会捕食 穿山鼠 。它们与栖息在洗翠地区的狃拉系出同源，但性情却是阴狠狡诈。 洗翠地区的狃拉具有强健的爪子，有助于在断崖绝壁上行动自如，爪子尖端滴出的毒液会在捉住猎物时侵袭其神经。",
+  "flavor_text_en": "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 215,
+    "pokeapi_species_id": 215,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/215"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "entry_id": "0736",
+  "national_id": 736,
+  "form": "default",
+  "names": {
+    "en": "Grubbin",
+    "ja": "アゴジムシ",
+    "zh": "强颚鸡母虫"
+  },
+  "generation": 7,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "ようちゅうポケモン",
+  "category_zh": "幼虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 4.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 47,
+    "attack": 62,
+    "defense": 45,
+    "special_attack": 55,
+    "special_defense": 45,
+    "speed": 46,
+    "total": 300
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 737,
+        "name_en": "charjabug",
+        "name_zh": "虫电宝",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 27,
+    "伽勒尔": 16,
+    "北上": 112
+  },
+  "flavor_text_zh": "强颚鸡母虫是小型幼虫类型的宝可梦，有着橙黄相间的巨大双颚。它的身体大部分是白色的，两边各有两个黄色圆点。强颚鸡母虫的头部主体为褐色，头顶有一个类似头盔状的橙色带有黄色边缘的物体，嘴部向外，呈锯齿状。 强颚鸡母虫大大的颚部非常强力，会用巨大的颚部在森林中挖地制造巢穴，平常就在地里生活。虽然它平时生活在土中，但由于会被 咕咕 挖出来，因此会聚集到电气宝可梦附近。它最喜欢甜甜的树汁，会用结实的颚部削树木吸取树的汁液。它的颚部拥有能够折断粗壮树枝的威力，连天敌 稚山雀 都会因此逃跑。它会吐出黏黏的丝，制住对手的行动后，用锋利而结实的颚部夹住，给予致命一击。强力的颚部不只是对战，对于在地面移动时亦十分有帮助。它会从口中吐出黏性的丝，利用这些丝卷附在树枝上，并摇摆身躯在树木之间轻巧地飞跃移动，作出有如吊威亚般的动作。强颚鸡母虫很喜欢电力，可以在发电厂和变电厂旁边发现它们。为了不被鸟宝可梦袭击，它经常聚集在电属性宝可梦栖息的地方。即使发现了它的巢穴，也不能贸然把手伸进去，否则会被强颚鸡母虫厌烦而咬住。 [ 1 ]",
+  "flavor_text_en": "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 736,
+    "pokeapi_species_id": 736,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/736"
+  }
+}

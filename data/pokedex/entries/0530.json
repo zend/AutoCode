@@ -1,0 +1,93 @@
+{
+  "entry_id": "0530",
+  "national_id": 530,
+  "form": "default",
+  "names": {
+    "en": "Excadrill",
+    "ja": "ドリュウズ",
+    "zh": "龙头地鼠"
+  },
+  "generation": 5,
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "types_zh": [
+    "地面",
+    "钢"
+  ],
+  "category": "ちていポケモン",
+  "category_zh": "地底宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-rush",
+      "name_zh": "拨沙",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 40.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 178,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 135,
+    "defense": 60,
+    "special_attack": 50,
+    "special_defense": 65,
+    "speed": 88,
+    "total": 508
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 529,
+        "name_en": "drilbur",
+        "name_zh": "螺钉地鼠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 36,
+    "伽勒尔": 167,
+    "蓝莓": 100,
+    "密阿雷": 121
+  },
+  "flavor_text_zh": "龙头地鼠的身体呈深棕色，面部为白色。双颊长两条红色纹路，其鼻子末端同进化前一样呈粉红色。龙头地鼠的前额及双爪皆长出数个锋芒突出、钢铁般锋利的钢刃。它的腹部有着大小不一的，由三个梭状组成的红色斑纹。在龙头地鼠手臂两侧以及膝盖处也有梭状的红色纹路。 龙头地鼠别名钻头王，进化成钢的钻头拥有穿透铁板的破坏力，在隧道工程里非常活跃。在地底下挖掘前进的速度达到了每小时１５０公里。借助变成钢铁的爪子和头上的钻头，不管多厚的铁板都能穿透。它在地下100米掘出如迷宫般的巢穴，一不小心就会把地铁隧道凿穿。有许多看似自然形成的洞窟其实都是龙头地鼠一阵乱钻之后留下来的。有时， 赤面龙 会在龙头地鼠挖出的狭窄隧道中穿梭。 超级龙头地鼠只要把头和双手合在一起形成流线型，再高速旋转就能破坏一切。",
+  "flavor_text_en": "Known as the Drill King, this Pokémon can tunnel through the terrain at speeds of over 90 mph.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 530,
+    "pokeapi_species_id": 530,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/530"
+  }
+}

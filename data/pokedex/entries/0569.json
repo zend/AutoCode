@@ -1,0 +1,91 @@
+{
+  "entry_id": "0569",
+  "national_id": 569,
+  "form": "default",
+  "names": {
+    "en": "Garbodor",
+    "ja": "ダストダス",
+    "zh": "灰尘山"
+  },
+  "generation": 5,
+  "types": [
+    "poison"
+  ],
+  "types_zh": [
+    "毒"
+  ],
+  "category": "ゴミすてばポケモン",
+  "category_zh": "垃圾场宝可梦",
+  "abilities": [
+    {
+      "name_en": "stench",
+      "name_zh": "恶臭",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "aftermath",
+      "name_zh": "诱爆",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 107.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 95,
+    "defense": 82,
+    "special_attack": 60,
+    "special_defense": 82,
+    "speed": 75,
+    "total": 474
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 568,
+        "name_en": "trubbish",
+        "name_zh": "破破袋",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 75,
+    "阿罗拉": 207,
+    "伽勒尔": 158,
+    "密阿雷": 50
+  },
+  "flavor_text_zh": "灰尘山外形酷似垃圾堆，它身上还附着许多垃圾袋，它的右手上的三个管子可以喷射泥浆。它的身上附着许多的红色与蓝色的物体，拥有尖利的牙齿。它也拥有一双又粗又又短的腿。超极巨化灰尘山在外形上也似一个垃圾堆，但是在它身上可以看到小轮船、小汽车、飞机、大楼、 大师球 、 皮皮玩偶 等各种各样的遗弃玩具，在它背后还可以看到鱼骨头之类的垃圾。 灰尘山会吸取垃圾当作身体的一部分，在体内产生出新种类的毒瓦斯和毒液，毒素的成分会随着吃掉的垃圾而不同。它会用左臂锁住敌人后，用有毒的液体泼向对方全身封住其行动，同时用嘴里吐出的恶臭毒瓦斯置对手于绝境。要注意从它右臂喷出的毒液，只要沾到一点点，就会被未知的毒素侵袭。虚弱的生物只要一沾到，立刻就会丢掉性命。某个时期灰尘山在阿罗拉呈爆发式增长，但是 臭泥 来了之后数量一下子减少了。阿罗拉的灰尘山有点儿魁梧，据说是因为有 臭臭泥 这个天敌的缘故。 受超极巨化之力的影响，浓度上升的毒气凝固成了被丢弃的玩具的形状。如果沾到超极巨灰尘山从嘴和手指喷射出来的毒气，毒素会蔓延到你的骨髓里。",
+  "flavor_text_en": "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 569,
+    "pokeapi_species_id": 569,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/569"
+  }
+}

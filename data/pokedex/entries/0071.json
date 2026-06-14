@@ -1,0 +1,88 @@
+{
+  "entry_id": "0071",
+  "national_id": 71,
+  "form": "default",
+  "names": {
+    "en": "Victreebel",
+    "ja": "ウツボット",
+    "zh": "大食花"
+  },
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "ハエとりポケモン",
+  "category_zh": "捕蝇宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 15.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special_attack": 100,
+    "special_defense": 70,
+    "speed": 70,
+    "total": 490
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 70,
+        "name_en": "weepinbell",
+        "name_zh": "口呆花",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 71,
+    "城都": 66,
+    "北上": 25,
+    "密阿雷": 76
+  },
+  "flavor_text_zh": "大食花的外表是黄色的带有深黄斑点的花。它的头部长出了一片叶子以遮住它朝天的巨口，叶子末端是带有黄色小叶片的褐色长藤鞭。它的口部长出了尖利的牙齿，嘴巴下方有一双很小的眼睛。它的双手是身体两侧的叶子。 大食花是凶暴的植物宝可梦。在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。它会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物，等猎物接近时就会张开大嘴一口吞掉。它嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。一旦被像蜜一样的香味吸引到它的口中就会无法得救，只会被它的溶解液溶化掉。被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉，只要1天就会溶解到连骨头都不剩。溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。 超级进化的能量让大食花体内产生了大量溶解液，甚至到了自己不得不束缚喉部的程度。一不留神就会从嘴里溢出。熟成后的溶解液会散发出令人头晕目眩的甜味，溶解性也进一步提升了。它不会像大食花那样张着嘴等待猎物，而是会积极主动地了结猎物。扇动头上的叶子，让对手沐浴在气味中并使其无法动弹，从而在战斗中占据优势。这种好战的风格是它的特征，以巨大的身体使出的撞击也拥有超群的破坏力。由于溶解液连混凝土和铁都能溶解，使用超级大食花战斗的训练家需要格外谨慎。 [ 1 ]",
+  "flavor_text_en": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 71,
+    "pokeapi_species_id": 71,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/71"
+  }
+}

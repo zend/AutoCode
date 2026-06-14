@@ -1,0 +1,94 @@
+{
+  "entry_id": "0272",
+  "national_id": 272,
+  "form": "default",
+  "names": {
+    "en": "Ludicolo",
+    "ja": "ルンパッパ",
+    "zh": "乐天河童"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "types_zh": [
+    "水",
+    "草"
+  ],
+  "category": "のうてんきポケモン",
+  "category_zh": "乐天宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 雨盘",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 55.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 216,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 70,
+    "special_attack": 90,
+    "special_defense": 100,
+    "speed": 70,
+    "total": 480
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 271,
+        "name_en": "lombre",
+        "name_zh": "莲帽小童",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 21,
+    "伽勒尔": 38,
+    "北上": 106
+  },
+  "flavor_text_zh": "乐天河童的身体是绿色的，身上覆盖着黄色的毛发。它有黑色的眼睛和橙色的大大的喙。它头上有一片大大的莲叶，就像一顶宽檐帽一样，其顶上有一个棕色的短茎，上面有一簇黄色的毛。它的身体上有两条棕色的锯齿形条纹，雌性乐天河童身上的条纹更细。它的四肢都是绿色的，手掌上有两条黑线样的标记，脚底有黑色环形斑点图案。 乐天河童全身都有着接收到节奏欢快的音波便能制作出能量的结构。快乐的音乐节奏会让它的细胞活性化，只要一听到欢乐的音乐，身体内的细胞就会跃动并充满力量，身子会情不自禁地随着节奏摇摆开始跳舞。以欢快的节奏跳起舞来，就能让它情绪高昂，变成无惧敌人的精神状态。这让它在战斗时也能发挥出强大的力量，即使在面对强敌时也不会畏缩。据说会被郊游的孩子们的合唱吸引从而现身。",
+  "flavor_text_en": "If it hears festive music, it begins moving in rhythm in order to amplify its power.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 272,
+    "pokeapi_species_id": 272,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/272"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "entry_id": "0751",
+  "national_id": 751,
+  "form": "default",
+  "names": {
+    "en": "Dewpider",
+    "ja": "シズクモ",
+    "zh": "滴蛛"
+  },
+  "generation": 7,
+  "types": [
+    "water",
+    "bug"
+  ],
+  "types_zh": [
+    "水",
+    "虫"
+  ],
+  "category": "すいほうポケモン",
+  "category_zh": "水泡宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-bubble",
+      "name_zh": "水泡",
+      "hidden": false
+    },
+    {
+      "name_en": "water-absorb",
+      "name_zh": "储水",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 4.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 54,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 40,
+    "defense": 52,
+    "special_attack": 40,
+    "special_defense": 72,
+    "speed": 27,
+    "total": 269
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 752,
+        "name_en": "araquanid",
+        "name_zh": "滴蛛霸",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 141,
+    "伽勒尔": 214,
+    "蓝莓": 90
+  },
+  "flavor_text_zh": "滴蛛的头部为黑色，腿为黄绿色，关节处有菱形突起。身体为黑色，并有黄绿色花纹。头部被水泡包围，水泡则被三条黄绿色的组织所包围，眼睛为蓝色，并有浅蓝色条纹；嘴巴为黄绿色；头顶有两个蓝色突起。 滴蛛平时生活在水中，也会戴上水泡去陆地上寻找食物。因为只吸收溶解在水中的氧气，所以在陆地上会为了呼吸戴着水泡，以及保护柔软的头部。发现猎物或敌人后，它会将头上戴着的水泡弹出，将水砸出去。滴蛛会用臀部让水泡膨胀，并包裹住自己的头部。如果滴蛛同类之间相遇，它们会自豪地用头上的水泡炫耀，水泡小的一方就会让路。 溜溜糖球 会经常和栖息地以及食物都与自己相近的滴蛛争斗。",
+  "flavor_text_en": "Dewpider normally lives underwater. When it comes onto land in search of food, it takes water with it in the form of a bubble on its head.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 751,
+    "pokeapi_species_id": 751,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/751"
+  }
+}

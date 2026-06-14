@@ -1,0 +1,91 @@
+{
+  "entry_id": "0651",
+  "national_id": 651,
+  "form": "default",
+  "names": {
+    "en": "Quilladin",
+    "ja": "ハリボーグ",
+    "zh": "胖胖哈力"
+  },
+  "generation": 6,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "とげよろいポケモン",
+  "category_zh": "刺铠宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "bulletproof",
+      "name_zh": "防弹",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 29.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 61,
+    "attack": 78,
+    "defense": 95,
+    "special_attack": 56,
+    "special_defense": 58,
+    "speed": 57,
+    "total": 405
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 650,
+        "name_en": "chespin",
+        "name_zh": "哈力栗",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 652,
+        "name_en": "chesnaught",
+        "name_zh": "布里卡隆",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "蓝莓": 210,
+    "密阿雷": 214
+  },
+  "flavor_text_zh": "胖胖哈力类似于有甲目动物，它的全身呈球形。背上长着坚硬无比的甲壳，在遇到危险的时候可以用这个来保护自己。 胖胖哈力本身是不好斗的温柔性格，极少主动发动攻击。它覆盖身体的坚硬外壳变得更加坚固，就算是拖车撞击也无法伤及。它的外壳可以反弹敌人的攻击，并用锐利的尖刺加以反击。 [ 1 ] 因为外壳十分沉重，所以腰腿自然而然地受到了锻炼。伙伴之间会互相碰撞身体，锻炼腰腿。由于它的痛觉很迟钝，因此撞得很猛也没问题。",
+  "flavor_text_en": "They strengthen their lower bodies by running into one another. They are very kind and won’t start fights.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 651,
+    "pokeapi_species_id": 651,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/651"
+  }
+}

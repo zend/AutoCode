@@ -1,0 +1,68 @@
+{
+  "entry_id": "0994",
+  "national_id": 994,
+  "form": "default",
+  "names": {
+    "en": "Iron Moth",
+    "ja": "テツノドクガ",
+    "zh": "铁毒蛾"
+  },
+  "generation": 9,
+  "types": [
+    "fire",
+    "poison"
+  ],
+  "types_zh": [
+    "火",
+    "毒"
+  ],
+  "category": "パラドックスポケモン",
+  "category_zh": "悖谬宝可梦",
+  "abilities": [
+    {
+      "name_en": "quark-drive",
+      "name_zh": "夸克充能",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 36.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "yellow",
+  "color_zh": "白色",
+  "base_experience": 285,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 60,
+    "special_attack": 140,
+    "special_defense": 110,
+    "speed": 110,
+    "total": 570
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 386
+  },
+  "flavor_text_zh": "据说铁毒蛾与 火神蛾 相似，会从上空追随地面上的人们，有时还会发起袭击。有说法认为，它之所以具有攻击性，是因为其真面目是外星人所操控的ＵＦＯ。他们或许在利用铁毒蛾监视人类，伺机寻找发起侵略的机会。其名称取自世纪奇书《紫之书》中登场的神秘物体。",
+  "flavor_text_en": "No records exist of this species being caught. Data is lacking, but the Pokémon’s traits match up with an object described in an old book.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 994,
+    "pokeapi_species_id": 994,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/994"
+  }
+}

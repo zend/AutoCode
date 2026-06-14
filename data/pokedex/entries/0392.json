@@ -1,0 +1,91 @@
+{
+  "entry_id": "0392",
+  "national_id": 392,
+  "form": "default",
+  "names": {
+    "en": "Infernape",
+    "ja": "ゴウカザル",
+    "zh": "烈焰猴"
+  },
+  "generation": 4,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "types_zh": [
+    "火",
+    "格斗"
+  ],
+  "category": "かえんポケモン",
+  "category_zh": "火焰宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 55.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 240,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 76,
+    "attack": 104,
+    "defense": 71,
+    "special_attack": 104,
+    "special_defense": 71,
+    "speed": 108,
+    "total": 534
+  },
+  "ev_yield": {
+    "attack": 1,
+    "special_attack": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 391,
+        "name_en": "monferno",
+        "name_zh": "猛火猴",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 6,
+    "洗翠": 63,
+    "蓝莓": 196
+  },
+  "flavor_text_zh": "烈焰猴头上顶着一团长燃不熄的火焰。它全身以红褐色为主，头部、胸口、小腿和脚部长着白色的绒毛，肩部、胸口、手背及膝盖则有金黄色的漩涡状鳞甲。烈焰猴脸部上方的面纹变为红色，它双眼有神，蓝色的眼珠镶嵌在黄色的巩膜中。它四肢修长，手指脚趾均为蓝色，手指和脚趾一样有五根，手脚上都缠绕着火焰，背后有一根长长的尾巴。 烈焰猴拥有绚烂的容貌与奇伟的身姿。它在战斗时带着火焰舞动身躯的模样，令人大饱眼福，叹为观止。它的性格像头上燃烧的火焰一样激烈，在速度方面无可匹敌，会用速度玩弄对手。它的手脚上都缠绕着火焰，会使用手脚并用的独特战斗方式，不论什么样的对手都能应付。",
+  "flavor_text_en": "A tall, hardy Pokémon with a dazzling appearance. It shrouds itself in flame and battles as if engaged in dance—truly a sight to behold.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 392,
+    "pokeapi_species_id": 392,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/392"
+  }
+}

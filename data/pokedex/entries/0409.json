@@ -1,0 +1,86 @@
+{
+  "entry_id": "0409",
+  "national_id": 409,
+  "form": "default",
+  "names": {
+    "en": "Rampardos",
+    "ja": "ラムパルド",
+    "zh": "战槌龙"
+  },
+  "generation": 4,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "ずつきポケモン",
+  "category_zh": "头锤宝可梦",
+  "abilities": [
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 102.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 173,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "monster"
+  ],
+  "egg_groups_zh": [
+    "怪兽"
+  ],
+  "base_stats": {
+    "hp": 97,
+    "attack": 165,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 50,
+    "speed": 58,
+    "total": 495
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 408,
+        "name_en": "cranidos",
+        "name_zh": "头盖龙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 37,
+    "阿罗拉": 189,
+    "洗翠": 209,
+    "蓝莓": 108
+  },
+  "flavor_text_zh": "战槌龙的体型更为庞大，身体是灰色的，尾巴、膝盖和颈部有蓝色的条纹。头部的侧边和脚上长出了白色的尖刺，眼睛是红色的，脚趾有三根。它的头盖骨像铁一样坚硬。 战槌龙是擅长头锤的古代宝可梦。它与 护城龙 生活在相似的地方，也曾发现过两只互相争斗一起倒下后变成的化石。它的大脑被能够经受任何冲击的极其厚实的头盖骨压着，因此没能长大，脑子比起头盖龙有所缩减。因为大脑真的很小，所以也有说法它是因愚笨而灭亡的。它会一路撞倒丛林里的树木捕捉猎物，是个粗暴的家伙，反复使出头锤的头盖骨变得又硬又厚。过去的人们曾在挖出化石后，用比钢铁还硬的头盖骨做成头盔。它头锤攻击的威力巨大，不管多坚固的东西也只要一击就能粉碎。就算是用头激烈地冲撞，厚度达30厘米的头盖骨会保护它们不至于昏迷。当它用珍珠般光滑亮丽的头顶猛撞时，就连巨树也能撞断。曾经有过复原进化后的战槌龙逃之夭夭，用头锤破坏高层建筑的记录。",
+  "flavor_text_en": "Very little is known about its biology. Can knock down massive trees by smashing its beautiful, pearl-like crown against them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 409,
+    "pokeapi_species_id": 409,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/409"
+  }
+}

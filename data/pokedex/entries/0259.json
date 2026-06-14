@@ -1,0 +1,95 @@
+{
+  "entry_id": "0259",
+  "national_id": 259,
+  "form": "default",
+  "names": {
+    "en": "Marshtomp",
+    "ja": "ヌマクロー",
+    "zh": "沼跃鱼"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "types_zh": [
+    "水",
+    "地面"
+  ],
+  "category": "ぬまうおポケモン",
+  "category_zh": "沼鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "damp",
+      "name_zh": "湿气",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 28.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 50,
+    "total": 405
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 258,
+        "name_en": "mudkip",
+        "name_zh": "水跃鱼",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 260,
+        "name_en": "swampert",
+        "name_zh": "巨沼怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 8,
+    "蓝莓": 189
+  },
+  "flavor_text_zh": "沼跃鱼有着橙色的鳃，眼睛，腹部同为橙色。它的身体和头部都是天蓝色，头顶和身后的鳍则变为黑色。 沼跃鱼生活在粘稠泥泞的地上，会把身体埋进泥里睡觉。久而久之它就锻炼出了强韧结实的腰腿，可以用双脚站立，即使是在泥泞的地上也能稳步前进。为了能在地面上也可以生存，它的身体表面覆盖着一层薄薄的粘膜。它会在退潮后的海岸边玩泥巴，皮肤干燥的话就会变弱，因此会靠玩泥巴来补充水分。它在泥泞的场地才会发挥出本领，能一口气冲向无法移动身体的对手。它能在烂泥中快速移动，这绝对比在水中游动要来的更快。",
+  "flavor_text_en": "Marshtomp is much faster at traveling through mud than it is at swimming. This Pokémon’s hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 259,
+    "pokeapi_species_id": 259,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/259"
+  }
+}

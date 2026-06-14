@@ -1,0 +1,94 @@
+{
+  "entry_id": "0451",
+  "national_id": 451,
+  "form": "default",
+  "names": {
+    "en": "Skorupi",
+    "ja": "スコルピ",
+    "zh": "钳尾蝎"
+  },
+  "generation": 4,
+  "types": [
+    "poison",
+    "bug"
+  ],
+  "types_zh": [
+    "毒",
+    "虫"
+  ],
+  "category": "さそりポケモン",
+  "category_zh": "蝎子宝可梦",
+  "abilities": [
+    {
+      "name_en": "battle-armor",
+      "name_zh": "战斗盔甲 / 或 / 狙击手",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 12.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 66,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "bug",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "虫",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 90,
+    "special_attack": 30,
+    "special_defense": 55,
+    "speed": 65,
+    "total": 330
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 452,
+        "name_en": "drapion",
+        "name_zh": "龙王蝎",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 127,
+    "伽勒尔": 285,
+    "洗翠": 148
+  },
+  "flavor_text_zh": "钳尾蝎全身蓝紫相间，尾巴末端有一个钳子，前肢尖端有白色钩子。 钳尾蝎生活在干燥的土地上，对于寒冷似乎缺乏抵抗力。它是一种忍耐力很强的宝可梦，会在沙地里挖洞，将自己的身体埋在沙子里，然后潜藏在里面等待猎物上门，可以一年到头什么都不吃地伏击猎物。它会用尾巴上带毒的钩爪袭击对手，钳子不但锐利而且带毒，毫无疑问是种危险的宝可梦。当尾巴上的钳子闭合后就会从针尖渗出毒素，一旦被夹住毒素就会扩散开来，导致全身无法动弹。它很执着，毒不发作就绝不松开。它的祖先和 烧火蚣 的祖先是近亲。",
+  "flavor_text_en": "Its claws are not only razor-sharp but poisonous, making Skorupi a highly dangerous Pokémon. It seems to be weakened by cold temperatures, however.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 451,
+    "pokeapi_species_id": 451,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/451"
+  }
+}

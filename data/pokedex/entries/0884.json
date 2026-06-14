@@ -1,0 +1,93 @@
+{
+  "entry_id": "0884",
+  "national_id": 884,
+  "form": "default",
+  "names": {
+    "en": "Duraludon",
+    "ja": "ジュラルドン",
+    "zh": "铝钢龙"
+  },
+  "generation": 8,
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "types_zh": [
+    "钢",
+    "龙"
+  ],
+  "category": "ごうきんポケモン",
+  "category_zh": "合金宝可梦",
+  "abilities": [
+    {
+      "name_en": "light-metal",
+      "name_zh": "轻金属",
+      "hidden": false
+    },
+    {
+      "name_en": "heavy-metal",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "stalwart",
+      "name_zh": "坚毅",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 40.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 187,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "矿物",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 95,
+    "defense": 115,
+    "special_attack": 120,
+    "special_defense": 50,
+    "speed": 85,
+    "total": 535
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 1018,
+        "name_en": "archaludon",
+        "name_zh": "铝钢桥龙",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 371,
+    "蓝莓": 161
+  },
+  "flavor_text_zh": "铝钢龙有着类似双足站立怪兽的外表，全身由铝制的金属组成，它的头部和身体有着很明显的连接，全身的结构比较清晰，身体后面类似尾巴的部分是一整块的凸起，它的身上有着曲线的一些条纹，手掌、下腹部以及脚的部位有不同颜色的金属物质组成。 超极巨化之后的铝钢龙的身体看起来就像是一座大厦，它的身体结构上半身宛如办公楼，下半身则是典型的大型建筑特有的下层结构。 铝钢龙的身体犹如打磨过的金属。构成躯体的金属硬度非常之高，但重量却非常之轻，只有大约40.0kg。所以与看上去不同，铝钢龙的动作轻巧灵活。但另一方面，金属身体的耐腐蚀性比较低，容易生锈。它不喜欢下雨，栖息于洞窟和山岳地带，用两只不同形状的手刮下岩石表面，并以此作为食物。由于栖息地相同，铝钢龙时不时会遭遇到 班基拉斯 。在伽勒尔地区的山岳经常能看到这两只在你争我斗。 [ 1 ] 超极巨化的铝钢龙变得如同摩天大楼般高大。受到体内能量溢出的影响，它身体的一部分会发出亮光。其细胞的硬度在钢属性宝可梦之中也是顶级的，拥有抗震的构造。",
+  "flavor_text_en": "The special metal that composes its body is very light, so this Pokémon has considerable agility. It lives in caves because it dislikes the rain.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 884,
+    "pokeapi_species_id": 884,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/884"
+  }
+}

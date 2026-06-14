@@ -1,0 +1,97 @@
+{
+  "entry_id": "0922",
+  "national_id": 922,
+  "form": "default",
+  "names": {
+    "en": "Pawmo",
+    "ja": "パモット",
+    "zh": "布土拨"
+  },
+  "generation": 9,
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "types_zh": [
+    "电",
+    "格斗"
+  ],
+  "category": "ねずみポケモン",
+  "category_zh": "鼠宝可梦",
+  "abilities": [
+    {
+      "name_en": "volt-absorb",
+      "name_zh": "蓄电 / 或 / 自然回复",
+      "hidden": false
+    },
+    {
+      "name_en": "natural-cure",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 6.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 80,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 123,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 40,
+    "special_attack": 50,
+    "special_defense": 40,
+    "speed": 85,
+    "total": 350
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 921,
+        "name_en": "pawmi",
+        "name_zh": "布拨",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 923,
+        "name_en": "pawmot",
+        "name_zh": "巴布土拨",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 23
+  },
+  "flavor_text_zh": "当群体受到袭击的时候，布土拨会率先挑起战斗，并活用电击的格斗招式打倒敌人。它使用的格斗技非常独特，会一边用手掌给予打击，一边用肉球释放电击。",
+  "flavor_text_en": "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 922,
+    "pokeapi_species_id": 922,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/922"
+  }
+}

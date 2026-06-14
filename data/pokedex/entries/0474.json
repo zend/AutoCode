@@ -1,0 +1,89 @@
+{
+  "entry_id": "0474",
+  "national_id": 474,
+  "form": "default",
+  "names": {
+    "en": "Porygon-Z",
+    "ja": "ポリゴンＺ",
+    "zh": "多边兽乙型"
+  },
+  "generation": 4,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "バーチャルポケモン",
+  "category_zh": "虚拟宝可梦",
+  "abilities": [
+    {
+      "name_en": "adaptability",
+      "name_zh": "适应力 / 或 / 下载",
+      "hidden": false
+    },
+    {
+      "name_en": "download",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "analytic",
+      "name_zh": "分析",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 34.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 241,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 80,
+    "defense": 70,
+    "special_attack": 135,
+    "special_defense": 75,
+    "speed": 90,
+    "total": 535
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 233,
+        "name_en": "porygon2",
+        "name_zh": "多边兽２型",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 194,
+    "阿罗拉": 219,
+    "洗翠": 135,
+    "蓝莓": 131
+  },
+  "flavor_text_zh": "多边兽乙型的头跟身体分离，身体还上下颠倒。它没有可见的脖子，黄色的眼睛上有标靶的图案，嘴变得更圆了。多边兽乙型的双脚看起来像翅膀，胸前的蓝色图案现在跟翅膀状的双脚连在一起了。 多边兽乙型是凭借奇异的道具再次进化而成的宝可梦。人们为了使它在异次元中也能自由地移动，大展身手，成为更优秀的宝可梦而追加了程序。然而预期的目标并没有实现，不知为何其行动反而变得奇怪了。这不稳定的举动很惹人注目，所以或许是实验失败了，这问题好像要归咎于负责升级程序的技术人员的水平。有人说它是通过追加程序进化的，但关于它的改变是否真是进化，在学会中也存在着意见分歧。虽然攻击力大幅提升，但随之而来的是更多难解的行为，令人担心。",
+  "flavor_text_en": "A curious item induced this evolution. The Pokémon's offensive capabilities have greatly increased, but the strangeness of its behavior has magnified in equal measure. This worries me.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 474,
+    "pokeapi_species_id": 474,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/474"
+  }
+}

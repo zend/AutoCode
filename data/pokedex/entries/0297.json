@@ -1,0 +1,90 @@
+{
+  "entry_id": "0297",
+  "national_id": 297,
+  "form": "default",
+  "names": {
+    "en": "Hariyama",
+    "ja": "ハリテヤマ",
+    "zh": "铁掌力士"
+  },
+  "generation": 3,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "つっぱりポケモン",
+  "category_zh": "猛推宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 毅力",
+      "hidden": false
+    },
+    {
+      "name_en": "guts",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.3,
+  "weight_kg": 253.8,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 166,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 144,
+    "attack": 120,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 60,
+    "speed": 50,
+    "total": 474
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 296,
+        "name_en": "makuhita",
+        "name_zh": "幕下力士",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 49,
+    "阿罗拉": 57,
+    "帕底亚": 117
+  },
+  "flavor_text_zh": "铁掌力士的身体比较胖，肥大的身体里面全是肌肉块，如果使劲将力量聚集到全身的话，肌肉就会变得和岩石一样坚硬。它的腿变成了深蓝色，腰部有花瓣状结构。手是褐色的。 铁掌力士因怪力而为人所知，但上了年纪后就会停止战斗，转而负责训练 幕下力士 。它非常喜欢和体型很大的宝可梦们比试力气，拥有的力量足以一掌挡下迎面驶来的列车，一巴掌就能打飞10吨重的卡车。虽然喜欢比试力气，但心地和善且注重礼仪，会慰劳自己的对战对手。它会在各种地方刻苦练习巴掌招式，用双脚跺地积蓄力量。如果受到它强烈的巴掌攻击，就算是电线杆也会被一掌劈成两段。体型粗壮的铁掌力士未必强大。即便身型矮小，也有身轻如燕，擅长巧力的铁掌力士，与 摔角鹰人 等宝可梦战斗起来都难分伯仲。",
+  "flavor_text_en": "Hariyama that are big and fat aren’t necessarily strong. There are some small ones that move nimbly and use moves skillfully.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 297,
+    "pokeapi_species_id": 297,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/297"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "entry_id": "0971",
+  "national_id": 971,
+  "form": "default",
+  "names": {
+    "en": "Greavard",
+    "ja": "ボチ",
+    "zh": "墓仔狗"
+  },
+  "generation": 9,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "おばけいぬポケモン",
+  "category_zh": "鬼犬宝可梦",
+  "abilities": [
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾",
+      "hidden": false
+    },
+    {
+      "name_en": "fluffy",
+      "name_zh": "毛茸茸",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 35.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 58,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 61,
+    "defense": 60,
+    "special_attack": 30,
+    "special_defense": 55,
+    "speed": 34,
+    "total": 290
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 972,
+        "name_en": "houndstone",
+        "name_zh": "墓扬犬",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 311
+  },
+  "flavor_text_zh": "据说墓仔狗是由还未接触人类就去世的流浪犬宝可梦转生而来的。它平时会在地下安静地睡觉，几乎纹丝不动。它会将头部伸出地面，并点亮其顶端阴森的光芒，等待人类靠近自己。一旦有人靠近，它就会发出诡异的叫声并跳上地面，因此会让很多人吓一跳，但它似乎并没有恶意。它性情温和，爱亲近人，害怕寂寞，非常喜欢嬉闹玩耍。只要有人陪它玩一下，它就会很开心，并一直跟在那人身后。在帕底亚地区生活的宝可梦当中，它也以容易成为伙伴而闻名。不过，它会在不自觉的情况下逐渐吸取人类的精气，因此千万不能和它玩太久。 [ 2 ] 它会摩擦体毛来吸取对手的精气直至枯竭。",
+  "flavor_text_en": "This friendly Pokémon doesn’t like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 971,
+    "pokeapi_species_id": 971,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/971"
+  }
+}

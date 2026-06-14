@@ -1,0 +1,67 @@
+{
+  "entry_id": "0491",
+  "national_id": 491,
+  "form": "default",
+  "names": {
+    "en": "Darkrai",
+    "ja": "ダークライ",
+    "zh": "达克莱伊"
+  },
+  "generation": 4,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "あんこくポケモン",
+  "category_zh": "暗黑宝可梦",
+  "abilities": [
+    {
+      "name_en": "bad-dreams",
+      "name_zh": "梦魇",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 50.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 90,
+    "special_attack": 135,
+    "special_defense": 90,
+    "speed": 125,
+    "total": 600
+  },
+  "ev_yield": {
+    "special_attack": 2,
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "洗翠": 242
+  },
+  "flavor_text_zh": "达克莱伊是一只如同阴影般的黑色的宝可梦。它的一头不停翻滚的类似白色头发的部分覆盖了大半的脸部，只露出一双明亮的蓝色眼睛。它的脖子旁围绕着如同领子一般的红色锯齿状物体。它的两边肩膀上各挂着一条长长的黑色破布。它具有黑色的爪状手，有三个爪子。它一般情况下是没有腿的飘浮状态，但是它也可以伸出两条腿站立。达克莱伊没有性别。虽然有时它被看做 克雷色利亚 的雄性对应宝可梦。 达克莱伊在朔月的夜晚活动。它会用能引诱对方进入深度睡眠并做梦的力量，让人和宝可梦做恶梦来保护自己，并将其驱逐出自己的领地。但是它本身并没有恶意。流传着这样一种说法，达克莱伊会在没有月亮的夜晚带来恐怖的噩梦。以往曾有过在无月的夜里， 村子 里所有的人都做了恶梦的怪事，村民们宣称恶梦中出现的宝可梦就是此宝可梦。 超级达克莱伊的黑暗力量会遮蔽太阳，使周围全部陷入黑暗，谁都无法逃离它的邪眼。",
+  "flavor_text_en": "On a moonless night, a strange incident occurred in which every one of a village's inhabitants suffered nightmares. The villagers attested that Darkrai appeared before them in these nightmares.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 491,
+    "pokeapi_species_id": 491,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/491"
+  }
+}

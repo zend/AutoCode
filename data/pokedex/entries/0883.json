@@ -1,0 +1,78 @@
+{
+  "entry_id": "0883",
+  "national_id": 883,
+  "form": "default",
+  "names": {
+    "en": "Arctovish",
+    "ja": "ウオチルドン",
+    "zh": "鳃鱼海兽"
+  },
+  "generation": 8,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "types_zh": [
+    "水",
+    "冰"
+  ],
+  "category": "かせきポケモン",
+  "category_zh": "化石宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-absorb",
+      "name_zh": "储水 / 或 / 冰冻之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "slush-rush",
+      "name_zh": "拨雪",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 175.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 177,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 100,
+    "special_attack": 80,
+    "special_defense": 90,
+    "speed": 55,
+    "total": 505
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 377
+  },
+  "flavor_text_zh": "鳃鱼海兽的头被反着融合出来，头的主要色调为淡蓝色，部分地方是白色和较深的蓝色，形状和盾十分相似，两只鳍则向它头颅的反方向延伸一小段。腹部以上头部以下的部位有一圈浅蓝的和一圈天蓝色的鳞甲。尾部有两只和头颅上的鳍完全不同的宽鳍，呈蓝色而鳍延伸处则是白色的，以及一个向上的鳍。 虽然鳃鱼海兽能通过冻结四周来捕捉猎物，但由于嘴长在头顶上，所以吃起东西来不太方便。它面部的皮肤无论受到什么攻击都不会受伤，但由于呼吸起来不方便而灭绝了。",
+  "flavor_text_en": "The skin on its face is impervious to attack, but breathing difficulties made this Pokémon go extinct anyway.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 883,
+    "pokeapi_species_id": 883,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/883"
+  }
+}

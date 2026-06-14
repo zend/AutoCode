@@ -1,0 +1,95 @@
+{
+  "entry_id": "0627",
+  "national_id": 627,
+  "form": "default",
+  "names": {
+    "en": "Rufflet",
+    "ja": "ワシボン",
+    "zh": "毛头小鹰"
+  },
+  "generation": 5,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "ヒナわしポケモン",
+  "category_zh": "雏鹰宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 强行",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "活力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 10.5,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 70,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 83,
+    "defense": 50,
+    "special_attack": 37,
+    "special_defense": 50,
+    "speed": 60,
+    "total": 350
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 628,
+        "name_en": "braviary",
+        "name_zh": "勇士雄鹰",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 133,
+    "阿罗拉": 75,
+    "伽勒尔": 281,
+    "洗翠": 221,
+    "帕底亚": 365,
+    "蓝莓": 32
+  },
+  "flavor_text_zh": "毛头小鹰的头是蓝色的，羽毛则是白色的。它的头顶有一根尾部是红色的冠羽。它还有着黄色的喙和灰蓝色的尾巴。毛头小鹰只有雄性，与它对应的雌性宝可梦是 秃鹰丫头 。 毛头小鹰虽然还是雏鸟，但性情暴躁易怒，被称为天生的战士。它出生后必须立即向父母亲发起挑战，并得到对方的认可。它经常借故向亲鸟挑起斗争，为展示自己的力量而奋力搏击。它敢于直面强劲的对手，会不由分说挑起战斗，通过反复战斗变得更强，如果输了则会放声大哭。它敢于直面大型对手不是因为勇敢，而是因为莽撞。随着每次被打倒，每次受伤，它也从中得到磨炼而变强，成长得更强更壮。它会用尖尖的爪子刺穿猎物并进行啄食，也会吃树果，但基本上是肉食类宝可梦。它有时也会袭击 粉蝶蛹 。它握力强，可以用脚力踩碎坚硬的树果。强大的脚力和结实的爪子，连 大舌贝 的坚硬外壳都能弄碎，将里面的东西啄出来。",
+  "flavor_text_en": "Its chick-like looks belie its hotheadedness. It challenges its parents at every opportunity, desperate to prove its strength.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 627,
+    "pokeapi_species_id": 627,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/627"
+  }
+}

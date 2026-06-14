@@ -1,0 +1,100 @@
+{
+  "entry_id": "0611",
+  "national_id": 611,
+  "form": "default",
+  "names": {
+    "en": "Fraxure",
+    "ja": "オノンド",
+    "zh": "斧牙龙"
+  },
+  "generation": 5,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "あごオノポケモン",
+  "category_zh": "颚斧宝可梦",
+  "abilities": [
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心 / 或 / 破格",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 36.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 144,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 66,
+    "attack": 117,
+    "defense": 70,
+    "special_attack": 40,
+    "special_defense": 50,
+    "speed": 67,
+    "total": 410
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 610,
+        "name_en": "axew",
+        "name_zh": "牙牙",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 612,
+        "name_en": "haxorus",
+        "name_zh": "双斧战龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 117,
+    "伽勒尔": 325,
+    "帕底亚": 156,
+    "蓝莓": 141
+  },
+  "flavor_text_zh": "斧牙龙上下身有着很明显的颜色区分，手臂以及尾巴都伸长了不少，其头部看起来就像是戴着一个头盔。它有着尖尖的嘴巴和两个横向生长的门牙，腹部位置有着斑点状的花纹。 斧牙龙拥有能粉碎巨大岩石的牙齿，皮肤像盔甲一样坚硬。争夺领地的斧牙龙们会进行非常激烈的争斗。它非常擅长在撞击的同时用牙齿猛刺的战法，但牙齿一旦折断就不会再次生长。因此除了关键时刻之外，它都会避免使用牙齿。它会使用粗壮的牙齿利落地分解猎物，然后把当下要吃的份和存粮的份分开。在战斗结束之后它会用河滩上的岩石仔细地磨牙。为了抢占能找到磨牙的地方，它会和 劈斩司令 展开激烈的斗争。",
+  "flavor_text_en": "Its skin is as hard as a suit of armor. Fraxure’s favorite strategy is to tackle its opponents, stabbing them with its tusks at the same time.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 611,
+    "pokeapi_species_id": 611,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/611"
+  }
+}

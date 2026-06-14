@@ -1,0 +1,94 @@
+{
+  "entry_id": "0447",
+  "national_id": 447,
+  "form": "default",
+  "names": {
+    "en": "Riolu",
+    "ja": "リオル",
+    "zh": "利欧路"
+  },
+  "generation": 4,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "はもんポケモン",
+  "category_zh": "波纹宝可梦",
+  "abilities": [
+    {
+      "name_en": "steadfast",
+      "name_zh": "不屈之心 / 或 / 精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 20.2,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 57,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 70,
+    "defense": 40,
+    "special_attack": 35,
+    "special_defense": 40,
+    "speed": 60,
+    "total": 285
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 448,
+        "name_en": "lucario",
+        "name_zh": "路卡利欧",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 115,
+    "阿罗拉": 279,
+    "伽勒尔": 298,
+    "洗翠": 223,
+    "帕底亚": 163,
+    "北上": 64,
+    "密阿雷": 135
+  },
+  "flavor_text_zh": "利欧路体型较小，身体呈蓝色，像一只小狗。它的腿与躯干上半部分是黑色的。利欧路拥有一条蓝色的尾巴，以及一个黄色的项圈。在利欧路的前爪背面，有一颗白色的圆块。利欧路有一双红色的眼睛，脸上的有类似面罩的黑色纹路。 利欧路外貌似幼童，却拥有能解读人心的奇异力量，不会靠近危险的对手。心性良善者将受其认可，心性邪恶者则会遭到憎厌。它能以“波导”这种波的形式观察人和宝可梦的感情，以及自然的样子。它和同伴通过发出波导来进行交流，从体内发出的波导会在害怕或悲伤时变强，并向伙伴传递危险的信号。由于交流时无需鸣叫，因此不会被敌人发现。它的身体既柔韧又强健，能跑整整一晚上。它精力充沛，只要一个晚上就能翻过3座山头，越过2条峡谷。它是非常坚毅勤奋的家伙，不过仍然是毛头小子。由于它十分活泼，带它散步的人非常辛苦。",
+  "flavor_text_en": "Though infantile in appearance, it has the mysterious ability to read the minds of humans. The pure of heart are met with Riolu's approval, while those of ill nature earn only its loathing.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 447,
+    "pokeapi_species_id": 447,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/447"
+  }
+}

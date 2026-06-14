@@ -1,0 +1,90 @@
+{
+  "entry_id": "0957",
+  "national_id": 957,
+  "form": "default",
+  "names": {
+    "en": "Tinkatink",
+    "ja": "カヌチャン",
+    "zh": "小锻匠"
+  },
+  "generation": 9,
+  "types": [
+    "fairy",
+    "steel"
+  ],
+  "types_zh": [
+    "妖精",
+    "钢"
+  ],
+  "category": "かなうちポケモン",
+  "category_zh": "锤炼宝可梦",
+  "abilities": [
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格 / 或 / 我行我素",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 8.9,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 59,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 45,
+    "defense": 45,
+    "special_attack": 35,
+    "special_defense": 64,
+    "speed": 58,
+    "total": 297
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 958,
+        "name_en": "tinkatuff",
+        "name_zh": "巧锻匠",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 279
+  },
+  "flavor_text_zh": "小锻匠只有雌性，也没有与它对应的雄性宝可梦。 小锻匠会把在矿山找到的金属碎片和道具组合起来，敲打铁屑来为自己打造称手的锤子。直到做出满意的作品前，它会一遍又一遍地重做。它需要挥动手工制造的锤子来保护自己，但却经常被会吃金属的宝可梦抢走锤子。",
+  "flavor_text_en": "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it’s satisfied with the result.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 957,
+    "pokeapi_species_id": 957,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/957"
+  }
+}

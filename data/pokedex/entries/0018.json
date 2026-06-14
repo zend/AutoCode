@@ -1,0 +1,92 @@
+{
+  "entry_id": "0018",
+  "national_id": 18,
+  "form": "default",
+  "names": {
+    "en": "Pidgeot",
+    "ja": "ピジョット",
+    "zh": "大比鸟"
+  },
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "とりポケモン",
+  "category_zh": "鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "tangled-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "big-pecks",
+      "name_zh": "健壮胸肌",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 39.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 216,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 83,
+    "attack": 80,
+    "defense": 75,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 101,
+    "total": 479
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 17,
+        "name_en": "pidgeotto",
+        "name_zh": "比比鸟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 18,
+    "城都": 12,
+    "密阿雷": 23
+  },
+  "flavor_text_zh": "大比鸟体型庞大，翼展较宽，粉色的三个趾头的爪子较短。它的羽毛主要是褐色的，它有着靓丽的羽毛，身体大部分羽毛是奶油色的，眼边是黑色的。头顶的羽毛两边红中间黄，扇形的尾羽是红色的。超级大比鸟拥有了更大的体型以及更宽更长的双翼。原本奶油色的羽毛变成了纯白色，尾巴末端和翅膀末端的羽毛染上了蓝色。眼珠变成了红色，瞳仁是白色的。超级大比鸟头顶的羽冠也更加炫丽：一大簇黄色羽毛中长出了三簇鲜红色的长羽毛，中间一根更是比它的身体都要长。 大比鸟一展开美丽的翅膀便能威吓敌人，有很多训练家因拜倒在它美丽的头羽下而来培育大比鸟。它胸前的肌肉十分发达，只要轻轻拍动就能搧起巨大的风势，全力振翅时所刮起的强风连大树都能压弯。它以2马赫的飞行速度来觅食，巨大的爪子是非常令人惧怕的武器。它的视力超群，就算在1000米的高空也可以发现 鲤鱼王 的踪影。觅食的时候，会贴着水面飞掠而过，抓起鲤鱼王等猎物。 超级大比鸟肌肉的力量大幅提升，能够连续两个星期不眠不休地持续飞行。",
+  "flavor_text_en": "This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 18,
+    "pokeapi_species_id": 18,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/18"
+  }
+}

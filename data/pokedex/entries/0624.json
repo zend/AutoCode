@@ -1,0 +1,93 @@
+{
+  "entry_id": "0624",
+  "national_id": 624,
+  "form": "default",
+  "names": {
+    "en": "Pawniard",
+    "ja": "コマタナ",
+    "zh": "驹刀小兵"
+  },
+  "generation": 5,
+  "types": [
+    "dark",
+    "steel"
+  ],
+  "types_zh": [
+    "恶",
+    "钢"
+  ],
+  "category": "はものポケモン",
+  "category_zh": "利器宝可梦",
+  "abilities": [
+    {
+      "name_en": "defiant",
+      "name_zh": "不服输 / 或 / 精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 10.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 68,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 85,
+    "defense": 70,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 60,
+    "total": 340
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 625,
+        "name_en": "bisharp",
+        "name_zh": "劈斩司令",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 130,
+    "伽勒尔": 246,
+    "帕底亚": 367,
+    "北上": 186
+  },
+  "flavor_text_zh": "驹刀小兵是人形的宝可梦，手臂比较长。它的手部由两个尖锐的刀片构成，除了手上的刀片之外，驹刀小兵的头部以及身体腹部也有着类似刀片的利器，除去刀片之外，驹刀小兵看起来就像是穿着一套盔甲。 驹刀小兵是全身都是刀的宝可梦，以 劈斩司令 为首领组成族群。它遵照劈斩司令的命令袭击敌人，目标是有朝一日能统领同类，所以每天都在不懈地锻炼，即使面对强敌也不惧挑战。它会挥舞锐利的刀刃将敌人逼向绝境，紧紧抓住猎物将刀刃插入体内慢慢折磨，即使自己受伤也毫不在意。整个群体会一起将全身的刀刺入对手进行攻击，如果劈开了对手，就会击响双手的刀刃。刀刃的损伤可以致命，如果在战斗中损伤了刀刃，它就会用河滩的石头来精心保养刀刃，将刀刃磨快。不同的驹刀小兵都有各自喜欢的石头。",
+  "flavor_text_en": "A pack of these Pokémon forms to serve a Bisharp boss. Each Pawniard trains diligently, dreaming of one day taking the lead.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 624,
+    "pokeapi_species_id": 624,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/624"
+  }
+}

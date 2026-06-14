@@ -1,0 +1,87 @@
+{
+  "entry_id": "0700",
+  "national_id": 700,
+  "form": "default",
+  "names": {
+    "en": "Sylveon",
+    "ja": "ニンフィア",
+    "zh": "仙子伊布"
+  },
+  "generation": 6,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "むすびつきポケモン",
+  "category_zh": "连结宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "pixilate",
+      "name_zh": "妖精皮肤",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 23.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 110,
+    "special_defense": 130,
+    "speed": 60,
+    "total": 525
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 133,
+        "name_en": "eevee",
+        "name_zh": "伊布",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 131,
+    "伽勒尔": 204,
+    "洗翠": 33,
+    "帕底亚": 187,
+    "密阿雷": 108
+  },
+  "flavor_text_zh": "仙子伊布的身体以白色为主。它的头顶、耳朵、尾巴和腿的下半部分是粉色，耳朵内侧是蓝色。眼睛是淡蓝色的。它的左耳和脖子上各有一只蝴蝶结，蝴蝶结上有两条缎带，缎带末端的颜色依次是粉、深蓝、浅蓝。 仙子伊布会从缎带般的触角里发送出消除敌意，令心情平和的波动来终止战斗。发生斗争时，它会用此器官卷住当事者，让现场在一瞬间归于平静。它发现猎物后就会摇晃蝴蝶结状的触角让对方大意，从蝴蝶结那样的触角里释放出削弱敌意的波动，并将其传送进对手的体内令猎物大意后袭击对方。一旦进入战斗状态，即使面对比自己大几倍的龙宝可梦也会毫不畏惧地飞扑过去。摇曳着触角跳着轻快的舞蹈的样子十分优雅，但招式却会直击对手要害。伽勒尔地区的童话中有着美丽的仙子伊布击退了可怕的龙宝可梦的故事。它会用缎带般的触角缠住训练家的手臂，只要触碰后就能知道对方的心情。",
+  "flavor_text_en": "It emits a soothing aura from its ribbon-shaped organs. It wraps these appendages around quarrelers to instantly restore calm to the situation.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 700,
+    "pokeapi_species_id": 700,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/700"
+  }
+}

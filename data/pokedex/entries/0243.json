@@ -1,0 +1,72 @@
+{
+  "entry_id": "0243",
+  "national_id": 243,
+  "form": "default",
+  "names": {
+    "en": "Raikou",
+    "ja": "ライコウ",
+    "zh": "雷公"
+  },
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "いかずちポケモン",
+  "category_zh": "天雷宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 178.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 75,
+    "special_attack": 115,
+    "special_defense": 100,
+    "speed": 115,
+    "total": 580
+  },
+  "ev_yield": {
+    "special_attack": 1,
+    "speed": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "城都": 238
+  },
+  "flavor_text_zh": "雷公形似剑齿虎，有金黄色的毛发，健壮的四肢以及锋利的獠牙。雷公的前额长有黑色的钢铁头饰，头饰覆盖过额头、鼻子和嘴巴，头饰之下是X型的胡须。它长有电光形的浅蓝色尾巴，尾尖呈火花状。 据说雷公是和雷电一同降临的凶猛宝可梦。因为背着雨云，所以它无论何时都能释放雷电。它体内蕴藏着雷电般的速度，会一边以雷击的形式释放体内激荡的力量，一边在大地上四处奔跑。它发出如落雷般的长嚎会如同天雷落地时一样震动空气，摇撼大地。",
+  "flavor_text_en": "Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 243,
+    "pokeapi_species_id": 243,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/243"
+  }
+}

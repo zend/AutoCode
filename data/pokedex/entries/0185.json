@@ -1,0 +1,94 @@
+{
+  "entry_id": "0185",
+  "national_id": 185,
+  "form": "default",
+  "names": {
+    "en": "Sudowoodo",
+    "ja": "ウソッキー",
+    "zh": "树才怪"
+  },
+  "generation": 2,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "まねポケモン",
+  "category_zh": "模仿宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 38.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 65,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 144,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 115,
+    "special_attack": 30,
+    "special_defense": 65,
+    "speed": 30,
+    "total": 410
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 438,
+        "name_en": "bonsly",
+        "name_zh": "盆才怪",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 106,
+    "神奥": 93,
+    "阿罗拉": 31,
+    "伽勒尔": 253,
+    "洗翠": 124,
+    "帕底亚": 88,
+    "北上": 84
+  },
+  "flavor_text_zh": "树才怪的外型类似灌木树木，腹部有五个黄色斑点。它的每只手上有三个绿色的指。和雄性相比，雌性树才怪头上的枝更小。 树才怪为了不被敌人袭击会伪装成树的样子站在路边，却连幼童也难以骗过。因为双手一年到头都是绿色，所以冬天时立刻就会被发现是冒牌货。如果在没风的日子看见树在摇摆，那就是树才怪。它身体构造比起植物来，好像更接近石头或岩石一类的东西。伪装成树木的体表并非树皮，触感仿若岩石。它之所以会有柔软又结实的手臂，是因为在长期摆出同样姿势的过程中得到了锻炼。它很讨厌水，对水完全没有抵抗力。如果被讨厌的水泼到，就会慌慌张张地逃走。如果天上开始下雨，就会在不知不觉间消失不见。它在老年人当中很受欢迎，甚至还有关于它的专门杂志。它的爱好者很讲究它手臂的长度和角度，听说绿色的部分越大，爱好者们的评价就越高。",
+  "flavor_text_en": "Though it pretends to be a tree, it fails to fool even children. To the touch, its body feels more like rock than tree bark. Sudowoodo's extreme aversion to water merits special note.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 185,
+    "pokeapi_species_id": 185,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/185"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "entry_id": "0816",
+  "national_id": 816,
+  "form": "default",
+  "names": {
+    "en": "Sobble",
+    "ja": "メッソン",
+    "zh": "泪眼蜥"
+  },
+  "generation": 8,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "みずとかげポケモン",
+  "category_zh": "水蜥宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "狙击手",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 4.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 40,
+    "defense": 40,
+    "special_attack": 70,
+    "special_defense": 40,
+    "speed": 70,
+    "total": 310
+  },
+  "ev_yield": {
+    "special_defense": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 817,
+        "name_en": "drizzile",
+        "name_zh": "变涩蜥",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 7,
+    "蓝莓": 233
+  },
+  "flavor_text_zh": "泪眼蜥拥有水蓝色的皮肤，细长的四肢，水汪汪的大眼及一个卷曲的尾巴。泪眼蜥的爪上只有两只爪，其头顶有着一个类似羽毛的黄色鳍。 泪眼蜥的性格有点胆小，一旦紧张或害羞，体内的水分就会像出汗一样分泌出来。再加上它拥有只要接触到水分，身上的颜色和花纹就会变得与周围一致的特性，仿佛像是隐身了一样，谁都看不见它的身影，从而与周围环境同化以隐藏身形。泪眼蜥害怕时流下的泪水中含有强力的催泪成分，据说其效果甚至相当于100颗洋葱，能让对手泪流不止。一旦它感到危险就会嚎啕大哭，同时向四周散布这种物质。这样附近的生物就会泪流不止，而它便会趁此机会逃之夭夭。 [ 1 ]",
+  "flavor_text_en": "When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 816,
+    "pokeapi_species_id": 816,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/816"
+  }
+}

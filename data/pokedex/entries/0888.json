@@ -1,0 +1,66 @@
+{
+  "entry_id": "0888",
+  "national_id": 888,
+  "form": "default",
+  "names": {
+    "en": "Zacian",
+    "ja": "ザシアン",
+    "zh": "苍响"
+  },
+  "generation": 8,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "つわものポケモン",
+  "category_zh": "强者宝可梦",
+  "abilities": [
+    {
+      "name_en": "intrepid-sword",
+      "name_zh": "不挠之剑",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.8,
+  "weight_kg": 110.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 10,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 335,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 92,
+    "attack": 120,
+    "defense": 115,
+    "special_attack": 80,
+    "special_defense": 115,
+    "speed": 138,
+    "total": 660
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 398
+  },
+  "flavor_text_zh": "苍响是 伽勒尔地区 的 传说的宝可梦 。苍响和 藏玛然特 作为 传说的英雄 ，它们故事出现在了传说中，并且代代流传。它被认为是沉睡已久的藏玛然特的姐姐，并曾和藏玛然特一起阻止了 暗夜 ，但也有人认为它们之间是劲敌关系。 苍响是一只充满谜团的宝可梦。它的外表类似于现实世界的一些犬类，其中的一只耳朵看起来就像是没了一块，全身的鬃毛往下垂，大部分的毛色是蓝色的，身上的白色花纹看起来就像是伤疤一般，它的耳朵还连接着类似辫子的部位，四肢相对来说也比较狭长。它能够吸收金属，并将之转化为武器来战斗。如果给苍响携带上道具 腐朽的剑 的话，那么苍响就会从百战勇者形态变成剑之王形态。剑之王形态的苍响口中叼著像剑一样的东西，身上的花纹变得丰富多样而且非常艳丽。它会用口中叼着的剑攻击对手，这把剑能斩断世间万物，因此被称为妖精王之剑。这把剑的锋利程度甚至连龙属性宝可梦们厚重的鳞片也能像纸一样切开，让敌友都对其敬畏不已。 剑之王苍响会像风一样穿梭在战场讨伐敌人。举止华贵美丽，因此也有人比喻它的姿态“仿佛像在起舞一般”。它所使出的斩击快到无法用肉眼捕捉，被它的剑击中之后，还未感觉到疼痛就已倒下，即使是超极巨化宝可梦，也能以一剑将之拿下。它会使用 巨兽斩 ，通过让嘴里叼着的剑巨大化，瞄准并斩向对手。这个招式尤其会对极巨化宝可梦所拥有的力量发挥强大的效果，所造成的冲击将贯穿对手极巨化的身体，给与对手昏厥级的伤害。甚至有人认为那种破坏力足以将大海一斩为二。 [ 1 ]",
+  "flavor_text_en": "This Pokémon has slumbered for many years. Some say it’s Zamazenta’s elder sister—others say the two Pokémon are rivals.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 888,
+    "pokeapi_species_id": 888,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/888"
+  }
+}

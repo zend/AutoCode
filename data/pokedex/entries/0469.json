@@ -1,0 +1,92 @@
+{
+  "entry_id": "0469",
+  "national_id": 469,
+  "form": "default",
+  "names": {
+    "en": "Yanmega",
+    "ja": "メガヤンマ",
+    "zh": "远古巨蜓"
+  },
+  "generation": 4,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "types_zh": [
+    "虫",
+    "飞行"
+  ],
+  "category": "オニトンボポケモン",
+  "category_zh": "勾蜓宝可梦",
+  "abilities": [
+    {
+      "name_en": "speed-boost",
+      "name_zh": "加速 / 或 / 有色眼镜",
+      "hidden": false
+    },
+    {
+      "name_en": "tinted-lens",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 51.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 180,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 86,
+    "attack": 76,
+    "defense": 86,
+    "special_attack": 116,
+    "special_defense": 56,
+    "speed": 95,
+    "total": 515
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 193,
+        "name_en": "yanma",
+        "name_zh": "蜻蜻蜓",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 184,
+    "洗翠": 106,
+    "北上": 4
+  },
+  "flavor_text_zh": "远古巨蜓的身体是军绿色的，身上有着许多红色的斑点。它有三对足，三对翅膀，在腹部的翅膀末端也有着红色斑点。 远古巨蜓性情极其凶暴，狩猎时会看准猎物的要害出击，不会有任何多余动作。它可以用6条腿抱住成年人，轻轻松松地飞行，用尾翅保持平衡。它拍动翅膀的力量极强，在用力起飞时，会掀倒周围的巨树，挥动翅膀时产生的冲击波能对对手的身体内部造成致命伤。当它要让翅膀休息时，会把身体倒挂在树枝上。它颚部的力量异常强大，擅长在高速飞行中咬碎与自己擦身而过的对手。它热衷这样的战斗方式，能驯服此种宝可梦的人堪称豪杰。",
+  "flavor_text_en": "Extremely violent. When hunting, it wastes none of its energy, aiming only for prey's most vulnerable spots. Any who manage to tame this Pokémon must be of incredible bravery.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 469,
+    "pokeapi_species_id": 469,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/469"
+  }
+}

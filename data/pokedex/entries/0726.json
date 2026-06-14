@@ -1,0 +1,91 @@
+{
+  "entry_id": "0726",
+  "national_id": 726,
+  "form": "default",
+  "names": {
+    "en": "Torracat",
+    "ja": "ニャヒート",
+    "zh": "炎热喵"
+  },
+  "generation": 7,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ひねこポケモン",
+  "category_zh": "火猫宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 25.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 147,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 85,
+    "defense": 50,
+    "special_attack": 80,
+    "special_defense": 50,
+    "speed": 90,
+    "total": 420
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 725,
+        "name_en": "litten",
+        "name_zh": "火斑喵",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 727,
+        "name_en": "incineroar",
+        "name_zh": "炽焰咆哮虎",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 5,
+    "蓝莓": 222
+  },
+  "flavor_text_zh": "生出火焰的“火焰之铃” 炎热喵和火斑喵非常相似，基本上有着相同的配色，体型相较于火斑喵要更大一些，眼神也变得更加坚毅，爪子则更加锋利了，其头部的花纹相较于火斑喵来说占尽了更多的位置并且从额头处延伸出来，头部的中间的羽毛颜色和额头花纹颜色契合。它的脖子上像铃铛一样的东西就是能生出火焰的器官“火焰袋”。火焰袋的温度会随着炎热喵的情绪而上升并喷出火焰，同时发出像铃铛一样响亮的声音。鬃毛竖得直直的时候，证明炎热喵的状态良好。状态不好时，它的毛发会向后倒。 炎热喵的鬃毛是优秀的感觉器官，即使在阴暗地方也可洞察四周的环境，并可感应隐藏着的敌人之一举一动。它会利用铃铛所喷出的火焰进行攻击。如果敌人实力强劲，它便会更有战斗的欲望，火焰铃铛的火力也会随之上升。它还以前肢的力量而自豪，由它结实的前脚所发动的猫拳十分强劲，威力足以打弯铁棒，又或是一击将壮汉打昏。炎热喵性格非常好战，会不断发动攻击直到对手失去战斗意欲。相反的，据说有时它也会向建立了信赖关系的训练家及宝可梦撒娇。但是它的力量很强，爪子也很锋利，有时也会被它弄得全身是伤。 [ 1 ]",
+  "flavor_text_en": "When facing a powerful enemy, Torracat’s fighting spirit gets pumped up, and its fire bell blazes hotter.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 726,
+    "pokeapi_species_id": 726,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/726"
+  }
+}

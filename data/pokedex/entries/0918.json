@@ -1,0 +1,83 @@
+{
+  "entry_id": "0918",
+  "national_id": 918,
+  "form": "default",
+  "names": {
+    "en": "Spidops",
+    "ja": "ワナイダー",
+    "zh": "操陷蛛"
+  },
+  "generation": 9,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "トラップポケモン",
+  "category_zh": "陷阱宝可梦",
+  "abilities": [
+    {
+      "name_en": "insomnia",
+      "name_zh": "不眠",
+      "hidden": false
+    },
+    {
+      "name_en": "stakeout",
+      "name_zh": "蹲守",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 16.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 141,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 79,
+    "defense": 92,
+    "special_attack": 52,
+    "special_defense": 86,
+    "speed": 35,
+    "total": 404
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 917,
+        "name_en": "tarountula",
+        "name_zh": "团珠蛛",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 13
+  },
+  "flavor_text_zh": "操陷蛛的身体由黄色和绿色组成。它的身体两侧长著八条肢体，前面两对合并成“双手”、后面两对则合并成“双脚”，前肢的尖端可以产生丝线，当制作陷阱等需要精密操作丝线的时候会将合并的肢体分开，用更多只手来控制丝线。它可以用合并成双脚的两对后肢直立。它的身体后端被丝线包裹，末端有一个喇叭型的黄色尾巴。 操陷蛛会用丝线吸附在树枝或天花板上无声无息地行动。它会在自己的地盘里布下坚固又黏糊糊的丝线，来当做捕捉入侵者的陷阱，在自己被发现之前将猎物打倒。",
+  "flavor_text_en": "Spidops covers its territory in tough, sticky threads to set up traps for intruders.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 918,
+    "pokeapi_species_id": 918,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/918"
+  }
+}

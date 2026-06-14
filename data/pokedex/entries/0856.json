@@ -1,0 +1,90 @@
+{
+  "entry_id": "0856",
+  "national_id": 856,
+  "form": "default",
+  "names": {
+    "en": "Hatenna",
+    "ja": "ミブリム",
+    "zh": "迷布莉姆"
+  },
+  "generation": 8,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "おだやかポケモン",
+  "category_zh": "宁静宝可梦",
+  "abilities": [
+    {
+      "name_en": "healer",
+      "name_zh": "治愈之心 / 或 / 危险预知",
+      "hidden": false
+    },
+    {
+      "name_en": "anticipation",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "magic-bounce",
+      "name_zh": "魔法镜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 3.4,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 235,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 53,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 42,
+    "attack": 30,
+    "defense": 45,
+    "special_attack": 56,
+    "special_defense": 53,
+    "speed": 39,
+    "total": 265
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 857,
+        "name_en": "hattrem",
+        "name_zh": "提布莉姆",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 241,
+    "帕底亚": 282,
+    "北上": 92
+  },
+  "flavor_text_zh": "迷布莉姆拥有娇小可爱的球形身体，拥有浅粉色的皮肤、小小的嘴巴和小脚。浅蓝色的头发拥有向内卷起的刘海，长长的鬓角从身体两侧延伸到地面，它们的鬓角可以像人手一样活动。迷布莉姆显著的特征是它竖立起来的尾巴，顶端拥有和发色一样的浅蓝色的球。这种尾巴构造从正面看上去像是戴在头上的一顶帽子，其上的斑纹类似于派对帽或者儿童睡帽。迷布莉姆只有雌性，对应的雄性宝可梦为 捣蛋小妖 。 迷布莉姆会通过头部的尾巴突起物来感应生物的情感，如果持续接收强烈的情感就会累坏，因此要当心。它只对温和的人敞开心扉，一旦感觉到强烈的感情，就会一溜烟地逃走。因为总是有生物的情感会传进它的大脑里，所以它喜欢没有人烟的地方，平时喜欢待在只有自己的环境。",
+  "flavor_text_en": "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 856,
+    "pokeapi_species_id": 856,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/856"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "entry_id": "0438",
+  "national_id": 438,
+  "form": "default",
+  "names": {
+    "en": "Bonsly",
+    "ja": "ウソハチ",
+    "zh": "盆才怪"
+  },
+  "generation": 4,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "ぼんさいポケモン",
+  "category_zh": "盆栽宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 15.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 80,
+    "defense": 95,
+    "special_attack": 10,
+    "special_defense": 45,
+    "speed": 10,
+    "total": 290
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 185,
+        "name_en": "sudowoodo",
+        "name_zh": "树才怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 92,
+    "阿罗拉": 30,
+    "伽勒尔": 252,
+    "洗翠": 123,
+    "帕底亚": 87,
+    "北上": 83
+  },
+  "flavor_text_zh": "盆才怪身材娇小，头顶上有三枝小树枝，每枝树枝上有绿绿圆圆的树叶。它的两个眼睛的中间还有着一个小黄点。它还有着小小的双腿和小小的嘴巴。在它的底部有一个类似排水孔的洞。 盆才怪很怕水，栖息在空气干燥岩石裸露的地方，如果身体过于潮湿就会死掉。虽然它看上去一直在哭，但其实是在排出多余的水分以调节体内水分平衡，该成分接近人类的汗液。它的汗水有一点点咸，泪水则略微带着一些苦味。流泪的模样令见者无不同情，似乎也有让敌人麻痹大意的效果。因为周围绿色很少，所以相当醒目。空气越是干燥，它身上的绿球就越是会泛出暗淡的光泽。",
+  "flavor_text_en": "Its tears elicit sympathy from those who see them, but do not be deceived! This expulsion of body water is merely a physiological mechanism for keeping itself in good health.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 438,
+    "pokeapi_species_id": 438,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/438"
+  }
+}

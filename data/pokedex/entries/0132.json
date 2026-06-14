@@ -1,0 +1,75 @@
+{
+  "entry_id": "0132",
+  "national_id": 132,
+  "form": "default",
+  "names": {
+    "en": "Ditto",
+    "ja": "メタモン",
+    "zh": "百变怪"
+  },
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "へんしんポケモン",
+  "category_zh": "变身宝可梦",
+  "abilities": [
+    {
+      "name_en": "limber",
+      "name_zh": "柔软",
+      "hidden": false
+    },
+    {
+      "name_en": "imposter",
+      "name_zh": "变身者",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 4.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 35,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 101,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ditto"
+  ],
+  "egg_groups_zh": [
+    "百变怪"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 48,
+    "defense": 48,
+    "special_attack": 48,
+    "special_defense": 48,
+    "speed": 48,
+    "total": 288
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "关都": 132,
+    "城都": 92,
+    "阿罗拉": 209,
+    "伽勒尔": 373,
+    "帕底亚": 212
+  },
+  "flavor_text_zh": "百变怪的身体是淡紫色的。它拥有一双小小的黑眼睛，身体软而富有弹性。 百变怪能在一瞬间复制对手的细胞组成，通过重组细胞让自己样子变得和眼前的对手一模一样，但好像每只百变怪都有着自己擅长和不擅长变形的东西。相似度依个体而有所不同，当精疲力尽的时候会变回原样。虽然可以变身得很完美，但一旦被逗笑，就会因松懈而解除变身。对于不在眼前的东西只能靠记忆来变身，所以它有时也会失败。当它一边回忆一边变成以前看过的东西时外形就会变得稍微有点不一样。它睡觉的时候会变成石头防止被袭击。因其惊人的变身能力，它无论与谁都能成为伙伴。但是百变怪同类间关系恶劣，当两只百变怪相遇的时候，为了能变成和对方相同的样子，它们动起来会比平常更加剧烈。",
+  "flavor_text_en": "When it encounters another Ditto, it will move faster than normal to duplicate that opponent exactly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 132,
+    "pokeapi_species_id": 132,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/132"
+  }
+}

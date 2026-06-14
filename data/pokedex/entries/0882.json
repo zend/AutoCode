@@ -1,0 +1,78 @@
+{
+  "entry_id": "0882",
+  "national_id": 882,
+  "form": "default",
+  "names": {
+    "en": "Dracovish",
+    "ja": "ウオノラゴン",
+    "zh": "鳃鱼龙"
+  },
+  "generation": 8,
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "types_zh": [
+    "水",
+    "龙"
+  ],
+  "category": "かせきポケモン",
+  "category_zh": "化石宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-absorb",
+      "name_zh": "储水 / 或 / 强壮之颚",
+      "hidden": false
+    },
+    {
+      "name_en": "strong-jaw",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-rush",
+      "name_zh": "拨沙",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.3,
+  "weight_kg": 215.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 177,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 100,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 75,
+    "total": 505
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 376
+  },
+  "flavor_text_zh": "鳃鱼龙有像鱼一样的蓝色的头，额头上有着巨大的、类似于椭圆形的蓝色头盖，它的眼睛附近有更浅的蓝色和红色组成的图案，这个图案覆盖了整个巨大头盖。而头盖和眼睛下，有淡蓝色的下巴。鳃鱼龙的嘴里有坚硬的上下牙齿。下巴连着两小片鱼鳍。它看似是脖子的部分实则是由 化石龙 复活出的下半身中的尾巴，由于是组合化石形成，前端有明显的横截面。墨绿色的皮肤上充满了红色的纹路，上方有红色的尖刺。 鳃鱼龙超乎寻常的脚力和颚力让它在古代所向无敌。但由于捕尽猎物，导致它们自己也灭绝了。虽然它能用自豪的脚力以60公里的时速奔跑，但是只能在水中呼吸。",
+  "flavor_text_en": "Its mighty legs are capable of running at speeds exceeding 40 mph, but this Pokémon can’t breathe unless it’s underwater.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 882,
+    "pokeapi_species_id": 882,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/882"
+  }
+}

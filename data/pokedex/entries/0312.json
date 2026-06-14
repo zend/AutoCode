@@ -1,0 +1,74 @@
+{
+  "entry_id": "0312",
+  "national_id": 312,
+  "form": "default",
+  "names": {
+    "en": "Minun",
+    "ja": "マイナン",
+    "zh": "负电拍拍"
+  },
+  "generation": 3,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "おうえんポケモン",
+  "category_zh": "加油宝可梦",
+  "abilities": [
+    {
+      "name_en": "minus",
+      "name_zh": "负电",
+      "hidden": false
+    },
+    {
+      "name_en": "volt-absorb",
+      "name_zh": "蓄电",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 4.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 142,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 50,
+    "special_attack": 75,
+    "special_defense": 85,
+    "speed": 95,
+    "total": 405
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 81,
+    "蓝莓": 120
+  },
+  "flavor_text_zh": "负电拍拍身体是淡黄色的，耳朵、手的前端和尾巴是蓝色的。它的脸颊上有两个蓝色的圆形电气囊，上面各有一个淡黄色的负号。它的尾巴是负号的形状。 负电拍拍有给伙伴加油的习性，比起自己来，给伙伴加油更重要。它会通过让体内发出的电流短路，一边放出华丽的火花，一边给伙伴加油。如果伙伴快要输掉的话，体内迸发出的火花数量就会不断增多。它很害怕水，当下雨的时候会在屋檐躲雨。据宝可梦学会研究，负电拍拍和正电拍拍同时放出的电流有促进血液流动，缓解酸痛的功效。",
+  "flavor_text_en": "Minun loves to cheer on its partner in battle. It gives off sparks from its body while it is doing so. If its partner is in trouble, this Pokémon gives off increasing amounts of sparks.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 312,
+    "pokeapi_species_id": 312,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/312"
+  }
+}

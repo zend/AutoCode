@@ -1,0 +1,89 @@
+{
+  "entry_id": "0045",
+  "national_id": 45,
+  "form": "default",
+  "names": {
+    "en": "Vileplume",
+    "ja": "ラフレシア",
+    "zh": "霸王花"
+  },
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "フラワーポケモン",
+  "category_zh": "花宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "effect-spore",
+      "name_zh": "孢子",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 18.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 85,
+    "special_attack": 110,
+    "special_defense": 90,
+    "speed": 50,
+    "total": 490
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 44,
+        "name_en": "gloom",
+        "name_zh": "臭臭花",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 45,
+    "城都": 85,
+    "丰缘": 90,
+    "伽勒尔": 57,
+    "蓝莓": 64
+  },
+  "flavor_text_zh": "霸王花是双足的花型宝可梦，有靛蓝色的类似球根的身体和双腿，头上有一朵更大的花。头上的花由五片鲜红的带白色圆斑点的巨大花瓣和中间橙色的主轴构成，每个花瓣中间部分都有一条锯齿边缘的浅红色带状花纹，连接起来形成了一个环。它有红色的小眼睛和一张小嘴，手和脚在花的对比下显得很小。雌性霸王花花瓣上的斑点更大更少。 霸王花的花瓣是世界上最大的。它会为了散布有毒的花粉而摇动其巨大的花瓣，同时发出震耳的响声。嗙地一声，花苞打开，然后便开始散播令人麻痹过敏的有毒花粉。虽然花瓣越大，就能放出越多的花粉，但这样脑袋会变沉，容易疲倦。它每走一步，花瓣都会跟着摇动，像鬼一样散播会使人过敏的花粉。在散播花粉的季节里，霸王花一走路，周围的空气都会变成黄色的。在丛林里就算发现了美丽的花朵，也不要随便接近比较好。它会用世界上最大的花瓣引诱猎物靠近，然后将毒花粉撒在它的身上。等猎物不能动后，就会将它抓起来吃掉。",
+  "flavor_text_en": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 45,
+    "pokeapi_species_id": 45,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/45"
+  }
+}

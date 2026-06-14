@@ -1,0 +1,93 @@
+{
+  "entry_id": "0363",
+  "national_id": 363,
+  "form": "default",
+  "names": {
+    "en": "Spheal",
+    "ja": "タマザラシ",
+    "zh": "海豹球"
+  },
+  "generation": 3,
+  "types": [
+    "ice",
+    "water"
+  ],
+  "types_zh": [
+    "冰",
+    "水"
+  ],
+  "category": "てたたきポケモン",
+  "category_zh": "拍手宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 冰冻之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 39.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 58,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 40,
+    "defense": 50,
+    "special_attack": 55,
+    "special_defense": 50,
+    "speed": 25,
+    "total": 290
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 364,
+        "name_en": "sealeo",
+        "name_zh": "海魔狮",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 173,
+    "洗翠": 143
+  },
+  "flavor_text_zh": "海豹球的身体是蓝色，有几个白色的点，圆溜溜的身体被厚厚的脂肪包裹着。它的头上有两个小耳朵，肚皮是米黄色，嘴边露出了两颗牙齿。 海豹球在流冰靠岸的季节里，比起陆地更喜欢生活在天敌较少的冰上。它总是翻滚着移动，翻滚的话会比走路快很多。在有浮冰的季节可以看到它在冰上翻滚着渡海的样子。它蓬松的体毛的保温效果极佳，可以抵御零度以下的寒冷。因此就算在浮冰上翻滚，或是在海上游泳也完全不会感到寒冷。不过它的体型不是很适合游泳，游泳还不是很熟练，用翻滚会移动得更快。它会漂浮在波浪当中观察大海的状况，一旦发现猎物就会通知群体里的 帝牙海狮 。吃饭的时候会大家一起高兴地拍手，所以会相当的吵。",
+  "flavor_text_en": "During the season when drift ice approaches the shore, Spheal prefers living on the ice—where fewer predators lurk—rather than the land. Its fur retains heat superbly and resists harsh cold.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 363,
+    "pokeapi_species_id": 363,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/363"
+  }
+}

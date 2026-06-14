@@ -1,0 +1,86 @@
+{
+  "entry_id": "0205",
+  "national_id": 205,
+  "form": "default",
+  "names": {
+    "en": "Forretress",
+    "ja": "フォレトス",
+    "zh": "佛烈托斯"
+  },
+  "generation": 2,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "types_zh": [
+    "虫",
+    "钢"
+  ],
+  "category": "みのむしポケモン",
+  "category_zh": "蓑衣虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 125.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 163,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 90,
+    "defense": 140,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 40,
+    "total": 465
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 204,
+        "name_en": "pineco",
+        "name_zh": "榛果球",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 94,
+    "帕底亚": 259
+  },
+  "flavor_text_zh": "佛烈托斯没有可见的四肢，被两个粉红色的外壳包裹着，上面有不平的凹槽。它外壳下还有第二个红色的壳，红色的壳沿着中线有着一条小缝可以看到它的眼睛。四个管子一样的突起从佛烈托斯的红色外壳的四角处伸出。 佛烈托斯本体在钢铁外壳的里面，被钢铁外壳保护着。虽然眼睛会从缝隙里向外窥视，但里面的正身是什么仍是个谜。虽然捕捉猎物时会打开外壳，但仅在吞下猎物的瞬间，壳里面的身体才会出现。但速度太快无法看清里面的正身，但至今仍未有人或宝可梦见过其真面目。它紧紧贴在粗壮的树上一动不动，只要一有东西靠近，它就会射出钢铁外壳的碎片进行攻击。这是一种无意识的条件反射。",
+  "flavor_text_en": "In the moment that it gulps down its prey, the inside of its shell is exposed, but to this day, no one has ever seen that sight.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 205,
+    "pokeapi_species_id": 205,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/205"
+  }
+}

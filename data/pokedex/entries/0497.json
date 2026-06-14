@@ -1,0 +1,86 @@
+{
+  "entry_id": "0497",
+  "national_id": 497,
+  "form": "default",
+  "names": {
+    "en": "Serperior",
+    "ja": "ジャローダ",
+    "zh": "君主蛇"
+  },
+  "generation": 5,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "ロイヤルポケモン",
+  "category_zh": "皇家宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.3,
+  "weight_kg": 63.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 238,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 95,
+    "special_attack": 75,
+    "special_defense": 95,
+    "speed": 113,
+    "total": 528
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 496,
+        "name_en": "servine",
+        "name_zh": "青藤蛇",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 3,
+    "蓝莓": 202
+  },
+  "flavor_text_zh": "君主蛇是一只蛇形的宝可梦。它的身体背部为深绿色，腹部则是浅绿色。进化后的君主蛇失去了后肢，前肢退化只剩下小小的叶子手，尾巴末端附近长出了三片深绿色的叶子。它的身上有着黄色的花纹，如同皇家的高贵纹路一般。脖子附近的两个卷开的叶藤，就像西装的领子袖口，内部为黄色。君主蛇的眼睛是红色的，透露着不屑，给人一种高贵又盛气的感觉。 君主蛇拥有能让对手畏惧的眼神和威风凛凛的样子，会抬高头颅威吓对方，因此被称为森林的君主。它仅仅是盯着，就能令对手动弹不得。它只会对那些即使被它高贵的眼眸盯着也毫不畏惧的强大对手动真格。它能将由阳光制造出的能量在长长的身体内增强至原本的数十倍。",
+  "flavor_text_en": "It can stop its opponents’ movements with just a glare. It takes in solar energy and boosts it internally.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 497,
+    "pokeapi_species_id": 497,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/497"
+  }
+}

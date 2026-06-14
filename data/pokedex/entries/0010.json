@@ -1,0 +1,86 @@
+{
+  "entry_id": "0010",
+  "national_id": 10,
+  "form": "default",
+  "names": {
+    "en": "Caterpie",
+    "ja": "キャタピー",
+    "zh": "绿毛虫"
+  },
+  "generation": 1,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "いもむしポケモン",
+  "category_zh": "虫宝宝宝可梦",
+  "abilities": [
+    {
+      "name_en": "shield-dust",
+      "name_zh": "鳞粉",
+      "hidden": false
+    },
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 39,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 35,
+    "special_attack": 20,
+    "special_defense": 20,
+    "speed": 45,
+    "total": 195
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 11,
+        "name_en": "metapod",
+        "name_zh": "铁甲蛹",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 10,
+    "城都": 24,
+    "阿罗拉": 17,
+    "伽勒尔": 13
+  },
+  "flavor_text_zh": "绿毛虫是毛毛虫外表的宝可梦,背面是绿色，腹部是白色。它的头部有Y字形的红色触角，尾巴是黄色纺锤状的。它有两对腹足，上面有吸盘，身体两侧有黄色环形斑纹。 绿毛虫外表覆著绿色的皮肤，为了伪装自己而潜入到与自己身体颜色相同的植物中去。别看它的脚很短，因为是吸盘，所以无论是斜坡还是墙壁都能轻松前进。它藉著蜕皮的过程不断成长，最后用丝缠住自己，变化成蛹。或许是想要尽快长大，它的食欲非常旺盛，会拼命地爬上树去吃叶子，每天能吃掉１００片叶子。它的身体软绵绵的，也没什么力气。在自然界，它的命运就是作为猎物而被不断捕食。被鸟宝可梦袭击时会从头部的触角中释放出臭气抵抗，以此赶走敌人，但也经常会成为鸟食。如果你碰到了它头上的触角，它就会分泌出难闻的气味来保护自己。它易于捕捉，成长也快。是推荐给新手训练家作为同伴的宝可梦之一。",
+  "flavor_text_en": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 10,
+    "pokeapi_species_id": 10,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10"
+  }
+}

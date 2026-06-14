@@ -1,0 +1,88 @@
+{
+  "entry_id": "0824",
+  "national_id": 824,
+  "form": "default",
+  "names": {
+    "en": "Blipbug",
+    "ja": "サッチムシ",
+    "zh": "索侦虫"
+  },
+  "generation": 8,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "ようちゅうポケモン",
+  "category_zh": "幼虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感 / 或 / 复眼",
+      "hidden": false
+    },
+    {
+      "name_en": "compound-eyes",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 8.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 36,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 25,
+    "attack": 20,
+    "defense": 20,
+    "special_attack": 25,
+    "special_defense": 45,
+    "speed": 45,
+    "total": 180
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 825,
+        "name_en": "dottler",
+        "name_zh": "天罩虫",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 10
+  },
+  "flavor_text_zh": "索侦虫有着非常奇异的外观，它的头部非常长，而身体的颜色也以黄色以及蓝色两种颜色为主，虽然头部让索侦虫看起来很长，但实际上索侦虫的身子很短，而索侦虫的眼睛也很大，眼睛占据了头部的大部分位置，眼睛分为两种颜色，上半部分是白色的眼白，而下半部分则是灰色的眼球，索侦虫身上还有凸出来的一些触觉之类的部位。 索侦虫是经常出现在田地里的宝可梦。它总是孜孜不倦地收集情报，会通过长在身体上的毛来感应周围发生的事。它的头脑相当地聪明，但力量方面就差了一些。",
+  "flavor_text_en": "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 824,
+    "pokeapi_species_id": 824,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/824"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "entry_id": "0878",
+  "national_id": 878,
+  "form": "default",
+  "names": {
+    "en": "Cufant",
+    "ja": "ゾウドウ",
+    "zh": "铜象"
+  },
+  "generation": 8,
+  "types": [
+    "steel"
+  ],
+  "types_zh": [
+    "钢"
+  ],
+  "category": "どうぞうポケモン",
+  "category_zh": "像铜宝可梦",
+  "abilities": [
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": false
+    },
+    {
+      "name_en": "heavy-metal",
+      "name_zh": "重金属",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 100.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 80,
+    "defense": 49,
+    "special_attack": 40,
+    "special_defense": 49,
+    "speed": 40,
+    "total": 330
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 879,
+        "name_en": "copperajah",
+        "name_zh": "大王铜象",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 302,
+    "帕底亚": 124
+  },
+  "flavor_text_zh": "铜象的外形是一只带绿色花纹的古铜色幼象。它的身躯是橙色的，尾部和头部有深绿色的花纹。鼻头的形状如同铲子，上面还点缀有白色的水滴状花纹。比起 小小象 这样的宝可梦，铜象的身体相较比较圆润，它的头上有着类似盖子一样的凸起，身上也呈现出很多花瓣状的花纹，四条腿比较短。 铜象性格温厚，会帮助人们做力气活。它擅长需要力气的工作，是能轻松举起重达5吨的货物的大力士宝可梦。它会用鼻子挖地，尖尖的鼻尖能削断坚硬的岩石来当做粮食，天一亮就会成群结队地去洞窟找矿石来吃。铜象铜质的身体会因雨水而生锈，转变成鲜艳的绿色。",
+  "flavor_text_en": "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 878,
+    "pokeapi_species_id": 878,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/878"
+  }
+}

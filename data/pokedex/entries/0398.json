@@ -1,0 +1,88 @@
+{
+  "entry_id": "0398",
+  "national_id": 398,
+  "form": "default",
+  "names": {
+    "en": "Staraptor",
+    "ja": "ムクホーク",
+    "zh": "姆克鹰"
+  },
+  "generation": 4,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "もうきんポケモン",
+  "category_zh": "猛禽宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 24.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 218,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 120,
+    "defense": 70,
+    "special_attack": 50,
+    "special_defense": 60,
+    "speed": 100,
+    "total": 485
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 397,
+        "name_en": "staravia",
+        "name_zh": "姆克鸟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 12,
+    "洗翠": 14,
+    "帕底亚": 99,
+    "北上": 30
+  },
+  "flavor_text_zh": "姆克鹰进化之后体型更大，而且眼神变得也更加坚毅和锐利。它有着更加锋利的爪子以及更加尖锐的鸟喙，尾羽呈现扇子形状分布。它胸前的斑点消失，变为一个形似字母\"M\"的黑色形状。腹部白色的部分向下延伸形成了一个倒三角形的形状。姆克鹰最大的特点就是头部有着如头冠似的羽毛，后面的部分为黑色，前段则是红色的。雌性的姆克鹰前额的斑点更小。 姆克鹰是性格凶猛的宝可梦，很在意自己头冠的形状。进化为姆克鹰后，它获得了离开群体独立生存的能力，会脱离群体独自生活。它脚的肌肉很发达，拥有强韧的翅膀。它能抓着小的宝可梦轻轻松松地飞行，就连壮汉也能一把抓起带走的飞行能力是一大威胁。即使遇到体型比自己大的对手，它也会果敢地上前挑战，即使自己的身体受了伤也不会停止攻击。 超级姆克鹰拥有顶级的飞行能力，能抓着超过４００公斤的 大钢蛇 轻轻松松地飞翔。",
+  "flavor_text_en": "It has left the flock, having gained strength enough to survive on its own. The astounding force with which Staraptor flies through the air allows it to carry away large, burly targets.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 398,
+    "pokeapi_species_id": 398,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/398"
+  }
+}

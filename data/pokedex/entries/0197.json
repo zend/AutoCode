@@ -1,0 +1,89 @@
+{
+  "entry_id": "0197",
+  "national_id": 197,
+  "form": "default",
+  "names": {
+    "en": "Umbreon",
+    "ja": "ブラッキー",
+    "zh": "月亮伊布"
+  },
+  "generation": 2,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "げっこうポケモン",
+  "category_zh": "月光宝可梦",
+  "abilities": [
+    {
+      "name_en": "synchronize",
+      "name_zh": "同步",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 27.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 184,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 65,
+    "defense": 110,
+    "special_attack": 60,
+    "special_defense": 130,
+    "speed": 65,
+    "total": 525
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 133,
+        "name_en": "eevee",
+        "name_zh": "伊布",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 185,
+    "神奥": 168,
+    "阿罗拉": 128,
+    "伽勒尔": 201,
+    "洗翠": 30,
+    "帕底亚": 184,
+    "密阿雷": 105
+  },
+  "flavor_text_zh": "月亮伊布的毛是黑色的，眼睛是红色的，身上的环状花纹是耀眼的金色。当身体沐浴了月亮波动后，圈圈一样的花纹就会微微发光，继而使神奇的力量觉醒。 月亮伊布是受到月亮波动影响而进化的宝可梦，月光改变了伊布的遗传基因。它是夜行性宝可梦，活跃于月光洒落大地的夜半时分。它黑色体毛与黑暗融为一体，会一直潜伏在黑暗中等待猎物、观察对手，大大的眼睛即使是在黑暗之中也能牢牢捕捉猎物的身影。为了使靠近它的家伙感到害怕，它身上圆圈形的花纹会在天色变暗时自然地发出光芒。它会一动不动地等着猎物出现疏漏，然后一口咬住它的喉咙。在发动袭击的瞬间，它身上的圈圈会发出黯淡的诡异之光。在满月之夜或是兴奋的时候，它身上圈圈一样的花纹也会发出金黄色的光。它发怒的时候会从全身的毛孔喷出混合了毒素的汗液，袭击对手的眼睛。",
+  "flavor_text_en": "It is most active in the wee hours of the night, when moonlight bathes the land. Its large eyes can pierce the darkness and perceive prey with absolute clarity.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 197,
+    "pokeapi_species_id": 197,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/197"
+  }
+}

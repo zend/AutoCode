@@ -1,0 +1,94 @@
+{
+  "entry_id": "0422",
+  "national_id": 422,
+  "form": "default",
+  "names": {
+    "en": "Shellos",
+    "ja": "カラナクシ",
+    "zh": "无壳海兔"
+  },
+  "generation": 4,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ウミウシポケモン",
+  "category_zh": "海兔宝可梦",
+  "abilities": [
+    {
+      "name_en": "sticky-hold",
+      "name_zh": "黏着",
+      "hidden": false
+    },
+    {
+      "name_en": "storm-drain",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 6.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 65,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 76,
+    "attack": 48,
+    "defense": 48,
+    "special_attack": 57,
+    "special_defense": 62,
+    "speed": 34,
+    "total": 325
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 423,
+        "name_en": "gastrodon",
+        "name_zh": "海兔兽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 60,
+    "阿罗拉": 260,
+    "伽勒尔": 230,
+    "洗翠": 82,
+    "帕底亚": 327
+  },
+  "flavor_text_zh": "无壳海兔有西海和东海两种不同的形态。西海头和躯干为粉色，东海头和躯干为天蓝色。另外由于形态的不同，它头上的冠状物和背上的针状物也有所不同，腹部的颜色也有所差异。 无壳海兔栖息在水边，岩岸是它主要的居所。以前它的背上曾有贝壳，与 大舌贝 等宝可梦属于相近的物种。它的颜色和样子会因栖息地不同而有所不同，但能力上并不会看到很大的差异。西海的无壳海兔多数生息在水温较暖的岩岸。东海的无壳海兔则常见于水温较低的岩岸。最近有论文指出，跟过去相比，东海的无壳海兔正在逐渐减少，而西海的无壳海兔的群体似乎更多了。它平常在海里生活，如果只是一定程度的时间，只要皮肤没有干燥也可以在陆地活动。它吃海里的浮游生物，越是生活在斑斓大海的无壳海兔，越是拥有鲜艳的体色。虽然也有人认为它的样子是因吃下的食物而变化的，不过至今仍未得到证实。如果用力按住它柔软的身体就会有神秘的黏糊糊的紫色液体渗出，一旦接触就会粘到手上。虽然液体无害，但即使反复洗也不怎么能洗掉。它感到危险时也会分泌出这种紫色的汁来威吓敌人，人们认为这是类似于虚汗的东西。它的性情意外地亲人，会主动靠近过来，但要小心被它的黏液沾满全身。着眼于无壳海兔强大再生能力的科学家正在分析它细胞的成分。",
+  "flavor_text_en": "Found in abundance on seashores bordering warm waters. Shellos are unexpectedly friendly and will crawl toward any person they see. Take care not to get coated in mucus!",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 422,
+    "pokeapi_species_id": 422,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/422"
+  }
+}

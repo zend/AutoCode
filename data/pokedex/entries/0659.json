@@ -1,0 +1,89 @@
+{
+  "entry_id": "0659",
+  "national_id": 659,
+  "form": "default",
+  "names": {
+    "en": "Bunnelby",
+    "ja": "ホルビー",
+    "zh": "掘掘兔"
+  },
+  "generation": 6,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "あなほりポケモン",
+  "category_zh": "挖洞宝可梦",
+  "abilities": [
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾 / 或 / 颊囊",
+      "hidden": false
+    },
+    {
+      "name_en": "cheek-pouch",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "huge-power",
+      "name_zh": "大力士",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 5.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 47,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 36,
+    "defense": 38,
+    "special_attack": 32,
+    "special_defense": 36,
+    "speed": 57,
+    "total": 237
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 660,
+        "name_en": "diggersby",
+        "name_zh": "掘地兔",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 48,
+    "密阿雷": 13
+  },
+  "flavor_text_zh": "掘掘兔拥有一双有神的大眼睛和标志性的大门牙。灰色的毛发占身体的大部分，褐色的纹路分布在耳朵、后腿及脖子处。它的外观就像是现实的兔子，其耳朵的长度与身子相当，耳朵从尾端岔开，远看就像是有着三个手指的巨大手臂。 掘掘兔擅长用耳朵挖洞，会用大大的耳朵挖掘地面制造巢穴。它可以整晚不休息连续不停地挖，只需一个晚上就能挖出深至地下10米的巢穴。它拥有铁锹一样的耳朵，因挖洞而锻炼过的耳朵威力大得可以切断粗粗的树根。掘掘兔对危险很敏感，只要听到 钢铠鸦 拍打翅膀的声音就会马上挖洞钻进地下藏身。",
+  "flavor_text_en": "It’s very sensitive to danger. The sound of Corviknight’s flapping will have Bunnelby digging a hole to hide underground in moments.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 659,
+    "pokeapi_species_id": 659,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/659"
+  }
+}

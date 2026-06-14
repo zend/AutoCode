@@ -1,0 +1,91 @@
+{
+  "entry_id": "0848",
+  "national_id": 848,
+  "form": "default",
+  "names": {
+    "en": "Toxel",
+    "ja": "エレズン",
+    "zh": "电音婴"
+  },
+  "generation": 8,
+  "types": [
+    "electric",
+    "poison"
+  ],
+  "types_zh": [
+    "电",
+    "毒"
+  ],
+  "category": "あかごポケモン",
+  "category_zh": "婴儿宝可梦",
+  "abilities": [
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯 / 或 / 静电",
+      "hidden": false
+    },
+    {
+      "name_en": "static",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "klutz",
+      "name_zh": "笨拙",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 11.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 48,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 38,
+    "defense": 35,
+    "special_attack": 54,
+    "special_defense": 35,
+    "speed": 40,
+    "total": 242
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 849,
+        "name_en": "toxtricity",
+        "name_zh": "颤弦蝾螈",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 310,
+    "帕底亚": 198
+  },
+  "flavor_text_zh": "电音婴是一只紫色的蝾螈，它的下部和尾巴有浅紫色的尿布状包裹。电音婴的头上有四个突起，额头上有白色闪电，肚皮，脸颊和手掌是白色。它的手指和脚趾都为两根。 电音婴任性且非常爱撒娇。它喝了污水也安然无恙，那是因为它能靠着体内的器官把污水过滤成对自己无害的毒液。它通过让自身的毒素产生化学反应来发电。电力虽然弱，却能造成麻痹，一旦触碰它就会感到麻麻的。它体内的两个囊袋分别储存毒和电，会从皮肤把体内的毒囊里储存着的毒素分泌出来。",
+  "flavor_text_en": "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 848,
+    "pokeapi_species_id": 848,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/848"
+  }
+}

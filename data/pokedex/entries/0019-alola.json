@@ -1,0 +1,92 @@
+{
+  "entry_id": "0019-alola",
+  "national_id": 19,
+  "form": "alola",
+  "names": {
+    "en": "Rattata",
+    "ja": "コラッタ",
+    "zh": "小拉达（阿罗拉的样子）"
+  },
+  "generation": 1,
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "types_zh": [
+    "恶",
+    "一般"
+  ],
+  "category": "ねずみポケモン",
+  "category_zh": "鼠宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "逃跑",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 51,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 56,
+    "defense": 35,
+    "special_attack": 25,
+    "special_defense": 35,
+    "speed": 72,
+    "total": 253
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 20,
+        "name_en": "raticate",
+        "name_zh": "拉达",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 19,
+    "城都": 17,
+    "阿罗拉": 15
+  },
+  "flavor_text_zh": "小拉达外形是四足行走的老鼠。身体主要为淡紫色，脸颊、下颔直至腹部以及四只脚掌为奶油色。其最大的特征就是两颗大门牙。小拉达长有大耳朵，三角形的眼睛中有红色的眼珠。脸颊长着一根奶油色的长胡须。尾巴微卷。它的门牙又长又锋利，会终生生长，所以必须要保养。如果长得太长，就会因无法进食而饿死。雌性的胡须较短。阿罗拉小拉达的身体是黑色的，腹部的颜色接近于土黄色，在鼻子两侧、耳朵上方以及尾巴上长有纺锤状的特殊毛发。 小拉达戒备心很强，就算睡着的时候也会动耳聆听周围的动静。只要是食物出现的地方，就会在那里定居繁殖，一整天都是在找食物中度过。它有着无论住在什么地方都可以的生命力，繁殖速度很快。虽是常见的宝可梦但也不能掉以轻心，只要看到一只小拉达出没，附近肯定还住着40只以上。它有两颗大门牙，会用牙齿咬穿任何东西进行攻击，锋利的门牙甚至连坚硬的木材都能轻易咬断。因为一生之中都在长牙，所以要靠啃咬坚硬的东西来磨牙。经过比较，人们发现 大牙狸 和小拉达的门牙生长速度不相上下。 大尾立 能袭击到行动敏捷的小拉达。 过去阿罗拉地区曾出现过大量的小拉达，为了解决问题人们引进了它的天敌 猫鼬少 ，小拉达则为了逃离猫鼬少而改变了生活圏子和作息时间。阿罗拉小拉达主要栖息在城市里，属于夜行性，由数十只组成群体生活，为了给群落老大阿罗拉 拉达 寻找好的食物而在街上跑来跑去。它会为了寻找食物每天夜里用门牙咬破大门侵入民宅，它的大量出现已经成为了社会问题。胡子造就了它敏锐的嗅觉，靠闻气味就能马上发现被藏起来的食物放在何处来进行盗窃。阿罗拉小拉达对于新鲜的东西或是美味料理所散发出的香味，有着非常出色的分辨能力。它对于不新鲜的东西是完全没有兴趣的，如果带它去买东西，在挑选食材时会很有帮助。 [ 1 ]",
+  "flavor_text_en": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10091,
+    "pokeapi_species_id": 19,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10091"
+  }
+}

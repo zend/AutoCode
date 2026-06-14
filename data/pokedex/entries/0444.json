@@ -1,0 +1,99 @@
+{
+  "entry_id": "0444",
+  "national_id": 444,
+  "form": "default",
+  "names": {
+    "en": "Gabite",
+    "ja": "ガバイト",
+    "zh": "尖牙陆鲨"
+  },
+  "generation": 4,
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "types_zh": [
+    "龙",
+    "地面"
+  ],
+  "category": "ほらあなポケモン",
+  "category_zh": "洞穴宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": false
+    },
+    {
+      "name_en": "rough-skin",
+      "name_zh": "粗糙皮肤",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 56.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 144,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 90,
+    "defense": 65,
+    "special_attack": 50,
+    "special_defense": 55,
+    "speed": 82,
+    "total": 410
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 443,
+        "name_en": "gible",
+        "name_zh": "圆陆鲨",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 445,
+        "name_en": "garchomp",
+        "name_zh": "烈咬陆鲨",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 110,
+    "阿罗拉": 239,
+    "洗翠": 188,
+    "帕底亚": 127,
+    "北上": 165,
+    "密阿雷": 129
+  },
+  "flavor_text_zh": "尖牙陆鲨靠双足行走，外形酷似鲨鱼。它全身底色深蓝，从下颚到腹部中部为红色，腹部下部为蓝灰色。它头上长着两个突起物，每个突起物上都有一圈蓝灰色条纹。它的身上共有四个鳍，前臂各一个，背部一个，尾部一个。它的双爪为白色单趾，双脚为三趾，大腿上长有相连的锯齿状白色骨刺。雄性尖牙陆鲨的背鳍有缺口。 尖牙陆鲨会从头部左右两边的突起物发出超音波，观察漆黑洞窟中的状况。它最喜欢闪闪发光的东西，所以会把在扩大巢穴时在洞窟里找到的宝贝都积存到自己的巢穴中。因此觊觎宝石而来的像 黑暗鸦 这样的小偷络绎不绝。它会一直呆在巢穴里，盯着宝石和捕捉到的 小碎钻 。如果发现正在攻击小碎钻的 勾魂眼 ，就会非常生气地发动袭击。入侵者闯入洞窟后，会立刻被它用爪子和牙齿撕碎。虽然是种性情凶暴的宝可梦，但只要将它感兴趣的玻璃珠给它，它就会立刻变得温顺可亲。它会反复蜕皮变大，将脱落的鳞片磨成粉可以作为中药的原料。其成分中所含的药物成分可以让疲劳的身体活力四射，自古以来人们就相信用尖牙陆鲨的鳞片做成的药可以治愈不治之症。",
+  "flavor_text_en": "Though Gabite are usually of a violent disposition, when I gave one a glass bead it had been eyeing covetously, it suddenly became quite docile.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 444,
+    "pokeapi_species_id": 444,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/444"
+  }
+}

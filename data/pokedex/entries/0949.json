@@ -1,0 +1,81 @@
+{
+  "entry_id": "0949",
+  "national_id": 949,
+  "form": "default",
+  "names": {
+    "en": "Toedscruel",
+    "ja": "リククラゲ",
+    "zh": "陆地水母"
+  },
+  "generation": 9,
+  "types": [
+    "ground",
+    "grass"
+  ],
+  "types_zh": [
+    "地面",
+    "草"
+  ],
+  "category": "きくらげポケモン",
+  "category_zh": "木耳宝可梦",
+  "abilities": [
+    {
+      "name_en": "mycelium-might",
+      "name_zh": "菌丝之力",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 58.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 180,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "special_attack": 80,
+    "special_defense": 120,
+    "speed": 100,
+    "total": 515
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 948,
+        "name_en": "toedscool",
+        "name_zh": "原野水母",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 245,
+    "北上": 75
+  },
+  "flavor_text_zh": "陆地水母看起来像 毒刺水母 ，其实是截然不同的种类。 陆地水母会在森林深处建造集体生活用的聚落，非常厌恶有外来者靠近。它会用10根触手缠住敌人并吸取养分来折磨对方。下摆的褶皱是很受欢迎的珍味佳肴。",
+  "flavor_text_en": "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 949,
+    "pokeapi_species_id": 949,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/949"
+  }
+}

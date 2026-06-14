@@ -1,0 +1,91 @@
+{
+  "entry_id": "0234",
+  "national_id": 234,
+  "form": "default",
+  "names": {
+    "en": "Stantler",
+    "ja": "オドシシ",
+    "zh": "惊角鹿"
+  },
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "おおツノポケモン",
+  "category_zh": "大角宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 71.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 163,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 73,
+    "attack": 95,
+    "defense": 62,
+    "special_attack": 85,
+    "special_defense": 65,
+    "speed": 85,
+    "total": 465
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 899,
+        "name_en": "wyrdeer",
+        "name_zh": "诡角鹿",
+        "trigger": "agile-style-move"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 129,
+    "洗翠": 49,
+    "帕底亚": 204,
+    "北上": 53
+  },
+  "flavor_text_zh": "惊角鹿身形壮硕，全身呈棕色，腹部呈米色，背上还有两处米色的小斑点，尾巴呈巨大的团状。脸部和身上的颜色一样，都是棕色，但口鼻部分呈深棕色，两颊有看似颊囊的构造。圆环形的双角中间各有一个黑色的球。 惊角鹿角的曲度可以微妙地改变周围空气的流动，制造出一个神奇的空间。它形状怪异的犄角蕴含迷惑他人之力，如果盯着它的角看就会产生一种似乎要被吸入圆心的神奇感觉，无法用自己的力量站稳。据说在过去外敌众多的严苛环境下，它的精神力量似乎比现在还要强，甚至还靠着自己的力量进化过。从它的角上脱落的黑珠在磨碎后可以入药，用以治疗失眠。由于形状完美的角作为艺术品可以卖出高价钱，因此该宝可梦曾遭滥捕差点灭绝。",
+  "flavor_text_en": "Its strangely shaped antlers have the power to bewitch those who see them. Medicine made by grinding up the black orbs from fallen antlers is an effective treatment for insomnia.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 234,
+    "pokeapi_species_id": 234,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/234"
+  }
+}

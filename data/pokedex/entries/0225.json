@@ -1,0 +1,86 @@
+{
+  "entry_id": "0225",
+  "national_id": 225,
+  "form": "default",
+  "names": {
+    "en": "Delibird",
+    "ja": "デリバード",
+    "zh": "信使鸟"
+  },
+  "generation": 2,
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "types_zh": [
+    "冰",
+    "飞行"
+  ],
+  "category": "はこびやポケモン",
+  "category_zh": "搬运宝可梦",
+  "abilities": [
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲 / 或 / 活力",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "insomnia",
+      "name_zh": "不眠",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 16.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 116,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 55,
+    "defense": 45,
+    "special_attack": 65,
+    "special_defense": 45,
+    "speed": 75,
+    "total": 330
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "城都": 190,
+    "阿罗拉": 81,
+    "伽勒尔": 78,
+    "帕底亚": 354,
+    "密阿雷": 168
+  },
+  "flavor_text_zh": "信使鸟是一只红色的，拥有空心尾巴的宝可梦。它的脸部和胸前覆盖着白色的羽毛，在眼睛上有着两三处突出的鬃毛。它的眼睛周围有一圈黑色的标记，有着亮黄色的喙和脚，肚子上有一个白色的点。它的每只脚上各有两个趾。 信使鸟会用尾巴将食物裹起来运送，尾巴最大的信使鸟就是群体里的老大。为了在峭壁顶端巢穴里的等待着的雏鸟们，它总是在搬运食物，遇到袭击时，会丢出身上带着的食物来保护自己。因为有跟人类及宝可梦分享自己食物的习性，所以一直都在到处寻找食物。如果有人受困山中，它就会把自己的食物分出一部分来救助他们，据说曾有遇险的人因为信使鸟的食物而得救。因为它是杂食性的宝可梦，所以有时会把虫宝可梦分给对方。有的冒险家多亏了从信使鸟那里分到了食物，所以才登上了珠穆朗玛峰。它原本很喜欢寒冷的地方，但是阿罗拉的信使鸟好像即便是有点儿炎热也能忍耐。",
+  "flavor_text_en": "It has a generous habit of sharing its food with people and Pokémon, so it’s always scrounging around for more food.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 225,
+    "pokeapi_species_id": 225,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/225"
+  }
+}

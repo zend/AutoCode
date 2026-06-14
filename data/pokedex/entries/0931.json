@@ -1,0 +1,80 @@
+{
+  "entry_id": "0931",
+  "national_id": 931,
+  "form": "default",
+  "names": {
+    "en": "Squawkabilly",
+    "ja": "イキリンコ",
+    "zh": "怒鹦哥"
+  },
+  "generation": 9,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "インコポケモン",
+  "category_zh": "鹦鹉宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "guts",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 2.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 146,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 82,
+    "attack": 96,
+    "defense": 51,
+    "special_attack": 45,
+    "special_defense": 51,
+    "speed": 92,
+    "total": 417
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 113
+  },
+  "flavor_text_zh": "怒鹦哥喜欢栖息在街道上，会以羽毛的颜色来组队，然后展开领地之争。它还会与 小箭雀 争地盘，而在街上展开大混战。它不擅长单独行动，庞大的队里成员能超过50只，觅食时会在街上或森林里吵吵闹闹地四处盘旋。它的凝聚力很强，靠着与伙伴互相合作而生存了下来。它的性情和战斗方式都很粗暴，会冲进对手的怀里，用自己的肉身发动攻击。 绿色比其他颜色更易遗传，因此个体数很多。拥有绿色羽毛的怒鹦哥势力最为庞大。在觅食时段的早晨和夜晚会非常吵。蓝色羽毛的群体个体数位居第二，仅次于绿色的队。把势力最大的绿色羽毛的群体视为竞争对手，非常敌视绿队。黄色的怒鹦哥最为粗暴。有时还会把其他鸟宝可梦赶出城镇。为了不被个体数多的队看不起，黄色的怒鹦哥变得越来越有攻击性。虽然白色的怒鹦哥数量最少，但由于能融入建筑物的颜色里，因此在城镇中生活起来很容易。它们是个体数最少，不喜欢争执的队。但紧急时刻勇猛果敢。",
+  "flavor_text_en": "Green-feathered flocks hold the most sway. When they’re out searching for food in the mornings and evenings, it gets very noisy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 931,
+    "pokeapi_species_id": 931,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/931"
+  }
+}

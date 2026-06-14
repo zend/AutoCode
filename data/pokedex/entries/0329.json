@@ -1,0 +1,93 @@
+{
+  "entry_id": "0329",
+  "national_id": 329,
+  "form": "default",
+  "names": {
+    "en": "Vibrava",
+    "ja": "ビブラーバ",
+    "zh": "超音波幼虫"
+  },
+  "generation": 3,
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "types_zh": [
+    "地面",
+    "龙"
+  ],
+  "category": "しんどうポケモン",
+  "category_zh": "震动宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 15.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "虫",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 70,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 70,
+    "total": 340
+  },
+  "ev_yield": {
+    "attack": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 328,
+        "name_en": "trapinch",
+        "name_zh": "大颚蚁",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 330,
+        "name_en": "flygon",
+        "name_zh": "沙漠蜻蜓",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 117,
+    "阿罗拉": 236,
+    "伽勒尔": 322,
+    "蓝莓": 45
+  },
+  "flavor_text_zh": "超音波幼虫外貌像蚊子，有着土黄色的身体。它有绿色的翅膀，绿色的尾巴和一双大大的绿色眼睛。 超音波幼虫的翅膀还在发育中，无法作长距离飞行。还不发达的翅膀，比起飞行，反而更多地用于通过摩擦产生超音波攻击敌人。它会剧烈地振动翅膀来产生超音波使猎物昏迷，把晕厥的猎物活埋在沙子里保存。为了让翅膀成长，每天要用消化液溶化并吸食大量的猎物。其２根翅膀高速振动产生的超音波会引起剧烈的头痛，呆在一起的训练家有必要准备好耳塞。",
+  "flavor_text_en": "To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 329,
+    "pokeapi_species_id": 329,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/329"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entry_id": "0731",
+  "national_id": 731,
+  "form": "default",
+  "names": {
+    "en": "Pikipek",
+    "ja": "ツツケラ",
+    "zh": "小笃儿"
+  },
+  "generation": 7,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "きつつきポケモン",
+  "category_zh": "啄木鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 连续攻击",
+      "hidden": false
+    },
+    {
+      "name_en": "skill-link",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 53,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 75,
+    "defense": 30,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 65,
+    "total": 265
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 732,
+        "name_en": "trumbeak",
+        "name_zh": "喇叭啄鸟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 10,
+    "蓝莓": 47
+  },
+  "flavor_text_zh": "小笃儿是类似啄木鸟外形的宝可梦。它全身呈黑色，头部有著白色的羽毛和蓝色的眼睛，头顶前端有一条带状的羽毛，后端则主要为黑色。小笃儿的喙黑灰相间，并有一对灰色的鸟爪。它拥有看着很细，却很强韧的颈部肌肉。 小笃儿的鸟嘴可以在1秒间连续啄16次，其威力别说是坚硬的树木，就连岩石也能粉碎。它会用坚硬的鸟嘴啄树木，在树干上啄开的洞穴被它用作收藏食物的仓库和巢穴。 电飞鼠 也会以小笃儿啄空的树洞为主要巢穴。不过 铁甲蛹 的外壳非常坚硬，即使受到小笃儿的啄击也能安然无恙。由于喜欢会发光的物品，它会把这些物品和食物储存在一起，因此“会有找寻遗失物品时，先搜寻小笃儿的巢穴吧”的说法。树果是小笃儿的食物，它会向在远处的对手发射种子进行攻击。其威力甚至可以陷入树干。但有时也会被 烈箭鹰 从空中打落到地面捕食。小笃儿会通过利用鸟嘴啄木的声音，和伙伴取得交流。它可以清楚分辨警告讯号和与伙伴打招呼的啄木声，也会让其训练家知悉。通过啄击的节奏，大致就能知道它当时的心情和身体状况。 [ 1 ]",
+  "flavor_text_en": "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 731,
+    "pokeapi_species_id": 731,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/731"
+  }
+}

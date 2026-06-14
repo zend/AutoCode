@@ -1,0 +1,94 @@
+{
+  "entry_id": "0687",
+  "national_id": 687,
+  "form": "default",
+  "names": {
+    "en": "Malamar",
+    "ja": "カラマネロ",
+    "zh": "乌贼王"
+  },
+  "generation": 6,
+  "types": [
+    "dark",
+    "psychic"
+  ],
+  "types_zh": [
+    "恶",
+    "超能力"
+  ],
+  "category": "ぎゃくてんポケモン",
+  "category_zh": "倒转宝可梦",
+  "abilities": [
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调",
+      "hidden": false
+    },
+    {
+      "name_en": "suction-cups",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 47.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 80,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 169,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 86,
+    "attack": 92,
+    "defense": 88,
+    "special_attack": 68,
+    "special_defense": 75,
+    "speed": 73,
+    "total": 482
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 686,
+        "name_en": "inkay",
+        "name_zh": "好啦鱿",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 291,
+    "蓝莓": 81,
+    "密阿雷": 160
+  },
+  "flavor_text_zh": "乌贼王的外形就像是乌贼一样，但却拥有双腿，可以直立行走，头部的八根触手如同头发一样，而左右两侧则是有着如同双手般的鳍，在这对鳍的末端还有着锋利无比、如同利刃一般的结构存在，足以轻易撕裂猎物。 乌贼王会使用宝可梦中最强的催眠术，按自己的意愿操纵对手，用此来做坏事者源源不断。它会让身体上的花纹发光，操纵猎物引诱其靠近。它通过闪烁发光体来让对手陷入催眠状态，并自由自在地控制对手。由于它的催眠术过于强大，所以对手会失去被控制前后那段时间的记忆。它会在对手靠近后用头部的触手缠住它，然后泼洒消化液将其了结。据说那些能够改变历史的重大事件其实都和乌贼王的催眠能力有关。 乌贼王超级进化之后大脑变得巨大，大幅提升的精神力量从体内溢出，闪耀着光芒。这种鲜艳的光芒能够进一步提高强力催眠术的效果，甚至拥有能改写人格和记忆，使对方判若两人的可怕力量。它性格狡猾且傲慢，发着光芒摇来摇去的指尖能够读取周围生物的情感。它偏好用高智商冷静地分析战局，同时高效作战。它甚至会把训练家当做自己的棋子，一旦训练家下达违背它意志的指示，它有时就会立刻对训练家施加催眠术，因此是非常难以相处的宝可梦。 [ 1 ]",
+  "flavor_text_en": "It’s said that Malamar’s hypnotic powers played a role in certain history-changing events.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 687,
+    "pokeapi_species_id": 687,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/687"
+  }
+}

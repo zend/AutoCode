@@ -1,0 +1,78 @@
+{
+  "entry_id": "0626",
+  "national_id": 626,
+  "form": "default",
+  "names": {
+    "en": "Bouffalant",
+    "ja": "バッフロン",
+    "zh": "爆炸头水牛"
+  },
+  "generation": 5,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ずつきうしポケモン",
+  "category_zh": "头锤牛宝可梦",
+  "abilities": [
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身 / 或 / 食草",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "soundproof",
+      "name_zh": "隔音",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 94.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 110,
+    "defense": 95,
+    "special_attack": 40,
+    "special_defense": 95,
+    "speed": 55,
+    "total": 490
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 132
+  },
+  "flavor_text_zh": "爆炸头水头部的鬃毛像爆炸头一般。它还有一对硕大的角，角上有黄色条纹。此外，爆炸头水牛有褐色的身体和黄色的眼睛。 爆炸头水牛会以约20只的规模群居。不知为何，背叛了族群的爆炸头水牛脑袋上的毛会脱落。它能一往无前地猛冲并使出头锤，仅凭头锤就能把汽车撞个粉碎，拥有让奔跑的列车脱轨的破坏力。不过即使使出猛烈的头锤，蓬松的体毛也会将伤害都吸收掉。头上那团毛的体积越大，在族群中的地位就会越高。",
+  "flavor_text_en": "These Pokémon live in herds of about 20 individuals. Bouffalant that betray the herd will lose the hair on their heads for some reason.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 626,
+    "pokeapi_species_id": 626,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/626"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "entry_id": "0671",
+  "national_id": 671,
+  "form": "default",
+  "names": {
+    "en": "Florges",
+    "ja": "フラージェス",
+    "zh": "花洁夫人"
+  },
+  "generation": 6,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "ガーデンポケモン",
+  "category_zh": "花园宝可梦",
+  "abilities": [
+    {
+      "name_en": "flower-veil",
+      "name_zh": "花幕",
+      "hidden": false
+    },
+    {
+      "name_en": "symbiosis",
+      "name_zh": "共生",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 10.0,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 248,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 65,
+    "defense": 68,
+    "special_attack": 112,
+    "special_defense": 154,
+    "speed": 75,
+    "total": 552
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 670,
+        "name_en": "floette",
+        "name_zh": "花叶蒂",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 147,
+    "密阿雷": 40
+  },
+  "flavor_text_zh": "与 花蓓蓓 一样，与花洁夫人共生的花朵颜色有5种，与进化前相同。花洁夫人外表看起来就像是一朵拟人化的花朵，身体的下半部分有着类似茎叶的结构，而头部则看起来像是一朵花，根据形态的不同，花洁夫人身上的花以及身体的颜色也会因此发生改变，花洁夫人有着纤细的身体，看起来就像是人类女性一般。花洁夫人只有雌性，没有与它对应的雄性宝可梦。 花洁夫人的领地是漂亮的花园，会在自己的地盘内打造出漂亮的花园。虽然性情慈悲为怀，但对于破坏花园的家伙也绝不留情。它会狠狠地教训糟蹋花草的家伙，即使求饶也会被它穷追不舍，会如同炮台般发射威力强大的光束来展开攻击。它拥有几百年的寿命，据说会终其一生不断地守护着庭园，曾有花洁夫人持续保护城堡的庭院长达300年以上。过去的城堡主人们为了装饰庭园而招待花洁夫人进入，会精心培育花洁夫人，让其建造花园。它沐浴着花草释放的能量，作为自己的力量，据说由它打造的花园中会源源不断地倾注着能够治愈身心的力量。它会操纵自己培育的花，所释放的落英缤纷，其美貌和力量都是压倒性的。过去蓝色的颜料价格十分昂贵，因此画有蓝色个体的绘画拥有极高的价值。白花的花洁夫人打造的花园由色彩缤纷的花草点缀，十分美丽动人。由白花装饰的个体也能与各种不同的颜色同步波长，激发力量。 红花 橙花 蓝花 白花 黄花",
+  "flavor_text_en": "Its life can span several hundred years. It’s said to devote its entire life to protecting gardens.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 671,
+    "pokeapi_species_id": 671,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/671"
+  }
+}

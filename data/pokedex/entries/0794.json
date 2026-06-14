@@ -1,0 +1,69 @@
+{
+  "entry_id": "0794",
+  "national_id": 794,
+  "form": "default",
+  "names": {
+    "en": "Buzzwole",
+    "ja": "マッシブーン",
+    "zh": "爆肌蚊"
+  },
+  "generation": 7,
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "types_zh": [
+    "虫",
+    "格斗"
+  ],
+  "category": "ぼうちょうポケモン",
+  "category_zh": "膨胀宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.4,
+  "weight_kg": 333.6,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 107,
+    "attack": 139,
+    "defense": 139,
+    "special_attack": 53,
+    "special_defense": 53,
+    "speed": 79,
+    "total": 570
+  },
+  "ev_yield": {
+    "attack": 1,
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 294
+  },
+  "flavor_text_zh": "爆肌蚊是究极异兽的一种，代号为“ＵＢ０２：膨胀”。它是一种类似于大型人造蚊子的红色宝可梦，全身被膨胀的骇人肌肉覆盖着。它看起来一身鼓胀的肌肉，似乎是充满红色液体，有白色的小气泡上升的囊泡。爆肌蚊的身体也有黑色的尖刺，特别是肩膀，手肘和膝盖。它的头小而扁平，那两个黑色的球形底关节之间有红色和黑色的触角，在这些关节中突出的是一个长长的嘴巴，据说比钻石更加坚硬。它有两对橙色的腿，半透明的翅膀。 爆肌蚊是从其他世界出现的究极异兽。它在这个世界是很危险的异类，但在原本栖息的世界好像只是寻常能见的生物。它会向人展现自己的身体，炫耀膨胀到异常程度的肌肉，但不知道是出于自豪还是威吓。它利用这肌肉释放全部能量的拳头有着难以估计的威力，被目击到了一拳把翻斗车打得粉碎的光景。有时它也会用长长的嘴巴作攻击的用途。 [ 1 ] 根据 碧珂 的研究，其最大的特征是具有强化能力。爆肌蚊拥有吸收能量的能力，吸收的能量会和体液发生化学反应。结果导致了爆肌蚊的身体爆发性地膨胀起来。肌肉变粗，密度增大，变成了超越钢铁的强度。据了解，攻防能力也随之飞跃性地提升了。另外，具有采取行动时摆姿势的习性。人们认为这是交流的方式，但详细原因不明。",
+  "flavor_text_en": "Buzzwole goes around showing off its abnormally swollen muscles. It is one kind of Ultra Beast.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 794,
+    "pokeapi_species_id": 794,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/794"
+  }
+}

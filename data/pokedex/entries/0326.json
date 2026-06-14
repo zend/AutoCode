@@ -1,0 +1,90 @@
+{
+  "entry_id": "0326",
+  "national_id": 326,
+  "form": "default",
+  "names": {
+    "en": "Grumpig",
+    "ja": "ブーピッグ",
+    "zh": "噗噗猪"
+  },
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "あやつりポケモン",
+  "category_zh": "操纵宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 我行我素",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 71.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 165,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 45,
+    "defense": 65,
+    "special_attack": 90,
+    "special_defense": 110,
+    "speed": 80,
+    "total": 470
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 325,
+        "name_en": "spoink",
+        "name_zh": "跳跳猪",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 111,
+    "帕底亚": 112,
+    "北上": 126
+  },
+  "flavor_text_zh": "噗噗猪是一头双足行走的猪，头上有两颗黑色的小珍珠。它的耳朵、胳膊、腿和肚子和臀部是黑色的，耳朵内部、鼻子和长长的尾巴是粉红色的，其余都是紫色。它的身体中央也出现了一颗黑色的珍珠，比头上的略扁。 噗噗猪额头上的黑珍珠是珍贵的宝石，拥有艺术品的价值。它会将力量累积在额头上的黑珍珠里，用它增强精神力量的波动来随意操纵对手。当它利用黑珍珠使出神奇力量操控对手的时候会跳起奇妙的舞步，这舞步很久以前在国外十分流行。使出力量的时候它的鼻息会变得粗重。",
+  "flavor_text_en": "Grumpig uses the black pearls on its body to wield its fantastic powers. When it is doing so, it dances bizarrely. This Pokémon’s black pearls are valuable as works of art.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 326,
+    "pokeapi_species_id": 326,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/326"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "entry_id": "0702",
+  "national_id": 702,
+  "form": "default",
+  "names": {
+    "en": "Dedenne",
+    "ja": "デデンネ",
+    "zh": "咚咚鼠"
+  },
+  "generation": 6,
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "types_zh": [
+    "电",
+    "妖精"
+  ],
+  "category": "アンテナポケモン",
+  "category_zh": "天线宝可梦",
+  "abilities": [
+    {
+      "name_en": "cheek-pouch",
+      "name_zh": "颊囊 / 或 / 捡拾",
+      "hidden": false
+    },
+    {
+      "name_en": "pickup",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "plus",
+      "name_zh": "正电",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 2.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 151,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 67,
+    "attack": 58,
+    "defense": 57,
+    "special_attack": 81,
+    "special_defense": 67,
+    "speed": 101,
+    "total": 431
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 200,
+    "密阿雷": 51
+  },
+  "flavor_text_zh": "咚咚鼠外形像只老鼠。它有着圆滚滚的身体，脑袋上长着两个花瓣形的耳朵，脸颊两边红色的电囊上有似天线一样的触须。上面的胡子是探索周边的感应器，下面长出的胡子是释放电的器官。尾巴像一根黑色的细绳。身体呈橘黄色。 咚咚鼠的胡子起着天线的作用，可以用它来收发电波并与远处的伙伴保持联络，通过这种方式告诉彼此哪里有食物和电。由于体型娇小，它的发电器官尚未发达，发电的能力弱，电力变少时会蜷缩起来睡觉。它喜欢吸食电力，平时住在人类生活的区域，潜入民居用尾巴从插座或其他的电气宝可梦那里偷电，然后从胡子射出电击来。电费很奇怪的时候，就是这家伙的杰作。",
+  "flavor_text_en": "Since Dedenne can’t generate much electricity on its own, it steals electricity from outlets or other electric Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 702,
+    "pokeapi_species_id": 702,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/702"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "entry_id": "0829",
+  "national_id": 829,
+  "form": "default",
+  "names": {
+    "en": "Gossifleur",
+    "ja": "ヒメンカ",
+    "zh": "幼棉棉"
+  },
+  "generation": 8,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "はなかざりポケモン",
+  "category_zh": "花饰宝可梦",
+  "abilities": [
+    {
+      "name_en": "cotton-down",
+      "name_zh": "棉絮 / 或 / 再生力",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "effect-spore",
+      "name_zh": "孢子",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 2.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 50,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 60,
+    "speed": 10,
+    "total": 250
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 830,
+        "name_en": "eldegoss",
+        "name_zh": "白蓬蓬",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 126
+  },
+  "flavor_text_zh": "幼棉棉的头顶的黄色花朵有着五片花瓣，五片红色的托叶如同头发一般长在身后。 幼棉棉喜欢住在水和空气都干净的地方，它的花粉具有治愈效果，这种治愈效果对人类也有效。所以在伽勒尔地区流传着一种民间疗法，那就是让身体不舒服的小孩喝下用幼棉棉的花粉熬煮出来的药汤。为了采集它的花粉，有时 萌虻 也会在它附近飞来飞去。幼棉棉会随风飘移，进行长距离移动，一边转圈圈一边愉快地唱歌。这时它会通过调整身体的朝向，或是使用花瓣来控制自身前进的方向。当它把单脚扎进地面里，并且沐浴充分的阳光，花瓣就会染上鲜艳的颜色。许多人因为喜欢它可爱的模样而培育它。 [ 1 ]",
+  "flavor_text_en": "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 829,
+    "pokeapi_species_id": 829,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/829"
+  }
+}

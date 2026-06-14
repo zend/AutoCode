@@ -1,0 +1,70 @@
+{
+  "entry_id": "0649",
+  "national_id": 649,
+  "form": "default",
+  "names": {
+    "en": "Genesect",
+    "ja": "ゲノセクト",
+    "zh": "盖诺赛克特"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "types_zh": [
+    "虫",
+    "钢"
+  ],
+  "category": "こせいだいポケモン",
+  "category_zh": "古生代宝可梦",
+  "abilities": [
+    {
+      "name_en": "download",
+      "name_zh": "下载",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 82.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 71,
+    "attack": 120,
+    "defense": 95,
+    "special_attack": 120,
+    "special_defense": 95,
+    "speed": 99,
+    "total": 600
+  },
+  "ev_yield": {
+    "attack": 1,
+    "special_attack": 1,
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 155
+  },
+  "flavor_text_zh": "盖诺赛克特为巨型虫类，紫色的铠甲包裹着它的身体。它可以将身体收拢变为高速飞行形态。它的背上装有威力惊人的巨炮，可以在上面插上不同属性的卡带。 盖诺赛克特是3亿年前就存在的古代的虫宝可梦，以最强猎手的身份受到畏惧。它被等离子队改造后在背上安装了炮台，背上的大炮力量得到了提升。装上填充了水能量的卡带的样子会以飞行形态在空中飞翔。装上填充了电能量的卡带的样子会发射能量弹。装上填充了火能量的卡带的样子拥有锐利的钢爪。装上填充了冰能量的卡带的样子毫无慈悲之心。从“通常形态”变形为“高速飞行形态”的盖诺赛克特能够大幅度提高速度 [ 1 ] 。",
+  "flavor_text_en": "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 649,
+    "pokeapi_species_id": 649,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/649"
+  }
+}

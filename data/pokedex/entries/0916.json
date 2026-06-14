@@ -1,0 +1,88 @@
+{
+  "entry_id": "0916",
+  "national_id": 916,
+  "form": "default",
+  "names": {
+    "en": "Oinkologne",
+    "ja": "パフュートン",
+    "zh": "飘香豚"
+  },
+  "generation": 9,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ぶたポケモン",
+  "category_zh": "猪宝可梦",
+  "abilities": [
+    {
+      "name_en": "lingering-aroma",
+      "name_zh": "甩不掉的气味",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 120.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 100,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 171,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 100,
+    "defense": 75,
+    "special_attack": 59,
+    "special_defense": 80,
+    "speed": 65,
+    "total": 489
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 915,
+        "name_en": "lechonk",
+        "name_zh": "爱吃豚",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 11
+  },
+  "flavor_text_zh": "不同性别的飘香豚外观上有明显差异。雄性飘香豚全身的皮肤是黑色的。睫毛和尾尖的毛则是桃红色。它的眼睛下端有黄色的物质。蹄子则是桃红色的。雌性飘香豚的头部则是棕色的，尾尖的毛发分成三节，是粉色的。 雄性飘香豚以自己细致透亮的肌肤为傲。会从尾巴的前端释放出凝缩的香气。从它全身散发出的香甜妖艳的气味会令雌性的宝可梦为它神魂颠倒。雌性飘香豚喜欢干净，个性一丝不苟。它会释放出如花般的香气，让花香包裹全身来治愈周围的宝可梦们。它肌肉发达的腿可以轻而易举地跳过5米高。",
+  "flavor_text_en": "It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 916,
+    "pokeapi_species_id": 916,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/916"
+  }
+}

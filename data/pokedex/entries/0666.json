@@ -1,0 +1,93 @@
+{
+  "entry_id": "0666",
+  "national_id": 666,
+  "form": "default",
+  "names": {
+    "en": "Vivillon",
+    "ja": "ビビヨン",
+    "zh": "彩粉蝶"
+  },
+  "generation": 6,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "types_zh": [
+    "虫",
+    "飞行"
+  ],
+  "category": "りんぷんポケモン",
+  "category_zh": "鳞粉宝可梦",
+  "abilities": [
+    {
+      "name_en": "shield-dust",
+      "name_zh": "鳞粉 / 或 / 复眼",
+      "hidden": false
+    },
+    {
+      "name_en": "compound-eyes",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "friend-guard",
+      "name_zh": "友情防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 17.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 185,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 52,
+    "defense": 50,
+    "special_attack": 90,
+    "special_defense": 50,
+    "speed": 89,
+    "total": 411
+  },
+  "ev_yield": {
+    "hp": 1,
+    "special_attack": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 665,
+        "name_en": "spewpa",
+        "name_zh": "粉蝶蛹",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 37,
+    "密阿雷": 17
+  },
+  "flavor_text_zh": "主页面： 形态变化 → 彩粉蝶 主页面： 彩粉蝶地区分布列表（3DS） 彩粉蝶在外表上形似现实世界的蝴蝶，它们拥有美丽的翅膀以及长长的触角，眼睛和进化前一样都有呈现方型的形状。彩粉蝶翅膀上的斑点位置、花纹形状和整体颜色根据3DS所设定的居住地区的不同而有所不同，其中2种在第六世代只能从官方活动得到，花纹共有20种。彩粉蝶身上的花纹会受到诞生地的气候和风土影响而改变，它们会从翅膀撒出色彩艳丽的毒鳞粉来战斗。 花园花纹 雪国花纹 雪原花纹 大陆花纹 庭园花纹 高雅花纹 冰雪花纹 摩登花纹 大海花纹 群岛花纹 荒野花纹 沙尘花纹 大河花纹 骤雨花纹 热带草原花纹 太阳花纹 大洋花纹 热带雨林花纹 球球花纹 幻彩花纹",
+  "flavor_text_en": "The patterns on this Pokémon’s wings depend on the climate and topography of its habitat. It scatters colorful scales.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 666,
+    "pokeapi_species_id": 666,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/666"
+  }
+}

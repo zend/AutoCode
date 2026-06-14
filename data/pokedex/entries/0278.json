@@ -1,0 +1,96 @@
+{
+  "entry_id": "0278",
+  "national_id": 278,
+  "form": "default",
+  "names": {
+    "en": "Wingull",
+    "ja": "キャモメ",
+    "zh": "长翅鸥"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "types_zh": [
+    "水",
+    "飞行"
+  ],
+  "category": "うみねこポケモン",
+  "category_zh": "海鸥宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 湿润之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "雨盘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 9.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 54,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 30,
+    "special_attack": 55,
+    "special_defense": 30,
+    "speed": 85,
+    "total": 270
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 279,
+        "name_en": "pelipper",
+        "name_zh": "大嘴鸥",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 27,
+    "神奥": 119,
+    "阿罗拉": 40,
+    "伽勒尔": 62,
+    "帕底亚": 132
+  },
+  "flavor_text_zh": "长翅鸥的外形十分小巧，为了轻盈，骨骼空空的。它的主色为白色，尾部、翼均有蓝色的花纹，喙和爪主要为橙黄色，其中喙尖为灰黑色，长长的鸟嘴十分便于衔取食物。长翅鸥的翅膀又细又长，每个羽翼约比身体大二分之一，可能是为了使身体在飞行时更加平衡。 长翅鸥会在海边的悬崖峭壁上筑巢。它不擅长长时间拍动翅膀，而是迎着海风，乘着上升气流像滑翔机一样在空中翱翔。它飞行时嘴里塞着食物，在觅食时也会顺着滑翔的势头冲入水中。它在休息的时候会收拢翅膀。它有用鸟嘴衔着食物和重要的东西，并把它们藏到各处的习性，到了冬天就会把食物藏在巢的周围。在长翅鸥飞来飞去的海下面聚集着成群的鱼宝可梦，所以渔夫会先寻找长翅鸥。它非常爱吃 弱丁鱼 ，有时也会把刚跳出海面的 荧光鱼 叼走。但自己也会被 烈箭鹰 捕食，或被 戽斗尖梭 以强劲的力道咬住。",
+  "flavor_text_en": "It soars on updrafts without flapping its wings. It makes a nest on sheer cliffs at the sea’s edge.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 278,
+    "pokeapi_species_id": 278,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/278"
+  }
+}

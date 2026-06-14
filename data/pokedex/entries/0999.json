@@ -1,0 +1,76 @@
+{
+  "entry_id": "0999",
+  "national_id": 999,
+  "form": "default",
+  "names": {
+    "en": "Gimmighoul",
+    "ja": "コレクレー",
+    "zh": "索财灵"
+  },
+  "generation": 9,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "たからばこポケモン",
+  "category_zh": "宝箱宝可梦",
+  "abilities": [
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 5.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "红色",
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 70,
+    "special_attack": 75,
+    "special_defense": 70,
+    "speed": 10,
+    "total": 300
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 1000,
+        "name_en": "gholdengo",
+        "name_zh": "赛富豪",
+        "trigger": "gimmighoul-coins"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 391
+  },
+  "flavor_text_zh": "宝箱形态的索财灵的外表看似宝箱，乍看上去难以看出是宝可梦。 宝箱形态的索财灵大约1500年前在宝箱里出生。它隐藏在老旧结实的宝箱中，有很高的防御力。但相对地，因为宝箱非常沉重，它的动作迟缓，不擅长移动。它会潜伏在帕底亚地区各种各样的地方，感觉到人或宝可梦的气息就会埋伏起来，用幽灵能量控制接近它的对象，让其收集硬币。它经常潜伏在仓库或道具店的角落等很少遇到人或宝可梦的地方，因此只要遇到它，就会一直被它控制，难以逃脱。它也经常被误认为是古董，并因此被人带走或卖给古董店。 [ 1 ] 有时也会因没人注意到自己是宝可梦，而被搁置在道具店的角落。若有坏蛋打算偷走宝藏，就会被它吸走精气。 徒步形态的索财灵从渗入硬币里的热情中诞生。它不会隐藏在宝箱中，而是隐藏在帕底亚地区各种各样的地方，似乎会为了回到原本的宝箱里而在四处徘徊。它会吸取试图捡起硬币的人的生命力来维生。小小的它背上背着一枚古老的硬币四处徘徊，只要有人接近就会马上逃跑，因此在帕底亚地区似乎还没有训练家成功捕捉到它。 [ 2 ] 快要被人类或宝可梦发现时，会只留下硬币，让本体变透明来保护自己。",
+  "flavor_text_en": "It lives inside an old treasure chest. Sometimes it gets left in shop corners since no one realizes it’s actually a Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 999,
+    "pokeapi_species_id": 999,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/999"
+  }
+}

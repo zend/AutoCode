@@ -1,0 +1,92 @@
+{
+  "entry_id": "0109",
+  "national_id": 109,
+  "form": "default",
+  "names": {
+    "en": "Koffing",
+    "ja": "ドガース",
+    "zh": "瓦斯弹"
+  },
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "types_zh": [
+    "毒"
+  ],
+  "category": "どくガスポケモン",
+  "category_zh": "毒气宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮 / 或 / 化学变化气体",
+      "hidden": false
+    },
+    {
+      "name_en": "neutralizing-gas",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "stench",
+      "name_zh": "恶臭",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 68,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 95,
+    "special_attack": 60,
+    "special_defense": 45,
+    "speed": 35,
+    "total": 340
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 110,
+        "name_en": "weezing",
+        "name_zh": "双弹瓦斯",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 109,
+    "城都": 114,
+    "丰缘": 108,
+    "伽勒尔": 250,
+    "北上": 135
+  },
+  "flavor_text_zh": "瓦斯弹全身为紫色，有着薄薄的气球状身体。它的身上有凸起，部分凸起会散发出毒气。它的嘴里有两颗向下的尖牙，腹部有一个骷髅形的图案。 瓦斯弹会为了寻求湿垃圾腐烂的气味而来到垃圾场，污浊的空气是它的美味大餐。它通过让湿垃圾和体内的毒素产生化学反应来制造剧毒的瓦斯，薄薄的气球状身体里充满了让人忍不住眼泪、咳嗽和鼻涕的瓦斯。它靠过来的话，会感觉很臭。据说在昔日的伽勒尔地区曾经存在着更多的瓦斯弹。它体内的毒瓦斯的成分比空气要轻一点，因此总是能够稍微飘在空中。在炎热的地方，它体内积攒着的很多有毒的瓦斯会由于膨胀而产生爆炸的危险。气温越高，可以生成的瓦斯就越多，胀成一个圆圆的球后会发生大爆炸。刺激它的话，瓦斯的毒素就会变强，并会从身体各处猛烈喷出。如果接近喷出剧毒的瓦斯弹可以透过薄薄的皮肤看到体内的瓦斯在打转的样子。",
+  "flavor_text_en": "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 109,
+    "pokeapi_species_id": 109,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/109"
+  }
+}

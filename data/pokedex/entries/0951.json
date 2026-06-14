@@ -1,0 +1,88 @@
+{
+  "entry_id": "0951",
+  "national_id": 951,
+  "form": "default",
+  "names": {
+    "en": "Capsakid",
+    "ja": "カプサイジ",
+    "zh": "热辣娃"
+  },
+  "generation": 9,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "ハバネロポケモン",
+  "category_zh": "热辣宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素 / 或 / 不眠",
+      "hidden": false
+    },
+    {
+      "name_en": "insomnia",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "klutz",
+      "name_zh": "笨拙",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 62,
+    "defense": 40,
+    "special_attack": 62,
+    "special_defense": 40,
+    "speed": 50,
+    "total": 304
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 952,
+        "name_en": "scovillain",
+        "name_zh": "狠辣椒",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 250
+  },
+  "flavor_text_zh": "沐浴在太阳下越久，热辣娃体内的辣味成分就会变得越多，招式也会变得越来越辣。或许是受辣味成分影响，它的情绪起伏非常剧烈。若不满便会直接咬过去。帕底亚的当地特色菜会用热辣娃掉落的门牙来做料理，因此味道极其辛辣。",
+  "flavor_text_en": "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 951,
+    "pokeapi_species_id": 951,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/951"
+  }
+}

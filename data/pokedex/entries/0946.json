@@ -1,0 +1,85 @@
+{
+  "entry_id": "0946",
+  "national_id": 946,
+  "form": "default",
+  "names": {
+    "en": "Bramblin",
+    "ja": "アノクサ",
+    "zh": "纳噬草"
+  },
+  "generation": 9,
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "types_zh": [
+    "草",
+    "幽灵"
+  ],
+  "category": "ころがりぐさポケモン",
+  "category_zh": "滚草宝可梦",
+  "abilities": [
+    {
+      "name_en": "wind-rider",
+      "name_zh": "乘风",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 0.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 55,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 30,
+    "special_attack": 45,
+    "special_defense": 35,
+    "speed": 60,
+    "total": 275
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 947,
+        "name_en": "brambleghast",
+        "name_zh": "怖纳噬草",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 242
+  },
+  "flavor_text_zh": "无法升天的灵魂在风的吹拂下被卷进枯草里，变成了纳噬草。它最讨厌身体被弄得湿答答的，会随着风在荒野之间滚动，自己也不知道会滚到哪里去。",
+  "flavor_text_en": "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 946,
+    "pokeapi_species_id": 946,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/946"
+  }
+}

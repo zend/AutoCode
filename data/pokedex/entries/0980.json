@@ -1,0 +1,92 @@
+{
+  "entry_id": "0980",
+  "national_id": 980,
+  "form": "default",
+  "names": {
+    "en": "Clodsire",
+    "ja": "ドオー",
+    "zh": "土王"
+  },
+  "generation": 9,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "types_zh": [
+    "毒",
+    "地面"
+  ],
+  "category": "とげうおポケモン",
+  "category_zh": "刺鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺 / 或 / 储水",
+      "hidden": false
+    },
+    {
+      "name_en": "water-absorb",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "纯朴",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 223.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 151,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 130,
+    "attack": 75,
+    "defense": 60,
+    "special_attack": 45,
+    "special_defense": 100,
+    "speed": 20,
+    "total": 430
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 194,
+        "name_en": "wooper",
+        "name_zh": "乌波",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 54
+  },
+  "flavor_text_zh": "土王有肥胖的深褐色身躯，背部的颜色比腹部还深。它有两个黑点一样的眼睛和一张大嘴。它的背部有六个白色的斑点。 土王栖息在池塘或沼泽的底部。会让 乌波 坐在自己背上，然后游着泳把它送到对岸去。一旦它遭到敌人袭击，就会从躯体伸出粗粗的刺来反击。此招式很危险，需有切断身体承受巨痛的觉悟。",
+  "flavor_text_en": "It lives at the bottom of ponds and swamps. It will carry Wooper on its back and ferry them across water from one shore to the other.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 980,
+    "pokeapi_species_id": 980,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/980"
+  }
+}

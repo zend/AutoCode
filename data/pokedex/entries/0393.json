@@ -1,0 +1,87 @@
+{
+  "entry_id": "0393",
+  "national_id": 393,
+  "form": "default",
+  "names": {
+    "en": "Piplup",
+    "ja": "ポッチャマ",
+    "zh": "波加曼"
+  },
+  "generation": 4,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ペンギンポケモン",
+  "category_zh": "企鹅宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "好胜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 5.2,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 63,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 53,
+    "attack": 51,
+    "defense": 53,
+    "special_attack": 61,
+    "special_defense": 56,
+    "speed": 40,
+    "total": 314
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 394,
+        "name_en": "prinplup",
+        "name_zh": "波皇子",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 7,
+    "洗翠": 161,
+    "蓝莓": 197
+  },
+  "flavor_text_zh": "波加曼类似于企鹅，它的背和头顶都是深蓝色的，拥有一个黄色的喙。波加曼眼睛周围是白色，在眼睛中间还有一个浅蓝色的王冠状图形。它长长的绒毛能抵御寒冷。 波加曼喜爱寒冷，栖息于北国的海岸线。它很擅长游泳，会为寻找食物会在海里潜水超过10分钟。走路时总会跌倒，然而强烈的自尊心让它在任何情况下都能挺起胸膛。它的自尊心很强，非常讨厌被别人照顾。虽然外表如孩童般可爱，但心高气傲，不愿接受来自人类的施舍。因为不听训练家的指示，所以要和它关系变好是很困难的。",
+  "flavor_text_en": "Prefers cold climes and appears along coasts. It's an adorable little thing—as cute as any child—but it's also prideful, unwilling to accept handouts from people.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 393,
+    "pokeapi_species_id": 393,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/393"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "entry_id": "0623",
+  "national_id": 623,
+  "form": "default",
+  "names": {
+    "en": "Golurk",
+    "ja": "ゴルーグ",
+    "zh": "泥偶巨人"
+  },
+  "generation": 5,
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "types_zh": [
+    "地面",
+    "幽灵"
+  ],
+  "category": "ゴーレムポケモン",
+  "category_zh": "魔像宝可梦",
+  "abilities": [
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": false
+    },
+    {
+      "name_en": "klutz",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "no-guard",
+      "name_zh": "无防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.8,
+  "weight_kg": 330.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 90,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 169,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 89,
+    "attack": 124,
+    "defense": 80,
+    "special_attack": 55,
+    "special_defense": 80,
+    "speed": 55,
+    "total": 483
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 622,
+        "name_en": "golett",
+        "name_zh": "泥偶小人",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 129,
+    "伽勒尔": 89,
+    "蓝莓": 124
+  },
+  "flavor_text_zh": "泥偶巨人在外形上类似一个巨大的泥土巨人，它的身上有很多意义不明的螺旋形图案，中间的图案看起来像裂痕一样，有着纽扣状的身体部位。 泥偶巨人是由古时候的人们制造出来用以守护宝可梦和人类。它利用谜一般的能量来活动。作为古代人的劳动力，它很忠实于主人的命令。它能以音速在天空飞行。胸口的封印如果解开，能量就会失控。它会不管不顾地横冲直撞，把街道都变成瓦砾堆。古代人城堡的墙壁里那像炮台一样的底座是为了让泥偶巨人发射光束而建的。虽然有人认为它体内有着生成能量的永动机，但至今仍未得到证实。 超级泥偶巨人体内的能量因为超级进化而活性化，不论何时爆炸都不奇怪。",
+  "flavor_text_en": "There’s a theory that inside Golurk is a perpetual motion machine that produces limitless energy, but this belief hasn’t been proven.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 623,
+    "pokeapi_species_id": 623,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/623"
+  }
+}

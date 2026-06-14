@@ -1,0 +1,81 @@
+{
+  "entry_id": "0561",
+  "national_id": 561,
+  "form": "default",
+  "names": {
+    "en": "Sigilyph",
+    "ja": "シンボラー",
+    "zh": "象征鸟"
+  },
+  "generation": 5,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "types_zh": [
+    "超能力",
+    "飞行"
+  ],
+  "category": "とりもどきポケモン",
+  "category_zh": "似鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "wonder-skin",
+      "name_zh": "奇迹皮肤 / 或 / 魔法防守",
+      "hidden": false
+    },
+    {
+      "name_en": "magic-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "tinted-lens",
+      "name_zh": "有色眼镜",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 14.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 58,
+    "defense": 80,
+    "special_attack": 103,
+    "special_defense": 80,
+    "speed": 97,
+    "total": 490
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 67,
+    "伽勒尔": 297
+  },
+  "flavor_text_zh": "象征鸟拥有一只青色的眼睛，身体的两侧还有着三叉戟状类似耳朵的结构。它有一对翅膀和与翅膀相似的尾巴，翅膀和尾巴都有四根羽毛，每条羽毛上都有蓝色和红色条纹。 象征鸟曾是古代都市的守护神，残存着护卫古代都市时的记忆。它过去一直以相同路线巡视，也有人认为它是守护神的使者。它利用精神力量在空中飞翔，警戒着入侵者，用精神力量攻击入侵领地的敌人。 人们在象征鸟飞过的沙漠的地下调查，结果在那里发现了疑似古代都市的遗迹。",
+  "flavor_text_en": "A discovery was made in the desert where Sigilyph fly. The ruins of what may have been an ancient city were found beneath the sands.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 561,
+    "pokeapi_species_id": 561,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/561"
+  }
+}

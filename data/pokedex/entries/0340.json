@@ -1,0 +1,96 @@
+{
+  "entry_id": "0340",
+  "national_id": 340,
+  "form": "default",
+  "names": {
+    "en": "Whiscash",
+    "ja": "ナマズン",
+    "zh": "鲶鱼王"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "types_zh": [
+    "水",
+    "地面"
+  ],
+  "category": "ひげうおポケモン",
+  "category_zh": "须鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝 / 或 / 危险预知",
+      "hidden": false
+    },
+    {
+      "name_en": "anticipation",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 23.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 164,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 78,
+    "defense": 73,
+    "special_attack": 76,
+    "special_defense": 71,
+    "speed": 60,
+    "total": 468
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 339,
+        "name_en": "barboach",
+        "name_zh": "泥泥鳅",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 128,
+    "神奥": 81,
+    "阿罗拉": 94,
+    "伽勒尔": 229,
+    "洗翠": 98,
+    "帕底亚": 169,
+    "北上": 163
+  },
+  "flavor_text_zh": "鲶鱼王外形类似一条巨大的鲶鱼，皮肤呈深蓝色，腹部呈黄色。它有一副海绵状的浅蓝色嘴唇，嘴角长出一对细长的黄色胡须，前额有一个W型的黄色斑纹。它的胸鳍和腹鳍颜色与皮肤一致，背鳍颜色则为浅蓝色，上面分布着三个黑色斑点。 鲶鱼王是领地意识非常强烈的宝可梦，会在沼泽底部筑巢，把大沼泽全部当做自己的领地。如果有外敌接近，就会剧烈摇晃地面并发动袭击，引发周围5公里范围内的地震以击退对手。它白天都在沼泽底部的泥巴里睡觉，醒来后便会一整晚持续吃着猎物。平常就一直埋伏在沼泽底部一动不动地等待着猎物，只要是活物就来者不拒，是什么都吃的大胃王。它的视力不太好，会通过胡子来感知水的振动，掌握猎物的位置。然后猛烈地摇晃地面，威吓对手，将沼泽底部的猎物连同泥巴一起整个吞下。它也会用尾鳍拍击沼底地面制造震动，趁机吞食因受惊而逃窜的猎物。成群的鲶鱼王在水面上跳跃的景象被认为是地震的前兆。日子一久，它变得能够预知出真正的地震到来，人们因此误以为它是地震的源头。",
+  "flavor_text_en": "Strikes its caudal fin against the swamp bed to shake the ground and startle its prey. It will then swallow the fleeing prey whole. People mistook this behavior as the cause of earthquakes.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 340,
+    "pokeapi_species_id": 340,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/340"
+  }
+}

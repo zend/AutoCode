@@ -1,0 +1,90 @@
+{
+  "entry_id": "0001",
+  "national_id": 1,
+  "form": "default",
+  "names": {
+    "en": "Bulbasaur",
+    "ja": "フシギダネ",
+    "zh": "妙蛙种子"
+  },
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "たねポケモン",
+  "category_zh": "种子宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 6.9,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 64,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 45,
+    "total": 318
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 2,
+        "name_en": "ivysaur",
+        "name_zh": "妙蛙草",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 1,
+    "城都": 226,
+    "蓝莓": 164,
+    "密阿雷": 148
+  },
+  "flavor_text_zh": "妙蛙种子是一只四足爬行的小型生物，整体呈圆润的蓝绿色，皮肤光滑且带有光泽感；头部较大，眼睛大而圆，虹膜为鲜艳的血红色，瞳孔亮白，口鼻部较短，嘴部微张露出两颗白色小尖牙，额头与脸颊分布着深绿色的三角形斑纹；背部共生着一颗巨大的深绿色种子，表面带有清晰的纹理与自然褶皱；四肢短而粗壮，前肢和后肢上均带有深绿色斑块，每只脚长有三根尖锐的白色小爪。 妙蛙种子背上的种子里储存着营养，所以即使好几天不吃东西也可以活得好好的。在它出生后的一段时间内，它会吸收背上种子里储存着的营养成长。有时会看到它在太阳底下睡午觉的样子。在沐浴了充足的阳光后，它背上的种子就会茁壮成长。",
+  "flavor_text_en": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1,
+    "pokeapi_species_id": 1,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1"
+  }
+}

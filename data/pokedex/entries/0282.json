@@ -1,0 +1,98 @@
+{
+  "entry_id": "0282",
+  "national_id": 282,
+  "form": "default",
+  "names": {
+    "en": "Gardevoir",
+    "ja": "サーナイト",
+    "zh": "沙奈朵"
+  },
+  "generation": 3,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "types_zh": [
+    "超能力",
+    "妖精"
+  ],
+  "category": "ほうようポケモン",
+  "category_zh": "包容宝可梦",
+  "abilities": [
+    {
+      "name_en": "synchronize",
+      "name_zh": "同步",
+      "hidden": false
+    },
+    {
+      "name_en": "trace",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 48.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 233,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "humanshape",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "人型",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 125,
+    "special_defense": 115,
+    "speed": 80,
+    "total": 518
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 281,
+        "name_en": "kirlia",
+        "name_zh": "奇鲁莉安",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 31,
+    "神奥": 159,
+    "伽勒尔": 122,
+    "洗翠": 103,
+    "帕底亚": 64,
+    "北上": 59,
+    "密阿雷": 89
+  },
+  "flavor_text_zh": "沙奈朵的身体是白色的，下方裙摆的内侧是绿色的。它的发型变成了卷曲的形状，一直延伸到头的下方，红色的结构移到了胸前和后背。它的手臂是绿色的，手臂与手之间没有明显的界限。超级沙奈朵胸前的红色结构有两个，据说是它实体化的心。它耳边的毛发变得更长了，手臂也变成了白色，下方的裙摆也变得更加蓬松。 沙奈朵是用超能力来支撑着身体的，因此似乎感受不到重力。它有着预知未来的能力，会拼命保护自己所信任的和自己心意相通的训练家。据说在使用预知未来的能力察觉到训练家有危险时，就会发挥出自身最强的精神能量。它还有着用精神力量扭曲空间，制造出小型黑洞的力量。它那一身令人联想起窈窕淑女的纯白装束，可以说是反映了为守护敬爱主人而不惜赌上性命的决心。 超级沙奈朵打开胸部的红板解放心灵，会释放出最强的精神力量。它解放了自己的心之后，就可以释放出强大的超能力。 [ 1 ]",
+  "flavor_text_en": "It will dedicate itself to defending a master it has come to adore. Its pure white dress, reminiscent of those worn by ladies of nobility, is the dress of one who is willing to risk their life.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 282,
+    "pokeapi_species_id": 282,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/282"
+  }
+}

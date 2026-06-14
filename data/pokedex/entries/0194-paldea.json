@@ -1,0 +1,101 @@
+{
+  "entry_id": "0194-paldea",
+  "national_id": 194,
+  "form": "paldea",
+  "names": {
+    "en": "Wooper",
+    "ja": "ウパー",
+    "zh": "乌波（帕底亚的样子）"
+  },
+  "generation": 2,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "types_zh": [
+    "毒",
+    "地面"
+  ],
+  "category": "みずうおポケモン",
+  "category_zh": "水鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "湿气",
+      "hidden": false
+    },
+    {
+      "name_en": "water-absorb",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "纯朴",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 11.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 42,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 45,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 15,
+    "total": 210
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 195,
+        "name_en": "quagsire",
+        "name_zh": "沼王",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 980,
+        "name_en": "clodsire",
+        "name_zh": "土王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 56,
+    "神奥": 117,
+    "伽勒尔": 100,
+    "北上": 5
+  },
+  "flavor_text_zh": "乌波的皮肤是蓝色的，头两边有淡紫色的角。它的肚皮上有三条深蓝色的条纹，有一条薄而有力的尾巴。雌性乌波的触角更短且每个触角上只有一支刺状物。帕底亚乌波的皮肤是棕褐色的，两根角是淡紫色的，分为两叉，肚皮上的三条深褐色花纹被一条竖着的花纹贯穿。 乌波栖息在冰冷的水中，睡觉时会把一半身体埋进水底的泥里面。傍晚天气变凉之后，乌波们就会从水里上来走在水边觅食。附近天气变凉之后，也会来到地上觅食。它为了在地面上行走时不让皮肤干燥，会用透明的粘糊糊的有毒粘膜覆盖在身体表面，空手去摸的话会被麻痹。 帕底亚乌波很久以前似乎生活在帕底亚地区的水中，由于在地盘的争夺中落败而变为到陆地上的泥地生活。它在陆地上生活后，为了防止干燥，变得会使用有毒的粘膜来保护身体了。由于长期在陆地生活，它的腮已变得很坚硬。尽管身体笨重，行动迟缓，它还是能从腮释放出毒液来保护自己。在帕底亚乌波生活的地方，似乎有时能看到中毒的宝可梦。 [ 1 ] 由于单独行动很危险，因此在沼地里行走时会三四只排成一列来彼此协助。 土王 也会让乌波坐在自己背上，然后游着泳把它送到对岸去。",
+  "flavor_text_en": "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10253,
+    "pokeapi_species_id": 194,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10253"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "entry_id": "0791",
+  "national_id": 791,
+  "form": "default",
+  "names": {
+    "en": "Solgaleo",
+    "ja": "ソルガレオ",
+    "zh": "索尔迦雷欧"
+  },
+  "generation": 7,
+  "types": [
+    "psychic",
+    "steel"
+  ],
+  "types_zh": [
+    "超能力",
+    "钢"
+  ],
+  "category": "にちりんポケモン",
+  "category_zh": "日轮宝可梦",
+  "abilities": [
+    {
+      "name_en": "full-metal-body",
+      "name_zh": "金属防护",
+      "hidden": false
+    }
+  ],
+  "height_m": 3.4,
+  "weight_kg": 230.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 137,
+    "attack": 137,
+    "defense": 107,
+    "special_attack": 113,
+    "special_defense": 89,
+    "speed": 97,
+    "total": 680
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 790,
+        "name_en": "cosmoem",
+        "name_zh": "科斯莫姆",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 291
+  },
+  "flavor_text_zh": "索尔迦雷欧有着形似狮子、整体呈白色的外形。它有着蓝灰色的鼻子和淡蓝色的眼睛。脸的上半部分是深蓝色区域，上面显示着不断变化的星象。索尔迦雷欧头顶上的四根金色尖刺如同一顶王冠，另外两对尖刺则装饰着其下颚的两边，并且将类似于太阳形状的鬃毛大簇分开。它的脚踝上有一条深橙色的环带，足中区则镶嵌着黑色的菱形宝石。当索尔迦雷欧进入它的旭日形态时，前额会出现浅蓝色的第三只眼睛，同时星象会变成一条条纵向的光。除了鼻子和眼睛以外，身体其他非白色部位都会变成亮黄色。索尔迦雷欧没有性别，但据说是科斯莫古进化后的雄性。 索尔迦雷欧是 阿罗拉地区 的 传说的宝可梦 。自远古时代起，它就作为太阳之使者备受尊崇，古人以敬畏的心称之为“吞噬太阳之兽”。据说它是栖息在其他世界的，当第三只眼浮现时就会奔向其他世界，有时也会把异世界的能量和生命召唤到这个世界。索尔迦雷欧体内蕴藏着莫大的能量，会一边释放光芒，一边行动。并且拥有大范围伸展的鬃毛，其身姿犹如太阳一般。它会以流星般的气势猛撞对手，可以无视对手的特性进行攻击。在使出“ 流星闪冲 ”或Ｚ招式“ 日光回旋下苍穹 ”之时，索尔迦雷欧会暂时变成 旭日状态 （日文︰ ライジングフェーズ Rising Phase ，英文︰ Radiant Sun Phase ）。当它全身放出猛烈的光芒，变成如同太阳一般的身姿时，便会抹去黑暗，照亮世界，释放出无尽的光能，即使是暗夜也会照得如同白昼。 [ 1 ]",
+  "flavor_text_en": "Solgaleo was once known as the Beast That Devours the Sun. Energy in the form of light radiates boundlessly from it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 791,
+    "pokeapi_species_id": 791,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/791"
+  }
+}

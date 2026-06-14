@@ -1,0 +1,102 @@
+{
+  "entry_id": "0236",
+  "national_id": 236,
+  "form": "default",
+  "names": {
+    "en": "Tyrogue",
+    "ja": "バルキー",
+    "zh": "无畏小子"
+  },
+  "generation": 2,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "けんかポケモン",
+  "category_zh": "打斗宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力 / 或 / 不屈之心",
+      "hidden": false
+    },
+    {
+      "name_en": "steadfast",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 21.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 42,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 35,
+    "defense": 35,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 35,
+    "total": 210
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 106,
+        "name_en": "hitmonlee",
+        "name_zh": "飞腿郎",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 107,
+        "name_en": "hitmonchan",
+        "name_zh": "快拳郎",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 237,
+        "name_en": "hitmontop",
+        "name_zh": "战舞郎",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 143,
+    "伽勒尔": 107,
+    "蓝莓": 92
+  },
+  "flavor_text_zh": "无畏小子有着粉色的头和身体，它的臀部和鞋子是褐色的，手上和肚子上缠着白色的胶布，它的眼瞳是金色的。它的头上有三个凸起的部位，无畏小子没有毛发。无畏小子只有雄性，没有雌性宝可梦与它对应。 无畏小子以性格冲动而闻名，非常争强好胜，永远都是精力充沛的样子。它体型偏小却不可轻视，会为了磨练格斗的感觉去迎战各种对手。它只要发现合适的对手便会马上扑上去大打出手，就算对方比自己高大也会上前挑战，因此身上伤痕不断。为了变强，就算输了一次又一次，也会不断地站起来迎战对手。如果每天不去锻炼，压力就会积攒下来，所以训练家在培育它的时候，需要在日程管理上好好下番功夫。",
+  "flavor_text_en": "Even though it is small, it can’t be ignored because it will slug any handy target without warning.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 236,
+    "pokeapi_species_id": 236,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/236"
+  }
+}

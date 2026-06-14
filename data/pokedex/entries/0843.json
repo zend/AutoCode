@@ -1,0 +1,91 @@
+{
+  "entry_id": "0843",
+  "national_id": 843,
+  "form": "default",
+  "names": {
+    "en": "Silicobra",
+    "ja": "スナヘビ",
+    "zh": "沙包蛇"
+  },
+  "generation": 8,
+  "types": [
+    "ground"
+  ],
+  "types_zh": [
+    "地面"
+  ],
+  "category": "すなへびポケモン",
+  "category_zh": "沙蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-spit",
+      "name_zh": "吐沙 / 或 / 蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "shed-skin",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.2,
+  "weight_kg": 7.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 63,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 52,
+    "attack": 57,
+    "defense": 75,
+    "special_attack": 35,
+    "special_defense": 50,
+    "speed": 46,
+    "total": 315
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 844,
+        "name_en": "sandaconda",
+        "name_zh": "沙螺蟒",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 312,
+    "帕底亚": 270
+  },
+  "flavor_text_zh": "沙包蛇看起来是一条背着包袱的小蛇，有着耷拉着的眼睑和大鼻孔，眼部花纹像是哭泣的眼泪。 沙包蛇常常为了觅食而隐藏在沙中，它会一边挖洞一边把吃掉的沙子储存在颈部的囊里。颈部的囊就像气球一样能伸缩自如，而随着不断蜕皮，伸缩性就会增加，里面能装进8公斤的沙子。它大大的鼻孔是专门为了喷射沙子而特别进化的，因此很不擅长分辨气味。它会从鼻孔喷射出沙子，趁敌人看不清的时候躲进地底下藏身。或许是因为好奇心旺盛，一旦遇到让它在意的事物，它就会立刻从沙子里蹿出来。",
+  "flavor_text_en": "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 843,
+    "pokeapi_species_id": 843,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/843"
+  }
+}

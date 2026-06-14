@@ -1,0 +1,74 @@
+{
+  "entry_id": "0968",
+  "national_id": 968,
+  "form": "default",
+  "names": {
+    "en": "Orthworm",
+    "ja": "ミミズズ",
+    "zh": "拖拖蚓"
+  },
+  "generation": 9,
+  "types": [
+    "steel"
+  ],
+  "types_zh": [
+    "钢"
+  ],
+  "category": "ミミズポケモン",
+  "category_zh": "蚯蚓宝可梦",
+  "abilities": [
+    {
+      "name_en": "earth-eater",
+      "name_zh": "食土",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.5,
+  "weight_kg": 310.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 240,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 145,
+    "special_attack": 60,
+    "special_defense": 55,
+    "speed": 65,
+    "total": 480
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 296,
+    "北上": 96
+  },
+  "flavor_text_zh": "拖拖蚓栖息在干燥的沙地上。会以土中铁质为食，来维持由金属构成的身体。遭到敌人攻击时，它会把体毛当做拳头使用，朝着敌人大秀拳头风暴。",
+  "flavor_text_en": "This Pokémon lives in arid deserts. It maintains its metal body by consuming iron from the soil.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 968,
+    "pokeapi_species_id": 968,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/968"
+  }
+}

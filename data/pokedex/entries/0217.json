@@ -1,0 +1,97 @@
+{
+  "entry_id": "0217",
+  "national_id": 217,
+  "form": "default",
+  "names": {
+    "en": "Ursaring",
+    "ja": "リングマ",
+    "zh": "圈圈熊"
+  },
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "とうみんポケモン",
+  "category_zh": "冬眠宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力 / 或 / 飞毛腿",
+      "hidden": false
+    },
+    {
+      "name_en": "quick-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 125.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 75,
+    "special_attack": 75,
+    "special_defense": 75,
+    "speed": 55,
+    "total": 500
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 216,
+        "name_en": "teddiursa",
+        "name_zh": "熊宝宝",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 901,
+        "name_en": "ursaluna",
+        "name_zh": "月月熊",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 194,
+    "洗翠": 113,
+    "帕底亚": 216
+  },
+  "flavor_text_zh": "圈圈熊看起来像是一头棕色的大熊，腹部有一个黄色的圆圈。雌性圈圈熊肩上的毛更长。 圈圈熊虽然体型很大，但很善于爬树，会在树上进食和睡觉。在树上寻找树果时如果撞见 火暴猴 ，那就免不了一场纠纷。它虽然善于爬树，但一般只用前肢折断树干，然后吃掉下来的树果。它能分辨出任何气味，即使是埋在地下深处的食物，它也能一个不剩地找出来。虽然看上去无所畏惧，但在舔食到最喜欢的蜜时，会高兴得笑逐颜开。它会用爪子在领地里能结出美味树果或水果的树上留下爪痕，每天都会为了搜集食物在森林里走动，据说森林里到处都是圈圈熊用来收集食物的大树和小河。在洗翠大地被严寒笼罩的季节里，它会徘徊于山野之中寻找爱吃的树果，空腹带来的焦躁使它变得极为凶暴。",
+  "flavor_text_en": "When the cold season arrives in Hisui, this Pokémon will wander fields and mountains alike in search of its favorite berries. Ursaring's hunger during this time makes it a ferocious danger.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 217,
+    "pokeapi_species_id": 217,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/217"
+  }
+}

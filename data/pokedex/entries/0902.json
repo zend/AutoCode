@@ -1,0 +1,91 @@
+{
+  "entry_id": "0902",
+  "national_id": 902,
+  "form": "default",
+  "names": {
+    "en": "Basculegion",
+    "ja": "イダイトウ",
+    "zh": "幽尾玄鱼"
+  },
+  "generation": 8,
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "types_zh": [
+    "水",
+    "幽灵"
+  ],
+  "category": "おおうおポケモン",
+  "category_zh": "大鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.0,
+  "weight_kg": 110.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 135,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 265,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 120,
+    "attack": 112,
+    "defense": 65,
+    "special_attack": 80,
+    "special_defense": 75,
+    "speed": 78,
+    "total": 530
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 550,
+        "name_en": "basculin",
+        "name_zh": "野蛮鲈鱼",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "洗翠": 167,
+    "北上": 195
+  },
+  "flavor_text_zh": "与野蛮鲈鱼相比，幽尾玄鱼身体呈长条形，面部生有胡须，尾部被灵魂包裹。幽尾玄鱼有 性别差异 。雄性的幽尾玄鱼条纹、斑点、胡须、眉毛和包裹的灵魂为红色，雌性的则为白色。雌性的目光柔和，胡须要更短，但是覆盖嘴唇，眉毛也更厚。而雄性目光锐利，下巴上多出两撇胡子。 幽尾玄鱼是 洗翠地区 的野蛮鲈鱼进化后的样子。成群的野蛮鲈鱼的伙伴们在逆流而上前往出生的河川的严酷路途中倒下后，它们含恨的灵魂通过附身在野蛮鲈鱼身上，使它产生了进化。附在身上的灵魂会共同战斗，灵魂会像拥有自己的意识一样攻击对手。一旦感受到对手怀有敌意就会亢奋起来，向对手穷追猛打直到对手倒下,在流经洗翠地区的河川里可谓所向无敌。它会从附在身上的灵魂那里获得推进力，能若无其事地在激流中游泳，就算再怎么游弋也不会疲惫。 [ 1 ] 雄性幽尾玄鱼拥有惊人的弹跳力，死去的伙伴的怒火染红了它的身体。雌性幽尾玄鱼能操控恐怖的幻觉，伙伴的灵魂的悲痛越深，它的身体就会变得越白。",
+  "flavor_text_en": "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 902,
+    "pokeapi_species_id": 902,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/902"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "entry_id": "0068",
+  "national_id": 68,
+  "form": "default",
+  "names": {
+    "en": "Machamp",
+    "ja": "カイリキー",
+    "zh": "怪力"
+  },
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "かいりきポケモン",
+  "category_zh": "怪力宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力",
+      "hidden": false
+    },
+    {
+      "name_en": "no-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "steadfast",
+      "name_zh": "不屈之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 130.0,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 227,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "special_attack": 65,
+    "special_defense": 85,
+    "speed": 55,
+    "total": 505
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 67,
+        "name_en": "machoke",
+        "name_zh": "豪力",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 68,
+    "城都": 142,
+    "丰缘": 75,
+    "神奥": 42,
+    "阿罗拉": 97,
+    "伽勒尔": 140,
+    "洗翠": 156,
+    "密阿雷": 127
+  },
+  "flavor_text_zh": "怪力为外表和人类相似的宝可梦。它有着浅蓝色的皮肤，骨骼和肌肉的结构与人类十分接近。它也佩戴了金色的腰带，并且拥有类似三角短裤的黑色花纹。它手臂上的红色痕迹消失了，多了一双手，脚分为两趾。它头上仍有三片瓦状凸起。眼睛为红褐色并有黑色的瞳孔，长着白色的厚嘴唇，没有耳朵和鼻子。超极巨化怪力依然是四只手臂，但是四只手臂的前段有了纹路，同时超极巨化怪力的皮肤颜色也变得暗淡起来，它的腿部基本上变成了黑色，腰带上的图案也发生了变化，它的头部变化不大，但是眼睛散发着光芒，超极巨化怪力体型变得更加强壮，超极巨化的云朵缠绕在腰间。 怪力的四只手臂攻守兼备，在肉搏战中毫无死角，据说它精通这世上所有的格斗技，遇到强敌就会燃起斗志。它能在思考之前的瞬间从各个角度毫不停歇地击出千发以上的拳击压倒对手，是当之无愧的豪杰。它会用四只手臂捉住对手，并将其勒成一个复杂的形状，将其扔飞到地平线的另一端，人称怪力式固定技。它与 摔角鹰人 的战斗难分伯仲，肌肉的力量向上提升后的 长毛巨魔 能发挥出足以压倒怪力的力量。怪力仅靠一只手臂的力量便可推动一座山，四只手一起可以打出极为强力的拳击，即使是翻斗车也能轻松举起。但是它的手指很笨拙，细微的工作完全不行。如果是做细活，手臂就会缠在一起，身体会比大脑先一步行动。它锻炼到极致的4只手臂在游泳时也能大派用场，它游泳的速度甚至不逊色于栖息在海里的宝可梦。 超极巨化怪力提升到了惊人境界，它手臂里充斥着超极巨化之力，因此能施展出破坏力不亚于炸弹的拳击，甚至曾经把受困的大型船只整艘扛到了港口。",
+  "flavor_text_en": "In close combat, its four arms afford it offensive and defensive supremacy. In but a blink, this valiant Pokémon can overwhelm its foes with more than 1,000 blows from its fists.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 68,
+    "pokeapi_species_id": 68,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/68"
+  }
+}

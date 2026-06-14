@@ -1,0 +1,86 @@
+{
+  "entry_id": "0727",
+  "national_id": 727,
+  "form": "default",
+  "names": {
+    "en": "Incineroar",
+    "ja": "ガオガエン",
+    "zh": "炽焰咆哮虎"
+  },
+  "generation": 7,
+  "types": [
+    "fire",
+    "dark"
+  ],
+  "types_zh": [
+    "火",
+    "恶"
+  ],
+  "category": "ヒールポケモン",
+  "category_zh": "反派宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 83.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 115,
+    "defense": 90,
+    "special_attack": 80,
+    "special_defense": 90,
+    "speed": 60,
+    "total": 530
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 726,
+        "name_en": "torracat",
+        "name_zh": "炎热喵",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 6,
+    "蓝莓": 223
+  },
+  "flavor_text_zh": "斗争心的象征“火焰腰带” 炽焰咆哮虎变成双足行走，有着健壮的身躯，比起进化之前猫的原型，炽焰咆哮虎就如同名字一样看起来更像是虎。当它的斗争心增强时，在体内制造的火焰将从肚脐及其周围喷出，温度达到摄氏2000度以上。这种火焰看起来像冠军腰带，因此被称为火焰腰带。 炽焰咆哮虎擅长没有规则限制的粗暴战斗，对于强大的对手会拿出干劲来。它会在使出猛烈的拳击或脚踢后，从肚脐周围喷出火焰将敌人一击毙命。如果燃起了斗志，在它腰周围的火焰也会燃烧得格外猛烈。若对战的观众们气氛热烈，炽焰咆哮虎自己也会燃起更旺盛的斗志。相反，若观众没有兴奋起来，炽焰咆哮虎便无法集中且容易变得松懈。一旦开始战斗，炽焰咆哮虎不但不会关心对手，有时甚至会把对手的训练家卷入自己的攻击中。因此，炽焰咆哮虎经常被嫌弃，或是被人们敬而远之。虽然它的行为举止十分粗野，但讨厌欺凌弱小这类无聊的事，也有着会去帮助弱小宝可梦的温柔一面。当被幼小的宝可梦和小孩拥抱时，它虽表现冷酷但内心却会感到十分喜悦。在与明显地较柔弱或受伤的宝可梦的对战中，炽焰咆哮虎的斗争心会减弱，因此有机会被人乘虚而入。它性格粗鲁又任性。心情不爽的时候，连训练家的命令也会淡定地无视。 [ 1 ]",
+  "flavor_text_en": "Incineroar’s rough and aggressive behavior is its most notable trait, but the way it helps out small Pokémon shows that it has a kind side as well.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 727,
+    "pokeapi_species_id": 727,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/727"
+  }
+}

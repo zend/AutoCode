@@ -1,0 +1,91 @@
+{
+  "entry_id": "0589",
+  "national_id": 589,
+  "form": "default",
+  "names": {
+    "en": "Escavalier",
+    "ja": "シュバルゴ",
+    "zh": "骑士蜗牛"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "types_zh": [
+    "虫",
+    "钢"
+  ],
+  "category": "きへいポケモン",
+  "category_zh": "骑兵宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感 / 或 / 硬壳盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 33.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 135,
+    "defense": 105,
+    "special_attack": 60,
+    "special_defense": 105,
+    "speed": 20,
+    "total": 495
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 588,
+        "name_en": "karrablast",
+        "name_zh": "盖盖虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 95,
+    "伽勒尔": 274
+  },
+  "flavor_text_zh": "骑士蜗牛有著骑士一般的盔甲，手是两把骑士长枪，头上有骑士头盔。它全身看起来就像是被盔甲裹住，但依然可以从盔甲里看出其身体蓝色皮肤以及黑色脸孔。 骑士蜗牛是通过穿上 小嘴蜗 的壳进化而成的宝可梦，钢铁的铠甲保护着它的全身。它会一边防守一边用高速挥舞的两根长矛突刺敌人，面对不利敌人也勇于挑战。在伽勒尔地区，骑士蜗牛非常受到人们喜爱，有一幅名画描绘着它和 葱游兵 决斗的场景。",
+  "flavor_text_en": "It charges its enemies, lances at the ready. An image of one of its duels is captured in a famous painting of Escavalier clashing with Sirfetch’d.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 589,
+    "pokeapi_species_id": 589,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/589"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entry_id": "0263-galar",
+  "national_id": 263,
+  "form": "galar",
+  "names": {
+    "en": "Zigzagoon",
+    "ja": "ジグザグマ",
+    "zh": "蛇纹熊（伽勒尔的样子）"
+  },
+  "generation": 3,
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "types_zh": [
+    "恶",
+    "一般"
+  ],
+  "category": "まめだぬきポケモン",
+  "category_zh": "豆狸宝可梦",
+  "abilities": [
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "quick-feet",
+      "name_zh": "飞毛腿",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 17.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 56,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 30,
+    "defense": 41,
+    "special_attack": 30,
+    "special_defense": 41,
+    "speed": 60,
+    "total": 240
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 264,
+        "name_en": "linoone",
+        "name_zh": "直冲熊",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 12,
+    "伽勒尔": 31
+  },
+  "flavor_text_zh": "蛇纹熊类似于浣熊和獾，身体以褐色为主，面部有类似于浣熊的深褐色毛发，浅褐色的锯齿状毛发呈环状，使蛇纹熊拥有了一节一节的参差感。它那水汪汪的褐色眼睛使它看上去显得更加机灵。伽勒尔的样子的蛇纹熊毛发呈现黑白交替，眼睛由褐色变成红色，周围有黑色五角星图案，并且舌头一直露在外面。 蛇纹熊十分擅长通过之字形走路来发现埋藏在草丛或地里的宝物。它会用鼻子在地面上到处摩擦，好像总在寻找什么似的。之所以会一直之字形地到处乱走，是因为它的好奇心太过旺盛，对看到的各种东西都很感兴趣。蛇纹熊会用背上的硬毛摩擦树木，留下代表自己地盘的标记。还会装死欺骗敌人。性情比伽勒尔的蛇纹熊温驯。 伽勒尔地区的蛇纹熊天生我行我素，一直在奔跑，一刻都安静不下来。栖息于草原、森林和城镇，它们的身影在伽勒尔地区随处可见，被认为是至今为止发现的蛇纹熊的原种。其他地区的蛇纹熊之所以举动会宛如蛇行，据说就是因为受到了原种蛇纹熊习性的影响。它会之字形乱走，把周围弄得一团糟。它的性情争勇好斗，不管对方是人还是宝可梦，都会猛撞过去挑起事端。虽然这种行为多半会导致与其他宝可梦的争斗，但在人类的眼里看来只不过是在打闹而已，所以许多人并不会因此生气。对于这样的人类，蛇纹熊似乎相当不满。 [ 1 ]",
+  "flavor_text_en": "Zigzagoon that adapted to regions outside Galar acquired this appearance. If you’ve lost something, this Pokémon can likely find it.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10174,
+    "pokeapi_species_id": 263,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10174"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entry_id": "0029",
+  "national_id": 29,
+  "form": "default",
+  "names": {
+    "en": "Nidoran♀",
+    "ja": "ニドラン♀",
+    "zh": "尼多兰"
+  },
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "types_zh": [
+    "毒"
+  ],
+  "category": "どくばりポケモン",
+  "category_zh": "毒针宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺 / 或 / 斗争心",
+      "hidden": false
+    },
+    {
+      "name_en": "rivalry",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "活力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 7.0,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 235,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 55,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 47,
+    "defense": 52,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 41,
+    "total": 275
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 30,
+        "name_en": "nidorina",
+        "name_zh": "尼多娜",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 29,
+    "城都": 95
+  },
+  "flavor_text_zh": "尼多兰全身大多都是蓝色的，带有少量的深蓝色圆形斑点。它的三角形眼睛是红色的，嘴里有一颗白色的门牙，长有两对胡须和一双大耳朵。它额头上长有一个很小的毒刺，背上也长有一些刺。雌性的角比较小，和雄性相比，角的尖端稍圆一些。尼多兰只有雌性。与它对应的雄性宝可梦是 尼多朗 。 尼多兰体型娇小非常温顺。虽然它不喜欢战斗，但小犄角中也含有毒液，遇到紧急时刻，就会用含毒的犄角向对手攻击保护自己。它的毒针虽然很小却十分有威力，从毒针里分泌出的毒液只要一滴就能致命。人们认为它是为了保护自己娇小的身体才长出了越来越强的毒针，生气后就会从角尖放出剧毒。它对于气味比雄性更敏感，会一边用胡须确认风向，一边在下风处寻找食物，能用坚硬的门牙咬碎树果吃。",
+  "flavor_text_en": "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran’s horn is a bit more rounded than the tip of a male’s horn.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 29,
+    "pokeapi_species_id": 29,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/29"
+  }
+}

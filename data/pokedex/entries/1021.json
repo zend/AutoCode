@@ -1,0 +1,68 @@
+{
+  "entry_id": "1021",
+  "national_id": 1021,
+  "form": "default",
+  "names": {
+    "en": "Raging Bolt",
+    "ja": "タケルライコ",
+    "zh": "猛雷鼓"
+  },
+  "generation": 9,
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "types_zh": [
+    "电",
+    "龙"
+  ],
+  "category": "パラドックスポケモン",
+  "category_zh": "悖谬宝可梦",
+  "abilities": [
+    {
+      "name_en": "protosynthesis",
+      "name_zh": "古代活性",
+      "hidden": false
+    }
+  ],
+  "height_m": 5.2,
+  "weight_kg": 480.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 10,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 295,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 125,
+    "attack": 73,
+    "defense": 91,
+    "special_attack": 137,
+    "special_defense": 89,
+    "speed": 75,
+    "total": 590
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "蓝莓": 237
+  },
+  "flavor_text_zh": "猛雷鼓最引人注目的是它长长的脖子前端的体毛，与超自然杂志报道的曾短暂引起一阵话题的 雷公 的祖先长得很像。 据说猛雷鼓会从它脖子前端悠然摆动的体毛放出雷电，把周围焚烧殆尽，但详情不明。 [ 1 ]",
+  "flavor_text_en": "It bears resemblance to a Pokémon that became a hot topic for a short while after a paranormal magazine touted it as Raikou's ancestor.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1021,
+    "pokeapi_species_id": 1021,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1021"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "entry_id": "0615",
+  "national_id": 615,
+  "form": "default",
+  "names": {
+    "en": "Cryogonal",
+    "ja": "フリージオ",
+    "zh": "几何雪花"
+  },
+  "generation": 5,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "けっしょうポケモン",
+  "category_zh": "结晶宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 148.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 25,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 180,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 50,
+    "defense": 50,
+    "special_attack": 95,
+    "special_defense": 135,
+    "speed": 105,
+    "total": 515
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 121,
+    "帕底亚": 360
+  },
+  "flavor_text_zh": "几何雪花造型像一片雪花，全身由冰构成，冰的缝隙间露出两只蓝色的眼睛。类似嘴巴的缝隙间是冰的结晶所形成的锁，从它的两侧垂下。 几何雪花在雪云之中诞生，会出现在寒冷的季节，据说它是由在雪山死去的宝可梦或人类转生而来的。它会操控用冰的结晶所形成的锁冻住遇到的猎物，使其冻结到零下100度并把它带去某个地方。天气一热体温上升时就会化为水蒸气，体温下降后重新结成冰。到了夏天几乎到处都看不到它的踪影。",
+  "flavor_text_en": "When the weather gets hot, these Pokémon turn into water vapor. Cryogonal are almost never seen during summer.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 615,
+    "pokeapi_species_id": 615,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/615"
+  }
+}

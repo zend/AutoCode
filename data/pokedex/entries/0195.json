@@ -1,0 +1,95 @@
+{
+  "entry_id": "0195",
+  "national_id": 195,
+  "form": "default",
+  "names": {
+    "en": "Quagsire",
+    "ja": "ヌオー",
+    "zh": "沼王"
+  },
+  "generation": 2,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "types_zh": [
+    "水",
+    "地面"
+  ],
+  "category": "みずうおポケモン",
+  "category_zh": "水鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "damp",
+      "name_zh": "湿气 / 或 / 储水",
+      "hidden": false
+    },
+    {
+      "name_en": "water-absorb",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "纯朴",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 75.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 151,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 85,
+    "defense": 85,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 35,
+    "total": 430
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 194,
+        "name_en": "wooper",
+        "name_zh": "乌波",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 57,
+    "神奥": 118,
+    "伽勒尔": 101,
+    "北上": 6
+  },
+  "flavor_text_zh": "沼王有肥胖的淡蓝色身躯。它有两个黑点一样的眼睛和一张大嘴。它的背部和尾部有紫色和深绿色的条纹，身体总是滑溜溜的。和雄性相比，雌性沼王背面的鳍更小。 沼王性格悠闲自得，它会在水里张开嘴巴，然后就只是静静地等着食物自己碰巧跳进来。因为不会动，所以肚子也不怎么会饿。它感觉迟钝，悠闲自在地游泳时，就算脑袋撞上船底或河里的岩石，也完全不会去在意。",
+  "flavor_text_en": "Its body is always slimy. It often bangs its head on the river bottom as it swims but seems not to care.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 195,
+    "pokeapi_species_id": 195,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/195"
+  }
+}

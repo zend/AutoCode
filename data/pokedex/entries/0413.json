@@ -1,0 +1,86 @@
+{
+  "entry_id": "0413",
+  "national_id": 413,
+  "form": "default",
+  "names": {
+    "en": "Wormadam",
+    "ja": "ミノマダム",
+    "zh": "结草贵妇"
+  },
+  "generation": 4,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "types_zh": [
+    "虫",
+    "草"
+  ],
+  "category": "みのむしポケモン",
+  "category_zh": "蓑衣虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "anticipation",
+      "name_zh": "危险预知",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 6.5,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 148,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 59,
+    "defense": 85,
+    "special_attack": 79,
+    "special_defense": 105,
+    "speed": 36,
+    "total": 424
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 412,
+        "name_en": "burmy",
+        "name_zh": "结草儿",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 46,
+    "洗翠": 44
+  },
+  "flavor_text_zh": "结草贵妇根据进化地点的不同，样子会发生变化。身边的材料会成为身体的一部分，一辈子都不会脱下蓑衣。结草贵妇只有雌性，与它对应的雄性宝可梦是 绅士蛾 。 据说气温低的日子里进化而成的结草贵妇的蓑衣会比平时更厚。草木蓑衣样子的结草贵妇草木制成的蓑衣与躯体融合，如同体毛或皮肤般成为了身体的一部分。砂土蓑衣样子的结草贵妇泥沙形成的皮肤有相当的硬度。若是 姆克儿 的嘴喙程度的攻击，轻而易举就可以反弹回去。垃圾蓑衣样子的结草贵妇用尘土草芥等垃圾构成的身体能毫不起眼地融入周围景色之中，正好适合用来躲避天敌袭击。",
+  "flavor_text_en": "When Burmy evolved, its cloak became a part of this Pokémon’s body. The cloak is never shed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 413,
+    "pokeapi_species_id": 413,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/413"
+  }
+}

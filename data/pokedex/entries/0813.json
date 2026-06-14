@@ -1,0 +1,86 @@
+{
+  "entry_id": "0813",
+  "national_id": 813,
+  "form": "default",
+  "names": {
+    "en": "Scorbunny",
+    "ja": "ヒバニー",
+    "zh": "炎兔儿"
+  },
+  "generation": 8,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "うさぎポケモン",
+  "category_zh": "兔子宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "libero",
+      "name_zh": "自由者",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 4.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 71,
+    "defense": 40,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 69,
+    "total": 310
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 814,
+        "name_en": "raboot",
+        "name_zh": "腾蹴小将",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 4,
+    "蓝莓": 230
+  },
+  "flavor_text_zh": "炎兔儿拥有洁白的身躯，脸颊有绒毛凸起，以及一双大耳朵和脚掌。其耳朵末端、脚趾皆为橘色，在颈部是颈圈形状的小火囊。在它鼻子的上方及脚底，都拥有类似创可贴的矩形肉球。它的胸部有着一个“火囊”，里面充满了高粘度的火之能量。 炎兔儿会利用自己傲人的脚力飞速奔跑，上蹿下跳来搅乱对手。一旦做好了战斗的准备，它鼻头上和脚底的肉球就会发出极度的高温。炎兔儿通过不断奔跑，做好热身运动使心跳和体温上升，使火之能量在它身体循环。此时炎兔儿的身体素质会得到飞跃性的提升，促使它发挥出真正的力量。有时炎兔儿也会用温度极高的脚底踢向对手，使其在受到伤害的同时陷入灼伤状态。 [ 1 ]",
+  "flavor_text_en": "It has special pads on the backs of its feet, and one on its nose. Once it’s raring to fight, these pads radiate tremendous heat.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 813,
+    "pokeapi_species_id": 813,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/813"
+  }
+}

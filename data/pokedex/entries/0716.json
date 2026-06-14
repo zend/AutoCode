@@ -1,0 +1,66 @@
+{
+  "entry_id": "0716",
+  "national_id": 716,
+  "form": "default",
+  "names": {
+    "en": "Xerneas",
+    "ja": "ゼルネアス",
+    "zh": "哲尔尼亚斯"
+  },
+  "generation": 6,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "せいめいポケモン",
+  "category_zh": "生命宝可梦",
+  "abilities": [
+    {
+      "name_en": "fairy-aura",
+      "name_zh": "妖精气场",
+      "hidden": false
+    }
+  ],
+  "height_m": 3.0,
+  "weight_kg": 215.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 126,
+    "attack": 131,
+    "defense": 95,
+    "special_attack": 131,
+    "special_defense": 98,
+    "speed": 99,
+    "total": 680
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "密阿雷": 228
+  },
+  "flavor_text_zh": "哲尔尼亚斯是一只外型似鹿的，蓝黑相间的宝可梦，头上有八根如同树枝的角伸出，每根角末端各有两个分枝。每根角均是米色的，并以橙、红、紫、水蓝四色缤纷的突起物缠绕点缀，左右色泽相反。颜色从底部的光亮渐渐变为末梢的暗淡。它头部皮肤是深蓝色的，两角各生长在面颊两侧，角的根部一直延伸到它的眼睛下和鼻子上。它眼睛与毛皮的颜色相同。它的瞳孔呈英文字母X的形状，身体从正面看也呈X状。身体蓝色的部分从它胸部上的毛皮向外伸展并在末端向上翘起，就像两个蓝色的角一样。它身体的其他部分是黑色的，有一条蓝色条纹在脊柱上，一条细小而蓬松的黑色尾巴在蓝色条纹结束的位置。它的四肢像是在尖端长有向前指出的钩壮的蹄子，其主要边缘和角一样是米色，形成十字架状；前肢下半的边缘更显示出美丽的图案。平时，哲尔尼亚斯全身并不是色彩斑斓的，而当哲尔尼亚斯战斗时，角的颜色会从一般时的浅蓝色转变为彩色，使用招式时背上会出现色彩斑斓的斑点。哲尔尼亚斯没有性别。 哲尔尼亚斯以树木的样子睡了1000年后复活。据说当头上的角闪着七色光时，它能够分享出永恒的生命。 树的样子",
+  "flavor_text_en": "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 716,
+    "pokeapi_species_id": 716,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/716"
+  }
+}

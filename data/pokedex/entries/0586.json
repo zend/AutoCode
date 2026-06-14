@@ -1,0 +1,92 @@
+{
+  "entry_id": "0586",
+  "national_id": 586,
+  "form": "default",
+  "names": {
+    "en": "Sawsbuck",
+    "ja": "メブキジカ",
+    "zh": "萌芽鹿"
+  },
+  "generation": 5,
+  "types": [
+    "normal",
+    "grass"
+  ],
+  "types_zh": [
+    "一般",
+    "草"
+  ],
+  "category": "きせつポケモン",
+  "category_zh": "季节宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "serene-grace",
+      "name_zh": "天恩",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 92.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 166,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 95,
+    "total": 475
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 585,
+        "name_en": "deerling",
+        "name_zh": "四季鹿",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 92,
+    "帕底亚": 191,
+    "蓝莓": 39
+  },
+  "flavor_text_zh": "萌芽鹿的身体主要以深褐色组成，外形类似于现实的鹿，脸部旁边以及腹部中有一条橙色的条纹。春天的样子的萌芽鹿头上拥有一对深褐色的角，类似于树木的树枝，角上附有一些粉红色的花。它的颈部中有一些毛发，它身体上有一些粉红色的点点，腿部下方是米黄色的。夏天的样子的萌芽鹿后颈中有一撮毛发，而它的尾巴也是翘起的，它身体上有一些深绿色的点点，头上的角上有一大片的叶子作为装饰。秋天的样子的萌芽鹿头上的角上有一些向下延伸的红色的叶子，它身体上有一些红色的点点，它的颈部中也有一些毛发，腿部下方是米黄色的。冬天的样子的萌芽鹿头上有白色的角，类似树木的树枝，它的眼睛下方的部分都是白色的，它颈部中有类似围巾的毛发，身体上有一些白色的点点，它的腿上也有一些毛发，就像穿了靴子一样。 萌芽鹿角上生长的花草随季节而变化，散发出的草香会根据季节所变， [ 1 ] 角最漂亮的那位率领群落。在四季分明的 合众地区 ，不少人会看着萌芽鹿的角来感受季节的更迭。 [ 1 ] 它会随着季节的变迁改变住所，人们会通过它的角来感知季节的变迁。所以也有人说，萌芽鹿会带来春天。人们认为春天的样子角上绽放的淡红色花朵颜色越淡就代表越美丽。角上的花很多的萌芽鹿由于会被花抢走养分，从而成长速度略显缓慢。人们认为夏天的样子角上的枝叶越厚越大就代表越雄伟。它的叶子能用来做成红茶，根据产地会有不同的风味，产自帕底亚的叶子香气浓郁。人们认为秋天的样子角上垂下的枝叶越红就代表越气派。它以性情凶暴而闻名，雄性之间总是打架不断。萌芽鹿虽然拥有很多爱好者，但唯独冬天的样子却没什么人喜欢。冬天的样子时会比较稳重，容易驯化，是与它成为同伴的好机会。",
+  "flavor_text_en": "They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 586,
+    "pokeapi_species_id": 586,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/586"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "0820",
+  "national_id": 820,
+  "form": "default",
+  "names": {
+    "en": "Greedent",
+    "ja": "ヨクバリス",
+    "zh": "藏饱栗鼠"
+  },
+  "generation": 8,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "よくばりポケモン",
+  "category_zh": "贪欲宝可梦",
+  "abilities": [
+    {
+      "name_en": "cheek-pouch",
+      "name_zh": "颊囊",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 6.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 161,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 120,
+    "attack": 95,
+    "defense": 95,
+    "special_attack": 55,
+    "special_defense": 75,
+    "speed": 20,
+    "total": 460
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 819,
+        "name_en": "skwovet",
+        "name_zh": "贪心栗鼠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 25,
+    "帕底亚": 30,
+    "北上": 73
+  },
+  "flavor_text_zh": "藏饱栗鼠的外观看起来就和贪心栗鼠一样都类似于现实的松鼠，不过它的个子更加大一点，体型也变得肥硕，其尾巴的比例甚至大过了身体。藏饱栗鼠有两颗很明显的门牙，它的脸颊有着类似雀斑之类的花纹。 藏饱栗鼠在伽勒尔是很常见的宝可梦。只要发现长有树果的树，即使是在对战当中也会一溜烟地前去采集。它会在尾巴里囤积树果，用约有身体两倍长的尾巴把树上掉下来的树果全部裹起来带走。被 甜竹竹 的甜甜香气吸引而来的藏饱栗鼠会用尾巴将它和树果一起裹起来带走。虽然囤过头了就会掉出来，但是迟钝的它不会发现。无论多么坚硬的树果壳都能用它引以为傲的大牙咬碎。",
+  "flavor_text_en": "Common throughout the Galar region, this Pokémon has strong teeth and can chew through the toughest of berry shells.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 820,
+    "pokeapi_species_id": 820,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/820"
+  }
+}

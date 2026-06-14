@@ -1,0 +1,98 @@
+{
+  "entry_id": "0264-galar",
+  "national_id": 264,
+  "form": "galar",
+  "names": {
+    "en": "Linoone",
+    "ja": "マッスグマ",
+    "zh": "直冲熊（伽勒尔的样子）"
+  },
+  "generation": 3,
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "types_zh": [
+    "恶",
+    "一般"
+  ],
+  "category": "とっしんポケモン",
+  "category_zh": "猛冲宝可梦",
+  "abilities": [
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "quick-feet",
+      "name_zh": "飞毛腿",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 32.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 147,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 70,
+    "defense": 61,
+    "special_attack": 50,
+    "special_defense": 61,
+    "speed": 100,
+    "total": 420
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 263,
+        "name_en": "zigzagoon",
+        "name_zh": "蛇纹熊",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 862,
+        "name_en": "obstagoon",
+        "name_zh": "堵拦熊",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 13,
+    "伽勒尔": 32
+  },
+  "flavor_text_zh": "直冲熊的身体呈流线型，有助于在奔跑时减少阻力。目为水蓝色，主色为浅褐色，身上有深褐色的条纹，头部的纹理如同一个箭头。它的体毛拥有良好的韧度与质感。用它身上掉下来的毛制成的剃须刷是最上等的高级货。伽勒尔样子的直冲熊主色由浅褐色变成白色,条纹由深褐色变成黑色,眼由水蓝色变成深红色，周围有黑色五角星。它的舌头一直露在外面。 直冲熊看到猎物就会笔直地猛跑过去，笔直奔跑的速度可以轻松超越100公里的时速。它在发现障碍物时就会通过直角转弯来躲避，非常不擅长慢慢转弯的道路，如果不急停的话，就无法转弯。直冲熊会用自己超群的爆发力和锐利的爪子来制服猎物。但因为只能沿直线奔跑，所以扑空次数比较多。从水面上发现住在水里的猎物之后，就会飞快地扑进去，用锐利的爪子捕捉。 伽勒尔样子的直冲熊擅长用时速高达100公里的冲撞及头锤等招式进行攻击。虽然这些攻击的破坏力之大甚至可以掀飞一辆汽车，但是一旦攻击落空就会产生很大的破绽。它会会用长舌头挑衅猎物，一旦猎物被自己激怒，便会猛烈地冲撞上去。伽勒尔直冲熊的性格莽撞冒失、十分好战，即使面对比自己更强的对手，也会毫不犹豫地发起挑战。由于这个特征与它们擅长的直冲突击，受到了心怀各种愤懑与烦恼的年轻人群的支持。 [ 1 ]",
+  "flavor_text_en": "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10175,
+    "pokeapi_species_id": 264,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10175"
+  }
+}

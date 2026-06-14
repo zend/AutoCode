@@ -1,0 +1,86 @@
+{
+  "entry_id": "0402",
+  "national_id": 402,
+  "form": "default",
+  "names": {
+    "en": "Kricketune",
+    "ja": "コロトック",
+    "zh": "音箱蟀"
+  },
+  "generation": 4,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "こおろぎポケモン",
+  "category_zh": "蟋蟀宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": false
+    },
+    {
+      "name_en": "technician",
+      "name_zh": "技术高手",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 25.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 134,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 77,
+    "attack": 85,
+    "defense": 51,
+    "special_attack": 55,
+    "special_defense": 51,
+    "speed": 65,
+    "total": 384
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 401,
+        "name_en": "kricketot",
+        "name_zh": "圆法师",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 16,
+    "洗翠": 40,
+    "帕底亚": 34,
+    "北上": 62
+  },
+  "flavor_text_zh": "音箱蟀全身通红，有一对长长的八字胡。它头上的触角是红色弯折的长条，与头部的连接处是两个红球。它的肚子有点像小提琴的形状，中间和两边有黑色的斑点，从脖子到中间的斑点处有一条米色的竖线花纹，中间有一条黑线。它的腹部下半部分是深红色的，还有一块米色的部分延伸到身体后端。它的手变得修长，背上有一对黑色的翅膀，可以飞行的翼收在黑色的翅膀下面。雌性音箱蟀的胡须更短。 音箱蟀用旋律表达感情，会即兴创作出旋律。它鸣叫的时候会将刀子般的前臂交叉在胸前发出声音，通过让声音在体内的空洞回响来使自己的叫声变得悦耳。所奏出的旋律随个体不同而异，从中寻找自己喜爱的旋律也是一大乐事，学者们正在研究旋律的规律性。有村子会让它们互相比拼变化多端的叫声，当成娱乐活动。",
+  "flavor_text_en": "It uses its cutlass-like arms to produce sound, the melody of which varies from individual to individual. It is a worthwhile endeavor to seek out one's favorite tunes.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 402,
+    "pokeapi_species_id": 402,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/402"
+  }
+}

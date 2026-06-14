@@ -1,0 +1,89 @@
+{
+  "entry_id": "0504",
+  "national_id": 504,
+  "form": "default",
+  "names": {
+    "en": "Patrat",
+    "ja": "ミネズミ",
+    "zh": "探探鼠"
+  },
+  "generation": 5,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "みはりポケモン",
+  "category_zh": "放哨宝可梦",
+  "abilities": [
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑 / 或 / 锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "keen-eye",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "analytic",
+      "name_zh": "分析",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 11.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 51,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 55,
+    "defense": 39,
+    "special_attack": 35,
+    "special_defense": 39,
+    "speed": 42,
+    "total": 255
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 505,
+        "name_en": "watchog",
+        "name_zh": "步哨鼠",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 10,
+    "密阿雷": 27
+  },
+  "flavor_text_zh": "探探鼠是一种褐色皮肤的娇小宝可梦。它那红黄相间的大眼睛十分有特点，会用这双大眼睛来侦测并警戒、守卫自己巢穴的四周。它常常竖起身后的白色长条尾巴，有着酷似山猴张望的动作习惯。 探探鼠警戒心很强，会轮流巡视巢穴的四周，不巡视便会不安。必定有一只探探鼠在负责放哨，用尾巴给伙伴发出暗号，但它不会注意到后方来的敌人。它会在颊囊里藏食物，连续放哨好几天。天气晴朗的时候，探探鼠的毛会更加柔软。",
+  "flavor_text_en": "Extremely cautious, one of them will always be on the lookout, but it won’t notice a foe coming from behind.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 504,
+    "pokeapi_species_id": 504,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/504"
+  }
+}

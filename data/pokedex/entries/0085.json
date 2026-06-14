@@ -1,0 +1,93 @@
+{
+  "entry_id": "0085",
+  "national_id": 85,
+  "form": "default",
+  "names": {
+    "en": "Dodrio",
+    "ja": "ドードリオ",
+    "zh": "嘟嘟利"
+  },
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "みつごどりポケモン",
+  "category_zh": "三头鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑 / 或 / 早起",
+      "hidden": false
+    },
+    {
+      "name_en": "early-bird",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "tangled-feet",
+      "name_zh": "蹒跚",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 85.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 165,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 110,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 110,
+    "total": 470
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 84,
+        "name_en": "doduo",
+        "name_zh": "嘟嘟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 85,
+    "城都": 200,
+    "丰缘": 93,
+    "蓝莓": 2
+  },
+  "flavor_text_zh": "嘟嘟利有三个头，每个头上有两根黑色的羽毛，眼睛是三角形的。雄性的脖子是黑色的，雌性的是米色的。它大腿部分覆盖了黑色的羽毛，拥有粉红色的尾巴。 嘟嘟利是在进化时嘟嘟的某个头分裂后形成的珍稀物种。三个脑袋会各自表现出愉快、悲伤和愤怒之情。在不下雨的干燥季节它也会很精神地在草原上以时速60公里以上的速度到处跑。它有三个的好像不仅仅是脑袋。心和肺也有三个，所以它可以毫不喘气地跑上很长的距离。三个脑袋朝着不同方向时，就是它在进行警戒的证明。只要被发现一点空当，就会遭到鸟嘴的猛烈啄击。它用三个脑袋收集三倍的情报从而推敲高级作战，偶尔也会因为考虑太多而动弹不得。据说睡着的时候总会有哪一个头醒着。如果其中的某一个头吃东西的话，其余的头也会被满足而不会发生纠纷。",
+  "flavor_text_en": "One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 85,
+    "pokeapi_species_id": 85,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/85"
+  }
+}

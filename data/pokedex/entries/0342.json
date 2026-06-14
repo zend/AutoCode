@@ -1,0 +1,94 @@
+{
+  "entry_id": "0342",
+  "national_id": 342,
+  "form": "default",
+  "names": {
+    "en": "Crawdaunt",
+    "ja": "シザリガー",
+    "zh": "铁螯龙虾"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "types_zh": [
+    "水",
+    "恶"
+  ],
+  "category": "ならずものポケモン",
+  "category_zh": "流氓宝可梦",
+  "abilities": [
+    {
+      "name_en": "hyper-cutter",
+      "name_zh": "怪力钳 / 或 / 硬壳盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "适应力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 32.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 155,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 164,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 63,
+    "attack": 120,
+    "defense": 85,
+    "special_attack": 90,
+    "special_defense": 55,
+    "speed": 55,
+    "total": 468
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 341,
+        "name_en": "corphish",
+        "name_zh": "龙虾小兵",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 130,
+    "伽勒尔": 103,
+    "北上": 12
+  },
+  "flavor_text_zh": "铁螯龙虾头上有一个五角星，胸前有蓝色的花纹。 铁螯龙虾性格暴躁，喜欢打架，动不动就会挑起战斗，被认为是很难培育的宝可梦。它会不停挥舞自己巨大的钳子，用钳子把住在池塘里的其他宝可梦夹起来扔到外面去。当它遇到靠近自己领地的对手，会毫不留情地将之打倒。因此铁螯龙虾住的池塘里不会有其他生物居住，会变成一个寂寞的地方。不过在 野蛮鲈鱼 群出现的湖里，也有 龙虾小兵 和铁螯龙虾之类的能留下来。它刚蜕完皮时的甲壳是软的，在甲壳变硬之前，为了躲避敌人的攻击会藏身在河底的洞穴中。铁螯龙虾的钳子经常会掉，如果钳子掉落，它就会一下子弱下来，在再生之前，都会提心吊胆的。身经百战磨练的铁螯龙虾，拥有留下数道伤痕的巨大钳子。它的钳子里面跟 好胜蟹 和 铁臂枪虾 不同，有臭泥味，实在很难吃。",
+  "flavor_text_en": "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 342,
+    "pokeapi_species_id": 342,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/342"
+  }
+}

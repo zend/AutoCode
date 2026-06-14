@@ -1,0 +1,93 @@
+{
+  "entry_id": "0565",
+  "national_id": 565,
+  "form": "default",
+  "names": {
+    "en": "Carracosta",
+    "ja": "アバゴーラ",
+    "zh": "肋骨海龟"
+  },
+  "generation": 5,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "types_zh": [
+    "水",
+    "岩石"
+  ],
+  "category": "こだいがめポケモン",
+  "category_zh": "古代龟宝可梦",
+  "abilities": [
+    {
+      "name_en": "solid-rock",
+      "name_zh": "坚硬岩石 / 或 / 结实",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 81.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 74,
+    "attack": 108,
+    "defense": 133,
+    "special_attack": 83,
+    "special_defense": 65,
+    "speed": 32,
+    "total": 495
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 564,
+        "name_en": "tirtouga",
+        "name_zh": "原盖海龟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 71,
+    "阿罗拉": 195
+  },
+  "flavor_text_zh": "肋骨海龟变为了站立着行走。它的身体主要以深蓝色组成，脸部上有黑蓝色的岩石，岩石从眼睛下突出了尖尖的物体。它的眼睛里面是白色的，外面是浅蓝色的。它的双手上附着三个与他身体一样深蓝色的物体。它的腹部是浅蓝色的，背部也有坚硬的外壳。它的腿上有两个脚趾，脚趾是黑色的。 肋骨海龟生活在大海与陆地。虽然和在水中相比动作会变得迟缓，但是为了寻找猎物也会登上陆地活动，将陆地的猎物拖入海中后杀死。为了让坚硬的甲壳更为结实，它连猎物的壳和骨头也都会整个嚼碎了后干干净净地吃得一丝不剩。它拥有强大力量，可以一掌击穿油轮底部，会用发达的前肢将对手揍到昏厥。它颚部的力量非常惊人，可以将钢材和岩石连同猎物一起咬得粉碎，连 多刺菊石兽 和 菊石兽 的壳也能轻轻松松地整个吃掉。",
+  "flavor_text_en": "This Pokémon emerges from the water in search of prey despite the fact that it moves more slowly on land.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 565,
+    "pokeapi_species_id": 565,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/565"
+  }
+}

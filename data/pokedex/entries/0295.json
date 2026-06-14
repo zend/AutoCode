@@ -1,0 +1,85 @@
+{
+  "entry_id": "0295",
+  "national_id": 295,
+  "form": "default",
+  "names": {
+    "en": "Exploud",
+    "ja": "バクオング",
+    "zh": "爆音怪"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "そうおんポケモン",
+  "category_zh": "噪音宝可梦",
+  "abilities": [
+    {
+      "name_en": "soundproof",
+      "name_zh": "隔音",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "胆量",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 84.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 104,
+    "attack": 91,
+    "defense": 63,
+    "special_attack": 91,
+    "special_defense": 73,
+    "speed": 68,
+    "total": 490
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 294,
+        "name_en": "loudred",
+        "name_zh": "吼爆弹",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 47
+  },
+  "flavor_text_zh": "爆音怪有一个特别大的嘴巴，它的全身基本上都是紫色。 爆音怪在身体里面拥有能发出声音的机构，使用体内的孔能够发出各种各样的声音。它能从身体的洞里发出各种各样音色的声音，善用声音的频率高低与音量大小来和伙伴相互传情达意。它只有在战斗时才会发出大叫声，战斗时发出的吼声会像地震一样将地面震得摇晃不止。开始用身上的洞猛烈地吸入空气就是要进行大叫的前兆，距离10公里开外也能听见叫声。以前的人们曾利用爆音怪发出的巨响，与相隔遥远的城镇居民联系。",
+  "flavor_text_en": "This Pokémon can do more than just shout. To communicate with others of its kind, it’ll emit all sorts of sounds from the holes in its body.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 295,
+    "pokeapi_species_id": 295,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/295"
+  }
+}

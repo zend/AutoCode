@@ -1,0 +1,90 @@
+{
+  "entry_id": "0283",
+  "national_id": 283,
+  "form": "default",
+  "names": {
+    "en": "Surskit",
+    "ja": "アメタマ",
+    "zh": "溜溜糖球"
+  },
+  "generation": 3,
+  "types": [
+    "bug",
+    "water"
+  ],
+  "types_zh": [
+    "虫",
+    "水"
+  ],
+  "category": "あめんぼポケモン",
+  "category_zh": "水黾宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "雨盘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 1.7,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 54,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 32,
+    "special_attack": 50,
+    "special_defense": 52,
+    "speed": 65,
+    "total": 269
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 284,
+        "name_en": "masquerain",
+        "name_zh": "雨翅蛾",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 32,
+    "阿罗拉": 139,
+    "帕底亚": 49,
+    "北上": 149
+  },
+  "flavor_text_zh": "溜溜糖球有一个圆的蓝色身体，从身体上延伸出四条细长的腿。它有一顶黄色的帽子，上面有单独的一根黄色触须。溜溜糖球的眼睛暗且圆，下方有一个半圆形的粉色标记。 溜溜糖球栖息在水草丛生的池塘或沼泽里，但傍晚下过雨后，就会出现在街上的小水塘中。它爪尖会分泌出油来，行走时就像在水面上滑行。它从头顶分泌出的液体有着如同麦芽糖浆的甜味，会从头顶释放出甜甜的气味引诱猎物，以池塘或湖泊里的微生物为食。它如果遇到危险会从突起的地方分泌出甜汁，鸟宝可梦讨厌它的味道，不过也有喜欢这液体的宝可梦。收集它制成糖浆，然后涂抹在面包上就会非常可口。溜溜糖球会经常和栖息地以及食物都与自己相近的 滴蛛 争斗。",
+  "flavor_text_en": "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 283,
+    "pokeapi_species_id": 283,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/283"
+  }
+}

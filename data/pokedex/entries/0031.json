@@ -1,0 +1,91 @@
+{
+  "entry_id": "0031",
+  "national_id": 31,
+  "form": "default",
+  "names": {
+    "en": "Nidoqueen",
+    "ja": "ニドクイン",
+    "zh": "尼多后"
+  },
+  "generation": 1,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "types_zh": [
+    "毒",
+    "地面"
+  ],
+  "category": "ドリルポケモン",
+  "category_zh": "钻锥宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺 / 或 / 斗争心",
+      "hidden": false
+    },
+    {
+      "name_en": "rivalry",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.3,
+  "weight_kg": 60.0,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 227,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 92,
+    "defense": 87,
+    "special_attack": 75,
+    "special_defense": 85,
+    "speed": 76,
+    "total": 505
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 30,
+        "name_en": "nidorina",
+        "name_zh": "尼多娜",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 31,
+    "城都": 97
+  },
+  "flavor_text_zh": "尼多后外表为蓝色，下巴、胸部和腹部是白色的。它有粗大的尾巴和像老鼠一样的耳朵，前肢非常强壮，有三个细小的爪子。尼多后的额头直至尾巴沿着脊椎走向长着一排毒角。尼多后只有雌性。与它对应的雄性宝可梦是 尼多王 。 尼多后坚硬的针状鳞片像铠甲一样包裹着强壮的身体，兴奋时针会竖起来，可以在受到攻击时保护身体。据说它的鳞片会自己长出新的。无论遭到怎么样的攻击，它都不会表现出害怕。它会用长满鳞片的强壮身体堵住巢穴的入口，保护幼崽不被敌人攻击。它比起进攻更擅长防守，擅长利用长满坚硬鳞片的身体将对手撞得弹飞起来的攻击。在保护幼崽的时候最为强大，会用铠甲般的鳞片保护孩子免受任何攻击的伤害。它还会把孩子放在背上刺与刺的空隙里来哄它们，在这时绝对不会释放毒素。",
+  "flavor_text_en": "It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 31,
+    "pokeapi_species_id": 31,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/31"
+  }
+}

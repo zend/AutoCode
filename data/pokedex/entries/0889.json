@@ -1,0 +1,66 @@
+{
+  "entry_id": "0889",
+  "national_id": 889,
+  "form": "default",
+  "names": {
+    "en": "Zamazenta",
+    "ja": "ザマゼンタ",
+    "zh": "藏玛然特"
+  },
+  "generation": 8,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "つわものポケモン",
+  "category_zh": "强者宝可梦",
+  "abilities": [
+    {
+      "name_en": "dauntless-shield",
+      "name_zh": "不屈之盾",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.9,
+  "weight_kg": 210.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 10,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 335,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 92,
+    "attack": 120,
+    "defense": 115,
+    "special_attack": 80,
+    "special_defense": 115,
+    "speed": 138,
+    "total": 660
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 399
+  },
+  "flavor_text_zh": "藏玛然特是 伽勒尔地区 的 传说的宝可梦 。藏玛然特和 苍响 作为 传说的英雄 ，它们故事出现在了传说中，并且代代流传。它曾和苍响一起阻止了 暗夜 ，受到人们的畏惧与尊崇。它在与众人之王协力拯救了伽勒尔的宝可梦后以石像般的姿态陷入长久沉眠，几乎就要被人们所遗忘，即使在伽勒尔地区也少有人知晓它们的存在。 藏玛然特是一只充满谜团的宝可梦。藏玛然特在没有变成盾之王的时候外形是比较普通的犬类外观，其中的一只耳朵看起来就像是没了一块，有着一缕翘起的毛发，身上的棱角对比苍响来说更加分明，和苍响一样身上布满着类似伤口的花纹，它的全身看起来就像是穿着尖锐的铠甲，四肢比较狭长，脸型看起来就像是一个小小的盾牌。它会通过吸收金属来进行战斗。如果给藏玛然特携带上道具 腐朽的盾 的话，那么藏玛然特就会从百战勇者形态变成盾之王形态，这种形态的身体被像是盾牌一样的物体覆盖著。藏玛然特会使用覆盖在身体表面的金属盾牌来防御对手的攻击。盾牌的强度极高，能够反弹一切的攻击，因此被称为格斗王之盾，即使是龙属性宝可梦们锐利的爪子也无法在上面留下任何刮痕。 无论身处怎样残酷的战场都无所畏惧，盾之王藏玛然特都会堂堂正正地闯入敌方阵营讨伐敌人。它全副武装的样子，即使是极巨化宝可梦的攻击也能轻易抵挡。盾状的装甲既是铁壁般的防御手段，同时也是强力的攻击手段。据说，它竭尽全力突进时发挥出的破坏力足以让大地开裂，于此同时产生的冲击波甚至可以打倒数百个敌人。它能使用 巨兽弹 ，通过让扇形的装甲巨大化猛撞对手，对极巨化宝可梦所拥有的力量发挥强大的效果。招式所造成的冲击将贯穿对手极巨化的身体，给与对手昏厥级的伤害。甚至有人认为那种破坏力足以贯穿威严耸立的高山。 [ 1 ]",
+  "flavor_text_en": "This Pokémon slept for aeons while in the form of a statue. It was asleep for so long, people forgot that it ever existed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 889,
+    "pokeapi_species_id": 889,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/889"
+  }
+}

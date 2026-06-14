@@ -1,0 +1,82 @@
+{
+  "entry_id": "0324",
+  "national_id": 324,
+  "form": "default",
+  "names": {
+    "en": "Torkoal",
+    "ja": "コータス",
+    "zh": "煤炭龟"
+  },
+  "generation": 3,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "せきたんポケモン",
+  "category_zh": "煤炭宝可梦",
+  "abilities": [
+    {
+      "name_en": "white-smoke",
+      "name_zh": "白色烟雾 / 或 / 日照",
+      "hidden": false
+    },
+    {
+      "name_en": "drought",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "硬壳盔甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 80.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 165,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 140,
+    "special_attack": 85,
+    "special_defense": 70,
+    "speed": 20,
+    "total": 470
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 105,
+    "阿罗拉": 223,
+    "伽勒尔": 300,
+    "帕底亚": 150,
+    "蓝莓": 86
+  },
+  "flavor_text_zh": "煤炭龟是外形类似陆龟的宝可梦，身体以橘褐色为主，四肢与长脖子上各有一个黑灰色的环状条纹，每一只脚有三个爪子，背后则有一个短短的尾巴。龟壳以黑灰色为主，周围有五个火红色的凹陷处，最上端则有一个小孔。 在弃用的煤矿中住着很多煤炭龟，它们会不停地挖掘煤炭，然后将它们放入甲壳的洞里燃烧，遭到敌方攻击时会喷出黑烟然后逃走。当它从鼻孔里喷出烟雾的时候，会发出宛如火车汽笛的声音。它通过燃烧煤炭制作能量，火势减弱后会变得无精打采，如果煤炭烧净身体就会变得无法动弹。如果甲壳中的火焰消失就会死亡，要在家里培育的话，必须常备燃料。通过甲壳里喷出的烟就能了解它的身体状况。势头很旺时，说明很有精神。",
+  "flavor_text_en": "You find abandoned coal mines full of them. They dig tirelessly in search of coal.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 324,
+    "pokeapi_species_id": 324,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/324"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entry_id": "0839",
+  "national_id": 839,
+  "form": "default",
+  "names": {
+    "en": "Coalossal",
+    "ja": "セキタンザン",
+    "zh": "巨炭山"
+  },
+  "generation": 8,
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "types_zh": [
+    "岩石",
+    "火"
+  ],
+  "category": "せきたんポケモン",
+  "category_zh": "煤炭宝可梦",
+  "abilities": [
+    {
+      "name_en": "steam-engine",
+      "name_zh": "蒸汽机",
+      "hidden": false
+    },
+    {
+      "name_en": "flame-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.8,
+  "weight_kg": 310.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 255,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 80,
+    "defense": 120,
+    "special_attack": 80,
+    "special_defense": 90,
+    "speed": 30,
+    "total": 510
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 838,
+        "name_en": "carkol",
+        "name_zh": "大炭车",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 163,
+    "帕底亚": 93
+  },
+  "flavor_text_zh": "从大炭车进化成为巨炭山之后，巨炭山改为双脚站立，原本背上驮着的煤炭，变成了头顶上驮着煤炭，巨炭山有一个大大的嘴巴，嘴巴里面看起来充满着热能，它的全身看起来就像是由岩石构成，而双肩的岩石还有凸出的部位，巨炭山头上的煤炭也有红色的光芒，就如同煤炭正在燃烧一样，它的双手双脚都比较短。超极巨化之后的巨炭山，个子变得高大，其身上的煤炭数量变得更加多，而且渐渐与身体融为一体，身体腹部出现了岩石裂开的迹象，里面可以看到正在燃烧的火焰。 巨炭山平时性情温和，但在人类破坏矿山时会大发雷霆。它会用燃烧到1500度的躯体压住对手，将其烧成灰烬。进入战斗状态后，它会把煤炭山燃烧得通红，大幅晃动身体，让煤炭从它那熊熊燃烧的背上向四周喷洒，以此来威吓对手，飞撒火花来烧焦四周。 超极巨化巨炭山的身体是巨大的火炉。超极巨化之力激发它燃烧起了2000度的炉火。据说在大寒流席卷伽勒尔时，是它变成巨大的火炉拯救了许许多多的生命。",
+  "flavor_text_en": "While it’s engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 839,
+    "pokeapi_species_id": 839,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/839"
+  }
+}

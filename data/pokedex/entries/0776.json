@@ -1,0 +1,73 @@
+{
+  "entry_id": "0776",
+  "national_id": 776,
+  "form": "default",
+  "names": {
+    "en": "Turtonator",
+    "ja": "バクガメス",
+    "zh": "爆焰龟兽"
+  },
+  "generation": 7,
+  "types": [
+    "fire",
+    "dragon"
+  ],
+  "types_zh": [
+    "火",
+    "龙"
+  ],
+  "category": "ばくはつがめポケモン",
+  "category_zh": "爆炸龟宝可梦",
+  "abilities": [
+    {
+      "name_en": "shell-armor",
+      "name_zh": "硬壳盔甲",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 212.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 70,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 170,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 78,
+    "defense": 135,
+    "special_attack": 91,
+    "special_defense": 85,
+    "speed": 36,
+    "total": 485
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 224,
+    "伽勒尔": 347
+  },
+  "flavor_text_zh": "爆焰龟兽是大型的龟类宝可梦，鼻子呈管状，扁平的头顶及龟甲都呈六芒星形，背上长满了棘突状的爆炸物，胸部的星型凹洞为其弱点，因此战斗时总是背对敌人。 爆焰龟兽栖息在火山，由于进食在火山口附近的硫磺等，甲壳内形成一层以硫磺为主要成分的炸药层。受到冲击的话会从甲壳的刺散射出火花点燃，发生爆炸。它会从鼻孔里喷出火焰和毒瓦斯。粪便是爆炸物，有各式各样的用途。它会模仿火山附近岩石的形态守候猎物，猎物一旦登上甲壳，它就会看准时机利用尾巴撞击甲壳把甲壳诱爆。爆炸的甲壳虽然是个麻烦，但却很怕湿气，下雨天爆焰龟兽会一直静静地呆在洞窟深处。爆焰龟兽会从腹部的空洞释放在背部发生的爆炸所引起的疾风，这里是爆焰龟兽的弱点，若被击中的话会受到重大的伤害。 [ 1 ]",
+  "flavor_text_en": "Eating sulfur in its volcanic habitat is what causes explosive compounds to develop in its shell. Its droppings are also dangerously explosive.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 776,
+    "pokeapi_species_id": 776,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/776"
+  }
+}

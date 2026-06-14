@@ -1,0 +1,87 @@
+{
+  "entry_id": "0998",
+  "national_id": 998,
+  "form": "default",
+  "names": {
+    "en": "Baxcalibur",
+    "ja": "セグレイブ",
+    "zh": "戟脊龙"
+  },
+  "generation": 9,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "types_zh": [
+    "龙",
+    "冰"
+  ],
+  "category": "ひょうりゅうポケモン",
+  "category_zh": "冰龙宝可梦",
+  "abilities": [
+    {
+      "name_en": "thermal-exchange",
+      "name_zh": "热交换",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.1,
+  "weight_kg": 210.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 10,
+  "color": "gray",
+  "color_zh": "蓝色",
+  "base_experience": 300,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "龙",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 115,
+    "attack": 145,
+    "defense": 92,
+    "special_attack": 75,
+    "special_defense": 86,
+    "speed": 87,
+    "total": 600
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 997,
+        "name_en": "arctibax",
+        "name_zh": "冻脊龙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 390
+  },
+  "flavor_text_zh": "戟脊龙会倒转身体并从口中吐出冷气，然后靠吐气的作用力猛冲，用尾巴一击粉碎冻住的敌人，用背鳍的剑给予敌人致命一击。从嘴里喷射出的极低温的冷气，即使是灼热的熔岩，也能使其在一瞬间变成冰块。 超级戟脊龙不只是背鳍的大剑变得更加巨大，上腹部也出现了像是剑柄一样的冰柱。 通过超级进化，超级戟脊龙的冰能量扩散到了全身，也包括内脏和神经在内。因此，它的反应速度、肌肉爆发力和招式威力均得到了强化。从瞳孔变红这一点可以得知，冰能量也已扩散到了视觉神经。它会集中冰能量后从“上腹部剑柄”释放招式。背鳍的大剑变得更加巨大，导致身体的重心移到了背上。而这个“上腹部剑柄”也发挥着让重心归位的作用。大剑的攻击也因此变得更加强力。它会利用这份重量，将万物一刀两断，或是彻底粉碎。 [ 1 ]",
+  "flavor_text_en": "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 998,
+    "pokeapi_species_id": 998,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/998"
+  }
+}

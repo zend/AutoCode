@@ -1,0 +1,92 @@
+{
+  "entry_id": "0459",
+  "national_id": 459,
+  "form": "default",
+  "names": {
+    "en": "Snover",
+    "ja": "ユキカブリ",
+    "zh": "雪笠怪"
+  },
+  "generation": 4,
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "types_zh": [
+    "草",
+    "冰"
+  ],
+  "category": "じゅひょうポケモン",
+  "category_zh": "树冰宝可梦",
+  "abilities": [
+    {
+      "name_en": "snow-warning",
+      "name_zh": "降雪",
+      "hidden": false
+    },
+    {
+      "name_en": "soundproof",
+      "name_zh": "隔音",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 50.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 67,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 62,
+    "defense": 50,
+    "special_attack": 62,
+    "special_defense": 60,
+    "speed": 40,
+    "total": 334
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 460,
+        "name_en": "abomasnow",
+        "name_zh": "暴雪王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 142,
+    "伽勒尔": 96,
+    "洗翠": 217,
+    "帕底亚": 352,
+    "蓝莓": 159,
+    "密阿雷": 172
+  },
+  "flavor_text_zh": "雪笠怪是一只身形小巧的宝可梦，全身的颜色以雪白色和棕褐色为主。它头顶戴着雪白色的斗笠，身体的上半部分也是雪白的，而下半部分则是棕褐色。它有一双手，手的末端类似于松树的新芽。雌性雪笠怪腹部的白色部分更大。 雪笠怪生活在积雪深厚的山上，会通过把脚踩进积雪中来吸收水分和冷气，在雪中遇见它的可能性很高。它在寒冷的季节里会迁移到山脚下，一到春天就会返回积雪残留的山顶。到了春天，它的肚子的周围会生长出口感好似冰棍的树果，这是伽勒尔的 火红不倒翁 们的最爱。它很少见到人类，或许是对人类感兴趣，只要在雪山发现了脚印，就会聚集到那周围去。传说它即使出现在人类村落中也不会带来危害，反而会成为孩童们的好朋友。",
+  "flavor_text_en": "One is likely to encounter this Pokémon while out in the snow. There are stories of Snover appearing in human settlements but doing no harm—rather, they bond with the children.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 459,
+    "pokeapi_species_id": 459,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/459"
+  }
+}

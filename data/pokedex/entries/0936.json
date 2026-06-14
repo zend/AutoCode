@@ -1,0 +1,85 @@
+{
+  "entry_id": "0936",
+  "national_id": 936,
+  "form": "default",
+  "names": {
+    "en": "Armarouge",
+    "ja": "グレンアルマ",
+    "zh": "红莲铠骑"
+  },
+  "generation": 9,
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "types_zh": [
+    "火",
+    "超能力"
+  ],
+  "category": "ひのせんしポケモン",
+  "category_zh": "火战士宝可梦",
+  "abilities": [
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 85.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 263,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 60,
+    "defense": 100,
+    "special_attack": 125,
+    "special_defense": 80,
+    "speed": 75,
+    "total": 525
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 935,
+        "name_en": "charcadet",
+        "name_zh": "炭小侍",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 166
+  },
+  "flavor_text_zh": "红莲铠骑身上的铠甲是立下诸多功勋的战士的铠甲，是忠心耿耿的宝可梦。它会对训练家宣誓忠诚，但为了锻炼超能力能量，会独自反复进行训练。它身上包裹着通过超能力和火焰的能量而得到强化的铠甲，是它使用的 超能力属性 招式的能量来源。此外，它还会用铠甲的超能力操控体内的火焰能量来使出招式，释放灼热的火球。它的信条是堂堂正正地战斗，即使面对强敌也会正面挑战。它擅长以坚固的铠甲来加固防御，以高火力的招式来打倒对手。 [ 2 ]",
+  "flavor_text_en": "This Pokémon clads itself in armor that has been fortified by psychic and fire energy, and it shoots blazing fireballs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 936,
+    "pokeapi_species_id": 936,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/936"
+  }
+}

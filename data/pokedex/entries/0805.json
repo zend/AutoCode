@@ -1,0 +1,66 @@
+{
+  "entry_id": "0805",
+  "national_id": 805,
+  "form": "default",
+  "names": {
+    "en": "Stakataka",
+    "ja": "ツンデツンデ",
+    "zh": "垒磊石"
+  },
+  "generation": 7,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "types_zh": [
+    "岩石",
+    "钢"
+  ],
+  "category": "いしがきポケモン",
+  "category_zh": "石墙宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 5.5,
+  "weight_kg": 820.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 61,
+    "attack": 131,
+    "defense": 211,
+    "special_attack": 53,
+    "special_defense": 101,
+    "speed": 13,
+    "total": 570
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {},
+  "regional_dex": {},
+  "flavor_text_zh": "垒磊石是 究极异兽 的一种，代号为\"ＵＢ：堆砌\"。垒磊石看起来就像是一座四方体的堡垒，但它的内部是空心的，如同用石头堆积而成的外形，每一块似乎都是独立的生命体。听说它们堆积起来，合而为一形成一个集合体。它由四只看起来是脚的生命体组合支撑着，石墙会有一两处空缺，从而露出里面的眼睛。 西奥尼拉 认为每只垒磊石都由150个生命体构成。 垒磊石是从究极之洞里出现的究极异兽。它好像是复数的生命累积起来形成了1只。突然动起来并展开袭击的石墙，正身就是这家伙。它与对手对峙或感到极度愤怒时，每一块石头的眼睛都会发出红色的光。 [ 1 ] - **百科链接**: [垒磊石](https://wiki.52poke.com/wiki/%E5%9E%92%E7%A3%8A%E7%9F%B3)",
+  "flavor_text_en": "When stone walls started moving and attacking, the brute’s true identity was this mysterious life-form, which brings to mind an Ultra Beast.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 805,
+    "pokeapi_species_id": 805,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/805"
+  }
+}
