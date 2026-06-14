@@ -1,0 +1,93 @@
+{
+  "entry_id": "0174",
+  "national_id": 174,
+  "form": "default",
+  "names": {
+    "en": "Igglybuff",
+    "ja": "ププリン",
+    "zh": "宝宝丁"
+  },
+  "generation": 2,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "types_zh": [
+    "一般",
+    "妖精"
+  ],
+  "category": "ふうせんポケモン",
+  "category_zh": "气球宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯 / 或 / 好胜",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "friend-guard",
+      "name_zh": "友情防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 170,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 42,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 30,
+    "defense": 15,
+    "special_attack": 40,
+    "special_defense": 20,
+    "speed": 15,
+    "total": 210
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 39,
+        "name_en": "jigglypuff",
+        "name_zh": "胖丁",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 43,
+    "丰缘": 137,
+    "阿罗拉": 134,
+    "帕底亚": 59
+  },
+  "flavor_text_zh": "宝宝丁的身体是粉红色的，头上有三个球体状物。它的手和脚小，但是身体很大。它的眼瞳是红色的，额头上有一个蚊香的标记。 宝宝丁身体非常的柔软，充满弹性。一旦滚起来后就会弹来弹去，完全停不下来。比起用短脚走路，它更擅长用柔软的身体弹跳着四处移动。它像棉花糖一样的身体会散发出微甜的香气，抚平敌人的情绪。当它的体温上升时，身体会变成深粉红色。它喜欢唱歌，但还不怎么在行，如果能给予恰当的表扬，就会渐渐有所提高。为了能动听地歌唱，它会一直练习唱歌，拼命持续唱歌的时候，全身会涨成浓重的粉红色。就算是睡着了，也会在梦中不停地歌唱。因为声带还没有发育成熟，所以持续歌唱的话嗓子会痛，会用清澈小河里的水润嗓子。如果不去管它，它就会一直练习唱歌。所以还是让它休息会，别伤到了嗓子。",
+  "flavor_text_en": "Taking advantage of the softness of its body, Igglybuff moves as if bouncing. Its body turns a deep pink when its temperature rises.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 174,
+    "pokeapi_species_id": 174,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/174"
+  }
+}

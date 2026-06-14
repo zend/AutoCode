@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zend/AutoCode/data/pokedex/schema.json",
+  "title": "National Pokedex Knowledge Base Entry",
+  "description": "Structured Pokémon entry for grounded LLM queries. All fields are authoritative; do not invent values outside this schema.",
+  "type": "object",
+  "required": [
+    "entry_id",
+    "national_id",
+    "names",
+    "generation",
+    "types",
+    "base_stats",
+    "source"
+  ],
+  "properties": {
+    "entry_id": {
+      "type": "string",
+      "description": "Unique entry key, e.g. 0025 or 0026-alola",
+      "pattern": "^[0-9]{4}(-[a-z0-9-]+)?$"
+    },
+    "national_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1025
+    },
+    "form": {
+      "type": "string",
+      "description": "Form variant: default, alola, galar, hisui, paldea, etc."
+    },
+    "names": {
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "zh": { "type": "string" },
+        "en": { "type": "string" },
+        "ja": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "generation": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9
+    },
+    "types": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "maxItems": 2
+    },
+    "types_zh": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "category": { "type": "string" },
+    "category_zh": { "type": "string" },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name_en", "hidden"],
+        "properties": {
+          "name_en": { "type": "string" },
+          "name_zh": { "type": "string" },
+          "hidden": { "type": "boolean" }
+        }
+      }
+    },
+    "height_m": { "type": "number" },
+    "weight_kg": { "type": "number" },
+    "gender_ratio": {
+      "type": "object",
+      "properties": {
+        "male_percent": { "type": "number" },
+        "female_percent": { "type": "number" },
+        "genderless": { "type": "boolean" }
+      }
+    },
+    "capture_rate": { "type": "integer" },
+    "color": { "type": "string" },
+    "color_zh": { "type": "string" },
+    "base_experience": { "type": "integer" },
+    "growth_rate": { "type": "string" },
+    "egg_groups": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "egg_groups_zh": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "base_stats": {
+      "type": "object",
+      "required": ["hp", "attack", "defense", "special_attack", "special_defense", "speed", "total"],
+      "properties": {
+        "hp": { "type": "integer" },
+        "attack": { "type": "integer" },
+        "defense": { "type": "integer" },
+        "special_attack": { "type": "integer" },
+        "special_defense": { "type": "integer" },
+        "speed": { "type": "integer" },
+        "total": { "type": "integer" }
+      }
+    },
+    "ev_yield": {
+      "type": "object",
+      "additionalProperties": { "type": "integer" }
+    },
+    "evolution": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "national_id": { "type": "integer" },
+              "name_en": { "type": "string" },
+              "name_zh": { "type": "string" },
+              "trigger": { "type": "string" }
+            }
+          }
+        },
+        "to": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "national_id": { "type": "integer" },
+              "name_en": { "type": "string" },
+              "name_zh": { "type": "string" },
+              "trigger": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "regional_dex": {
+      "type": "object",
+      "additionalProperties": { "type": "integer" }
+    },
+    "flavor_text_zh": { "type": "string" },
+    "flavor_text_en": { "type": "string" },
+    "is_default_form": { "type": "boolean" },
+    "source": {
+      "type": "object",
+      "required": ["pokeapi_id", "pokeapi_species_id"],
+      "properties": {
+        "pokeapi_id": { "type": "integer" },
+        "pokeapi_species_id": { "type": "integer" },
+        "pokeapi_url": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": false
+}

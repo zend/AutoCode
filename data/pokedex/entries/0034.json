@@ -1,0 +1,93 @@
+{
+  "entry_id": "0034",
+  "national_id": 34,
+  "form": "default",
+  "names": {
+    "en": "Nidoking",
+    "ja": "ニドキング",
+    "zh": "尼多王"
+  },
+  "generation": 1,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "types_zh": [
+    "毒",
+    "地面"
+  ],
+  "category": "ドリルポケモン",
+  "category_zh": "钻锥宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺 / 或 / 斗争心",
+      "hidden": false
+    },
+    {
+      "name_en": "rivalry",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 62.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 227,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 81,
+    "attack": 102,
+    "defense": 77,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 85,
+    "total": 505
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 33,
+        "name_en": "nidorino",
+        "name_zh": "尼多力诺",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 34,
+    "城都": 100
+  },
+  "flavor_text_zh": "尼多王是紫色的，身上没有斑点，只有胸腹部为白色。像石头一样坚硬的皮肤以及长长的毒角是它的特征。它耳朵的边缘有小而尖的刺，耳朵内部是绿色的。它下颚的每一侧上有五个齿，第五颗为长獠牙。它的眼睛的形状是三角形，黑眼珠白瞳仁。尼多王的后背从颈部到尾部长有一排粗大的尖刺。它的尾巴有几个细条纹装饰。尼多王的前爪是三趾的，它的后肢只有一个单一的大型蹄状趾。尼多王只有雄性，它的雌性对应宝可梦是 尼多后 。 尼多王是以力量为傲的宝可梦，以可以一往无前进攻的巨大手足和尾巴而自豪，擅长近身战。它用自己的粗尾巴和连钻石都能击碎的角豪爽地战斗，角上有毒需要注意。粗尾巴的挥击有着能将坚固铁塔都折断的惊人破坏力，只要一击就能将电线杆像折火柴棍一样折成两段。粗大且充满力量的尾巴一旦勒住敌人时，就能轻松折断对方的脊椎。当敌人因为它挥舞过来的硕大的尾巴，而感到畏缩时，它便用强壮的身躯去撞击对方。通过活用自己钢一般坚硬的皮肤来使出强力的撞击，它的犄角坚硬得能够刺穿钻石。虽然一旦大闹起来便会令人束手无措，但在长年一起生活的尼多后面前却会露出温和的一面。",
+  "flavor_text_en": "Nidoking prides itself on its strength. It’s forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 34,
+    "pokeapi_species_id": 34,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/34"
+  }
+}

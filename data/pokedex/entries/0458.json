@@ -1,0 +1,92 @@
+{
+  "entry_id": "0458",
+  "national_id": 458,
+  "form": "default",
+  "names": {
+    "en": "Mantyke",
+    "ja": "タマンタ",
+    "zh": "小球飞鱼"
+  },
+  "generation": 4,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "types_zh": [
+    "水",
+    "飞行"
+  ],
+  "category": "カイトポケモン",
+  "category_zh": "风筝宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 储水",
+      "hidden": false
+    },
+    {
+      "name_en": "water-absorb",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "water-veil",
+      "name_zh": "水幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 65.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 69,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 20,
+    "defense": 50,
+    "special_attack": 60,
+    "special_defense": 120,
+    "speed": 50,
+    "total": 345
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 226,
+        "name_en": "mantine",
+        "name_zh": "巨翅飞鱼",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 140,
+    "伽勒尔": 354,
+    "洗翠": 164
+  },
+  "flavor_text_zh": "小球飞鱼的背部是蓝色的，腹部是浅蓝色的。它的背上有类似笑脸的花纹，好像有白色的眼睛，红色的眼珠，浅蓝色的嘴巴。小球飞鱼的眼睛各连着两条黑线，眼睛下方有一道弧线。 小球飞鱼的两根触角能够感受到海水细微的流动，是种很亲近人的宝可梦，会靠近人类的船只。它姿态浑圆如球，却是个游泳高手。因为游在接近海面的地方，所以可以从船上观察到它背上的花纹。学者们通过研究发现，它们背上独特的花纹会因栖息的地域而有所不同。也许是因为海水温度偏低，伽勒尔地区的小球飞鱼动作似乎有点迟缓。它常常混在 铁炮鱼 群里游泳，受到敌人袭击的时候，会和铁炮鱼们并肩作战。与小球飞鱼的互动巡游是非常受欢迎的海滩活动，人们会组成观光团去观赏它们一边在水面上跳跃，一边与铁炮鱼嬉闹的景象。目前已知与铁炮鱼群体交流较多的个体最终得以进化。",
+  "flavor_text_en": "Though ball-like in shape, this Pokémon is a proficient swimmer. I have discovered that if a Mantyke spends much time with schools of Remoraid, it will eventually achieve evolution.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 458,
+    "pokeapi_species_id": 458,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/458"
+  }
+}

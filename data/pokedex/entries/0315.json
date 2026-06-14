@@ -1,0 +1,103 @@
+{
+  "entry_id": "0315",
+  "national_id": 315,
+  "form": "default",
+  "names": {
+    "en": "Roselia",
+    "ja": "ロゼリア",
+    "zh": "毒蔷薇"
+  },
+  "generation": 3,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "いばらポケモン",
+  "category_zh": "荆棘宝可梦",
+  "abilities": [
+    {
+      "name_en": "natural-cure",
+      "name_zh": "自然回复 / 或 / 毒刺",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-point",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "叶子防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 150,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 140,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 45,
+    "special_attack": 100,
+    "special_defense": 80,
+    "speed": 65,
+    "total": 400
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 406,
+        "name_en": "budew",
+        "name_zh": "含羞苞",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 407,
+        "name_en": "roserade",
+        "name_zh": "罗丝雷朵",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 94,
+    "神奥": 26,
+    "伽勒尔": 60,
+    "洗翠": 90,
+    "密阿雷": 30
+  },
+  "flavor_text_zh": "毒蔷薇个子娇小，头上有三朵刺，身体是浅绿色，绿色的叶子像连衣裙一样覆盖在身上，胸前的叶子还有黄色的部分。它通常闭着眼睛，有着长长的睫毛，左手为蓝蔷薇，右手则是红蔷薇。雄性毒蔷薇身上的叶子裙更短。 毒蔷薇双臂上美丽的花朵带有剧毒的尖刺，会射出尖刺去攻击那些盯上自己手上花朵的对手，千万别想要摘下它的花朵。 拉苯博士 的故乡自古流传着以此为信物向对手提出决斗要求的习俗。它头上的刺也带有剧毒，会用右手和左手分别放出两种不同的毒来进行攻击。喝了充满营养的泉水后，毒蔷薇好像就会绽放出色彩罕见的非常美丽的花朵。精力旺盛的毒蔷薇能从花里散发出香气，让闻到香气的人心情放松。浓郁的香味是毒蔷薇有活力的证明，也具有让敌人大意的效果。",
+  "flavor_text_en": "Though beautiful, it has highly poisonous thorns. There is an old tradition in my homeland wherein one would send these thorns to an opponent to challenge them to a duel.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 315,
+    "pokeapi_species_id": 315,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/315"
+  }
+}

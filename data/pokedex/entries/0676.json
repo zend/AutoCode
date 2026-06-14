@@ -1,0 +1,68 @@
+{
+  "entry_id": "0676",
+  "national_id": 676,
+  "form": "default",
+  "names": {
+    "en": "Furfrou",
+    "ja": "トリミアン",
+    "zh": "多丽米亚"
+  },
+  "generation": 6,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "プードルポケモン",
+  "category_zh": "贵宾犬宝可梦",
+  "abilities": [
+    {
+      "name_en": "fur-coat",
+      "name_zh": "毛皮大衣",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 28.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 160,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 165,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 90,
+    "speed": 102,
+    "total": 472
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "密阿雷": 158
+  },
+  "flavor_text_zh": "多丽米亚看起来像一只有着厚厚的皮毛的狗，他们的发型可通过修剪做改变。利用修剪改变的发型有许多种类；在修剪多次后，可选择的发型也会增加。 多丽米亚在遥远过去的卡洛斯地区是被授予了护卫国王职责的宝可梦。曾有过一个时代，贵族之间会比赛如何把它的体毛修剪得美丽。如果修剪好乱蓬蓬的体毛，不只是样子变美，身体也会变得更敏捷。如果置之不理，体毛会不断地长长，但它只允许信赖的人修剪。 卡洛斯地区 密阿雷市 春天大道的 宝可美容沙龙馆 X Y 或琼黄６号街区 南东的 秀简 L ZA 、 丰缘地区 凯那市 的 宝可梦发烧友俱乐部 ΩR αS 、 阿罗拉地区 马利埃静市 S M US UM 和 好奥乐市 US UM 的 美发沙龙 有提供修剪多丽米亚的服务，每次花费 $ 500，有9种 造型 （日文︰ カット ，英文︰ Cut ）可以选择，也可以选择恢复野生的样子。若将已改变造型的多丽米亚放进 宝可梦寄放系统 第七世代 以前 /从 宝可梦寄放系统 取出 第七世代 、上传至 宝可梦虚拟银行 、放进 培育屋 / 宝可梦寄放屋 ，或修剪后五天不予理会 第九世代 以前 ，则毛发又会变长，恢复为原先野生的样子。在《 Pokémon GO 》、《 传说 Z-A 》中捕捉并修剪的多丽米亚，可以在转移至 Pokémon HOME 后维持修剪后的造型。 在 Pokémon GO 中捕捉的多丽米亚存在地区限定的修剪造型。其中淑女造型为美洲限定；菱形造型为欧洲、中东及非洲限定；星形造型为亚太地区限定；女王造型为法国限定；歌舞伎造型为日本限定；国王造型为埃及限定。心形造型为情人节限时活动限定。而贵妇与绅士造型无地区限定。 野生的样子 心形造型 星形造型 菱形造型 淑女造型 贵妇造型 绅士造型 女王造型 歌舞伎造型 国王造型",
+  "flavor_text_en": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 676,
+    "pokeapi_species_id": 676,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/676"
+  }
+}

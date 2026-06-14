@@ -1,0 +1,93 @@
+{
+  "entry_id": "0704",
+  "national_id": 704,
+  "form": "default",
+  "names": {
+    "en": "Goomy",
+    "ja": "ヌメラ",
+    "zh": "黏黏宝"
+  },
+  "generation": 6,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "なんたいポケモン",
+  "category_zh": "软体生物宝可梦",
+  "abilities": [
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草 / 或 / 湿润之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "gooey",
+      "name_zh": "黏滑",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 35,
+    "special_attack": 55,
+    "special_defense": 75,
+    "speed": 40,
+    "total": 300
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 705,
+        "name_en": "sliggoo",
+        "name_zh": "黏美儿",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 178,
+    "伽勒尔": 389,
+    "洗翠": 115,
+    "帕底亚": 172,
+    "北上": 178,
+    "密阿雷": 165
+  },
+  "flavor_text_zh": "黏黏宝有一个黏黏的紫色身体，小小的黑眼睛下面有波浪形的嘴巴，两旁是绿色的圆形图案，下面是更深的紫色。头上有两根触角。 黏黏宝是最弱小的龙属性宝可梦。它身体几乎都是水分，会藏身在湿度较高的树荫下。它会用黏膜包裹全身，来避免随环境干燥而变干。覆盖着身体的黏糊液体一旦干枯，就会立刻无法呼吸失去生命力。它的触角是优秀的感觉器官，非常敏感，足以代替五官的所有功能，能通过空气的流动来感知危险。它只要被握住触角就会因震惊而无法动弹，所以只要感觉到有敌人就会立刻藏起来，以此存活到了现在。它用滑腻腻的粘膜保护身体，被滑腻腻的粘膜覆盖着的身体可以让敌人的拳击和脚踢哧溜一下滑开。因为粘膜上尽是各种细菌，接触后要好好地洗手。",
+  "flavor_text_en": "Goomy hides away in the shade of trees, where it's nice and humid. If the slime coating its body dries out, the Pokémon instantly becomes lethargic.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 704,
+    "pokeapi_species_id": 704,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/704"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "entry_id": "0881",
+  "national_id": 881,
+  "form": "default",
+  "names": {
+    "en": "Arctozolt",
+    "ja": "パッチルドン",
+    "zh": "雷鸟海兽"
+  },
+  "generation": 8,
+  "types": [
+    "electric",
+    "ice"
+  ],
+  "types_zh": [
+    "电",
+    "冰"
+  ],
+  "category": "かせきポケモン",
+  "category_zh": "化石宝可梦",
+  "abilities": [
+    {
+      "name_en": "volt-absorb",
+      "name_zh": "蓄电 / 或 / 静电",
+      "hidden": false
+    },
+    {
+      "name_en": "static",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "slush-rush",
+      "name_zh": "拨雪",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.3,
+  "weight_kg": 150.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 177,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "special_attack": 90,
+    "special_defense": 80,
+    "speed": 55,
+    "total": 505
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 375
+  },
+  "flavor_text_zh": "雷鸟海兽的下半身主要为浅蓝色，覆盖着冰晶，温度极低，因此上半身被冻的直流鼻涕。它的上半身组成部分和雷鸟龙的上半身组成部分是一样的，下半身则相对来说比较大，像是生活在水里的宝可梦一般有着尾部的鱼鳍，以及类似鱼类的腹鳍的脚，身体中间看起来就像是正在融化的冰块。 雷鸟海兽曾经生活在古代的海边，能用身体的冰来保存食物，但由于动作太迟缓而灭绝了。它冻成冰的上半身在颤抖后可以产生电能，但非常不擅长走路。",
+  "flavor_text_en": "This Pokémon lived on prehistoric seashores and was able to preserve food with the ice on its body. It went extinct because it moved so slowly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 881,
+    "pokeapi_species_id": 881,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/881"
+  }
+}

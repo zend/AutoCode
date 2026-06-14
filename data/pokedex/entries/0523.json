@@ -1,0 +1,89 @@
+{
+  "entry_id": "0523",
+  "national_id": 523,
+  "form": "default",
+  "names": {
+    "en": "Zebstrika",
+    "ja": "ゼブライカ",
+    "zh": "雷电斑马"
+  },
+  "generation": 5,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "らいでんポケモン",
+  "category_zh": "雷电宝可梦",
+  "abilities": [
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "避雷针 / 或 / 电气引擎",
+      "hidden": false
+    },
+    {
+      "name_en": "motor-drive",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 79.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 174,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 63,
+    "special_attack": 80,
+    "special_defense": 63,
+    "speed": 116,
+    "total": 497
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 522,
+        "name_en": "blitzle",
+        "name_zh": "斑斑马",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 29,
+    "蓝莓": 24
+  },
+  "flavor_text_zh": "雷电斑马以黑色为皮肤的主色调，身上有很多闪电状的白色花纹。它有著蓝色的瞳仁和黄色的眼白，而其眼角延伸出三角状如同刺一般的花纹。嘴尖有着比进化前的斑斑马更黑的一小块皮肤，那就是它的鼻子，鼻子上方有一条短小的白色条纹直冲额头。额头顶上有两个犹如闪电的竖角，在角的两侧是一双黑色的耳朵，耳朵内部呈蓝色。雷电斑马背后的马鬃从头顶后部一直下来到后颈部，再一直延伸到尾部，尾巴呈电火花一般爆炸的球状。它身上的白色条纹更加密布于全身，呈电光状。四只健壮的长脚上有两个白色环状的花纹，脚尖是灰色的马蹄。 雷电斑马性格暴躁充满攻击性。如果发脾气，就会从鬃毛里向着四面八方放电，相当危险。兴奋起来时，就会让鬃毛亮起黄色光芒并放出电击。一旦听到雷鸣声，它就会为了让群体中的斑斑马能通过雷电充电而成群地追赶雷雨云。它有着闪电般的瞬间爆发力，如果雷电斑马以全速奔跑就会雷声轰鸣。",
+  "flavor_text_en": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 523,
+    "pokeapi_species_id": 523,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/523"
+  }
+}

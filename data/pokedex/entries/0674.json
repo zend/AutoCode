@@ -1,0 +1,92 @@
+{
+  "entry_id": "0674",
+  "national_id": 674,
+  "form": "default",
+  "names": {
+    "en": "Pancham",
+    "ja": "ヤンチャム",
+    "zh": "顽皮熊猫"
+  },
+  "generation": 6,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "やんちゃポケモン",
+  "category_zh": "顽皮宝可梦",
+  "abilities": [
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳 / 或 / 破格",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "胆量",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 8.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 220,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 70,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 67,
+    "attack": 82,
+    "defense": 62,
+    "special_attack": 46,
+    "special_defense": 48,
+    "speed": 43,
+    "total": 348
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 675,
+        "name_en": "pangoro",
+        "name_zh": "霸道熊猫",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 220,
+    "伽勒尔": 111,
+    "密阿雷": 47
+  },
+  "flavor_text_zh": "顽皮熊猫的外貌就如同一只幼年的 大熊猫 ，有着圆滚滚的身体，黑色的眼圈。而与现实世界的大熊猫不同的是，它头上的毛是白色的，其余部分则是深灰色和近黑色的。下肢毛发为深灰色，看起来像是穿着一条裤子，而肚子上的毛发构成了一个“山”字形。它的尾巴是白色的，像一个圆圆的小球。叼着的叶子是它的独特特征，嘴里叼着的叶子没有任何意义，只是为了装酷。 顽皮熊猫很顽皮，所以不适合没经验的训练家。它像跟班那样跟在 霸道熊猫 后头，会模仿自己敬为头头的霸道熊猫，向它学习战斗及捕捉猎物的方法，渐渐变得独当一面。如果犯了重大错误，叶子就会被拿走。它为了不被小看而拼命做出可怕的表情瞪着对手，但收效甚微。只要被摸到头，绷紧的神经稍有放松就会在无意中露出笑脸。如果它用尽全力瞪着你的话，就装作自己很害怕吧。",
+  "flavor_text_en": "Wanting to make sure it’s taken seriously, Pancham’s always giving others a glare. But if it’s not focusing, it ends up smiling.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 674,
+    "pokeapi_species_id": 674,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/674"
+  }
+}

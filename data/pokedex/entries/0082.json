@@ -1,0 +1,102 @@
+{
+  "entry_id": "0082",
+  "national_id": 82,
+  "form": "default",
+  "names": {
+    "en": "Magneton",
+    "ja": "レアコイル",
+    "zh": "三合一磁怪"
+  },
+  "generation": 1,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "types_zh": [
+    "电",
+    "钢"
+  ],
+  "category": "じしゃくポケモン",
+  "category_zh": "磁铁宝可梦",
+  "abilities": [
+    {
+      "name_en": "magnet-pull",
+      "name_zh": "磁力 / 或 / 结实",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "analytic",
+      "name_zh": "分析",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 60.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 60,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 163,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 95,
+    "special_attack": 120,
+    "special_defense": 70,
+    "speed": 70,
+    "total": 465
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 81,
+        "name_en": "magnemite",
+        "name_zh": "小磁怪",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 462,
+        "name_en": "magnezone",
+        "name_zh": "自爆磁怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 82,
+    "城都": 119,
+    "丰缘": 83,
+    "神奥": 179,
+    "阿罗拉": 48,
+    "洗翠": 178,
+    "帕底亚": 210,
+    "蓝莓": 117
+  },
+  "flavor_text_zh": "三合一磁怪是三只小磁怪通过磁力连接在一起诞生的宝可梦。它磁铁的位置有所改变，下部中间的两个磁铁向前伸出，旁边的两个小磁怪身上只有两个螺丝钉。 三合一磁怪由三只小磁怪聚集起来进化而成，会发出强力的磁力和高电压。连接的时候，三只小磁怪的脑袋也会连成一体，但并不会变得三倍聪明，大约有小磁怪三倍的电力。小磁怪之间连结着的磁力非常强，甚至可以让周围水分蒸发，一靠近它就会感到强烈的耳鸣。它一直在发射神秘的电波，半径1公里内的气温会升高2度。雨云形成后，它们就会聚集在高处，等待着从天上落下雷电。听说这种连在一起的小磁怪会在太阳黑子多的时候大量地出现，身体也会变大，引起电磁暴扰乱通信，使电视机无法清楚地播放。它会通过放出强力的电波来观测周围的状况，在三合一磁怪栖息的地方，精密机器会发生故障。由于会发出强大的磁力，研究它时总是碰上机器被破坏的问题。因为会用很强的磁力破坏机器，所以当三合一磁怪大量出现时，大城镇都会拉响警报通知大家。据说在有些城镇不将其放入精灵球，就会受到警告。",
+  "flavor_text_en": "Three Magnemite gathered to evolve into this Pokémon. The source of much vexation on my part, as its powerful magnetism destroys my research equipment.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 82,
+    "pokeapi_species_id": 82,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/82"
+  }
+}

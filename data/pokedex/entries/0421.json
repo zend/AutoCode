@@ -1,0 +1,82 @@
+{
+  "entry_id": "0421",
+  "national_id": 421,
+  "form": "default",
+  "names": {
+    "en": "Cherrim",
+    "ja": "チェリム",
+    "zh": "樱花儿"
+  },
+  "generation": 4,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "サクラポケモン",
+  "category_zh": "樱花宝可梦",
+  "abilities": [
+    {
+      "name_en": "flower-gift",
+      "name_zh": "花之礼",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 9.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 158,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 60,
+    "defense": 70,
+    "special_attack": 87,
+    "special_defense": 78,
+    "speed": 85,
+    "total": 450
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 420,
+        "name_en": "cherubi",
+        "name_zh": "樱花宝",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 59,
+    "伽勒尔": 129,
+    "洗翠": 67
+  },
+  "flavor_text_zh": "樱花儿根据天气的不同拥有两种不同的形态。阴天形态的樱花儿的身体被两片交叉的紫色花瓣包裹，头上覆盖着一片绿色的叶萼，两只脚是深粉色。晴天形态的樱花儿身着由粉色樱花瓣组成的短裙，头部是黄色的，头发像花瓣一样分为五瓣，另有两个像浆果一样的小球点缀在它的头发上。它的两只脚是黄色的。 樱花儿花苞形态的时候性格稳重，几乎不会动，只是静静地等待太阳光的出现。从紧闭的花瓣中泄漏而出的香气会吸引多种宝可梦聚集而来。盖起来的花瓣很硬。即使被鸟宝可梦啄到，也完全没问题。如果感受到强烈的阳光，它就会绽开合着的花瓣，全身沐浴在阳光下，将花苞形态的时候忍受的积愤一下子发泄出来。它开花后则一直笑容满面，充分沐浴到阳光后活力满满的样子会一直持续到日落。但只要太阳被遮住，就会立刻闭上花瓣停止动作，天如果阴下来就会变回花苞。盛开的花瓣中散发出的微微的香气会吸引虫宝可梦聚集而来。",
+  "flavor_text_en": "Motionless, save for the occasional quiver. A rich array of Pokémon can be found gathered around it, drawn by the scent exuded from Cherrim's folded petals.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 421,
+    "pokeapi_species_id": 421,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/421"
+  }
+}

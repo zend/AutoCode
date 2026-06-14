@@ -1,0 +1,93 @@
+{
+  "entry_id": "0168",
+  "national_id": 168,
+  "form": "default",
+  "names": {
+    "en": "Ariados",
+    "ja": "アリアドス",
+    "zh": "阿利多斯"
+  },
+  "generation": 2,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "types_zh": [
+    "虫",
+    "毒"
+  ],
+  "category": "あしながポケモン",
+  "category_zh": "长腿宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感 / 或 / 不眠",
+      "hidden": false
+    },
+    {
+      "name_en": "insomnia",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "狙击手",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 33.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 140,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 40,
+    "total": 400
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 167,
+        "name_en": "spinarak",
+        "name_zh": "圆丝蛛",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 33,
+    "阿罗拉": 23,
+    "北上": 2,
+    "密阿雷": 59
+  },
+  "flavor_text_zh": "阿利多斯的外形像蜘蛛，只有头与腹部。它红色的头部长出了一条角，眼睛是紫色的。它的腹部红黑相间，有两对黄紫相间的足。腹部后面有两个黑点，还长有一条黄色的角。 阿利多斯不会在固定的地方筑巢。会等周围都暗下来了，再开始四处寻找食物。它总会从屁股放出一根特别的丝，沿着这根丝就能到达它的巢。到了晚上，就会离开巢穴并积极地狩猎。它不仅会从臀部，还会从口中吐出丝来，所以仅凭眼睛看，无法分清哪边才是头。它脚的前端有小小的钩爪，甚至能在天花板或垂直的墙壁上行走。它发现猎物时会用又细又结实的丝缠紧敌人，封住对方的行动，然后用牙齿啃食，慢慢地吸食它的体液。它也会将丝缠在猎物身上，然后故意放走。只要沿着丝就能把猎物和它的伙伴一网打尽。也有地区会使用阿利多斯的丝来织布，因布料结实而广受好评。",
+  "flavor_text_en": "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 168,
+    "pokeapi_species_id": 168,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/168"
+  }
+}

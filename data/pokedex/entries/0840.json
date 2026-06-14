@@ -1,0 +1,106 @@
+{
+  "entry_id": "0840",
+  "national_id": 840,
+  "form": "default",
+  "names": {
+    "en": "Applin",
+    "ja": "カジッチュ",
+    "zh": "啃果虫"
+  },
+  "generation": 8,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "types_zh": [
+    "草",
+    "龙"
+  ],
+  "category": "りんごぐらしポケモン",
+  "category_zh": "苹果居宝可梦",
+  "abilities": [
+    {
+      "name_en": "ripen",
+      "name_zh": "熟成 / 或 / 贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "bulletproof",
+      "name_zh": "防弹",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 52,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "plant",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 80,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 20,
+    "total": 260
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 841,
+        "name_en": "flapple",
+        "name_zh": "苹裹龙",
+        "trigger": "use-item"
+      },
+      {
+        "national_id": 842,
+        "name_en": "appletun",
+        "name_zh": "丰蜜龙",
+        "trigger": "use-item"
+      },
+      {
+        "national_id": 1011,
+        "name_en": "dipplin",
+        "name_zh": "裹蜜虫",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 205,
+    "帕底亚": 108,
+    "北上": 33
+  },
+  "flavor_text_zh": "啃果虫看上去像一颗苹果，只是苹果上露出了藏身其中的青虫的眼睛和尾巴。不过啃果虫身上的苹果看起来和普通的苹果并不一样，普通苹果上的蒂在苹果虫这里变成了它的双眼，而啃果虫身上的苹果下半部分的花纹看起来就像是苹果虫的嘴巴，有两个小尖牙状花纹。 啃果虫一出生就躲进了苹果中，终其一生都在苹果里度过，一边吃果肉一边成长。它会用体液提高苹果外皮的强度，同时避免苹果腐烂。如果失去了苹果，身体的水分就会流失，从而逐渐虚弱。如果从高处掉了下来，就有可能从苹果中窜出去。遇到天敌鸟宝可梦时，它会装成苹果保护自己， 嗡蝠 有时会把它错认为食物。它进化方向因苹果的味道而定。",
+  "flavor_text_en": "As soon as it’s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 840,
+    "pokeapi_species_id": 840,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/840"
+  }
+}

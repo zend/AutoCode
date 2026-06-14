@@ -1,0 +1,91 @@
+{
+  "entry_id": "0749",
+  "national_id": 749,
+  "form": "default",
+  "names": {
+    "en": "Mudbray",
+    "ja": "ドロバンコ",
+    "zh": "泥驴仔"
+  },
+  "generation": 7,
+  "types": [
+    "ground"
+  ],
+  "types_zh": [
+    "地面"
+  ],
+  "category": "うさぎうまポケモン",
+  "category_zh": "驴宝可梦",
+  "abilities": [
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素 / 或 / 持久力",
+      "hidden": false
+    },
+    {
+      "name_en": "stamina",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 110.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 77,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 70,
+    "special_attack": 45,
+    "special_defense": 55,
+    "speed": 45,
+    "total": 385
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 750,
+        "name_en": "mudsdale",
+        "name_zh": "重泥挽马",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 132,
+    "伽勒尔": 84,
+    "帕底亚": 272,
+    "北上": 129
+  },
+  "flavor_text_zh": "泥驴仔的身上有着浅色的花纹，鬃毛延续到头部，看起来就像是留着一顶中分的发型，它的眼睛一般呈现黑色的横状眼球，四肢在脚部和腿部的连接处有着凸出的部位。裹在身上的泥巴是它吃下的土反刍而成的，就算长时间晒在阳光下也不会干掉。 泥驴仔过去曾广泛分布在全世界，但现在因被滥捕而快将灭绝，据说野生的泥驴仔仅存在于阿罗拉地区。它身体虽小，走路虽慢，但力量很大，以和小小的身体不相称的怪力为傲。即使背着比自己重50倍的行李，走路速度也不会有变化。在把自己吃土制造出的泥巴涂在脚上之后，无论走在路况多么差的路上都不会打滑，能够矫健的奔跑。泥驴仔性格顽固，我行我素。它最喜欢玩泥巴，吃土制作泥巴，玩泥巴是每天的功课。如果是能够玩泥巴的环境，和它一起生活就会十分简单。然而，如果不能玩泥巴就会囤积压力，亦有变得不听从命令的时候。 [ 1 ]",
+  "flavor_text_en": "It eats dirt to create mud and smears this mud all over its feet, giving them the grip needed to walk on rough terrain without slipping.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 749,
+    "pokeapi_species_id": 749,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/749"
+  }
+}

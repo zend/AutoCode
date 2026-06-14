@@ -1,0 +1,86 @@
+{
+  "entry_id": "0466",
+  "national_id": 466,
+  "form": "default",
+  "names": {
+    "en": "Electivire",
+    "ja": "エレキブル",
+    "zh": "电击魔兽"
+  },
+  "generation": 4,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "らいでんポケモン",
+  "category_zh": "雷电宝可梦",
+  "abilities": [
+    {
+      "name_en": "motor-drive",
+      "name_zh": "电气引擎",
+      "hidden": false
+    },
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 138.6,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 243,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 123,
+    "defense": 67,
+    "special_attack": 95,
+    "special_defense": 85,
+    "speed": 95,
+    "total": 540
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 125,
+        "name_en": "electabuzz",
+        "name_zh": "电击兽",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 199,
+    "阿罗拉": 228,
+    "洗翠": 184,
+    "蓝莓": 12
+  },
+  "flavor_text_zh": "电击魔兽体型更大，有着粗壮的手臂，两条像电线一样的尾巴。其背部有看似双线插座的图案。 电击魔兽凭借奇异的道具进化而成。它的发电量和心率成比例，心跳增快时发电量将会增加，发电量在电气宝可梦当中属于最高级别。在它储存满电后两只角之间就会激烈地迸发出蓝白色的火花。只要1只电击魔兽就能提供一座大城市的建筑物1年所需的全部电力。电击魔兽兴奋的时候会捶胸鸣叫。每到那时，电火花会飞溅，雷声会在四周回响。一到战斗的时候，电压就会急速上升。握住冒着电火花的尾巴做成带电的拳头后，就会用尽全力猛殴。它全然不顾对手的攻击接近对手，会用两根尾巴的尖端按住对手并放出超过2万伏特的电来进行攻击，敌人瞬间就成黑炭了。",
+  "flavor_text_en": "Its evolution was induced by an unusual item, and its electrical output rises along with its heart rate. From its tails, it can unleash an electric current measuring 20,000 volts.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 466,
+    "pokeapi_species_id": 466,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/466"
+  }
+}

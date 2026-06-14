@@ -1,0 +1,92 @@
+{
+  "entry_id": "0321",
+  "national_id": 321,
+  "form": "default",
+  "names": {
+    "en": "Wailord",
+    "ja": "ホエルオー",
+    "zh": "吼鲸王"
+  },
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "うきくじらポケモン",
+  "category_zh": "浮鲸宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-veil",
+      "name_zh": "水幕 / 或 / 迟钝",
+      "hidden": false
+    },
+    {
+      "name_en": "oblivious",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": true
+    }
+  ],
+  "height_m": 14.5,
+  "weight_kg": 398.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 175,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "ground",
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 170,
+    "attack": 90,
+    "defense": 45,
+    "special_attack": 90,
+    "special_defense": 45,
+    "speed": 60,
+    "total": 500
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 320,
+        "name_en": "wailmer",
+        "name_zh": "吼吼鲸",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 100,
+    "阿罗拉": 267,
+    "伽勒尔": 357
+  },
+  "flavor_text_zh": "吼鲸王的背部以蓝色为主，肚子和牙齿是白色，背上有四个白色的斑点，原型为蓝鲸。它会以突出在海面的鼻孔来呼吸，只要一口气将空气吸进去的话，可以潜到3000米的深海里。 吼鲸王是目前体型最大的宝可梦，会悠然地在汪洋大海中游动，喜欢追赶成群的猎物，然后一口气吸进巨大的嘴巴吃掉，会用大大的嘴巴将 弱丁鱼 群一口气尽数吞下。不过超级 麻麻鳗鱼王 的电力也足以让吼鲸王这样的超大型宝可梦麻痹到无法动弹。它为了追赶猎物经常一大群一齐从水里跳起，并扬起大大的水花，成群结队起跳的样子十分震撼。它有时也会让大大的身体在波浪上跳跃，并以此来产生冲击让对手昏迷。总之，它因为超级巨大而受欢迎，观看吼鲸王在各地都是非常受欢迎的游览项目。因为会吃太多的鱼宝可梦，所以数量增加过多的话，会被渔夫们驱赶。小小的 吼吼鲸 会被 巨牙鲨 和 破破舵轮 袭击，有时自己也会受到 破破舵轮 的袭击，这时群体伙伴就会团结一致来守护。",
+  "flavor_text_en": "Its immense size is the reason for its popularity. Wailord watching is a favorite sightseeing activity in various parts of the world.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 321,
+    "pokeapi_species_id": 321,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/321"
+  }
+}

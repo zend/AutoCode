@@ -1,0 +1,91 @@
+{
+  "entry_id": "0688",
+  "national_id": 688,
+  "form": "default",
+  "names": {
+    "en": "Binacle",
+    "ja": "カメテテ",
+    "zh": "龟脚脚"
+  },
+  "generation": 6,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "types_zh": [
+    "岩石",
+    "水"
+  ],
+  "category": "ふたてポケモン",
+  "category_zh": "双手宝可梦",
+  "abilities": [
+    {
+      "name_en": "tough-claws",
+      "name_zh": "硬爪 / 或 / 狙击手",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 31.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 42,
+    "attack": 52,
+    "defense": 67,
+    "special_attack": 39,
+    "special_defense": 56,
+    "speed": 50,
+    "total": 306
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 689,
+        "name_en": "barbaracle",
+        "name_zh": "龟足巨铠",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 234,
+    "密阿雷": 34
+  },
+  "flavor_text_zh": "龟脚脚看上去就是一只爪子的造型，有四个指甲，中间两个并在一起。龟脚脚的身体是橙色的，有白色环带，头部基本是棕色的“外壳”，有橙色的“脸颊”。它的表情看上去一直很生气，平常都将身体固定在海边的岩石上。两只龟脚脚生活在一块岩石上，如果吵架了，就会有某只转移到其他岩石上去。 龟脚脚利用拉伸身体的反作用力提着岩石走路，在波浪拍打的海滩上吃冲上来的海藻。两只龟脚脚会在海边找一块大小合适的岩石，附在上面一起生活。涨潮的时候会互相合作寻找食物。如果两只龟脚脚配合得不好，不但无法有效地攻击和防御，甚至没办法生存下去。",
+  "flavor_text_en": "If the two don’t work well together, both their offense and defense fall apart. Without good teamwork, they won’t survive.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 688,
+    "pokeapi_species_id": 688,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/688"
+  }
+}

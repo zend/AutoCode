@@ -1,0 +1,90 @@
+{
+  "entry_id": "0850",
+  "national_id": 850,
+  "form": "default",
+  "names": {
+    "en": "Sizzlipede",
+    "ja": "ヤクデ",
+    "zh": "烧火蚣"
+  },
+  "generation": 8,
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "types_zh": [
+    "火",
+    "虫"
+  ],
+  "category": "はつねつポケモン",
+  "category_zh": "发热宝可梦",
+  "abilities": [
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火 / 或 / 白色烟雾",
+      "hidden": false
+    },
+    {
+      "name_en": "white-smoke",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "flame-body",
+      "name_zh": "火焰之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 45,
+    "total": 305
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 851,
+        "name_en": "centiskorch",
+        "name_zh": "焚焰蚣",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 159
+  },
+  "flavor_text_zh": "烧火蚣的身体扁而长且分成了七节，通体鲜红，有著暗褐色的背部。烧火蚣在头尾都有两搓燃烧的火苗，腹部的黄色圆圈是全身温度最高的地方。共有五对步足，嘴巴旁长著一对小附肢。第一节的上方有黄色的三角形花纹。 烧火蚣靠储存在体内的可燃气体来发热，热度最高的是腹部的黄色部分。它会用滚烫的身体勒紧猎物，等到烤得恰到好处之时，就把它们大口大口地吃掉。虽然与 百足蜈蚣 是种类相近的伙伴，但是一见面就会大打一番。它的祖先和 钳尾蝎 的祖先是近亲。",
+  "flavor_text_en": "It wraps prey up with its heated body, cooking them in its coils. Once they’re well-done, it will voraciously nibble them down to the last morsel.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 850,
+    "pokeapi_species_id": 850,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/850"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "entry_id": "0547",
+  "national_id": 547,
+  "form": "default",
+  "names": {
+    "en": "Whimsicott",
+    "ja": "エルフーン",
+    "zh": "风妖精"
+  },
+  "generation": 5,
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "types_zh": [
+    "草",
+    "妖精"
+  ],
+  "category": "かぜかくれポケモン",
+  "category_zh": "风隐宝可梦",
+  "abilities": [
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心 / 或 / 穿透",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 6.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 67,
+    "defense": 85,
+    "special_attack": 77,
+    "special_defense": 75,
+    "speed": 116,
+    "total": 480
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 546,
+        "name_en": "cottonee",
+        "name_zh": "木棉球",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 53,
+    "阿罗拉": 88,
+    "伽勒尔": 263,
+    "蓝莓": 57
+  },
+  "flavor_text_zh": "风妖精是体型很小，样子有些像绵羊的宝可梦。它有橙色、椭圆形的眼睛和绿色且卷曲的耳朵。它褐色的身体被棉花覆盖，棉花从头顶延伸至后背膨成一团，就像蓬松的头发。在这一大团棉花后面有一个绿色、星形的梗。 风妖精并没有特定的栖息地，会乘着旋风到处现身，搞恶作剧。但如果风力过强，头上的棉花就会被风扯掉。棉花沾水之后就会变重而动弹不得，只能听天由命。每当沐浴阳光，身上的棉花就会膨胀。如果膨胀过了头，它就会把棉花扯开到处乱撒。它像风一样无孔不入，无论多细小的缝隙都能穿过。它会乘着风从缝隙中钻进民宅，藏起重要的东西，把家里的家具挪来挪去，或是把房间里弄得满是白色的棉花，然后咯咯咯地笑着离去，是个捣蛋的家伙。",
+  "flavor_text_en": "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 547,
+    "pokeapi_species_id": 547,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/547"
+  }
+}

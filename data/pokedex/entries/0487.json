@@ -1,0 +1,74 @@
+{
+  "entry_id": "0487",
+  "national_id": 487,
+  "form": "default",
+  "names": {
+    "en": "Giratina",
+    "ja": "ギラティナ",
+    "zh": "骑拉帝纳"
+  },
+  "generation": 4,
+  "types": [
+    "ghost",
+    "dragon"
+  ],
+  "types_zh": [
+    "幽灵",
+    "龙"
+  ],
+  "category": "はんこつポケモン",
+  "category_zh": "反抗宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 4.5,
+  "weight_kg": 750.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 306,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 150,
+    "attack": 100,
+    "defense": 120,
+    "special_attack": 100,
+    "special_defense": 120,
+    "speed": 90,
+    "total": 680
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "神奥": 210,
+    "洗翠": 237
+  },
+  "flavor_text_zh": "别种形态骑拉帝纳是一种大型、灰色、外形像龙的宝可梦，金色的半环自背部环绕其颈。黑红相间的条纹水平分布于颈的正面。它长有两只幽灵似的大翅膀，翼尖有像爪子的红色结构。这一对翅膀能够像液体、气体一样改变形态。骑拉帝纳有粗壮的六条腿，末端长有爪。起源形态骑拉帝纳会变成类似环节动物门多毛类的姿态。它的双翼变为六条有如幽灵般的、条带状的翅膀，在其背后漂浮，翼尖红色。它的腿部回缩成了金色的尖状物，在尾部接近末端的位置又另外出现了四根尖状物。 据说骑拉帝纳因为性格粗暴而被驱逐，栖息在位于这个世界背面没有天地之分的 毁坏的世界 里，那里所有的常规都与这个世界不同。它一直待在毁坏的世界里，静静地看着原来的世界，有时会出现在古代的墓地中。洗翠地区自古流传着这样一句话：强光照而暗影生。暗影也许指的正是别种形态的骑拉帝纳。",
+  "flavor_text_en": "There is one Hisuian verse that tells of a powerful light creating a deep shadow. I imagine that this deep shadow is Giratina.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 487,
+    "pokeapi_species_id": 487,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/487"
+  }
+}

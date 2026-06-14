@@ -1,0 +1,88 @@
+{
+  "entry_id": "0396",
+  "national_id": 396,
+  "form": "default",
+  "names": {
+    "en": "Starly",
+    "ja": "ムックル",
+    "zh": "姆克儿"
+  },
+  "generation": 4,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "むくどりポケモン",
+  "category_zh": "椋鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 49,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 55,
+    "defense": 30,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 60,
+    "total": 245
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 397,
+        "name_en": "staravia",
+        "name_zh": "姆克鸟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 10,
+    "洗翠": 12,
+    "帕底亚": 97,
+    "北上": 28
+  },
+  "flavor_text_zh": "姆克儿外形像一只灰色的小鸟。它的腹部是浅灰色，还有一个白色的圆形斑点，它的前额也有一个斑点，但雌性前额的斑点更小。它的身体非常圆润，有着黑白颜色相间的尾羽。它的喙上长下短，上半部分尖端是黑色的。它有着不太锐利的爪子，头部有着翘起的羽毛。 姆克儿在山野中生活，当仅有一只在的时候就会变得很不起眼。它会成群结队来弥补单枪匹马的弱小，然而群体一旦变大又会起争执。它以庞大的群体在山野间飞来飞去，追捕 刺尾虫 这样的虫宝可梦。姆克儿总喜欢啄食 樱花宝 身上营养而且美味的小球。但它嘴喙程度的攻击，砂土蓑衣的 结草贵妇 轻而易举就可以反弹回去。它的叫声聒噪吵杂，虽然身体很小，但拍打翅膀的力量非常强。要是被它的翅膀打到，会整整痛上一个星期。它的胆子出人意料地大，就算受到惊吓也不会逃得太远。",
+  "flavor_text_en": "They live in the fields and mountains, gathering in large flocks. Their cries are quite obnoxious. Though small, their wings are strong—a strike from them leaves pain that persists for a week.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 396,
+    "pokeapi_species_id": 396,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/396"
+  }
+}

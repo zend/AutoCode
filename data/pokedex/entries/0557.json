@@ -1,0 +1,93 @@
+{
+  "entry_id": "0557",
+  "national_id": 557,
+  "form": "default",
+  "names": {
+    "en": "Dwebble",
+    "ja": "イシズマイ",
+    "zh": "石居蟹"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "types_zh": [
+    "虫",
+    "岩石"
+  ],
+  "category": "いしやどポケモン",
+  "category_zh": "石居宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 硬壳盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 14.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 65,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "虫",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 85,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 55,
+    "total": 325
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 558,
+        "name_en": "crustle",
+        "name_zh": "岩殿居蟹",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 63,
+    "伽勒尔": 86
+  },
+  "flavor_text_zh": "石居蟹是类似寄居蟹的宝可梦。它的身体是橙色的，背上背着一块大岩石作为保护自己身体的甲壳。当石居蟹从石头里出来的时候，它的总体外形很像是虫类，有着比较尖的尾巴。 石居蟹会在自己喜欢的合适石头上开洞作为住所。如果有大小合适的石头就会从嘴里分泌液体开出一个可以进入的洞，即便是坚硬的岩石也能轻易在上面开洞。如果石头被破坏，在找到替代的石头之前会一直心里不踏实。如果找不到大小合适的石头来当成自己的家，它也会住到 河马兽 的洞里。对 石丸子 还有 小炭仔 来说是天敌。",
+  "flavor_text_en": "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 557,
+    "pokeapi_species_id": 557,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/557"
+  }
+}

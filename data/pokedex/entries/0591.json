@@ -1,0 +1,86 @@
+{
+  "entry_id": "0591",
+  "national_id": 591,
+  "form": "default",
+  "names": {
+    "en": "Amoonguss",
+    "ja": "モロバレル",
+    "zh": "败露球菇"
+  },
+  "generation": 5,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "きのこポケモン",
+  "category_zh": "蘑菇宝可梦",
+  "abilities": [
+    {
+      "name_en": "effect-spore",
+      "name_zh": "孢子",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 10.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 162,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 114,
+    "attack": 85,
+    "defense": 70,
+    "special_attack": 85,
+    "special_defense": 80,
+    "speed": 30,
+    "total": 464
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 590,
+        "name_en": "foongus",
+        "name_zh": "哎呀球菇",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 97,
+    "帕底亚": 206
+  },
+  "flavor_text_zh": "败露球菇是蘑菇状的宝可梦，有着大而色浅又带着疣的精灵球状菌伞。它也有着巨大的灰色茎状身体、凶狠的眼神以及粉红色的大嘴巴。败露球菇挥舞着两个形似精灵球的护盾。 败露球菇喜欢阴暗潮湿的地方，平常一般不太动，只是一动不动地待在掉落于地面的精灵球旁边。它会摇晃着双臂酷似精灵球的菌伞，跳起引诱猎物的舞蹈，但是被骗到的宝可梦很少。它会喷出带毒的孢子，如果不马上把它洗掉，那里就会长出蘑菇来，就像是败露球菇的菌伞。",
+  "flavor_text_en": "Amoonguss generally doesn’t move much. It tends to stand still near Poké Balls that have been dropped on the ground.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 591,
+    "pokeapi_species_id": 591,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/591"
+  }
+}

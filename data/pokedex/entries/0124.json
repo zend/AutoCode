@@ -1,0 +1,91 @@
+{
+  "entry_id": "0124",
+  "national_id": 124,
+  "form": "default",
+  "names": {
+    "en": "Jynx",
+    "ja": "ルージュラ",
+    "zh": "迷唇姐"
+  },
+  "generation": 1,
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "types_zh": [
+    "冰",
+    "超能力"
+  ],
+  "category": "ひとがたポケモン",
+  "category_zh": "人形宝可梦",
+  "abilities": [
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝 / 或 / 预知梦",
+      "hidden": false
+    },
+    {
+      "name_en": "forewarn",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "dry-skin",
+      "name_zh": "干燥皮肤",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 40.6,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "special_attack": 115,
+    "special_defense": 95,
+    "speed": 95,
+    "total": 455
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 238,
+        "name_en": "smoochum",
+        "name_zh": "迷唇娃",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 124,
+    "城都": 153
+  },
+  "flavor_text_zh": "迷唇姐是人形的宝可梦。它穿着红色的藏住脚的长裙，有白色的手臂和紫色的双手。迷唇姐有紫色的脸、粉色的嘴唇、碟子形状的眼睛和长长的金发。迷唇姐只有雌性，没有与它对应的雄性宝可梦。 迷唇姐虽然说的话听上去像是人类语言，但具体说的是什么还不清楚，现在正在研究当中。它的叫声有几种固定模式，似乎分别有固定的意思，也有些音乐家会谱写一些让迷唇姐唱的曲子。它不仅能说像人类一样的话，而且似乎能用舞蹈来传达感情。它会用跳舞般的腰姿踩着独特的节奏悠然移动，走路的姿势如同在扭腰一样。摆动的时候似乎会因情绪不同而有不同的节奏。栖息在阿罗拉的迷唇姐，那动作更是妙不可言。据说如果放松了警惕，就会不由自主地跟着跳起舞来。伽勒尔的迷唇姐外表靓丽，拥有纤细叫声的也不在少数，甚至有为其着迷的粉丝。在伽勒尔的某些地方，迷唇姐被称作冰之女王，受到人们的畏惧与崇拜。",
+  "flavor_text_en": "The Jynx of Galar often have beautiful and delicate voices. Some of these Pokémon have even gathered a fan base.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 124,
+    "pokeapi_species_id": 124,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/124"
+  }
+}

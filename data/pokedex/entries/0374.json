@@ -1,0 +1,86 @@
+{
+  "entry_id": "0374",
+  "national_id": 374,
+  "form": "default",
+  "names": {
+    "en": "Beldum",
+    "ja": "ダンバル",
+    "zh": "铁哑铃"
+  },
+  "generation": 3,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "types_zh": [
+    "钢",
+    "超能力"
+  ],
+  "category": "てっきゅうポケモン",
+  "category_zh": "铁球宝可梦",
+  "abilities": [
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "light-metal",
+      "name_zh": "轻金属",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 95.2,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 55,
+    "defense": 80,
+    "special_attack": 35,
+    "special_defense": 60,
+    "speed": 30,
+    "total": 300
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 375,
+        "name_en": "metang",
+        "name_zh": "金属怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 190,
+    "阿罗拉": 214,
+    "蓝莓": 137,
+    "密阿雷": 225
+  },
+  "flavor_text_zh": "铁哑铃头部上方有一个冠状物，它还有一副长长的躯干，臀部有一只巨大的爪子。它的头几近圆形，嵌置在它躯干前端的球窝关节处，其正中是一个巨大的红色眼睛。 铁哑铃细胞全部是磁铁，让身上放出的磁力和地球的磁力相互排斥从而浮在空中，睡觉时会用尾部的爪子勾住悬崖。在身体内，强力的磁力代替血液不断循环着。身体状况不好时，就给它磁铁吧。群聚在一起的铁哑铃们会宛如一只宝可梦般有条不紊地移动，通过磁力的波动和伙伴对话。它会从臀部发出磁力猛地将敌人吸过来，然后用锐利的爪子把对方刺穿。如果把它惹恼，不仅会大闹一番，还会放出强大的磁力，把机械类的东西都破坏掉。",
+  "flavor_text_en": "The cells in this Pokémon’s body are composed of magnetic material. Instead of blood, magnetic forces flow through Beldum’s body.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 374,
+    "pokeapi_species_id": 374,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/374"
+  }
+}

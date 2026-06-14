@@ -1,0 +1,88 @@
+{
+  "entry_id": "0915",
+  "national_id": 915,
+  "form": "default",
+  "names": {
+    "en": "Lechonk",
+    "ja": "グルトン",
+    "zh": "爱吃豚"
+  },
+  "generation": 9,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ぶたポケモン",
+  "category_zh": "猪宝可梦",
+  "abilities": [
+    {
+      "name_en": "aroma-veil",
+      "name_zh": "芳香幕 / 或 / 贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 10.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 51,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 54,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 35,
+    "special_defense": 45,
+    "speed": 35,
+    "total": 254
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 916,
+        "name_en": "oinkologne",
+        "name_zh": "飘香豚",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 10
+  },
+  "flavor_text_zh": "爱吃豚的外形像一只猪，整体是黑色的，但它的面部是棕色的。它有着粉红色的鼻子，黄色的波浪状的下睫毛。它的四只蹄子也都是粉红色的。它的耳朵内面是黄色的。 爱吃豚乍看之下似乎很胖，但它会为了找食物而四处奔走，一整天都在觅食。因此它实际上是个浑身几乎都是肌肉的大力士。它明明拥有优秀的嗅觉，但却只用来寻找食物。它利用自傲的鼻子，总是能精准地找到飘着芳香的野草和香醇的树果，只吃精挑细选过的食物。这让它发出了虫宝可梦很讨厌的类似香草的气味。当有爱吃豚去舔食 丰蜜龙 背上的甜甜蜜时，丰蜜龙就会吐出黏糊糊的蜜汁来将其击退。它被敌人袭击而受惊后，会陷入慌乱并猛冲起来。 [ 1 ] 有训练家会特意带着爱吃豚到山里找 好胜毛蟹 掉落的十分美味的钳子。",
+  "flavor_text_en": "This Pokémon spurns all but the finest of foods. Its body gives off an herblike scent that bug Pokémon detest.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 915,
+    "pokeapi_species_id": 915,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/915"
+  }
+}

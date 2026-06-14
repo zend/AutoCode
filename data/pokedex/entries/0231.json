@@ -1,0 +1,85 @@
+{
+  "entry_id": "0231",
+  "national_id": 231,
+  "form": "default",
+  "names": {
+    "en": "Phanpy",
+    "ja": "ゴマゾウ",
+    "zh": "小小象"
+  },
+  "generation": 2,
+  "types": [
+    "ground"
+  ],
+  "types_zh": [
+    "地面"
+  ],
+  "category": "ながはなポケモン",
+  "category_zh": "长鼻宝可梦",
+  "abilities": [
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 33.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 40,
+    "total": 330
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 232,
+        "name_en": "donphan",
+        "name_zh": "顿甲",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 195,
+    "丰缘": 165,
+    "帕底亚": 122
+  },
+  "flavor_text_zh": "小小象的耳朵非常大，耳朵和嘴巴都有着红色的条纹。 小小象会在河边挖个竖坑，做出巢穴栖息。它会在住处附近做上鼻子标记，以此来告诉伙伴这里是自己的领地。它会在无人的清晨来到水边，熟练地用长鼻子冲凉。伙伴们聚集起来后就会互相喷水，在岸边晒干湿透的身体。在河边玩泥巴之后如果不把身体洗干净，就会感到不自在。它与外表不同，是个大力士。身体虽小却充满了力量，即使是幼年时力气也非常大，能轻轻松松地将成年人驮在背上行走。它为了玩耍而将鼻子四处挥舞，但力道很强，所以十分危险。它为了表达爱意会用鼻子撞过来，但因为力道太大，一不小心就会被它撞飞。如果被它甩动的鼻子碰到，手臂的骨头就会支离破碎。小小象的巨大耳朵可以代替扇子，天气热的时候会啪嗒啪嗒扇动着前进。",
+  "flavor_text_en": "Phanpy uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These Pokémon can be seen drying their soaking-wet bodies at the edge of water.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 231,
+    "pokeapi_species_id": 231,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/231"
+  }
+}

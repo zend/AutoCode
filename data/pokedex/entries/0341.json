@@ -1,0 +1,92 @@
+{
+  "entry_id": "0341",
+  "national_id": 341,
+  "form": "default",
+  "names": {
+    "en": "Corphish",
+    "ja": "ヘイガニ",
+    "zh": "龙虾小兵"
+  },
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ごろつきポケモン",
+  "category_zh": "无赖宝可梦",
+  "abilities": [
+    {
+      "name_en": "hyper-cutter",
+      "name_zh": "怪力钳 / 或 / 硬壳盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "适应力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 11.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 205,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 62,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 43,
+    "attack": 80,
+    "defense": 65,
+    "special_attack": 50,
+    "special_defense": 35,
+    "speed": 35,
+    "total": 308
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 342,
+        "name_en": "crawdaunt",
+        "name_zh": "铁螯龙虾",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 129,
+    "伽勒尔": 102,
+    "北上": 11
+  },
+  "flavor_text_zh": "龙虾小兵上体大部分是橙色，腹部是白色，头上有三个尖状突起。 龙虾小兵来自外国，后被当做宠物带回国并回归了野性，无论在什么场所都很有精神。它可以适应任何环境，有着强大的生命力，即使是在很脏的河川里，数量也会不断增加。由于生命力强大，所以数量不断增长，呆在浑浊臭水沟里的大概就是 丑丑鱼 和这家伙。在 野蛮鲈鱼 群出现的湖里，就只有龙虾小兵和 铁螯龙虾 之类的能留下来。它会用锋利的钳子捕捉猎物，一旦被它的大钳子给夹到的猎物，不管发生什么事都绝不会放掉。它不挑食，所以什么都吃。被没有坚持培育的训练家放生了的个体在增加，即使在阿罗拉也变得时常能见到了。",
+  "flavor_text_en": "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 341,
+    "pokeapi_species_id": 341,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/341"
+  }
+}

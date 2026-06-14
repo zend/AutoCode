@@ -1,0 +1,91 @@
+{
+  "entry_id": "0654",
+  "national_id": 654,
+  "form": "default",
+  "names": {
+    "en": "Braixen",
+    "ja": "テールナー",
+    "zh": "长尾火狐"
+  },
+  "generation": 6,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "キツネポケモン",
+  "category_zh": "狐狸宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "magician",
+      "name_zh": "魔术师",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 14.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 143,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 59,
+    "attack": 59,
+    "defense": 58,
+    "special_attack": 90,
+    "special_defense": 70,
+    "speed": 73,
+    "total": 409
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 653,
+        "name_en": "fennekin",
+        "name_zh": "火狐狸",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 655,
+        "name_en": "delphox",
+        "name_zh": "妖火红狐",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "蓝莓": 213,
+    "密阿雷": 218
+  },
+  "flavor_text_zh": "长尾火狐的面部、手、颈部和胸口的毛发是白色的，额头、耳朵与尾巴都是黄色的。腰部的黄色毛发长成类似裙子的形状，它的脚是黑的，耳朵里长出了一些红色毛发，尾巴整体为黄色，末端有少量红色。它的眼瞳是红色的。 长尾火狐插在尾巴上的树枝是火狐狸最爱吃的东西。进化为长尾火狐后，虽然不再吃树枝了，但插在尾巴上似乎仍有安心作用。 [ 1 ] 它会通过尾巴上的毛摩擦生热，点燃树枝来战斗。它将树枝从尾巴上拔出时会因为摩擦而起火，能将这道火焰作为火种使出强而有力的招式。挥动树枝的火焰可以向伙伴传递信号，遇到危险时会转动树枝画圈。",
+  "flavor_text_en": "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 654,
+    "pokeapi_species_id": 654,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/654"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "entry_id": "0804",
+  "national_id": 804,
+  "form": "default",
+  "names": {
+    "en": "Naganadel",
+    "ja": "アーゴヨン",
+    "zh": "四颚针龙"
+  },
+  "generation": 7,
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "types_zh": [
+    "毒",
+    "龙"
+  ],
+  "category": "どくばりポケモン",
+  "category_zh": "毒针宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 3.6,
+  "weight_kg": 150.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 243,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 73,
+    "attack": 73,
+    "defense": 73,
+    "special_attack": 127,
+    "special_defense": 73,
+    "speed": 121,
+    "total": 540
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 803,
+        "name_en": "poipole",
+        "name_zh": "毒贝比",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {},
+  "flavor_text_zh": "四颚针龙由 究极异兽 “ＵＢ：沾黏” 毒贝比 进化而成，代号为“ＵＢ：刺针”。四颚针龙的下半身和肩膀都长有针，长在它腹部的针直接与大脑相连。它其外形看起来有点类似于现实的蜂类，其长有翅膀，有着巨大的腹部。 四颚针龙是被称为究极异兽的生物中的一种，存在于被奈克洛兹玛夺去了光的世界。它把 毒贝比 当作自己的孩子来养育，会为它寻觅食物，筑起巢穴。它看似巨大腹部的部位装有它的大脑和数百升的毒液，毒液的黏性很强，有会发光的特性，是种特殊的物质。它会从下半身宛如炮台的最巨大的毒针喷射出黏性很大又发光的毒液，射程能达到1万米之远。因为腹部的针直接与大脑相连，所以它非常讨厌自己的针被别人摸到，有着会猛烈袭击触碰者的习性。 [ 1 ] - **百科链接**: [四颚针龙](https://wiki.52poke.com/wiki/%E5%9B%9B%E9%A2%9A%E9%92%88%E9%BE%99)",
+  "flavor_text_en": "One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 804,
+    "pokeapi_species_id": 804,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/804"
+  }
+}

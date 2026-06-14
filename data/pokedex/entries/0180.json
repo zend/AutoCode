@@ -1,0 +1,94 @@
+{
+  "entry_id": "0180",
+  "national_id": 180,
+  "form": "default",
+  "names": {
+    "en": "Flaaffy",
+    "ja": "モココ",
+    "zh": "茸茸羊"
+  },
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "わたげポケモン",
+  "category_zh": "绵毛宝可梦",
+  "abilities": [
+    {
+      "name_en": "static",
+      "name_zh": "静电",
+      "hidden": false
+    },
+    {
+      "name_en": "plus",
+      "name_zh": "正电",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 13.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 128,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 55,
+    "defense": 55,
+    "special_attack": 80,
+    "special_defense": 60,
+    "speed": 45,
+    "total": 365
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 179,
+        "name_en": "mareep",
+        "name_zh": "咩利羊",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 181,
+        "name_en": "ampharos",
+        "name_zh": "电龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 54,
+    "帕底亚": 102,
+    "密阿雷": 25
+  },
+  "flavor_text_zh": "茸茸羊是直立行走的。它的皮肤是粉红色的，绒毛变得很少，仅剩的白色绒毛围绕在它的脖子周围。它有短而粗的手臂，两只脚上各有一根指甲。它的耳朵上和尾巴上有着黑色和粉色的条纹，尾巴末端的球是蓝色的。 因为茸茸羊体毛的性质会发生改变，所以就算只有一点体毛也能产生大量的电。它能将电力储存在松软的毛发中，因为储存了太多电力，所以身上有些地方已经变得光秃秃的了。它松软的体毛易于蓄电，不过多亏有橡胶般的皮肤才没有电麻自己。体毛中蓄满电力后，尾巴就会发光，射出碰到就会被电麻的体毛。",
+  "flavor_text_en": "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 180,
+    "pokeapi_species_id": 180,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/180"
+  }
+}

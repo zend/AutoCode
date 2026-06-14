@@ -1,0 +1,68 @@
+{
+  "entry_id": "0482",
+  "national_id": 482,
+  "form": "default",
+  "names": {
+    "en": "Azelf",
+    "ja": "アグノム",
+    "zh": "亚克诺姆"
+  },
+  "generation": 4,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "いしポケモン",
+  "category_zh": "意志宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 0.3,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 70,
+    "special_attack": 125,
+    "special_defense": 70,
+    "speed": 115,
+    "total": 580
+  },
+  "ev_yield": {
+    "attack": 2,
+    "special_attack": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "神奥": 148,
+    "洗翠": 227
+  },
+  "flavor_text_zh": "亚克诺姆是一只小小的妖精般的宝可梦，有两条灰色尾巴，每条尾巴末端都有一颗红色宝石。 人们认为， 由克希 、 艾姆利多 和亚克诺姆是从同一个蛋里出生的宝可梦。亚克诺姆一直沉睡在湖底，维持着世界的平衡，是以意志之神的身份受人畏惧的宝可梦。传说它能操纵与自己敌对者的意志，使其化为傀儡。亚克诺姆四处飞行时，人们获得了使他们下定决心做好事情的“意志力”，它赠与了人们能够直面任何困难的勇气。据《 神奥传说 》记载：“凡是给予此宝可梦伤害的生物，７天后必将无法动弹，什么都做不了了。”",
+  "flavor_text_en": "The dreaded Being of Willpower. Legends tell of this Pokémon manipulating the will of its adversaries and turning them into puppets of its own.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 482,
+    "pokeapi_species_id": 482,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/482"
+  }
+}

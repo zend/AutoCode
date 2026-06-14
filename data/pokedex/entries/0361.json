@@ -1,0 +1,103 @@
+{
+  "entry_id": "0361",
+  "national_id": 361,
+  "form": "default",
+  "names": {
+    "en": "Snorunt",
+    "ja": "ユキワラシ",
+    "zh": "雪童子"
+  },
+  "generation": 3,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "ゆきかさポケモン",
+  "category_zh": "雪笠宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力 / 或 / 冰冻之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moody",
+      "name_zh": "心情不定",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 16.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 50,
+    "total": 300
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 362,
+        "name_en": "glalie",
+        "name_zh": "冰鬼护",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 478,
+        "name_en": "froslass",
+        "name_zh": "雪妖女",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 171,
+    "神奥": 206,
+    "阿罗拉": 246,
+    "伽勒尔": 79,
+    "洗翠": 205,
+    "帕底亚": 357,
+    "北上": 172,
+    "密阿雷": 169
+  },
+  "flavor_text_zh": "雪童子是小小的、黑色的宝可梦，它有锥形的身体、圆形的手和双脚。它有蓝色的眼睛和咧开的嘴。雪童子的身体覆盖着有橙色边缘的黄色锥形斗篷，斗篷的背面上有三个橙色的菱形斑块。 雪童子生活在经常下雪的地方，只能在寒冷的土地上生存。零下100度也奈何不了它，即使在零下100度的环境下，它也能充满活力地到处蹦蹦跳跳。它会在刚开始降雪的时节现身，据说半夜出现的雪童子会带来大雪。在不下雪的春夏季节，它会安静地生活在钟乳石洞的深处。它以5只左右为一群行动，会聚集在大大的叶片底下融洽地生活在一起。它只靠吃雪和冰为生，在温暖的阿罗拉只能在限定的地方生存。等发觉时，已在阿罗拉增多起来。据说，雪童子栖息过的家庭会子孙满堂家族繁荣，变得富裕。寒冷地方的富人们，好像都会有小时候和雪童子一起玩的回忆。人们相信雪童子造访的家将会代代繁荣，因此有着将清水制成冰块供奉在门口的习俗。",
+  "flavor_text_en": "Arrives alongside the first snow. It's thought that homes Snorunt visit will prosper for many generations. By tradition, one might offer a lump of ice made from pure water at one's front door.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 361,
+    "pokeapi_species_id": 361,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/361"
+  }
+}

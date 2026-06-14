@@ -1,0 +1,89 @@
+{
+  "entry_id": "0043",
+  "national_id": 43,
+  "form": "default",
+  "names": {
+    "en": "Oddish",
+    "ja": "ナゾノクサ",
+    "zh": "走路草"
+  },
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "ざっそうポケモン",
+  "category_zh": "杂草宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 5.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 64,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 55,
+    "special_attack": 75,
+    "special_defense": 65,
+    "speed": 30,
+    "total": 320
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 44,
+        "name_en": "gloom",
+        "name_zh": "臭臭花",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 43,
+    "城都": 83,
+    "丰缘": 88,
+    "伽勒尔": 55,
+    "蓝莓": 62
+  },
+  "flavor_text_zh": "走路草是有着小草外形的宝可梦。它的头部像是一株有着圆形双脚的深蓝色植物球根。它有红色的珠子形状的眼睛，以及一张小嘴。走路草从头上抽出五片绿色的叶子，中间一片叶子顶端向后弯折。 走路草别名谜行草，是沐浴在月光下才会成长的宝可梦，白天会为躲避太阳而钻入凉爽的地下。在白天，它会把根部的脚埋进地里，基本上一动不动，脚好像会变成像是树根那样的形状。它只会伸出叶子的部分，因此很难被发现。要是以为它是普通的草而将它拔起，就会听到它的叫声，这让人感到莫名的恐怖。它会用全身吸收土壤中的营养，安静地躲在地底深处。据说土壤越肥沃，叶子就会变得越有光泽。它沐浴月光就会醒来，到了晚上会一边走路一边散布种子，用两条根走上长达300米的距离，找到肥沃的土地后会把自己埋进去。",
+  "flavor_text_en": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 43,
+    "pokeapi_species_id": 43,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/43"
+  }
+}

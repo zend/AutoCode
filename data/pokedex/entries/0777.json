@@ -1,0 +1,83 @@
+{
+  "entry_id": "0777",
+  "national_id": 777,
+  "form": "default",
+  "names": {
+    "en": "Togedemaru",
+    "ja": "トゲデマル",
+    "zh": "托戈德玛尔"
+  },
+  "generation": 7,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "types_zh": [
+    "电",
+    "钢"
+  ],
+  "category": "まるまりポケモン",
+  "category_zh": "蜷缩宝可梦",
+  "abilities": [
+    {
+      "name_en": "iron-barbs",
+      "name_zh": "铁刺 / 或 / 避雷针",
+      "hidden": false
+    },
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 152,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 98,
+    "defense": 63,
+    "special_attack": 40,
+    "special_defense": 73,
+    "speed": 96,
+    "total": 435
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 225,
+    "伽勒尔": 348
+  },
+  "flavor_text_zh": "托戈德玛尔身体表面的花纹，是由体毛产生变化而变得像刺般，蜷缩起身体时会变得有如尖尖的球一样。它背上的14根针毛平时是倒伏的，一旦受惊或是兴奋就会倒立起来，刺向前来袭击的敌人，不分青红皂白地发出电击。从后头部分长出来的长刺可以像避雷针一样吸引电力，沐浴雷电后就会将之储存在电力袋中。 托戈德玛尔制造电的力量不太强，因此会沐浴着雷进行充电。在打雷的日子里，可以看到它聚集起来竖起刺等待着打雷的情景。它会通过储存吸引回来的电力，释放强力的电击。它也会经常因化为己用 电击怪 的电与电击怪斗殴。在纯熟的训练家之中，好像也有一些人会使用让托戈德玛尔吸收其他宝可梦向托戈德玛尔释放的电击后再作出攻击的战术。 [ 1 ]",
+  "flavor_text_en": "When it’s in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 777,
+    "pokeapi_species_id": 777,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/777"
+  }
+}

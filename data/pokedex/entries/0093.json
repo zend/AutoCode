@@ -1,0 +1,95 @@
+{
+  "entry_id": "0093",
+  "national_id": 93,
+  "form": "default",
+  "names": {
+    "en": "Haunter",
+    "ja": "ゴースト",
+    "zh": "鬼斯通"
+  },
+  "generation": 1,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "types_zh": [
+    "幽灵",
+    "毒"
+  ],
+  "category": "ガスじょうポケモン",
+  "category_zh": "气体状宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 0.1,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 45,
+    "special_attack": 115,
+    "special_defense": 55,
+    "speed": 95,
+    "total": 405
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 92,
+        "name_en": "gastly",
+        "name_zh": "鬼斯",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 94,
+        "name_en": "gengar",
+        "name_zh": "耿鬼",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 93,
+    "城都": 59,
+    "神奥": 70,
+    "阿罗拉": 62,
+    "伽勒尔": 142,
+    "洗翠": 137,
+    "帕底亚": 69,
+    "北上": 119,
+    "密阿雷": 66
+  },
+  "flavor_text_zh": "鬼斯通是紫色的宝可梦，它有圆形的身体，带着一对与身体分离的手，三只手指悬浮在身体前。鬼斯通在脸的两边有三个一组的刺状突出，它有三角形的白色眼睛，里面有黑色的瞳仁；它的嘴里有几颗尖锐的紫色牙齿。 鬼斯通害怕光亮，喜欢黑夜。据说在即便深夜都灯火如昼的大都市有灭绝的危险。它能够穿透任何物体，是出现在任何地方的恐怖恶灵，因此有了它是异次元住民的传闻。它会潜藏在墙壁里观察对手的情况，如果黑暗中空空如也但你却感觉被什么盯上了，那么鬼斯通一定就在那里。它在黑暗中隐藏气息徘徊，静悄悄地锁定猎物，企图把猎物的生命夺走。据说如果被它气体状的舌头舔到，灵魂就会被抓走，身体就会无法停止颤抖，最终将会导致死亡。即使看到浮现在黑暗中的鬼斯通在向你招手，也绝对不要靠近。在没有月亮的晚上，鬼斯通会寻找可以咒术的对象，所以不要外出走动比较好。它喜欢隐匿在黑暗中伸出气体状的手去拍人的肩膀。若被它碰到，身体就会抖个不停。心情悲伤时单独夜出很危险，因为你会被鬼斯通从阴暗处袭击并捉住而无法回家。",
+  "flavor_text_en": "This frightful, malevolent spirit can glide through walls, appearing wherever it likes. According to rumor, victims of a Haunter's lick will wither to death day by day.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 93,
+    "pokeapi_species_id": 93,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/93"
+  }
+}

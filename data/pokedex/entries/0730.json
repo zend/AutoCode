@@ -1,0 +1,88 @@
+{
+  "entry_id": "0730",
+  "national_id": 730,
+  "form": "default",
+  "names": {
+    "en": "Primarina",
+    "ja": "アシレーヌ",
+    "zh": "西狮海壬"
+  },
+  "generation": 7,
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "types_zh": [
+    "水",
+    "妖精"
+  ],
+  "category": "ソリストポケモン",
+  "category_zh": "独唱者宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "liquid-voice",
+      "name_zh": "湿润之声",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 44.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 74,
+    "defense": 74,
+    "special_attack": 126,
+    "special_defense": 116,
+    "speed": 60,
+    "total": 530
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 729,
+        "name_en": "brionne",
+        "name_zh": "花漾海狮",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 9,
+    "蓝莓": 226
+  },
+  "flavor_text_zh": "用歌声操纵气球 西狮海壬有着一头海青色长卷发，由珍珠发圈绑成三段。两鬓佩带着粉色海星发饰。它有着湛蓝色的眼眸，长而浓密的白色睫毛；纤细、修长的白色身躯，宽大而有力的手掌。它身披一件浅蓝色波浪形披肩，胯部有着一圈类似短裙的波浪装饰，胯下长有一圈刺。再下是健壮、灵活的深蓝色尾巴。尾尖分叉并有白色部分，周围也有一圈波浪状装饰。 对于西狮海壬来说，战斗就是舞台，它会灵活运用歌声来战斗。西狮海壬会一边华丽地唱着歌跳着舞，一边向周围放出通过歌声的音波来操纵的水气球给猎物致命一击。它所发出的气球分为触碰后不会破裂的气球及会破裂的气球两种。它会通过不会破裂的气球进行跳跃玩弄对手，再用会破裂的气球引发连环爆炸。特别是反射了月光后闪闪发光的气球，像幻想的舞台般优美。西狮海壬的歌曲有许多不同的版本，各自气球的动态亦不一样。由于歌曲是通过周围的伙伴所传授的，因此不同群体有着不同的歌曲。这个旋律会在伙伴间学习，被一代代地群体传承下去。西狮海壬在月夜率领群体唱歌的样子充满了幻想色彩，那歌声和舞动气球的样子使观战的人们为之倾倒。凭着那动人的姿态，西狮海壬被冠以歌姬的美誉。但对于用歌声操纵气球的西狮海壬，喉咙受损会变成严重的问题。不正确的干燥的唱歌方法或因连续战斗而过度使用喉咙是它的大敌。每天对嗓子的保养是训练家的重要任务。 [ 1 ]",
+  "flavor_text_en": "For Primarina, every battle’s a stage. Its singing and the dancing of its balloons will mesmerize the audience.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 730,
+    "pokeapi_species_id": 730,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/730"
+  }
+}

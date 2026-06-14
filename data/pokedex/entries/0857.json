@@ -1,0 +1,97 @@
+{
+  "entry_id": "0857",
+  "national_id": 857,
+  "form": "default",
+  "names": {
+    "en": "Hattrem",
+    "ja": "テブリム",
+    "zh": "提布莉姆"
+  },
+  "generation": 8,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "せいしゅくポケモン",
+  "category_zh": "肃静宝可梦",
+  "abilities": [
+    {
+      "name_en": "healer",
+      "name_zh": "治愈之心 / 或 / 危险预知",
+      "hidden": false
+    },
+    {
+      "name_en": "anticipation",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "magic-bounce",
+      "name_zh": "魔法镜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 4.8,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 130,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 57,
+    "attack": 40,
+    "defense": 65,
+    "special_attack": 86,
+    "special_defense": 73,
+    "speed": 49,
+    "total": 370
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 856,
+        "name_en": "hatenna",
+        "name_zh": "迷布莉姆",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 858,
+        "name_en": "hatterene",
+        "name_zh": "布莉姆温",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 242,
+    "帕底亚": 283,
+    "北上": 93
+  },
+  "flavor_text_zh": "提布莉姆与迷布莉姆相比长出了小巧的四肢和身体，更像是小女巫，并且头发变得更厚更多，几乎成为了它们身体的主要部分，在其上拥有白色的斑点，并且刘海变短、卷成一个卷，露出它们黑色的有着白粉色瞳孔的双眼，从身后延伸的两条厚厚的辫子是它们走路和攻击的重要的身体部分。提布莉姆头顶的帽子尖端延伸出白色的曲折部分，更像巫师帽。提布莉姆的上半身是白色，拥有两条细长的手臂；下半身有两圈蓬蓬裙似的凸起，在其下是短小的天蓝色的腿部。提布莉姆只有雌性，对应的雄性宝可梦为 诈唬魔 。 遇到情绪激昂的对手时，无论对方是谁，提布莉姆都会用粗暴的方式使其沉默。高昂的情绪在它看来似乎都是强烈的噪音，即使是幸福的情绪也不例外。一旦发现了情绪激昂的对象，它就会用头上的辫子毒打，直到对方失去意识而沉默下来为止，破坏力强到能一击KO职业拳击手。",
+  "flavor_text_en": "Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 857,
+    "pokeapi_species_id": 857,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/857"
+  }
+}

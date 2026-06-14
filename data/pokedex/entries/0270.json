@@ -1,0 +1,94 @@
+{
+  "entry_id": "0270",
+  "national_id": 270,
+  "form": "default",
+  "names": {
+    "en": "Lotad",
+    "ja": "ハスボー",
+    "zh": "莲叶童子"
+  },
+  "generation": 3,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "types_zh": [
+    "水",
+    "草"
+  ],
+  "category": "うきくさポケモン",
+  "category_zh": "浮萍宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 雨盘",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 2.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 44,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 30,
+    "special_attack": 40,
+    "special_defense": 50,
+    "speed": 30,
+    "total": 220
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 271,
+        "name_en": "lombre",
+        "name_zh": "莲帽小童",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 19,
+    "伽勒尔": 36,
+    "北上": 104
+  },
+  "flavor_text_zh": "莲叶童子的身子是蓝色的，有着像喙的黄色嘴巴和六个蓝色小脚，背上顶着一片莲叶。 莲叶童子是居住在水面清澈的池塘里的酷似水草的宝可梦。据说它原本是生活在陆地上的，但因为头上的叶子变重了，所以才会改变习性变成了浮在水面上生活。在水质好的池塘会有大量莲叶童子聚集，因此有时水面会被叶子覆盖。如果长时间不饮水的话，头上的叶子就会枯萎。虽然叶子枯萎了就会变弱，但为了寻找清水，偶尔也会在陆地上移动。它会把坐在头上叶片上的不会游泳的小型宝可梦帮忙运送到对岸去。头上的叶子拥有防污的特性。即使承载满身泥巴的宝可梦，也能保持叶子洁净。",
+  "flavor_text_en": "Its leaf grew too large for it to live on land. That is how it began to live floating in the water.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 270,
+    "pokeapi_species_id": 270,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/270"
+  }
+}

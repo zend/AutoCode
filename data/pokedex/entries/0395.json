@@ -1,0 +1,89 @@
+{
+  "entry_id": "0395",
+  "national_id": 395,
+  "form": "default",
+  "names": {
+    "en": "Empoleon",
+    "ja": "エンペルト",
+    "zh": "帝王拿波"
+  },
+  "generation": 4,
+  "types": [
+    "water",
+    "steel"
+  ],
+  "types_zh": [
+    "水",
+    "钢"
+  ],
+  "category": "こうていポケモン",
+  "category_zh": "皇帝宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "好胜",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 84.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 84,
+    "attack": 86,
+    "defense": 88,
+    "special_attack": 111,
+    "special_defense": 101,
+    "speed": 60,
+    "total": 530
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 394,
+        "name_en": "prinplup",
+        "name_zh": "波皇子",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 9,
+    "洗翠": 163,
+    "蓝莓": 199
+  },
+  "flavor_text_zh": "帝王拿波的皮肤颜色为黑色，有着蓝色的花纹，翅膀内侧长有3根金黄色指甲。帝王拿波最醒目的特征就是从嘴部延伸出的3只看起来很像是王冠的角。 帝王拿波是自古便受到崇拜的宝可梦。它被洗翠居民称为波涛之主，能以不输水上摩托的速度游泳。它从嘴部延伸出的3只角是实力的象征，领袖的角是最大的。它翅膀的边缘很锐利，能将浮冰切断，足以匹敌名匠打造的利器。如果谁敢伤它的自尊的话，它会用能劈开浮冰的翅膀来反击。它不喜欢无意义的争斗，但威胁到族群的安全时也会不留情地消灭敌人。",
+  "flavor_text_en": "Since ancient times, it has been revered by the people of Hisui, who call it the Master of the Waves. Its wings are a match for even master-crafted blades.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 395,
+    "pokeapi_species_id": 395,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/395"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "entry_id": "0656",
+  "national_id": 656,
+  "form": "default",
+  "names": {
+    "en": "Froakie",
+    "ja": "ケロマツ",
+    "zh": "呱呱泡蛙"
+  },
+  "generation": 6,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "あわがえるポケモン",
+  "category_zh": "泡蛙宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "protean",
+      "name_zh": "变幻自如",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 7.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 63,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 41,
+    "attack": 56,
+    "defense": 40,
+    "special_attack": 62,
+    "special_defense": 44,
+    "speed": 71,
+    "total": 314
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 657,
+        "name_en": "frogadier",
+        "name_zh": "呱头蛙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "蓝莓": 215,
+    "密阿雷": 209
+  },
+  "flavor_text_zh": "呱呱泡蛙是一只浅蓝色的蛙类宝可梦。它有着大大的黄色双眼，瞳孔有时为椭圆，有时眯成一条线。头部有一深蓝色条纹。双手及手掌与手臂交界处为白色，像戴了一副白手套。口鼻部和背部、颈部有白色的呱呱泡沫，背部和颈部的泡沫形似包袱。 呱呱泡蛙会从胸部和背部发出泡泡，用细腻的泡泡包住身体保护皮肤。它还会用具有弹力的泡泡抵挡攻击，减少伤害。它装得无忧无虑的，实则很精明地窥视着四周，看起来悠哉的样子其实是用来欺骗敌人的演技。它能发挥卓越的弹跳力，会冷不防地用迅雷不及掩耳的速度压制敌人，从敌人头上扔下富有弹力的泡泡来玩弄对方。",
+  "flavor_text_en": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 656,
+    "pokeapi_species_id": 656,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/656"
+  }
+}

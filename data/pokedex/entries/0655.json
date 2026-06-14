@@ -1,0 +1,86 @@
+{
+  "entry_id": "0655",
+  "national_id": 655,
+  "form": "default",
+  "names": {
+    "en": "Delphox",
+    "ja": "マフォクシー",
+    "zh": "妖火红狐"
+  },
+  "generation": 6,
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "types_zh": [
+    "火",
+    "超能力"
+  ],
+  "category": "キツネポケモン",
+  "category_zh": "狐狸宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "magician",
+      "name_zh": "魔术师",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 39.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 240,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 69,
+    "defense": 72,
+    "special_attack": 114,
+    "special_defense": 100,
+    "speed": 104,
+    "total": 534
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 654,
+        "name_en": "braixen",
+        "name_zh": "长尾火狐",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "蓝莓": 214,
+    "密阿雷": 219
+  },
+  "flavor_text_zh": "妖火红狐全身以红色和黄色为主。腿部和前爪的毛发又多又长，最终形成了类似女巫服装的样子。进化之后，它变成了手持树枝的形象，不再是尾巴上插着树枝，而其大大的耳朵依然是其显著特征，耳朵上有大量类似火焰的绒毛。 妖火红狐能用超能力操纵摄氏3000度的火焰旋涡，用旋涡包住敌人后烧得精光。它会用念力操纵火焰，如果集中精神盯着木杖前端燃烧着的火焰，就能看透未来发生之事。它会用木杖前端的火焰在地上留下烧焦的痕迹，以前的人会通过该痕迹的形状来占卜。 超级妖火红狐超能力的能力得到提升，会让2条树枝浮空，并让它们看起来像是被魔法赋予了意识一般地晃动，以此来迷惑对手。自己也会乘在燃烧着的粗大树枝上边浮空，让对手更加迷惑。与陷入错乱状态的对手形成鲜明对比，超级妖火红狐会沉着冷静地展开精准的攻击并造成伤害。它会与2条燃烧的浮空树枝巧妙配合来施展攻击，操控燃起火焰的枝条让对手变得神魂颠倒，再用大火球将其燃烧殆尽。另外，自由行动的多团火焰不仅会迷惑对手，还会和超级妖火红狐口中吐出的火焰结合，化作巨大的火球，包住对手熊熊燃烧。 [ 1 ]",
+  "flavor_text_en": "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 655,
+    "pokeapi_species_id": 655,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/655"
+  }
+}

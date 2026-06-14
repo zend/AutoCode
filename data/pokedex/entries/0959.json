@@ -1,0 +1,90 @@
+{
+  "entry_id": "0959",
+  "national_id": 959,
+  "form": "default",
+  "names": {
+    "en": "Tinkaton",
+    "ja": "デカヌチャン",
+    "zh": "巨锻匠"
+  },
+  "generation": 9,
+  "types": [
+    "fairy",
+    "steel"
+  ],
+  "types_zh": [
+    "妖精",
+    "钢"
+  ],
+  "category": "ハンマーポケモン",
+  "category_zh": "锤子宝可梦",
+  "abilities": [
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格 / 或 / 我行我素",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 112.8,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 253,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 75,
+    "defense": 77,
+    "special_attack": 70,
+    "special_defense": 105,
+    "speed": 94,
+    "total": 506
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 958,
+        "name_en": "tinkatuff",
+        "name_zh": "巧锻匠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 281
+  },
+  "flavor_text_zh": "巨锻匠的身材娇小，手中却拿着比一个它身躯还要大得多的铁锤。它的身体主要是粉色的，双手是白色的，大拇指与脚掌心则是粉色的。它的白色头发长至地面，靠近额头的部分则是粉色的M型，且一直向下延伸开来。它的头顶长出了四撮毛，中间的两撮比旁边的还要长，且顶部为粉色。在睡觉时，它会躺上自己的锤子。 巨锻匠只有雌性，也没有与它对应的雄性宝可梦。 巨锻匠智力高超，性格豪迈。它会把技术传授给自己率领的群体里的 小锻匠 ，教它们如何把金属敲打成形。它会轻松地挥舞超过100公斤的锤子来夺取想要的东西，然后带回自己的住处。有时会用锤子打飞岩石来攻击飞在空中的 钢铠鸦 。",
+  "flavor_text_en": "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 959,
+    "pokeapi_species_id": 959,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/959"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "entry_id": "0767",
+  "national_id": 767,
+  "form": "default",
+  "names": {
+    "en": "Wimpod",
+    "ja": "コソクムシ",
+    "zh": "胆小虫"
+  },
+  "generation": 7,
+  "types": [
+    "bug",
+    "water"
+  ],
+  "types_zh": [
+    "虫",
+    "水"
+  ],
+  "category": "そうこうポケモン",
+  "category_zh": "疾行宝可梦",
+  "abilities": [
+    {
+      "name_en": "wimp-out",
+      "name_zh": "跃跃欲逃",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 12.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 46,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "虫",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 40,
+    "special_attack": 20,
+    "special_defense": 30,
+    "speed": 80,
+    "total": 230
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 768,
+        "name_en": "golisopod",
+        "name_zh": "具甲武者",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 182,
+    "伽勒尔": 232
+  },
+  "flavor_text_zh": "胆小虫外表看起来就像是现实生活中的海蟑螂，它有着扁平的身体，身体呈一节一节式的构造，它还有两个长长的触角以及两个经常半合着的眼睛，嘴巴就在眼睛的下方，胆小虫拥有尾巴，尾巴的每一节尾端长度是不一致的。 胆小虫从沙滩到海底，栖息在各式各样的地方。它性格胆小，会成群聚集，对于声音和动作十分敏感。当有声音或突然移动的东西时就会提高警觉，一旦这些东西和群体接近，就会分散开来四处逃窜。它也有好奇心旺盛的一面，虽然非常胆小会立刻逃走，但当人和宝可梦一动不动的话，却会因感兴趣而靠近。它会因为胆小慌慌张张地挥动着许多脚拼命逃跑，逃跑的痕迹会闪闪发光很漂亮。当它感到危险时会吐出毒液，毒液的臭味同时也是警告伙伴有危险的讯号。胆小虫会进食任何掉下的东西并储存起来，会将掉进海里的垃圾都清理得一干二净，所以作为清洁工人备受重视。无论是腐烂的东西还是垃圾都能吃光光，是大自然的清道夫。它的巢穴附近总是保持干净，无论是什么掉落的东西都会捡。因为有时候也会拿着硬币，所以会被 黑暗鸦 和 喵喵 袭击。此外，它亦有储存珍珠等贵重物品的习惯，所以也有被人和黑暗鸦之类的宝可梦盯上的时候。 [ 1 ]",
+  "flavor_text_en": "Wimpod gather in swarms, constantly on the lookout for danger. They scatter the moment they detect an enemy’s presence.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 767,
+    "pokeapi_species_id": 767,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/767"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "entry_id": "0573",
+  "national_id": 573,
+  "form": "default",
+  "names": {
+    "en": "Cinccino",
+    "ja": "チラチーノ",
+    "zh": "奇诺栗鼠"
+  },
+  "generation": 5,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "スカーフポケモン",
+  "category_zh": "围巾宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯 / 或 / 技术高手",
+      "hidden": false
+    },
+    {
+      "name_en": "technician",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "skill-link",
+      "name_zh": "连续攻击",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 7.5,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 165,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 60,
+    "speed": 115,
+    "total": 470
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 572,
+        "name_en": "minccino",
+        "name_zh": "泡沫栗鼠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 79,
+    "伽勒尔": 51,
+    "蓝莓": 112
+  },
+  "flavor_text_zh": "奇诺栗鼠全身是灰色，有白色的毛发。它有着大眼睛和小小的点状鼻子。它的四肢有些圆圆的感觉，它的尾巴很长并且有很细致的皮毛。它的头上有两条长绒毛绕过背后，被它当做围巾来使用。 奇诺栗鼠白色的体毛触感超群，身上覆盖着特别的非常滑的油脂。白色的毛发上涂满身体里渗出的油，完全不会吸附到灰尘和静电，连敌人的攻击也能滑溜溜地避开。洁癖使它连一丝灰尘都无法容忍，会把自己身上渗出的油涂在巢上保持清洁。从全身渗出的油对于因肌肤干燥而烦恼的人也很有效果，以高价在市场上流通。",
+  "flavor_text_en": "A special oil that seeps through their fur helps them avoid attacks. The oil fetches a high price at market.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 573,
+    "pokeapi_species_id": 573,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/573"
+  }
+}

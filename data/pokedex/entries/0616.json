@@ -1,0 +1,89 @@
+{
+  "entry_id": "0616",
+  "national_id": 616,
+  "form": "default",
+  "names": {
+    "en": "Shelmet",
+    "ja": "チョボマキ",
+    "zh": "小嘴蜗"
+  },
+  "generation": 5,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "マイマイポケモン",
+  "category_zh": "蜗牛宝可梦",
+  "abilities": [
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯 / 或 / 硬壳盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 7.7,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 40,
+    "defense": 85,
+    "special_attack": 40,
+    "special_defense": 65,
+    "speed": 25,
+    "total": 305
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 617,
+        "name_en": "accelgor",
+        "name_zh": "敏捷虫",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 122,
+    "伽勒尔": 275
+  },
+  "flavor_text_zh": "小嘴蜗外壳的螺旋方向呈逆时针往上。它的内部很柔软，外表看起来就像是穿着一个盔甲。它有一个凸起的嘴部，和两个很短的小腿。它的头部位置外壳像是人类的头盔。 小嘴蜗一遭到敌人攻击就会关闭外壳的盖子进行防御，再从盖子的缝隙间释放出黏滑的溶液进行攻击。不过 盖盖虫 会用嘴里吐出的液体来溶化小嘴蜗的壳去吃里面的身体。小嘴蜗有着会对电能产生反应的奇异体质，与盖盖虫在一起时，如果受到电的刺激双方的身体就会进化，其原因尚且不明。盖盖虫穿上小嘴蜗的壳就会进化成 骑士蜗牛 。",
+  "flavor_text_en": "It has a strange physiology that responds to electricity. When together with Karrablast, Shelmet evolves for some reason.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 616,
+    "pokeapi_species_id": 616,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/616"
+  }
+}

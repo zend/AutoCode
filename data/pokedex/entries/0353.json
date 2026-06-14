@@ -1,0 +1,90 @@
+{
+  "entry_id": "0353",
+  "national_id": 353,
+  "form": "default",
+  "names": {
+    "en": "Shuppet",
+    "ja": "カゲボウズ",
+    "zh": "怨影娃娃"
+  },
+  "generation": 3,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "にんぎょうポケモン",
+  "category_zh": "人偶宝可梦",
+  "abilities": [
+    {
+      "name_en": "insomnia",
+      "name_zh": "不眠 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "cursed-body",
+      "name_zh": "咒术之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 2.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 59,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 44,
+    "attack": 75,
+    "defense": 35,
+    "special_attack": 63,
+    "special_defense": 33,
+    "speed": 45,
+    "total": 295
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 354,
+        "name_en": "banette",
+        "name_zh": "诅咒娃娃",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 146,
+    "帕底亚": 298,
+    "密阿雷": 111
+  },
+  "flavor_text_zh": "怨影娃娃全身是灰黑色的，头上有一个尖角。它的头部有两个大大的眼睛，没有脚。 怨影娃娃最喜欢怨恨和嫉妒之类的感情，会被嫉妒怨恨的感情所吸引。如果有人怨恨心变强，怨影娃娃就会成排地挂在那人的屋檐下。流传着“日暮时分，不要去排列着怨影娃娃的房子”的古老俗语。它竖起的角能够捕捉到人类的心情，据说会用头部的角吃掉怨恨和嫉妒的感情来让自己一点一点地变强。它在深夜非常活跃，到了半夜三点时会为了寻求怨念与嫉妒的情绪而在街上游荡，当朝阳升起时就会回到其栖息地。因为会吞食类似于怨恨、嫉妒之类的感情，所以对于有的人来说是可贵的存在。",
+  "flavor_text_en": "There’s a proverb that says, “Shun the house where Shuppet gather in the growing dusk.”",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 353,
+    "pokeapi_species_id": 353,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/353"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "entry_id": "0309",
+  "national_id": 309,
+  "form": "default",
+  "names": {
+    "en": "Electrike",
+    "ja": "ラクライ",
+    "zh": "落雷兽"
+  },
+  "generation": 3,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "いなずまポケモン",
+  "category_zh": "闪电宝可梦",
+  "abilities": [
+    {
+      "name_en": "static",
+      "name_zh": "静电 / 或 / 避雷针",
+      "hidden": false
+    },
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "minus",
+      "name_zh": "负电",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 15.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 59,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 65,
+    "special_defense": 40,
+    "speed": 65,
+    "total": 295
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 310,
+        "name_en": "manectric",
+        "name_zh": "雷电兽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 78,
+    "伽勒尔": 66,
+    "密阿雷": 85
+  },
+  "flavor_text_zh": "落雷兽看起来就像是一只小型的犬类。它身上有黄色的花纹，头部较宽大，有三片凸出的冠部部位，它有着四个尖锐的牙齿。 落雷兽有长长的体毛，会通过摩擦空气产生电，并将其储存在全身的体毛中。尤其是在空气干燥的季节里，全身更会激烈地散发出火花。暴风雨临近时，也会从全身散发出火花。它会使用体毛中积蓄的电来刺激肌肉，并以此来提高自己的瞬间爆发力。落雷兽如果奔跑，会发出噼里啪啦的声音。它能以眼睛无法看清的速度奔跑，是以速度为傲的宝可梦。",
+  "flavor_text_en": "It stores electricity in its fur. It gives off sparks from all over its body in seasons when the air is dry.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 309,
+    "pokeapi_species_id": 309,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/309"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "entry_id": "0512",
+  "national_id": 512,
+  "form": "default",
+  "names": {
+    "en": "Simisage",
+    "ja": "ヤナッキー",
+    "zh": "花椰猿"
+  },
+  "generation": 5,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "とげざるポケモン",
+  "category_zh": "刺猴宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 30.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 174,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 98,
+    "defense": 63,
+    "special_attack": 98,
+    "special_defense": 63,
+    "speed": 101,
+    "total": 498
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 511,
+        "name_en": "pansage",
+        "name_zh": "花椰猴",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 18,
+    "密阿雷": 78
+  },
+  "flavor_text_zh": "花椰猿的头顶是一搓犹如挺拔的长草丛般的毛发，上面有同 花椰菜 一样的三颗黄色的菜籽。扇形的大耳朵配合椭圆形的脸组合成了一张帅气的脸。花椰猿的双眼十分犀利而又目光尖锐，双眼上方紧挨着两撇白色的眉毛。花椰猿的身型显得它霸气侧漏，并且颇有点摇滚风格。四肢腕踝处充满了尖锐刺刺的绿色的皮毛，双手双脚掌心巨大且厚实强壮。花椰猿的尾巴粗长翠绿，且尾巴末端有两片与“山”字相似的半圆形花瓣叶状结构重叠。 花椰猿是性格很粗暴的宝可梦。它会挥舞带刺的尾巴，用将对手甩出去的方式攻击。它头上的叶子非常苦。",
+  "flavor_text_en": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 512,
+    "pokeapi_species_id": 512,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/512"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entry_id": "0107",
+  "national_id": 107,
+  "form": "default",
+  "names": {
+    "en": "Hitmonchan",
+    "ja": "エビワラー",
+    "zh": "快拳郎"
+  },
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "パンチポケモン",
+  "category_zh": "拳击宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 铁拳",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 50.2,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 105,
+    "defense": 79,
+    "special_attack": 35,
+    "special_defense": 110,
+    "speed": 76,
+    "total": 455
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 236,
+        "name_en": "tyrogue",
+        "name_zh": "无畏小子",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 107,
+    "城都": 145,
+    "伽勒尔": 109,
+    "蓝莓": 94
+  },
+  "flavor_text_zh": "快拳郎穿着淡紫色的武士盔甲，身体是褐色的，头部生出了片状的头发。它还戴着拳击比赛的红色拳套，脚则是淡紫色的。快拳郎只有雄性，没有与它对应的雌性宝可梦。 快拳郎有着不屈之心，永远不会气馁。据说在它体内寄宿着以世界冠军为目标的拳击手的灵魂，为了可以把任何种类的拳都提高威力，一边旋转着一边出拳。它的拳速比高铁还快，就算看似什么都没做实际却在用看不到的速度激烈出拳，即使只是擦过都会造成灼伤。它的拳击好似钻头一般，在它的攻击之下，哪怕是水泥墙也会被钻出洞来，打出的拳击甚至能劈开空气。但攻击３分钟后，它似乎就会想休息一下。",
+  "flavor_text_en": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 107,
+    "pokeapi_species_id": 107,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/107"
+  }
+}

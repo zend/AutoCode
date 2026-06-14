@@ -1,0 +1,76 @@
+{
+  "entry_id": "0370",
+  "national_id": 370,
+  "form": "default",
+  "names": {
+    "en": "Luvdisc",
+    "ja": "ラブカス",
+    "zh": "爱心鱼"
+  },
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ランデブーポケモン",
+  "category_zh": "相随宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 8.7,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 116,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 43,
+    "attack": 30,
+    "defense": 55,
+    "special_attack": 40,
+    "special_defense": 65,
+    "speed": 97,
+    "total": 330
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 183,
+    "阿罗拉": 111,
+    "帕底亚": 332,
+    "蓝莓": 82
+  },
+  "flavor_text_zh": "爱心鱼身体是粉红色的，嘴巴和腮红是淡粉红色，身体像90度旋转的心型。 爱心鱼生活在热带温暖的浅海，以 太阳珊瑚 的珊瑚枝作为栖息处，特别喜欢在太阳珊瑚的枝条间睡觉。在繁殖的季节，会有大量爱心鱼聚集在珊瑚礁，海面都会染成粉红色。它如果发现情侣就会紧跟在后面游泳，因此而得名。心形的身体是爱情的象征，据说遇见爱心鱼的情侣会约定永远相爱。它在情侣中人气很高，因此被放养在蜜月客人住宿的酒店泳池里。它心形的体型很受欢迎，有些地方留有把爱心鱼送给心上人的习俗。据说如果拥有它的心形鳞片就能交往到恋人，也曾有个时期因为这个谣传而遭到滥捕。当只有独自一只的爱心鱼时，它会无精打采地尽是空虚，会在这时被 大嘴鸥 叼走。",
+  "flavor_text_en": "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola’s branches.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 370,
+    "pokeapi_species_id": 370,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/370"
+  }
+}

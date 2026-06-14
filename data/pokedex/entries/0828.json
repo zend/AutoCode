@@ -1,0 +1,88 @@
+{
+  "entry_id": "0828",
+  "national_id": 828,
+  "form": "default",
+  "names": {
+    "en": "Thievul",
+    "ja": "フォクスライ",
+    "zh": "猾大狐"
+  },
+  "generation": 8,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "きつねポケモン",
+  "category_zh": "狐狸宝可梦",
+  "abilities": [
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑 / 或 / 轻装",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "stakeout",
+      "name_zh": "蹲守",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 19.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 127,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 159,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 58,
+    "defense": 58,
+    "special_attack": 87,
+    "special_defense": 92,
+    "speed": 90,
+    "total": 455
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 827,
+        "name_en": "nickit",
+        "name_zh": "狡小狐",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 30
+  },
+  "flavor_text_zh": "就如同名字以及分类一样，猾大狐外表看起来就像是一只狐狸，身上的毛发依然是以火红色为主，但是因为加入了盗贼的元素，所以猾大狐身上也有黑色的毛发，特别是眼镜的部分黑色毛发特别旺盛，看起来就像戴着一个小偷的面具一样，其腿部也看起来像穿着黑色的靴子，它的尾巴依然蓬松而且大，在尾巴的顶部也依然是黑色的。 猾大狐靠着轻盈的身体和锐利的爪子到处去偷食物和蛋。它会偷偷在看中的猎物身上留下自身的气味作为标记，追踪目标的气味，在对方放松警戒时偷盗，拥有顺着气味确定巢穴所在的智慧。它会和 酷豹 争抢地盘，而 逐电犬 则是它的天敌。",
+  "flavor_text_en": "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 828,
+    "pokeapi_species_id": 828,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/828"
+  }
+}

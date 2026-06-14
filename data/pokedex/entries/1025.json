@@ -1,0 +1,68 @@
+{
+  "entry_id": "1025",
+  "national_id": 1025,
+  "form": "default",
+  "names": {
+    "en": "Pecharunt",
+    "ja": "モモワロウ",
+    "zh": "桃歹郎"
+  },
+  "generation": 9,
+  "types": [
+    "poison",
+    "ghost"
+  ],
+  "types_zh": [
+    "毒",
+    "幽灵"
+  ],
+  "category": "しはいポケモン",
+  "category_zh": "支配宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-puppeteer",
+      "name_zh": "毒傀儡",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 0.3,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 300,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 88,
+    "attack": 88,
+    "defense": 160,
+    "special_attack": 88,
+    "special_defense": 88,
+    "speed": 88,
+    "total": 600
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "蓝莓": 243
+  },
+  "flavor_text_zh": "桃歹郎桃形的壳是剧毒的储存库。它会将从壳分泌出的毒揉成“锁链粘糕”供人类和宝可梦享用，待对方吃下后再用锁链操控对方。“锁链粘糕”不仅非常美味，似乎还有会激发出食用者藏在深处的愿望和能力的效果。另外，桃歹郎还有狡猾的一面，它会通过用假哭骗取同情等手段，表现得像个柔弱的婴儿一样。有种说法认为，它为了得到在很久以前和自己一起生活的老夫妇想要的 面具 ，而用“锁链粘糕”让 宝伴 随从自己，并动身前往了 北上乡 。在和 厄诡椪 争夺面具的战斗中落败后，它把自己关在了壳内。不知从什么时候起，人们开始将其称为“不腐之桃”。乍看之下它就像是摆在店铺前的饰品，但其实它似乎随时都在迫不及待地盼望着复活的时机。 [ 1 ]",
+  "flavor_text_en": "Its peach-shaped shell serves as storage for a potent poison. It makes poisonous mochi and serves them to people and Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1025,
+    "pokeapi_species_id": 1025,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1025"
+  }
+}

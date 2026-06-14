@@ -1,0 +1,101 @@
+{
+  "entry_id": "0274",
+  "national_id": 274,
+  "form": "default",
+  "names": {
+    "en": "Nuzleaf",
+    "ja": "コノハナ",
+    "zh": "长鼻叶"
+  },
+  "generation": 3,
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "types_zh": [
+    "草",
+    "恶"
+  ],
+  "category": "いじわるポケモン",
+  "category_zh": "捉弄宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素 / 或 / 早起",
+      "hidden": false
+    },
+    {
+      "name_en": "early-bird",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 28.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 40,
+    "special_attack": 60,
+    "special_defense": 40,
+    "speed": 60,
+    "total": 340
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 273,
+        "name_en": "seedot",
+        "name_zh": "橡实果",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 275,
+        "name_en": "shiftry",
+        "name_zh": "狡猾天狗",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 23,
+    "伽勒尔": 40,
+    "北上": 55
+  },
+  "flavor_text_zh": "长鼻叶的身体是褐色的，胸口上有两个小黑点。它浅褐色的大腿很粗，上面有细条纹图案。长鼻叶的鼻子尖尖的，它有浅褐色的面罩，上面有尖形的图案延伸到头的后面，其顶端有一片叶子。雌性长鼻叶头上的叶子比较小。 长鼻叶是住在茂密繁盛的森林深处的宝可梦，偶尔从森林里出来吓唬人。它居住在大树上的洞穴里，善于爬树，会拔下头上的叶子做成草笛。长鼻叶吹奏出的草笛声会让在森林里迷路的人感到不安，会以草笛声来警告踏进自己地盘的对手。集中了知觉功能的尖鼻子能够洞察周围的状况，但同时也是它的弱点。它非常讨厌有谁抓自己的长鼻子，一旦被握住的话就会全身失去力量。",
+  "flavor_text_en": "They live in holes bored in large trees. The sound of Nuzleaf’s grass flute fills listeners with dread.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 274,
+    "pokeapi_species_id": 274,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/274"
+  }
+}

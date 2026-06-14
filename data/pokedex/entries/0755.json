@@ -1,0 +1,91 @@
+{
+  "entry_id": "0755",
+  "national_id": 755,
+  "form": "default",
+  "names": {
+    "en": "Morelull",
+    "ja": "ネマシュ",
+    "zh": "睡睡菇"
+  },
+  "generation": 7,
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "types_zh": [
+    "草",
+    "妖精"
+  ],
+  "category": "はっこうポケモン",
+  "category_zh": "发光宝可梦",
+  "abilities": [
+    {
+      "name_en": "illuminate",
+      "name_zh": "发光 / 或 / 孢子",
+      "hidden": false
+    },
+    {
+      "name_en": "effect-spore",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "雨盘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 1.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 57,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 55,
+    "special_attack": 65,
+    "special_defense": 75,
+    "speed": 15,
+    "total": 285
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 756,
+        "name_en": "shiinotic",
+        "name_zh": "灯罩夜菇",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 145,
+    "伽勒尔": 340
+  },
+  "flavor_text_zh": "睡睡菇是一只小蘑菇。它的白色菌体是它的头部，长着一双黑色的小眼睛。菌体上方生长着一大二小三只伞盖，伞盖边缘是紫色的，呈波浪形纹路，小伞盖的其余部分为淡淡的紫色，大伞盖的则相对偏红。它身体下部有着微微显绿色的根，有三个分叉与大地相连，这是它用来行动和吸收营养的部分。 睡睡菇属于夜行性，在午夜里依靠像脚一样的根走来走去。它白天也生活在昏暗的森林里，一边睡觉一边从树根吸取养分。它会在晚上醒来走路寻找新的树木，为了避免一直在同一个地方吸收养分导致周围的植物枯萎。它喜欢阴暗潮湿的地方，到了夜里，蘑菇伞下储满的孢子就会发光。睡睡菇感应到危险时会在周围到处撒播一闪一闪发着光的孢子，看到这个光的都会陷入沉睡中。它头上的蘑菇伞非常好吃，虽然会被森林中的宝可梦吃掉，但是过了一晚上就会再生。睡睡菇用像脚一样的根进行触碰，与其他伙伴进行交流。曾经发生过感应到危险的睡睡菇一起散播孢子，让恰巧从上空经过的飞机差点发生严重事故的事。虽然危险，但去睡睡菇居住的森林进行夜巡很受人们欢迎。 [ 1 ]",
+  "flavor_text_en": "Morelull live in forests that stay dark even during the day. They scatter flickering spores that put enemies to sleep.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 755,
+    "pokeapi_species_id": 755,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/755"
+  }
+}

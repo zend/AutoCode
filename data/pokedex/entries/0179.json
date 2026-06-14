@@ -1,0 +1,87 @@
+{
+  "entry_id": "0179",
+  "national_id": 179,
+  "form": "default",
+  "names": {
+    "en": "Mareep",
+    "ja": "メリープ",
+    "zh": "咩利羊"
+  },
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "わたげポケモン",
+  "category_zh": "绵毛宝可梦",
+  "abilities": [
+    {
+      "name_en": "static",
+      "name_zh": "静电",
+      "hidden": false
+    },
+    {
+      "name_en": "plus",
+      "name_zh": "正电",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 7.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 235,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 56,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 40,
+    "defense": 40,
+    "special_attack": 65,
+    "special_defense": 45,
+    "speed": 35,
+    "total": 280
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 180,
+        "name_en": "flaaffy",
+        "name_zh": "茸茸羊",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 53,
+    "帕底亚": 101,
+    "密阿雷": 24
+  },
+  "flavor_text_zh": "咩利羊皮肤是深蓝色的，淡黄色的蓬松的毛发包裹住了大部分身体，在它头上的毛发是卷起来的。它的耳朵和尾巴都是黄黑相间的，尾巴的末端有一个橙色的灯泡。 咩利羊的体毛会不断变长。即使到了夏天会全部掉光，也会在1周后恢复原样。它蓬松的体毛里含有大量空气，冬暖夏凉是其特征。它摩擦体毛就能储存静电，积蓄的电力越多，尾巴前端上的灯泡就会越亮。身体积蓄了静电之后，体毛会膨胀到平时的两倍。如果觉得可爱而直接用手碰它的话，就会被啪地一下电得又麻又痛。用咩利羊的毛制成的衣服容易起静电，所以会做特殊加工。",
+  "flavor_text_en": "Rubbing its fleece generates electricity. You’ll want to pet it because it’s cute, but if you use your bare hand, you’ll get a painful shock.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 179,
+    "pokeapi_species_id": 179,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/179"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "entry_id": "0962",
+  "national_id": 962,
+  "form": "default",
+  "names": {
+    "en": "Bombirdier",
+    "ja": "オトシドリ",
+    "zh": "下石鸟"
+  },
+  "generation": 9,
+  "types": [
+    "flying",
+    "dark"
+  ],
+  "types_zh": [
+    "飞行",
+    "恶"
+  ],
+  "category": "おとしものポケモン",
+  "category_zh": "掉东西宝可梦",
+  "abilities": [
+    {
+      "name_en": "big-pecks",
+      "name_zh": "健壮胸肌 / 或 / 锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "keen-eye",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rocky-payload",
+      "name_zh": "搬岩",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 42.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 243,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 103,
+    "defense": 85,
+    "special_attack": 60,
+    "special_defense": 85,
+    "speed": 82,
+    "total": 485
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 290,
+    "北上": 134
+  },
+  "flavor_text_zh": "下石鸟会用胸部的绒毛和脱落的羽毛做成袋子，然后把东西放进去，并从高处往下丢着玩耍，以弄掉会发出响亮声音的东西为乐。它还会用胸口的袋子包住食物，然后带回巢里。",
+  "flavor_text_en": "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 962,
+    "pokeapi_species_id": 962,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/962"
+  }
+}

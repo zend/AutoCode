@@ -1,0 +1,98 @@
+{
+  "entry_id": "0838",
+  "national_id": 838,
+  "form": "default",
+  "names": {
+    "en": "Carkol",
+    "ja": "トロッゴン",
+    "zh": "大炭车"
+  },
+  "generation": 8,
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "types_zh": [
+    "岩石",
+    "火"
+  ],
+  "category": "せきたんポケモン",
+  "category_zh": "煤炭宝可梦",
+  "abilities": [
+    {
+      "name_en": "steam-engine",
+      "name_zh": "蒸汽机 / 或 / 火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "flame-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 78.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 144,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 60,
+    "defense": 90,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 50,
+    "total": 410
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 837,
+        "name_en": "rolycoly",
+        "name_zh": "小炭仔",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 839,
+        "name_en": "coalossal",
+        "name_zh": "巨炭山",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 162,
+    "帕底亚": 92
+  },
+  "flavor_text_zh": "大炭车在外观上和小炭仔有了很大的区别，它身上的煤炭主要都集中在了自己的背部，从原本的单眼也变成了两只眼睛，且拥有了嘴巴，嘴巴里面可以看到有红彤彤的热气。大炭车拥有了四只脚，背部除了煤炭以外则由坚硬的类似石头的身体组成。 大炭车能通过高速旋转自己的脚，以30公里的时速奔跑。只要情绪激昂起来，体内的温度就会上升，会一喷出1000度的火焰一边匆忙地奔跑。大炭车能在体内制造煤炭，由于内部在制造煤焦油，因此就算它跑得再快，背上的煤炭山也不会崩塌。在过去，伽勒尔人曾经用它身上掉下来的煤炭生活。",
+  "flavor_text_en": "By rapidly rolling its legs, it can travel at over 18 mph. The temperature of the flames it breathes exceeds 1,800 degrees Fahrenheit.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 838,
+    "pokeapi_species_id": 838,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/838"
+  }
+}

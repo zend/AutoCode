@@ -1,0 +1,95 @@
+{
+  "entry_id": "0559",
+  "national_id": 559,
+  "form": "default",
+  "names": {
+    "en": "Scraggy",
+    "ja": "ズルッグ",
+    "zh": "滑滑小子"
+  },
+  "generation": 5,
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "types_zh": [
+    "恶",
+    "格斗"
+  ],
+  "category": "だっぴポケモン",
+  "category_zh": "蜕皮宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮 / 或 / 自信过度",
+      "hidden": false
+    },
+    {
+      "name_en": "moxie",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 11.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 70,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 70,
+    "special_attack": 35,
+    "special_defense": 70,
+    "speed": 48,
+    "total": 348
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 560,
+        "name_en": "scrafty",
+        "name_zh": "头巾混混",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 65,
+    "伽勒尔": 224,
+    "蓝莓": 121,
+    "密阿雷": 184
+  },
+  "flavor_text_zh": "滑滑小子是类似蜥蜴的宝可梦。它的头部是黄色的，颈部直到腹部都是米黄色的，它有很小的鼻子，头上有一个红色的突出物，它腹部中有个黄色的“裤子”可以用手拉高。 滑滑小子会几只为一组行动。它漫无目的地到处走，与它视线交汇是很危险的。它会冷不丁地向视线相遇的对手施以头锤，但自己也会因为重量而站立不稳，是个难搞的家伙。它头盖骨坚硬无比，以结实的头盖骨自豪。它会把松垮垮的皮使劲向上拉到脖子来摆出防御的姿势保护自己，橡胶般有弹力的皮能减少伤害。好像皮拉得越厉害的个体，地位越高。据说在皮伸展到极限时，它就会开始进化。",
+  "flavor_text_en": "It protects itself with its durable skin. It’s thought that this Pokémon will evolve once its skin has completely stretched out.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 559,
+    "pokeapi_species_id": 559,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/559"
+  }
+}

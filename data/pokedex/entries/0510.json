@@ -1,0 +1,89 @@
+{
+  "entry_id": "0510",
+  "national_id": 510,
+  "form": "default",
+  "names": {
+    "en": "Liepard",
+    "ja": "レパルダス",
+    "zh": "酷豹"
+  },
+  "generation": 5,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "れいこくポケモン",
+  "category_zh": "冷酷宝可梦",
+  "abilities": [
+    {
+      "name_en": "limber",
+      "name_zh": "柔软 / 或 / 轻装",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 37.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 156,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 88,
+    "defense": 50,
+    "special_attack": 88,
+    "special_defense": 50,
+    "speed": 106,
+    "total": 446
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 509,
+        "name_en": "purrloin",
+        "name_zh": "扒手猫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 16,
+    "伽勒尔": 45
+  },
+  "flavor_text_zh": "酷豹全身覆盖着紫色皮毛，背上还带有三角形状空心的黄色斑纹。酷豹有如猫一般的四根分别从嘴部延伸出去的须毛。它有着魅惑人的眼睛、娇媚的身躯、修长的腿以及镰刀似的巨大尾巴。 酷豹是神出鬼没的宝可梦，平时大多过着悠闲的生活。它美丽的身姿和毛发吸引了许多训练家。优美的身姿归功于它全身柔韧且发达的肌肉，能悄无声息地在夜间飞奔。它会隐藏气息悄悄接近，在对手发觉前从背后偷偷靠近并了结它。虽然人们容易被它美丽的毛发和身姿所迷惑，但它其实是一种善变而凶暴的宝可梦，会和 猾大狐 争抢地盘。",
+  "flavor_text_en": "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 510,
+    "pokeapi_species_id": 510,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/510"
+  }
+}

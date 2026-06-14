@@ -1,0 +1,85 @@
+{
+  "entry_id": "0865",
+  "national_id": 865,
+  "form": "default",
+  "names": {
+    "en": "Sirfetch’d",
+    "ja": "ネギガナイト",
+    "zh": "葱游兵"
+  },
+  "generation": 8,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "かるがもポケモン",
+  "category_zh": "黄嘴鸭宝可梦",
+  "abilities": [
+    {
+      "name_en": "steadfast",
+      "name_zh": "不屈之心",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "胆量",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 117.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 177,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "飞行",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 62,
+    "attack": 135,
+    "defense": 95,
+    "special_attack": 68,
+    "special_defense": 82,
+    "speed": 65,
+    "total": 507
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 83,
+        "name_en": "farfetchd",
+        "name_zh": "大葱鸭",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 219
+  },
+  "flavor_text_zh": "葱游兵的外形与大葱鸭相似，但羽毛为白色，大葱鸭时期的“V”字状斑纹变得更粗大，像连在一起的眉毛。葱游兵的双手分别持有葱茎状的剑和葱叶构成的盾。它的 葱 既是武器也是食材。 葱游兵是生息在伽勒尔地区的 大葱鸭 经历过无数战斗后进化成的宝可梦。它的性格沉着冷静，以堂堂正正战斗作为自身的信条，以华丽的葱术在战场上立功。它战斗时的英姿气质非凡，甚至因此被人们选为绘画的主题。描绘了葱游兵与 骑士蜗牛 决斗场面的绘画在伽勒尔地区可是众人皆知的作品。它在战斗时会像挥舞长枪一般挥舞锋利的葱茎，厚厚的葱叶则被当作盾牌来使。对葱游兵来说，倾注心血培育的陪伴自己多年的大葱比什么都重要。大葱一旦枯萎，葱游兵就会离开战场，从此不再对战。 [ 1 ]",
+  "flavor_text_en": "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 865,
+    "pokeapi_species_id": 865,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/865"
+  }
+}

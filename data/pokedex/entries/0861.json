@@ -1,0 +1,94 @@
+{
+  "entry_id": "0861",
+  "national_id": 861,
+  "form": "default",
+  "names": {
+    "en": "Grimmsnarl",
+    "ja": "オーロンゲ",
+    "zh": "长毛巨魔"
+  },
+  "generation": 8,
+  "types": [
+    "dark",
+    "fairy"
+  ],
+  "types_zh": [
+    "恶",
+    "妖精"
+  ],
+  "category": "ビルドアップポケモン",
+  "category_zh": "健美宝可梦",
+  "abilities": [
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 61.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 255,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 120,
+    "defense": 65,
+    "special_attack": 95,
+    "special_defense": 75,
+    "speed": 60,
+    "total": 510
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 860,
+        "name_en": "morgrem",
+        "name_zh": "诈唬魔",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 240,
+    "帕底亚": 287,
+    "北上": 192
+  },
+  "flavor_text_zh": "长毛巨魔就如同它的名字一样，外表被长长的毛发所覆盖，它的毛发覆盖住头部，让其看起来有一头长发，它的身形健硕，有着比较发达的胸部和四肢，其耳朵以及鼻子很尖，有很长的牙齿。长毛巨魔只有雄性，对应的雌性宝可梦为 布莉姆温 。超极巨化之后的长毛巨魔四肢变得很长，它头部的毛发翘起，全身的毛发也更加旺盛。 长毛巨魔生活在森林深处。即使进化后变得挺拔强壮，还是会继续做无聊的坏事和恶作剧。它能够自由自在地操作头发，通过用头发裹住全身让肌肉的力量向上提升，发挥出足以压倒 怪力 的力量。它的毛发能发挥肌肉纤维般的作用，伸展开来时会像触手那样把对手缠绕起来。 超极巨化长毛巨魔全身的毛因超极巨化而增多。它会通过让腿部的体毛变形来使出强力的钻踢，威力甚至能在伽勒尔的大地上钻出大洞来。它的跳跃能力也得到增强，即使是全世界最高的建筑也能一跃而过。",
+  "flavor_text_en": "Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 861,
+    "pokeapi_species_id": 861,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/861"
+  }
+}

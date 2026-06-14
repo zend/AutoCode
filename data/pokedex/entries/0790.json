@@ -1,0 +1,90 @@
+{
+  "entry_id": "0790",
+  "national_id": 790,
+  "form": "default",
+  "names": {
+    "en": "Cosmoem",
+    "ja": "コスモウム",
+    "zh": "科斯莫姆"
+  },
+  "generation": 7,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "げんしせいポケモン",
+  "category_zh": "原始星宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.1,
+  "weight_kg": 999.9,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 140,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 43,
+    "attack": 29,
+    "defense": 131,
+    "special_attack": 29,
+    "special_defense": 131,
+    "speed": 37,
+    "total": 400
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 789,
+        "name_en": "cosmog",
+        "name_zh": "科斯莫古",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 791,
+        "name_en": "solgaleo",
+        "name_zh": "索尔迦雷欧",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 792,
+        "name_en": "lunala",
+        "name_zh": "露奈雅拉",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 290
+  },
+  "flavor_text_zh": "科斯莫姆由三层结构构成：最里层的核心、中间层类似星云的部分与最外层由九片黄色物体构成的外壳。核心的上半部分在中间和两边都有一条很细的蓝线，而下半部分则是粉红色的线。科斯莫姆看起来是闭着眼睛的。它的外形也形似一只眼睛。 据说科斯莫姆是其他世界的宝可梦。它通过沐浴星光而成长，会以惊人的气势吸入大气中的尘埃，努力用内核制造着进化的能源。它就像死了一般几乎不动，金色的外壳坚硬得令人吃惊，拥有超越人类认知范围的硬度，但触碰后有些许温暖。在它坚硬外壳内，有什么在源源不断地向黑色内核聚集着。太古时代支配着阿罗拉的国王，称之为星之茧，因为崇拜它而建造了祭坛。",
+  "flavor_text_en": "It sucks in dust from the air at an astounding rate, frantically building up energy within its core as preparation for evolution.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 790,
+    "pokeapi_species_id": 790,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/790"
+  }
+}

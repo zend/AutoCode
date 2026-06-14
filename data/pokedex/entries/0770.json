@@ -1,0 +1,86 @@
+{
+  "entry_id": "0770",
+  "national_id": 770,
+  "form": "default",
+  "names": {
+    "en": "Palossand",
+    "ja": "シロデスナ",
+    "zh": "噬沙堡爷"
+  },
+  "generation": 7,
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "types_zh": [
+    "幽灵",
+    "地面"
+  ],
+  "category": "すなのしろポケモン",
+  "category_zh": "沙堡宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-compaction",
+      "name_zh": "遇水凝固",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.3,
+  "weight_kg": 250.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 75,
+    "defense": 110,
+    "special_attack": 100,
+    "special_defense": 75,
+    "speed": 35,
+    "total": 480
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 769,
+        "name_en": "sandygast",
+        "name_zh": "沙丘娃",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 187,
+    "帕底亚": 323
+  },
+  "flavor_text_zh": "噬沙堡爷是一座橙黄色的城堡，由三部分组成，中间的是主体，两边的是手。它的嘴巴上方和头部都有粉色和蓝色的石块，嘴巴直通背后。它的头顶有一把倒插的红色铲子。 噬沙堡爷通过沙丘旋涡吸入皮卡丘 噬沙堡爷会操纵人类的大人们建造沙堡，提升自己的模仿效果及防御能力，咒术的力量也得到了提升。它与沙丘娃不同，即使沙和身体分离，也可依靠自己复原。虽然住在沙滩上，但是讨厌水。要是淋了大雨，就无法维持城堡的造型。噬沙堡爷为了搜寻猎物而进行移动时，头上的铲子会旋转，此铲子被推断具有雷达的功能。它喜爱宝可梦的精气，会通过沙丘旋涡把小型的宝可梦瞬间吞噬入体内夺取精气，在城堡的下面埋藏着大量被吸干了精气者的骸骨。它也会卷起沙暴，封住对手的行动后再夺走其生命气息，然后从手臂的凹陷处把骸骨发射出去，是恐怖的宝可梦，被称为沙滩的噩梦。被噬沙堡爷吞噬的宝可梦们的怨恨会残留在噬沙堡爷经过的痕迹，据说此怨恨有时会生出新的沙丘娃。 [ 1 ]",
+  "flavor_text_en": "This Pokémon lives on beaches, but it hates water. Palossand can’t maintain its castle-like shape if it gets drenched by a heavy rain.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 770,
+    "pokeapi_species_id": 770,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/770"
+  }
+}

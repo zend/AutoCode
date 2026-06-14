@@ -1,0 +1,90 @@
+{
+  "entry_id": "0550",
+  "national_id": 550,
+  "form": "default",
+  "names": {
+    "en": "Basculin",
+    "ja": "バスラオ",
+    "zh": "野蛮鲈鱼"
+  },
+  "generation": 5,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "らんぼうポケモン",
+  "category_zh": "粗暴宝可梦",
+  "abilities": [
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 18.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 161,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 92,
+    "defense": 65,
+    "special_attack": 80,
+    "special_defense": 55,
+    "speed": 98,
+    "total": 460
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 902,
+        "name_en": "basculegion",
+        "name_zh": "幽尾玄鱼",
+        "trigger": "recoil-damage"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 56,
+    "伽勒尔": 154,
+    "帕底亚": 138
+  },
+  "flavor_text_zh": "野蛮鲈鱼身体呈深绿色，在胸鳍旁有三个黑点，并且头部上有条黑色的斑纹延伸到尾鳍。红条纹野蛮鲈鱼的瞳孔以及在其头部与瞳孔之间的线条是红色的，而它的第一背鳍、第二背鳍、臂鳍、胸鳍呈皇冠状尖刺形。蓝条纹野蛮鲈鱼的瞳孔以及在其头部与瞳孔之间的线条是蓝色的，它的第一背鳍呈皇冠状尖刺形，而它的第二背鳍、臂鳍、胸鳍形似一把利刃。白条纹野蛮鲈鱼的瞳孔以及在其头部与瞳孔之间的线条是白色的，它的第一背鳍与第二背鳍呈皇冠状尖刺形，而它的背鳍与胸鳍形似一把利刃。 野蛮鲈鱼性格非常粗暴，充满攻击性，是脾气非常坏的宝可梦。在野蛮鲈鱼群出现的湖里，就只有 龙虾小兵 和 铁螯龙虾 之类的能留下来。它会围绕食物的问题和 利牙鱼 争斗，也有人称之为湖里的小混混。不同的颜色有什么意义，目前还不太明白。颜色相同的会集结成群，不知道为什么一群中总会混进几只颜色不同的。红条纹和蓝条纹的两种野蛮鲈鱼关系很差，它们总是为了领地问题打架，一旦相遇便会打作一团。 蓝条纹野蛮鲈鱼无论是什么都会用大颚吃掉，颚部的力道强大无比，连铁板都能留下齿痕。但它本身也不过是更强大生物的食物罢了。红条纹野蛮鲈鱼上钩时顽强的抵抗深受垂钓者的喜爱。它拥有顽强的生命力，由于人们擅自把它们放生到池塘里，数量在不知不觉间越来越多。它是 吃吼霸 和 下石鸟 等的袭击目标。白条纹野蛮鲈鱼具有多项野蛮鲈鱼的特征，但有性情温驯等不同点存在。野蛮鲈鱼也曾经登上餐桌，经常被拿来食用。据说蓝条纹野蛮鲈鱼的肉滋味清淡，容易入口。而红条纹野蛮鲈鱼的肉脂肪含量高，适合年轻人食用。",
+  "flavor_text_en": "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 550,
+    "pokeapi_species_id": 550,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/550"
+  }
+}

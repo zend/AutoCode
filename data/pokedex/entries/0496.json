@@ -1,0 +1,93 @@
+{
+  "entry_id": "0496",
+  "national_id": 496,
+  "form": "default",
+  "names": {
+    "en": "Servine",
+    "ja": "ジャノビー",
+    "zh": "青藤蛇"
+  },
+  "generation": 5,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "くさへびポケモン",
+  "category_zh": "草蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 16.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 145,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 75,
+    "special_attack": 60,
+    "special_defense": 75,
+    "speed": 83,
+    "total": 413
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 495,
+        "name_en": "snivy",
+        "name_zh": "藤藤蛇",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 497,
+        "name_en": "serperior",
+        "name_zh": "君主蛇",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 2,
+    "蓝莓": 201
+  },
+  "flavor_text_zh": "青藤蛇的身体颜色大多是绿色与奶油色。它在上半身有一个黄色的类似领口的结构，背部有两片叶子。四肢短小但有力，面部神情经常表现为嘲笑与不屑。 青藤蛇过高的自尊心是它的美中不足之处，需要花上不少时间才能和其他宝可梦合作。它会低下身子飞快穿过草丛，如滑行般在地面奔跑，用敏捷的动作迷惑敌人。它会躲进茂密草木的阴暗处躲避攻击，然后用灵活的藤鞭技毫不留情地打垮对手。如果它的身体变脏，就没法用叶子进行光合作用，所以它总是保持自身的清洁。",
+  "flavor_text_en": "When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 496,
+    "pokeapi_species_id": 496,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/496"
+  }
+}

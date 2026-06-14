@@ -1,0 +1,93 @@
+{
+  "entry_id": "0453",
+  "national_id": 453,
+  "form": "default",
+  "names": {
+    "en": "Croagunk",
+    "ja": "グレッグル",
+    "zh": "不良蛙"
+  },
+  "generation": 4,
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "types_zh": [
+    "毒",
+    "格斗"
+  ],
+  "category": "どくづきポケモン",
+  "category_zh": "毒击宝可梦",
+  "abilities": [
+    {
+      "name_en": "anticipation",
+      "name_zh": "危险预知 / 或 / 干燥皮肤",
+      "hidden": false
+    },
+    {
+      "name_en": "dry-skin",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-touch",
+      "name_zh": "毒手",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 23.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 140,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 61,
+    "defense": 40,
+    "special_attack": 61,
+    "special_defense": 40,
+    "speed": 50,
+    "total": 300
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 454,
+        "name_en": "toxicroak",
+        "name_zh": "毒骷蛙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 129,
+    "伽勒尔": 222,
+    "洗翠": 99,
+    "帕底亚": 175
+  },
+  "flavor_text_zh": "不良蛙是深蓝色的宝可梦。它有黄色的眼睛。脸颊上有橙色可扩展的小袋，牙齿宽而扁平。胸部周围有白色条纹。脸颊上带有毒囊。由于奇妙的叫声与滑稽的长相，使它颇受人们欢迎。相较于雄性不良蛙，雌性不良蛙的绷带更高。 不良蛙与 蟾蜍王 是相近的物种，身上带毒且性情卑劣。它很少会堂堂正正地战斗，但那都是为了生存。它会鼓起毒囊鸣叫，让周围响起咕嘟咕嘟的诡异声音威吓对手。如果对手畏缩了便会抓住对手的空当，用渗透了剧毒的手指猛戳施以毒击。它指尖分泌出的毒液在稀释后能制成药品，作为缓解腰痛的药物的材料。它是制药公司的吉祥物，广受众人的欢迎。",
+  "flavor_text_en": "A poison wielder with a dastardly personality. Despite such qualities, this species is afforded a measure of popularity due to its peculiar cry and comical features.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 453,
+    "pokeapi_species_id": 453,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/453"
+  }
+}

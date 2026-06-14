@@ -1,0 +1,84 @@
+{
+  "entry_id": "0650",
+  "national_id": 650,
+  "form": "default",
+  "names": {
+    "en": "Chespin",
+    "ja": "ハリマロン",
+    "zh": "哈力栗"
+  },
+  "generation": 6,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "いがぐりポケモン",
+  "category_zh": "刺栗宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "bulletproof",
+      "name_zh": "防弹",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 9.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 63,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 56,
+    "attack": 61,
+    "defense": 65,
+    "special_attack": 48,
+    "special_defense": 45,
+    "speed": 38,
+    "total": 313
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 651,
+        "name_en": "quilladin",
+        "name_zh": "胖胖哈力",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "蓝莓": 209,
+    "密阿雷": 213
+  },
+  "flavor_text_zh": "哈力栗头和背部用坚硬的木壳覆盖着，脸上有着三个棕色的三角形花纹。它的手也是棕色的，背部则为绿色，尾巴尖端则是橙色。 哈力栗的头和背部非常坚硬，即使被卡车撞到也安然无恙。它吃下大量树果后，覆盖头和身体的树皮壳就会结实地成长。头部的刺平时很柔软，若在头锤快命中前注入力量，就能让头上的刺变得尖锐，硬得连岩石也能刺穿，贯穿敌人的身体。",
+  "flavor_text_en": "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn’t faze it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 650,
+    "pokeapi_species_id": 650,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/650"
+  }
+}

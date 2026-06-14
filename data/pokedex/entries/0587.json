@@ -1,0 +1,77 @@
+{
+  "entry_id": "0587",
+  "national_id": 587,
+  "form": "default",
+  "names": {
+    "en": "Emolga",
+    "ja": "エモンガ",
+    "zh": "电飞鼠"
+  },
+  "generation": 5,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "types_zh": [
+    "电",
+    "飞行"
+  ],
+  "category": "モモンガポケモン",
+  "category_zh": "飞鼠宝可梦",
+  "abilities": [
+    {
+      "name_en": "static",
+      "name_zh": "静电",
+      "hidden": false
+    },
+    {
+      "name_en": "motor-drive",
+      "name_zh": "电气引擎",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 5.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 150,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 75,
+    "defense": 60,
+    "special_attack": 75,
+    "special_defense": 60,
+    "speed": 103,
+    "total": 428
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 93,
+    "阿罗拉": 274,
+    "密阿雷": 180
+  },
+  "flavor_text_zh": "电飞鼠类似于一只会飞的鼯鼠。它的身体主要以白色组成，它拥有黑色的眼睛，小小的鼻子，和两个黄色的电气囊。它头顶上的圆形大耳朵是黑色的，耳朵内部拥有黄色和白色的部分。电飞鼠的头上至背后的黑色皮肤看起来就像穿着一件风帽，在脸部上方还有锯齿形状的皮肤。电飞鼠拥有翅膀般的黄色的翼膜，连接着它拥有三个手指的手臂，它的小小的脚是白色的，黑色的尾巴有锯齿的形状。 电飞鼠生活在森林的树上，以 小笃儿 啄空的树洞为主要巢穴。有时甚至会在雷鸣的深夜里，密密麻麻布满整个天空。它会将脸颊的电力袋制造出的电储藏在斗篷般的膜的内侧，一边放电一边如舞蹈般在空中飞翔，让敌人和同伴都纷纷触电。鸟宝可梦们都不会靠近它，得益于此，它可以独占食物。它最喜欢甜甜的树果，会用电击将树果和虫宝可梦烧得刚刚好后再吃掉。有时也会因为在脸颊的袋子里囤了太多食物而无法好好飞行。虽然很可爱，但是很难对付。",
+  "flavor_text_en": "This Pokémon absolutely loves sweet berries. Sometimes it stuffs its cheeks full of so much food that it can’t fly properly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 587,
+    "pokeapi_species_id": 587,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/587"
+  }
+}

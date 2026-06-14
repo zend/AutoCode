@@ -1,0 +1,93 @@
+{
+  "entry_id": "0729",
+  "national_id": 729,
+  "form": "default",
+  "names": {
+    "en": "Brionne",
+    "ja": "オシャマリ",
+    "zh": "花漾海狮"
+  },
+  "generation": 7,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "アイドルポケモン",
+  "category_zh": "偶像宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "liquid-voice",
+      "name_zh": "湿润之声",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 17.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 147,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 69,
+    "defense": 69,
+    "special_attack": 91,
+    "special_defense": 81,
+    "speed": 50,
+    "total": 420
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 728,
+        "name_en": "popplio",
+        "name_zh": "球球海狮",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 730,
+        "name_en": "primarina",
+        "name_zh": "西狮海壬",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 8,
+    "蓝莓": 225
+  },
+  "flavor_text_zh": "拼命地练习舞蹈 在外观上来看花漾海狮就像是穿着裙子的海狮，而且头上有两个类似辫子的部位，比起球球海狮，花漾海狮的体型变大了，而且身上的颜色也变得丰富起来，它类似裙子的部位分为三层，第一层和第三层颜色相同。 花漾海狮通过模仿群体的伙伴学习舞蹈，有时也会得到人类的教导。如果看到没见过的舞蹈就会很兴奋，努力的它会拼命练习直到学会为止。它能与即使是初遇见的伙伴一起跳出默契十足的舞蹈。在月亮高挂之夜，可以见到大量的花漾海狮在同一时间跳舞的样子。到了风平浪静的夜晚，它也会配合领队 西狮海壬 的歌声和伙伴们一起跳舞。在对战中，它会通过舞蹈一边扰乱对手躲避敌人的攻击，一边一个接一个地制作水做的气球扔向敌人，使气球爆炸给予对手伤害。花漾海狮常常保持开朗及积极的态度，即使自己感到悲伤时也不会表露出来。它只会在真正交心的训练家和宝可梦面前才会露出悲伤的表情。它非常关心自己的伙伴，训练家如果情绪低落，就会跳舞给予鼓励。 [ 1 ]",
+  "flavor_text_en": "On nights when the sea is calm, Brionne dance with one another to the singing of the Primarina that’s leading them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 729,
+    "pokeapi_species_id": 729,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/729"
+  }
+}

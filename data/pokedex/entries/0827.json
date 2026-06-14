@@ -1,0 +1,88 @@
+{
+  "entry_id": "0827",
+  "national_id": 827,
+  "form": "default",
+  "names": {
+    "en": "Nickit",
+    "ja": "クスネ",
+    "zh": "狡小狐"
+  },
+  "generation": 8,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "きつねポケモン",
+  "category_zh": "狐狸宝可梦",
+  "abilities": [
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑 / 或 / 轻装",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "stakeout",
+      "name_zh": "蹲守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 8.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 49,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 28,
+    "defense": 28,
+    "special_attack": 47,
+    "special_defense": 52,
+    "speed": 50,
+    "total": 245
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 828,
+        "name_en": "thievul",
+        "name_zh": "猾大狐",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 29
+  },
+  "flavor_text_zh": "狡小狐外表看起来就像是一只狐狸，它全身的毛发为火红色的，是典型的狐狸毛皮，但是和普通的狐狸不一样的是，狡小狐身上有着一些黑色以及白色的花纹，黑色的花纹分布在眼镜以及尾巴的周围，而白色的花纹则在狡小狐的脸颊处，其眉毛的颜色也是白色的，眼部看起来就像是戴着小偷面具。它的脚上长着软乎乎的肉球，走路时不会发出丝毫声响。 狡小狐性格谨慎且狡猾，会掠夺人和宝可梦的食物，靠化为己用其他宝可梦找到的食物为生。在偷盗食物逃走的时候会用尾巴擦掉自己的足迹来甩开追兵。它和 扒手猫 是竞争对手。",
+  "flavor_text_en": "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 827,
+    "pokeapi_species_id": 827,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/827"
+  }
+}

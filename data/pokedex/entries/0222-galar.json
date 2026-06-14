@@ -1,0 +1,88 @@
+{
+  "entry_id": "0222-galar",
+  "national_id": 222,
+  "form": "galar",
+  "names": {
+    "en": "Corsola",
+    "ja": "サニーゴ",
+    "zh": "太阳珊瑚（伽勒尔的样子）"
+  },
+  "generation": 2,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "さんごポケモン",
+  "category_zh": "珊瑚宝可梦",
+  "abilities": [
+    {
+      "name_en": "weak-armor",
+      "name_zh": "活力",
+      "hidden": false
+    },
+    {
+      "name_en": "cursed-body",
+      "name_zh": "咒术之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 0.5,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 144,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 95,
+    "special_attack": 65,
+    "special_defense": 95,
+    "speed": 35,
+    "total": 410
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 864,
+        "name_en": "cursola",
+        "name_zh": "魔灵珊瑚",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 171,
+    "丰缘": 180,
+    "阿罗拉": 112,
+    "伽勒尔": 236
+  },
+  "flavor_text_zh": "太阳珊瑚主要为粉红色，腹部和四肢为白色，背后有四只角。伽勒尔太阳珊瑚主要为白色，背后的四只角变成了半透明的灵体，半闭著的粉红色眼睛和两颊的凹陷比原先状态略显消瘦，且底部花纹从直线变成了弯弯的波浪线。 太阳珊瑚喜欢南方的美丽大海，生活在温暖的南方海域，也曾经大量栖息于上古时期的伽勒尔近海。美丽的头部顶端吸取水中的养分而长大，当海洋遭到污染时，美丽的珊瑚枝就会变得颜色黯淡，破烂斑驳。因此它们无法在肮脏的大海里生存。聚集在温暖的大海里的太阳珊瑚会成为小型宝可梦们的藏身处，水温下降后就会向南方移动。 爱心鱼 就以太阳珊瑚的珊瑚枝作为栖息处，特别喜欢在太阳珊瑚的枝条间睡觉。生活在 阿罗拉地区 的太阳珊瑚身上的粉红色非常鲜艳浓郁，这都是拜富含营养的大海所赐。在天敌 好坏星 大量存在的阿罗拉，大多数太阳珊瑚头上的枝条都是短短的。当好坏星追过来袭击它头顶枝条的时候，它会果断地自己折断枝条逃生。太阳珊瑚的头顶上长着珊瑚枝，珊瑚枝在沐浴阳光时，会发出七彩光芒，非常好看。虽然相当容易折断，但大约3天就能恢复。因为头部的前端会不断生长并脱落，而新长出来的头部前端又十分好看，所以作为宝物很受欢迎。人们也会把漂亮的珊瑚枝当成保佑孕妇的护身符。在南部的海之国度里，人们都生活在大群的太阳珊瑚形成的珊瑚礁之上。 据说，伽勒尔太阳珊瑚是很久以前生活在伽勒尔地区的太阳珊瑚因受到掉落在近郊的陨石影响导致环境急遽变化而死去的远古太阳珊瑚。伽勒尔太阳珊瑚常栖息于曾经是海洋的地区，当人类或宝可梦接触它时，它有时似乎也会袭击对方。如果不小心错把它当成石头踢，就会遭到它的咒术。它身上长出的半透明枝条并不拥有实体，因此即使被它扎到了也不会疼痛或造成外伤。不过，由于枝条会钻进接触对象的身体吸取精气，对方的身体将无法动弹。 [ 1 ]",
+  "flavor_text_en": "These Pokémon live in warm seas. In prehistoric times, many lived in the oceans around the Galar region as well.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10173,
+    "pokeapi_species_id": 222,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10173"
+  }
+}

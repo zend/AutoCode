@@ -1,0 +1,87 @@
+{
+  "entry_id": "0268",
+  "national_id": 268,
+  "form": "default",
+  "names": {
+    "en": "Cascoon",
+    "ja": "マユルド",
+    "zh": "盾甲茧"
+  },
+  "generation": 3,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "さなぎポケモン",
+  "category_zh": "蛹宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 11.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 35,
+    "defense": 55,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 15,
+    "total": 205
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 265,
+        "name_en": "wurmple",
+        "name_zh": "刺尾虫",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 269,
+        "name_en": "dustox",
+        "name_zh": "毒粉蛾",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 17,
+    "神奥": 51,
+    "洗翠": 21
+  },
+  "flavor_text_zh": "盾甲茧全身被淡紫色的丝包裹起来，红色的眼睛察觉着外面的一切。 盾甲茧的茧为了不被敌人找到而静静躲在大树叶的背面或者树枝间的空隙里，会用枯叶盖住作为伪装。它是由其口中吐出的细丝包裹身体后变硬而来的，如果出现裂纹就表示快要进化了。它包裹全身的丝虽细但强度十足，一动不动地忍受对手的攻击，不会忘记对手长什么样子。一旦动了就无法进化出强壮的身体，所以无论受到怎样的痛击都不会动，不过那时受到的疼痛它永远都不会忘记。那时的痛苦会转化为力量，进化出强大的身体，一定会想方设法进行报复。它会在茧里准备进化，茧内温度非常高，浑身细胞都在里面制造进化所需的能量。它的丝色泽更胜 甲壳茧 的丝，以此织成的衣物被人们视为上品。",
+  "flavor_text_en": "The silk coating its body is thin but sufficiently strong. Cascoon's silk has a luster and texture superior to that of Silcoon's, and clothes made using Cascoon silk are regarded as top-notch.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 268,
+    "pokeapi_species_id": 268,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/268"
+  }
+}

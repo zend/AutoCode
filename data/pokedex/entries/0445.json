@@ -1,0 +1,92 @@
+{
+  "entry_id": "0445",
+  "national_id": 445,
+  "form": "default",
+  "names": {
+    "en": "Garchomp",
+    "ja": "ガブリアス",
+    "zh": "烈咬陆鲨"
+  },
+  "generation": 4,
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "types_zh": [
+    "龙",
+    "地面"
+  ],
+  "category": "マッハポケモン",
+  "category_zh": "音速宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": false
+    },
+    {
+      "name_en": "rough-skin",
+      "name_zh": "粗糙皮肤",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 95.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 108,
+    "attack": 130,
+    "defense": 95,
+    "special_attack": 80,
+    "special_defense": 85,
+    "speed": 102,
+    "total": 600
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 444,
+        "name_en": "gabite",
+        "name_zh": "尖牙陆鲨",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 111,
+    "阿罗拉": 240,
+    "洗翠": 189,
+    "帕底亚": 128,
+    "北上": 166,
+    "密阿雷": 130
+  },
+  "flavor_text_zh": "烈咬陆鲨外形酷似双髻鲨，全身底色深蓝，从下颌到腹部上半部分为红色，腹部下半部分为黄色。它头上长着两个突起物，鼻尖有一块倒五角星形的黄斑，嘴中长有锋利的牙齿，颈部两侧有3个鳃裂。它的双爪为白色单趾，双脚为三趾，上臂和大腿各有两根白色骨刺。烈咬陆鲨的翅膀长在前臂上，类似鲨鱼的胸鳍。如果它收拢身体，伸展翅膀，简直就是一架喷气式飞机。雄性烈咬陆鲨的背鳍有缺口。超级烈咬陆鲨的体型更高大，头部和肩部则变得瘦削。它腹部下半部分的黄色皮肤则向上延伸，形成一个近似倒三角形的突起。它的腹部两侧还长出了五对白色骨刺，膝盖上也长出了一对红色尖刺。因为过剩的能量，超级烈咬陆鲨的双手和翅膀熔化，变成了巨大的镰刀状。 烈咬陆鲨在火山区的山上栖息。它头上长着的2个突起物起到感应器的作用，就连前方很远处猎物的样子也能知道。它性情粗野，面对它时须保持戒备。它会以不输给喷气式飞机的速度飞到天空中寻找猎物，被盯上的猎物根本无处可逃。它以肉眼无法追上的迅疾速度翱翔天际的模样令人叹为观止。它细小又尖锐的鳞片，不但可以减少空气的阻力，还能使来袭击的对手受伤。它会围绕着食物的问题和 暴飞龙 展开空中战。它的身手在陆地上也很矫捷，在雪山上会赶在身体冻僵前干掉猎物并返回住处。在高速穿梭时，翅膀会生成空气之刃，使周围的树木都被切断。如果冲入鸟宝可梦的群体中，会就这么把整个群体都吞掉。 超级烈咬陆鲨性格比超级进化前更粗暴。它引以为傲的翅膀变成镰刀，脾气也变得异常狂暴，会因发怒狂暴而到处大闹。它能挥舞镰刀，把大地剁成粉末，把敌人割得粉碎。 超级烈咬陆鲨Ｚ原本拥有的地面属性消失，属性变为仅有龙属性。龙属性的能量得到强化，变为总是飘浮的状态。龙属性招式变得更加凌厉，在飞行状态下使出招式时会有势头助力，让威力变得更加强大。双臂上翅膀的面积扩大，从而获得更大的升力。翅膀上排列着巨大锋利的爪子，与超级烈咬陆鲨那镰刀般的形状相比，能够更加猛烈地贯穿敌人，并像刨割般将其撕裂。",
+  "flavor_text_en": "Soars across the heavens at blinding speed—a magnificent sight! It has a feral disposition. Utmost caution is required if one meets a Garchomp out in the wilds.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 445,
+    "pokeapi_species_id": 445,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/445"
+  }
+}

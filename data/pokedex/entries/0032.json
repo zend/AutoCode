@@ -1,0 +1,91 @@
+{
+  "entry_id": "0032",
+  "national_id": 32,
+  "form": "default",
+  "names": {
+    "en": "Nidoran♂",
+    "ja": "ニドラン♂",
+    "zh": "尼多朗"
+  },
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "types_zh": [
+    "毒"
+  ],
+  "category": "どくばりポケモン",
+  "category_zh": "毒针宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺 / 或 / 斗争心",
+      "hidden": false
+    },
+    {
+      "name_en": "rivalry",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "活力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 9.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 235,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 55,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 46,
+    "attack": 57,
+    "defense": 40,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 50,
+    "total": 273
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 33,
+        "name_en": "nidorino",
+        "name_zh": "尼多力诺",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 32,
+    "城都": 98
+  },
+  "flavor_text_zh": "尼多朗身体为紫色，带有深紫色的斑块。它长着内部为青色的大耳朵，小门牙和小红眼睛。它的头顶长着毒角，后背也长有三排毒刺，其中中间一排较长一些。四肢较短且为两趾。尼多朗只有雄性，与它对应的雌性宝可梦是 尼多兰 。 尼多朗警戒心强，会躲在草丛里只露出耳朵来探察周围的情况。它的耳朵很大，在听远处的声音时，耳朵会像翅膀一样拍动。它牵动耳朵的肌肉十分发达，可以随意将耳朵转动至任何方向。它无论多小的声音也不会听漏，可以在最快的时间里察觉到危险。尽管体型较小，额头上的角含有剧毒，当它察觉到危险便会使用毒针来保护自己。它身材虽小，却性格勇敢。为了保护相好的雌性，会不顾生命果敢地战斗。它可以全身跳起，用角穿刺对方并注入毒液。",
+  "flavor_text_en": "Small but brave, this Pokémon will hold its ground and even risk its life in battle to protect the female it’s friendly with.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 32,
+    "pokeapi_species_id": 32,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/32"
+  }
+}

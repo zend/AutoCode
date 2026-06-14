@@ -1,0 +1,85 @@
+{
+  "entry_id": "0937",
+  "national_id": 937,
+  "form": "default",
+  "names": {
+    "en": "Ceruledge",
+    "ja": "ソウブレイズ",
+    "zh": "苍炎刃鬼"
+  },
+  "generation": 9,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "types_zh": [
+    "火",
+    "幽灵"
+  ],
+  "category": "ひのけんしポケモン",
+  "category_zh": "火剑士宝可梦",
+  "abilities": [
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 62.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "blue",
+  "color_zh": "紫色",
+  "base_experience": 263,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 80,
+    "special_attack": 60,
+    "special_defense": 100,
+    "speed": 85,
+    "total": 525
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 935,
+        "name_en": "charcadet",
+        "name_zh": "炭小侍",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 167
+  },
+  "flavor_text_zh": "苍炎刃鬼身披渗进怨念的旧铠甲，带着由火焰和幽灵的能量形成的剑。双臂的火焰之剑是靠着得志前就亡命的剑士的怨念而燃烧，开始战斗后火力便会提升，变为大剑，毫不留情地斩断敌人。一旦被这把大剑劈中，便会受到使生命能量外流的伤。它拥有为了赢下战斗而不惜使用暗算、偷袭等手段的性格。它喜好近战，会利用对方的死角，以敏捷的行动拉近距离，并用大剑劈击。 [ 2 ] 它会对训练家宣誓忠诚，一旦发现谁带有敌意，便会二话不说地劈过去。",
+  "flavor_text_en": "An old set of armor steeped in grudges caused this Pokémon’s evolution. Ceruledge cuts its enemies to pieces without mercy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 937,
+    "pokeapi_species_id": 937,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/937"
+  }
+}

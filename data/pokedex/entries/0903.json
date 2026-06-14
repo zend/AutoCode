@@ -1,0 +1,90 @@
+{
+  "entry_id": "0903",
+  "national_id": 903,
+  "form": "default",
+  "names": {
+    "en": "Sneasler",
+    "ja": "オオニューラ",
+    "zh": "大狃拉"
+  },
+  "generation": 8,
+  "types": [
+    "fighting",
+    "poison"
+  ],
+  "types_zh": [
+    "格斗",
+    "毒"
+  ],
+  "category": "クライミングポケモン",
+  "category_zh": "攀崖宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感 / 或 / 轻装",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-touch",
+      "name_zh": "毒手",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.3,
+  "weight_kg": 43.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 135,
+  "color": "gray",
+  "color_zh": "蓝色",
+  "base_experience": 102,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 130,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 80,
+    "speed": 120,
+    "total": 510
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 215,
+        "name_en": "sneasel",
+        "name_zh": "狃拉",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "洗翠": 203
+  },
+  "flavor_text_zh": "大狃拉身体覆盖银灰色的体毛，面部和脚部露出为紫色，额上和胸口似乎是黄色的宝石。其头上的飘带长及腰部，正面黑色背面红色。大狃拉黑红色的爪子修长且十分锋利，用带毒的爪子刺中猎物的要害使其身亡后，会将猎物尸体拖到隐蔽处吃掉。 大狃拉生活在寒冷的山地地带，偏好独自行动而不会集结成群，这点与擅长团队合作的 玛狃拉 不同。它拥有凌驾其他物种之上的身体能力以及剧毒，甚至能轻松背着训练家攀登峭壁。",
+  "flavor_text_en": "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 903,
+    "pokeapi_species_id": 903,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/903"
+  }
+}

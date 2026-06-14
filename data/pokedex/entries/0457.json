@@ -1,0 +1,92 @@
+{
+  "entry_id": "0457",
+  "national_id": 457,
+  "form": "default",
+  "names": {
+    "en": "Lumineon",
+    "ja": "ネオラント",
+    "zh": "霓虹鱼"
+  },
+  "generation": 4,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ネオンポケモン",
+  "category_zh": "霓虹宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 引水",
+      "hidden": false
+    },
+    {
+      "name_en": "storm-drain",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "water-veil",
+      "name_zh": "水幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 24.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 161,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 69,
+    "attack": 69,
+    "defense": 76,
+    "special_attack": 69,
+    "special_defense": 86,
+    "speed": 91,
+    "total": 460
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 456,
+        "name_en": "finneon",
+        "name_zh": "荧光鱼",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 135,
+    "阿罗拉": 109,
+    "洗翠": 173,
+    "帕底亚": 334,
+    "蓝莓": 84
+  },
+  "flavor_text_zh": "霓虹鱼的主体是藏青色的，嘴部、眼睑、身上的一圈环、腹鳍的全部两对大鱼鳍的边缘是浅蓝色的，它有一条黑色的尾巴，尾巴上有玫红色的圆点。它的眼睛是玫红色的。雌性霓虹鱼翅膀形的鳍下部更长。 霓虹鱼生活在深深的海底。为了不被天敌发现，会用胸部的两片长长的鳍当作脚贴着海底爬行。它会让四片鳍的花纹发光来引诱猎物，但是作为天敌的凶猛鱼宝可梦也靠了过来。它爱吃 海星星 和 宝石海星 。深海的海底猎物很少，它需要四处寻找宝贵的食物，和 电灯怪 展开激烈争夺。在深海底部的它鳍上发出的充满幻想的光就像是夜空的星星，在霓虹鱼成群出没的夜半时分可以欣赏到水面如星空般闪耀的美景。",
+  "flavor_text_en": "Uses its gleaming fins to hunt its prey. The view of Lumineon schooling near the surface of the sea at night is breathtaking— it's as though there were shining stars right there.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 457,
+    "pokeapi_species_id": 457,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/457"
+  }
+}

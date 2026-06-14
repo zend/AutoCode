@@ -1,0 +1,81 @@
+{
+  "entry_id": "0571-hisui",
+  "national_id": 571,
+  "form": "hisui",
+  "names": {
+    "en": "Zoroark",
+    "ja": "ゾロアーク",
+    "zh": "索罗亚克（洗翠的样子）"
+  },
+  "generation": 5,
+  "types": [
+    "normal",
+    "ghost"
+  ],
+  "types_zh": [
+    "一般",
+    "幽灵"
+  ],
+  "category": "ばけぎつねポケモン",
+  "category_zh": "妖狐宝可梦",
+  "abilities": [
+    {
+      "name_en": "illusion",
+      "name_zh": "幻觉",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 73.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 179,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 105,
+    "defense": 60,
+    "special_attack": 120,
+    "special_defense": 60,
+    "speed": 105,
+    "total": 510
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 570,
+        "name_en": "zorua",
+        "name_zh": "索罗亚",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 77,
+    "帕底亚": 229
+  },
+  "flavor_text_zh": "索罗亚克的外貌如同一只双脚行走的灰色狐狸，头上深红色的鬃毛覆盖了后背，同时，它的鬃毛上还有深灰色的毛发，而在接近鬃毛末端的地方还有一种类似头花的蓝色珍珠状物体。索罗亚克胸口处的黑色毛发覆盖至肩部，它的爪子、耳朵为红色，而嘴角、眼的附近的毛发也同样是红色，它的手有三个手指，与腿一样也只有三个脚趾。洗翠索罗亚克身体颜色为灰色，且多处有红色椭圆形花纹，耳朵顶端为红色，散乱的头发为白色和红色。眼眶为红色，眼睛为黄色。 索罗亚克拥有一下子迷惑许多人的力量。它不只能幻化成其他东西，还拥有让几百人看见幻像的力量。它能够通过迷惑对手，让敌人看到虚幻恐怖的幻象来保护自己的栖息地和族群。据说它会把企图捕捉它的人关在虚幻的场景里并给予惩罚。据说，栖息地快要暴露在人类面前时，它就会制造出幻象，让人在森林里不断徘徊。它是时刻为伙伴着想的宝可梦，同类伙伴之间非常团结。孤独的训练家会命令索罗亚克为自己展现幻像，借以排遣孤身一人的寂寞。 洗翠索罗亚克犹如生物般蠕动的长毛会散发出怨恨能量，不仅会向对方展现恐怖的幻影，还会从对方的身体内外造成伤害。据说此幻影会呈现出仿佛憎恨着世间万物的模样，其恐怖的程度甚至会让见者无法保持理智。它疯狂舞动白发的姿态如同死神。在足以撕裂自身的深刻仇怨驱使下，抱定同归于尽之心袭杀仇敌。虽然面对其他宝可梦和人类会展现出强烈的敌意并摆出攻击姿态，但是洗翠索罗亚克在面对仿佛伙伴和家人的存在时，会显露充满慈爱的一面。有时还能看到它保护洗翠索罗亚的模样。如果能和它建立信赖关系，想必它能成为相当可靠的伙伴。 [ 1 ]",
+  "flavor_text_en": "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10239,
+    "pokeapi_species_id": 571,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10239"
+  }
+}

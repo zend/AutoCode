@@ -1,0 +1,90 @@
+{
+  "entry_id": "0763",
+  "national_id": 763,
+  "form": "default",
+  "names": {
+    "en": "Tsareena",
+    "ja": "アマージョ",
+    "zh": "甜冷美后"
+  },
+  "generation": 7,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "フルーツポケモン",
+  "category_zh": "水果宝可梦",
+  "abilities": [
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "叶子防守 / 或 / 女王的威严",
+      "hidden": false
+    },
+    {
+      "name_en": "queenly-majesty",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sweet-veil",
+      "name_zh": "甜幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 21.4,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 230,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 120,
+    "defense": 98,
+    "special_attack": 50,
+    "special_defense": 98,
+    "speed": 72,
+    "total": 510
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 762,
+        "name_en": "steenee",
+        "name_zh": "甜舞妮",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 173,
+    "伽勒尔": 54,
+    "帕底亚": 83
+  },
+  "flavor_text_zh": "从外表上来看，甜冷美后看起来就像是一个成年女子，它类似裙子的部位依然可以看出来是 山竹 ，而其头发的部位其实是类似叶子的部位，也是甜冷美后坚硬的壳盖，它呈现多条垂直下来，并且上面有着黄色的颗粒花纹，甜冷美后还有显著的细长的双腿。甜冷美后只有雌性，也没有对应的雄性宝可梦与它配对。 甜冷美后拥有高傲的性格且具有攻击性，对于抱有不友善的想法而靠近的宝可梦及人类会马上作出惩罚，是让人畏惧的宝可梦。它对于训练家亦如是，当与自己默契不佳或要求自己使出没有效果的招式时，甜冷美后会对训练家投以严厉的眼神。在 甜舞妮 中只有特别强大的个体才可在其他甜舞妮们的祝福下进化。进化后，甜冷美后会利用其实力保护 甜竹竹 们。据说甜冷美后头顶像王冠一样的果蒂一旦被触碰，力量便会消失，它就会立刻变得很温顺。甜冷美后拥有苗条的双腿和残忍的心，会毫不留情地狠踩敌人。它是使出脚踢招式的高手，擅长运用自己的脚来踢，就连搏击冠军也能用一招脚踢将对方击倒，敌视 狂欢浪舞鸭 。它比甜舞妮更能发挥招式的实力，会用优雅的动作进行攻击。被攻击的宝可梦会被香气所魅惑，并遭到追击。它会用又尖又硬的脚尖施展脚踢，朝对手的身体和心灵留下无法磨灭的创伤，每次踢起对手时都会高声大笑。它最后会用脚踩住已被打倒的对手，大笑着炫耀自己的胜利。作为腿部优美的宝可梦为人所知，成为了美容沙龙等广告的吉祥物。 [ 1 ]",
+  "flavor_text_en": "A kick from the hardened tips of this Pokémon’s legs leaves a wound in the opponent’s body and soul that will never heal.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 763,
+    "pokeapi_species_id": 763,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/763"
+  }
+}

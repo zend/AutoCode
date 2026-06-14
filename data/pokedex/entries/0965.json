@@ -1,0 +1,85 @@
+{
+  "entry_id": "0965",
+  "national_id": 965,
+  "form": "default",
+  "names": {
+    "en": "Varoom",
+    "ja": "ブロロン",
+    "zh": "噗隆隆"
+  },
+  "generation": 9,
+  "types": [
+    "steel",
+    "poison"
+  ],
+  "types_zh": [
+    "钢",
+    "毒"
+  ],
+  "category": "たんきとうポケモン",
+  "category_zh": "单汽缸宝可梦",
+  "abilities": [
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": false
+    },
+    {
+      "name_en": "slow-start",
+      "name_zh": "慢启动",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 35.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 70,
+    "defense": 63,
+    "special_attack": 30,
+    "special_defense": 45,
+    "speed": 47,
+    "total": 300
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 966,
+        "name_en": "revavroom",
+        "name_zh": "普隆隆姆",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 293
+  },
+  "flavor_text_zh": "据说噗隆隆是神秘的毒宝可梦钻进了放置于废弃工厂的引擎里，从而诞生了的宝可梦。钢铁的身躯才是它的本体，会贴在岩石上将其成分转换为活动所需的能量。",
+  "flavor_text_en": "The steel section is Varoom’s actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 965,
+    "pokeapi_species_id": 965,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/965"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "entry_id": "0509",
+  "national_id": 509,
+  "form": "default",
+  "names": {
+    "en": "Purrloin",
+    "ja": "チョロネコ",
+    "zh": "扒手猫"
+  },
+  "generation": 5,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "しょうわるポケモン",
+  "category_zh": "坏心眼宝可梦",
+  "abilities": [
+    {
+      "name_en": "limber",
+      "name_zh": "柔软 / 或 / 轻装",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 10.1,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 56,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 41,
+    "attack": 50,
+    "defense": 37,
+    "special_attack": 50,
+    "special_defense": 37,
+    "speed": 66,
+    "total": 281
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 510,
+        "name_en": "liepard",
+        "name_zh": "酷豹",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 15,
+    "伽勒尔": 44
+  },
+  "flavor_text_zh": "扒手猫有一身紫色的毛皮以及饶有聪慧的绿色大眼睛。优雅柔软的身体以及小恶魔般甜美的紫色斜钩状尾巴，形成了美妙的身形样貌。扒手猫有一双半紫半黄的巧手，以及扁小的米黄色双足作为它的四肢。 扒手猫会用可爱的动作让对手放下戒心，趁对方靠过来时冷不防地用爪子猛抓抢夺持有物，然后得意地大笑。一旦生气，就会竖起爪子反击。它会出于好玩偷盗人的物品，只为了要看见人们困扰难过的样子。被偷的人也因其逗人喜爱的动作而不自觉地原谅它。它和 狡小狐 是竞争对手。",
+  "flavor_text_en": "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 509,
+    "pokeapi_species_id": 509,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/509"
+  }
+}

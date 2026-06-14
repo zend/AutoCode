@@ -1,0 +1,81 @@
+{
+  "entry_id": "0327",
+  "national_id": 327,
+  "form": "default",
+  "names": {
+    "en": "Spinda",
+    "ja": "パッチール",
+    "zh": "晃晃斑"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ぶちパンダポケモン",
+  "category_zh": "斑点熊猫宝可梦",
+  "abilities": [
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素 / 或 / 蹒跚",
+      "hidden": false
+    },
+    {
+      "name_en": "tangled-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 5.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 126,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 60,
+    "total": 360
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 114,
+    "阿罗拉": 105
+  },
+  "flavor_text_zh": "主页面： 晃晃斑的斑点 每只晃晃斑身上的斑点几乎不相同，晃晃斑身上的斑点理论上有2 32 =4,294,967,296种组合，所以遇到斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。听说也有爱好者以这细微的斑点位置的不同为乐。 晃晃斑晃晃悠悠，步伐不稳健。它摇摆不定的步伐看起来好像在跳舞，但晃晃斑自己是打算要笔直走路的。如果长时间连续行走，就会变得状态很差。它看上去总是昏头昏脑的，但那晃晃悠悠、毫无章法的动作有着迷惑敌人，让敌人不容易瞄准的效果。 夜盗火蜥 就不擅长对付总是晕乎乎的晃晃斑。",
+  "flavor_text_en": "Each Spinda’s spot pattern is different. With its stumbling movements, it evades opponents’ attacks brilliantly!",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 327,
+    "pokeapi_species_id": 327,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/327"
+  }
+}

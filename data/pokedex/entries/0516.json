@@ -1,0 +1,84 @@
+{
+  "entry_id": "0516",
+  "national_id": 516,
+  "form": "default",
+  "names": {
+    "en": "Simipour",
+    "ja": "ヒヤッキー",
+    "zh": "冷水猿"
+  },
+  "generation": 5,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ほうすいポケモン",
+  "category_zh": "放水宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 29.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 174,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 98,
+    "defense": 63,
+    "special_attack": 98,
+    "special_defense": 63,
+    "speed": 101,
+    "total": 498
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 515,
+        "name_en": "panpour",
+        "name_zh": "冷水猴",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 22,
+    "密阿雷": 82
+  },
+  "flavor_text_zh": "冷水猿的头顶有一团水蓝色的穗子状毛发，在穗子毛团下方，是一张又大又圆的面孔，头两侧是巨大的扇形耳朵。它一般眯著双眼，偶尔才会突然睁开双眼。冷水猿流水状的穗子毛发直垂落到其脖子处，而在冷水猿的脖子处有一个白色的类似于围兜的绒毛团。在绒毛团的两侧正是冷水猿浅黄色的双臂。冷水猿那底边为大型锯齿状的身体下方紧接着的是修长的双腿。冷水猿的脚掌类似于 猫爪 或是狮子的爪子，有三根弯曲的脚趾。在冷水猿的臀部后方，是一条细细长长的小麦色尾巴，在尾巴的末端是一团既可以吸取又可以储蓄水分的水蓝色云团状的绒毛团。 冷水猿喜欢水很干净的地方，头部的穗子毛团能蓄水。一旦头上储藏的水减少，就会用尾巴吸水来补充。如果从尾巴发射出高压水，那威力甚至能破坏混凝土墙壁。",
+  "flavor_text_en": "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 516,
+    "pokeapi_species_id": 516,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/516"
+  }
+}

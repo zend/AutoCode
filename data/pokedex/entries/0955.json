@@ -1,0 +1,88 @@
+{
+  "entry_id": "0955",
+  "national_id": 955,
+  "form": "default",
+  "names": {
+    "en": "Flittle",
+    "ja": "ヒラヒナ",
+    "zh": "飘飘雏"
+  },
+  "generation": 9,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "フリルポケモン",
+  "category_zh": "褶边宝可梦",
+  "abilities": [
+    {
+      "name_en": "anticipation",
+      "name_zh": "危险预知 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "speed-boost",
+      "name_zh": "加速",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 1.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 51,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 35,
+    "defense": 30,
+    "special_attack": 55,
+    "special_defense": 30,
+    "speed": 75,
+    "total": 255
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 956,
+        "name_en": "espathra",
+        "name_zh": "超能艳鸵",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 263
+  },
+  "flavor_text_zh": "飘飘雏会在荒地跑来跑去来度过时间。如果最喜欢的树果被拿走，就会穷追不舍地展开报复。由腹部的褶边放射出的精神力量能让它浮在脚尖距离地面仅有1厘米的空中。",
+  "flavor_text_en": "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 955,
+    "pokeapi_species_id": 955,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/955"
+  }
+}

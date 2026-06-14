@@ -1,0 +1,90 @@
+{
+  "entry_id": "0534",
+  "national_id": 534,
+  "form": "default",
+  "names": {
+    "en": "Conkeldurr",
+    "ja": "ローブシン",
+    "zh": "修建老匠"
+  },
+  "generation": 5,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "きんこつポケモン",
+  "category_zh": "筋骨宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力 / 或 / 强行",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 87.0,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 227,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 105,
+    "attack": 140,
+    "defense": 95,
+    "special_attack": 55,
+    "special_defense": 65,
+    "speed": 45,
+    "total": 505
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 533,
+        "name_en": "gurdurr",
+        "name_zh": "铁骨土人",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 40,
+    "伽勒尔": 173,
+    "北上": 87
+  },
+  "flavor_text_zh": "修建老匠拥有被环环粉红色的筋肉包围着的灰褐色身躯。黑白相间的眼眸上方有一条眉皱纹、双眼之间是一颗圆形的红色鼻子，下巴有一撮灰色的胡须。修建老匠手持两条混凝土柱并将它们支撑在地上。 修建老匠用来当拐杖的混凝土柱可以不依靠蛮力自由自在地挥舞。它熟练学会了不依赖力量，灵活运用离心力挥舞混凝土的招式。要是认真起来就会扔掉手中的混凝土柱，赤手空拳地扑向敌人。人们制作混凝土的技术，被认为是2000年前从修建老匠那儿学来的。即使成分相同，修建老匠搅拌的混凝土也格外地坚硬结实，但也还是抵不住 头巾混混 看似无精打采的踢击。",
+  "flavor_text_en": "When going all out, this Pokémon throws aside its concrete pillars and leaps at opponents to pummel them with its fists.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 534,
+    "pokeapi_species_id": 534,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/534"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "entry_id": "0499",
+  "national_id": 499,
+  "form": "default",
+  "names": {
+    "en": "Pignite",
+    "ja": "チャオブー",
+    "zh": "炒炒猪"
+  },
+  "generation": 5,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "types_zh": [
+    "火",
+    "格斗"
+  ],
+  "category": "ひぶたポケモン",
+  "category_zh": "火猪宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 55.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 146,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 93,
+    "defense": 55,
+    "special_attack": 70,
+    "special_defense": 55,
+    "speed": 55,
+    "total": 418
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 498,
+        "name_en": "tepig",
+        "name_zh": "暖暖猪",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 500,
+        "name_en": "emboar",
+        "name_zh": "炎武王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 5,
+    "蓝莓": 204,
+    "密阿雷": 5
+  },
+  "flavor_text_zh": "炒炒猪用双脚站立，看起来比较肥胖。它的身体以橙色为主，黑色部分就像套在身上的背心，还长着似乎是象征着武斗的花纹。它的前爪有两趾，是黑色的，还有一圈黄色的花纹。它有着黑色的卷卷的尾巴，尾尖还有一团黑色的毛。 炒炒猪会将吃下肚的食物作为燃料在胃里燃烧。吃得越多，可供燃烧的东西就越多，胃里的火会增强，力量也会源源不断地溢出。它战斗时会热血沸腾，体温急速上升，然后变成灼热的火球。如果体内的火焰燃起，动作就会变得非常敏捷。危机时刻会喷出烟雾。虽然它拥有强大的实力，为了保护伙伴能面对任何强敌，但却战胜不了饥饿。",
+  "flavor_text_en": "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 499,
+    "pokeapi_species_id": 499,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/499"
+  }
+}

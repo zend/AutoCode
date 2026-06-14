@@ -1,0 +1,93 @@
+{
+  "entry_id": "0365",
+  "national_id": 365,
+  "form": "default",
+  "names": {
+    "en": "Walrein",
+    "ja": "トドゼルガ",
+    "zh": "帝牙海狮"
+  },
+  "generation": 3,
+  "types": [
+    "ice",
+    "water"
+  ],
+  "types_zh": [
+    "冰",
+    "水"
+  ],
+  "category": "こおりわりポケモン",
+  "category_zh": "破冰宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 冰冻之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 150.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 80,
+    "defense": 90,
+    "special_attack": 95,
+    "special_defense": 90,
+    "speed": 65,
+    "total": 530
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 364,
+        "name_en": "sealeo",
+        "name_zh": "海魔狮",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 175,
+    "洗翠": 145
+  },
+  "flavor_text_zh": "帝牙海狮的身体是蓝色的，脖子上有两圈白色圆环，扇形尾鳍上也有两条白色条纹。它有两个长长的象牙，有一个圆形的鼻子和黄色的眼睛，脸上和脖子上有一大簇白色的皮毛。 帝牙海狮2、30只一起群居，保护群体的首领，对于侵入其地盘的敌人会拼命打倒。它厚厚的脂肪可以抵御严寒，即使在冰点下也很淡定。它的獠牙一生都会持续生长，两根发达的獠牙连10吨重的冰山也能一击粉碎。它会一边用巨大的獠牙咬碎冰山，一边在冰点下的海里游来游去。厚厚的脂肪不仅能抵御严寒，还能反弹敌人的攻击。粗大的獠牙虽有足以咬碎流冰的强度，但有时仍会折断。獠牙折断后会在隔年重新长出，断掉的獠牙则成了洗翠的特产。",
+  "flavor_text_en": "Its thick tusks are strong enough to shatter drift ice. They have been known to break, but they will grow back by the next year. The Hisui region is well known for these broken tusks.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 365,
+    "pokeapi_species_id": 365,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/365"
+  }
+}

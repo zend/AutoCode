@@ -1,0 +1,83 @@
+{
+  "entry_id": "0142",
+  "national_id": 142,
+  "form": "default",
+  "names": {
+    "en": "Aerodactyl",
+    "ja": "プテラ",
+    "zh": "化石翼龙"
+  },
+  "generation": 1,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "types_zh": [
+    "岩石",
+    "飞行"
+  ],
+  "category": "かせきポケモン",
+  "category_zh": "化石宝可梦",
+  "abilities": [
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "pressure",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 59.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 180,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special_attack": 60,
+    "special_defense": 75,
+    "speed": 130,
+    "total": 515
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "关都": 142,
+    "城都": 224,
+    "阿罗拉": 284,
+    "密阿雷": 192
+  },
+  "flavor_text_zh": "化石翼龙的身体是灰色的，瞳孔颜色则为蓝色，头部有两个角向后延伸。它的翅膀内侧是紫色的。它的翼上有两只锋利的爪子，牙齿呈锯齿状。超级进化的力量使它的遗传基因完全复活，身体的一部分变成了石头。 化石翼龙通过研究从琥珀中提取出来的基因复活而成，是远古时期的凶恶宝可梦。因巨大陨石的坠落而灭绝的学说在人们心中根深蒂固。它的性情比想像的还要粗暴，甚至还出现了牺牲者。据说，就算运用当今最先进的科技也无法将其完美复原。它以一副傲然的姿态自由自在地翱翔在古代的广袤天空中，一边高声鸣叫一边飞行，是古代广袤天空的王者。降落到地面后，它好像会变弱，走起路来也会变慢，现在它被想象成了当时的天空王者。它会用锯子一样的牙齿将对手的喉咙咬断，将猎物撕碎后吞食，它锯齿一般的牙齿甚至连钢属性宝可梦的皮肤都能撕成碎片。 头盖龙 会用最拿手的头锤对抗化石翼龙。它有喜欢琥珀的习性，或许是因为琥珀能让它想起以前的伙伴们。有学说认为，虽然现代复原的化石翼龙没有 龙属性 ，但在化石翼龙翱翔于广袤天空的古代是龙属性。 [ 1 ] 超级进化后，化石翼龙粗暴的脾气比以前更胜一筹。它覆盖全身的尖锐岩石去而复返，身上的岩石比钻石还要坚硬。也有学者主张，这个样子才是真正的化石翼龙。它会攻击所有会动的东西，超级进化对身体造成了负担，据说因为过剩的力量而苦恼，变得非常的暴躁不安。",
+  "flavor_text_en": "Aerodactyl’s sawlike fangs can shred skin to tatters—even the skin of Steel-type Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 142,
+    "pokeapi_species_id": 142,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/142"
+  }
+}

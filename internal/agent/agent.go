@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"path/filepath"
 	"strings"
 
 	"github.com/zend/AutoCode/internal/llm"
@@ -17,6 +18,7 @@ You have access to the following tools:
 2. write - Write or edit files
 3. grep - Search for patterns in files
 4. shell - Execute shell commands
+5. pokedex - Query the National Pokédex knowledge base (grounded facts only; do not invent Pokémon data)
 
 For each step, you should:
 1. Think about what to do next
@@ -57,6 +59,11 @@ func New(client *llm.Client, baseDir string) *Agent {
 	registry.Register(tools.NewWriteTool(baseDir))
 	registry.Register(tools.NewGrepTool(baseDir))
 	registry.Register(tools.NewShellTool(baseDir))
+
+	pokedexDir := filepath.Join(baseDir, "data", "pokedex")
+	if pokedexTool, err := tools.NewPokedexTool(pokedexDir); err == nil {
+		registry.Register(pokedexTool)
+	}
 
 	return &Agent{
 		client:   client,

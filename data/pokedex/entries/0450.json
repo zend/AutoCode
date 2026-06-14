@@ -1,0 +1,87 @@
+{
+  "entry_id": "0450",
+  "national_id": 450,
+  "form": "default",
+  "names": {
+    "en": "Hippowdon",
+    "ja": "カバルドン",
+    "zh": "河马兽"
+  },
+  "generation": 4,
+  "types": [
+    "ground"
+  ],
+  "types_zh": [
+    "地面"
+  ],
+  "category": "じゅうりょうポケモン",
+  "category_zh": "重量宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-stream",
+      "name_zh": "扬沙",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 300.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 184,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 108,
+    "attack": 112,
+    "defense": 118,
+    "special_attack": 68,
+    "special_defense": 72,
+    "speed": 47,
+    "total": 525
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 449,
+        "name_en": "hippopotas",
+        "name_zh": "沙河马",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 123,
+    "伽勒尔": 315,
+    "洗翠": 108,
+    "帕底亚": 266,
+    "密阿雷": 119
+  },
+  "flavor_text_zh": "河马兽是一只浅褐色的河马，它的鼻子附近，眼睑，脚部和背部是黑色的。背上有六个突出的小孔可以流出沙子，有一条短小的黑色尾巴。河马兽的雌雄差异很大，雄性有褐色的身体，而雌性有深灰色的身体。 河马兽性情急躁容易发怒。它会张大直径可达2米嘴巴的来向周围展示自己的强大，其威力之强足以把一辆汽车咬成破铜烂铁。它生气的时候非常凶暴，会从身体的孔洞里向上喷出体内储存的沙子，制造出巨大龙卷风进行攻击，挫败敌人锐气后加以袭击。即使 龙王蝎 狰狞凶猛到被人们称为沙之恶魔，但在河马兽面前却依然表现得低调温顺。它常会从身体的各个孔洞里喷出大量沙子，那是因为它能通过替换体内储存的沙子，来保持自己的身体健康。偶尔会有石子卡在它身体的孔洞里。因为住在它洞里的 石居蟹 会帮忙把石子拿出来，所以会用心地保护它们。",
+  "flavor_text_en": "Short-tempered and easily moved to violence. It whips up whirlwinds of sand to crush its foes' spirits, then goes in for the attack.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 450,
+    "pokeapi_species_id": 450,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/450"
+  }
+}

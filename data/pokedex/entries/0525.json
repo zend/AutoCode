@@ -1,0 +1,98 @@
+{
+  "entry_id": "0525",
+  "national_id": 525,
+  "form": "default",
+  "names": {
+    "en": "Boldore",
+    "ja": "ガントル",
+    "zh": "地幔岩"
+  },
+  "generation": 5,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "こうせきポケモン",
+  "category_zh": "矿石宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 碎裂铠甲",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 102.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 137,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 105,
+    "defense": 105,
+    "special_attack": 50,
+    "special_defense": 40,
+    "speed": 20,
+    "total": 390
+  },
+  "ev_yield": {
+    "attack": 1,
+    "defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 524,
+        "name_en": "roggenrola",
+        "name_zh": "石丸子",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 526,
+        "name_en": "gigalith",
+        "name_zh": "庞岩怪",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 31,
+    "阿罗拉": 99,
+    "伽勒尔": 169
+  },
+  "flavor_text_zh": "地幔岩的身体主要由一大块藏青色的岩石构成。正面成对的黑色小洞就像眼睛，洞两侧的像眼睑的黄色岩石能够释放能量。正中间有一竖凸起的藏青色岩石，直冲头顶，似乎有点像鼻子。地幔岩的头顶有四块尖利的橙色多棱石，那是体内容纳不了而漏出的能量凝结成的橙色结晶。如果精神好，核心就会凸出。在藏青色的岩石身体前后分别有三块小小的藏青色岩石作为手臂，身体两侧各有两个，身后还有一个。这些作为支撑身体的站立的手臂，在手臂的尖端同样也是橙色的结晶岩石。在地幔岩的身体正下方，也有三块橙色的能量结晶。 地幔岩会在洞窟里寻找地下水。它对水本身不是很适应，所以都是一点点慢慢舔。橙色的结晶是大大的能量块，其硬度连钻石都能弄碎，一块结晶可提供100辆翻斗车所需的燃料。因为很有价值，所以有时会被袭击。橙色的结晶开始发光的时候，一定特别小心，因为它马上就会射出能量。它通过声音来探测四周，无需改变身体的朝向就能前后左右迅速移动。要是惹它生气了，它会连身体方向也不转就朝你追来。",
+  "flavor_text_en": "It relies on sound in order to monitor what’s in its vicinity. When angered, it will attack without ever changing the direction it’s facing.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 525,
+    "pokeapi_species_id": 525,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/525"
+  }
+}

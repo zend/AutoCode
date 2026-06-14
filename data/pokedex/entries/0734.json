@@ -1,0 +1,89 @@
+{
+  "entry_id": "0734",
+  "national_id": 734,
+  "form": "default",
+  "names": {
+    "en": "Yungoos",
+    "ja": "ヤングース",
+    "zh": "猫鼬少"
+  },
+  "generation": 7,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "うろつきポケモン",
+  "category_zh": "巡回宝可梦",
+  "abilities": [
+    {
+      "name_en": "stakeout",
+      "name_zh": "蹲守 / 或 / 强壮之颚",
+      "hidden": false
+    },
+    {
+      "name_en": "strong-jaw",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "适应力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 6.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 51,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 70,
+    "defense": 30,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 45,
+    "total": 253
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 735,
+        "name_en": "gumshoos",
+        "name_zh": "猫鼬探长",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 13,
+    "帕底亚": 27
+  },
+  "flavor_text_zh": "猫鼬少有着长长的身体，其外表看起来就像是现实世界的猫鼬，不过配色和现实的猫鼬有很大的不同，其毛色主要分为两种，从头部延伸到尾部的中间有着一条黄色的条纹，大部分的猫鼬少经常会露出牙齿，它们的尾部很长，方便自己调节奔跑方向。 猫鼬少本来不是栖息在阿罗拉地区的宝可梦。在 某宝可梦 大量出现时，为应付这情况而被带来至阿罗拉地区，如今成为了在阿罗拉地区常见的宝可梦。由于是在阿罗拉地区大量栖息的宝可梦，所以十分容易捕捉它。猫鼬少长长的身体中大部分都是胃袋，食量非常大。它什么都吃，但喜欢吃新鲜的活物。每只猫鼬少找寻食物的路线是固定的，每天都在固定的路线上四处寻找新鲜的食物。它会来来回回地行走找寻食物，疲倦时便在该地方睡觉。路线固定的原因，据推测是因为确定过是安全的地方无论何时都能够睡觉。利用强壮的牙齿，无论多坚硬的东西它也能嚼碎，然后进食。由于消化迅速，所以肚子经常处于空空的状态。 [ 1 ] 它醒着的时候总是在持续觅食，一旦肚子饿了就会变得更加地凶暴，是需要花费很多食物费的宝可梦。",
+  "flavor_text_en": "Although it will eat anything, it prefers fresh living things, so it marches down streets in search of prey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 734,
+    "pokeapi_species_id": 734,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/734"
+  }
+}

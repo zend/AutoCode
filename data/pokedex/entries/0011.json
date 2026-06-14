@@ -1,0 +1,88 @@
+{
+  "entry_id": "0011",
+  "national_id": 11,
+  "form": "default",
+  "names": {
+    "en": "Metapod",
+    "ja": "トランセル",
+    "zh": "铁甲蛹"
+  },
+  "generation": 1,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "さなぎポケモン",
+  "category_zh": "蛹宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 9.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 55,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 30,
+    "total": 205
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 10,
+        "name_en": "caterpie",
+        "name_zh": "绿毛虫",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 12,
+        "name_en": "butterfree",
+        "name_zh": "巴大蝶",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 11,
+    "城都": 25,
+    "阿罗拉": 18,
+    "伽勒尔": 14
+  },
+  "flavor_text_zh": "铁甲蛹是绿色的虫蛹外形的宝可梦。它的身体呈新月状，尾部分节。前端也有分节，看上去像它的五官。背后有一个小突起。它的眼睛经常半张半闭，眼珠是黑色的。 铁甲蛹正处于等待进化的状态。它会让外壳变硬来保护自己，努力巩固外侧的壳，才能保护正在进化中柔软脆弱的身体。壳里面是黏糊糊的液体，因为正在准备进化的缘故，十分柔软脆弱，所以尽量不要轻举妄动。它为了准备迎接进化，正在不断地更新体内的细胞。除了变硬之外它什么都做不了，只能动也不动以免引来袭击，在进化之前会一直默默地忍受。几乎不动也是为了防止身体一不留神就露出来。它身体外面的壳有铁板那么硬，即使受到 小笃儿 的啄击也能安然无恙。因为有时也会破裂，所以禁止用于激烈的战斗。虽说坚硬，但还是虫的外壳。在遇到强烈的冲击力时，它的身体还是会被撞出来。因为壳里的身体很软，所以无法抵抗强力的攻击。",
+  "flavor_text_en": "Even though it is encased in a sturdy shell, the body inside is tender. It can’t withstand a harsh attack.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 11,
+    "pokeapi_species_id": 11,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/11"
+  }
+}

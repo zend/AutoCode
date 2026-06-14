@@ -1,0 +1,93 @@
+{
+  "entry_id": "0478",
+  "national_id": 478,
+  "form": "default",
+  "names": {
+    "en": "Froslass",
+    "ja": "ユキメノコ",
+    "zh": "雪妖女"
+  },
+  "generation": 4,
+  "types": [
+    "ice",
+    "ghost"
+  ],
+  "types_zh": [
+    "冰",
+    "幽灵"
+  ],
+  "category": "ゆきぐにポケモン",
+  "category_zh": "雪国宝可梦",
+  "abilities": [
+    {
+      "name_en": "snow-cloak",
+      "name_zh": "雪隐",
+      "hidden": false
+    },
+    {
+      "name_en": "cursed-body",
+      "name_zh": "咒术之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.3,
+  "weight_kg": 26.6,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 70,
+    "special_attack": 80,
+    "special_defense": 70,
+    "speed": 110,
+    "total": 480
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 361,
+        "name_en": "snorunt",
+        "name_zh": "雪童子",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 208,
+    "阿罗拉": 248,
+    "伽勒尔": 81,
+    "洗翠": 207,
+    "帕底亚": 359,
+    "北上": 174,
+    "密阿雷": 171
+  },
+  "flavor_text_zh": "雪妖女看起来身着 和服 ，飘浮在空中。它的头看起来像一滴侧转的水滴，头顶上有两块冰晶和一些孔，透过孔洞能看到它紫色的皮肤。而从两个孔中，有黄色巩膜的冰晶蓝色的眼睛向外窥视着。它看起来像耳朵一样的手臂挂在头边，手有三只小手指，手臂上发亮的部分有斑块状的淡蓝色。看起来像是躯体的部分其实里面是空的。雪妖女只有雌性。虽然有人认为与它对应雄性宝可梦是 冰鬼护 ，但是冰鬼护也有雌性。 雪妖女是被怀抱怨恨消失在雪山中的女人魂魄所附体在冰柱上的宝可梦。在经常下雪的地方，也流传着它是由雪山遇难的女子转世而来的说法。据说它会在刮着猛烈暴风雪的夜晚下山，前往人类居住的村落，所以即使听到敲门声也千万不能开门。据说它会吐出零下５０度的气息冻结猎物，然后将其带到秘密的地方整齐地摆成一排装饰起来。它也会把前来爬雪山的登山男和自己中意的人类或宝可梦冻成冰块后带回自己的巢穴，而且只会盯上美男子。它最喜欢冻成冰的灵魂，喜欢吃男性的魂魄。传说会施咒杀死行为不检的男人，令人心惊胆战。 超级雪妖女散发出带有幽灵能量的诡异冷气，连火和风等没有形状的东西也能冻住。",
+  "flavor_text_en": "A Pokémon inhabited by the soul of a woman who died bearing a grudge in the snowy mountains. Legends of Froslass placing deathly curses on misbehaving men send shivers down my spine.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 478,
+    "pokeapi_species_id": 478,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/478"
+  }
+}

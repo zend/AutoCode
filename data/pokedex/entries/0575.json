@@ -1,0 +1,98 @@
+{
+  "entry_id": "0575",
+  "national_id": 575,
+  "form": "default",
+  "names": {
+    "en": "Gothorita",
+    "ja": "ゴチミル",
+    "zh": "哥德小童"
+  },
+  "generation": 5,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "あやつりポケモン",
+  "category_zh": "操纵宝可梦",
+  "abilities": [
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉 / 或 / 好胜",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "shadow-tag",
+      "name_zh": "踩影",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 18.0,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 100,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 137,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 70,
+    "special_attack": 75,
+    "special_defense": 85,
+    "speed": 55,
+    "total": 390
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 574,
+        "name_en": "gothita",
+        "name_zh": "哥德宝宝",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 576,
+        "name_en": "gothitelle",
+        "name_zh": "哥德小姐",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 81,
+    "伽勒尔": 268,
+    "帕底亚": 235,
+    "蓝莓": 102
+  },
+  "flavor_text_zh": "哥德小童的身体大部分由黑色组成，脸部是浅紫色的。它的瞳孔呈亮蓝色，拥有一个红色的小嘴。头部两旁都有一个类似黑色发髻的球形结构，上面分别有四个蝴蝶结，颈部与腹部中也都有白色的蝴蝶结。 星光是哥德小童力量的来源，它的精神力量似乎会在星光闪耀的夜晚达到最高点。世间流传着很多这样的说法，它们会在星光闪烁的夜晚操纵睡着的孩子耍着玩，然后把睡着的孩子们带走，也有人称它为惩罚魔女。到了夜里它就会用精神力量让石头浮起，排列成星座的形状。它与宇宙的关系至今不明，有些人认为它是从宇宙来的。",
+  "flavor_text_en": "On nights when the stars shine, this Pokémon’s psychic power is at its strongest. It’s unknown just what link Gothorita has to the greater universe.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 575,
+    "pokeapi_species_id": 575,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/575"
+  }
+}

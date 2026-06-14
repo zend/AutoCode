@@ -1,0 +1,94 @@
+{
+  "entry_id": "0220",
+  "national_id": 220,
+  "form": "default",
+  "names": {
+    "en": "Swinub",
+    "ja": "ウリムー",
+    "zh": "小山猪"
+  },
+  "generation": 2,
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "types_zh": [
+    "冰",
+    "地面"
+  ],
+  "category": "いのぶたポケモン",
+  "category_zh": "小猪宝可梦",
+  "abilities": [
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝 / 或 / 雪隐",
+      "hidden": false
+    },
+    {
+      "name_en": "snow-cloak",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 6.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 50,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 40,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 50,
+    "total": 250
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 221,
+        "name_en": "piloswine",
+        "name_zh": "长毛猪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 191,
+    "神奥": 203,
+    "伽勒尔": 75,
+    "洗翠": 212,
+    "北上": 50
+  },
+  "flavor_text_zh": "小山猪被厚厚的褐色条纹毛发覆盖着，遮住了它的腿部。它有一个粉色的鼻子，眼睛似乎永远是闭着的。 小山猪的嗅觉非常灵敏，为了寻找食物会用鼻子的前端摩擦地面并进行挖掘，即使是结冰的地面也毫无问题。嗅到诱人的香味时，便会不顾一切地朝着气味的方向飞奔过去。它很喜欢吃长在枯草下的蘑菇，擅长靠气味寻找埋藏于草丛或雪中的菇蕈。在靠气味寻找蘑菇的过程中偶尔会找到温泉。自古以来，洗翠的居民便十分依靠它的此项天赋。",
+  "flavor_text_en": "Swinub excels at sniffing out mushrooms buried beneath grass or snow. Since ancient times, the people of Hisui have often relied upon this skill.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 220,
+    "pokeapi_species_id": 220,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/220"
+  }
+}

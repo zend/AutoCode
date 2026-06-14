@@ -1,0 +1,90 @@
+{
+  "entry_id": "0424",
+  "national_id": 424,
+  "form": "default",
+  "names": {
+    "en": "Ambipom",
+    "ja": "エテボース",
+    "zh": "双尾怪手"
+  },
+  "generation": 4,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "おながポケモン",
+  "category_zh": "长尾宝可梦",
+  "abilities": [
+    {
+      "name_en": "technician",
+      "name_zh": "技术高手 / 或 / 捡拾",
+      "hidden": false
+    },
+    {
+      "name_en": "pickup",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "skill-link",
+      "name_zh": "连续攻击",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 20.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 169,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 66,
+    "special_attack": 60,
+    "special_defense": 66,
+    "speed": 115,
+    "total": 482
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 190,
+        "name_en": "aipom",
+        "name_zh": "长尾怪手",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 64,
+    "洗翠": 79,
+    "北上": 48
+  },
+  "flavor_text_zh": "双尾怪手长出了第二条尾巴，头顶的毛变成了双分叉，雄性的双尾怪手头顶的毛更短。双尾怪手的尾巴末端和耳朵内部变成了红色，身体的颜色更深了。 双尾怪手在巨大的树木上生活，以庞大的群体进行行动。它一直在和 投掷猴 群体围绕着舒适的树木的问题争夺领地，但结果是五五分。因为分成２条的尾巴能灵巧地处理各种事情，无论做什么都会用到尾巴，所以它变得几乎不会使用手。它能用两根尾巴灵活地剥掉树果的壳来进食，真正的手臂几乎不怎么用了。要躲过两条尾巴的反复发动的连续攻击，是非常困难的技巧。它会用增为两根的尾巴彼此相牵形成圆环，借此感受伙伴间的牵绊来传递情感。人类偶尔也会被邀请加入圆环之中，如果被它的两条尾巴抱紧，那就证明是真的和你很亲近。",
+  "flavor_text_en": "To affirm their kinship, members of this species will form a ring by linking their newly doubled tails together. On rare occasions, humans have been accepted into such rings.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 424,
+    "pokeapi_species_id": 424,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/424"
+  }
+}

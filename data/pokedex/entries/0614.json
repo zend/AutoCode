@@ -1,0 +1,91 @@
+{
+  "entry_id": "0614",
+  "national_id": 614,
+  "form": "default",
+  "names": {
+    "en": "Beartic",
+    "ja": "ツンベアー",
+    "zh": "冻原熊"
+  },
+  "generation": 5,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "とうけつポケモン",
+  "category_zh": "冻结宝可梦",
+  "abilities": [
+    {
+      "name_en": "snow-cloak",
+      "name_zh": "雪隐 / 或 / 拨雪",
+      "hidden": false
+    },
+    {
+      "name_en": "slush-rush",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.6,
+  "weight_kg": 260.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 177,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 130,
+    "defense": 80,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 50,
+    "total": 505
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 613,
+        "name_en": "cubchoo",
+        "name_zh": "喷嚏熊",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 120,
+    "伽勒尔": 280,
+    "帕底亚": 356,
+    "蓝莓": 154
+  },
+  "flavor_text_zh": "冻原熊身材高大，有白色的皮毛。 冻原熊生活在北方的寒冷土地上，是性情凶猛的肉食性宝可梦。它擅长游泳，喜欢北方冰冷的大海，会为了寻找食物在寒冷的海里精力十足地游动徘徊，一旦捕到猎物就会吐出寒气来把猎物冻结起来保存。它可以自在地冰冻自己呼出的气，感到疲劳的时候会吐出气息冻结海水在冰面上休息。它能将嘴里吐出的气息冻结在海上铺成道路来行走，或者制造冰牙和冰爪进行战斗，制成的冰牙比钢铁还硬。它在北国拥有白色恶魔之称，被当地人畏惧。",
+  "flavor_text_en": "It swims energetically through frigid seas. When it gets tired, it freezes the seawater with its breath so it can rest on the ice.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 614,
+    "pokeapi_species_id": 614,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/614"
+  }
+}

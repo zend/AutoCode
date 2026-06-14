@@ -1,0 +1,86 @@
+{
+  "entry_id": "0182",
+  "national_id": 182,
+  "form": "default",
+  "names": {
+    "en": "Bellossom",
+    "ja": "キレイハナ",
+    "zh": "美丽花"
+  },
+  "generation": 2,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "フラワーポケモン",
+  "category_zh": "花宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "healer",
+      "name_zh": "治愈之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 5.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 95,
+    "special_attack": 90,
+    "special_defense": 100,
+    "speed": 50,
+    "total": 490
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 44,
+        "name_en": "gloom",
+        "name_zh": "臭臭花",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 86,
+    "丰缘": 91,
+    "伽勒尔": 58,
+    "蓝莓": 65
+  },
+  "flavor_text_zh": "美丽花的身体是绿色的，有圆形的蓝眼睛，在它的脸颊上有红色的标记。美丽花的头上有两朵鲜红色的花朵，还有像裙子一样的绿色和黄色的叶子，它用这像草裙的叶子充当脚的替代物。 美丽花在南国大量生活着，在充分沐浴了阳光后，它的花瓣就会更加鲜艳，身上的叶子就会一圈圈地旋转起来。大雨的季节结束后受到温暖阳光吸引的美丽花就会开始跳舞，它的舞蹈是南国有名的风景线。美丽花们跳起舞时会互相碰触彼此的花瓣，唱美丽动听的歌，发出悦耳的声音。到了晚上就会合上花瓣睡觉。在乌云压顶的时候，有时能看到美丽花聚在一起做着像是跳舞一样的动作，它所跳的舞蹈被认为是呼唤太阳的仪式。进化前的 臭臭花 越臭，就越是能进化为带着美丽花儿的美丽花。",
+  "flavor_text_en": "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 182,
+    "pokeapi_species_id": 182,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/182"
+  }
+}

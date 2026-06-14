@@ -1,0 +1,80 @@
+{
+  "entry_id": "0289",
+  "national_id": 289,
+  "form": "default",
+  "names": {
+    "en": "Slaking",
+    "ja": "ケッキング",
+    "zh": "请假王"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ものぐさポケモン",
+  "category_zh": "怕麻烦宝可梦",
+  "abilities": [
+    {
+      "name_en": "truant",
+      "name_zh": "懒惰",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 130.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 252,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 150,
+    "attack": 160,
+    "defense": 100,
+    "special_attack": 95,
+    "special_defense": 65,
+    "speed": 100,
+    "total": 670
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 288,
+        "name_en": "vigoroth",
+        "name_zh": "过动猿",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 38,
+    "帕底亚": 80,
+    "蓝莓": 61
+  },
+  "flavor_text_zh": "请假王长得类似于狒狒和大猩猩，有着粉色的鼻子与米色的皮肤，它的眼圈是褐色的，头上有两撮像芽一样的白毛，脖子身上有着一圈白毛，四肢上的毛为褐色。 请假王是世界上最吊儿郎当的宝可梦，平时都是躺着生活。它会吃触手能及的地方长出来的草，等到周围的草都吃光后，才会很不情愿地翻身移动到别处。刻在草原上半径1米的圆圈，是由请假王横躺着吃光了身边的草后所形成的。当它实在太饿的时候，也能看到它晚上到处走动。一到了水果成熟的季节，果树的周围就会聚集许多请假王，它们在等待果实成熟后掉落下来。虽然它看上去只是躺着不动，但其实在积蓄反击的力量。它能通过把积蓄的能量一次放出，从而发挥出惊人的力量。",
+  "flavor_text_en": "Wherever Slaking live, rings of over a yard in diameter appear in grassy fields. They are made by the Pokémon as it eats all the grass within reach while lying prone on the ground.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 289,
+    "pokeapi_species_id": 289,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/289"
+  }
+}

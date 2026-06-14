@@ -1,0 +1,91 @@
+{
+  "entry_id": "0981",
+  "national_id": 981,
+  "form": "default",
+  "names": {
+    "en": "Farigiraf",
+    "ja": "リキキリン",
+    "zh": "奇麒麟"
+  },
+  "generation": 9,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "types_zh": [
+    "一般",
+    "超能力"
+  ],
+  "category": "くびながポケモン",
+  "category_zh": "长颈宝可梦",
+  "abilities": [
+    {
+      "name_en": "cud-chew",
+      "name_zh": "反刍 / 或 / 尾甲",
+      "hidden": false
+    },
+    {
+      "name_en": "armor-tail",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.2,
+  "weight_kg": 160.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 260,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 120,
+    "attack": 90,
+    "defense": 70,
+    "special_attack": 110,
+    "special_defense": 70,
+    "speed": 60,
+    "total": 520
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 203,
+        "name_en": "girafarig",
+        "name_zh": "麒麟奇",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 193,
+    "蓝莓": 26
+  },
+  "flavor_text_zh": "奇麒麟在进化之后本体的头与尾巴上的头合为一体，两个头脑通过粗粗的神经连在一起后，让它的超能力能量得到了提升。通过同步头部和尾巴的脑波，它的超能力提升到了麒麟奇的10倍之高。由于会从头上的角释放出超能力波，并时刻对四周保持警惕，因此它能够在一瞬间察觉到危险，但似乎也有身体跟不上头脑反应速度的时候。它尾巴的头粗壮结实，以坚硬的尾巴牢牢地保护着本体的头。当它尾巴的头闭上嘴时，就会摇起脖子来发动激烈的物理攻击,甩动长长的脖子让对手吃它一记头槌。据说其威力能够粉碎岩盘，压扁钢筋。 [ 1 ]",
+  "flavor_text_en": "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 981,
+    "pokeapi_species_id": 981,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/981"
+  }
+}

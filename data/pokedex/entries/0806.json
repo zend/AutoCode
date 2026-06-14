@@ -1,0 +1,66 @@
+{
+  "entry_id": "0806",
+  "national_id": 806,
+  "form": "default",
+  "names": {
+    "en": "Blacephalon",
+    "ja": "ズガドーン",
+    "zh": "砰头小丑"
+  },
+  "generation": 7,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "types_zh": [
+    "火",
+    "幽灵"
+  ],
+  "category": "はなびポケモン",
+  "category_zh": "烟火宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 13.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 53,
+    "attack": 127,
+    "defense": 53,
+    "special_attack": 151,
+    "special_defense": 79,
+    "speed": 107,
+    "total": 570
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {},
+  "flavor_text_zh": "砰头小丑是 究极异兽 的一种，代号为\"ＵＢ：爆炸\"。它有着与众不同的头部，黄色的眼睛位于头部两端，被两个粉色的和蓝色的六角星花纹包裹，布满头部的粉色和蓝色圆点连线连接着两只眼睛。头部下方是外翻的领子似的白色部位，边缘有皱褶，中央有一个小孔，下面是长长的蓝色黄色粉色条纹的脖颈和身子，脖子上还黏着一个白色小球。领子下还伸出两只分别是品红色和湖蓝色的手臂，末端带着小丑手套一样白色的手，手腕处有外翻花边。臀部后方同样黏着一个白色小球，似乎是它的尾巴。身体下方代表裤子的部位尖锐的末端连着白色的靴子，脚腕上方分别黏着一个品红色和一个湖蓝色的小球，颜色正好与那边的手臂颜色相反，脚跟处黏着一个白色小球，可以帮助保持平衡。 砰头小丑是从究极之洞里出现的究极异兽。它会用爆炸吓唬对手，趁那空当夺走对方的生命气息。它的头部由不可思议的火花集合体形成，听说它可以随心所欲地把头部拿走或让其爆炸。它利用扭来扭去的滑稽样子让对手放下戒心并逐渐靠近，接着突然诱爆头部来惊吓对手。据说那时它便会趁机夺取生命气息，将其转换为自己的能量。 [ 1 ] - **百科链接**: [砰头小丑](https://wiki.52poke.com/wiki/%E7%A0%B0%E5%A4%B4%E5%B0%8F%E4%B8%91)",
+  "flavor_text_en": "A UB that appeared from an Ultra Wormhole, it causes explosions, then takes advantage of opponents’ surprise to rob them of their vitality.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 806,
+    "pokeapi_species_id": 806,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/806"
+  }
+}

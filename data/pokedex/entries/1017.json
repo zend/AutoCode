@@ -1,0 +1,68 @@
+{
+  "entry_id": "1017",
+  "national_id": 1017,
+  "form": "default",
+  "names": {
+    "en": "Ogerpon",
+    "ja": "オーガポン",
+    "zh": "厄诡椪"
+  },
+  "generation": 9,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "가면포켓몬",
+  "category_zh": "面具宝可梦",
+  "abilities": [
+    {
+      "name_en": "defiant",
+      "name_zh": "不服输",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 39.8,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 5,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 275,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 84,
+    "special_attack": 60,
+    "special_defense": 96,
+    "speed": 110,
+    "total": 550
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "北上": 200
+  },
+  "flavor_text_zh": "厄诡椪只有雌性，没有对应的雄性宝可梦。 厄诡椪的智力很高且喜欢恶作剧，有着俏皮的一面。它对其他宝可梦和人类的生活也非常感兴趣。以前它似乎还做过像是擅自吃掉村里的食物，或偷取感兴趣的道具这样调皮捣蛋的事情。因为在很久以前发生的某件事情，厄诡椪被北上乡的居民视为“可怕的鬼”而受到忌讳。过去它静悄悄地生活在鬼山的洞窟里。 [ 2 ] 有种说法认为， 桃歹郎 在和厄诡椪争夺面具的战斗中落败后，把自己关在了壳内。 厄诡椪的属性根据身着的 面具 而改变，会释出蕴藏在面具内的属性的能量战斗，以敏捷的身手和踢技将敌人玩弄于股掌之中。水井面具是它激发出水之力量，攻守兼备的样子。它会以踢技和藤蔓发起无间断的打击，会像不断涌出的水一样无间断地使出招式。火灶面具是它激发出火之力量，最具攻击性的样子。它会像挥动长枪一样操控带刺的藤蔓贯穿敌人，能够如炉中熊熊燃烧的火焰般猛烈攻击敌人。础石面具是激发出岩石之力量，防守优秀的样子。它能以坚固的岩石身躯抵挡任何攻击，守护自身，能够如支撑住家的地基般承受沉重的冲击。",
+  "flavor_text_en": "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1017,
+    "pokeapi_species_id": 1017,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1017"
+  }
+}

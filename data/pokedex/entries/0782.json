@@ -1,0 +1,90 @@
+{
+  "entry_id": "0782",
+  "national_id": 782,
+  "form": "default",
+  "names": {
+    "en": "Jangmo-o",
+    "ja": "ジャラコ",
+    "zh": "心鳞宝"
+  },
+  "generation": 7,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "うろこポケモン",
+  "category_zh": "鳞片宝可梦",
+  "abilities": [
+    {
+      "name_en": "bulletproof",
+      "name_zh": "防弹 / 或 / 隔音",
+      "hidden": false
+    },
+    {
+      "name_en": "soundproof",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 29.7,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 55,
+    "defense": 65,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 45,
+    "total": 300
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 783,
+        "name_en": "hakamo-o",
+        "name_zh": "鳞甲龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 271,
+    "伽勒尔": 392,
+    "北上": 131
+  },
+  "flavor_text_zh": "心鳞宝看起来就像是一头幼龙宝宝，它四肢着地，身上有着大小不一的鳞片，最大的鳞片位于它的头顶，一个巨大的鳞片将其的双眼隔开，鳞片呈现心形，而身体的背部也有着鳞片，就连尾巴的尾端也有鳞片，但这些鳞片是水滴状的，只有头顶的鳞片是心形的。 心鳞宝生活在渺无人烟的山里，是重视荣誉的战士。虽然它天生便有着身为战士的骄傲，但是对于自己的实力却坚持抱着谦虚的态度。它的体毛变成了像金属一般坚硬的鳞片。通过和伙伴们互相撞击头上的鳞片来交流，传递自己的心情，学习战斗的方法，这样做可以锻炼它们的技术和心志。聚在一起时就会非常吵。心鳞宝头上的鳞片攻守兼备，不管攻或防都会使用头上的鳞片。即使面对强敌，它也会正面迎上，勇敢对抗，战斗的时候从不会让敌人看到背部。它会用头部的鳞片砰砰砰地敲响岩石和地面，威吓对手。因为性格勇敢，古代的战士很喜欢让它做自己的伙伴。心鳞宝们会聚集在四周没有人和宝可梦的峡谷之类的严峻环境，为了变得更强持续不断地锻炼，一边一起进行特训一边生活着在心鳞宝栖息的高山上会回荡着金属的声音。 [ 1 ]",
+  "flavor_text_en": "Jangmo-o strikes its scales to communicate with others of its kind. Its scales are actually fur that’s become as hard as metal.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 782,
+    "pokeapi_species_id": 782,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/782"
+  }
+}

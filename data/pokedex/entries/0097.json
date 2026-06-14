@@ -1,0 +1,91 @@
+{
+  "entry_id": "0097",
+  "national_id": 97,
+  "form": "default",
+  "names": {
+    "en": "Hypno",
+    "ja": "スリーパー",
+    "zh": "引梦貘人"
+  },
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "さいみんポケモン",
+  "category_zh": "催眠宝可梦",
+  "abilities": [
+    {
+      "name_en": "insomnia",
+      "name_zh": "不眠 / 或 / 预知梦",
+      "hidden": false
+    },
+    {
+      "name_en": "forewarn",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 75.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 169,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "special_attack": 73,
+    "special_defense": 115,
+    "speed": 67,
+    "total": 483
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 96,
+        "name_en": "drowzee",
+        "name_zh": "催眠貘",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 97,
+    "城都": 88,
+    "阿罗拉": 55,
+    "帕底亚": 67
+  },
+  "flavor_text_zh": "引梦貘人全身都是黄色的，颈部中有一些白色的毛发。雌性引梦貘人的领子部位的白毛更长。它的头上有尖尖的耳朵，手里拿着一根线，线的另一端绑着一个可用于催眠的圆环。 引梦貘人是非常危险的宝可梦，会拿着像钟摆一样的东西走动，但祈求良好睡眠的人们称其为救世主。无意中遇到它的时候，如果不小心和它对上视线会很危险。据说对手与它视线相对时，它就会使出催眠术等多种多样的超能力。它会用固定的节奏摆动那形影不离的钟摆，一旦靠近就不由自主地昏昏欲睡，曾经发生过它使用催眠术把孩子带走的事件。它手上拿着的钟摆的摆动和光芒会让对手陷入深深的催眠状态，在寻找猎物的同时会磨擦钟摆。如果被它拿着钟摆在眼前晃悠，就算是刚睡醒的人，也会在３秒后睡着。手里拿着的钟摆摆动越大，催眠术的效力就会越持久。它会不管不顾地让遇到它的都睡着，品尝对方的梦。肚子很饿的时候，会把见到的人强行催眠吃掉他们的梦。如果遇到了好梦，就会这么强行带走。生活在阿罗拉的引梦貘人的目标主要是 树枕尾熊 ，人倒不怎么会成为受害者。为了帮助那些在晚上无法入睡的人们，也有些引梦貘人会去医院协助医生。",
+  "flavor_text_en": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 97,
+    "pokeapi_species_id": 97,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/97"
+  }
+}

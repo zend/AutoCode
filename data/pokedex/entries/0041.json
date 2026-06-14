@@ -1,0 +1,90 @@
+{
+  "entry_id": "0041",
+  "national_id": 41,
+  "form": "default",
+  "names": {
+    "en": "Zubat",
+    "ja": "ズバット",
+    "zh": "超音蝠"
+  },
+  "generation": 1,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "types_zh": [
+    "毒",
+    "飞行"
+  ],
+  "category": "こうもりポケモン",
+  "category_zh": "蝙蝠宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 7.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 49,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special_attack": 30,
+    "special_defense": 40,
+    "speed": 55,
+    "total": 245
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 42,
+        "name_en": "golbat",
+        "name_zh": "大嘴蝠",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 41,
+    "城都": 37,
+    "丰缘": 63,
+    "神奥": 28,
+    "阿罗拉": 68,
+    "洗翠": 34
+  },
+  "flavor_text_zh": "超音蝠通体深蓝色，耳蜗和翼膜是紫色的。它没有双眼，张得大大的嘴巴里可以看见四颗白色的牙。超音蝠有两根细长的尾巴，呈V字形。雌性超音蝠的牙齿较小。 超音蝠以阴暗的洞穴为巢，白天它会倒挂在洞窟里或老房子的屋檐下睡觉。它讨厌太阳光，到了早晨便会和同伴聚集起来一边互相取暖一边睡觉，会在洞窟里或森林深处一直睡到太阳下山。之所以白天一直待在阴暗的地方，是因为皮肤薄到只要被阳光照射到就会晒伤。天气变冷后，就会抱团取暖。由于长久在漆黑的洞窟里生活使得它的双眼紧闭过久而看不见。之所以在暗处也能飞来飞去，因为它是靠超音波来探测周围的情况。当飞行的时候，它不断从口中发射超音波来确认周围的环境，使用嘴里发出的超音波的反射来探测周围并定位。所使用的超音波的振动会因群体不同而有细微差异。",
+  "flavor_text_en": "Makes its home in gloomy caves. Atrophied eyes have left this Pokémon blind, so it scans its surroundings via sound waves that it emits from its mouth as it flies.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 41,
+    "pokeapi_species_id": 41,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/41"
+  }
+}

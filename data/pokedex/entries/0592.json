@@ -1,0 +1,91 @@
+{
+  "entry_id": "0592",
+  "national_id": 592,
+  "form": "default",
+  "names": {
+    "en": "Frillish",
+    "ja": "プルリル",
+    "zh": "轻飘飘"
+  },
+  "generation": 5,
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "types_zh": [
+    "水",
+    "幽灵"
+  ],
+  "category": "ふゆうポケモン",
+  "category_zh": "漂浮宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-absorb",
+      "name_zh": "储水 / 或 / 咒术之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "cursed-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "damp",
+      "name_zh": "湿气",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 33.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 67,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 40,
+    "defense": 50,
+    "special_attack": 65,
+    "special_defense": 85,
+    "speed": 40,
+    "total": 335
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 593,
+        "name_en": "jellicent",
+        "name_zh": "胖嘟嘟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 98,
+    "伽勒尔": 305
+  },
+  "flavor_text_zh": "轻飘飘有宽大的手臂，却没有下肢。它的头上有着类似皇冠的结构。薄纱般的手脚上有许多肉眼无法看到的毒针。轻飘飘是拥有性别差异的宝可梦。雄性的身体是蓝色，睫毛在眼睛上方，有皱眉的嘴唇。雌性的身体是粉色，睫毛在眼睛下方，有微笑的嘴唇。 据流传至今的传说里所述，它是由沉没到海底的古代都市的居民变成的宝可梦。它会用薄纱般的手脚缠绕正在游泳的猎物，使其麻痹后拖到8000米的深海捕杀。在把其他宝可梦拉到深海去的时候，雌性和雄性轻飘飘有时也会互相合作。",
+  "flavor_text_en": "Legend has it that the residents of a sunken ancient city changed into these Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 592,
+    "pokeapi_species_id": 592,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/592"
+  }
+}

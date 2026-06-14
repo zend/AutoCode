@@ -259,6 +259,84 @@ func TestShellTool_Timeout(t *testing.T) {
 	}
 }
 
+func TestPokedexTool(t *testing.T) {
+	dataDir := t.TempDir()
+	manifest := `{"schema_version":"1.0.0","name":"test","entry_count":1,"anti_hallucination":{"not_found_message":"未找到"}}`
+	index := `[{"entry_id":"0025","national_id":25,"names":{"zh":"皮卡丘","en":"Pikachu"},"types":["electric"],"types_zh":["电"],"generation":1,"base_stat_total":320}]`
+	entry := `{"entry_id":"0025","national_id":25,"names":{"zh":"皮卡丘","en":"Pikachu"},"generation":1,"types":["electric"],"base_stats":{"hp":35,"attack":55,"defense":40,"special_attack":50,"special_defense":50,"speed":90,"total":320},"source":{"pokeapi_id":25,"pokeapi_species_id":25}}`
+
+	for name, content := range map[string]string{
+		"manifest.json": manifest,
+		"index.json":    index,
+	} {
+		if err := os.WriteFile(filepath.Join(dataDir, name), []byte(content), 0644); err != nil {
+			t.Fatal(err)
+		}
+	}
+	entriesDir := filepath.Join(dataDir, "entries")
+	if err := os.Mkdir(entriesDir, 0755); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(filepath.Join(entriesDir, "0025.json"), []byte(entry), 0644); err != nil {
+		t.Fatal(err)
+	}
+
+	tool, err := NewPokedexTool(dataDir)
+	if err != nil {
+		t.Fatalf("NewPokedexTool failed: %v", err)
+	}
+
+	result, err := tool.Execute(context.Background(), `{"national_id": 25}`)
+	if err != nil {
+		t.Fatalf("Execute failed: %v", err)
+	}
+	if !contains(result, "皮卡丘") {
+		t.Errorf("expected Pikachu in result, got: %s", result)
+	}
+
+	notFound, err := tool.Execute(context.Background(), `{"national_id": 9999}`)
+	if err != nil {
+		t.Fatalf("Execute failed: %v", err)
+	}
+	if !contains(notFound, "未找到") {
+		t.Errorf("expected not-found message, got: %s", notFound)
+	}
+
+	spriteData := `{
+  "schema_version": "1.0.0",
+  "image": "assets/spritesheet.png",
+  "entry_count": 1,
+  "by_entry_id": {
+    "0025": {
+      "entry_id": "0025",
+      "national_id": 25,
+      "names": {"zh": "皮卡丘", "en": "Pikachu"},
+      "x": 0, "y": 0, "width": 128, "height": 128,
+      "col": 0, "row": 0, "index": 0,
+      "pokeapi_id": 25,
+      "source_url": "https://example.com/25.png",
+      "sprite_style": "home"
+    }
+  }
+}`
+	if err := os.WriteFile(filepath.Join(dataDir, "spritesheet.json"), []byte(spriteData), 0644); err != nil {
+		t.Fatal(err)
+	}
+
+	tool, err = NewPokedexTool(dataDir)
+	if err != nil {
+		t.Fatalf("NewPokedexTool failed: %v", err)
+	}
+
+	spriteResult, err := tool.Execute(context.Background(), `{"entry_id": "0025", "sprite_only": true}`)
+	if err != nil {
+		t.Fatalf("sprite Execute failed: %v", err)
+	}
+	if !contains(spriteResult, "x=0") || !contains(spriteResult, "皮卡丘") {
+		t.Errorf("expected sprite info, got: %s", spriteResult)
+	}
+}
+
 func TestRegistry(t *testing.T) {
 	registry := NewRegistry()
 	tool := NewReadTool("/tmp")

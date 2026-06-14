@@ -1,0 +1,95 @@
+{
+  "entry_id": "0059-hisui",
+  "national_id": 59,
+  "form": "hisui",
+  "names": {
+    "en": "Arcanine",
+    "ja": "ウインディ",
+    "zh": "风速狗（洗翠的样子）"
+  },
+  "generation": 1,
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "types_zh": [
+    "火",
+    "岩石"
+  ],
+  "category": "でんせつポケモン",
+  "category_zh": "传说宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "flash-fire",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 168.0,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 194,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "special_attack": 100,
+    "special_defense": 80,
+    "speed": 95,
+    "total": 555
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 58,
+        "name_en": "growlithe",
+        "name_zh": "卡蒂狗",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 59,
+    "城都": 128,
+    "阿罗拉": 53,
+    "伽勒尔": 71,
+    "帕底亚": 214,
+    "北上": 79
+  },
+  "flavor_text_zh": "风速狗是外表类似大型犬类的宝可梦。它有蓬松的亚麻色毛发，覆盖了面部。眼睛变为褐色，身体有像老虎般的黑橙条纹，脚上有毛发围绕著，尾部则有长尾，奔跑时身体犹如与风融合，相当有威严。洗翠风速狗看起来像一个石狮子。它的毛发为灰黑色，头顶的毛发形成了一个角，脖子周围的一圈毛发宛如花瓣向四周展开，中间带有红色的毛发。它的尾巴向上，脚上也有毛发围绕。 风速狗是东方古老传说中威风凛凛的宝可梦，流传着很久以前它曾经和某位武将一起并肩战斗并治理国家的传说。虽然留有众多传说，被称为传说的宝可梦，但发现它的次数却意外的多。它威风凛凛的叫声充满威严，不管是谁听到后，都会不由自主地跪倒下去。它华丽的鬃毛令无数人为之着迷，曾有不计其数的人为它轻巧跑动的身姿而倾倒，从古时候起就是俘获了众多人心的美丽宝可梦。它能把体内熊熊燃烧的火焰作为能量在大地奔驰，能像飞一样轻巧地奔跑。据说它是一个昼夜能跑上一万公里距离的快速宝可梦。根据过去的画卷记载，它在草原上奔驰的姿态俘虏了众多人心。 洗翠风速狗会将猛烈燃烧的火焰缠绕在牙齿上扑向猎物。虽然体型很大，却能以灵巧的假动作戏弄敌手，那姿态就像是舞蹈一般。",
+  "flavor_text_en": "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10230,
+    "pokeapi_species_id": 59,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10230"
+  }
+}

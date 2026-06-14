@@ -1,0 +1,88 @@
+{
+  "entry_id": "0663",
+  "national_id": 663,
+  "form": "default",
+  "names": {
+    "en": "Talonflame",
+    "ja": "ファイアロー",
+    "zh": "烈箭鹰"
+  },
+  "generation": 6,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "types_zh": [
+    "火",
+    "飞行"
+  ],
+  "category": "れっかポケモン",
+  "category_zh": "烈火宝可梦",
+  "abilities": [
+    {
+      "name_en": "flame-body",
+      "name_zh": "火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "gale-wings",
+      "name_zh": "疾风之翼",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 24.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 175,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 81,
+    "defense": 71,
+    "special_attack": 74,
+    "special_defense": 69,
+    "speed": 126,
+    "total": 499
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 662,
+        "name_en": "fletchinder",
+        "name_zh": "火箭雀",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 160,
+    "帕底亚": 21,
+    "蓝莓": 89,
+    "密阿雷": 12
+  },
+  "flavor_text_zh": "烈箭鹰头上的红色羽毛高高翘起，眼周的羽毛变成了黑色。它的喙是黑色的，与头部连接的部分则为黄色。它的背部呈红色，腹部以灰白色为主，上面还分布着红色的细小花纹。它的尾羽变得更长，并在中间分开。上面有三条\"V\"字形的花纹。细看则可观察到它的翼尖、背部和腹部两种颜色羽毛交界处的花纹和火焰的形状有几分相似。 鸟宝可梦是烈箭鹰的主要猎物，它喜欢吃的是 长翅鸥 和 小笃儿 。它会施展猛烈的踢腿，用锐利的爪子牢牢抓住，然后用迅速接近后的强力踢将对方打落到地面。它的飞行能力数一数二，能够抓着100公斤以上的猎物轻轻松松地飞来飞去。因激烈的战斗而兴奋的话会从翅膀的缝隙里喷出火花来威吓对手，同时以500公里的时速呈一直线冲向猎物。它不给猎物留下逃跑的机会，直接以猛烈的踢击将其解决。烈箭鹰的羽毛很结实，连火都烧不穿。因此会被当成防火材料使用，过去的消防员服就是用烈箭鹰的羽毛做成的。",
+  "flavor_text_en": "Talonflame dives toward prey at speeds of up to 310 mph and assaults them with powerful kicks, giving the prey no chance to escape.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 663,
+    "pokeapi_species_id": 663,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/663"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "entry_id": "0368",
+  "national_id": 368,
+  "form": "default",
+  "names": {
+    "en": "Gorebyss",
+    "ja": "サクラビス",
+    "zh": "樱花鱼"
+  },
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "なんかいポケモン",
+  "category_zh": "南海宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 22.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 170,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 84,
+    "defense": 105,
+    "special_attack": 114,
+    "special_defense": 75,
+    "speed": 52,
+    "total": 485
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 366,
+        "name_en": "clamperl",
+        "name_zh": "珍珠贝",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 178
+  },
+  "flavor_text_zh": "樱花鱼看起来像一只粉色的鳗鱼状生物，有细长的嘴，两根小小的睫毛在眼睛上方，两个贝壳覆盖在它的胸部。樱花鱼在它的头顶有一个触角状的鳍，尖端是紫色的。樱花鱼的尾巴有两条亮色条纹，环绕着紫色的鳍。 樱花鱼是栖息在南部深海中的宝可梦。身体经过深海水压的锻炼，即使稍受攻击也不会受伤。它身体的颜色根据水温而变化，到了春天海水温度上升时，身体便会染成鲜艳的粉红色，阿罗拉的樱花鱼呈现出令人炫目的鲜艳色彩。带着淡淡粉红色的身体，一旦吃下猎物后颜色就会变得更加鲜艳。它游泳的样子非常优雅漂亮，但如果发现猎物，就会用细细的嘴刺入对方身体，咻咻地吸取体液。剩下的肉会沉入海底，成为其他宝可梦的食物。它有时也会用细细的嘴巴吃生长在岩石缝隙中的海藻。",
+  "flavor_text_en": "It sucks bodily fluids out of its prey. The leftover meat sinks to the seafloor, where it becomes food for other Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 368,
+    "pokeapi_species_id": 368,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/368"
+  }
+}

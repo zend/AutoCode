@@ -1,0 +1,92 @@
+{
+  "entry_id": "0427",
+  "national_id": 427,
+  "form": "default",
+  "names": {
+    "en": "Buneary",
+    "ja": "ミミロル",
+    "zh": "卷卷耳"
+  },
+  "generation": 4,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "うさぎポケモン",
+  "category_zh": "兔子宝可梦",
+  "abilities": [
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑 / 或 / 笨拙",
+      "hidden": false
+    },
+    {
+      "name_en": "klutz",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "limber",
+      "name_zh": "柔软",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 5.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 70,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 66,
+    "defense": 44,
+    "special_attack": 44,
+    "special_defense": 56,
+    "speed": 85,
+    "total": 350
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 428,
+        "name_en": "lopunny",
+        "name_zh": "长耳兔",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 67,
+    "洗翠": 64,
+    "密阿雷": 109
+  },
+  "flavor_text_zh": "卷卷耳形似一只兔子，它全身是棕色的，脚和团状毛是奶油色的，一只耳朵折叠起来了。它的毛发主要分布在耳朵的顶部以及身体的下半部分。卷卷耳通常是站立着的，有两个脚。 卷卷耳靠耳朵卷成的形状来表达情感，害怕的时候便将左右的耳朵都卷起来。若看到它卷起左右两只耳朵，就说明它此时身体和心理状态不佳，需要呵护。如果感觉到有危险，就会竖起双耳保持警觉。它手脚的力量很弱，一只耳朵一直卷着是为了被敌人袭击的时候能立即反击。也有人推测是由于其听力过于敏锐，因而需要减少入耳的音量以保护听觉。如果它死命伸长紧紧卷起的耳朵，连大岩石也能粉碎，这一招式的威力越训练就越强。蜷成球状的耳朵猛地伸长拍打地面弹跳起来时，连卷卷耳自己都会吓一跳。在寒冷的夜里，它会把脸埋在毛皮里睡觉。",
+  "flavor_text_en": "My hypothesis as to why Buneary rolls up its ears is that its hearing is far too keen. I surmise that the Pokémon protects its hearing by limiting the sound that may enter its ears.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 427,
+    "pokeapi_species_id": 427,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/427"
+  }
+}

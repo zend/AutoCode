@@ -1,0 +1,84 @@
+{
+  "entry_id": "0357",
+  "national_id": 357,
+  "form": "default",
+  "names": {
+    "en": "Tropius",
+    "ja": "トロピウス",
+    "zh": "热带龙"
+  },
+  "generation": 3,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "types_zh": [
+    "草",
+    "飞行"
+  ],
+  "category": "フルーツポケモン",
+  "category_zh": "水果宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素 / 或 / 太阳之力",
+      "hidden": false
+    },
+    {
+      "name_en": "solar-power",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "harvest",
+      "name_zh": "收获",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 100.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 161,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 99,
+    "attack": 68,
+    "defense": 83,
+    "special_attack": 72,
+    "special_defense": 87,
+    "speed": 51,
+    "total": 460
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 150,
+    "神奥": 185,
+    "帕底亚": 246
+  },
+  "flavor_text_zh": "热带龙全身是棕灰色的，脖子很长，四肢粗壮。它的头上有三片绿叶，其中一片大的叶子盖在头上，另两片小叶子分布在两侧，还有三片叶子环绕在脖子上。它的背上有四片巨大的叶子，下颌上挂着一串香蕉一样的黄色果实。 热带龙栖息在热带丛林里，会挥动背上的叶子在空中飞翔，向孩子们分发脖子里结出来的广受欢迎的甘甜水果。它不停地吃最爱吃的水果，使得自己脖子上也结出了水果。它脖子上的水果每年会结果两次，甘甜又美味，到了春天时会从脖子散播花粉。南国的孩子们会把热带龙脖子上结出的一串水果当零食吃，很受孩子欢迎。在温暖的地方，有许多培育热带龙的牧场。栖息在阿罗拉的热带龙脖子里结的那串水果比其他地区的甜得多，是最棒的。",
+  "flavor_text_en": "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 357,
+    "pokeapi_species_id": 357,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/357"
+  }
+}

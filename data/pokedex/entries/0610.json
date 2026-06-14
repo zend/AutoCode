@@ -1,0 +1,93 @@
+{
+  "entry_id": "0610",
+  "national_id": 610,
+  "form": "default",
+  "names": {
+    "en": "Axew",
+    "ja": "キバゴ",
+    "zh": "牙牙"
+  },
+  "generation": 5,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "キバポケモン",
+  "category_zh": "牙宝可梦",
+  "abilities": [
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心 / 或 / 破格",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 18.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 64,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 46,
+    "attack": 87,
+    "defense": 60,
+    "special_attack": 30,
+    "special_defense": 40,
+    "speed": 57,
+    "total": 320
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 611,
+        "name_en": "fraxure",
+        "name_zh": "斧牙龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 116,
+    "伽勒尔": 324,
+    "帕底亚": 155,
+    "蓝莓": 140
+  },
+  "flavor_text_zh": "牙牙的全身大部分是为镉绿色的，从角到两眼中间处和眼睛旁边为墨绿色的，脖子到胸为草绿色的。有一个比较长的白色门牙。眼睛为红色。它的头部有一个非常高的角，脖子到身体之间的颜色像是裹着一条围巾，牙牙的尾巴很短，其手指和脚趾也较少。 牙牙在地面上筑巢居住，用牙齿在树木上留下伤痕，作为领地的标记。如果在岩石或树木上发现了独特的齿痕，牙牙一定就栖息在那附近。它会用牙齿粉碎坚硬的树果后食用，和伙伴们一起互撞牙齿来玩，比拼力气。它长长的门牙还很脆弱，折断之后还会马上长出新的，逐渐变得更硬更牢固，无比强劲锐利。很久以前的人们曾用它的牙齿来代替菜刀。",
+  "flavor_text_en": "They play with each other by knocking their large tusks together. Their tusks break sometimes, but they grow back so quickly that it isn’t a concern.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 610,
+    "pokeapi_species_id": 610,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/610"
+  }
+}

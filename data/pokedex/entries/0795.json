@@ -1,0 +1,68 @@
+{
+  "entry_id": "0795",
+  "national_id": 795,
+  "form": "default",
+  "names": {
+    "en": "Pheromosa",
+    "ja": "フェローチェ",
+    "zh": "费洛美螂"
+  },
+  "generation": 7,
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "types_zh": [
+    "虫",
+    "格斗"
+  ],
+  "category": "えんびポケモン",
+  "category_zh": "美艳宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 25.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 71,
+    "attack": 137,
+    "defense": 37,
+    "special_attack": 137,
+    "special_defense": 37,
+    "speed": 151,
+    "total": 570
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 295
+  },
+  "flavor_text_zh": "费洛美螂是 究极异兽 的一种，代号为“ＵＢ０２：美丽”。它拥有类似人的身躯，十分纤细的身体大部分是乳白色的。它有着扁平的头颅和下垂的眼睫毛，眼睛是蓝紫色的，它的眼睫毛上面有一个黄色皇冠形的部位，但两端很突出，在突出点的地方伸出两根长长的触角，末端和触角一个颜色，但是略微膨胀。如竹竿一样的脖颈下是四层外扩散的裙摆似身躯，最上面一层比下面的三层略宽一些。它的手臂从最上面一层下的镂空区域伸出，非常纤细，关节处呈一个椭圆形，末端是伸出的两根爪子一样的手指，都是黄色的。从最后一层裙摆下像穿着一条裤子，伸出两条腿。头颅后方连接着婚纱一样的部位，显弧形内翻似乎要包裹住费洛美螂纤细的身体，但是在近足处突然内收缩呈X形轮廓。它的腿部相比其他纤细部位略显肥胖，关节处仍显黄色椭圆，而足部则是更加纤细的两根黄色触角，有点像高跟鞋。 费洛美螂是栖息在 其他世界 的生命体，是危险的究极异兽中的一种。它在这个世界是很危险的异类，但在原本栖息的世界好像只是寻常能见的生物。它身体纤细柔软，但是看起来蕴藏着强大的力量。纤细且灵活伸展的脚可爆发性地加速，据说快到能避开雷电，被人目击到以骇人的速度在大地狂奔。或许是觉得这个世界上万物污秽不堪，它不愿用手触及分毫。看过费洛美螂的宝可梦，据说不论性别都会被迷住而失去敌意。到底是因为它释放出不明的费洛蒙，或是因为其容貌会引起某种催眠状态，个中的原因尚未被证实。 [ 1 ] 根据 碧珂 的研究，费洛美螂的瞬间时速能超过２００公里，是行动极其敏捷的究极异兽。这个速度比现今发现的所有生物都快。但是其最大的特征是美貌，或者说是有费洛蒙。几乎所有与费洛美螂对峙的生物都好像是被其容姿魅惑了一样，不知所措，并最终失去战斗意志。虽然还在弄清原因的过程中，但是人们认为费洛美螂体内存在着产生未知费洛蒙的器官。",
+  "flavor_text_en": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 795,
+    "pokeapi_species_id": 795,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/795"
+  }
+}

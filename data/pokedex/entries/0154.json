@@ -1,0 +1,88 @@
+{
+  "entry_id": "0154",
+  "national_id": 154,
+  "form": "default",
+  "names": {
+    "en": "Meganium",
+    "ja": "メガニウム",
+    "zh": "大竺葵"
+  },
+  "generation": 2,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "ハーブポケモン",
+  "category_zh": "芳草宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "叶子防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 100.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 236,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 100,
+    "special_attack": 83,
+    "special_defense": 100,
+    "speed": 80,
+    "total": 525
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 153,
+        "name_en": "bayleef",
+        "name_zh": "月桂叶",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 3,
+    "蓝莓": 175,
+    "密阿雷": 3
+  },
+  "flavor_text_zh": "大竺葵是外貌类似 蜥脚下目 恐龙的宝可梦，身体是绿色的。它的触角像两根蕊状突起，每根顶端都有花药。它的虹膜是黄色的，四只脚分别有三根脚趾。围绕脖子开出了一朵粉红色的大花，中央有黄色的图案，末梢是白色的。雄性大竺葵的触角更长。 大竺葵花瓣中散发出的气味含有能够平息争斗情绪的成分。战斗的时候，它会散发出香味来削弱对手的战意。它呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量，在大竺葵身边就好象沐浴过森林浴一样变得清爽。 超级大竺葵的花朵增加为4朵，会储蓄大量太阳能量，产生有特殊气味的成分，花瓣中散发出的气味成分也加强了威力。如果适量吸入这种成分，会有抚平情绪的效果，但若吸入过度则会让情绪变得兴奋。在4朵花储蓄了大量太阳能量的影响之下，变得可以立刻发射 日光束 了，别名超级日光炮。它善于活用巨大的肉身进行战斗，会踩扁日光束不容易命中的对手，并将其打倒。超级进化之后，开始使用大胆的战斗方式，但似乎偶尔也会显得粗枝大叶。 [ 1 ]",
+  "flavor_text_en": "The fragrance of Meganium’s flower soothes and calms emotions. In battle, this Pokémon gives off more of its becalming scent to blunt the foe’s fighting spirit.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 154,
+    "pokeapi_species_id": 154,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/154"
+  }
+}

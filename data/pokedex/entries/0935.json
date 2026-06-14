@@ -1,0 +1,89 @@
+{
+  "entry_id": "0935",
+  "national_id": 935,
+  "form": "default",
+  "names": {
+    "en": "Charcadet",
+    "ja": "カルボウ",
+    "zh": "炭小侍"
+  },
+  "generation": 9,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ひのこポケモン",
+  "category_zh": "小火星宝可梦",
+  "abilities": [
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火",
+      "hidden": false
+    },
+    {
+      "name_en": "flame-body",
+      "name_zh": "火焰之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 10.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 51,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 40,
+    "special_attack": 50,
+    "special_defense": 40,
+    "speed": 35,
+    "total": 255
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 936,
+        "name_en": "armarouge",
+        "name_zh": "红莲铠骑",
+        "trigger": "use-item"
+      },
+      {
+        "national_id": 937,
+        "name_en": "ceruledge",
+        "name_zh": "苍炎刃鬼",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 165
+  },
+  "flavor_text_zh": "炭小侍是生命寄宿在燃烧的木炭上而变成的宝可梦。它会使用操纵火焰的招式，自古以来就一直都是深受人类重视的宝可梦。它喜欢吃油脂含量高的树果。即使面对强敌，它也会以燃烧的斗志来迎战。一旦进入战斗状态，火力就会上升至1000摄氏度。",
+  "flavor_text_en": "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 935,
+    "pokeapi_species_id": 935,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/935"
+  }
+}

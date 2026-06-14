@@ -1,0 +1,87 @@
+{
+  "entry_id": "0266",
+  "national_id": 266,
+  "form": "default",
+  "names": {
+    "en": "Silcoon",
+    "ja": "カラサリス",
+    "zh": "甲壳茧"
+  },
+  "generation": 3,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "さなぎポケモン",
+  "category_zh": "蛹宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 10.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 35,
+    "defense": 55,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 15,
+    "total": 205
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 265,
+        "name_en": "wurmple",
+        "name_zh": "刺尾虫",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 267,
+        "name_en": "beautifly",
+        "name_zh": "狩猎凤蝶",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 15,
+    "神奥": 49,
+    "洗翠": 19
+  },
+  "flavor_text_zh": "甲壳茧以细丝包裹全身，茧上有两个小洞。它能用红色的大眼睛从小洞观察外面的情况。 甲壳茧利用在刺尾虫时所储存的能量，作为进化前的准备。在等待进化的时候，为了防止掉落会将丝线缠在树枝上支撑身体，一动不动等待进化的时刻的到来。 盾甲茧 的丝色泽更胜甲壳茧的丝。虽然过去它被认为在进化之前会忍着什么都不吃，但实际上它好像会喝挂在丝线上的雨水解渴。虽然无手脚且动作迟缓，但双眼射出的凌厉视线不会放过四周的风吹草动，坚硬的茧能够防御攻击。",
+  "flavor_text_en": "Wraps itself in thin strings of silk while it stores energy for evolution. It can't extend its limbs and its movement is slow, but its eyes keep a sharp lookout—Silcoon is always on guard.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 266,
+    "pokeapi_species_id": 266,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/266"
+  }
+}

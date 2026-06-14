@@ -1,0 +1,90 @@
+{
+  "entry_id": "0901",
+  "national_id": 901,
+  "form": "default",
+  "names": {
+    "en": "Ursaluna",
+    "ja": "ガチグマ",
+    "zh": "月月熊"
+  },
+  "generation": 8,
+  "types": [
+    "ground",
+    "normal"
+  ],
+  "types_zh": [
+    "地面",
+    "一般"
+  ],
+  "category": "でいたんポケモン",
+  "category_zh": "泥炭宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力",
+      "hidden": false
+    },
+    {
+      "name_en": "bulletproof",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.4,
+  "weight_kg": 290.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 275,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 130,
+    "attack": 140,
+    "defense": 105,
+    "special_attack": 45,
+    "special_defense": 80,
+    "speed": 50,
+    "total": 550
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 217,
+        "name_en": "ursaring",
+        "name_zh": "圈圈熊",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "洗翠": 114
+  },
+  "flavor_text_zh": "月月熊嘴部为浅黄色，鼻子和眉毛一样为灰色。月月熊有棕色的毛发，背部、头两边、腰部和腹部的毛发为方形片状。上半身和四肢覆盖灰色的泥炭。它额上有一个黄色的圆，与圆内的灰色眉毛搭配呈现“云遮月”的图案。 正是遍布在洗翠大地上的湿地土壤，造就了月月熊坚实的躯体和自在运用泥炭的新能力。它身形壮硕，能够轻松在湿地间穿行；手部为五爪，擅长通过挖掘地面来寻找东西。它是从 阿尔宙斯 那里获得了神秘庇佑的特别的宝可梦之一，因此在 洗翠地区 受到崇拜。 赫月月月熊是很特别的月月熊，据说某只月月熊越过大海来到“北上乡”，并在严酷的环境中生存了下来。因为它额头上那月月熊独特的黄月花纹被染成了红色，所以被称为“赫月”。这样的月月熊似乎目前只发现了1只，是独一无二的存在，而且它似乎也不是月月熊的进化形或形态变化。 [ 1 ] 它的样子和能力在经过长年累月后起了特别的变化，它会用如铁般坚硬的泥土保护身体，并拥有能看穿黑暗的左眼。",
+  "flavor_text_en": "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 901,
+    "pokeapi_species_id": 901,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/901"
+  }
+}

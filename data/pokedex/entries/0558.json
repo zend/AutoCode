@@ -1,0 +1,93 @@
+{
+  "entry_id": "0558",
+  "national_id": 558,
+  "form": "default",
+  "names": {
+    "en": "Crustle",
+    "ja": "イワパレス",
+    "zh": "岩殿居蟹"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "types_zh": [
+    "虫",
+    "岩石"
+  ],
+  "category": "いわやどポケモン",
+  "category_zh": "岩居宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 硬壳盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 200.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 170,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "虫",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 105,
+    "defense": 125,
+    "special_attack": 65,
+    "special_defense": 75,
+    "speed": 45,
+    "total": 485
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 557,
+        "name_en": "dwebble",
+        "name_zh": "石居蟹",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 64,
+    "伽勒尔": 87
+  },
+  "flavor_text_zh": "岩殿居蟹身体是褐红色的，它的瞳孔呈金黄色，背上背着一个巨大的、长方体岩石，岩石上还有一些黄色的斑纹。 岩殿居蟹喜欢干燥的地方，下雨时不会从岩石里出来。它有着很强的地盘意识，会为了争夺领地展开激烈的战斗。如果背上的岩石受到破坏就算输，会因此感到不安而力量减弱。它脚力非常的好，身上背负着很重的岩石，还能在干燥的土地上移动多日。厚实的钳子是它最大的武器。硬度高到甚至能让 超甲狂犀 的护具裂开。",
+  "flavor_text_en": "Its thick claws are its greatest weapons. They’re mighty enough to crack Rhyperior’s carapace.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 558,
+    "pokeapi_species_id": 558,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/558"
+  }
+}

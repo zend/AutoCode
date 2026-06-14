@@ -1,0 +1,92 @@
+{
+  "entry_id": "0105-alola",
+  "national_id": 105,
+  "form": "alola",
+  "names": {
+    "en": "Marowak",
+    "ja": "ガラガラ",
+    "zh": "嘎啦嘎啦（阿罗拉的样子）"
+  },
+  "generation": 1,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "types_zh": [
+    "火",
+    "幽灵"
+  ],
+  "category": "ほねずきポケモン",
+  "category_zh": "爱骨宝可梦",
+  "abilities": [
+    {
+      "name_en": "cursed-body",
+      "name_zh": "坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 34.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 149,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster"
+  ],
+  "egg_groups_zh": [
+    "怪兽"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 110,
+    "special_attack": 50,
+    "special_defense": 80,
+    "speed": 45,
+    "total": 425
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 104,
+        "name_en": "cubone",
+        "name_zh": "卡拉卡拉",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 105,
+    "城都": 204,
+    "阿罗拉": 164
+  },
+  "flavor_text_zh": "嘎啦嘎啦是一种两足的宝可梦，腹部为浅褐色，身体大部分为深褐色。嘎啦嘎啦的尾巴上有一个尖状物，每只手上有一个小爪子来充当它的拇指，两个趾甲则作为它的脚趾。嘎啦嘎啦的头部和曾经戴上的头骨结合，现在是身体的一部分，因此无法再拿下头骨。嘎啦嘎啦的下巴也被骨覆盖，它的鼻孔位于头骨的鼻子处，眼睛的形状近似三角形。阿罗拉的样子的嘎啦嘎啦的身体的颜色变为黑色，头部的骨头中间有一个类似于火的花纹，它手里的骨头是母亲的骸骨，死后还念着孩子的母亲的遗憾化为浅绿色的火焰守护着嘎啦嘎啦。 嘎啦嘎啦是卡拉卡拉摆脱了无法再见母亲的悲痛后，与原本戴在头上的母亲头骨完全融为一体坚强地进化而来的样子。嘎啦嘎啦的心受过锤炼，不会轻易沮丧。它会从不知哪里捡来骨头，传闻说在世上某处有着只属于嘎啦嘎啦的墓地。它的身体原本因体弱而很胆小，在习惯了使用骨头战斗后才变成了粗暴的性格。它会有节奏地用手中的骨头敲击石块发出声音来与同伴联络，节奏有着近50种变化。骨头是它重要的武器。它能够熟练使用自出生起就拿在手上的骨头，勇敢地与敌人进行交锋。它会将骨头像回力镖一样扔出去，击落天敌 秃鹰娜 来复仇。 由于在阿罗拉地区栖息着很多天敌的草属性宝可梦，对于卡拉卡拉和嘎啦嘎啦都是十分严酷的环境。因此它和伙伴以强烈的团结心集结起来生活着，为了活下去去操纵火焰。据说从对伙伴的情感中获得了和神灵感应相近的感应，因而改变了样子。阿罗拉嘎啦嘎啦有哀悼伙伴的习性，如果路边有隆起的土，那是嘎啦嘎啦的坟墓。它把死别母亲的灵魂变为火焰，会点燃手中的骨头，为吊慰伙伴而通宵舞蹈。据说，它手中的骨头上燃烧的咒术之火，会给它的身心留下永远无法治愈的痛楚。它会通过将骨头在额头上起劲地磨擦，让骨头覆盖着神奇的火焰，两端燃烧起火后旋转。它以其稀有度和拿着骨头的舞姿，会被阿罗拉的人称为魔术师，并且受到惧怕。嘎啦嘎啦擅长挥动骨头，发射火球作出攻击。它发射的火球虽然威力并不怎么样，但是会尾随并穷追对手。当它用骨头打击对方时，咒术之焰就会蔓延到对方身上。不管浇多少水，它都不会熄灭，会永远燃烧下去。 [ 1 ]",
+  "flavor_text_en": "When this Pokémon evolved, the skull of its mother fused to it. Marowak’s temperament also turned vicious at the same time.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10115,
+    "pokeapi_species_id": 105,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10115"
+  }
+}

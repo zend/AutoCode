@@ -1,0 +1,84 @@
+{
+  "entry_id": "0513",
+  "national_id": 513,
+  "form": "default",
+  "names": {
+    "en": "Pansear",
+    "ja": "バオップ",
+    "zh": "爆香猴"
+  },
+  "generation": 5,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "こうおんポケモン",
+  "category_zh": "高温宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 11.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 63,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 48,
+    "special_attack": 53,
+    "special_defense": 48,
+    "speed": 64,
+    "total": 316
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 514,
+        "name_en": "simisear",
+        "name_zh": "爆香猿",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 19,
+    "密阿雷": 79
+  },
+  "flavor_text_zh": "爆香猴的头顶有一团红色的如同火焰燃烧一般柔软的绒毛。爆香猴拥有一双扇形的大耳朵，扁圆扁圆的脸和一双清澈明亮的大眼睛。黄色瘦小的身躯上部长出一双粗长的手臂，末端是一双粗大的双手。爆香猴下半身灵活的小脚于其身躯由一条锯齿状的纹路所分割，而其下半身为艳丽的火红色。在爆香猴的臀部延伸出一条细长的火红色的尾巴，在尾巴的末端是一团叶片亦或是雨滴型的红色绒毛。 爆香猴生活在火山的洞穴里，很喜爱给人类帮忙。它头上的那丛毛发熊熊燃烧着，温度高达300度。生气时头顶的穗子会上升到300度以上。它智商很高，有着将树果用头顶的穗子烤熟后再吃的习性。",
+  "flavor_text_en": "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 513,
+    "pokeapi_species_id": 513,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/513"
+  }
+}

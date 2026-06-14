@@ -1,0 +1,94 @@
+{
+  "entry_id": "0208",
+  "national_id": 208,
+  "form": "default",
+  "names": {
+    "en": "Steelix",
+    "ja": "ハガネール",
+    "zh": "大钢蛇"
+  },
+  "generation": 2,
+  "types": [
+    "steel",
+    "ground"
+  ],
+  "types_zh": [
+    "钢",
+    "地面"
+  ],
+  "category": "てつへびポケモン",
+  "category_zh": "铁蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 9.2,
+  "weight_kg": 400.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 179,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 85,
+    "defense": 200,
+    "special_attack": 55,
+    "special_defense": 65,
+    "speed": 30,
+    "total": 510
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 95,
+        "name_en": "onix",
+        "name_zh": "大岩蛇",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 63,
+    "神奥": 35,
+    "伽勒尔": 179,
+    "洗翠": 119,
+    "密阿雷": 198
+  },
+  "flavor_text_zh": "大钢蛇的身体是灰色的，它的眼睛以红色为主，尾巴类似于钉子。雌性大钢蛇少了一对外牙，而且钉锥也比雄性短一些。超级大钢蛇更加巨大，在脖颈处多了一圈漂浮金属碎片，碎片分为六组，顺时针旋转着。瞳色由红色变为蓝色，嘴两侧出现了六根尖牙状突起。原本身上的三对棍状突起变成了类似于钻石一样的晶彩材质，尾尖也变成了钻石材质。而四个没有棍状突起的体节的两侧各有了一个蓝色六边环形图案。 大钢蛇在地下住得比大岩蛇还深，由地下高压和高热锻炼出来的身体比任何金属都要坚硬。据说当大岩蛇活到了100年以上，身体的成分就会变得如同钻石一般。它全身涂满钢铁粒子，覆盖全身的钢铁的碎片黏在一起极为坚硬，反射出闪烁的光芒。人们认为它的身体是因为堆积了很多和泥土一起吞下的铁元素，才会发生变化的。它会朝着地球的中心挖掘，有着即使是在漆黑的地下也能看清东西的眼睛。它会用结实的颚咬碎岩石前进，有时洞深可达1公里。 超级大钢蛇会用磁力操控剥落的坚硬的身体表面，防御对手的攻击。",
+  "flavor_text_en": "This Pokémon evolved through use of a strange item. Its body is coated with steel powder and notably hard—not even diamond can leave so much as a scratch.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 208,
+    "pokeapi_species_id": 208,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/208"
+  }
+}

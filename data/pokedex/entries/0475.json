@@ -1,0 +1,97 @@
+{
+  "entry_id": "0475",
+  "national_id": 475,
+  "form": "default",
+  "names": {
+    "en": "Gallade",
+    "ja": "エルレイド",
+    "zh": "艾路雷朵"
+  },
+  "generation": 4,
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "types_zh": [
+    "超能力",
+    "格斗"
+  ],
+  "category": "やいばポケモン",
+  "category_zh": "利刃宝可梦",
+  "abilities": [
+    {
+      "name_en": "steadfast",
+      "name_zh": "不屈之心",
+      "hidden": false
+    },
+    {
+      "name_en": "sharpness",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "justified",
+      "name_zh": "正义之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 52.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 233,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "humanshape",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "人型",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 125,
+    "defense": 65,
+    "special_attack": 65,
+    "special_defense": 115,
+    "speed": 80,
+    "total": 518
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 281,
+        "name_en": "kirlia",
+        "name_zh": "奇鲁莉安",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 160,
+    "伽勒尔": 123,
+    "洗翠": 104,
+    "帕底亚": 65,
+    "北上": 60,
+    "密阿雷": 90
+  },
+  "flavor_text_zh": "艾路雷朵身体上部是绿色的，而下方的身体是白色的。它的躯干很瘦，有粗且圆的臀部和强壮的双腿。艾路雷朵的胸部和背部有尖锐的红色突起，它的手臂形状像拐一样，在手肘处有可伸缩的刀刃。它的头形似角斗士的头盔，有白色的脸和浅青色的头冠。艾路雷朵的脸两边有尖刺一样的穗。艾路雷朵只有雄性。虽然有人认为与它对应的雌性对应宝可梦是 沙奈朵 ，但是沙奈朵也有雄性。超级艾路雷朵的双臂变成盘形，头和背部变得像头盔和披肩，让人想起武士的模样。 艾路雷朵被称为武神，是非常重视礼仪的宝可梦。它能够敏锐地感知到寻求帮助的感情，并且火速赶去援助对方。在为了保护谁时会伸出肘部，使其变得如刀锋般锋利后与对手展开激烈的战斗。因为有着能敏锐感知对手想法的能力，所以可以率先攻击。它用伸缩自如的肘刀战斗，是居合术高手，自肘部伸出的刀刃锋利更胜名刀。虽然所使的刀法自成一派，但其用刀之精湛足以令人瞠目赞叹。 超级艾路雷朵会按情况将双臂同时形成最强力量的刃，运用双刀战斗。 [ 1 ] 与训练家的牵绊是它的力量。样子改变后，拥有劈斩敌人的利板和保护身体的斗篷。",
+  "flavor_text_en": "The blades extending from its elbows are sharper than the finest swords. Its swordsmanship, albeit self-taught, is astonishingly impressive.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 475,
+    "pokeapi_species_id": 475,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/475"
+  }
+}

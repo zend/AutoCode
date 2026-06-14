@@ -1,0 +1,93 @@
+{
+  "entry_id": "0023",
+  "national_id": 23,
+  "form": "default",
+  "names": {
+    "en": "Ekans",
+    "ja": "アーボ",
+    "zh": "阿柏蛇"
+  },
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "types_zh": [
+    "毒"
+  ],
+  "category": "へびポケモン",
+  "category_zh": "蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "shed-skin",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 6.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 60,
+    "defense": 44,
+    "special_attack": 40,
+    "special_defense": 54,
+    "speed": 55,
+    "total": 288
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 24,
+        "name_en": "arbok",
+        "name_zh": "阿柏怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 23,
+    "城都": 50,
+    "北上": 18,
+    "密阿雷": 60
+  },
+  "flavor_text_zh": "阿柏蛇外形类似紫色的蛇，其腹部为黄色。它黄色的眼睛非常圆，瞳孔是一条线，嘴巴很大。它靠近头部的身体上有黄色的环状纹路，其他地方有黑色的细条纹。它的尾巴尖端为黄色。 阿柏蛇大量栖息在草地等地方，一直躲在草丛深处。它自出生就不带毒性，被咬也只是会觉得痛而已。它的身体会随着年龄增长不断变长。它能悄无声息地移动，轻轻地晃动舌头感受猎物的气息和周围的危险，从背后向失去警觉的猎物发起袭击。它发现猎物之后会一整个吞下，它能自由地让颚部脱臼，因此很大的猎物也能吞下，甚至吞食比自己更大的猎物，但会因为变重而无法动弹。它喜食鸟宝可梦的蛋，会将 波波 或 烈雀 的蛋整个吞下去。因为不咀嚼就整个吞下，所以有时会被噎住而昏倒。每到夜里，它会一圈圈地将身体缠绕在树枝上休息。在它进食后也会蜷缩起身体进行休息，一圈圈地蜷起身体睡觉是因为不管敌人从哪个方向袭来，它都可以立刻将头转过去威吓对方。",
+  "flavor_text_en": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 23,
+    "pokeapi_species_id": 23,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/23"
+  }
+}

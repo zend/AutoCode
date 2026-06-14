@@ -1,0 +1,85 @@
+{
+  "entry_id": "0303",
+  "national_id": 303,
+  "form": "default",
+  "names": {
+    "en": "Mawile",
+    "ja": "クチート",
+    "zh": "大嘴娃"
+  },
+  "generation": 3,
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "types_zh": [
+    "钢",
+    "妖精"
+  ],
+  "category": "あざむきポケモン",
+  "category_zh": "欺骗宝可梦",
+  "abilities": [
+    {
+      "name_en": "hyper-cutter",
+      "name_zh": "怪力钳",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 11.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 133,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 85,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 50,
+    "total": 380
+  },
+  "ev_yield": {
+    "attack": 1,
+    "defense": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 69,
+    "伽勒尔": 295,
+    "密阿雷": 133
+  },
+  "flavor_text_zh": "大嘴娃有一个黄色的，像娃娃一样的身体。它巨大的下颚是由钢质的角变形而成。超级大嘴娃背后嘴巴的数量会变成两个。 大嘴娃是狡黠而又恐怖的宝可梦。它会用温顺的长相让对手大意，然后突然转过来再用大颚一口咬住对手。一旦咬住后就绝不会松口，连工字钢都可以咬断。因为头部后面的大颚里没有味觉，所以那里用来吃不喜欢的东西。 超级大嘴娃的性格非常具有攻击性。两个颚部像是有意识一样，猛烈地大闹着。它会用两个颚夹住猎物，竭尽全力将对方撕碎。只要咬一口，连岩石都能粉碎。",
+  "flavor_text_en": "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 303,
+    "pokeapi_species_id": 303,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/303"
+  }
+}

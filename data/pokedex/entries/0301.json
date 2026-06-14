@@ -1,0 +1,91 @@
+{
+  "entry_id": "0301",
+  "national_id": 301,
+  "form": "default",
+  "names": {
+    "en": "Delcatty",
+    "ja": "エネコロロ",
+    "zh": "优雅猫"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "おすましポケモン",
+  "category_zh": "清高宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯 / 或 / 一般皮肤",
+      "hidden": false
+    },
+    {
+      "name_en": "normalize",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "wonder-skin",
+      "name_zh": "奇迹皮肤",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 32.6,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 140,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 90,
+    "total": 400
+  },
+  "ev_yield": {
+    "hp": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 300,
+        "name_en": "skitty",
+        "name_zh": "向尾喵",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 62
+  },
+  "flavor_text_zh": "优雅猫的身体呈奶油色，耳朵和尾巴呈紫色。它的耳朵尖部有三个刺，内侧是黑色，尾巴的形状很像花苞。它脖子上有着紫色披肩，披肩两侧各有两个带杆的紫色小球。 优雅猫没有固定的栖息地，具有会寻找舒适干净的寄居处以改变睡眠地的习性。即使有其他宝可梦接近自己睡觉的地方，也绝不会去争斗，而会换个地方睡觉。它是夜行性的，从黄昏以后才开始行动。因为会想吃就吃，想睡就睡，所以每天都毫无规律可言，我行我素地过着自由散漫的生活。它有着美丽的毛发，非常讨厌肮脏的地方，会在舒适的地方一直打理自己的毛发。它经常攀比体型和美丽的毛发，因此被紧跟潮流的女训练家所喜欢。",
+  "flavor_text_en": "Delcatty sleeps anywhere it wants without keeping a permanent nest. If other Pokémon approach it as it sleeps, this Pokémon will never fight—it will just move away somewhere else.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 301,
+    "pokeapi_species_id": 301,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/301"
+  }
+}

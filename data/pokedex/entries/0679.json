@@ -1,0 +1,81 @@
+{
+  "entry_id": "0679",
+  "national_id": 679,
+  "form": "default",
+  "names": {
+    "en": "Honedge",
+    "ja": "ヒトツキ",
+    "zh": "独剑鞘"
+  },
+  "generation": 6,
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "types_zh": [
+    "钢",
+    "幽灵"
+  ],
+  "category": "とうけんポケモン",
+  "category_zh": "刀剑宝可梦",
+  "abilities": [
+    {
+      "name_en": "no-guard",
+      "name_zh": "无防守",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 2.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 65,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 80,
+    "defense": 100,
+    "special_attack": 35,
+    "special_defense": 37,
+    "speed": 28,
+    "total": 325
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 680,
+        "name_en": "doublade",
+        "name_zh": "双剑鞘",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 330,
+    "密阿雷": 71
+  },
+  "flavor_text_zh": "独剑鞘的外形是一把剑，剑身外面套着一副剑鞘，剑鞘呈棕色，上有纹路——鬼脸似的图案。独剑鞘剑格上的蓝色眼珠是它的本体。剑柄末端拴有一根长长的蓝色缎带，末端为浅蓝色，有手指一样的分岔，能像手腕般自由活动。战斗时会把剑身露出来，平时则把身体藏在剑鞘内。 独剑鞘好像是死者的灵魂寄宿在古剑上转生而成，会附在人类身上吸食生命。它用蓝布卷住握剑柄之人的手臂吸取生命直至其倒下，很久以前因这把剑而丧命之人的灵魂成为了独剑鞘的灵魂。",
+  "flavor_text_en": "The blue eye on the sword’s handguard is the true body of Honedge. With its old cloth, it drains people’s lives away.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 679,
+    "pokeapi_species_id": 679,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/679"
+  }
+}

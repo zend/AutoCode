@@ -1,0 +1,94 @@
+{
+  "entry_id": "0091",
+  "national_id": 91,
+  "form": "default",
+  "names": {
+    "en": "Cloyster",
+    "ja": "パルシェン",
+    "zh": "刺甲贝"
+  },
+  "generation": 1,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "types_zh": [
+    "水",
+    "冰"
+  ],
+  "category": "２まいがいポケモン",
+  "category_zh": "双壳贝宝可梦",
+  "abilities": [
+    {
+      "name_en": "shell-armor",
+      "name_zh": "硬壳盔甲 / 或 / 连续攻击",
+      "hidden": false
+    },
+    {
+      "name_en": "skill-link",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 132.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 184,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 180,
+    "special_attack": 85,
+    "special_defense": 45,
+    "speed": 70,
+    "total": 525
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 90,
+        "name_en": "shellder",
+        "name_zh": "大舌贝",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 91,
+    "城都": 170,
+    "阿罗拉": 116,
+    "伽勒尔": 151,
+    "帕底亚": 330
+  },
+  "flavor_text_zh": "刺甲贝被双重贝壳保护，本体上面有一个突出来的角，最外边的壳也有一些突出来的角。它的嘴巴显露了出来，但内部的真面目无人知晓。它拥有非常坚硬的外壳，连燃烧弹都无法破坏。用于刺穿对手的刺远比用凝固汽油弹都炸不坏的壳还要硬。 刺甲贝在分类上与 海兔兽 是亲戚。它栖息在激流涌动的海里，它壳上的刺又大又尖锐。它会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开，只有攻击的时候才会张开。它外壳上的伤痕会逐渐隆起，长成大大的尖刺。受到攻击之后不但有比钻石还要坚硬的外壳保护着，外壳的刺还会接二连三地飞出来，不太好对付。从狩猎民族的古墓中大量出土了使用壳上拔下的尖刺制造而成的长矛。它非常喜欢吃 呆呆兽 的尾巴，有时甚至会爬到陆地上来寻找呆呆兽。",
+  "flavor_text_en": "Once it slams its shell shut, it is impossible to open, even by those with superior strength.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 91,
+    "pokeapi_species_id": 91,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/91"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "entry_id": "0351",
+  "national_id": 351,
+  "form": "default",
+  "names": {
+    "en": "Castform",
+    "ja": "ポワルン",
+    "zh": "飘浮泡泡"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "てんきポケモン",
+  "category_zh": "天气宝可梦",
+  "abilities": [
+    {
+      "name_en": "forecast",
+      "name_zh": "阴晴不定",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 0.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 147,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 70,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70,
+    "total": 420
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 142,
+    "阿罗拉": 181
+  },
+  "flavor_text_zh": "飘浮泡泡是受到自然之力，就会把样子变成太阳、雨水或雪云的宝可梦。太阳的样子头部形状像是太阳，雨水的样子头部形状则是水滴，雪云的样子则像是头部被云朵包裹住。 飘浮泡泡为了保护自己小小的身体而获得了使用大自然巨大力量的能力。气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子，最近的研究发现它与水分子极其相似。但这是根据化学反应的结果，似乎并不是出于它的本意。天气越恶劣，性格也会变得越暴躁。 太阳的样子是万里无云时，受惠于晴朗天气的飘浮泡泡的样子，如果在烈日下暴晒也会变成这个样子。它的身体被照得暖洋洋的，如果接触到皮肤，会出人意料的热。如果碰到它热烘烘的身体，会感觉干巴巴的。在将它放到取暖器前的实验里，没有变成这个形态。雨水的样子是被下个不停的雨淋到时飘浮泡泡的样子。它的身体遇水会稍稍有点膨胀，软绵绵的，如果按它的身体，就会像海绵一样渗出些水来。它的身体也带着潮气，滑溜溜的。在让它淋浴的实验里，没有变成这个形态。雪云的样子是被雪落到时飘浮泡泡的样子，如果被冰雹打到也会变成这个样子。它全身像冰一般，体温是零下5度左右。皮肤冷冷的有点儿冻住，像冰一样滑溜溜。在将它放入冷冻库的实验里，没有变成这个形态。",
+  "flavor_text_en": "Its form changes depending on the weather. The rougher conditions get, the rougher Castform’s disposition!",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 351,
+    "pokeapi_species_id": 351,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/351"
+  }
+}

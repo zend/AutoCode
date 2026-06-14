@@ -1,0 +1,88 @@
+{
+  "entry_id": "0956",
+  "national_id": 956,
+  "form": "default",
+  "names": {
+    "en": "Espathra",
+    "ja": "クエスパトラ",
+    "zh": "超能艳鸵"
+  },
+  "generation": 9,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "ダチョウポケモン",
+  "category_zh": "鸵鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "opportunist",
+      "name_zh": "跟风 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "speed-boost",
+      "name_zh": "加速",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.9,
+  "weight_kg": 90.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 168,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 101,
+    "special_defense": 60,
+    "speed": 105,
+    "total": 481
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 955,
+        "name_en": "flittle",
+        "name_zh": "飘飘雏",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 264
+  },
+  "flavor_text_zh": "超能艳鸵与外表不同，性格很凶暴。它大大的眼睛会放出精神力量使对手无法动弹。它还会从彩色的褶边的缝隙间释放出精神力量，借此以时速200公里的速度狂奔。",
+  "flavor_text_en": "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 956,
+    "pokeapi_species_id": 956,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/956"
+  }
+}

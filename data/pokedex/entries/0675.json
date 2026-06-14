@@ -1,0 +1,94 @@
+{
+  "entry_id": "0675",
+  "national_id": 675,
+  "form": "default",
+  "names": {
+    "en": "Pangoro",
+    "ja": "ゴロンダ",
+    "zh": "霸道熊猫"
+  },
+  "generation": 6,
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "types_zh": [
+    "格斗",
+    "恶"
+  ],
+  "category": "こわもてポケモン",
+  "category_zh": "恶颜宝可梦",
+  "abilities": [
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳 / 或 / 破格",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "胆量",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.1,
+  "weight_kg": 136.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 65,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 124,
+    "defense": 78,
+    "special_attack": 69,
+    "special_defense": 71,
+    "speed": 58,
+    "total": 495
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 674,
+        "name_en": "pancham",
+        "name_zh": "顽皮熊猫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 221,
+    "伽勒尔": 112,
+    "密阿雷": 48
+  },
+  "flavor_text_zh": "霸道熊猫的体色黑白相间，样子十分凶恶，总是叼着一根竹枝。 霸道熊猫性格暴躁且冲动，但很豪迈，对伙伴的感情很深厚，因此迷恋它的训练家也很多。想要成为霸道熊猫的训练家的话，只能用拳头来和它磋商。它是以腕力为傲的野性的宝可梦，靠力气解决问题，是用拳头来说话的那一型。它只要使出一记拳击就能让大型翻斗车变成废铁。它不容许欺负弱小，即使受到攻击也不会畏缩，而是猛冲上去用能将电线杆折断的臂力击垮对手。他还会通过竹叶的摇摆来洞悉敌人的动向。性格暴躁的它会为与 堵拦熊 一对一比拼而燃烧自己的斗志。",
+  "flavor_text_en": "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 675,
+    "pokeapi_species_id": 675,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/675"
+  }
+}

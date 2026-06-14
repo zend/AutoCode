@@ -1,0 +1,91 @@
+{
+  "entry_id": "0760",
+  "national_id": 760,
+  "form": "default",
+  "names": {
+    "en": "Bewear",
+    "ja": "キテルグマ",
+    "zh": "穿着熊"
+  },
+  "generation": 7,
+  "types": [
+    "normal",
+    "fighting"
+  ],
+  "types_zh": [
+    "一般",
+    "格斗"
+  ],
+  "category": "ごうわんポケモン",
+  "category_zh": "强臂宝可梦",
+  "abilities": [
+    {
+      "name_en": "fluffy",
+      "name_zh": "毛茸茸 / 或 / 笨拙",
+      "hidden": false
+    },
+    {
+      "name_en": "klutz",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.1,
+  "weight_kg": 135.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 70,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 120,
+    "attack": 125,
+    "defense": 80,
+    "special_attack": 55,
+    "special_defense": 60,
+    "speed": 60,
+    "total": 500
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 759,
+        "name_en": "stufful",
+        "name_zh": "童偶熊",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 170,
+    "伽勒尔": 95
+  },
+  "flavor_text_zh": "穿着熊看起来像一只粉红色的绒毛玩具熊，头部及尾巴是粉红色，身体则是黑色。 穿着熊与外表相反存有危险性，它拥有压倒性的肌肉力量，以惊人的怪力而自豪。在阿罗拉地区也有很多人称之为最危险的宝可梦。即使它友好地挥动着双臂，亦不能随意靠近它。大幅度地挥手是威吓和警戒的信号，看到了一刻也不能耽误，不逃就没命了。它在阿罗拉地区被认定为危险的宝可梦，在它栖息的地方甚至会出现警告的提示牌，栖息地基本是禁止进入。穿着熊擅长招式为熊抱，它的手脚长得很粗壮且强而有力。背部的肌肉力量超过1吨，任何用双臂拥抱着的东西都可一分为二。它是森林的格斗王，野生的穿着熊有时也会使出完美的格斗招式。据说是因为在森林里看到修炼中的空手道王的招式后所学习得到的。它会用令格斗家都无地自容的技术把逮住的猎物夹在腋下，带回自己的住处。穿着熊有和伙伴互相紧抱的习性，会把训练家拥入怀中以表示亲近，但是力量惊人，而这会弄碎你的骨头，非常危险。被这个力量压碎脊椎而去世的训练家也很多。训练家需要教它拥抱时如何调节力量。 [ 1 ] 在蓝蒂尔地区，它会用冬眠的方式来度过缺少食物的时期。",
+  "flavor_text_en": "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 760,
+    "pokeapi_species_id": 760,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/760"
+  }
+}

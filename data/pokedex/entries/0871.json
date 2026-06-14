@@ -1,0 +1,76 @@
+{
+  "entry_id": "0871",
+  "national_id": 871,
+  "form": "default",
+  "names": {
+    "en": "Pincurchin",
+    "ja": "バチンウニ",
+    "zh": "啪嚓海胆"
+  },
+  "generation": 8,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "うにポケモン",
+  "category_zh": "海胆宝可梦",
+  "abilities": [
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "避雷针",
+      "hidden": false
+    },
+    {
+      "name_en": "electric-surge",
+      "name_zh": "电气制造者",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 152,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 101,
+    "defense": 95,
+    "special_attack": 91,
+    "special_defense": 85,
+    "speed": 15,
+    "total": 435
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 353,
+    "帕底亚": 321
+  },
+  "flavor_text_zh": "啪嚓海胆有紫色的身体和许多根刺，刺的尖端是灰色的。它有黄色的眼睛，紫色倒三角形的瞳孔，它的面部两个黄色的嘴唇不会导电。 啪嚓海胆每根刺里都储存着电力，消化食物时会制造电力。它能从刺的尖端放电，即使是折断的刺也至少能连续放电3小时。它性情胆小，光是碰到碎藻就能让它吓到放电。它还会用锐利的牙齿刮取附在岩石上的海藻吃，5颗坚硬的牙齿能把海藻连根拔起来吃。 好坏星 时常会因为要吃啪嚓海胆断掉的刺而被电得发麻。",
+  "flavor_text_en": "It stores electricity in each spine. Even if one gets broken off, it still continues to emit electricity for at least three hours.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 871,
+    "pokeapi_species_id": 871,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/871"
+  }
+}

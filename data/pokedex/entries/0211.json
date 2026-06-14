@@ -1,0 +1,92 @@
+{
+  "entry_id": "0211",
+  "national_id": 211,
+  "form": "default",
+  "names": {
+    "en": "Qwilfish",
+    "ja": "ハリーセン",
+    "zh": "千针鱼"
+  },
+  "generation": 2,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "types_zh": [
+    "水",
+    "毒"
+  ],
+  "category": "ふうせんポケモン",
+  "category_zh": "气球宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺",
+      "hidden": false
+    },
+    {
+      "name_en": "swift-swim",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 3.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 88,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 85,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 85,
+    "total": 440
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 904,
+        "name_en": "overqwil",
+        "name_zh": "万针鱼",
+        "trigger": "strong-style-move"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 161,
+    "伽勒尔": 304,
+    "帕底亚": 331
+  },
+  "flavor_text_zh": "千针鱼如同一条圆鼓鼓的刺鲀，双目眼角上扬，嘴为粉红色，背部为墨绿色，腹部为浅黄色，腹背颜色分明。它身上长着很多坚硬的刺，除了尾鳍之外没有别的鱼鳍，尾部的花纹形似一个幽灵。它全身上下的小针都是由鳞片变化而来的。洗翠千针鱼的背部为黑色，小针尖端与嘴均为紫色，尾鳍上的花纹形似一个字母“ｑ”。比起其他地区的千针鱼，它的毒针更粗更短。 千针鱼圆圆的身体不太擅长游泳。为了发射全身的毒针，它会一口气吞下十升水来让身体膨胀起来。对手的体型越是巨大，它就会喝下越多的水使身体膨胀，仿佛马上就要破裂一般。当它开始喝水就代表危险了，它会挥洒长满全身的毒针，然后朝对手发动袭击。如果被刺中的话，就会因中毒而昏迷。资深的渔夫说道，在它刚刚射出毒针后的毫无防备的状态时，就是捕捉它的大好机会。 洗翠千针鱼栖息在寒冷地区的水边。它会食用有毒的矿石，从食物摄取毒素，并储存在体内。突显紫色的针是它充满剧毒的证据。它是会用针散布毒素的棘手家伙，被它刺到会受苦三天三夜，因而受到渔民们的厌恶。",
+  "flavor_text_en": "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 211,
+    "pokeapi_species_id": 211,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/211"
+  }
+}

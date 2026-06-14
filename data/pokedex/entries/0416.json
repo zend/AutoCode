@@ -1,0 +1,89 @@
+{
+  "entry_id": "0416",
+  "national_id": 416,
+  "form": "default",
+  "names": {
+    "en": "Vespiquen",
+    "ja": "ビークイン",
+    "zh": "蜂女王"
+  },
+  "generation": 4,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "types_zh": [
+    "虫",
+    "飞行"
+  ],
+  "category": "はちのすポケモン",
+  "category_zh": "蜂巢宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 38.5,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 166,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 102,
+    "special_attack": 80,
+    "special_defense": 102,
+    "speed": 40,
+    "total": 474
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 415,
+        "name_en": "combee",
+        "name_zh": "三蜜蜂",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 54,
+    "伽勒尔": 117,
+    "洗翠": 71,
+    "帕底亚": 39
+  },
+  "flavor_text_zh": "蜂女王像一只蜜蜂，它的眼睛为赤红色，瞳孔为白色，眼珠上方有类似于红宝石的结构。它的脸边上橙色的地方各有一对很小的翅膀。它的手和身躯是黑色的。身躯下端膨大并在末端向内凹陷，这个结构有着黄黑相间的条纹。从下面看像蜂巢。下端暗藏了淡黄色，类似于昆虫躯体的尖状物。它还有两根黑色的触爪。蜂女王只有雌性，也没有与它对应的雄性宝可梦。 蜂女王的躯体成为了孩子们的巢穴，平常总是在身体的洞里养育孩子。它会用三蜜蜂采集到的花蜜养育孩子们，遇到危机时孩子们会从6个巢穴里飞出并进行反击。一个蜂群里只有一只蜂女王。它能释放各种信息素，自由自在地操纵体内的幼虫与敌人作战。孩子们会为了蜂女王而拼上性命，能释放越多费洛蒙的蜂女王，就能让越多的三蜜蜂听从自己的指挥。它命令手下筑起巢穴后，一旦有谁不识好歹潜入巢穴，蜂女王将会解决入侵者并将其化为自身粮食。",
+  "flavor_text_en": "Commands its subjects to build its hive. It will dispatch any interlopers who dare sneak into its nest and use them as nourishment for itself.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 416,
+    "pokeapi_species_id": 416,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/416"
+  }
+}

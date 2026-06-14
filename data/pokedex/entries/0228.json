@@ -1,0 +1,94 @@
+{
+  "entry_id": "0228",
+  "national_id": 228,
+  "form": "default",
+  "names": {
+    "en": "Houndour",
+    "ja": "デルビル",
+    "zh": "戴鲁比"
+  },
+  "generation": 2,
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "types_zh": [
+    "恶",
+    "火"
+  ],
+  "category": "ダークポケモン",
+  "category_zh": "阴暗宝可梦",
+  "abilities": [
+    {
+      "name_en": "early-bird",
+      "name_zh": "早起 / 或 / 引火",
+      "hidden": false
+    },
+    {
+      "name_en": "flash-fire",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 10.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 66,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 60,
+    "defense": 30,
+    "special_attack": 80,
+    "special_defense": 50,
+    "speed": 65,
+    "total": 330
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 229,
+        "name_en": "houndoom",
+        "name_zh": "黑鲁加",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 209,
+    "神奥": 176,
+    "帕底亚": 25,
+    "北上": 123,
+    "密阿雷": 91
+  },
+  "flavor_text_zh": "戴鲁比看起来像是一只黑色的狗，背上有两条骨状物体，腹部和嘴部为橙色，脚腕上各有一块骨状物，有着粗短的尾巴。 戴鲁比擅长与伙伴的合作，拥有十足的智慧，会使用各种不同的叫声联络伙伴和传递心情。它会在天亮之前反复发出响彻附近一带的恐怖长嚎来宣示它们自己的领地，并以此来彰显自己群体的存在。它在联络伙伴和追赶猎物的时候，会分别发出不同种类的叫声。它会用只有伙伴才能理解的叫声一边确定各自的位置一边猛追猎物，并将猎物逼入绝境。它们能凭借出色的团队合作来将猎物逼入绝境后解决掉，优秀的团队合作能力在宝可梦中首屈一指。如果成为同伴，就会非常听从训练家的命令。",
+  "flavor_text_en": "They make repeated eerie howls before dawn to call attention to their pack.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 228,
+    "pokeapi_species_id": 228,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/228"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "entry_id": "0879",
+  "national_id": 879,
+  "form": "default",
+  "names": {
+    "en": "Copperajah",
+    "ja": "ダイオウドウ",
+    "zh": "大王铜象"
+  },
+  "generation": 8,
+  "types": [
+    "steel"
+  ],
+  "types_zh": [
+    "钢"
+  ],
+  "category": "どうぞうポケモン",
+  "category_zh": "像铜宝可梦",
+  "abilities": [
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": false
+    },
+    {
+      "name_en": "heavy-metal",
+      "name_zh": "重金属",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.0,
+  "weight_kg": 650.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 122,
+    "attack": 130,
+    "defense": 69,
+    "special_attack": 80,
+    "special_defense": 69,
+    "speed": 30,
+    "total": 500
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 878,
+        "name_en": "cufant",
+        "name_zh": "铜象",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 303,
+    "帕底亚": 125
+  },
+  "flavor_text_zh": "大王铜象相比于进化之前，它的身上覆满了深绿色的锈迹，有青铜色泽的不规则的花纹。头上顶着几块巨大的青铜，同样布满了锈迹，只漏出几块没有生锈的青铜。大王铜象的额头旁边连接着两只青铜耳朵。耳朵下面是它的鼻子。它的鼻子的起始处下方是青铜色泽，但是它鼻子处的大部分还是被锈迹覆盖。鼻子下面是它的洁白的象牙。大王铜象的身躯是长方体形状，而它的四根大腿则是圆柱体。大王铜象的大腿花纹变得比较规则，脚趾处是白色的，而脚趾上面包围着青铜色的环状金属，最后就是深绿色的锈迹。大王铜象的身躯庞大，尾巴短小。超极巨化大王铜象站立起来了，两只更加粗短的腿支撑着超极巨化后巨大的身体，另两只腿在身体中部。它鼻子出现了很大的变化，变得又粗又长，并在末端向后反卷。鼻子末端有着锯齿状的巨大白色矿石。 大王铜象是群居的宝可梦，自尊心强，脾气刁钻。它在很久以前从其他地区过来，之后便一直与人类一起工作，有时可以在工地或采石场看到它和 庞岩怪 还有人类一起工作。它鼻子的握力十分强劲，甚至能把大石头弄得粉碎，是个能轻松拖动飞机的大力士。它绿色的皮肤非常耐水，越是鲜艳，就越受到同伴的尊敬。据说 雷丘 所发出的 十万伏特 即使是大王铜象也能一击电晕。 超极巨化大王铜象鼻子里储存着满满的能量。只要用巨大的象鼻攻击一次，就能拆毁高大的建筑。一旦将能量喷射出去，甚至能推平山岳，改变地形。",
+  "flavor_text_en": "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 879,
+    "pokeapi_species_id": 879,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/879"
+  }
+}

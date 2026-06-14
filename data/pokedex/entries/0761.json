@@ -1,0 +1,90 @@
+{
+  "entry_id": "0761",
+  "national_id": 761,
+  "form": "default",
+  "names": {
+    "en": "Bounsweet",
+    "ja": "アマカジ",
+    "zh": "甜竹竹"
+  },
+  "generation": 7,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "フルーツポケモン",
+  "category_zh": "水果宝可梦",
+  "abilities": [
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "叶子防守 / 或 / 迟钝",
+      "hidden": false
+    },
+    {
+      "name_en": "oblivious",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sweet-veil",
+      "name_zh": "甜幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.2,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 235,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 42,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 42,
+    "attack": 30,
+    "defense": 38,
+    "special_attack": 30,
+    "special_defense": 38,
+    "speed": 32,
+    "total": 210
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 762,
+        "name_en": "steenee",
+        "name_zh": "甜舞妮",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 171,
+    "伽勒尔": 52,
+    "帕底亚": 81
+  },
+  "flavor_text_zh": "甜竹竹的身体很像山竹，身体的最下面的部分是白色的，像是露出来的果肉，从中伸出两只可爱的脚。头上则是顶著三片花萼，其中两片是横着的。它有着黄色的眼睛，看上去很可爱。甜竹竹只有雌性，也没有对应的雄性宝可梦与它配对。 甜竹竹会从体内渗透出闻起来很美味的香气，所以很受阿罗拉地区的人和宝可梦欢迎。从它体内渗透出来的水果香气会强烈地刺激鸟宝可梦的食欲，也有被受到香气吸引而来的宝可梦整个吞下的时候。由于不太聪明，所以根本没在意。有时甜竹竹会被受香气吸引而来的小笃儿搬到仓库里去，也会被受气味诱惑的 铳嘴大鸟 整个吞下。被它甜甜的香气吸引而来的 藏饱栗鼠 会用尾巴将它和树果一起裹起来带走。受到袭击时流下的汗水非常甜美可口，那种香气会吸引更多敌人的注意。受到敌人袭击时，如果快要被鸟宝可梦吞进去了，它就会旋转头部的花萼壳盖进行抵抗。不过它的攻击基本上是没用的，将敌人赶走后连自己也会变得晕晕的。甜竹竹逃离别的宝可梦时，会一跳一跳地逃走。由于无法从其逃走的姿态传达它们的努力，所以得不到协助。 [ 1 ] 人要是直接吃的话甜竹竹就太甜了。但是如果把甜竹竹的汗用水兑一下，就会成为甜度刚刚好的果汁。它的汗水像是煮干的水果甜味，在甜食较少的过去颇受重视。由于甜竹竹散发的香气有令人心情平复的效果，所以有很多人让它居住在家里。",
+  "flavor_text_en": "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 761,
+    "pokeapi_species_id": 761,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/761"
+  }
+}

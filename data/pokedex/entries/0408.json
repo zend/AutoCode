@@ -1,0 +1,86 @@
+{
+  "entry_id": "0408",
+  "national_id": 408,
+  "form": "default",
+  "names": {
+    "en": "Cranidos",
+    "ja": "ズガイドス",
+    "zh": "头盖龙"
+  },
+  "generation": 4,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "ずつきポケモン",
+  "category_zh": "头锤宝可梦",
+  "abilities": [
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 31.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 70,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "monster"
+  ],
+  "egg_groups_zh": [
+    "怪兽"
+  ],
+  "base_stats": {
+    "hp": 67,
+    "attack": 125,
+    "defense": 40,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 58,
+    "total": 350
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 409,
+        "name_en": "rampardos",
+        "name_zh": "战槌龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 36,
+    "阿罗拉": 188,
+    "洗翠": 208,
+    "蓝莓": 107
+  },
+  "flavor_text_zh": "头盖龙皮肤的颜色为灰色，而头部、背部与臀部的颜色为蓝色，头部的侧边与后边长出了角。它的头盖骨像铁一样坚硬。 头盖龙是从铁球一样的化石中复活出来的古代的宝可梦，在发现头盖龙化石的地层里也一并出土了被锤断了的树木的化石。它栖息在大约1亿年前的古代密林中，是太古时代的宝可梦。它在丛林中出生长大，会用头锤把阻挡它的树木撞断。它拥有坚硬而结实的头盖骨，但是脑子相当不好使。同种的两只相争时会以头互撞，发出宛如钟声的轰隆声响，头盖龙靠撞击同伴的头能进一步锻炼结实的脑袋。它会用头锤撞断树木，吃树上结的树果，也会用最拿手的头锤对抗 化石翼龙 。",
+  "flavor_text_en": "An incredibly rare sight. They duel each other by ramming their heads together, and the resulting sound echoes throughout the area like the pealing of a bell.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 408,
+    "pokeapi_species_id": 408,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/408"
+  }
+}

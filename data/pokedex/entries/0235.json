@@ -1,0 +1,80 @@
+{
+  "entry_id": "0235",
+  "national_id": 235,
+  "form": "default",
+  "names": {
+    "en": "Smeargle",
+    "ja": "ドーブル",
+    "zh": "图图犬"
+  },
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "えかきポケモン",
+  "category_zh": "画画宝可梦",
+  "abilities": [
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素 / 或 / 技术高手",
+      "hidden": false
+    },
+    {
+      "name_en": "technician",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moody",
+      "name_zh": "心情不定",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 58.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 88,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 20,
+    "defense": 35,
+    "special_attack": 20,
+    "special_defense": 45,
+    "speed": 75,
+    "total": 250
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "城都": 157,
+    "阿罗拉": 58,
+    "蓝莓": 40
+  },
+  "flavor_text_zh": "图图犬是个外表白色、部分为咖啡色可以两脚站立的狗。它有个长长的尾巴，尾巴末端类似于画笔。从尾巴前端渗出的体液会随着图图犬情绪的变化而呈现不同的颜色。它的头顶上有个角，头的形状很像艺术家的帽子。 图图犬用从尾巴尖尖慢慢渗出的体液绘出独有的标记宣告自己的领地，至今已发现了5000种标记，在图图犬多的街边墙壁上全都是这些乱涂乱画的。它有着成年后让伙伴在自己背上画下脚印标记的习性。对于有些标记，爱好者会以高价买卖。",
+  "flavor_text_en": "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 235,
+    "pokeapi_species_id": 235,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/235"
+  }
+}

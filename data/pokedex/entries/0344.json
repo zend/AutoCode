@@ -1,0 +1,79 @@
+{
+  "entry_id": "0344",
+  "national_id": 344,
+  "form": "default",
+  "names": {
+    "en": "Claydol",
+    "ja": "ネンドール",
+    "zh": "念力土偶"
+  },
+  "generation": 3,
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "types_zh": [
+    "地面",
+    "超能力"
+  ],
+  "category": "どぐうポケモン",
+  "category_zh": "泥偶宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 108.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 90,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 105,
+    "special_attack": 70,
+    "special_defense": 120,
+    "speed": 75,
+    "total": 500
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 343,
+        "name_en": "baltoy",
+        "name_zh": "天秤偶",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 132,
+    "伽勒尔": 83
+  },
+  "flavor_text_zh": "念力土偶的身体是黑色的，身上有很多只眼睛和神秘的纹路。 念力土偶是从2万年前繁华一时的古文明泥偶中诞生的谜之宝可梦，据说是古代人的泥偶因受到怪异光线的照射而附有了生命，好像是古代人模仿从天而降的某物制作而成。它能靠念力浮在空中移动，会持续飘浮在空中睡觉。分离在身体之外的两只手臂，是用超能力操纵使其飞行的，会从双臂发射出光束。如果淋湿，他的身体就会溶解掉，所以下雨时会用精神力量包住全身保护自己。",
+  "flavor_text_en": "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 344,
+    "pokeapi_species_id": 344,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/344"
+  }
+}

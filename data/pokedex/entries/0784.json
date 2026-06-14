@@ -1,0 +1,92 @@
+{
+  "entry_id": "0784",
+  "national_id": 784,
+  "form": "default",
+  "names": {
+    "en": "Kommo-o",
+    "ja": "ジャラランガ",
+    "zh": "杖尾鳞甲龙"
+  },
+  "generation": 7,
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "types_zh": [
+    "龙",
+    "格斗"
+  ],
+  "category": "うろこポケモン",
+  "category_zh": "鳞片宝可梦",
+  "abilities": [
+    {
+      "name_en": "bulletproof",
+      "name_zh": "防弹 / 或 / 隔音",
+      "hidden": false
+    },
+    {
+      "name_en": "soundproof",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 78.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 110,
+    "defense": 125,
+    "special_attack": 100,
+    "special_defense": 105,
+    "speed": 85,
+    "total": 600
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 783,
+        "name_en": "hakamo-o",
+        "name_zh": "鳞甲龙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 273,
+    "伽勒尔": 394,
+    "北上": 133
+  },
+  "flavor_text_zh": "杖尾鳞甲龙覆盖着鳞片状盔甲。大部分身体是灰色的，上下颚两侧各有一个小的齿状尖刺。它的顶部由精细的鳞片排列覆盖。它直立行走，尾巴和头部上的鳞片数目变得非常多。 杖尾鳞甲龙是 鳞甲龙 完成严格修行后，集压倒性的实力于一身进化而成。它会返回出生后的成长地，在远离 心鳞宝 们的地方默默守护着它们。当它察觉有东西靠近时便会让尾部的鳞片发出哐啷哐啷的声音进行威吓，告知对方自己的存在，测试对手胆量。它没有跟弱小的宝可梦战斗的念头，只会与不畏惧自己的强者战斗，弱小的家伙听到声音就会逃走了。它最强的招式是通过从下而上挥动手臂的上钩拳。它会瞬间挥起垂下的手臂，用擅长的拳击将对手击飞至高空。它挥动着裹满钢的鳞片的拳头时的冲击力，连附近的地形亦会改变。在一招制住猎物发出长嚎后，伙伴们祝福的金属音会从各个地方回荡起来。杖尾鳞甲龙们拥有闪闪发光的鳞片，有传说这是因为要驱走笼罩世界的黑暗。或许是因为如此，人们认为杖尾鳞甲龙们之所以渴望对战是为了获得战胜黑暗的实力。它坚硬的鳞片集攻防于一体，过去曾被加工成武器和日用品来使用。遗迹壁画中古代战士身上穿着的盔甲是用杖尾鳞甲龙的鳞片制成的。 [ 1 ]",
+  "flavor_text_en": "Certain ruins have paintings of ancient warriors wearing armor made of Kommo-o scales.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 784,
+    "pokeapi_species_id": 784,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/784"
+  }
+}

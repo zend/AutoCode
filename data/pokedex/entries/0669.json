@@ -1,0 +1,84 @@
+{
+  "entry_id": "0669",
+  "national_id": 669,
+  "form": "default",
+  "names": {
+    "en": "Flabébé",
+    "ja": "フラベベ",
+    "zh": "花蓓蓓"
+  },
+  "generation": 6,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "いちりんポケモン",
+  "category_zh": "单朵宝可梦",
+  "abilities": [
+    {
+      "name_en": "flower-veil",
+      "name_zh": "花幕",
+      "hidden": false
+    },
+    {
+      "name_en": "symbiosis",
+      "name_zh": "共生",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.1,
+  "weight_kg": 0.1,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 44,
+    "attack": 38,
+    "defense": 39,
+    "special_attack": 61,
+    "special_defense": 79,
+    "speed": 42,
+    "total": 303
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 670,
+        "name_en": "floette",
+        "name_zh": "花叶蒂",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 145,
+    "密阿雷": 38
+  },
+  "flavor_text_zh": "花蓓蓓外表像只小精灵，特征是一出生就会找到一朵喜欢的花，并一辈子珍惜它。除了红色以外，花蓓蓓还有其他4种不同颜色花朵的姿态，分别是蓝色，橙色，白色，黄色，根据栖息地不同，似乎也会遇到不同颜色的花蓓蓓。不同颜色的花蓓蓓进化后的花朵颜色也不同。花蓓蓓只有雌性，没有与它对应的雄性宝可梦。 花蓓蓓能引导出花朵蕴藏的力量并自由地操纵，靠由花朵散发出的力量浮在空中，轻轻地飘来飘去。它能激发花的力量，以此来使出各种各样的招式。由于从花那里得到力量，因此相应地会分出能量给花。它拿着的花几乎已成为了身体的一部分，在它找到花并获其力量之前都会毫无防备地暴露在危险中。它从出生那一刻起就会为了寻找喜欢的花而四处飞行，在找到喜爱的颜色和形状之前，它会不断地旅行，以花海为目的地随着风四处飘荡。如果它发现了中意的花就会一辈子和那朵花生活在一起，乘着风随心所欲地飘着。它头上的冠是收集花粉做成的，会把具有治愈效果的花粉冠戴在头上。一到黄昏，它就会去找绽放着和自己一样的花的地方睡觉。 红花 橙花 蓝花 白花 黄花",
+  "flavor_text_en": "Flabébé wears a crown made from pollen it’s collected from its flower. The crown has hidden healing properties.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 669,
+    "pokeapi_species_id": 669,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/669"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "0276",
+  "national_id": 276,
+  "form": "default",
+  "names": {
+    "en": "Taillow",
+    "ja": "スバメ",
+    "zh": "傲骨燕"
+  },
+  "generation": 3,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "こツバメポケモン",
+  "category_zh": "幼燕宝可梦",
+  "abilities": [
+    {
+      "name_en": "guts",
+      "name_zh": "毅力",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "胆量",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 54,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 55,
+    "defense": 30,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 85,
+    "total": 270
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 277,
+        "name_en": "swellow",
+        "name_zh": "大王燕",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 25
+  },
+  "flavor_text_zh": "傲骨燕如同一只家燕，深蓝色的羽毛占身体的大半部分，肚子的羽毛则是纯洁的白色，头部和颈部均有红色的羽毛。它有灰色的双目和黄色的鸟喙，脚爪和羽毛一样呈深蓝色。 傲骨燕身材矮小，但却十分勇敢，能和巨大的 盔甲鸟 互相抗衡。它不擅长应付寒冷的季节，为了寻找温暖的土地会一天飞上300公里的距离。由于才刚刚离巢，所以到了晚上有时会因太寂寞而哭出来。它不管是怎样强大的对手都会勇敢地前去挑战，有着就算输了也不会气馁的毅力。它以捕捉住在森林里的 刺尾虫 为食，不过一旦肚子饿了就会变得很懦弱，大声痛哭。",
+  "flavor_text_en": "Taillow is young—it has only just left its nest. As a result, it sometimes becomes lonesome and cries at night. This Pokémon feeds on Wurmple that live in forests.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 276,
+    "pokeapi_species_id": 276,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/276"
+  }
+}

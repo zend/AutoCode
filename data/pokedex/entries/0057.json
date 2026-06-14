@@ -1,0 +1,99 @@
+{
+  "entry_id": "0057",
+  "national_id": 57,
+  "form": "default",
+  "names": {
+    "en": "Primeape",
+    "ja": "オコリザル",
+    "zh": "火暴猴"
+  },
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "ぶたざるポケモン",
+  "category_zh": "猪猴宝可梦",
+  "abilities": [
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲 / 或 / 愤怒穴位",
+      "hidden": false
+    },
+    {
+      "name_en": "anger-point",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "defiant",
+      "name_zh": "不服输",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 32.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 105,
+    "defense": 60,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 95,
+    "total": 455
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 56,
+        "name_en": "mankey",
+        "name_zh": "猴怪",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 979,
+        "name_en": "annihilape",
+        "name_zh": "弃世猴",
+        "trigger": "use-move"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 57,
+    "城都": 135,
+    "阿罗拉": 80,
+    "帕底亚": 159,
+    "北上": 100
+  },
+  "flavor_text_zh": "火暴猴球状的身体长满了淡黄色的毛。它四肢的被毛消失且戴上了黑色的圆环，手变成了拳套的样子，脚也像人类的脚掌，只是只有两个脚趾。它的尾巴消失了，眼珠变成一条线，额头上一直有发怒隆起的十字青筋。 火暴猴不知为何而狂怒，只要视线对上它就会发怒，如果转身逃跑它还会发怒，就算打扁了对方，它仍然会发怒。它不会原谅激怒它的人或宝可梦，会持续地追击对方，就算把对方揍得无法动弹也依然不会原谅对方。它是会把让自己发怒的东西穷追不舍到天涯海角并打倒的粗暴的宝可梦。它只有在谁都不在身边的时候才不生气，但几乎没有人目击过这种情况。它天敌是喜欢安静的 摔角鹰人 ，它们时不时就会起争执。如果撞见在树上寻找树果的 圈圈熊 ，那也免不了一场纠纷。它仅是感觉到他方的视线都会暴怒起来，然后去追与它对上视线的家伙。如果在它睡觉时靠近，它会睡眼惺忪地发怒，然后不明所以地追过来。比起其他宝可梦，它的脑血管更加坚固，就算持续发怒也能精力充沛。暴怒会促进血液循环，让肌肉的力量变得更强，但是大脑的运转会变慢。因为太过生气以致于就这么死去，这种事也是有的。但死的时候表情很安详。根据某位研究者的论文，即使在精灵球里，火暴猴好像也在发怒。",
+  "flavor_text_en": "It stops being angry only when nobody else is around. To view this moment is very difficult.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 57,
+    "pokeapi_species_id": 57,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/57"
+  }
+}

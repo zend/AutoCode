@@ -1,0 +1,68 @@
+{
+  "entry_id": "1023",
+  "national_id": 1023,
+  "form": "default",
+  "names": {
+    "en": "Iron Crown",
+    "ja": "テツノカシラ",
+    "zh": "铁头壳"
+  },
+  "generation": 9,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "types_zh": [
+    "钢",
+    "超能力"
+  ],
+  "category": "パラドックスポケモン",
+  "category_zh": "悖谬宝可梦",
+  "abilities": [
+    {
+      "name_en": "quark-drive",
+      "name_zh": "夸克充能",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 156.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 10,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 295,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 72,
+    "defense": 100,
+    "special_attack": 122,
+    "special_defense": 108,
+    "speed": 98,
+    "total": 590
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "蓝莓": 238
+  },
+  "flavor_text_zh": "铁头壳有着发出S形光芒的角，与超自然杂志中介绍的名为 勾帕路翁 型最新兵器的神秘物体长得很相似。 据说铁头壳曾经用独特的角射出发光的刀刃砍断了周围的一切，但无其他信息，身份不明。 [ 1 ]",
+  "flavor_text_en": "There was supposedly an incident in which it launched shining blades to cut everything around it to pieces. Little else is known about it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1023,
+    "pokeapi_species_id": 1023,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1023"
+  }
+}

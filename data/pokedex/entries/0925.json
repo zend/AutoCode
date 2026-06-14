@@ -1,0 +1,89 @@
+{
+  "entry_id": "0925",
+  "national_id": 925,
+  "form": "default",
+  "names": {
+    "en": "Maushold",
+    "ja": "イッカネズミ",
+    "zh": "一家鼠"
+  },
+  "generation": 9,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ファミリーポケモン",
+  "category_zh": "家族宝可梦",
+  "abilities": [
+    {
+      "name_en": "friend-guard",
+      "name_zh": "友情防守",
+      "hidden": false
+    },
+    {
+      "name_en": "cheek-pouch",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "technician",
+      "name_zh": "技术高手",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.8,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 75,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 165,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 74,
+    "attack": 75,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 75,
+    "speed": 111,
+    "total": 470
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 924,
+        "name_en": "tandemaus",
+        "name_zh": "一对鼠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 72,
+    "北上": 98
+  },
+  "flavor_text_zh": "一家鼠是一对鼠在进化时不知不觉之间多了小孩。一般会多两个小孩，组成四只为一个家庭，也可能多一个小孩，组成三只为一个家庭。虽然像一家子一样生活，但互相之间的关系仍是个迷，真相如何没人知道。它会制造巨大的巢穴，并根据用途来分出多个房间，包含寝室、餐厅等等。身型大的两只会一边保护孩子一边战斗，对抗强大的对手时会集体出阵。",
+  "flavor_text_en": "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 925,
+    "pokeapi_species_id": 925,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/925"
+  }
+}

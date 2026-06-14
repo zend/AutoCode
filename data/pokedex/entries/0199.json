@@ -1,0 +1,95 @@
+{
+  "entry_id": "0199",
+  "national_id": 199,
+  "form": "default",
+  "names": {
+    "en": "Slowking",
+    "ja": "ヤドキング",
+    "zh": "呆呆王"
+  },
+  "generation": 2,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "types_zh": [
+    "水",
+    "超能力"
+  ],
+  "category": "おうじゃポケモン",
+  "category_zh": "王者宝可梦",
+  "abilities": [
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 79.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 70,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 172,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 80,
+    "special_attack": 100,
+    "special_defense": 110,
+    "speed": 30,
+    "total": 490
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 79,
+        "name_en": "slowpoke",
+        "name_zh": "呆呆兽",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 82,
+    "阿罗拉": 39,
+    "帕底亚": 326,
+    "密阿雷": 139
+  },
+  "flavor_text_zh": "呆呆王进化后改由双足站立，脖子上围有橘白相间类似雨伞的构造。头上的 大舌贝 的眼睛在背后，大舌贝的反面有一个红色类似宝石的构造。伽勒尔的呆呆王脖子上围有紫灰相间类似雨伞的构造。头上的大舌贝身上散布着若干紫色斑点，它的体积比原来的要更大一点，覆盖了呆呆王本来的眼睛，大舌贝原来在背后的眼睛转移到前面，在眼睛的上面有一个绿色的类似宝石的构造，大舌贝左右两侧各伸出一个类似角的构造。伽勒尔呆呆王的双手和尾巴的末端变成紫色。 呆呆王是由因被大舌贝咬时毒素流遍了呆呆兽的脑子，而奇迹般地唤醒了它潜在的智慧，令其非凡能力觉醒的呆呆兽进化而来的宝可梦。被大舌贝咬到后的毒素影响，它的智力上升到了与世界顶级科学家相媲美的水准，能自由自在地操纵精神力量。它有着非凡的智慧和灵感。在它打哈欠的时候，咬在脑袋上的大舌贝就会注入毒素，令智慧提升。脑海中经常会涌现出一些像是改变世界的想法，但不久后会依次忘记。虽然每天都在为解开世界上的谜团进行着研究，但把头上的大舌贝摘掉后，好像就会把研究成果忘得一干二净。呆呆王被称为大海的贤者。不论何时它都会不慌不忙，一副悠然自得的样子。也有地区流传着“迷路就问呆呆王”的俗语，可见它因聪明而广为人知。虽然无论向呆呆王提出什么难题它都会帮忙解决，但是谁都无法理解它的语言。它也会去和 智挥猩 比拼智力，但结果多是不分上下。 被大舌贝咬所产生的刺激，使伽勒尔地区的呆呆兽脑内分泌的化学物质与体内的香料发生了变质，于是进化成了毒属性的呆呆王。受到进化的冲击和毒素的影响，大舌贝的智力也大幅提升。其使出的精神力量非常强大，甚至超越了其他超能力宝可梦，飙升到了可以控制呆呆王的程度。已经确认到伽勒尔地区的呆呆王们在互相交流时，会用咒语来对话。并且在对战中使出招式时，伽勒尔地区的呆呆王也会咏唱神秘的咒语。它也会一边咏唱诡异的咒语，一边混合吃掉的东西和体内的毒素来制造可疑的药。这些咒语的内容到底是什么，目前还没有人能够给出答案。 [ 1 ]",
+  "flavor_text_en": "Slowking can solve any problem presented to it, but no one can understand a thing Slowking says.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 199,
+    "pokeapi_species_id": 199,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/199"
+  }
+}

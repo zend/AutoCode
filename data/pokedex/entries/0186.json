@@ -1,0 +1,90 @@
+{
+  "entry_id": "0186",
+  "national_id": 186,
+  "form": "default",
+  "names": {
+    "en": "Politoed",
+    "ja": "ニョロトノ",
+    "zh": "蚊香蛙皇"
+  },
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "かえるポケモン",
+  "category_zh": "蛙宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-absorb",
+      "name_zh": "储水 / 或 / 湿气",
+      "hidden": false
+    },
+    {
+      "name_en": "damp",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "drizzle",
+      "name_zh": "降雨",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 33.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 225,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 75,
+    "defense": 75,
+    "special_attack": 90,
+    "special_defense": 100,
+    "speed": 70,
+    "total": 500
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 61,
+        "name_en": "poliwhirl",
+        "name_zh": "蚊香君",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 75,
+    "阿罗拉": 152,
+    "北上": 42
+  },
+  "flavor_text_zh": "蚊香蛙皇身体绝大部分是青色的。它的头上长出了一个卷毛，下巴、腹部、手掌和三个脚趾都是黄色的。它的腹部中有一个青色的蚊香状花纹，脸颊是粉红色的。和雄性相比，雌性蚊香蛙皇的脸颊更短。 蚊香蛙皇是蚊香蝌蚪和蚊香君的头领，头上的卷毛是王者的证明。据说卷毛越长、卷得越漂亮、长得越仪表堂堂的蚊香蛙皇，就越是能受到伙伴的尊敬，领导更多的蚊香蝌蚪和蚊香君。它的叫声能让蚊香蝌蚪们都对它服服帖帖，只要一声吼，大家都吓得伏在地上一动不动。它夜幕降临时便会出现在池塘边，把喉咙鼓大后发出发出怒吼般的叫声来强调那是自己的地盘。叫声响彻四周后，附近的蚊香蝌蚪和蚊香君们就会立刻从各地聚集过来。三只以上的蚊香蛙皇聚在一起后，就一定会用怒吼般的叫声开始合唱。雄性的叫声更响亮，叫声低沉可怕的蚊香蛙皇更能受到雌性的欢迎。它们也会在有月亮的夜晚聚集起来大合唱。那鸣叫声如怒吼般，并不美妙，但却别有韵味，某位作曲家受其影响创作了优美的叙事曲。",
+  "flavor_text_en": "The cry of a male is louder than that of a female. Male Politoed with deep, menacing voices find more popularity with the opposite gender.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 186,
+    "pokeapi_species_id": 186,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/186"
+  }
+}

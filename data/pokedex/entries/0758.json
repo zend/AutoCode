@@ -1,0 +1,90 @@
+{
+  "entry_id": "0758",
+  "national_id": 758,
+  "form": "default",
+  "names": {
+    "en": "Salazzle",
+    "ja": "エンニュート",
+    "zh": "焰后蜥"
+  },
+  "generation": 7,
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "types_zh": [
+    "毒",
+    "火"
+  ],
+  "category": "どくトカゲポケモン",
+  "category_zh": "毒蜥宝可梦",
+  "abilities": [
+    {
+      "name_en": "corrosion",
+      "name_zh": "腐蚀",
+      "hidden": false
+    },
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 22.2,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 64,
+    "defense": 60,
+    "special_attack": 111,
+    "special_defense": 60,
+    "speed": 117,
+    "total": 480
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 757,
+        "name_en": "salandit",
+        "name_zh": "夜盗火蜥",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 162,
+    "伽勒尔": 245,
+    "帕底亚": 121,
+    "北上": 169
+  },
+  "flavor_text_zh": "比起进化前的夜盗火蜥，焰后蜥更加高挑纤细，同时也变得适应于双足站立。腹部有紫红色的花边纹理，腰部还有一对柔软飘逸的绫状物。焰后蜥只有雌性，也没有对应的雄性宝可梦与它配对。雄性 夜盗火蜥 基本对雌性唯命是从，获得的食物也基本都会上缴，所以因营养不足而无法进化。 焰后蜥居住在洞窟的深处，能分泌费洛蒙让那些因费洛蒙而着迷的 夜盗火蜥 对自己唯命，侍奉自己。它会以妖艳的身姿诱惑被它的毒瓦斯弄得头昏眼花的对手，使其成为自己忠实的仆人。它如同强势而专横的女王，统御着多只雄性夜盗火蜥为自己效命，组成逆后宫一起生活。对于没有猎获食物的夜盗火蜥，焰后蜥会用喷火的手掌猛烈地打它们的耳光，以作惩罚。据说焰后蜥之间在争斗时，是通过比拼谁带着更多只雄性夜盗火蜥来定胜负的。焰后蜥的群体之间一旦碰上彼此，就会利用费洛蒙气体来展开雄性争夺战。它的毒瓦斯中含有很多的费洛蒙，稀释以后可以制作成性感的香水。",
+  "flavor_text_en": "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 758,
+    "pokeapi_species_id": 758,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/758"
+  }
+}

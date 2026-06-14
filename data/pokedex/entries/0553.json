@@ -1,0 +1,94 @@
+{
+  "entry_id": "0553",
+  "national_id": 553,
+  "form": "default",
+  "names": {
+    "en": "Krookodile",
+    "ja": "ワルビアル",
+    "zh": "流氓鳄"
+  },
+  "generation": 5,
+  "types": [
+    "ground",
+    "dark"
+  ],
+  "types_zh": [
+    "地面",
+    "恶"
+  ],
+  "category": "いかくポケモン",
+  "category_zh": "威吓宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 自信过度",
+      "hidden": false
+    },
+    {
+      "name_en": "moxie",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "anger-point",
+      "name_zh": "愤怒穴位",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 96.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 234,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 117,
+    "defense": 80,
+    "special_attack": 65,
+    "special_defense": 70,
+    "speed": 92,
+    "total": 519
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 552,
+        "name_en": "krokorok",
+        "name_zh": "混混鳄",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 59,
+    "阿罗拉": 234,
+    "帕底亚": 269,
+    "蓝莓": 29,
+    "密阿雷": 124
+  },
+  "flavor_text_zh": "流氓鳄的肤色从浅褐色变为了深红色。它有著又长又有力的下颚，腹部呈白色，身上有许多黑色条纹，手脚各有三个锐利的爪子。 流氓鳄是性格非常粗暴的宝可梦，被称为沙之恶霸，遇见它的猎物无处可逃。它虽然凶暴，但也有擅长忍耐的一面，会把身体藏在 沙漠蜻蜓 引起的沙暴中，为了捕获猎物在沙子里静静等上好几天。它拥有特殊的双眼，可以像望远镜一般放大远处的事物，即使在沙暴中也能发现前方50公里处的小猎物。如果发现前方50公里处的猎物，就会像游泳一样在沙漠里移动，扑过去咬住。它拥有可以咬烂汽车车身的强力颚部，会用强力的颚咬住后对方后拼命扭转身体，将猎物切断，就连厚厚的铁板也能用强力的颚轻松咬断。",
+  "flavor_text_en": "While terribly aggressive, Krookodile also has the patience to stay hidden under sand for days, lying in wait for prey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 553,
+    "pokeapi_species_id": 553,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/553"
+  }
+}

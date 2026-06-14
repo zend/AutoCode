@@ -1,0 +1,98 @@
+{
+  "entry_id": "0541",
+  "national_id": 541,
+  "form": "default",
+  "names": {
+    "en": "Swadloon",
+    "ja": "クルマユ",
+    "zh": "宝包茧"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "types_zh": [
+    "虫",
+    "草"
+  ],
+  "category": "はごもりポケモン",
+  "category_zh": "足不出叶宝可梦",
+  "abilities": [
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "叶子防守 / 或 / 叶绿素",
+      "hidden": false
+    },
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 7.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 133,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 63,
+    "defense": 90,
+    "special_attack": 50,
+    "special_defense": 80,
+    "speed": 42,
+    "total": 380
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 540,
+        "name_en": "sewaddle",
+        "name_zh": "虫宝包",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 542,
+        "name_en": "leavanny",
+        "name_zh": "保姆虫",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 47,
+    "北上": 14
+  },
+  "flavor_text_zh": "宝包茧的身体外侧被由叶子制成的衣物包裹得严严实实，仅有面部五官揭露在外。位于宝包茧的头顶的叶衣呈现向外延伸的剪刀状结构，犹如触角；宝包茧躯体下方的两侧垫着两片形似云朵状、具三个端头的倒卵状叶片。 宝包茧喜欢待在阴暗潮湿的地方，在树木根部静静生活。它能通过头上的叶子感受空气的流动来探测周围事物。它用叶子包裹身体来保护自身，抵御寒冷。它一边靠食用自己身边的落叶度过终日，一边在森林里移动。比起新鲜的叶子，它更爱吃变软的落叶。因为它会把落叶转换成养分，所以它居住的森林总是草木繁茂。",
+  "flavor_text_en": "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 541,
+    "pokeapi_species_id": 541,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/541"
+  }
+}

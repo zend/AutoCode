@@ -1,0 +1,90 @@
+{
+  "entry_id": "0296",
+  "national_id": 296,
+  "form": "default",
+  "names": {
+    "en": "Makuhita",
+    "ja": "マクノシタ",
+    "zh": "幕下力士"
+  },
+  "generation": 3,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "こんじょうポケモン",
+  "category_zh": "毅力宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 毅力",
+      "hidden": false
+    },
+    {
+      "name_en": "guts",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 86.4,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 180,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 47,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 60,
+    "defense": 30,
+    "special_attack": 20,
+    "special_defense": 30,
+    "speed": 25,
+    "total": 237
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 297,
+        "name_en": "hariyama",
+        "name_zh": "铁掌力士",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 48,
+    "阿罗拉": 56,
+    "帕底亚": 116
+  },
+  "flavor_text_zh": "幕下力士全身基本上都是黄色，双手处是像拳击手套一样的灰色，脖子处系了一块“餐巾”，眼睛是眯着的。 幕下力士每天早上醒来后大家一起训练，到了中午就吃东西午睡，醒来后又继续训练。通过多吃饭、好好睡觉以及足够的运动，体内就会充满能量，在反复进行严格训练的过程中会逐渐变强。它喜欢锻炼身体胜过于任何事物，当你在洞窟里听见地面发出声响的时候，那就是幕下力士正在锻炼的声音。它会撞击粗壮的树干来锻炼强韧的身躯和不气馁的心，反复练习巴掌招数，住处附近随处可见折断的树木。有时会因为朝着 椰蛋树 练习巴掌招数而被扔飞。它有着决不放弃的毅力，能承受任何攻击。不管被打倒几次都不会放弃，会顽强地站起来。每一次站起来，体内就会不断地积蓄用于进化的能量。 腕力 在和伙伴们的锻炼中获得了自信和肌肉后，就会去向幕下力士挑战。幕下力士最早是从其他地区被带到阿罗拉来的，但现在阿罗拉的幕下力士比较有名。据说为了培育强大的幕下力士，存在着一种训练家们按传统手法制作的火锅料理。",
+  "flavor_text_en": "There’s a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 296,
+    "pokeapi_species_id": 296,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/296"
+  }
+}

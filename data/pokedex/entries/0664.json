@@ -1,0 +1,89 @@
+{
+  "entry_id": "0664",
+  "national_id": 664,
+  "form": "default",
+  "names": {
+    "en": "Scatterbug",
+    "ja": "コフキムシ",
+    "zh": "粉蝶虫"
+  },
+  "generation": 6,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "こなふきポケモン",
+  "category_zh": "喷粉宝可梦",
+  "abilities": [
+    {
+      "name_en": "shield-dust",
+      "name_zh": "鳞粉 / 或 / 复眼",
+      "hidden": false
+    },
+    {
+      "name_en": "compound-eyes",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "friend-guard",
+      "name_zh": "友情防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 40,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 35,
+    "defense": 40,
+    "special_attack": 27,
+    "special_defense": 25,
+    "speed": 35,
+    "total": 200
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 665,
+        "name_en": "spewpa",
+        "name_zh": "粉蝶蛹",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 35,
+    "密阿雷": 15
+  },
+  "flavor_text_zh": "粉蝶虫是一种黑褐色的幼虫，头顶和脖子处分别有三根和一团白色的毛发，脖子周围的毛上还有黑色的毒粉。它有三对浅褐色的短腿，尾部有一块浅褐色斑块。它的眼睛向内凹，呈褐色，瞳孔是黑色的方块，嘴里一直露出一颗门牙。 粉蝶虫覆盖身体的粉末能调节体温，所以无论在什么地域和气候下都能生活。依据栖息的土地不同，它吃的植物也会不同。吸入体内的毒素会变成黑色的粉末被排出体外，所以它可以吃毒叶和毒树根。如果它被鸟宝可梦袭击，就会挥撒一旦接触就会麻痹的黑色毒粉。",
+  "flavor_text_en": "The powder that covers its body regulates its temperature, so it can live in any region or climate.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 664,
+    "pokeapi_species_id": 664,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/664"
+  }
+}

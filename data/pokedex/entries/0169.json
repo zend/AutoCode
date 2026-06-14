@@ -1,0 +1,89 @@
+{
+  "entry_id": "0169",
+  "national_id": 169,
+  "form": "default",
+  "names": {
+    "en": "Crobat",
+    "ja": "クロバット",
+    "zh": "叉字蝠"
+  },
+  "generation": 2,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "types_zh": [
+    "毒",
+    "飞行"
+  ],
+  "category": "こうもりポケモン",
+  "category_zh": "蝙蝠宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 75.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 241,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 90,
+    "defense": 80,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 130,
+    "total": 535
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 42,
+        "name_en": "golbat",
+        "name_zh": "大嘴蝠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 39,
+    "丰缘": 65,
+    "神奥": 30,
+    "阿罗拉": 70,
+    "洗翠": 36
+  },
+  "flavor_text_zh": "叉字蝠全身都是紫色，而翼的内侧却是青色的。在它的翼上可以见到三个爪子。它的头与腹部都结合在一起。它有两对翅膀，形成一个“X”形。下面的翅膀比上面的要小一些。它的眼睛是黄色的，瞳孔是红色的，嘴巴则是一个三角形。头上有两个向后的耳朵。 叉字蝠为了追求更快更安静地飞行，结果后肢也长成了翅膀，飞行能力有了飞跃性的提升。但是它走路却变得很笨拙，想停下来休息就很难了，只能爬着到处活动，用相当于后肢的翅膀抓住树枝休息。四肢的翅膀交替休息扇动的话，就可以一整天不休息地飞行。只使用前肢或后肢挥动翅膀时，就表示它已经飞行了很长距离。它还善于巧妙操纵四根翅膀，在洞窟内的狭缝中也能速度不减地一飞而过。它在夜幕降临后就会开始活动，能用小到不仔细听就无法听到的振翅声悄悄接近它盯上的猎物，就算它从身旁飞过也不会察觉。人和宝可梦的鲜血是其食物，它会在被发现之前亮出牙齿一口咬向猎物的后颈，一瞬间就把血都吸掉。它的牙齿锋利，就算在黑暗中被它咬住汲取也不会感到疼痛，所以无法立刻发觉。如果不吸上一口，就会衰弱得无法飞行。",
+  "flavor_text_en": "Its hind limbs have become another set of wings. Crobat expertly maneuvers its four wings to dart in exquisite fashion through even the most confined caves without losing any speed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 169,
+    "pokeapi_species_id": 169,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/169"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "entry_id": "1000",
+  "national_id": 1000,
+  "form": "default",
+  "names": {
+    "en": "Gholdengo",
+    "ja": "サーフゴー",
+    "zh": "赛富豪"
+  },
+  "generation": 9,
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "types_zh": [
+    "钢",
+    "幽灵"
+  ],
+  "category": "たからものポケモン",
+  "category_zh": "宝者宝可梦",
+  "abilities": [
+    {
+      "name_en": "good-as-gold",
+      "name_zh": "黄金之躯",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 30.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 275,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 87,
+    "attack": 60,
+    "defense": 95,
+    "special_attack": 133,
+    "special_defense": 91,
+    "speed": 84,
+    "total": 550
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 999,
+        "name_en": "gimmighoul",
+        "name_zh": "索财灵",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 392
+  },
+  "flavor_text_zh": "据说赛富豪的身体由1000枚硬币组成，是通过附在1000枚硬币上的思念而进化的。它性情活泼又开朗，对人和宝可梦都很友好。它十分喜爱热闹的地方，因此也会有居住在城镇的野生赛富豪。它会控制组成身体的硬币进行活动，对战时也把硬币当做武器使用。密集的硬币让它的身体非常结实，受到敌人攻击的部位会通过散落硬币来吸收冲击，从而减轻伤害。从身体的任何地方都能发射硬币来进行攻击。 [ 1 ]",
+  "flavor_text_en": "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1000,
+    "pokeapi_species_id": 1000,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1000"
+  }
+}

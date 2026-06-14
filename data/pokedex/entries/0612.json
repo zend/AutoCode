@@ -1,0 +1,93 @@
+{
+  "entry_id": "0612",
+  "national_id": 612,
+  "form": "default",
+  "names": {
+    "en": "Haxorus",
+    "ja": "オノノクス",
+    "zh": "双斧战龙"
+  },
+  "generation": 5,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "あごオノポケモン",
+  "category_zh": "颚斧宝可梦",
+  "abilities": [
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心 / 或 / 破格",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "紧张感",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 105.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 243,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 76,
+    "attack": 147,
+    "defense": 90,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 97,
+    "total": 540
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 611,
+        "name_en": "fraxure",
+        "name_zh": "斧牙龙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 118,
+    "伽勒尔": 326,
+    "帕底亚": 157,
+    "蓝莓": 142
+  },
+  "flavor_text_zh": "双斧战龙全身被坚硬的铠甲覆盖着，有着即使切斩工字钢也不会伤刃的坚固牙齿。它身上有着一些条纹，大部分颜色为橄榄绿，利牙最尖锐部分、手指、脚趾为红色，其余部分为黑色。脖颈处有一节节的刺。它的身体从头部到脖子的部位慢慢分出一节节的结构，尾巴也相对更长了。 双斧战龙会把洞窟或废矿山当成睡床。它性格温和，可一旦被摸到牙齿就会暴怒，生起气来非常恐怖。它对于入侵领地者绝不会手软，会用自己那引以为傲、削铁如泥的牙齿发起挑战攻击敌人。它的利齿有着超群的破坏力，獠牙的锋利程度无与伦比，又粗又硬的钢铁柱子也能轻轻松松地劈断。坚固的大牙是它的骄傲。为了保持牙齿的强度，它会舔泥土来补充矿物质。",
+  "flavor_text_en": "While usually kindhearted, it can be terrifying if angered. Tusks that can slice through steel beams are how Haxorus deals with its adversaries.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 612,
+    "pokeapi_species_id": 612,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/612"
+  }
+}

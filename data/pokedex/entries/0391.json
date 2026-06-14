@@ -1,0 +1,97 @@
+{
+  "entry_id": "0391",
+  "national_id": 391,
+  "form": "default",
+  "names": {
+    "en": "Monferno",
+    "ja": "モウカザル",
+    "zh": "猛火猴"
+  },
+  "generation": 4,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "types_zh": [
+    "火",
+    "格斗"
+  ],
+  "category": "やんちゃポケモン",
+  "category_zh": "顽皮宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 22.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 78,
+    "defense": 52,
+    "special_attack": 78,
+    "special_defense": 52,
+    "speed": 81,
+    "total": 405
+  },
+  "ev_yield": {
+    "special_attack": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 390,
+        "name_en": "chimchar",
+        "name_zh": "小火焰猴",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 392,
+        "name_en": "infernape",
+        "name_zh": "烈焰猴",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 5,
+    "洗翠": 62,
+    "蓝莓": 195
+  },
+  "flavor_text_zh": "猛火猴是橙色的猴类宝可梦，它的耳朵、嘴巴、手脚和腹部都是偏暗的肉色。猛火猴的脸上有红色和蓝色的类似脸谱的花纹，脸上蓝色越深，实力越是强横。它的脖子周围有一圈白色的毛发，腹部有漩涡花纹。 猛火猴会灵活地在四周上窜下跳，利用天花板和墙壁使出空中攻击，尾部的火焰也是武器之一。它会通过拉长尾部的火焰使自己看起来更加高大，以此威吓来袭的敌人。它能熟练控制尾部火焰的大小，以自己擅长的距离进行战斗。尾部火焰的大小和蓝色面纹的鲜艳程度决定在族群内地位的高低。它们即使在群体中也不断追求强大，为此会寻求严酷的环境。",
+  "flavor_text_en": "The deeper the blue on its face, the more powerful it will grow to become. It leaps about every which way and lands powerful blows against its opponents with the flame on its tail.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 391,
+    "pokeapi_species_id": 391,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/391"
+  }
+}

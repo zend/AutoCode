@@ -1,0 +1,98 @@
+{
+  "entry_id": "0732",
+  "national_id": 732,
+  "form": "default",
+  "names": {
+    "en": "Trumbeak",
+    "ja": "ケララッパ",
+    "zh": "喇叭啄鸟"
+  },
+  "generation": 7,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "ラッパぐちポケモン",
+  "category_zh": "喇叭喙宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 连续攻击",
+      "hidden": false
+    },
+    {
+      "name_en": "skill-link",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 14.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 124,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 85,
+    "defense": 50,
+    "special_attack": 40,
+    "special_defense": 50,
+    "speed": 75,
+    "total": 355
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 731,
+        "name_en": "pikipek",
+        "name_zh": "小笃儿",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 733,
+        "name_en": "toucannon",
+        "name_zh": "铳嘴大鸟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 11,
+    "蓝莓": 48
+  },
+  "flavor_text_zh": "喇叭啄鸟比起小笃儿体型要大了一些，依然有着深色的羽毛以及尖尖的嘴巴，它背面的羽毛以及颈部的羽毛的颜色是白色的，头部的羽毛向后延伸，其有着锐利的爪子，以及短短的尾巴。 喇叭啄鸟会把吃掉的树果的种子储藏在鸟嘴里。遇到敌人或猎物时，就一口气把大量储藏在鸟嘴里的树果种子呈放射状地发射出去。种子散落在大地上，新的草木便会生长出来。它嘟起鸟嘴的嘴尖，可以自由地叫出100种以上的声音，一边灵活运用100种叫声宣示自己的地盘，一边飞来飞去。因为相当吵闹，所以周围的居民们很讨厌它。",
+  "flavor_text_en": "From its mouth, it fires the seeds of berries it has eaten. The scattered seeds give rise to new plants.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 732,
+    "pokeapi_species_id": 732,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/732"
+  }
+}

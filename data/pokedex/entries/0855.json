@@ -1,0 +1,85 @@
+{
+  "entry_id": "0855",
+  "national_id": 855,
+  "form": "default",
+  "names": {
+    "en": "Polteageist",
+    "ja": "ポットデス",
+    "zh": "怖思壶"
+  },
+  "generation": 8,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "こうちゃポケモン",
+  "category_zh": "红茶宝可梦",
+  "abilities": [
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": false
+    },
+    {
+      "name_en": "cursed-body",
+      "name_zh": "咒术之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.4,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 60,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 178,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "矿物",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 134,
+    "special_defense": 114,
+    "speed": 70,
+    "total": 508
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 854,
+        "name_en": "sinistea",
+        "name_zh": "来悲茶",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 336,
+    "帕底亚": 238,
+    "蓝莓": 128
+  },
+  "flavor_text_zh": "主页面： 形态变化 → 来悲茶和怖思壶 怖思壶住在古董茶壶里，身体由红茶构成。虽然大多数都是赝品，但偶尔也能发现真货。相比赝品形态，真品形态的底部有底款，但平时由于视角问题难以辨别，通过 极巨化 等手段可以更清楚地辨别。每当发现喝剩的红茶，它就会把自己的身体倒进去，让那壶红茶变成怖思壶。不管住在什么茶壶里，对它都不会有影响，但原本的红茶却似乎会给它的性情带来变化。 怖思壶的头上有一个类似漩涡状的斑纹。 许多怖思壶会混入酒店及餐厅的大堆餐具之中，以拟态的形式生活。因为怖思壶有着往喝剩的红茶里注入自身力量，借此增加自己同伴的能力，所以多数情况下它很不受欢迎。据说它的红茶有着独特的味道与茶香，口感和香味十分独特。会让自己信赖的训练家稍稍地品尝一下味道。需要注意的是，如果喝过头的话，有可能会引起胃胀胃痛等身体不适的状况。 [ 2 ] 虽然喝下它会有危险，但味道很好，不怕危险的美食家们每天都喝怖思壶。它生气时会朝对方的嘴里喷射自己茶一样的身体，一旦喝下便会遭到恶寒侵袭。",
+  "flavor_text_en": "Leaving leftover black tea unattended is asking for this Pokémon to come along and pour itself into it, turning the tea into a new Polteageist.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 855,
+    "pokeapi_species_id": 855,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/855"
+  }
+}

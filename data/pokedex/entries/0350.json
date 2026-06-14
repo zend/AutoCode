@@ -1,0 +1,94 @@
+{
+  "entry_id": "0350",
+  "national_id": 350,
+  "form": "default",
+  "names": {
+    "en": "Milotic",
+    "ja": "ミロカロス",
+    "zh": "美纳斯"
+  },
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "いつくしみポケモン",
+  "category_zh": "慈爱宝可梦",
+  "abilities": [
+    {
+      "name_en": "marvel-scale",
+      "name_zh": "神奇鳞片 / 或 / 好胜",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 6.2,
+  "weight_kg": 162.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 189,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 60,
+    "defense": 79,
+    "special_attack": 100,
+    "special_defense": 125,
+    "speed": 81,
+    "total": 540
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 349,
+        "name_en": "feebas",
+        "name_zh": "丑丑鱼",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 141,
+    "神奥": 139,
+    "阿罗拉": 156,
+    "伽勒尔": 153,
+    "北上": 159
+  },
+  "flavor_text_zh": "美纳斯的外表与海蛇相似。它的身体是奶油色，有红色的眼睛，脖子下方有三个黑点。它的头比较长，头顶有一个突起。它的眉毛从身体延伸出去，与眼睑相连的地方是奶油色，其余大部分为红色。此外还有红色的发状鳍遮盖在头的两边。它的尾巴被蓝色和粉色的鳞片覆盖，带有黑色的条纹。重叠在尾巴末端的四片蓝色的大鳞片中央有红色的椭圆形花纹。雄性美纳斯的眉毛下垂的部分更短。 美纳斯栖息在清澈大湖的湖底，据说当人们开始争斗时会自湖底现身，治愈人们躁动的心并平息争斗。它号称彩虹色的美丽鳞片只要从不同的方向观看，就会变化为各种颜色。身上发出鲜艳的粉红色光辉时，就会放出能安抚暴躁之心的波动。据说见过美纳斯优美的身姿后，心中一切的愤恨都能得到抚慰，把争斗的情绪忘得一干二净。据说它是最美的宝可梦，对于因喜爱丑丑鱼而培育它的训练家，好像很微妙。它也被当作绘画与雕刻的对象，一直给予许多艺术家灵感。",
+  "flavor_text_en": "It’s said that a glimpse of a Milotic and its beauty will calm any hostile emotions you’re feeling.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 350,
+    "pokeapi_species_id": 350,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/350"
+  }
+}

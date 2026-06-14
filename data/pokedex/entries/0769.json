@@ -1,0 +1,86 @@
+{
+  "entry_id": "0769",
+  "national_id": 769,
+  "form": "default",
+  "names": {
+    "en": "Sandygast",
+    "ja": "スナバァ",
+    "zh": "沙丘娃"
+  },
+  "generation": 7,
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "types_zh": [
+    "幽灵",
+    "地面"
+  ],
+  "category": "すなやまポケモン",
+  "category_zh": "沙丘宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-compaction",
+      "name_zh": "遇水凝固",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 70.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 140,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 64,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 80,
+    "special_attack": 70,
+    "special_defense": 45,
+    "speed": 15,
+    "total": 320
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 770,
+        "name_en": "palossand",
+        "name_zh": "噬沙堡爷",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 186,
+    "帕底亚": 322
+  },
+  "flavor_text_zh": "沙丘娃看上去是一堆土黄色的沙子，它眼睛的周围是黑色的，嘴巴是通到背后的一个大洞。它的两边各有堆小沙丘，头顶上插着一把红色的铲子。 沙丘娃主要栖息在沙滩上，是由倒下的宝可梦等的怨念附在孩子们堆砌的沙丘上诞生而成，而沙堆本身正是沙丘娃的真身。它很喜欢头上的小铲子，会和回来拿的孩子打架，互相打着打着就当真了。若不小心抓住沙丘娃的铲子，身体便会被操控。沙丘娃会通过此力量操纵孩子们把沙堆砌起来，令自己的身体变大。也会有失去铲子，插着代替的树枝或旗帜等好让它在找到新铲子前分散注意力的沙丘娃，那些沙丘娃据说会四处游荡搜寻自己的铲子。它会通过隧道形的嘴巴，吸取人类及宝可梦的精气。将手伸入其口中就会被其操纵，它这样做是为了让沙丘的身体变大。在阿罗拉地区，把手放进沙丘娃的嘴巴好像是一种测试胆量的方法。 [ 1 ] 它会用沙子攻击猎物的眼睛后趁机接近，但却总是因为行动缓慢而让猎物逃走。",
+  "flavor_text_en": "Sandygast mainly inhabits beaches. It takes control of anyone who puts their hand into its mouth, forcing them to make its body bigger.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 769,
+    "pokeapi_species_id": 769,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/769"
+  }
+}

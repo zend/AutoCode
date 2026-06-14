@@ -1,0 +1,87 @@
+{
+  "entry_id": "0355",
+  "national_id": 355,
+  "form": "default",
+  "names": {
+    "en": "Duskull",
+    "ja": "ヨマワル",
+    "zh": "夜巡灵"
+  },
+  "generation": 3,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "おむかえポケモン",
+  "category_zh": "渡魂宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 15.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 59,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 40,
+    "defense": 90,
+    "special_attack": 30,
+    "special_defense": 90,
+    "speed": 25,
+    "total": 295
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 356,
+        "name_en": "dusclops",
+        "name_zh": "彷徨夜灵",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 148,
+    "神奥": 189,
+    "伽勒尔": 135,
+    "洗翠": 158,
+    "北上": 139
+  },
+  "flavor_text_zh": "夜巡灵有一个类似人类颅骨的面具，面具顶端为尖端，有三颗牙齿和两个大眼窝，眼窝里有著黑色的身体和一只红色的眼睛。它头上有著磷火状的部分连著头部，背后有两个形似股骨状的白色印记，两手较短阔且一直贴著身后。在它身体下方有著云朵状的脚。 夜巡灵隐匿在深夜的黑暗中，四处游荡着，具有夜行习惯。它会让身体变透明，然后偷偷地靠近猎物。它的性格十分执着，会无止境地追逐猎物，直到第二天早上太阳升起。被它那鲜红的独眼瞪着吸收生物能量时，就会受到恶寒侵袭。即使是强壮的大人，身体也会瞬间无法动弹。它最爱小孩的生物能量，非常喜欢小孩子的哭声，会为了寻找孩子而在深夜的街上四处徘徊。它能够穿过厚厚的墙壁，把屋里的坏孩子吓哭。据说，一旦发现被妈妈斥责的不听话的孩子，就会在深夜被夜巡灵带去某个地方。洗翠的孩子们个个都相信夜巡灵会在丑时四处徘徊拐走恶童的怪谈，这让他们学会了改正自己的过错。",
+  "flavor_text_en": "I've heard that the children of Hisui all begin to behave once they've been told the story of how this Pokémon roams about before the witching hour to spirit away misbehaving children.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 355,
+    "pokeapi_species_id": 355,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/355"
+  }
+}

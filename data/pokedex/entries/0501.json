@@ -1,0 +1,85 @@
+{
+  "entry_id": "0501",
+  "national_id": 501,
+  "form": "default",
+  "names": {
+    "en": "Oshawott",
+    "ja": "ミジュマル",
+    "zh": "水水獭"
+  },
+  "generation": 5,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ラッコポケモン",
+  "category_zh": "海獭宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "硬壳盔甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 5.9,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 45,
+    "special_attack": 63,
+    "special_defense": 45,
+    "speed": 45,
+    "total": 308
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 502,
+        "name_en": "dewott",
+        "name_zh": "双刃丸",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 7,
+    "洗翠": 7,
+    "蓝莓": 206
+  },
+  "flavor_text_zh": "水水獭是海獭类的宝可梦。它的头和爪子都是白色，身体是蓝色，支撑身体的小脚是深蓝色。它的头上有两个深蓝色的尖状物，眼睛下面有类似于雀斑的黑点，还有一个褐色的椭圆形鼻子。它的腹部有贝壳状的 扇贝贝 ，可以摘下来使用。 水水獭腹部的扇贝贝成分和爪子相同，会将腹部贝壳作为兵刃斩击敌手，接了敌人的招式后会立马切斩反击。腹部长出的扇贝贝不只是战斗时使用，还可以拿下来当小刀使用，来割开坚硬的树果。据说它模仿了人类使用磨刀石的样子，变得会用河滩上的石头保养扇贝贝了。",
+  "flavor_text_en": "This Pokémon from the Unova region uses the shell on its belly as a weapon to cut down its foes. Thus, I've conferred upon this shell the name ”scalchop”.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 501,
+    "pokeapi_species_id": 501,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/501"
+  }
+}

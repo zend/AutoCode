@@ -1,0 +1,87 @@
+{
+  "entry_id": "0387",
+  "national_id": 387,
+  "form": "default",
+  "names": {
+    "en": "Turtwig",
+    "ja": "ナエトル",
+    "zh": "草苗龟"
+  },
+  "generation": 4,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "わかばポケモン",
+  "category_zh": "嫩叶宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "硬壳盔甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 10.2,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 64,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 68,
+    "defense": 64,
+    "special_attack": 45,
+    "special_defense": 55,
+    "speed": 31,
+    "total": 318
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 388,
+        "name_en": "grotle",
+        "name_zh": "树林龟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 1,
+    "洗翠": 130,
+    "蓝莓": 191
+  },
+  "flavor_text_zh": "草苗龟的身体是草绿色的。它有黄色的眼睛和下颌。绿色的身躯上有壳，头上的咖啡色斑点上长了一棵幼苗。背上的咖啡色龟壳上面有深褐色的条纹和外框。草苗龟有著黄色的脚和小小的尾巴。 草苗龟栖息在湖泊边沐浴着阳光，用全身进行光合作用制造氧气。阳光越是照耀，活力越是充沛。它背上的甲壳是由泥土形成的，喝水之后会变得更硬。摸上去如果感到湿润，说明那只草苗龟很有精神。如果口渴，头上的叶子就会枯萎。",
+  "flavor_text_en": "This Pokémon becomes more energetic the more sunlight there is. The part resembling a shell is similar to silt and is slightly damp and warm to the touch.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 387,
+    "pokeapi_species_id": 387,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/387"
+  }
+}

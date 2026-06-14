@@ -1,0 +1,87 @@
+{
+  "entry_id": "0390",
+  "national_id": 390,
+  "form": "default",
+  "names": {
+    "en": "Chimchar",
+    "ja": "ヒコザル",
+    "zh": "小火焰猴"
+  },
+  "generation": 4,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "こざるポケモン",
+  "category_zh": "小猴宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 6.2,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 44,
+    "attack": 58,
+    "defense": 44,
+    "special_attack": 58,
+    "special_defense": 44,
+    "speed": 61,
+    "total": 309
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 391,
+        "name_en": "monferno",
+        "name_zh": "猛火猴",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 4,
+    "洗翠": 61,
+    "蓝莓": 194
+  },
+  "flavor_text_zh": "睡觉中的小火焰猴，其身后的火焰熄灭 小火焰猴的皮毛以橙色为主，面部、外耳、腹部、手掌及脚掌则为浅黄色。小火焰猴有一双大耳朵，内耳呈红色。它的眼睛上方有半圈红色的花纹，胸口上有一个旋涡状的标记。它的屁股上燃烧着一团火焰，屁股上被火焰遮挡住的地方有着红色斑块。 小火焰猴是非常灵巧的宝可梦，生活在岩山之上，在悬崖峭壁间也能穿梭自如。它活力十足，时常充满斗志。屁屁的火焰以腹部产生的瓦斯为燃料，即使被雨淋到也不会熄灭。身体状况不好的话，火焰会变弱。在睡觉时为了不点燃周围的东西，它会将尾巴上的火苗熄灭。自古被人们称为“臀点灯”，当成鬼怪的一种恐惧着。",
+  "flavor_text_en": "Full of vigor and always in high spirits. It was once known by the name ”Lantern-Tail” and feared as some kind of apparition.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 390,
+    "pokeapi_species_id": 390,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/390"
+  }
+}

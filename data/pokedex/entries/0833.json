@@ -1,0 +1,92 @@
+{
+  "entry_id": "0833",
+  "national_id": 833,
+  "form": "default",
+  "names": {
+    "en": "Chewtle",
+    "ja": "カムカメ",
+    "zh": "咬咬龟"
+  },
+  "generation": 8,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "くいつきポケモン",
+  "category_zh": "咬住宝可梦",
+  "abilities": [
+    {
+      "name_en": "strong-jaw",
+      "name_zh": "强壮之颚 / 或 / 硬壳盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 8.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 57,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 64,
+    "defense": 50,
+    "special_attack": 38,
+    "special_defense": 38,
+    "speed": 44,
+    "total": 284
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 834,
+        "name_en": "drednaw",
+        "name_zh": "暴噬龟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 42,
+    "帕底亚": 57,
+    "北上": 183
+  },
+  "flavor_text_zh": "咬咬龟的外表看起来就像是一只乌龟，它有着大大的前牙，头部相对于背部的壳来说非常地大，其脸颊的周围有着圆形的咬肌，头顶则有着一只角，它的壳相对来说颜色比较暗淡，其有着四个短短的腿，以及不长不短的尾巴，眼睛上方的眉毛连成了一条线。 咬咬龟大大的门牙还未长全，有着不管看到什么都会咬上去的习性。这似乎是因为长门牙的时候会痒的缘故，牙齿发痒的时候会和伙伴们大口咬住彼此的角来玩。它会用头上硬如岩石的角攻击敌人，趁其不备之时大口咬住对方，一旦咬住便再也不会松口。拿起咬咬龟咬着的树枝，比赛哪只咬咬龟咬住不放的时间最久，是种在孩童之间很流行的游戏。",
+  "flavor_text_en": "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 833,
+    "pokeapi_species_id": 833,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/833"
+  }
+}

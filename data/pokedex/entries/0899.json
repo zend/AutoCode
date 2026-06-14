@@ -1,0 +1,91 @@
+{
+  "entry_id": "0899",
+  "national_id": 899,
+  "form": "default",
+  "names": {
+    "en": "Wyrdeer",
+    "ja": "アヤシシ",
+    "zh": "诡角鹿"
+  },
+  "generation": 8,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "types_zh": [
+    "一般",
+    "超能力"
+  ],
+  "category": "おおツノポケモン",
+  "category_zh": "大角宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 察觉",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 95.1,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 135,
+  "color": "gray",
+  "color_zh": "白色",
+  "base_experience": 263,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 103,
+    "attack": 105,
+    "defense": 72,
+    "special_attack": 105,
+    "special_defense": 75,
+    "speed": 65,
+    "total": 525
+  },
+  "ev_yield": {
+    "attack": 1,
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 234,
+        "name_en": "stantler",
+        "name_zh": "惊角鹿",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "洗翠": 50
+  },
+  "flavor_text_zh": "洗翠地区 的 惊角鹿 会进化为诡角鹿。它自古以来就是当地人不可或缺的宝可梦，一直都深受人们重视。与惊角鹿相比，诡角鹿毛皮变为灰白色，长出了浓密的白色胡须，四肢前端覆盖白毛并且有两个凸起，尾巴变成白色。下颚、尾巴、腿上的体毛也变得更加浓密，将脱落下来的体毛采集起来可以制成上等的防寒服，是人们的必备衣物。 从角根上的黑珠可以生成并释放精神能量，其威力之大足以扭曲空间。制造肉眼不可见的障壁时，黑珠会发出妖异的光辉。头上的角会发挥像天线一样的作用，用来探索安全的路线，身先士卒地统领年轻的惊角鹿们。 [ 1 ]",
+  "flavor_text_en": "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 899,
+    "pokeapi_species_id": 899,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/899"
+  }
+}

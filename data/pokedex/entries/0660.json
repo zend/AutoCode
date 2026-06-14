@@ -1,0 +1,91 @@
+{
+  "entry_id": "0660",
+  "national_id": 660,
+  "form": "default",
+  "names": {
+    "en": "Diggersby",
+    "ja": "ホルード",
+    "zh": "掘地兔"
+  },
+  "generation": 6,
+  "types": [
+    "normal",
+    "ground"
+  ],
+  "types_zh": [
+    "一般",
+    "地面"
+  ],
+  "category": "あなほりポケモン",
+  "category_zh": "挖洞宝可梦",
+  "abilities": [
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾 / 或 / 颊囊",
+      "hidden": false
+    },
+    {
+      "name_en": "cheek-pouch",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "huge-power",
+      "name_zh": "大力士",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 42.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 127,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 148,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 56,
+    "defense": 77,
+    "special_attack": 50,
+    "special_defense": 77,
+    "speed": 78,
+    "total": 423
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 659,
+        "name_en": "bunnelby",
+        "name_zh": "掘掘兔",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 49,
+    "密阿雷": 14
+  },
+  "flavor_text_zh": "掘地兔的身体比较臃肿，耳朵更加粗壮。它的腰部两侧有棕色的毛，中间部分则是黄色的。 掘地兔耳朵的力量可以媲美铲车，可以轻松举起超过一吨重的岩石。耳朵的力量不亚于挖掘机，连坚硬的岩盘也能挖掘，在隧道建设工程中十分活跃。挖洞结束后，就会悠哉地生活。掘地兔肚子上的体毛保温性能优秀，在过去，人们会用它的落毛来制作保暖服装。",
+  "flavor_text_en": "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 660,
+    "pokeapi_species_id": 660,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/660"
+  }
+}

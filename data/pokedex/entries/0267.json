@@ -1,0 +1,87 @@
+{
+  "entry_id": "0267",
+  "national_id": 267,
+  "form": "default",
+  "names": {
+    "en": "Beautifly",
+    "ja": "アゲハント",
+    "zh": "狩猎凤蝶"
+  },
+  "generation": 3,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "types_zh": [
+    "虫",
+    "飞行"
+  ],
+  "category": "ちょうちょポケモン",
+  "category_zh": "蝴蝶宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": false
+    },
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 28.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 178,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 50,
+    "special_attack": 100,
+    "special_defense": 50,
+    "speed": 65,
+    "total": 395
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 266,
+        "name_en": "silcoon",
+        "name_zh": "甲壳茧",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 16,
+    "神奥": 50,
+    "洗翠": 20
+  },
+  "flavor_text_zh": "狩猎凤蝶身体以黑色和灰色为主，长着水蓝色的复眼。它的特征是色彩缤纷的翅膀花纹，翅膀的底色为黑色，黄色的纹理占大部分，其次是红色和蓝色。管状的口器用于吸取花粉和其他生物的体液。雄性狩猎凤蝶翅膀的红点更大。 狩猎凤蝶为了收集花粉而聚集在花田里，会随着春风四处采集花粉。当花圃中满开鲜花时它就会飞来飞去收集花粉，是非常喜欢甜甜花粉的宝可梦。如果把开着花的花盆放在窗边，它就一定会飞过来采集花粉。像针一样的长长嘴巴圆圆卷起，在采集花粉时非常方便，会伸出细细的嘴巴吸取甜甜的花蜜。如果打扰它采集花粉就会被细长的口器刺到。它拥有与外表不符的充满攻击性的好斗性格，生气时的攻击会非常猛烈，会用细长的口器刺向对手并吸取对手的体液攻击。它性情贪婪，会驱赶正在采集花蜜的 三蜜蜂 ，以便独占自己爱吃的花蜜。",
+  "flavor_text_en": "A colorful and incredibly beautiful but also greedy Pokémon. In an effort to keep its favorite food all to itself, it will chase away Combee as they try to gather nectar.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 267,
+    "pokeapi_species_id": 267,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/267"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "entry_id": "0404",
+  "national_id": 404,
+  "form": "default",
+  "names": {
+    "en": "Luxio",
+    "ja": "ルクシオ",
+    "zh": "勒克猫"
+  },
+  "generation": 4,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "でんこうポケモン",
+  "category_zh": "电光宝可梦",
+  "abilities": [
+    {
+      "name_en": "rivalry",
+      "name_zh": "斗争心 / 或 / 威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "intimidate",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "guts",
+      "name_zh": "毅力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 30.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 127,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 49,
+    "special_attack": 60,
+    "special_defense": 49,
+    "speed": 60,
+    "total": 363
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 403,
+        "name_en": "shinx",
+        "name_zh": "小猫怪",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 405,
+        "name_en": "luxray",
+        "name_zh": "伦琴猫",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 18,
+    "洗翠": 16,
+    "帕底亚": 95,
+    "北上": 110
+  },
+  "flavor_text_zh": "勒克猫的头部和前半段身体是蓝颜色，后半段身体是黑色。它有一头茂盛的黑色鬃毛，前足上各有两圈黄色，尾巴是黄色的四芒星。雌性勒克猫会露出脚踝，头顶的毛更短。 勒克猫由数只组成团队生活，会用前脚碰触伙伴的身体，通过从爪子流出的电流节奏来传递自己的心情。它拥有一颗仁义之心，会将狩猎所得的成果分享给自己的伙伴。带电的爪子是它引以为傲的武器，遇到敌人时会从脚伸出有着百万伏特威力的爪子来迎战。在它锐利的爪子尖端有强烈的电流流过，只要稍稍碰擦到，就能一击让对手晕厥。当把尾巴和伙伴连接在一起时，可以分享到对方的电能，就能从爪子释放出更为强大的电击。",
+  "flavor_text_en": "Proudly uses its electrified claws as weapons. It seems to be a gracious Pokémon, evenly sharing the spoils of the hunt with others of its kind.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 404,
+    "pokeapi_species_id": 404,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/404"
+  }
+}

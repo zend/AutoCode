@@ -1,0 +1,96 @@
+{
+  "entry_id": "0148",
+  "national_id": 148,
+  "form": "default",
+  "names": {
+    "en": "Dragonair",
+    "ja": "ハクリュー",
+    "zh": "哈克龙"
+  },
+  "generation": 1,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "ドラゴンポケモン",
+  "category_zh": "龙宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "marvel-scale",
+      "name_zh": "神奇鳞片",
+      "hidden": true
+    }
+  ],
+  "height_m": 4.0,
+  "weight_kg": 16.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 147,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 61,
+    "attack": 84,
+    "defense": 65,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70,
+    "total": 420
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 147,
+        "name_en": "dratini",
+        "name_zh": "迷你龙",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 149,
+        "name_en": "dragonite",
+        "name_zh": "快龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 148,
+    "城都": 242,
+    "阿罗拉": 282,
+    "帕底亚": 348,
+    "密阿雷": 146
+  },
+  "flavor_text_zh": "哈克龙是一种长蛇形宝可梦，身体细长，全身覆盖着蓝宝石色的鳞片，腹部为亮白色。它有一双黑亮的眼睛，前额长了一根小小的白角，头部两侧长有两个小型的羽翅。哈克龙身上有三颗水晶般的蓝色珠子，一颗在脖子下端，另两颗在尾巴末端。 哈克龙栖息在美丽的大海或湖泊，被称为是神圣的宝可梦。虽然没有翅膀，但偶尔会被目击到在空中飞行是它通过操纵天气的力量驾风升上天空。据说在新年时，如果能看到它扭动着身子在空中飞翔的样子，那么这一年就能健健康康的。根据目击者的描述，哈克龙的身上散发着一种神秘的气场。它体内储存着巨大的能量，能把力量集中在脖子和尾巴水晶般的珠子上操纵天气。当它全身被气场所笼罩，开始微微发光时，周围的天气也会随之改变。自太古时代起它就被从事农业的人们当做掌管天气者而崇拜着，人们相信它能操纵天气，所以在哈克龙栖息的湖里供品总是源源不断。",
+  "flavor_text_en": "This Pokémon gathers power in the orbs on its tail and controls the weather. When enshrouded by an aura, Dragonair has a mystical appearance.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 148,
+    "pokeapi_species_id": 148,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/148"
+  }
+}

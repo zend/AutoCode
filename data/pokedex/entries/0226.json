@@ -1,0 +1,93 @@
+{
+  "entry_id": "0226",
+  "national_id": 226,
+  "form": "default",
+  "names": {
+    "en": "Mantine",
+    "ja": "マンタイン",
+    "zh": "巨翅飞鱼"
+  },
+  "generation": 2,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "types_zh": [
+    "水",
+    "飞行"
+  ],
+  "category": "カイトポケモン",
+  "category_zh": "风筝宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 储水",
+      "hidden": false
+    },
+    {
+      "name_en": "water-absorb",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "water-veil",
+      "name_zh": "水幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.1,
+  "weight_kg": 220.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 170,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 40,
+    "defense": 70,
+    "special_attack": 80,
+    "special_defense": 140,
+    "speed": 70,
+    "total": 485
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 458,
+        "name_en": "mantyke",
+        "name_zh": "小球飞鱼",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 197,
+    "神奥": 141,
+    "伽勒尔": 355,
+    "洗翠": 165
+  },
+  "flavor_text_zh": "巨翅飞鱼全身都很粗糙，外型类似于现实中的蝠鲼，身体上附着 铁炮鱼 。 巨翅飞鱼是种性格温顺的宝可梦，虽然在大海里悠闲游动时觊觎食物残渣的铁炮鱼会吸附在它的鳍上，但它并不会在意。它会在自由地游泳的时候吃掉跑进嘴里的东西。在风平浪静的时候，你可能会遭遇到在大海里游得飞快的巨翅飞鱼群。游动时速度上来后，甚至会跃出海面从波浪上起飞，然后就这样滑翔100米，人们常将其误认为鸟宝可梦。阿罗拉的人气特产是绘有巨翅飞鱼在海浪上优雅跳跃的明信片及海报，也有很多人是因为向往巨翅飞鱼那华丽的泳姿才开始冲浪的。",
+  "flavor_text_en": "This calm and gentle Pokémon swims gracefully through the sea. After building speed, it can leap out of the water. It is often misidentified as a bird Pokémon due to this behavior.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 226,
+    "pokeapi_species_id": 226,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/226"
+  }
+}

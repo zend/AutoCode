@@ -1,0 +1,100 @@
+{
+  "entry_id": "0188",
+  "national_id": 188,
+  "form": "default",
+  "names": {
+    "en": "Skiploom",
+    "ja": "ポポッコ",
+    "zh": "毽子花"
+  },
+  "generation": 2,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "types_zh": [
+    "草",
+    "飞行"
+  ],
+  "category": "わたくさポケモン",
+  "category_zh": "棉草宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素 / 或 / 叶子防守",
+      "hidden": false
+    },
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 119,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 50,
+    "special_attack": 45,
+    "special_defense": 65,
+    "speed": 80,
+    "total": 340
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 187,
+        "name_en": "hoppip",
+        "name_zh": "毽子草",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 189,
+        "name_en": "jumpluff",
+        "name_zh": "毽子棉",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 68,
+    "帕底亚": 17
+  },
+  "flavor_text_zh": "毽子花有着圆形的绿色身体，短粗的手臂、脚和尾巴。它的头两边有大而扁平的耳朵，在头顶有一朵黄色的花朵。毽子花有卵圆形的红色眼睛。 毽子花头顶上盛开着的花有着根据气温变化而开合的特性。它开花方式会随温度的不同而变化，所以有时也会用来代替温度计。气温超过18度它就会开花，下雨的时候就会立刻闭合头顶的花瓣，为了不被淋湿而躲到树荫下。为了沐浴阳光，它不仅会打开花瓣，还会为了更接近太阳而飘在空中。一旦天气变冷就会关上花瓣，由此就无法进行光合作用了，所以会飞到温暖的地区去。据说热爱毽子花的人能够通过它头上花朵散发的香味猜出它在哪里出生的。",
+  "flavor_text_en": "Skiploom’s flower blossoms when the temperature rises above 64 degrees Fahrenheit. How much the flower opens depends on the temperature. For that reason, this Pokémon is sometimes used as a thermometer.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 188,
+    "pokeapi_species_id": 188,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/188"
+  }
+}

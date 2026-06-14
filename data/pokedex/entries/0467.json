@@ -1,0 +1,86 @@
+{
+  "entry_id": "0467",
+  "national_id": 467,
+  "form": "default",
+  "names": {
+    "en": "Magmortar",
+    "ja": "ブーバーン",
+    "zh": "鸭嘴炎兽"
+  },
+  "generation": 4,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ばくえんポケモン",
+  "category_zh": "爆炎宝可梦",
+  "abilities": [
+    {
+      "name_en": "flame-body",
+      "name_zh": "火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 68.0,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 243,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 67,
+    "special_attack": 125,
+    "special_defense": 95,
+    "speed": 83,
+    "total": 540
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 126,
+        "name_en": "magmar",
+        "name_zh": "鸭嘴火兽",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 202,
+    "阿罗拉": 168,
+    "洗翠": 176,
+    "蓝莓": 15
+  },
+  "flavor_text_zh": "鸭嘴炎兽的体型更加肥硕，全身的毛发看起来就像是在燃烧一样，就连嘴里吐出的气息都在燃烧。它手臂的两端看起来就像是一个巨大的炮筒，其身上有着火焰缭绕一般的花纹。 鸭嘴炎兽栖息在火山口，据说一座火山只有一对鸭嘴炎兽。由于栖息在火山口，因此身体逐渐变得像火山一样，还长着类似岩浆库的器官。它能凭借奇异的道具进化，从筒状的手臂发射出的火球高达2000摄氏度，有着可在瞬间融化铁锅的高温。此时身体由于发热，会微微呈现出白色，连射时手腕都会稍稍熔化。它能发射出火球，一招制敌。因为会把对方弄得焦黑，所以在捕捉猎物时不会使用。大口吸气之后腹中的火焰就会烧得更旺，至今仍依靠鸭嘴炎兽的火焰来加工金属的工厂也不少。",
+  "flavor_text_en": "Use of a strange item caused this Pokémon to evolve. Fireballs launched from the ends of its tubelike arms are hot enough to melt an iron pot in an instant.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 467,
+    "pokeapi_species_id": 467,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/467"
+  }
+}

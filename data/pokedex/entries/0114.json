@@ -1,0 +1,91 @@
+{
+  "entry_id": "0114",
+  "national_id": 114,
+  "form": "default",
+  "names": {
+    "en": "Tangela",
+    "ja": "モンジャラ",
+    "zh": "蔓藤怪"
+  },
+  "generation": 1,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "ツルじょうポケモン",
+  "category_zh": "藤蔓状宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素 / 或 / 叶子防守",
+      "hidden": false
+    },
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 35.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 87,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 115,
+    "special_attack": 100,
+    "special_defense": 40,
+    "speed": 60,
+    "total": 435
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 465,
+        "name_en": "tangrowth",
+        "name_zh": "巨蔓藤",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 114,
+    "城都": 179,
+    "神奥": 181,
+    "洗翠": 95
+  },
+  "flavor_text_zh": "蔓藤怪全身都覆盖着蓝色的藤蔓，至今没人见过它藏在藤蔓下的脸，只能看到它的眼睛。覆盖全身的蓝色藤蔓上还长着更加纤细的毛。它有一双红色的像穿了靴子的脚，但看不到它的手臂。 蔓藤怪全身被像海草一样的蔓藤覆盖，走路的时候就会摇摇晃晃的。全身覆盖的蔓藤时刻都细微地持续动着，扰乱对手的精神。它能用藤蔓缠住会动的东西，因为藤蔓会微妙地晃动，所以被缠住后会感觉很痒。毫无空隙地覆盖住全身的蔓藤在战斗时也不停地动，让看到的人感到焦躁。被敌人抓住后藤蔓会一下断开，即使断了也能无限生长。因为完全不疼，所以它会趁那个空当逃走，第二天就能长出新的藤蔓。它的藤蔓有着独特的香气，入口清凉，在伽勒尔的部分地区被当做香草使用。",
+  "flavor_text_en": "It is cloaked entirely in blue vines, preventing any glimpse of its true identity. The vines impart a refreshing sensation when chewed—they're useful as a spice.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 114,
+    "pokeapi_species_id": 114,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/114"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "entry_id": "0079-galar",
+  "national_id": 79,
+  "form": "galar",
+  "names": {
+    "en": "Slowpoke",
+    "ja": "ヤドン",
+    "zh": "呆呆兽（伽勒尔的样子）"
+  },
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "まぬけポケモン",
+  "category_zh": "憨憨宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "迟钝",
+      "hidden": false
+    },
+    {
+      "name_en": "own-tempo",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 36.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 63,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 15,
+    "total": 315
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 80,
+        "name_en": "slowbro",
+        "name_zh": "呆壳兽",
+        "trigger": "level-up"
+      },
+      {
+        "national_id": 199,
+        "name_en": "slowking",
+        "name_zh": "呆呆王",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 79,
+    "城都": 80,
+    "阿罗拉": 37,
+    "帕底亚": 324,
+    "密阿雷": 137
+  },
+  "flavor_text_zh": "呆呆兽周身呈粉红色，体态偏胖。它的耳朵是卷状的，又圆又大的眼眶中只有很小的瞳孔，显得目光呆滞。它的嘴巴呈奶油色，上颚可以看见有两颗牙齿。它四肢短小，手脚都有一根爪子，有一条较长的粉红尾巴，末端呈淡粉色。伽勒尔样子的呆呆兽与一般样子的分别不大，但头顶及尾部末端改为黄色，额头亦有三条横纹。 呆呆兽一直在水边发呆，不知道它在想些什么。虽然它又呆又迟钝，但很擅长用尾巴来钓食物。呆呆兽会从尾端渗出甜甜的味道，虽然没有营养，但咬到会有幸福的感觉。把尾巴泡在水里后会有甜味渗出，因此它会以尾巴为诱饵吸引宝可梦并将其钓起，但钓着钓着就会忘记自己在做什么，会因此躺在河边直至一天结束。它的感觉迟钝，就算渗出甜味的尾巴被钓到的食物咬到也不会注意到痛，就算挨打也要过5秒才能感受到疼痛。即使尾巴被吃了也感受不到疼痛，甚至不会注意到又长出了新尾巴。当呆呆兽去海里捕食时，如果被 大舌贝 咬住尾巴就会变成了呆壳兽，如果被大舌贝咬住脑子就会变成呆呆王。它长长的尾巴经常被揪断，这种会自然断裂并脱落下来的尾巴是一种容易得到又十分贵重的食材。把呆呆兽的尾巴晒干后再用盐水煮成的小菜，是阿罗拉的家常美味。 刺甲贝 非常喜欢吃呆呆兽的尾巴，有时甚至会爬到陆地上来寻找呆呆兽。它总是恍恍惚惚的，从不在意时间的流逝，过着悠闲的生活。有传说讲呆呆兽打哈欠就会下雨，所以据说有些地方会供奉呆呆兽。 伽勒尔地区的呆呆兽过着成天放空躺在海边和河边的生活，平时一直都在发呆。它曾经很喜欢吃簇生在楼息地的植物的种子。这些种子被称作 伽勒豆蔻 ，是煮料理时不可或缺的香料之一。呆呆兽世世代代持续地把伽勒豆蔻的成份积存在体内，最终令自己获得了独特的外型和能力，不同于至今发现的呆呆兽，伽勒尔地区的呆呆兽的尾巴是辣味的。它偶尔也会露出锐利的目光，但很快便会恢复发呆的表情。这可能是由于它的脑部因为某种原因，受到积存在体内的伽勒豆蔻成份刺激，浮现了什么厉害的点子，但在转眼间就被它忘得一干二净的缘故。 [ 1 ]",
+  "flavor_text_en": "When this Pokémon’s tail is soaked in water, sweetness seeps from it. Slowpoke uses this trait to lure in and fish up other Pokémon.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10164,
+    "pokeapi_species_id": 79,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10164"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "entry_id": "0288",
+  "national_id": 288,
+  "form": "default",
+  "names": {
+    "en": "Vigoroth",
+    "ja": "ヤルキモノ",
+    "zh": "过动猿"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "あばれザルポケモン",
+  "category_zh": "暴猿宝可梦",
+  "abilities": [
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 46.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 154,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 90,
+    "total": 440
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 287,
+        "name_en": "slakoth",
+        "name_zh": "懒人獭",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 289,
+        "name_en": "slaking",
+        "name_zh": "请假王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 37,
+    "帕底亚": 79,
+    "蓝莓": 60
+  },
+  "flavor_text_zh": "过动猿通体白色，背部有褐色的纹路，眼圈和下巴为褐色，头上有一撮红色的毛发，爪子是黑色的。 过动猿一直在蠢蠢欲动，想要大闹一番，甚至连1分钟都坐不住。它的心脏以10倍的速度在跳动，浑身的血液都在沸腾，一刻都停不下来。如果不活动活动身体，压力就会堆积过度，使身体状况变糟。由于它每时每刻都在大闹，所以很快就会觉得饿，但它却连吃饭时都静不下来。就算想睡觉了，它全身血液也还会沸腾。如果一整天没有到山里去奔跑以平息兴奋的话，到了晚上就会睡不着。",
+  "flavor_text_en": "Vigoroth is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this Pokémon to run wild throughout the jungle before it can settle down.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 288,
+    "pokeapi_species_id": 288,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/288"
+  }
+}

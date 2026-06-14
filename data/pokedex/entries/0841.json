@@ -1,0 +1,94 @@
+{
+  "entry_id": "0841",
+  "national_id": 841,
+  "form": "default",
+  "names": {
+    "en": "Flapple",
+    "ja": "アップリュー",
+    "zh": "苹裹龙"
+  },
+  "generation": 8,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "types_zh": [
+    "草",
+    "龙"
+  ],
+  "category": "りんごはねポケモン",
+  "category_zh": "苹果翅宝可梦",
+  "abilities": [
+    {
+      "name_en": "ripen",
+      "name_zh": "熟成",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "活力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 170,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "plant",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 80,
+    "special_attack": 95,
+    "special_defense": 60,
+    "speed": 70,
+    "total": 485
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 840,
+        "name_en": "applin",
+        "name_zh": "啃果虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 206,
+    "帕底亚": 109,
+    "北上": 34
+  },
+  "flavor_text_zh": "苹裹龙是啃果虫吃了酸苹果后进化而成。它的外形像一只刚刚孵化的爬行动物，只不过包裹它的不是蛋壳而是果皮，并且前爪与果皮融合成了翅膀。它的眼睛是一片黄色的薄片，有绿色的眼睑可以阖起。超极巨化之后的苹裹龙看起来就像是一个大大的苹果和身体融为了一体，它的头部以及尾巴从苹果冒出来，苹果的顶部留着蜜汁，超极巨化之力使它的蜜量增加，最后外貌变成了巨大的苹果。 苹裹龙可以变成苹果的形状，它的颊囊里储存着足以造成灼伤的强酸性液体。它会用苹果皮的翅膀在空中摇摇晃晃地飞行，同时找准时机吐出连金属都能溶化的强酸性液体来展开攻击。它也会用体液修补苹果，身经百战的强者的苹果会整体呈现出黏土色。 超极巨化之力使苹裹龙的蜜量增加，最后外貌变成了巨大的苹果。当它把脖子伸长时，会散发出强烈的蜜汁甜味，让闻到的宝可梦失去知觉。",
+  "flavor_text_en": "It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 841,
+    "pokeapi_species_id": 841,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/841"
+  }
+}

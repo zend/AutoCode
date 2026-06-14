@@ -1,0 +1,85 @@
+{
+  "entry_id": "0927",
+  "national_id": 927,
+  "form": "default",
+  "names": {
+    "en": "Dachsbun",
+    "ja": "バウッツェル",
+    "zh": "麻花犬"
+  },
+  "generation": 9,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "いぬポケモン",
+  "category_zh": "狗宝可梦",
+  "abilities": [
+    {
+      "name_en": "well-baked-body",
+      "name_zh": "焦香之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "aroma-veil",
+      "name_zh": "芳香幕",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 14.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 167,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 57,
+    "attack": 80,
+    "defense": 115,
+    "special_attack": 50,
+    "special_defense": 80,
+    "speed": 95,
+    "total": 477
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 926,
+        "name_en": "fidough",
+        "name_zh": "狗仔包",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 77
+  },
+  "flavor_text_zh": "麻花犬是一只像狗的宝可梦。它全身的颜色变成了棕色，体型也变得更大。它的尾巴、耳朵和脖子的颜色是分层的，颜色由棕色到浅橙色。它的尾巴和颈子上有浅色的鬃毛。 麻花犬的皮肤表面拥有遇到高温就变硬的性质。它身体散发出的迷人香气有助于小麦的成长，因此在农村一直备受重视。它能通过香气四溢的体味强烈地刺激对手使其产生饥饿感，来削弱其精力和体力。",
+  "flavor_text_en": "The surface of this Pokémon’s skin hardens when exposed to intense heat, and its body has an appetizing aroma.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 927,
+    "pokeapi_species_id": 927,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/927"
+  }
+}

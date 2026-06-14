@@ -1,0 +1,82 @@
+{
+  "entry_id": "0200",
+  "national_id": 200,
+  "form": "default",
+  "names": {
+    "en": "Misdreavus",
+    "ja": "ムウマ",
+    "zh": "梦妖"
+  },
+  "generation": 2,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "よなきポケモン",
+  "category_zh": "夜啼宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 87,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 85,
+    "special_defense": 85,
+    "speed": 85,
+    "total": 435
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 429,
+        "name_en": "mismagius",
+        "name_zh": "梦妖魔",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 214,
+    "神奥": 72,
+    "阿罗拉": 66,
+    "洗翠": 197,
+    "帕底亚": 114
+  },
+  "flavor_text_zh": "梦妖的身体是墨绿色的。它的发型像磷火，虹膜为红色，脖子上挂有一串显眼的红色珠串。 梦妖潜藏于暗处，白天会在黑暗处睡觉。它最喜欢人被惊吓的样子，因此会在深夜里突然出现并发出哭喊般的声音令旅人听之胆寒。它也会突然咬住或是拉扯人的头发，然后看着对方大吃一惊的样子来取乐。如果从四下无人的房间里传来抽泣般的声音，那准是梦妖的恶作剧。吓唬别人是其活着的意义，吓人的练习一天也不落。它好像会用红色的珠子吸收对方的恐惧之心，并将其作为自己的营养。它不擅长对付胆大的对手，当它以人们恐惧的模样取乐时，胸口的红珠会发出妖异的光辉。如果把耳朵贴近它脖子上的红珠子，就能从中听到悲鸣声。",
+  "flavor_text_en": "It conceals itself in darkness, sending chills up travelers' spines with its childlike weeping. As it observes the frightened travelers with glee, the red orbs upon its chest let off an eerie light.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 200,
+    "pokeapi_species_id": 200,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/200"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "entry_id": "0095",
+  "national_id": 95,
+  "form": "default",
+  "names": {
+    "en": "Onix",
+    "ja": "イワーク",
+    "zh": "大岩蛇"
+  },
+  "generation": 1,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "types_zh": [
+    "岩石",
+    "地面"
+  ],
+  "category": "いわへびポケモン",
+  "category_zh": "岩蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋 / 或 / 结实",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 8.8,
+  "weight_kg": 210.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 77,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "special_attack": 30,
+    "special_defense": 45,
+    "speed": 70,
+    "total": 385
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 208,
+        "name_en": "steelix",
+        "name_zh": "大钢蛇",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 95,
+    "城都": 62,
+    "神奥": 34,
+    "伽勒尔": 178,
+    "洗翠": 118,
+    "密阿雷": 197
+  },
+  "flavor_text_zh": "大岩蛇的身体由多块巨大的灰色岩石构成，巨石连缀而成的身姿宛如大蛇。它的头顶有一根岩石长角，下方则是一双黑眼睛，从中段到尾部的岩石越变越小。 大岩蛇平时住在地里，会扭动又长又结实的身体一边在地里挖掘前进，一边吸收各种坚硬的物体以此让身体变得更加结实。在地下挖掘前进速度能达到每小时80公里，大地会不停晃动并能听到轰鸣声，声音能响彻很远的地方。随着年岁渐长，它身体中的石头部分变得像钻石般坚硬，只不过是黑色的。因为脑内有磁铁，所以即使在地里挖洞前进也不会弄错方向。年纪越大身体就越圆润。在它通过之后形成的洞穴会被 地鼠 们当作自己的住处，有时也会有 赤面龙 在它挖出的狭窄隧道中穿梭捕获猎物。",
+  "flavor_text_en": "This chain of immense stones resembles a giant serpent. Tremors shake the earth above as it burrows deep beneath the ground, feeding on boulders as it goes.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 95,
+    "pokeapi_species_id": 95,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/95"
+  }
+}

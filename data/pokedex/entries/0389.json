@@ -1,0 +1,90 @@
+{
+  "entry_id": "0389",
+  "national_id": 389,
+  "form": "default",
+  "names": {
+    "en": "Torterra",
+    "ja": "ドダイトス",
+    "zh": "土台龟"
+  },
+  "generation": 4,
+  "types": [
+    "grass",
+    "ground"
+  ],
+  "types_zh": [
+    "草",
+    "地面"
+  ],
+  "category": "たいりくポケモン",
+  "category_zh": "大陆宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "硬壳盔甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.2,
+  "weight_kg": 310.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 236,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 109,
+    "defense": 105,
+    "special_attack": 75,
+    "special_defense": 85,
+    "speed": 56,
+    "total": 525
+  },
+  "ev_yield": {
+    "attack": 2,
+    "defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 388,
+        "name_en": "grotle",
+        "name_zh": "树林龟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 3,
+    "洗翠": 132,
+    "蓝莓": 193
+  },
+  "flavor_text_zh": "土台龟拥有一个巨大、扁平的壳，看起来像一种 甲龙 。在土台龟的壳上长著一棵类似橡树的树木和三个灰色的正三角形岩石。土台龟身体的上半部分和下颚是绿色的，还具有两根突出头两边的锥体。土台龟有红色的瞳孔。它们的嘴巴是锯齿状的，嘴的尖端还有一个黑色的喙。土台龟每只脚有四根脚趾。 土台龟拥有形如秀丽园林般的巨躯，且是力大无穷的强者。它们在森林深处过着群居生活，会为寻求净水而巡遍山野，会移动的森林其实就是为了寻找水源而迁徙的土台龟群。有时候小小的宝可梦们会聚集起来，在一动不动的土台龟的背上建造巢穴。有一些宝可梦是在土台龟的背上出生的，并在它的背上度过终生。在遥远的过去，人们曾假想过，在大地的下面存在着巨大土台龟。",
+  "flavor_text_en": "This remarkable, large-bodied Pokémon would serve beautifully as borrowed scenery for a garden, and its strength is peerless. Torterra roams the wilderness in search of clean water.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 389,
+    "pokeapi_species_id": 389,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/389"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "entry_id": "0600",
+  "national_id": 600,
+  "form": "default",
+  "names": {
+    "en": "Klang",
+    "ja": "ギギアル",
+    "zh": "齿轮组"
+  },
+  "generation": 5,
+  "types": [
+    "steel"
+  ],
+  "types_zh": [
+    "钢"
+  ],
+  "category": "はぐるまポケモン",
+  "category_zh": "齿轮宝可梦",
+  "abilities": [
+    {
+      "name_en": "plus",
+      "name_zh": "正电 / 或 / 负电",
+      "hidden": false
+    },
+    {
+      "name_en": "minus",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 51.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 60,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 154,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 95,
+    "special_attack": 70,
+    "special_defense": 85,
+    "speed": 50,
+    "total": 440
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 599,
+        "name_en": "klink",
+        "name_zh": "齿轮儿",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 601,
+        "name_en": "klinklang",
+        "name_zh": "齿轮怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 106,
+    "伽勒尔": 114
+  },
+  "flavor_text_zh": "齿轮组身体分为大齿轮和小齿轮。右边的齿轮后有一个更大的深灰色齿轮，有8个齿，与前面的小齿轮保持相同的旋转速度。眼睛和嘴巴出现在了大齿轮上。 齿轮组通过改变旋转的方向来向伙伴传递感情，越是生气旋转得就越快。如果认真起来，大齿轮外圈的齿轮会和小齿轮完全接合。此时转速将会大幅提升。如果攻击时高速旋转着弹出去的小齿轮回不来的话，就会死去。它被认为是工业技术的象征，有许多伽勒尔当地的公司选择它作为企业的标志。",
+  "flavor_text_en": "Many companies in the Galar region choose Klang as their logo. This Pokémon is considered the symbol of industrial technology.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 600,
+    "pokeapi_species_id": 600,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/600"
+  }
+}

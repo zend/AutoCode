@@ -1,0 +1,91 @@
+{
+  "entry_id": "0106",
+  "national_id": 106,
+  "form": "default",
+  "names": {
+    "en": "Hitmonlee",
+    "ja": "サワムラー",
+    "zh": "飞腿郎"
+  },
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "キックポケモン",
+  "category_zh": "踢腿宝可梦",
+  "abilities": [
+    {
+      "name_en": "limber",
+      "name_zh": "柔软 / 或 / 舍身",
+      "hidden": false
+    },
+    {
+      "name_en": "reckless",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "轻装",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 49.8,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 120,
+    "defense": 53,
+    "special_attack": 35,
+    "special_defense": 110,
+    "speed": 87,
+    "total": 455
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 236,
+        "name_en": "tyrogue",
+        "name_zh": "无畏小子",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 106,
+    "城都": 144,
+    "伽勒尔": 108,
+    "蓝莓": 93
+  },
+  "flavor_text_zh": "飞腿郎通体为褐色，部分为卡其色。它没有嘴巴，眼睛边缘为黑色，瞳仁为白色。它的双手双脚各有一部分为弹簧的形状，可以自由伸缩，双脚的内侧各有一个坚硬的黄色物体。飞腿郎只有雄性，也没有与它配对的雌性宝可梦。 飞腿郎别名为“踢技之鬼”，会用可以自由伸长的腿运用自如地使出任何踢技，急着奔跑的时候脚会渐渐伸长大步前进。它拥有卓越的平衡感，是无论处于什么姿势都可以连续施展踢击的厉害角色。它的腿能够伸长至两倍，在施展连续踢的同时，两腿会不断地伸长，连想逃跑的对手也能踢到，初次与它对战的对手都会为其攻击范围之广而吃惊。在踢中敌人的瞬间，它的脚底会变得像钻石般坚硬，将对手踢成碎片。它在战斗后会去按揉疲劳的双腿。",
+  "flavor_text_en": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 106,
+    "pokeapi_species_id": 106,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/106"
+  }
+}

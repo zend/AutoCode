@@ -1,0 +1,87 @@
+{
+  "entry_id": "0239",
+  "national_id": 239,
+  "form": "default",
+  "names": {
+    "en": "Elekid",
+    "ja": "エレキッド",
+    "zh": "电击怪"
+  },
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "でんきポケモン",
+  "category_zh": "电气宝可梦",
+  "abilities": [
+    {
+      "name_en": "static",
+      "name_zh": "静电",
+      "hidden": false
+    },
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 23.5,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 63,
+    "defense": 37,
+    "special_attack": 65,
+    "special_defense": 55,
+    "speed": 95,
+    "total": 360
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 125,
+        "name_en": "electabuzz",
+        "name_zh": "电击兽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 154,
+    "神奥": 197,
+    "阿罗拉": 226,
+    "洗翠": 182,
+    "蓝莓": 10
+  },
+  "flavor_text_zh": "电击怪头上有类似插头的角，身上有黄色和黑色的图案。它的身体呈椭圆形，手臂上也有着两圈黑色的条纹，电击怪的腿很短，肚子中间有一道闪电花纹。 电击怪一旦暴风雨将至就会变得非常浮躁，最喜欢强烈的落雷，听到雷鸣便会难掩兴奋。不论是多么强烈的暴风雨，只要有打雷的话，就会高兴地到处去玩。当在雷雨中听见山中传来孩童嬉闹的声音，那便是由电击怪所发出的。如果事先将打雷的声音录下来，那么在它消沉的时候就能很方便地放给它听了。 它靠一圈圈抡动手臂来发电，但很快就会累。它储存电力的本领还不到家，所以只能存储一点点电力。当角发出青白色亮光时，就表示充电已经完成了。两角之间有微弱的电流，如果不小心把手伸过去，就会被电麻。如果体内储存的电力在碰触到金属后被放电放光的话，就会一圈圈抡动双臂再次充电。为了吸取电力，它会偷偷潜入民宅寻找插座，插座就相当于奶瓶，可以从中滋滋地吸取电力。它与过来化为己用电的 托戈德玛尔 经常发生斗殴，胜负大体上可以说是不相上下。",
+  "flavor_text_en": "They generate electricity by spinning their arms. During a thunderstorm, if one hears the lively voices of children out in the wilderness, what one is actually hearing are the voices of Elekid.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 239,
+    "pokeapi_species_id": 239,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/239"
+  }
+}

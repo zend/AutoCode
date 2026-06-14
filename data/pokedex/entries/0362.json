@@ -1,0 +1,97 @@
+{
+  "entry_id": "0362",
+  "national_id": 362,
+  "form": "default",
+  "names": {
+    "en": "Glalie",
+    "ja": "オニゴーリ",
+    "zh": "冰鬼护"
+  },
+  "generation": 3,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "がんめんポケモン",
+  "category_zh": "脸面宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moody",
+      "name_zh": "心情不定",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 256.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 80,
+    "total": 480
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 361,
+        "name_en": "snorunt",
+        "name_zh": "雪童子",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 172,
+    "神奥": 207,
+    "阿罗拉": 247,
+    "伽勒尔": 80,
+    "洗翠": 206,
+    "帕底亚": 358,
+    "北上": 173,
+    "密阿雷": 170
+  },
+  "flavor_text_zh": "冰鬼护是由一个黑色石头核心构成的圆形宝可梦。在它的头两边有两个大的黑色锥形的角，它的皮肤被冰覆盖。这些冰在边上退去，露出后面黑色的石头皮肤。它有有冰一样的蓝色眼睛，和大而平坦的牙齿。超级冰鬼护拥有了巨大的嘴巴，将头部一分为二。同时，嘴巴外面还长了一圈黑色的胡子。它的额头上长出了一只冰凌般的蓝色角，而原有的两只角也会发出蓝色的光泽。 冰鬼护据说是即将登顶雪山，却罹难的登山家的遗憾，附在岩石上诞生而成，不那么坚硬的岩石是它的本体。它拥有能自如操控冰的力量，能令空气中的水分冻结起来，将硬度更胜钢铁的冰之装甲裹在身上保护自己的身躯，连火焰也无法融化。由于它拥有能瞬间冻结空气里水分的力量，因此在冰鬼护的周围都会产生钻石般的粉尘。它能从大大的嘴巴里喷出冷气，用令空气中的水分瞬间冻结的力量把猎物冻得硬邦邦的。它会像吃冰般地把猎物吞进胃里，就这么嘎嘣嘎嘣地享用食物，但它喜欢吃的是 迷你冰 等原本就冻着的宝可梦。 超级冰鬼护过剩的超级进化能量从口中溢出，击碎下颚，经常都会喷着暴风雪。如果从破碎的嘴里吐出可怕的冷气，会让周围陷入一片白茫茫之中。它把猎物放入口中的瞬间就会让其冻结，但因为下颚脱臼而没法吃，因此变得焦躁。",
+  "flavor_text_en": "It covers its body with an armor of ice harder than steel. Uses its breath to freeze prey, which it then devours as if they were frozen desserts.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 362,
+    "pokeapi_species_id": 362,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/362"
+  }
+}

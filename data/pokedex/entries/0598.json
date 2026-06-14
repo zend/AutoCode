@@ -1,0 +1,88 @@
+{
+  "entry_id": "0598",
+  "national_id": 598,
+  "form": "default",
+  "names": {
+    "en": "Ferrothorn",
+    "ja": "ナットレイ",
+    "zh": "坚果哑铃"
+  },
+  "generation": 5,
+  "types": [
+    "grass",
+    "steel"
+  ],
+  "types_zh": [
+    "草",
+    "钢"
+  ],
+  "category": "とげだまポケモン",
+  "category_zh": "刺球宝可梦",
+  "abilities": [
+    {
+      "name_en": "iron-barbs",
+      "name_zh": "铁刺",
+      "hidden": false
+    },
+    {
+      "name_en": "anticipation",
+      "name_zh": "危险预知",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 110.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 171,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 74,
+    "attack": 94,
+    "defense": 131,
+    "special_attack": 54,
+    "special_defense": 116,
+    "speed": 20,
+    "total": 489
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 597,
+        "name_en": "ferroseed",
+        "name_zh": "种子铁球",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 104,
+    "伽勒尔": 190
+  },
+  "flavor_text_zh": "坚果哑铃是一种外表和扁平的榴莲相似的宝可梦。它金属般的身体上布满着棘刺，有三条黑色的条纹围绕，还有黑色的斑点遍布全身，眼睛下方有着三角形的花纹。它的眼睛有着绿色的轮廓、黄色的眼珠以及黑色的瞳孔。在它的身体顶部有一根绿色的尖刺，围绕着它，有着3根藤蔓一样的长长的绿色附属物，上面倾斜着有尖刺的金属圆盘。 坚果哑铃拥有比钢铁还坚硬的尖刺，会利用触手上的尖刺攀附在岩壁上移动。用尖刺刺裂岩壁之后，它会用触手的尖端接触裂缝吸收营养。它会贴在洞顶上，朝下方经过的猎物射出铁刺进行袭击。它挥舞三根带刺的触手战斗，然后射出尖刺将对手粉碎，钢铁的尖刺拥有粉碎巨岩的破坏力。",
+  "flavor_text_en": "Its spikes are harder than steel. This Pokémon crawls across rock walls by stabbing the spikes on its feelers into the stone.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 598,
+    "pokeapi_species_id": 598,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/598"
+  }
+}

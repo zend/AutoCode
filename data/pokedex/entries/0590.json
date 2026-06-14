@@ -1,0 +1,86 @@
+{
+  "entry_id": "0590",
+  "national_id": 590,
+  "form": "default",
+  "names": {
+    "en": "Foongus",
+    "ja": "タマゲタケ",
+    "zh": "哎呀球菇"
+  },
+  "generation": 5,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "types_zh": [
+    "草",
+    "毒"
+  ],
+  "category": "きのこポケモン",
+  "category_zh": "蘑菇宝可梦",
+  "abilities": [
+    {
+      "name_en": "effect-spore",
+      "name_zh": "孢子",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 59,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 69,
+    "attack": 55,
+    "defense": 45,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 15,
+    "total": 294
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 591,
+        "name_en": "amoonguss",
+        "name_zh": "败露球菇",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 96,
+    "帕底亚": 205
+  },
+  "flavor_text_zh": "哎呀球菇是白色的蘑菇状宝可梦，有着与精灵球非常相似的菌帽。它的手臂没有手指且非常短小，粉色的嘴巴又圆又大，黑色的眼睛像点点一样。 哎呀球菇喜欢潮湿的土地。不知为什么它长得很像精灵球。关于它酷似精灵球的花纹的意义和理由，至今都无人知晓。它会以酷似精灵球的花纹引诱对手并向其喷出毒孢子，有时也会喷出有毒的孢子驱散靠近自己的敌人。从双手喷出的孢子虽然含有剧毒，但据说彻底干燥后可以用作治疗肠胃的药。据说开发精灵球的人很喜欢哎呀球菇，但不知此说法的真伪。",
+  "flavor_text_en": "The spores released from this Pokémon’s hands are highly poisonous, but when thoroughly dried, the spores can be used as stomach medicine.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 590,
+    "pokeapi_species_id": 590,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/590"
+  }
+}

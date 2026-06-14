@@ -1,0 +1,90 @@
+{
+  "entry_id": "0862",
+  "national_id": 862,
+  "form": "default",
+  "names": {
+    "en": "Obstagoon",
+    "ja": "タチフサグマ",
+    "zh": "堵拦熊"
+  },
+  "generation": 8,
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "types_zh": [
+    "恶",
+    "一般"
+  ],
+  "category": "ていしポケモン",
+  "category_zh": "停止宝可梦",
+  "abilities": [
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身 / 或 / 毅力",
+      "hidden": false
+    },
+    {
+      "name_en": "guts",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "defiant",
+      "name_zh": "不服输",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 46.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 260,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 93,
+    "attack": 90,
+    "defense": 101,
+    "special_attack": 60,
+    "special_defense": 81,
+    "speed": 95,
+    "total": 520
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 264,
+        "name_en": "linoone",
+        "name_zh": "直冲熊",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 33
+  },
+  "flavor_text_zh": "堵拦熊的身体主要是黑白两色，眼睛偏粉红色。堵拦熊以双腿站立，身上、手臂、小腿部分有绒毛，胳膊上有一个类似“X”的标志，脸上和脖子处都有花纹，有一条短短的尾巴。 伽勒尔地区的直冲熊与其他地区相比，同种间的竞争更为激烈，生存环境严酷。在这样的环境下培育出的生存本能使得它们能够进化为堵拦熊。堵拦熊能够发出惊人的音量。虽然堵拦熊的性情非常好战，但却似乎不怎么主动发起攻击。它会挑衅对手诱使其发动攻击，然后将双手交叉于胸前，交叉着双臂发出的怒吼威吓对手，能让一切对手都为之胆怯，使出能够挡下对手攻击的 拦堵 来迎击。有时候他也会与性格暴躁的 霸道熊猫 一对一比拼。 [ 2 ]",
+  "flavor_text_en": "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 862,
+    "pokeapi_species_id": 862,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/862"
+  }
+}

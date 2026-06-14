@@ -1,0 +1,84 @@
+{
+  "entry_id": "0511",
+  "national_id": 511,
+  "form": "default",
+  "names": {
+    "en": "Pansage",
+    "ja": "ヤナップ",
+    "zh": "花椰猴"
+  },
+  "generation": 5,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "くさざるポケモン",
+  "category_zh": "草猴宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 10.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 63,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 48,
+    "special_attack": 53,
+    "special_defense": 48,
+    "speed": 64,
+    "total": 316
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 512,
+        "name_en": "simisage",
+        "name_zh": "花椰猿",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 17,
+    "密阿雷": 77
+  },
+  "flavor_text_zh": "花椰猴的头顶有一个类似 花椰菜 的茎状物，这个茎状物上面也有犹如花椰菜一般的三颗菜籽状结构。绿色的圆脸颊两头是大大的扇形耳朵，下方是心形的下脸阔。淡黄色瘦小的身体延伸出一双又大又强劲的手掌。身体后方的臀部长出一条又细又长的绿色的尾巴，尾巴的末端犹如两片重叠的薄薄的小叶子，一双绿色的小脚丫撑起整个身体。 花椰猴是栖息在茂密森林中的宝可梦。它会把头上的叶子分给没有精神的宝可梦，食用后具有缓解疲劳的效果。它也擅长寻找树果，有着到处搜集树果分给伙伴的善心。",
+  "flavor_text_en": "It’s good at finding berries and gathers them from all over. It’s kind enough to share them with friends.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 511,
+    "pokeapi_species_id": 511,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/511"
+  }
+}

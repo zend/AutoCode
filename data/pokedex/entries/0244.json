@@ -1,0 +1,72 @@
+{
+  "entry_id": "0244",
+  "national_id": 244,
+  "form": "default",
+  "names": {
+    "en": "Entei",
+    "ja": "エンテイ",
+    "zh": "炎帝"
+  },
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "かざんポケモン",
+  "category_zh": "火山宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.1,
+  "weight_kg": 198.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 261,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 115,
+    "attack": 115,
+    "defense": 85,
+    "special_attack": 90,
+    "special_defense": 75,
+    "speed": 100,
+    "total": 580
+  },
+  "ev_yield": {
+    "hp": 1,
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "城都": 239
+  },
+  "flavor_text_zh": "炎帝拥有橘红色的毛发，强壮的四肢上戴着铁环。它的脸颊上长有红色六芒星状的结构，额头上嵌有三叶草一般的金黄色发壳。它的背后还有飘逸的白烟。 炎帝是体内蕴藏着熔岩般热情的宝可梦，被认为是从火山的喷发中诞生的。它会吹出比火山的熔岩更炽热的火焰，燃尽一切。它因为无法完全抑制涨满的力量而在大地上来回奔跑，据说如果炎帝吼叫的话世界上的某处火山就会喷发。",
+  "flavor_text_en": "Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 244,
+    "pokeapi_species_id": 244,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/244"
+  }
+}

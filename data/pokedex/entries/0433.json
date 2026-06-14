@@ -1,0 +1,80 @@
+{
+  "entry_id": "0433",
+  "national_id": 433,
+  "form": "default",
+  "names": {
+    "en": "Chingling",
+    "ja": "リーシャン",
+    "zh": "铃铛响"
+  },
+  "generation": 4,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "すずポケモン",
+  "category_zh": "铃铛宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 57,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 50,
+    "special_attack": 65,
+    "special_defense": 50,
+    "speed": 45,
+    "total": 285
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 358,
+        "name_en": "chimecho",
+        "name_zh": "风铃铃",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 82,
+    "洗翠": 195,
+    "北上": 142
+  },
+  "flavor_text_zh": "铃铛响头上的绑带是红白相间的，有着短小的四肢。它的身体颜色是黄色的，眼睛则是黑色的。 铃铛响通过振动喉咙里的圆珠子发出叫声，用轻快的弹跳来移动身体。它跳起来时嘴里的珠子就会弹来弹去，发出铃铛一般的音色。即使在听不见其叫声的时候，也有可能发生难以忍受的头痛。这是因为它会以人类的耳朵无法听到的高频率来发出叫声，一旦开始叫就很难停下来。它会用高频率的叫声让对手失聪。",
+  "flavor_text_en": "This Pokémon gave me an excruciating headache when it seemingly cried out without making a sound. Perhaps there are some sounds that the human ear is simply incapable of hearing.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 433,
+    "pokeapi_species_id": 433,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/433"
+  }
+}

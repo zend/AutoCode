@@ -1,0 +1,90 @@
+{
+  "entry_id": "0579",
+  "national_id": 579,
+  "form": "default",
+  "names": {
+    "en": "Reuniclus",
+    "ja": "ランクルス",
+    "zh": "人造细胞卵"
+  },
+  "generation": 5,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "ぞうふくポケモン",
+  "category_zh": "增幅宝可梦",
+  "abilities": [
+    {
+      "name_en": "overcoat",
+      "name_zh": "防尘 / 或 / 魔法防守",
+      "hidden": false
+    },
+    {
+      "name_en": "magic-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 20.1,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 50,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 221,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 65,
+    "defense": 75,
+    "special_attack": 125,
+    "special_defense": 85,
+    "speed": 30,
+    "total": 490
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 578,
+        "name_en": "duosion",
+        "name_zh": "双卵细胞球",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 85,
+    "伽勒尔": 272,
+    "蓝莓": 150
+  },
+  "flavor_text_zh": "人造细胞卵的细胞核呈浅绿色，拥有四肢，但头部显得更大。它拥有红色的嘴巴以及一双黑色的眼睛，全身都被青色的细胞膜裹住，从头部两旁上突出了一部分，突出的细胞膜中都有浅绿色的结构。在它手两侧突出的细胞膜中含有如细胞核般的结构，由内向外来看，前两个是浅绿色的，第三个则是橙色，而最后一个则呈红色，其体积都比其他三个更大。 人造细胞卵拥有极高的智能。比起使用超能力，它更喜欢靠着挥动自傲的手臂来打倒对手。它可以使用发出的精神力量操纵特殊液体做成的手臂将岩石击碎。如果人造细胞卵互相握住手，大脑就像通过网络连接一样，精神力量得以增强。虽然有人说只要喝掉它特殊的液体就能得到智慧，但对人造细胞卵以外来说，那其实是剧毒。",
+  "flavor_text_en": "It’s said that drinking the liquid surrounding Reuniclus grants wisdom. Problem is, the liquid is highly toxic to anything besides Reuniclus itself.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 579,
+    "pokeapi_species_id": 579,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/579"
+  }
+}

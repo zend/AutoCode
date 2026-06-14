@@ -1,0 +1,89 @@
+{
+  "entry_id": "0821",
+  "national_id": 821,
+  "form": "default",
+  "names": {
+    "en": "Rookidee",
+    "ja": "ココガラ",
+    "zh": "稚山雀"
+  },
+  "generation": 8,
+  "types": [
+    "flying"
+  ],
+  "types_zh": [
+    "飞行"
+  ],
+  "category": "ことりポケモン",
+  "category_zh": "小鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 紧张感",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "big-pecks",
+      "name_zh": "健壮胸肌",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 1.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 49,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 47,
+    "defense": 35,
+    "special_attack": 33,
+    "special_defense": 35,
+    "speed": 57,
+    "total": 245
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 822,
+        "name_en": "corvisquire",
+        "name_zh": "蓝鸦",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 21,
+    "帕底亚": 40
+  },
+  "flavor_text_zh": "稚山雀外表看起来就像是普通的一只小鸟，其身体的整体形状趋向于圆型。它通体蓝色，但是脸部以及连接胸腹部的毛发是黑色的，这让稚山雀看起来就像是套着一个黑色的面具，稚山雀的腹部是黄色的。它的个子很小，眼睛的毛发会长出来，并高出头部。稚山雀眼睛附近的白色部分是花纹而不是巩膜。 稚山雀性格勇敢，冒失莽撞，眼睛周围的白色花纹会让懦弱的宝可梦感到畏惧。雌性比雄性更加神经质，一旦羽毛被弄脏了，就会怒火中烧地用鸟嘴猛啄。无论多强的敌人它都勇于挑战，利用攻其不备的战法将体型巨大的对手玩弄于股掌之间。即使在敌人的反击中被打败，也能从中得到锻炼。娇小的体型让它能敏捷地飞翔。稚山雀会捕食 强颚鸡母虫 。",
+  "flavor_text_en": "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 821,
+    "pokeapi_species_id": 821,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/821"
+  }
+}

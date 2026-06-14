@@ -1,0 +1,89 @@
+{
+  "entry_id": "0316",
+  "national_id": 316,
+  "form": "default",
+  "names": {
+    "en": "Gulpin",
+    "ja": "ゴクリン",
+    "zh": "溶食兽"
+  },
+  "generation": 3,
+  "types": [
+    "poison"
+  ],
+  "types_zh": [
+    "毒"
+  ],
+  "category": "いぶくろポケモン",
+  "category_zh": "胃袋宝可梦",
+  "abilities": [
+    {
+      "name_en": "liquid-ooze",
+      "name_zh": "污泥浆 / 或 / 黏着",
+      "hidden": false
+    },
+    {
+      "name_en": "sticky-hold",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 10.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 60,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 43,
+    "defense": 53,
+    "special_attack": 43,
+    "special_defense": 53,
+    "speed": 40,
+    "total": 302
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 317,
+        "name_en": "swalot",
+        "name_zh": "吞食兽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 95,
+    "帕底亚": 139
+  },
+  "flavor_text_zh": "溶食兽是绿色的水滴状宝可梦。它的背上有个黑色的平行四边形，头上有黄色叶状的附着物。溶食兽脸上有皱起的嘴唇，倾斜的眼睛总是闭着的。它有两个短粗的肢体，其形状和它的嘴唇一样。雌性溶食兽头顶的毛更短。 溶食兽心脏和大脑都很小，身体的大部分是胃，即使连跟自己身体一样大的东西也能一口吞下去。它的胃能消化任何东西，会分泌出什么都能溶解的强力胃液，连铁屑也能加以消化掉，消化时产生的气体带有强烈的恶臭。",
+  "flavor_text_en": "Most of Gulpin’s body is made up of its stomach—its heart and brain are very small in comparison. This Pokémon’s stomach contains special enzymes that dissolve anything.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 316,
+    "pokeapi_species_id": 316,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/316"
+  }
+}

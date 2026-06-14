@@ -1,0 +1,96 @@
+{
+  "entry_id": "0055",
+  "national_id": 55,
+  "form": "default",
+  "names": {
+    "en": "Golduck",
+    "ja": "ゴルダック",
+    "zh": "哥达鸭"
+  },
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "あひるポケモン",
+  "category_zh": "鸭宝可梦",
+  "abilities": [
+    {
+      "name_en": "damp",
+      "name_zh": "湿气 / 或 / 无关天气",
+      "hidden": false
+    },
+    {
+      "name_en": "cloud-nine",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 76.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 175,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "special_attack": 95,
+    "special_defense": 80,
+    "speed": 85,
+    "total": 500
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 54,
+        "name_en": "psyduck",
+        "name_zh": "可达鸭",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 55,
+    "城都": 139,
+    "丰缘": 159,
+    "神奥": 44,
+    "阿罗拉": 90,
+    "洗翠": 69,
+    "帕底亚": 56
+  },
+  "flavor_text_zh": "哥达鸭的身体是蓝色的，额头有个红色的珠子，眼睛虽小但炯炯有神。它的鸭嘴窄且尖，头顶长出了四根尖刺状凸起。它的四肢修长，手有三根指头，脚有四根趾其中一根朝后。手指和脚趾间的蹼呈白色，有着长长的尾巴。 哥达鸭喜欢水流平稳的河川与湖泊，栖息在湖里，黄昏时会在水边出没。手脚上的蹼和流线型的身体使它能以惊人的速度在水里游动，游动的速度在宝可梦里是最快的。它的速度快过世界级的游泳运动员，曾经陪游泳选手一起特训。它能灵活地摇摆长尾巴，游上整整两天，即使是在狂风巨浪的大海里也不怕。当它靠着带有蹼的修长手脚全力游泳时，不知为何额头会闪闪发光。它游泳的姿态非常优雅，有人看到它在优美的湖面上华丽游动的姿态误以为那是河童。据说额头奇异地发光时，它就能自如地使用神通力。即便是游得很快的鱼宝可梦，它也能用定身法定住其行动，并轻易地进行捕捉，在岸边静静地啃食捕捉到的鱼宝可梦。据说戴着额头红色的部分就会被赋予神通力，过去也曾因此被人类过度捕捉。古老的故事中说，它会把污染河水的人类拖进水中带走，有时也会去救遭遇船难的人们。",
+  "flavor_text_en": "Its body is strong, and it has webbing on its hands and feet. Golduck can swim easily through rough seas, clawing its way through the high waves.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 55,
+    "pokeapi_species_id": 55,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/55"
+  }
+}

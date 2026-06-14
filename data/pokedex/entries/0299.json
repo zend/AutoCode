@@ -1,0 +1,92 @@
+{
+  "entry_id": "0299",
+  "national_id": 299,
+  "form": "default",
+  "names": {
+    "en": "Nosepass",
+    "ja": "ノズパス",
+    "zh": "朝北鼻"
+  },
+  "generation": 3,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "コンパスポケモン",
+  "category_zh": "罗盘宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 磁力",
+      "hidden": false
+    },
+    {
+      "name_en": "magnet-pull",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 97.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 75,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 135,
+    "special_attack": 45,
+    "special_defense": 90,
+    "speed": 30,
+    "total": 375
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 476,
+        "name_en": "probopass",
+        "name_zh": "大朝北鼻",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 60,
+    "神奥": 155,
+    "阿罗拉": 198,
+    "洗翠": 190,
+    "北上": 107
+  },
+  "flavor_text_zh": "朝北鼻看起来有短小的胳膊和腿。它的鼻子是红色的，除此之外全身都是蓝色的。手掌中心和脚底中心有一个黑色空洞。 朝北鼻鼻子上的磁铁绝对不会失灵，总是朝向北方，所以是训练家旅行时的良伴。旅行者会通过看朝北鼻来确认方向，这与古时罗盘的原理相同。由于磁铁同极相斥，因此朝北鼻之间无法将脸靠在一起。它1年只会移动1厘米，但在陷入危机时会旋转身体，瞬间潜入地下。它会一动不动地用从身体里发出强烈磁力将猎物吸过来狩猎，越是寒冷的季节磁力就越强，但有时也会吸到天敌。 金属怪 非常喜欢能放出磁力的矿物，会以100公里的时速穷追朝北鼻。但朝北鼻遇到危机时，它有时会增强磁力吸引周围的铁块来保护自身，从而加固自己的防御。",
+  "flavor_text_en": "Once the people of Hisui discovered that its red nose always points north, they grew to rely on it greatly when traveling afar. The nose seems to work in a similar way to ancient compasses.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 299,
+    "pokeapi_species_id": 299,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/299"
+  }
+}

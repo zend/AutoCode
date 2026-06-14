@@ -1,0 +1,93 @@
+{
+  "entry_id": "0694",
+  "national_id": 694,
+  "form": "default",
+  "names": {
+    "en": "Helioptile",
+    "ja": "エリキテル",
+    "zh": "伞电蜥"
+  },
+  "generation": 6,
+  "types": [
+    "electric",
+    "normal"
+  ],
+  "types_zh": [
+    "电",
+    "一般"
+  ],
+  "category": "はつでんポケモン",
+  "category_zh": "发电宝可梦",
+  "abilities": [
+    {
+      "name_en": "dry-skin",
+      "name_zh": "干燥皮肤 / 或 / 沙隐",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "solar-power",
+      "name_zh": "太阳之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 6.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 58,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 44,
+    "attack": 38,
+    "defense": 33,
+    "special_attack": 61,
+    "special_defense": 43,
+    "speed": 70,
+    "total": 289
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 695,
+        "name_en": "heliolisk",
+        "name_zh": "光电伞蜥",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 318,
+    "密阿雷": 202
+  },
+  "flavor_text_zh": "伞电蜥像一只有大脑袋和耳朵的蜥蜴，全身和耳垂都是黄色的，只有头顶、耳朵、尾巴尖和脚都是黑色的。 伞电蜥在沙漠生活，在它头部两侧的褶边里，有沐浴阳光来发电的细胞。它只要能沐浴着阳光发电，即使不吃食物也安然无恙。如果有人打扰它发电，它就会因心理压力而衰弱。当它张开头部的褶边用太阳光发电，就能使出威力强大的电属性招式。",
+  "flavor_text_en": "The sun powers this Pokémon’s electricity generation. Interruption of that process stresses Helioptile to the point of weakness.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 694,
+    "pokeapi_species_id": 694,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/694"
+  }
+}

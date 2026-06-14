@@ -1,0 +1,74 @@
+{
+  "entry_id": "0771",
+  "national_id": 771,
+  "form": "default",
+  "names": {
+    "en": "Pyukumuku",
+    "ja": "ナマコブシ",
+    "zh": "拳海参"
+  },
+  "generation": 7,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "なまこポケモン",
+  "category_zh": "海参宝可梦",
+  "abilities": [
+    {
+      "name_en": "innards-out",
+      "name_zh": "飞出的内在物",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "纯朴",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 1.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 60,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 144,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 60,
+    "defense": 130,
+    "special_attack": 30,
+    "special_defense": 130,
+    "speed": 5,
+    "total": 410
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 200,
+    "伽勒尔": 156
+  },
+  "flavor_text_zh": "拳海参是一只黑色的海参。它的身上均匀排列着六个玫红色锥形，眼睛也是玫红色的，嘴巴则是像个白色的“大”字。它的背后有一团白色物体。拳海参被有保湿效果的滑溜溜的黏液覆盖着，即使是在陆上一星期内也不会变得干燥。包裹着身体的黏糊糊液体对于日晒后的护肤非常有用，阿罗拉的人会利用这种黏液作护肤用途。 拳海参栖息在沙滩等浅海温暖的地区。虽然外表看上去十分可爱，但它其实是个大力士。它讨厌被触摸刺和口部，如过被踏到的话会从口中吐出有如拳头形状般的内脏殴打对方。它会从身体里飞出体内器官，捕捉食物，或是与敌人战斗，还会与伙伴比试力气。拳海参发现喜欢的地方时，会待在那里动也不动。由于即使被移动也会返回原处，因此在那里没有食物的话就会一直肚子饿。在同情拳海参的阿罗拉的人之间，形成了当发现消瘦的拳海参时，就会将它投掷到有食物的海中的习惯。扔拳海参的文化始于将冲上岸的拳海参扔回海里这个习俗。由于拳海参因外观和生态怪异而遭受游客厌恶，因此在专为游客而设的海滩上，会有将拳海参投掷到海中的打工。但是，即使投掷到远处去，拳海参还是会返回原来的地方。 [ 1 ]",
+  "flavor_text_en": "It lives in warm, shallow waters. If it encounters a foe, it will spit out its internal organs as a means to punch them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 771,
+    "pokeapi_species_id": 771,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/771"
+  }
+}

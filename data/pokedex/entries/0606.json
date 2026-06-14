@@ -1,0 +1,89 @@
+{
+  "entry_id": "0606",
+  "national_id": 606,
+  "form": "default",
+  "names": {
+    "en": "Beheeyem",
+    "ja": "オーベム",
+    "zh": "大宇怪"
+  },
+  "generation": 5,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "ブレインポケモン",
+  "category_zh": "脑宝可梦",
+  "abilities": [
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应 / 或 / 同步",
+      "hidden": false
+    },
+    {
+      "name_en": "synchronize",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "analytic",
+      "name_zh": "分析",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 34.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 170,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 75,
+    "special_attack": 125,
+    "special_defense": 95,
+    "speed": 40,
+    "total": 485
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 605,
+        "name_en": "elgyem",
+        "name_zh": "小灰怪",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 112,
+    "伽勒尔": 278
+  },
+  "flavor_text_zh": "大宇怪是一只棕色的宝可梦，身上类似领子和纽扣的突起是浅棕色的。大宇怪的额头上有黑色花纹，脑袋又大又长，两边有凹坑，两只绿色的眼睛连在一起。它的身上有着许多黑色细纹，手上有红、黄、绿三色的发光器官。 大宇怪拥有强大的精神力量，会用发着三色光的手指操纵对手的大脑，并改写其大脑里的记忆影像。好像是通过三色的手指忽明忽暗与同伴沟通，但目前还无法解读这种交流方式。如果大宇怪出现在牧场里，那么就会有1只 毛毛角羊 在不知不觉间消失。经常有人看到它在麦田的上方徘徊。",
+  "flavor_text_en": "Sometimes found drifting above wheat fields, this Pokémon can control the memories of its opponents.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 606,
+    "pokeapi_species_id": 606,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/606"
+  }
+}

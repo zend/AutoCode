@@ -1,0 +1,82 @@
+{
+  "entry_id": "0429",
+  "national_id": 429,
+  "form": "default",
+  "names": {
+    "en": "Mismagius",
+    "ja": "ムウマージ",
+    "zh": "梦妖魔"
+  },
+  "generation": 4,
+  "types": [
+    "ghost"
+  ],
+  "types_zh": [
+    "幽灵"
+  ],
+  "category": "マジカルポケモン",
+  "category_zh": "魔法宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 4.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 173,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 105,
+    "special_defense": 105,
+    "speed": 105,
+    "total": 495
+  },
+  "ev_yield": {
+    "special_attack": 1,
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 200,
+        "name_en": "misdreavus",
+        "name_zh": "梦妖",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 73,
+    "阿罗拉": 67,
+    "洗翠": 198,
+    "帕底亚": 115
+  },
+  "flavor_text_zh": "梦妖魔是一只紫色的宝可梦，头的形状类似一个魔法师的帽子，后面有四个突起。它的身上镶嵌了三枚红色宝石。 梦妖魔不知从何处出现，是神出鬼没的宝可梦。因为四处作祟，播撒咒术而被人们所恐惧。它会碎碎念着吟诵咒术的语言，发出咒语般的叫声让对方极度头疼或是看到恐怖的幻觉，使其深受折磨。由于会咏唱辟邪的咒语，因此人们有着将其找来家中的习俗。然而一旦惹其不悦，便会反招灾祸。不过它也会随性地使用帮助人类的咒文，据说它的叫声也蕴藏着偶尔会让对手变得幸福的效果。因为也会施加实现恋爱愿望的咒语，所以也有拼命寻找梦妖魔的人。",
+  "flavor_text_en": "The incantations Mismagius chants can ward against misfortune, so a custom exists of inviting it into one's home. Incur the Pokémon's displeasure, however, and disaster will surely ensue.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 429,
+    "pokeapi_species_id": 429,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/429"
+  }
+}

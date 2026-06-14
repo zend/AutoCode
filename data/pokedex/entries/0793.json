@@ -1,0 +1,68 @@
+{
+  "entry_id": "0793",
+  "national_id": 793,
+  "form": "default",
+  "names": {
+    "en": "Nihilego",
+    "ja": "ウツロイド",
+    "zh": "虚吾伊德"
+  },
+  "generation": 7,
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "types_zh": [
+    "岩石",
+    "毒"
+  ],
+  "category": "きせいポケモン",
+  "category_zh": "寄生宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 55.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 109,
+    "attack": 53,
+    "defense": 47,
+    "special_attack": 127,
+    "special_defense": 131,
+    "speed": 103,
+    "total": 570
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 293
+  },
+  "flavor_text_zh": "虚吾伊德是 究极异兽 的一种，代号为“ＵＢ０１：寄生物”。虚吾伊德有着类似铃形水母的身体。半透明的上伞面周围环绕着一些白色的六角星标记，波浪形的伞缘呈亮蓝色。它的触须呈胶状，整体形状接近于人形。几条触须交织在一起形成披风或长发的外观，四条较短的触须则类似于较短的头发和手臂，而两条长长的触须则构成人形的腿部。它的身体是由像是玻璃的物质所构成的，可是经常产生变化，没有固定的形态。 虚吾伊德是从 究极之洞 出现来到这个世界的究极异兽。它被认为拥有强力的神经毒素，好像会寄生在宝可梦或人类的身上生存下去，有人目击了街上的人们被寄生后暴走起来的样子。虚吾伊德的神经毒素具有解放人类心灵的作用，此外被它寄生的人类最后会由于毒素自身衰弱到无法动弹。 [ 1 ] 虽然可以看出它像是拥有生存本能的东西，但它是否具有想法和感情却不得而知，据说它的动作看起来隐约像是人间的少女。 [ 2 ] 根据 碧珂 的研究，其最大的特征是拥有寄生能力。虚吾伊德并不会操纵寄生的对象，而是会极度提高寄生对象的能力保护自己的身体。为此，它会向寄生的对象注入神经毒素。虚吾伊德的毒素里有强效的觉醒作用，在被寄生的对象身上会发生极度兴奋与自我开放现象。也就是说，被虚吾伊德寄生的对象，其身心的能力会被强制性地提高到１００%，会不自觉的根据自己的欲求来行动。",
+  "flavor_text_en": "It appeared in this world from an Ultra Wormhole. Nihilego appears to be a parasite that lives by feeding on people and Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 793,
+    "pokeapi_species_id": 793,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/793"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "entry_id": "0524",
+  "national_id": 524,
+  "form": "default",
+  "names": {
+    "en": "Roggenrola",
+    "ja": "ダンゴロ",
+    "zh": "石丸子"
+  },
+  "generation": 5,
+  "types": [
+    "rock"
+  ],
+  "types_zh": [
+    "岩石"
+  ],
+  "category": "マントルポケモン",
+  "category_zh": "地幔宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 碎裂铠甲",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-force",
+      "name_zh": "沙之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 18.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 56,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 75,
+    "defense": 85,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 15,
+    "total": 280
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 525,
+        "name_en": "boldore",
+        "name_zh": "地幔岩",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 30,
+    "阿罗拉": 98,
+    "伽勒尔": 168
+  },
+  "flavor_text_zh": "石丸子有著石头般的身体。其头部有一块锥形竖立起来的褐色石块，似乎是他的角。圆滚的身体下方，两只多棱型的石块作为脚。呈藏青色的身体正中心有着淡黄色的六角形的洞，这洞实际上就是他的耳朵。耳朵里面有能量核心，所以如果把手伸进去就会发怒。 石丸子在100年前的大地震时从地裂的断层中被发现，构成身体的成分是好几百年前的土。它的身体在地底被压缩过，硬度不输钢铁。但要是长时间浸在水里，似乎就会稍微变软一些。它会对声音产生反应而动起来，朝着声音响起的方向走过去，但声音一旦停止就迷惘地跌倒。在能量核心的影响下，它摸起来暖暖的。它会与亲缘相近的 小拳石 和 小碎钻 较量硬度，但能够破坏石头的 石居蟹 是它的天敌。有时 超甲狂犀 也会把它当作岩石从手掌的洞里发射出去。",
+  "flavor_text_en": "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 524,
+    "pokeapi_species_id": 524,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/524"
+  }
+}

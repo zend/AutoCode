@@ -1,0 +1,87 @@
+{
+  "entry_id": "0996",
+  "national_id": 996,
+  "form": "default",
+  "names": {
+    "en": "Frigibax",
+    "ja": "セビエ",
+    "zh": "凉脊龙"
+  },
+  "generation": 9,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "types_zh": [
+    "龙",
+    "冰"
+  ],
+  "category": "こおりビレポケモン",
+  "category_zh": "冰鳍宝可梦",
+  "abilities": [
+    {
+      "name_en": "thermal-exchange",
+      "name_zh": "热交换",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 17.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 64,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "龙",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 75,
+    "defense": 45,
+    "special_attack": 35,
+    "special_defense": 45,
+    "speed": 55,
+    "total": 320
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 997,
+        "name_en": "arctibax",
+        "name_zh": "冻脊龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 388
+  },
+  "flavor_text_zh": "凉脊龙栖息在岩石地带或森林里。它会用背鳍来吸收热量，并将其转换成冰之能量。温度越高，积累的能量就越多。然后将巢穴里的温度降到如冷冻库般寒冷。 冰宝 如果遇上它就会大打出手。",
+  "flavor_text_en": "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 996,
+    "pokeapi_species_id": 996,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/996"
+  }
+}

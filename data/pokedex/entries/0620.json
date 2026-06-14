@@ -1,0 +1,91 @@
+{
+  "entry_id": "0620",
+  "national_id": 620,
+  "form": "default",
+  "names": {
+    "en": "Mienshao",
+    "ja": "コジョンド",
+    "zh": "师父鼬"
+  },
+  "generation": 5,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "ぶじゅつポケモン",
+  "category_zh": "武术宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力 / 或 / 再生力",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 35.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 179,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 125,
+    "defense": 60,
+    "special_attack": 95,
+    "special_defense": 60,
+    "speed": 105,
+    "total": 510
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 619,
+        "name_en": "mienfoo",
+        "name_zh": "功夫鼬",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 126,
+    "北上": 138
+  },
+  "flavor_text_zh": "师父鼬是类似鼬的宝可梦，它有着白色修长的身体以及淡紫色的花纹。它的手臂长着两簇长毛，看起来就像是挽着两个长长的袖子。它有着很长的胡须以及很长的尾巴，腿部则相对比较短。 师父鼬双臂的攻击速度快到迅雷不及掩耳，能甩动手臂上修长的体毛像鞭子一样灵活地鞭打敌人战斗。如果它用奇妙的声音叫唤的话，就会展开飞快的踢和劈来连续攻击压倒对手。一旦开始连续攻击，谁也无法阻止，致命的一击会在缓慢蓄力后施展出来。它还能以迅雷不及掩耳的速度使出踢击，即使是巨大的岩石也能击得粉碎。遇到真正的强敌时，它也会为了让身体更加灵便咬断自己双手的毛扔掉。",
+  "flavor_text_en": "Delivered at blinding speeds, kicks from this Pokémon can shatter massive boulders into tiny pieces.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 620,
+    "pokeapi_species_id": 620,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/620"
+  }
+}

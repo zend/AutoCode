@@ -1,0 +1,81 @@
+{
+  "entry_id": "0692",
+  "national_id": 692,
+  "form": "default",
+  "names": {
+    "en": "Clauncher",
+    "ja": "ウデッポウ",
+    "zh": "铁臂枪虾"
+  },
+  "generation": 6,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "みずでっぽうポケモン",
+  "category_zh": "水枪宝可梦",
+  "abilities": [
+    {
+      "name_en": "mega-launcher",
+      "name_zh": "超级发射器",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 8.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 66,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 62,
+    "special_attack": 58,
+    "special_defense": 63,
+    "speed": 44,
+    "total": 330
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 693,
+        "name_en": "clawitzer",
+        "name_zh": "钢炮臂虾",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 339,
+    "密阿雷": 163
+  },
+  "flavor_text_zh": "铁臂枪虾的一只钳子远比另一只大。它有三对浅灰色的腿和两对蓝色尖刺钳子，每个钳子的顶部都有黑色条纹。它有一对黄色触角，黄色眼睛。背部有三条黑色条纹，将其身体分成几个部分，底部为浅灰色。 铁臂枪虾会通过体内气体的爆炸像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。极近距离的话，能击碎岩石。在海上的 多龙梅西亚 明明不吃但又会咬住铁臂枪虾不放。钳子就算在战斗中掉落也还会再长出来，在再生之前会悄悄地生活。不同于 铁螯龙虾 钳子里面的肉有臭泥味，实在很难吃，铁臂枪虾钳子里的肉是在伽勒尔广受欢迎的珍奇美食，但由于味道太独特因此很挑喜好。它可以从右侧的钳子里喷出水来移动，因为平衡性很差，所以不擅长直线游泳。",
+  "flavor_text_en": "By detonating gas that accumulates in its right claw, this Pokémon launches water like a bullet. This is how Clauncher defeats its enemies.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 692,
+    "pokeapi_species_id": 692,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/692"
+  }
+}

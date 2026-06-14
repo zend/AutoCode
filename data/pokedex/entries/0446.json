@@ -1,0 +1,92 @@
+{
+  "entry_id": "0446",
+  "national_id": 446,
+  "form": "default",
+  "names": {
+    "en": "Munchlax",
+    "ja": "ゴンベ",
+    "zh": "小卡比兽"
+  },
+  "generation": 4,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "おおぐいポケモン",
+  "category_zh": "大胃王宝可梦",
+  "abilities": [
+    {
+      "name_en": "pickup",
+      "name_zh": "捡拾 / 或 / 厚脂肪",
+      "hidden": false
+    },
+    {
+      "name_en": "thick-fat",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 105.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 50,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 78,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 135,
+    "attack": 85,
+    "defense": 40,
+    "special_attack": 40,
+    "special_defense": 85,
+    "speed": 5,
+    "total": 390
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 143,
+        "name_en": "snorlax",
+        "name_zh": "卡比兽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 112,
+    "阿罗拉": 35,
+    "伽勒尔": 260,
+    "洗翠": 51,
+    "北上": 102
+  },
+  "flavor_text_zh": "小卡比兽的皮肤是深蓝色的，它的头部下方、肚皮和脚是白色的。它的头上有两只大耳朵，高高地向上竖起。它的眼睛很大，但眼珠很小，眼睛下面的大嘴里长有两颗小小的尖牙。它的脚上长有三根指甲，藏在长长的毛下，只有走路时才会露出来。 小卡比兽会出没在村落中，寻找被当成堆肥原料的残羹剩饭。它每天都要一口气吞下一次与体重相当的食物，味道的好坏并不在意，基本上不怎么咀嚼就直接吞下去。一旦找到看起来能吃的东西，就不管三七二十一先捡起来吞了，所以就这么一天天地变胖起来。它拥有强健的胃，总之全神贯注地大吃大喝，即使是腐烂的食物也能大快朵颐。如果是自己信赖的对象，它也会把食物分给对方一口。它有着把食物藏在长长蓬松的体毛下带着走的习性，不过会在拼命进食的途中忘记藏到体毛下的食物，有时甚至会发生异臭。",
+  "flavor_text_en": "Its robust stomach allows it to nonchalantly devour even rotted matter. It pays frequent visits to villages, seeking out food scraps intended for compost.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 446,
+    "pokeapi_species_id": 446,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/446"
+  }
+}

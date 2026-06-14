@@ -1,0 +1,82 @@
+{
+  "entry_id": "0738",
+  "national_id": 738,
+  "form": "default",
+  "names": {
+    "en": "Vikavolt",
+    "ja": "クワガノン",
+    "zh": "锹农炮虫"
+  },
+  "generation": 7,
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "types_zh": [
+    "虫",
+    "电"
+  ],
+  "category": "くわがたポケモン",
+  "category_zh": "锹形虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 45.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 225,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 77,
+    "attack": 70,
+    "defense": 90,
+    "special_attack": 145,
+    "special_defense": 75,
+    "speed": 43,
+    "total": 500
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 737,
+        "name_en": "charjabug",
+        "name_zh": "虫电宝",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 29,
+    "伽勒尔": 18,
+    "北上": 114
+  },
+  "flavor_text_zh": "锹农炮虫有一对几乎与身体一样长的，可以控制发射电力的大颚，大颚上有四个齿。大颚后方有一个橘黄色的嘴，嘴的上方有一双黄色的眼。上翅为三角形，飞行时几乎不动，下翅为扇形，飞行时会振动。腹部为黑色，三角形，分成三节，连接处为黄色，前两节侧面各有一个黄斑，发电器官在腹部。有四条腿，为黑色，爪部为白色，前腿各有两个爪子，后腿只有一个爪。前腿长在胸部，后腿长在腹部第一节。 锹农炮虫擅长螺旋下降和急旋回等的杂技飞行，会以卓越的机动性来回盘旋于树木之间，能够在森林中一边躲避错综复杂的枝叶一边高速飞行，以杂技般的飞行搅乱敌人。它能用腹部发电，并把电力集中至大大的颚部，抓住对方胆怯的那一瞬从巨大的颚部释放出能量惊人的电磁光束。即便是鸟宝可梦也能被它用电击光束压制。在阿罗拉， 赫拉克罗斯 是它最大的竞争者，双方经常大打出手。 凯罗斯 也会和它争夺领地。它也用脚将 虫电宝 抱住作为后备电池。即使长时间战斗，利用虫电宝的电力，也能连续发射电力超高的电磁光束。当在空中激烈战斗时，便会放开虫电宝令身体变轻，提高灵活性。 [ 1 ]",
+  "flavor_text_en": "If it carries a Charjabug to use as a spare battery, a flying Vikavolt can rapidly fire high-powered beams of electricity.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 738,
+    "pokeapi_species_id": 738,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/738"
+  }
+}

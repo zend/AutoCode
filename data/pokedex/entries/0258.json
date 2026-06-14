@@ -1,0 +1,86 @@
+{
+  "entry_id": "0258",
+  "national_id": 258,
+  "form": "default",
+  "names": {
+    "en": "Mudkip",
+    "ja": "ミズゴロウ",
+    "zh": "水跃鱼"
+  },
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ぬまうおポケモン",
+  "category_zh": "沼鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "damp",
+      "name_zh": "湿气",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 7.6,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 70,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 40,
+    "total": 310
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 259,
+        "name_en": "marshtomp",
+        "name_zh": "沼跃鱼",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 7,
+    "蓝莓": 188
+  },
+  "flavor_text_zh": "水跃鱼拥有黏滑的蓝色皮肤和小巧灵活的身材。头上高立的鳍、两边显眼的橙色腮瓣以及巨大的尾鳍都给人深刻的印象。 水跃鱼平时将身体埋在河底的淤泥中休息，在水里时会用脸颊上的腮呼吸。它头上的鳍是非常灵敏的雷达，可以不靠眼睛从水或空气的流动中探测周围的情况。如果遇到危险就会发挥出惊人的力量，能击碎比自己身体还大的岩石。如果用大大的尾鳍划水的话，速度就会快速提升。在陆地上，会用4只脚用力蹬地，发挥出举起巨大岩石的力量。",
+  "flavor_text_en": "In water, Mudkip breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this Pokémon will unleash its amazing power—it can crush rocks bigger than itself.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 258,
+    "pokeapi_species_id": 258,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/258"
+  }
+}

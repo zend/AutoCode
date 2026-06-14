@@ -1,0 +1,88 @@
+{
+  "entry_id": "0938",
+  "national_id": 938,
+  "form": "default",
+  "names": {
+    "en": "Tadbulb",
+    "ja": "ズピカ",
+    "zh": "光蚪仔"
+  },
+  "generation": 9,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "でんきおたまポケモン",
+  "category_zh": "电蝌蚪宝可梦",
+  "abilities": [
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素 / 或 / 静电",
+      "hidden": false
+    },
+    {
+      "name_en": "static",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "damp",
+      "name_zh": "湿气",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 0.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 54,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 61,
+    "attack": 31,
+    "defense": 41,
+    "special_attack": 59,
+    "special_defense": 35,
+    "speed": 45,
+    "total": 272
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 939,
+        "name_en": "bellibolt",
+        "name_zh": "电肚蛙",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 170
+  },
+  "flavor_text_zh": "光蚪仔通过摇晃尾巴来发电，会靠储存在体内的电力来浮在空中。出现雷云时能比平时浮得更高。若感知到有危险，它会闪烁头部来通知伙伴。",
+  "flavor_text_en": "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 938,
+    "pokeapi_species_id": 938,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/938"
+  }
+}

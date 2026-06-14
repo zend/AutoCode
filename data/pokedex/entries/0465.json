@@ -1,0 +1,89 @@
+{
+  "entry_id": "0465",
+  "national_id": 465,
+  "form": "default",
+  "names": {
+    "en": "Tangrowth",
+    "ja": "モジャンボ",
+    "zh": "巨蔓藤"
+  },
+  "generation": 4,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "ツルじょうポケモン",
+  "category_zh": "藤蔓状宝可梦",
+  "abilities": [
+    {
+      "name_en": "chlorophyll",
+      "name_zh": "叶绿素 / 或 / 叶子防守",
+      "hidden": false
+    },
+    {
+      "name_en": "leaf-guard",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.0,
+  "weight_kg": 128.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 187,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 125,
+    "special_attack": 110,
+    "special_defense": 50,
+    "speed": 50,
+    "total": 535
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 114,
+        "name_en": "tangela",
+        "name_zh": "蔓藤怪",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 182,
+    "洗翠": 96
+  },
+  "flavor_text_zh": "巨蔓藤的身体主要颜色为深蓝，有三根手指状藤蔓，腿又粗又短，其末端皆为深红。它全身缠满长长藤蔓的模样看起来就如一丛杂草。雌性巨蔓藤手中的红色部更长。 巨蔓藤栖息的地域越是温暖，植物的藤蔓生长得就越快，连眼珠都会被遮住。由植物长成的手臂如果放着不管，就会缠到一起。藤蔓变长后，它会亲手将其扯断使其变短。最近的研究表明，它那能够自由伸长的两个手臂其实是由藤蔓聚集而成的。它能伸长手臂，将自己庞大的身体移动到远处。还能将束起的藤蔓像手臂般自在挥舞，用以卷住猎物。它一动不动时看起来只是个茂密的草丛，然后用蔓藤将靠近的猎物紧紧捆住，即便手臂被吃掉也毫不在意。由于再生能力很强，一眨眼的工夫就能恢复原样。",
+  "flavor_text_en": "Draped with long vines, it resembles a shrub in appearance. It swings bundles of vines as though they were arms, wrapping them around prey to ensnare them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 465,
+    "pokeapi_species_id": 465,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/465"
+  }
+}

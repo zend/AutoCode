@@ -1,0 +1,93 @@
+{
+  "entry_id": "0712",
+  "national_id": 712,
+  "form": "default",
+  "names": {
+    "en": "Bergmite",
+    "ja": "カチコール",
+    "zh": "冰宝"
+  },
+  "generation": 6,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "ひょうかいポケモン",
+  "category_zh": "冰块宝可梦",
+  "abilities": [
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素 / 或 / 冰冻之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 99.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 61,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 69,
+    "defense": 85,
+    "special_attack": 32,
+    "special_defense": 35,
+    "speed": 28,
+    "total": 304
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 713,
+        "name_en": "avalugg",
+        "name_zh": "冰岩怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 358,
+    "洗翠": 215,
+    "帕底亚": 363,
+    "密阿雷": 174
+  },
+  "flavor_text_zh": "冰宝布满棱角，眼睛是紫色加黄色的，生有四肢。它戴着将大气中的水分冷冻后形成的冰盔来保护自己。 冰宝栖息在万年积雪覆盖的山区极其寒冷的地域，会把自己的脚冻在冰岩怪的背上固定起来。它偶尔也会乘坐在冰岩怪背上越过大海，更换居处。它会用零下100度的冷气把敌人冰封起来。覆盖着身体的冰可以抵御敌人的攻击，即使被打破也能立即用冷气结起冰。如果遇上 凉脊龙 就会大打出手。",
+  "flavor_text_en": "Lives on mountains blanketed in perennial snow. It freezes water vapor in the air to make the ice helmet that it dons for defense.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 712,
+    "pokeapi_species_id": 712,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/712"
+  }
+}

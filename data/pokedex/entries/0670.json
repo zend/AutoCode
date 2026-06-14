@@ -1,0 +1,91 @@
+{
+  "entry_id": "0670",
+  "national_id": 670,
+  "form": "default",
+  "names": {
+    "en": "Floette",
+    "ja": "フラエッテ",
+    "zh": "花叶蒂"
+  },
+  "generation": 6,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "いちりんポケモン",
+  "category_zh": "单朵宝可梦",
+  "abilities": [
+    {
+      "name_en": "flower-veil",
+      "name_zh": "花幕",
+      "hidden": false
+    },
+    {
+      "name_en": "symbiosis",
+      "name_zh": "共生",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.9,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 130,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 54,
+    "attack": 45,
+    "defense": 47,
+    "special_attack": 75,
+    "special_defense": 98,
+    "speed": 52,
+    "total": 371
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 669,
+        "name_en": "flabebe",
+        "name_zh": "花蓓蓓",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 671,
+        "name_en": "florges",
+        "name_zh": "花洁夫人",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 146,
+    "密阿雷": 39
+  },
+  "flavor_text_zh": "花叶蒂的外形很类似 花蓓蓓 ，只是相对花蓓蓓来说体型变得跟花朵一般大，从原本抱着花朵的姿态变成了拿着花朵的姿态，与花蓓蓓一样，与其共生的花朵颜色有5种，与进化前相同。花叶蒂只有雌性，也没有与它对应的雄性宝可梦。 花叶蒂会在花圃里飞来飞去，把自己的力量给花用心地照料快要枯萎的花朵。它会将枯萎的花里剩余的能量激发出来，以激发花的潜在能力，从而使其恢复生机。只要发现枯萎的花草，它也会带回自己的地盘照料，使其恢复活力。被精心照料过的花坛里的花一旦开放就会现身，以华丽的舞蹈给予祝福。它绝不原谅那些破坏花坛者，如果发现有谁破坏了花坛，就会毫不留情地发动攻击。它会培育花朵当作自己的武器来用，能引导出花朵蕴藏的力量战斗。它单靠自己无法使出招式，只能通过颜色的波长与花交换力量，那种力量会成为花叶蒂保护自己的招式，同时能够激发草属性的宝可梦的潜在能力。越是开得美丽的花，蕴藏着的力量就越强大。喜欢白花的花叶蒂也很擅长与其他颜色的花搭配。 主页面： ＡＺ的花叶蒂 有一种花叶蒂挥舞着被称为 永恒之花 的花朵，这株不祥的花朵被认为蕴藏着恐怖的力量，现在在任何地方都没有开放。 ＡＺ 的花叶蒂就是这种花叶蒂。 红花 橙花 蓝花 白花 黄花 永恒之花",
+  "flavor_text_en": "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 670,
+    "pokeapi_species_id": 670,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/670"
+  }
+}

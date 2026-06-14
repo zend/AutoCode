@@ -1,0 +1,95 @@
+{
+  "entry_id": "0058-hisui",
+  "national_id": 58,
+  "form": "hisui",
+  "names": {
+    "en": "Growlithe",
+    "ja": "ガーディ",
+    "zh": "卡蒂狗（洗翠的样子）"
+  },
+  "generation": 1,
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "types_zh": [
+    "火",
+    "岩石"
+  ],
+  "category": "こいぬポケモン",
+  "category_zh": "小狗宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓",
+      "hidden": false
+    },
+    {
+      "name_en": "flash-fire",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "坚硬脑袋",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 22.7,
+  "gender_ratio": {
+    "male_percent": 75.0,
+    "female_percent": 25.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 70,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 70,
+    "special_defense": 50,
+    "speed": 60,
+    "total": 350
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 59,
+        "name_en": "arcanine",
+        "name_zh": "风速狗",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 58,
+    "城都": 127,
+    "阿罗拉": 52,
+    "伽勒尔": 70,
+    "帕底亚": 213,
+    "北上": 78
+  },
+  "flavor_text_zh": "卡蒂狗是一种小型的犬宝可梦。它全身底色橙黄，吻部、腹面及尾巴为乳黄色，背面及四肢有黑色纵纹，头、颈长有乳黄色鬃毛。卡蒂狗吻部较短，鼻子为黑色，耳朵大而圆，前足2趾，后足3趾，脚掌有棕色肉垫。在洗翠地区能看到的卡蒂狗，比起至今为止所发现的卡蒂狗，体毛要更长，毛量也更多。由于体毛柔软并且十分保暖，因此即使在寒冷的洗翠地区也能精力充沛地进行活动。受到火山活动的影响，体毛中混有火成岩的成分。由岩石构成的角虽然坚硬锐利，但却容易缺损，因此似乎只有在关键时刻才会用来攻击。 卡蒂狗很久很久以前就和人类一起生活。从石器时代的遗迹中出土过它的骨头。它性格诚实，熟悉后便会与人亲近，十分机灵可爱。它对训练家非常忠诚，如果没有训练家的指示，它连一步都不会动。为了保护自己的训练家，它会拼命地朝对手狂吠。如果靠近不认识的训练家的卡蒂狗，会被狂吠撕咬，大吼着追到大街上。它能毫无畏惧地去对抗比自己更强更大的对手，性格勇敢非常可靠。卡蒂狗有着宽广的领地，领地意识很强，野生的卡蒂狗会和 岩狗狗 就领地而展开激烈的争夺。对于不经意接近或进入自己领地的人，它会对着敌人狂吠、吼叫追咬、呲牙恐吓，并试着把其赶跑，让敌人尝到苦头。它嗅觉灵敏，发现不知道的味道就会向对方狂吠轰出去，只要是闻过的味道，不管发生什么都不会忘记。会通过闻气味来察觉对方的情绪。 洗翠地区的卡蒂狗警戒心很强，也有人看到它们以2只为一组看守地盘。由于长时间和人类在生活上保持距离，因此与人类并不亲近。想要和它们建立信赖关系似乎需要花上一些时间。 [ 1 ]",
+  "flavor_text_en": "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10229,
+    "pokeapi_species_id": 58,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10229"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "entry_id": "0017",
+  "national_id": 17,
+  "form": "default",
+  "names": {
+    "en": "Pidgeotto",
+    "ja": "ピジョン",
+    "zh": "比比鸟"
+  },
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "とりポケモン",
+  "category_zh": "鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光 / 或 / 蹒跚",
+      "hidden": false
+    },
+    {
+      "name_en": "tangled-feet",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "big-pecks",
+      "name_zh": "健壮胸肌",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 30.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 122,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 63,
+    "attack": 60,
+    "defense": 55,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 71,
+    "total": 349
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 16,
+        "name_en": "pidgey",
+        "name_zh": "波波",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 18,
+        "name_en": "pidgeot",
+        "name_zh": "大比鸟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 17,
+    "城都": 11,
+    "密阿雷": 22
+  },
+  "flavor_text_zh": "比比鸟的羽毛主要是褐色的，脸部、翅膀内部、翅膀外部前端和腹部的羽毛则是乳白色的。它的头顶有几簇很长的粉红色的羽毛，眼周的羽毛是黑色的，尾羽红黄相间，三根红色，两根黄色。它的眼珠呈黑色，目光锐利。巨大的粉色爪子有三根脚趾。 比比鸟会飞在空中巡视自己广阔的领地，要是有谁胆敢侵犯它的领地，就会被它狠狠地啄击，毫不留情地用利爪狠狠惩治一番。它会在空中用翅膀盘旋，四处飞翔并仔细寻找猎物。它拥有超群的体力，飞翔范围广，经常飞到很远的地方寻找食物。它的视力相当的好，无论是从多高的地方，也能清楚观察到猎物的一举一动。它脚爪的机能发达，能让猎物逃脱不易、动弹不得，会一把抓起 蛋蛋 、 鲤鱼王 这类的猎物，就算离家100公里也可带回。",
+  "flavor_text_en": "This Pokémon is full of vitality. It constantly flies around its large territory in search of prey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 17,
+    "pokeapi_species_id": 17,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/17"
+  }
+}

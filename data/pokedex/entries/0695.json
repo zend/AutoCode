@@ -1,0 +1,94 @@
+{
+  "entry_id": "0695",
+  "national_id": 695,
+  "form": "default",
+  "names": {
+    "en": "Heliolisk",
+    "ja": "エレザード",
+    "zh": "光电伞蜥"
+  },
+  "generation": 6,
+  "types": [
+    "electric",
+    "normal"
+  ],
+  "types_zh": [
+    "电",
+    "一般"
+  ],
+  "category": "はつでんポケモン",
+  "category_zh": "发电宝可梦",
+  "abilities": [
+    {
+      "name_en": "dry-skin",
+      "name_zh": "干燥皮肤 / 或 / 沙隐",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "solar-power",
+      "name_zh": "太阳之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 21.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 62,
+    "attack": 55,
+    "defense": 52,
+    "special_attack": 109,
+    "special_defense": 94,
+    "speed": 109,
+    "total": 481
+  },
+  "ev_yield": {
+    "special_attack": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 694,
+        "name_en": "helioptile",
+        "name_zh": "伞电蜥",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 319,
+    "密阿雷": 203
+  },
+  "flavor_text_zh": "光电伞蜥脖子上有一圈领巾状颈伞，会张开颈伞发电。光电伞蜥的颈伞张开时的造型类似于太阳。 光电伞蜥在如今已灭亡的沙漠之国曾经是人们珍视的对象，它和财宝一起来到了伽勒尔地区。如果展开颈伞沐浴阳光，单凭一只光电伞蜥就能制造出大城市所需的电力。如果用电刺激肌肉，脚力就会提升至5秒内跑100米，此时迅速摆动双腿的话能在水上奔跑。",
+  "flavor_text_en": "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 695,
+    "pokeapi_species_id": 695,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/695"
+  }
+}

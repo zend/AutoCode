@@ -1,0 +1,86 @@
+{
+  "entry_id": "0331",
+  "national_id": 331,
+  "form": "default",
+  "names": {
+    "en": "Cacnea",
+    "ja": "サボネア",
+    "zh": "刺球仙人掌"
+  },
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "サボテンポケモン",
+  "category_zh": "仙人掌宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": false
+    },
+    {
+      "name_en": "water-absorb",
+      "name_zh": "储水",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 51.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 67,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "植物",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 40,
+    "special_attack": 85,
+    "special_defense": 40,
+    "speed": 35,
+    "total": 335
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 332,
+        "name_en": "cacturne",
+        "name_zh": "梦歌仙人掌",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 119,
+    "帕底亚": 252
+  },
+  "flavor_text_zh": "刺球仙人掌身体呈圆形，手臂十分健壮。它的胸前有三个深绿色的菱形花纹，头顶有一个黄色的花。 刺球仙人掌栖息干燥少雨的地方，喜欢沙漠之类的严酷环境。虽然置身于沙漠环境，它却过着随性的生活。它会将水分储存在体内，即使滴水不喝也可以生存30天。黄色的花朵1年绽放1次，越是在少雨严酷的环境中，就越是会绽放出美丽且香味浓郁的花朵。它身上的刺非常锐利，据说会不经意间刺上各种各样的东西。它会用浓郁的花香引诱猎物，再射出身上的尖刺解决猎物。它也会挥动长有粗壮刺针的手臂来战斗。",
+  "flavor_text_en": "The more arid and harsh the environment, the more pretty and fragrant a flower Cacnea grows. This Pokémon battles by wildly swinging its thorny arms.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 331,
+    "pokeapi_species_id": 331,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/331"
+  }
+}

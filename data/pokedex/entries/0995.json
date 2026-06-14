@@ -1,0 +1,68 @@
+{
+  "entry_id": "0995",
+  "national_id": 995,
+  "form": "default",
+  "names": {
+    "en": "Iron Thorns",
+    "ja": "テツノイバラ",
+    "zh": "铁荆棘"
+  },
+  "generation": 9,
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "types_zh": [
+    "岩石",
+    "电"
+  ],
+  "category": "パラドックスポケモン",
+  "category_zh": "悖谬宝可梦",
+  "abilities": [
+    {
+      "name_en": "quark-drive",
+      "name_zh": "夸克充能",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 303.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 285,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 134,
+    "defense": 110,
+    "special_attack": 70,
+    "special_defense": 84,
+    "speed": 72,
+    "total": 570
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 387
+  },
+  "flavor_text_zh": "神秘物体铁荆棘在帕底亚某处的洞窟被人目击到。据说它酷似 班基拉斯 ，但性情极度冷静，并且不喜欢无谓的争斗。因其金属质地的装甲和高度智能，传闻铁荆棘就是十亿年后的班基拉斯。奇书《紫之书》中记载了名为铁之荆棘的神秘物体，它的名字正是来自于此。",
+  "flavor_text_en": "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 995,
+    "pokeapi_species_id": 995,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/995"
+  }
+}

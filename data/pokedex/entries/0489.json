@@ -1,0 +1,78 @@
+{
+  "entry_id": "0489",
+  "national_id": 489,
+  "form": "default",
+  "names": {
+    "en": "Phione",
+    "ja": "フィオネ",
+    "zh": "霏欧纳"
+  },
+  "generation": 4,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "かいようポケモン",
+  "category_zh": "海洋宝可梦",
+  "abilities": [
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 3.1,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 216,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water1",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 80,
+    "total": 480
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 490,
+        "name_en": "manaphy",
+        "name_zh": "玛纳霏",
+        "trigger": ""
+      }
+    ]
+  },
+  "regional_dex": {
+    "洗翠": 239
+  },
+  "flavor_text_zh": "霏欧纳是一只蓝色的宝可梦。它的头部是圆形的，体形很小。霏欧纳的头部以浮囊为冠，其上长有缎带状的触角。霏欧纳口小，长着大眼睛，巩膜为蓝色、虹膜为灰色。在其两眼上方有两个蓝色圆形的图案，通过一条细黑线与两眼连接。霏欧纳脚蹼般的长臂的末端是圆形的。霏欧纳的胸口处有红色的椭圆形宝石，并长有尖状、单只、发育不完全的足。 玛纳霏 通过 宝可梦培育 获得的 蛋 可以孵化出霏欧纳，但是霏欧纳并不能进化为玛纳霏。 霏欧纳栖息在温暖的海里。该宝可梦会让头部的浮囊膨胀起来，然后集体在海面上漂浮，在波涛间寻找食物。在海水温度上升的季节可以看见它漂在海岸附近的身影。无论漂得多远，都一定会回到出生的地方。苍蓝的体色与海水颜色相近，能保护它免于天敌的侵袭。",
+  "flavor_text_en": "Can be seen floating offshore during seasons when the seas are warm. Its azure body blends in with the ocean waters—logic suggests this is a defense mechanism against natural predators.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 489,
+    "pokeapi_species_id": 489,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/489"
+  }
+}

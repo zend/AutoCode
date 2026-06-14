@@ -1,0 +1,82 @@
+{
+  "entry_id": "0681",
+  "national_id": 681,
+  "form": "default",
+  "names": {
+    "en": "Aegislash",
+    "ja": "ギルガルド",
+    "zh": "坚盾剑怪"
+  },
+  "generation": 6,
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "types_zh": [
+    "钢",
+    "幽灵"
+  ],
+  "category": "おうけんポケモン",
+  "category_zh": "王剑宝可梦",
+  "abilities": [
+    {
+      "name_en": "stance-change",
+      "name_zh": "战斗切换",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 53.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 234,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 140,
+    "special_attack": 50,
+    "special_defense": 140,
+    "speed": 60,
+    "total": 500
+  },
+  "ev_yield": {
+    "defense": 2,
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 680,
+        "name_en": "doublade",
+        "name_zh": "双剑鞘",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 332,
+    "密阿雷": 73
+  },
+  "flavor_text_zh": "坚盾剑怪拥有巨大、厚实的剑身，剑柄、剑镡和剑脊，且剑脊呈金黄色。脱去了剑鞘，取而代之的是一个圆盾。剑锋比剑身中央要宽，呈锯齿状。剑格两侧各有一条缎带手臂。眼睛呈深紫色。手臂呈黑色，手掌呈深紫色。坚盾剑怪拥有形态变化，可以通过转换形态进行攻击和防御。处于防御状态时，会把圆盾放在身前，两手负在身后，用钢之身体和灵力的屏障来减弱一切的攻击；处于攻击状态时，会一手持盾，露出剑身，运用钢铁的重量和强度来击碎对手。 坚盾剑怪曾经用强大的灵力控制人和宝可梦，建立了适合自己生活的国家。它好像能看出哪个人有成为国王的潜质。据说被它认可的人最终会成为国王。它曾跟随着历代国王，用灵力控制人和宝可梦的心，使之服从。虽然带着坚盾剑怪的国王曾经支配了整个国家，最后却被它吸走了精气，国家也灭亡了。",
+  "flavor_text_en": "Its potent spectral powers allow it to manipulate others. It once used its powers to force people and Pokémon to build a kingdom to its liking.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 681,
+    "pokeapi_species_id": 681,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/681"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "entry_id": "0223",
+  "national_id": 223,
+  "form": "default",
+  "names": {
+    "en": "Remoraid",
+    "ja": "テッポウオ",
+    "zh": "铁炮鱼"
+  },
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ふんしゃポケモン",
+  "category_zh": "喷射宝可梦",
+  "abilities": [
+    {
+      "name_en": "hustle",
+      "name_zh": "活力 / 或 / 狙击手",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moody",
+      "name_zh": "心情不定",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 12.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 60,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 65,
+    "defense": 35,
+    "special_attack": 65,
+    "special_defense": 35,
+    "speed": 65,
+    "total": 300
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 224,
+        "name_en": "octillery",
+        "name_zh": "章鱼桶",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 172,
+    "神奥": 132,
+    "伽勒尔": 148,
+    "洗翠": 146
+  },
+  "flavor_text_zh": "铁炮鱼在靠近尾巴的部分有两条条纹，头部有一只角。它的身体主要是浅灰色，长着两颗大眼睛。它的鳍和尾巴是白色的。 铁炮鱼会用变成吸盘状的背鳍吸附在 巨翅飞鱼 身上，让它分一点吃剩的东西给自己吃。如果巨翅飞鱼受到袭击，它就会与其一同战斗，这是种避开敌人袭击的生存智慧。进化临近后就会沿河而下。 小球飞鱼 常常混在铁炮鱼群里游泳，受到敌人袭击的时候，会和铁炮鱼们并肩作战。它又被称为海洋狙击手，会用腹肌将饮下的水从嘴里猛烈喷出，解决在空中飞行的猎物，它的名字正是由此而来。从口中喷射出的水流能够极为精确地命中所瞄准的目标，一定会命中在前方100米处活动的猎物，有时会击落并猎捕吊在树枝上的 结草儿 。就算是从很深的水中瞄准也能一定能击中猎物，也曾有过利用吹出的喷射水流的力量向后方逃走的铁炮鱼。",
+  "flavor_text_en": "Spits water from its mouth with incredible accuracy. It captures Burmy by shooting them down off the branches from which they dangle.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 223,
+    "pokeapi_species_id": 223,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/223"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "0348",
+  "national_id": 348,
+  "form": "default",
+  "names": {
+    "en": "Armaldo",
+    "ja": "アーマルド",
+    "zh": "太古盔甲"
+  },
+  "generation": 3,
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "types_zh": [
+    "岩石",
+    "虫"
+  ],
+  "category": "かっちゅうポケモン",
+  "category_zh": "甲胄宝可梦",
+  "abilities": [
+    {
+      "name_en": "battle-armor",
+      "name_zh": "战斗盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 68.2,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 173,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 100,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 45,
+    "total": 495
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 347,
+        "name_en": "anorith",
+        "name_zh": "太古羽虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 136
+  },
+  "flavor_text_zh": "太古盔甲是一只蓝色的甲壳宝可梦，全身被坚固的铠甲所覆盖，十分结实。它下颚、翅膀边缘和腹部有黄色花纹。它的脑袋中央、前肢末端、膝盖、翅膀和尾巴上的鳍状物都是黑色的，头上的黑色斑块上还有两块红色斑点，薄薄的眼睛在脑袋两边。太古盔甲的脖子两边各有三片白色配红色的羽状物，它的背后有一块带刺的甲壳，压着两片巨大的翅膀。 太古盔甲是很久以前就灭绝了的某种宝可梦。据了解，它是一部分虫宝可梦的祖先。它从海里变成了在陆地生活，据说为了能在地上更便利地生活，变成了用双脚走路。虽然太古盔甲平常都住在地底下，不过在捕捉猎物的时候就会潜入海中，利用两片巨大的翅膀来游泳。它身上的甲壳能反弹一切攻击，下半身得到了强化，尾巴的攻击破坏力极强。锐利的爪子是它最大的武器，两只能伸缩的巨爪有着连铁板都能刺穿的威力。它会用锋利的爪子刺穿猎物，然后将其吃掉。",
+  "flavor_text_en": "Though it lives on land, it’s also a good swimmer. It dives into the ocean in search of prey, using its sharp claws to take down its quarry.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 348,
+    "pokeapi_species_id": 348,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/348"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "entry_id": "0364",
+  "national_id": 364,
+  "form": "default",
+  "names": {
+    "en": "Sealeo",
+    "ja": "トドグラー",
+    "zh": "海魔狮"
+  },
+  "generation": 3,
+  "types": [
+    "ice",
+    "water"
+  ],
+  "types_zh": [
+    "冰",
+    "水"
+  ],
+  "category": "たままわしポケモン",
+  "category_zh": "滚球宝可梦",
+  "abilities": [
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪 / 或 / 冰冻之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 87.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 144,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 70,
+    "special_attack": 75,
+    "special_defense": 70,
+    "speed": 45,
+    "total": 410
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 363,
+        "name_en": "spheal",
+        "name_zh": "海豹球",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 365,
+        "name_en": "walrein",
+        "name_zh": "帝牙海狮",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 174,
+    "洗翠": 144
+  },
+  "flavor_text_zh": "海魔狮的身体正面是米色，上颚有两个短牙。它有一对前鳍条和一个短的鳍状尾，两侧有浓密的白色胡须。 海魔狮会群聚在流冰上生活，总是在用鼻子转着什么。它能一边游泳一边分辨猎物的味道，找到对方的位置并将其捕获。它有着遇上第一次看到的物体时，必定会用鼻子顶着转转看的习性，用鼻子接触对方来记住触感和味道。它鼻子的神经很敏感，一边转一边确认气味和触感，分辨喜欢的和讨厌的东西。只要是圆的，无论是精灵球还是海豹球，都能顶在鼻子上随心所欲地骨碌骨碌转。它两腮的白胡须有着敏锐的知觉，可以将海豹球置于鼻尖从触感及体味确认其是否健康。它前脚的力量非常大，能把流冰击碎，一天内会有5次潜入海中捕捉猎物。",
+  "flavor_text_en": "Its white whiskers are very sensitive. Sealeo will balance Spheal on the tip of its nose, checking its scent and its feel to be sure the Spheal is healthy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 364,
+    "pokeapi_species_id": 364,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/364"
+  }
+}

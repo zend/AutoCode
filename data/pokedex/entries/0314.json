@@ -1,0 +1,81 @@
+{
+  "entry_id": "0314",
+  "national_id": 314,
+  "form": "default",
+  "names": {
+    "en": "Illumise",
+    "ja": "イルミーゼ",
+    "zh": "甜甜萤"
+  },
+  "generation": 3,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "ほたるポケモン",
+  "category_zh": "萤火虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "oblivious",
+      "name_zh": "迟钝 / 或 / 有色眼镜",
+      "hidden": false
+    },
+    {
+      "name_en": "tinted-lens",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 17.7,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 150,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 151,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "bug",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "虫",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 47,
+    "defense": 75,
+    "special_attack": 73,
+    "special_defense": 85,
+    "speed": 85,
+    "total": 430
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 87,
+    "北上": 10
+  },
+  "flavor_text_zh": "甜甜萤看起来非常像萤火虫，它有着蓝色的头部和紫色的头发，触角是棒状的。它的颈部有一块黄色花纹，四肢与身体交接处被紫色环绕一圈。甜甜萤只有雌性，与它对应的雄性宝可梦是 电萤虫 。 甜甜萤是从黄昏起才开始行动的夜行性昆虫。它会利用甜甜的香气引诱电萤虫，然后诱导大量聚集而来的电萤虫在夜空中描绘几何图形。它引导电萤虫画出来的花纹，已经确认有200种以上，也有学者正在研究信号符的形状和含意。据说记号描绘得越复杂的甜甜萤，就会越受到伙伴的尊敬。",
+  "flavor_text_en": "Illumise leads a flight of illuminated Volbeat to draw signs in the night sky. This Pokémon is said to earn greater respect from its peers by composing more complex designs in the sky.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 314,
+    "pokeapi_species_id": 314,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/314"
+  }
+}

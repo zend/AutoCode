@@ -1,0 +1,68 @@
+{
+  "entry_id": "1003",
+  "national_id": 1003,
+  "form": "default",
+  "names": {
+    "en": "Ting-Lu",
+    "ja": "ディンルー",
+    "zh": "古鼎鹿"
+  },
+  "generation": 9,
+  "types": [
+    "dark",
+    "ground"
+  ],
+  "types_zh": [
+    "恶",
+    "地面"
+  ],
+  "category": "さいやくポケモン",
+  "category_zh": "灾厄宝可梦",
+  "abilities": [
+    {
+      "name_en": "vessel-of-ruin",
+      "name_zh": "灾祸之鼎",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.7,
+  "weight_kg": 699.7,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 6,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 285,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 155,
+    "attack": 110,
+    "defense": 125,
+    "special_attack": 55,
+    "special_defense": 80,
+    "speed": 45,
+    "total": 570
+  },
+  "ev_yield": {
+    "defense": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 395
+  },
+  "flavor_text_zh": "古鼎鹿的外表看起来就像是一只鹿顶着一个巨大的鼎，它头上的鼎有着缺口，且它那宽大的鹿角还穿过了鼎。它肩部隆起、颌部下垂，四肢是块状的。 注入在古老仪式中使用的器皿里的恐惧之心周围凝聚起土石，变成了古鼎鹿。当它缓缓挥下自己笨重的头部时，会让地面出现深度达50米的巨大裂缝。",
+  "flavor_text_en": "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1003,
+    "pokeapi_species_id": 1003,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1003"
+  }
+}

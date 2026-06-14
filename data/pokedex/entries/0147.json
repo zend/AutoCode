@@ -1,0 +1,89 @@
+{
+  "entry_id": "0147",
+  "national_id": 147,
+  "form": "default",
+  "names": {
+    "en": "Dratini",
+    "ja": "ミニリュウ",
+    "zh": "迷你龙"
+  },
+  "generation": 1,
+  "types": [
+    "dragon"
+  ],
+  "types_zh": [
+    "龙"
+  ],
+  "category": "ドラゴンポケモン",
+  "category_zh": "龙宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "marvel-scale",
+      "name_zh": "神奇鳞片",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.8,
+  "weight_kg": 3.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 41,
+    "attack": 64,
+    "defense": 45,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 50,
+    "total": 300
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 148,
+        "name_en": "dragonair",
+        "name_zh": "哈克龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 147,
+    "城都": 241,
+    "阿罗拉": 281,
+    "帕底亚": 347,
+    "密阿雷": 145
+  },
+  "flavor_text_zh": "迷你龙是一种蛇形的宝可梦，全身覆盖着淡蓝色的鳞片，腹部为亮白色。它有一双紫色的眼睛，前额有一点白色凸起是正在发育的角。它的头部两侧长有白鳍，脸上有大大的圆形白色鼻子。 迷你龙栖息在瀑布潭之类水流湍急的水边，通过反复蜕皮不断成长。它出生的时候就已经很大了，以接近每天一次的频率反复蜕皮，体型渐渐变得更长。刚蜕完皮的皮肤很娇嫩，将蜕下的皮鞣制后做成的靴子是超高级商品。它之所以会反复蜕皮，是因为体内的生命能量在不断膨胀，无法抑制的缘故。由于它还很弱小，所以会潜伏在水底悄悄地生活．靠着吃沉入水中的东西为生。因为目击者非常少，所以过去它被称为幻之宝可梦。原本被认为只存在于幻想之中，直到某个钓鱼人经过10个小时的奋战才最终将其钓获，它的存在才得到了证实。",
+  "flavor_text_en": "This Pokémon was long considered to be no more than a myth. The small lump on a Dratini’s forehead is actually a horn that’s still coming in.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 147,
+    "pokeapi_species_id": 147,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/147"
+  }
+}

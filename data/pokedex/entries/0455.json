@@ -1,0 +1,69 @@
+{
+  "entry_id": "0455",
+  "national_id": 455,
+  "form": "default",
+  "names": {
+    "en": "Carnivine",
+    "ja": "マスキッパ",
+    "zh": "尖牙笼"
+  },
+  "generation": 4,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "むしとりポケモン",
+  "category_zh": "捕虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 27.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 159,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 74,
+    "attack": 100,
+    "defense": 72,
+    "special_attack": 90,
+    "special_defense": 72,
+    "speed": 46,
+    "total": 454
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "神奥": 131,
+    "洗翠": 92
+  },
+  "flavor_text_zh": "尖牙笼的外形基于 捕蝇草 。它有圆形的眼睛和小的瞳仁。尖牙笼黄色带着绿色斑点的茎干下连接着红色和绿色的藤蔓，看起来像触手一般。它的叶子能像手臂一样使用，看起来有三个叶子做的手指。 尖牙笼虽是草木形态的宝可梦，但性情却是贪婪粗暴，会张开大口袭击猎物。它缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉后用大颚大口地嚼。它要花一整天吃掉猎物。它能灵巧地用触手来回行走，以寻找适合伏击猎物的树枝。它将触手缠绕上树枝后一动不动的样子像极了植物，会张开大嘴等待猎物上钩。",
+  "flavor_text_en": "Though this is a plant Pokémon, it has a gluttonous and unruly temperament. Carnivine attacks its prey with its cavernous maw wide open.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 455,
+    "pokeapi_species_id": 455,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/455"
+  }
+}

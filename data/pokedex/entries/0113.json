@@ -1,0 +1,101 @@
+{
+  "entry_id": "0113",
+  "national_id": 113,
+  "form": "default",
+  "names": {
+    "en": "Chansey",
+    "ja": "ラッキー",
+    "zh": "吉利蛋"
+  },
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "たまごポケモン",
+  "category_zh": "蛋宝可梦",
+  "abilities": [
+    {
+      "name_en": "natural-cure",
+      "name_zh": "自然回复 / 或 / 天恩",
+      "hidden": false
+    },
+    {
+      "name_en": "serene-grace",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "healer",
+      "name_zh": "治愈之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 34.6,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 395,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "special_attack": 35,
+    "special_defense": 105,
+    "speed": 50,
+    "total": 450
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 440,
+        "name_en": "happiny",
+        "name_zh": "小福蛋",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 242,
+        "name_en": "blissey",
+        "name_zh": "幸福蛋",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 113,
+    "城都": 217,
+    "神奥": 97,
+    "阿罗拉": 33,
+    "洗翠": 87,
+    "帕底亚": 44,
+    "蓝莓": 17
+  },
+  "flavor_text_zh": "吉利蛋有粉色的蛋形身体。它在头的两侧有头发状的伸出物。吉利蛋还有短手和短尾巴。吉利蛋身体的下部比较胖，它的腹部有一个口袋，口袋中还有一颗蛋。吉利蛋只有雌性，没有与它对应的雄性宝可梦。 吉利蛋是怕生而且逃跑很快的宝可梦，据说会为能够捉到它的人带来幸运。它原本动作迟缓，不想让自己带着的蛋被打破，走起路来小心谨慎。它一天能生好几个蛋，是许多宝可梦非常爱吃的东西，十分可口的蛋就连没有食欲的人都会一口吃掉。为了得到营养丰富的蛋而想要抓它的人很多，经历了一段以夺取它腹部的蛋为目标的滥捕历史后，它的数量已经变得非常稀少。它天性善良，性格温柔。当它看到受伤的宝可梦时，会把营养丰富的蛋分给对方，不过不会把蛋分给内心邪恶的坏蛋。此蛋营养丰富且滋味鲜美，有着“不求医”的别称，被当做高级食材使用。其他宝可梦盯上了它那既美味又营养的蛋，在这追逐的过程中，它逃跑的速度好像变快了。",
+  "flavor_text_en": "This purehearted Pokémon shares its eggs with the injured.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 113,
+    "pokeapi_species_id": 113,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/113"
+  }
+}

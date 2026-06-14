@@ -1,0 +1,90 @@
+{
+  "entry_id": "0923",
+  "national_id": 923,
+  "form": "default",
+  "names": {
+    "en": "Pawmot",
+    "ja": "パーモット",
+    "zh": "巴布土拨"
+  },
+  "generation": 9,
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "types_zh": [
+    "电",
+    "格斗"
+  ],
+  "category": "てあてポケモン",
+  "category_zh": "押掌宝可梦",
+  "abilities": [
+    {
+      "name_en": "volt-absorb",
+      "name_zh": "蓄电 / 或 / 自然回复",
+      "hidden": false
+    },
+    {
+      "name_en": "natural-cure",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "iron-fist",
+      "name_zh": "铁拳",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 41.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 245,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 115,
+    "defense": 70,
+    "special_attack": 70,
+    "special_defense": 60,
+    "speed": 105,
+    "total": 490
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 922,
+        "name_en": "pawmo",
+        "name_zh": "布土拨",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 24
+  },
+  "flavor_text_zh": "虽然巴布土拨平时动作慢吞吞的，但在不得不面对战斗时，会以迅雷不及掩耳的身手击溃敌人。它蓬松的体毛是蓄电池，可以储存与电动汽车等量的电力。",
+  "flavor_text_en": "Pawmot’s fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 923,
+    "pokeapi_species_id": 923,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/923"
+  }
+}

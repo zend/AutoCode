@@ -1,0 +1,85 @@
+{
+  "entry_id": "0498",
+  "national_id": 498,
+  "form": "default",
+  "names": {
+    "en": "Tepig",
+    "ja": "ポカブ",
+    "zh": "暖暖猪"
+  },
+  "generation": 5,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ひぶたポケモン",
+  "category_zh": "火猪宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "thick-fat",
+      "name_zh": "厚脂肪",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 9.9,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 63,
+    "defense": 45,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 45,
+    "total": 308
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 499,
+        "name_en": "pignite",
+        "name_zh": "炒炒猪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 4,
+    "蓝莓": 203,
+    "密阿雷": 4
+  },
+  "flavor_text_zh": "暖暖猪是以猪为原型的宝可梦。它身体主要呈橙色，而身体后端、脸的一部分和耳朵是黑色，鼻子前端的皮肤是黄色的。它有两只大眼睛，红色的猪鼻子，短小的腿。弹簧状的尾巴上还有一个红色的球状物。 暖暖猪是爱吃的大胃王，会把用灵敏的鼻子找出的食物烤到刚刚好再享用。它会用火烤树果吃，非常喜欢吃烤过的树果，但因为太兴奋而时常烤得焦黑。它能以有别外表的轻巧动作玩弄敌人，躲避敌人的攻击，从左右两个鼻孔里连续发射出火球来。如果感冒了，喷出的将不是火焰而是乌黑的烟雾。",
+  "flavor_text_en": "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 498,
+    "pokeapi_species_id": 498,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/498"
+  }
+}

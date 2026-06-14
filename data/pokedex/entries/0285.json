@@ -1,0 +1,91 @@
+{
+  "entry_id": "0285",
+  "national_id": 285,
+  "form": "default",
+  "names": {
+    "en": "Shroomish",
+    "ja": "キノココ",
+    "zh": "蘑蘑菇"
+  },
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "きのこポケモン",
+  "category_zh": "蘑菇宝可梦",
+  "abilities": [
+    {
+      "name_en": "effect-spore",
+      "name_zh": "孢子 / 或 / 毒疗",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-heal",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "quick-feet",
+      "name_zh": "飞毛腿",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 4.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 59,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "fairy",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 60,
+    "speed": 35,
+    "total": 295
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 286,
+        "name_en": "breloom",
+        "name_zh": "斗笠菇",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 34,
+    "帕底亚": 106
+  },
+  "flavor_text_zh": "蘑蘑菇是一种蘑菇状的小型宝可梦。它的上半身为米色，且长有绿色的斑点，下半身为绿色。它的头顶有一个小开口，腰部有一圈褶皱，底部还有两只小小的圆脚，但没有可见的上肢。 蘑蘑菇喜欢潮湿的地方，栖息在森林深处潮湿的地面上。它白天会呆在森林的树荫里落叶下面一动不动，森林里潮湿的腐叶土壤是它最爱吃的。只要在下过长时间大雨后进入森林，就会看到许多蘑蘑菇聚集在吃腐叶土壤。它感觉到了危险后就会摇动身体，从头顶上撒出能让草木都枯萎的剧毒孢子来保护自己。如果不小心吸入了孢子，身上的每处关节都会开始疼痛。",
+  "flavor_text_en": "If Shroomish senses danger, it shakes its body and scatters spores from the top of its head. This Pokémon’s spores are so toxic, they make trees and weeds wilt.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 285,
+    "pokeapi_species_id": 285,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/285"
+  }
+}

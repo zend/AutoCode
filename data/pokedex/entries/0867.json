@@ -1,0 +1,82 @@
+{
+  "entry_id": "0867",
+  "national_id": 867,
+  "form": "default",
+  "names": {
+    "en": "Runerigus",
+    "ja": "デスバーン",
+    "zh": "迭失板"
+  },
+  "generation": 8,
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "types_zh": [
+    "地面",
+    "幽灵"
+  ],
+  "category": "おんねんポケモン",
+  "category_zh": "怨念宝可梦",
+  "abilities": [
+    {
+      "name_en": "wandering-spirit",
+      "name_zh": "游魂",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 66.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 169,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "矿物",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 58,
+    "attack": 95,
+    "defense": 145,
+    "special_attack": 50,
+    "special_defense": 105,
+    "speed": 30,
+    "total": 483
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 562,
+        "name_en": "yamask",
+        "name_zh": "哭哭面具",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 328
+  },
+  "flavor_text_zh": "迭失板与 迭失棺 同样属于与古代遗迹有关的宝可梦，不同的是它的外壳并不是金棺，而是破碎的石板。迭失板用灵体将石板碎片贯穿并牵引着，其眼睛与石板上蛇形符文的眼相重合，尾巴上的石板则与伽勒尔哭哭面具的石板相同。 迭失板是被注入了强烈咒术的古代绘画在吸进哭哭面具的灵魂后就开始动起来了的宝可梦。由于曾支离破碎的黏土板完全复原了，封印其中的怨念的能量随之全面释放。绝对不能触摸迭失板影子般的身体，否则它会让你看到印刻在它画中的恐怖记忆。",
+  "flavor_text_en": "Never touch its shadowlike body, or you’ll be shown the horrific memories behind the picture carved into it.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 867,
+    "pokeapi_species_id": 867,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/867"
+  }
+}

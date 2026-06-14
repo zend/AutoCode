@@ -1,0 +1,66 @@
+{
+  "entry_id": "0493",
+  "national_id": 493,
+  "form": "default",
+  "names": {
+    "en": "Arceus",
+    "ja": "アルセウス",
+    "zh": "阿尔宙斯"
+  },
+  "generation": 4,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "そうぞうポケモン",
+  "category_zh": "创造宝可梦",
+  "abilities": [
+    {
+      "name_en": "multitype",
+      "name_zh": "多属性",
+      "hidden": false
+    }
+  ],
+  "height_m": 3.2,
+  "weight_kg": 320.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 324,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 120,
+    "attack": 120,
+    "defense": 120,
+    "special_attack": 120,
+    "special_defense": 120,
+    "speed": 120,
+    "total": 720
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "洗翠": 238
+  },
+  "flavor_text_zh": "阿尔宙斯是一只白色，外形近似马、麒麟或半人马的宝可梦。其躯干、鬃、尾、面部的暗面都由灰色的垂直条纹勾勒而出。阿尔宙斯的四只尖足以金色的蹄为尖端。鬃毛自头部高高翘起，面部呈灰色，有绿色的眼睛和红色的瞳仁，绿色的圆形花纹环绕眼周。阿尔宙斯在头部也有一条金色花纹，耳朵向上竖起。阿尔宙斯的颈部两侧各有两个突起，颈部的暗面有鱼鳃状的和身体大部分同色的特征物。阿尔宙斯有名为千宙腕的十字架状的轮状物，于其腹部连接着身体，与眼部和蹄同时随着阿尔宙斯的所持的石板不同造成的属性不同而变换颜色。轮状物上嵌有四颗宝玉。阿尔宙斯腹部的线条在腰部重现。其肢体暗面呈灰色，并在四腿的顶部稍有突出。阿尔宙斯的尾部同其鬃的形状和着色相近。神话里将它描述为用1000只手创造了宇宙的宝可梦。 阿尔宙斯可以用 石板 或 Ｚ纯晶 变化成任何属性。阿尔宙斯有18种不同的 形态 ，没有携带道具或携带其他道具时、以及使用 净空石板 后是一般属性，在携带 石板 或 属性Ｚ纯晶 时会变化为道具对应属性的形态，每种形态只有外形颜色会根据其属性而有所不同。使用 传说石板 后，外表与未携带道具时相同。 在神话里，它被描述为宇宙尚未存在时，从虚无之地的蛋中诞生的最早的宝可梦。神奥神话里说，它从蛋中现身，并创造出了整个世界。阿尔宙斯有着创造世界的力量，它创造出了 帝牙卢卡 、 帕路奇亚 和 骑拉帝纳 ，据说世间万物都是由它所创造的。 [ 1 ] 主页面： 阿尔宙斯（传说 阿尔宙斯） 在洗翠神话中，阿尔宙斯以自身为光源，从天照耀洗翠大地，凭借其光明引导并守护宝可梦。洗翠神话视其为万物的创造主。",
+  "flavor_text_en": "It is the heavenly fount from which pours the light that shines across Hisui. Its luminance guides and protects all Pokémon. Hisuian mythology states that Arceus is the creator of all things.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 493,
+    "pokeapi_species_id": 493,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/493"
+  }
+}

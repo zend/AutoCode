@@ -1,0 +1,75 @@
+{
+  "entry_id": "0905",
+  "national_id": 905,
+  "form": "default",
+  "names": {
+    "en": "Enamorus",
+    "ja": "ラブトロス",
+    "zh": "眷恋云"
+  },
+  "generation": 8,
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "types_zh": [
+    "妖精",
+    "飞行"
+  ],
+  "category": "あいぞうポケモン",
+  "category_zh": "爱憎宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 48.0,
+  "gender_ratio": {
+    "male_percent": 0.0,
+    "female_percent": 100.0,
+    "genderless": false
+  },
+  "capture_rate": 3,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 116,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 74,
+    "attack": 115,
+    "defense": 70,
+    "special_attack": 135,
+    "special_defense": 80,
+    "speed": 106,
+    "total": 580
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "洗翠": 234
+  },
+  "flavor_text_zh": "眷恋云有化身形态和灵兽形态两种样子。和其他只有雄性的化身不同，眷恋云只有雌性。 化身形态的眷恋云是一只通体粉色，身形苗条，形似女性的宝可梦，但是身形与其他三只 化身 相比存在明显不同。眷恋云的额头有四个尖锐的粉色角呈倒梯形分布，有白色的头发，头顶向上延伸出两条须状的结构，围成心形。其头部两侧有两只尖尖的粉色耳朵，耳旁各有一缕白发垂下，嘴唇呈白色。眷恋云的眼睛很大，呈黄色，瞳孔呈白色、棒状。以粉色为底色的上半身分布着深粉色的雨滴状斑点，胸部呈粉色，由两半连在一起的、钻石形的胸鳍状结构组成，其肩部、肘部和肚脐均有雨滴状的图案装饰。眷恋云双臂纤细，长有五指的手，整个下半身由洁白的云完全包裹。蟒蛇一样的长尾巴从云里摆出，缠在身上，呈褐色，上面分布着粉红色、带黑色描边的心形图案，尾巴末端膨大，远远看去就像蟒蛇的头。灵兽形态的眷恋云则更像鳖，脚下的云构成壳。四足粗壮，脚部呈蹼状，原本手上的斑点也变成了逗号般的样子。脸部变尖，口部变大，头上的尖刺变短，鼻子呈白色心形。蟒蛇状的尾巴则盘在背上。肚脐处粉色图案处有一颗绿色宝石。 化身形态的眷恋云在严寒的冬季即将终结时会越过大海来到 洗翠地区 ，传说中它的慈爱将使新的生命在洗翠大地上萌芽，因此被称为阳春之神。若有谁做出糟蹋生命之事，灵兽形态的眷恋云便会从云海中现身，愤怒地降下无情的惩罚。在 古老诗文１７ 中也记载了一篇关于眷恋云的诗。",
+  "flavor_text_en": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 905,
+    "pokeapi_species_id": 905,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/905"
+  }
+}

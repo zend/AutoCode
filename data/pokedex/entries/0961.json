@@ -1,0 +1,88 @@
+{
+  "entry_id": "0961",
+  "national_id": 961,
+  "form": "default",
+  "names": {
+    "en": "Wugtrio",
+    "ja": "ウミトリオ",
+    "zh": "三海地鼠"
+  },
+  "generation": 9,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "あなごポケモン",
+  "category_zh": "糯鳗宝可梦",
+  "abilities": [
+    {
+      "name_en": "gooey",
+      "name_zh": "黏滑 / 或 / 胆怯",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 5.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 50,
+  "color": "red",
+  "color_zh": "白色",
+  "base_experience": 149,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 100,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 70,
+    "speed": 120,
+    "total": 425
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 960,
+        "name_en": "wiglett",
+        "name_zh": "海地鼠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 289
+  },
+  "flavor_text_zh": "它是鱼宝可梦的一种。曾经也有人认为它是 三地鼠 的 地区形态 。不同于外表，它性格很粗暴。会用长长的身体勒住猎物，然后将其拖进自己的巢穴里。",
+  "flavor_text_en": "A variety of fish Pokémon, Wugtrio was once considered to be a regional form of Dugtrio.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 961,
+    "pokeapi_species_id": 961,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/961"
+  }
+}

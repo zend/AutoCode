@@ -1,0 +1,90 @@
+{
+  "entry_id": "0826",
+  "national_id": 826,
+  "form": "default",
+  "names": {
+    "en": "Orbeetle",
+    "ja": "イオルブ",
+    "zh": "以欧路普"
+  },
+  "generation": 8,
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "types_zh": [
+    "虫",
+    "超能力"
+  ],
+  "category": "ななほしポケモン",
+  "category_zh": "七星宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 40.8,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 253,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 110,
+    "special_attack": 80,
+    "special_defense": 120,
+    "speed": 90,
+    "total": 505
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 825,
+        "name_en": "dottler",
+        "name_zh": "天罩虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 12
+  },
+  "flavor_text_zh": "以欧路普的外观看起来就像是人形的宝可梦，有着手臂、身体以及腿部，但是它头顶部位有着一个巨大的外壳，这个外壳实际上看起来就像是七星瓢虫的身体，颜色为红色，而且有着圆形的图案分布，外壳实际上可以展开，把翅膀露出来。 超极巨化之后的以欧路普背后的红色外壳变得非常巨大，其整体形状发生了改变，而且还会发出亮光，让其看起来就像是一个UFO一样。 以欧路普以头脑聪慧而闻名。大大的脑子是它拥有出众精神力量的证明。它会释放出精神力量来调查周围的情况，侦测范围甚至可以达到方圆10公里。 超极巨化以欧路普的全身以大脑为中心巨大化。拥有无与伦比的智力，和庞大的精神能量。在它竭尽全力时，能够操纵自己周围一切生物的心灵。",
+  "flavor_text_en": "It emits psychic energy to observe and study what’s around it—and what’s around it can include things over six miles away.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 826,
+    "pokeapi_species_id": 826,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/826"
+  }
+}

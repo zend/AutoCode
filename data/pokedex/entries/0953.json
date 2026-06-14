@@ -1,0 +1,84 @@
+{
+  "entry_id": "0953",
+  "national_id": 953,
+  "form": "default",
+  "names": {
+    "en": "Rellor",
+    "ja": "シガロコ",
+    "zh": "虫滚泥"
+  },
+  "generation": 9,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "ころがしポケモン",
+  "category_zh": "滚动宝可梦",
+  "abilities": [
+    {
+      "name_en": "compound-eyes",
+      "name_zh": "复眼",
+      "hidden": false
+    },
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 1.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 54,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 41,
+    "attack": 50,
+    "defense": 60,
+    "special_attack": 31,
+    "special_defense": 58,
+    "speed": 30,
+    "total": 270
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 954,
+        "name_en": "rabsca",
+        "name_zh": "虫甲圣",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 254,
+    "蓝莓": 30
+  },
+  "flavor_text_zh": "虫滚泥将超能力混进泥土和沙子里制作泥球，泥球比自己的命还重要。它会一边滚着泥巴球，一边让进化所需的能量成熟，最终迎接进化的时刻。",
+  "flavor_text_en": "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 953,
+    "pokeapi_species_id": 953,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/953"
+  }
+}

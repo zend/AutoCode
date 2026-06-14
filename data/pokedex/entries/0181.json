@@ -1,0 +1,87 @@
+{
+  "entry_id": "0181",
+  "national_id": 181,
+  "form": "default",
+  "names": {
+    "en": "Ampharos",
+    "ja": "デンリュウ",
+    "zh": "电龙"
+  },
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "ライトポケモン",
+  "category_zh": "灯宝可梦",
+  "abilities": [
+    {
+      "name_en": "static",
+      "name_zh": "静电",
+      "hidden": false
+    },
+    {
+      "name_en": "plus",
+      "name_zh": "正电",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 61.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 230,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 75,
+    "defense": 85,
+    "special_attack": 115,
+    "special_defense": 90,
+    "speed": 55,
+    "total": 510
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 180,
+        "name_en": "flaaffy",
+        "name_zh": "茸茸羊",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 55,
+    "帕底亚": 103,
+    "密阿雷": 26
+  },
+  "flavor_text_zh": "电龙的皮肤是黄色的，尾巴和额头上有一个红色球体，腹部是白色的，它的手是扁状的，并且只有一个脚趾，颈部耳朵与部分尾巴都有黄与黑的花纹。超级电龙长出了毛发，尾巴上也出现了很多红色球体。 电龙尾巴前端会发出很强的亮光，能传至宇宙，所以身在何处一目了然，因此它平时不会让尾巴发光。每当天色变暗，它的尾巴就会发出耀眼的光辉．炫目光芒能够传到遥远的外国，即使是从遥远的海上也能被发现，成为海上的航标灯。从以前起，它就被船员们当做路标而深受重视。它尾巴上的光能传播到很远的地方，成为迷途者的路标，因此从很早以前就被当作篝火而受到重视。以前的人们会利用电龙的灯光来和远处的伙伴互相传递信号。 超级电龙庞大的能量会激烈地刺激细胞中的遗传基因，本应脱落的体毛也重新长了出来，体内沉睡着的龙血好像觉醒了。",
+  "flavor_text_en": "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 181,
+    "pokeapi_species_id": 181,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/181"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entry_id": "0568",
+  "national_id": 568,
+  "form": "default",
+  "names": {
+    "en": "Trubbish",
+    "ja": "ヤブクロン",
+    "zh": "破破袋"
+  },
+  "generation": 5,
+  "types": [
+    "poison"
+  ],
+  "types_zh": [
+    "毒"
+  ],
+  "category": "ゴミぶくろポケモン",
+  "category_zh": "垃圾袋宝可梦",
+  "abilities": [
+    {
+      "name_en": "stench",
+      "name_zh": "恶臭 / 或 / 黏着",
+      "hidden": false
+    },
+    {
+      "name_en": "sticky-hold",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "aftermath",
+      "name_zh": "诱爆",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 31.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 66,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 62,
+    "special_attack": 40,
+    "special_defense": 62,
+    "speed": 65,
+    "total": 329
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 569,
+        "name_en": "garbodor",
+        "name_zh": "灰尘山",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 74,
+    "阿罗拉": 206,
+    "伽勒尔": 157,
+    "密阿雷": 49
+  },
+  "flavor_text_zh": "破破袋貌似一袋装满的深绿色垃圾，上面绑了一个结。它的头上的结犹如一双耳朵。破破袋有着一双椭圆形的眼睛，一张似破碎玻璃的牙齿。然后它那双手和一般垃圾袋溢出一些蓝色与粉红色的垃圾碎片一样。破破袋的深绿色双脚又粗又短。 破破袋诞生于塞满垃圾的垃圾袋里，喜欢不卫生的场所。它是垃圾袋通过与工业垃圾发生化学变化，转而诞生了的宝可梦。如果不及时清理家里的垃圾，破破袋就会过来居住，在阿罗拉经常可以发现被阿罗拉 臭泥 追着到处跑的样子。呼吸的时候会有毒瓦斯漏出， 臭臭泥 闻到气味就会流着口水赶过来，这毒气也是伽勒尔 双弹瓦斯 的最爱。为了得到更多的垃圾，它会始终尾随乱丢垃圾的人。总是冒着毒瓦斯。吃垃圾吃到肚子鼓鼓之后会从嘴里喷出毒瓦斯来。如果吸入它像打嗝那样吐出的瓦斯，会整整1个星期卧病不起。一旦被小孩子吸入，就会有性命攸关的危险。",
+  "flavor_text_en": "This Pokémon was born from a bag stuffed with trash. Galarian Weezing relish the fumes belched by Trubbish.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 568,
+    "pokeapi_species_id": 568,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/568"
+  }
+}

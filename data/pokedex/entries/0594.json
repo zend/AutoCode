@@ -1,0 +1,83 @@
+{
+  "entry_id": "0594",
+  "national_id": 594,
+  "form": "default",
+  "names": {
+    "en": "Alomomola",
+    "ja": "ママンボウ",
+    "zh": "保姆曼波"
+  },
+  "generation": 5,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "かいほうポケモン",
+  "category_zh": "看护宝可梦",
+  "abilities": [
+    {
+      "name_en": "healer",
+      "name_zh": "治愈之心 / 或 / 湿润之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "再生力",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 31.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 165,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "water1",
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 165,
+    "attack": 75,
+    "defense": 80,
+    "special_attack": 40,
+    "special_defense": 45,
+    "speed": 65,
+    "total": 470
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 100,
+    "阿罗拉": 157,
+    "帕底亚": 336,
+    "蓝莓": 85
+  },
+  "flavor_text_zh": "保姆曼波是类似鱼的宝可梦，它有着粉红色的身体，金色的眼睛。 保姆曼波漂浮在汪洋大海上生活，周围会聚集起许多水属性宝可梦。如果发现受伤的或是虚弱的宝可梦，就会用鱼鳍温柔地抱住并运送到岸边。覆盖保姆曼波的特殊粘膜具有治疗效果，它会用特殊的粘液敷受伤的宝可梦的伤口。之所以会救助体弱的宝可梦，好像是因为盯上它们的宝可梦也会攻击它自己。渔夫在长距离航海时会带着它。因为有了保姆曼波，医生和药都不需要了。",
+  "flavor_text_en": "The reason it helps Pokémon in a weakened condition is that any Pokémon coming after them may also attack Alomomola.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 594,
+    "pokeapi_species_id": 594,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/594"
+  }
+}

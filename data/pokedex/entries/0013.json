@@ -1,0 +1,87 @@
+{
+  "entry_id": "0013",
+  "national_id": 13,
+  "form": "default",
+  "names": {
+    "en": "Weedle",
+    "ja": "ビードル",
+    "zh": "独角虫"
+  },
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "types_zh": [
+    "虫",
+    "毒"
+  ],
+  "category": "けむしポケモン",
+  "category_zh": "毛毛虫宝可梦",
+  "abilities": [
+    {
+      "name_en": "shield-dust",
+      "name_zh": "鳞粉",
+      "hidden": false
+    },
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 39,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "special_attack": 20,
+    "special_defense": 20,
+    "speed": 50,
+    "total": 195
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 14,
+        "name_en": "kakuna",
+        "name_zh": "铁壳蛹",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 13,
+    "城都": 27,
+    "密阿雷": 18
+  },
+  "flavor_text_zh": "独角虫整体呈土黄色，身体分节。有七对粉色腹足，头部也有粉色的类似鼻子的部分。它头上有约5厘米的尖锐小毒针，尾巴上也长有尖刺。它的眼睛是黑色的，很小。 独角虫大量栖息在森林或草地里，喜欢藏在森林或草丛里大量吞食树叶。它在森林中以树叶为食，每天都要吃下与自己体重相当的叶子。它有着非常灵敏的嗅觉。能用大大的红鼻子闻出自己喜欢吃和不喜欢吃的叶子。头顶的毒针有剧毒，是用来攻击敌人借此保护自己的。它会躲在被当成食物的叶片下面，醒目的体色是用来警告对手的。",
+  "flavor_text_en": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 13,
+    "pokeapi_species_id": 13,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/13"
+  }
+}

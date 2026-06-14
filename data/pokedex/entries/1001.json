@@ -1,0 +1,68 @@
+{
+  "entry_id": "1001",
+  "national_id": 1001,
+  "form": "default",
+  "names": {
+    "en": "Wo-Chien",
+    "ja": "チオンジェン",
+    "zh": "古简蜗"
+  },
+  "generation": 9,
+  "types": [
+    "dark",
+    "grass"
+  ],
+  "types_zh": [
+    "恶",
+    "草"
+  ],
+  "category": "さいやくポケモン",
+  "category_zh": "灾厄宝可梦",
+  "abilities": [
+    {
+      "name_en": "tablets-of-ruin",
+      "name_zh": "灾祸之简",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 74.2,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 6,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 285,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 85,
+    "defense": 100,
+    "special_attack": 95,
+    "special_defense": 135,
+    "speed": 70,
+    "total": 570
+  },
+  "ev_yield": {
+    "special_defense": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 393
+  },
+  "flavor_text_zh": "古简蜗看起来就是一只巨大的蜗牛，它的头部及其周边覆盖着绿色的叶子，下半部分的叶子则是深绿色的。它头部的两侧各自交互缠绕着2条白色的触手，触手间的部分是它的绿色眼睛。它的背部缠绕着类似于简牍的东西。 有人曾把王的恶行记于木简而因此遭到了处罚，其恨意裹上了枯叶，变成了古简蜗。它会吸取草木的能量，使周围的森林瞬间干枯，田地的农作物歉收。",
+  "flavor_text_en": "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 1001,
+    "pokeapi_species_id": 1001,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/1001"
+  }
+}

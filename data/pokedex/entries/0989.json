@@ -1,0 +1,68 @@
+{
+  "entry_id": "0989",
+  "national_id": 989,
+  "form": "default",
+  "names": {
+    "en": "Sandy Shocks",
+    "ja": "スナノケガワ",
+    "zh": "沙铁皮"
+  },
+  "generation": 9,
+  "types": [
+    "electric",
+    "ground"
+  ],
+  "types_zh": [
+    "电",
+    "地面"
+  ],
+  "category": "パラドックスポケモン",
+  "category_zh": "悖谬宝可梦",
+  "abilities": [
+    {
+      "name_en": "protosynthesis",
+      "name_zh": "古代活性",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.3,
+  "weight_kg": 60.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 30,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 285,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 81,
+    "defense": 97,
+    "special_attack": 121,
+    "special_defense": 85,
+    "speed": 101,
+    "total": 570
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 381
+  },
+  "flavor_text_zh": "沙铁皮的特征与世纪奇书《朱之书》中所介绍的被称为沙铁之皮的神秘生物一致。有科学家认为沙铁皮就是存活一万年的 三合一磁怪 的样子。虽然有数次目击报告它多出现在帕底亚的干燥地带，但至今仍然没有捕获的记录。据说因其具有攻击性，曾发生目击者遭到袭击的情况。",
+  "flavor_text_en": "It slightly resembles a Magneton that lived for 10,000 years and was featured in an article in a paranormal magazine.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 989,
+    "pokeapi_species_id": 989,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/989"
+  }
+}

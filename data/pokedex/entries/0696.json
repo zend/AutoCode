@@ -1,0 +1,87 @@
+{
+  "entry_id": "0696",
+  "national_id": 696,
+  "form": "default",
+  "names": {
+    "en": "Tyrunt",
+    "ja": "チゴラス",
+    "zh": "宝宝暴龙"
+  },
+  "generation": 6,
+  "types": [
+    "rock",
+    "dragon"
+  ],
+  "types_zh": [
+    "岩石",
+    "龙"
+  ],
+  "category": "ようくんポケモン",
+  "category_zh": "幼君宝可梦",
+  "abilities": [
+    {
+      "name_en": "strong-jaw",
+      "name_zh": "强壮之颚",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 26.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 72,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 58,
+    "attack": 89,
+    "defense": 77,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 48,
+    "total": 362
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 697,
+        "name_en": "tyrantrum",
+        "name_zh": "怪颚龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "密阿雷": 193
+  },
+  "flavor_text_zh": "宝宝暴龙总体是棕色的，脑袋上有两片橙色三角肉鳍，尾巴上也有一片。宝宝暴龙的下颚和肚皮是浅灰色的，脖子周围有一圈白色的毛发。它的前肢非常短小，后肢却十分粗壮，脚掌也比较宽大，腿上各有两片鳞状突起。 宝宝暴龙栖息在1亿年前，是从化石复活而来的宝可梦。它性格粗野，能用大颚咬碎任何东西，大颚惊人的破坏力可以嘎嘣嘎嘣地嚼坏汽车，据说它的大颚即使复原也没法恢复到原本的样子。如果有它不喜欢的事情，就会大动肝火大闹一场。它爱撒娇又任性，有时候即使宝宝暴龙只打算逗着玩，也会让训练家受重伤。",
+  "flavor_text_en": "This Pokémon is selfish and likes to be pampered. It can also inflict grievous wounds on its Trainer just by playing around.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 696,
+    "pokeapi_species_id": 696,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/696"
+  }
+}

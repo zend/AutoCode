@@ -1,0 +1,84 @@
+{
+  "entry_id": "0227",
+  "national_id": 227,
+  "form": "default",
+  "names": {
+    "en": "Skarmory",
+    "ja": "エアームド",
+    "zh": "盔甲鸟"
+  },
+  "generation": 2,
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "types_zh": [
+    "钢",
+    "飞行"
+  ],
+  "category": "よろいどりポケモン",
+  "category_zh": "钢甲鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "sturdy",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 50.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 163,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 80,
+    "defense": 140,
+    "special_attack": 40,
+    "special_defense": 70,
+    "speed": 70,
+    "total": 465
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "城都": 198,
+    "丰缘": 115,
+    "阿罗拉": 208,
+    "蓝莓": 113,
+    "密阿雷": 216
+  },
+  "flavor_text_zh": "盔甲鸟全身覆盖着铁一般坚硬的铠甲。它坚固的钢铁身躯看上去很重，其实又轻又薄，全身像披了盔甲一样呈现银色，翅膀里面是红色的。它还有尖利的牙齿。 盔甲鸟会在荆棘丛里筑巢，伴随着刺伤成长起来的雏鸟翅膀会变得坚硬无比。它的羽毛里是空洞，虽然看上去很重，但最快能以每小时300公里的速度飞行。它能轻盈自由地翱翔于高空，并用锋利如刀的翅膀切割对手。 钢铠鸦 会与它为领地展开激烈的争斗， 傲骨燕 也能和巨大的盔甲鸟互相抗衡。它铁的身体十分结实，但很容易生锈，所以下雨天会一直呆在巢穴。因不断战斗而变得破破烂烂的钢羽每年都会重新生长一次，变得和原来一样锋利。脱落的羽毛又轻又锋利，因此似乎也有过被过去的战士当作刀使用。用其脱落的翅膀加工制成的菜刀，锋利得足以让一流厨师都点头认可。羽毛也可以用来制剑，因此作为纹章的图案也很有人气。 超级盔甲鸟飞行速度超过音速。会掀起冲击波吹飞敌人，并用爪子给予致命一击。",
+  "flavor_text_en": "People fashion swords from Skarmory’s shed feathers, so this Pokémon is a popular element in heraldic designs.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 227,
+    "pokeapi_species_id": 227,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/227"
+  }
+}

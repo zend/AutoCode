@@ -1,0 +1,89 @@
+{
+  "entry_id": "0588",
+  "national_id": 588,
+  "form": "default",
+  "names": {
+    "en": "Karrablast",
+    "ja": "カブルモ",
+    "zh": "盖盖虫"
+  },
+  "generation": 5,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "かぶりつきポケモン",
+  "category_zh": "啃咬宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感 / 或 / 蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "shed-skin",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "no-guard",
+      "name_zh": "无防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 5.9,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 63,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 45,
+    "special_attack": 40,
+    "special_defense": 45,
+    "speed": 60,
+    "total": 315
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 589,
+        "name_en": "escavalier",
+        "name_zh": "骑士蜗牛",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 94,
+    "伽勒尔": 273
+  },
+  "flavor_text_zh": "盖盖虫外表通体为蓝色，正面则有着脸部以及腹部，脸部本身有点类似脸谱，有着锐利的双眼。同时它还有着两个尖尖的牙齿，头顶部位的造型有点像一个叉子，手脚很短很小。 盖盖虫有着会对电能产生反应的奇异体质，与 小嘴蜗 在一起时，如果受到电的刺激就会进化。它感受到危险时会从嘴里喷出酸液击退敌人。它也会用嘴里吐出的液体来溶化小嘴蜗的壳去吃里面的身体。",
+  "flavor_text_en": "It spits a liquid from its mouth to melt through Shelmet’s shell. Karrablast doesn’t eat the shell— it eats only the contents.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 588,
+    "pokeapi_species_id": 588,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/588"
+  }
+}

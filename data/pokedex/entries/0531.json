@@ -1,0 +1,79 @@
+{
+  "entry_id": "0531",
+  "national_id": 531,
+  "form": "default",
+  "names": {
+    "en": "Audino",
+    "ja": "タブンネ",
+    "zh": "差不多娃娃"
+  },
+  "generation": 5,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "ヒヤリングポケモン",
+  "category_zh": "听力宝可梦",
+  "abilities": [
+    {
+      "name_en": "healer",
+      "name_zh": "治愈之心",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "klutz",
+      "name_zh": "笨拙",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 31.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 390,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 103,
+    "attack": 60,
+    "defense": 86,
+    "special_attack": 60,
+    "special_defense": 86,
+    "speed": 50,
+    "total": 445
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 37,
+    "密阿雷": 95
+  },
+  "flavor_text_zh": "差不多娃娃拥有粉红色与米黄色相间的身躯，粉红色的皮肤分布于头的上半侧和身后的背部、手臂及腰部两侧。差不多娃娃的眼睛呈海蓝色，头部两侧有着波浪弧度的耳朵。耳朵末端有感知力强大的米黄色触角垂落下来。差不多娃娃整体呈直立的人形，拥有三根手指、两只脚趾，身后的尾巴呈白色绒毛状。 经过超级进化后的超级差不多娃娃全身由雪白的皮肤覆盖着，腹部以下则是米黄色。超级差不多娃娃的眼眸呈石榴红，它的两只耳朵及白色毛皮的末端皆有白色至粉红色的渐变。双耳朝上，耳朵边缘是米黄色的，其触角变得更加卷曲。胸前长出了一团白色泡沫奶油般的绒毛，下方藏着一条延展出去的白色条带，末端都呈卷曲状。超级差不多娃娃的双脚洁白，后脚跟处有蝴蝶翅膀般的突起的构造。 差不多娃娃是心地善良的宝可梦。它拥有敏锐的听觉，细微的声响都能像雷达般捕获，连2公里以外小石头滚动的声音都能听到。用耳朵上的触角碰到对方的话，就能通过心跳声了解对方的身体状况和情绪，甚至连宝可梦何时从蛋里孵出来都能知道。 超级差不多娃娃强力的治愈波动能将任何生物的情绪稳定下来。 [ 1 ] 如果不小心触碰到它脖颈处长出的第二对触角，无论是谁都会陷入沉眠。",
+  "flavor_text_en": "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures’ feelings and physical conditions.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 531,
+    "pokeapi_species_id": 531,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/531"
+  }
+}

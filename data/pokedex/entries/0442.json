@@ -1,0 +1,78 @@
+{
+  "entry_id": "0442",
+  "national_id": 442,
+  "form": "default",
+  "names": {
+    "en": "Spiritomb",
+    "ja": "ミカルゲ",
+    "zh": "花岩怪"
+  },
+  "generation": 4,
+  "types": [
+    "ghost",
+    "dark"
+  ],
+  "types_zh": [
+    "幽灵",
+    "恶"
+  ],
+  "category": "ふういんポケモン",
+  "category_zh": "封印宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 108.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 100,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 170,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 92,
+    "defense": 108,
+    "special_attack": 92,
+    "special_defense": 108,
+    "speed": 35,
+    "total": 485
+  },
+  "ev_yield": {
+    "defense": 1,
+    "special_defense": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "神奥": 108,
+    "洗翠": 139,
+    "帕底亚": 302
+  },
+  "flavor_text_zh": "花岩怪平常的样子就是一块有着图案的 楔石 ，上面有着一团气体状的神秘物质，物质内有着类似嘴巴和眼睛之类的部位。在气状物质的周边还有许多或大或小的圆形图案，平常的时候，这团神秘物质并不会出现，但是当花岩怪要行动时，这团物质就会显现出来。 花岩怪是108个魂魄聚集在一起生成的宝可梦，似乎有性格恶劣的灵魂混在里面。它是由邪恶的念想带来的邪崇之物。它总是作恶多端，不料有一天本体被神奇的法术绑缚在了楔石上，防止再度作恶。",
+  "flavor_text_en": "It lays curses by thinking wicked thoughts. Writings tell that this Pokémon was born out of the assembly of five score and eight malevolent spirits.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 442,
+    "pokeapi_species_id": 442,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/442"
+  }
+}

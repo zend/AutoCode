@@ -1,0 +1,84 @@
+{
+  "entry_id": "0360",
+  "national_id": 360,
+  "form": "default",
+  "names": {
+    "en": "Wynaut",
+    "ja": "ソーナノ",
+    "zh": "小果然"
+  },
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "ほがらかポケモン",
+  "category_zh": "开朗宝可梦",
+  "abilities": [
+    {
+      "name_en": "shadow-tag",
+      "name_zh": "踩影",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 14.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 125,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 52,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 23,
+    "defense": 48,
+    "special_attack": 23,
+    "special_defense": 48,
+    "speed": 23,
+    "total": 260
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 202,
+        "name_en": "wobbuffet",
+        "name_zh": "果然翁",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 160,
+    "伽勒尔": 216
+  },
+  "flavor_text_zh": "小果然的身体是蓝色的，身上长着看起来像裙子的长长的毛。还有一个黑色尾巴，尾巴上有个类似眼睛的东西。它有着锯齿状的上唇，眼睛看起来像是眯着。在它的额头上长着蓝色球状物，头的两边有一对长得像耳朵的双手，身下有两个球形的脚。 小果然具有集体行动的习性，睡觉的时候会聚集在洞窟中，和伙伴们把身体挨在一起。它会在月夜和伙伴们进行互推游戏，紧紧的推挤会使它的忍耐力变强，这项训练能让它使出猛烈的 双倍奉还 。它总是一脸笑眯眯的，非常喜欢吃甘甜的水果，能以长得像耳朵的双手灵活地拿取，会被香味引诱而聚集在果园里。生气的时候，注意看尾巴，会啪嗒啪嗒地敲击地面。",
+  "flavor_text_en": "It tends to move in a pack with others. They cluster in a tight group to sleep in a cave.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 360,
+    "pokeapi_species_id": 360,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/360"
+  }
+}

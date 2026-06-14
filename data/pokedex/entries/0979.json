@@ -1,0 +1,91 @@
+{
+  "entry_id": "0979",
+  "national_id": 979,
+  "form": "default",
+  "names": {
+    "en": "Annihilape",
+    "ja": "コノヨザル",
+    "zh": "弃世猴"
+  },
+  "generation": 9,
+  "types": [
+    "fighting",
+    "ghost"
+  ],
+  "types_zh": [
+    "格斗",
+    "幽灵"
+  ],
+  "category": "ふんどざるポケモン",
+  "category_zh": "愤怒猴宝可梦",
+  "abilities": [
+    {
+      "name_en": "vital-spirit",
+      "name_zh": "干劲 / 或 / 精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "defiant",
+      "name_zh": "不服输",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 56.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 268,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 115,
+    "defense": 80,
+    "special_attack": 50,
+    "special_defense": 90,
+    "speed": 90,
+    "total": 535
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 57,
+        "name_en": "primeape",
+        "name_zh": "火暴猴",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 160,
+    "北上": 101
+  },
+  "flavor_text_zh": "弃世猴会将隐藏在心里的愤怒之情凝聚在拳头里，其威力能深入对手骨髓，使其粉碎。当它多次使出用力到连头上的血管都快要爆裂的招式，怒气突破临界点时，然后它就获得了能够摆脱肉体束缚的力量，进化成了弃世猴。",
+  "flavor_text_en": "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 979,
+    "pokeapi_species_id": 979,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/979"
+  }
+}

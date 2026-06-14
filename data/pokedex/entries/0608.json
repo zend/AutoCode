@@ -1,0 +1,100 @@
+{
+  "entry_id": "0608",
+  "national_id": 608,
+  "form": "default",
+  "names": {
+    "en": "Lampent",
+    "ja": "ランプラー",
+    "zh": "灯火幽灵"
+  },
+  "generation": 5,
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "types_zh": [
+    "幽灵",
+    "火"
+  ],
+  "category": "ランプポケモン",
+  "category_zh": "油灯宝可梦",
+  "abilities": [
+    {
+      "name_en": "flash-fire",
+      "name_zh": "引火 / 或 / 火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "flame-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "穿透",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 13.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 130,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 60,
+    "special_attack": 95,
+    "special_defense": 60,
+    "speed": 55,
+    "total": 370
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 607,
+        "name_en": "litwick",
+        "name_zh": "烛光灵",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 609,
+        "name_en": "chandelure",
+        "name_zh": "水晶灯火灵",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 114,
+    "伽勒尔": 288,
+    "北上": 147,
+    "密阿雷": 190
+  },
+  "flavor_text_zh": "灯火幽灵有黑色帽子状的头部，顶部有一个尖端，样子像灯罩。它仅有的面部特征是两个明亮的黄色眼睛。它的玻璃头部里面有蓝色的火焰。它有两只长长的摆动着的手臂，没有手指。它的身体很小，在底部有一个较小的灯托。 灯火幽灵会在人类的临终时刻出现，当人的魂魄离开肉体的瞬间，它就会立即吸取。他会伪装成灯的样子藏身在城镇里，一旦发现了临近死期的人便会悄悄地跟在后面。它靠吸取灵魂来点亮灯火，会为了寻求死者的灵魂而在医院和街巷四处彷徨游荡。人们认为它是死神的使者，对它畏惧不已，将其称为不吉利的宝可梦。",
+  "flavor_text_en": "It lurks in cities, pretending to be a lamp. Once it finds someone whose death is near, it will trail quietly after them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 608,
+    "pokeapi_species_id": 608,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/608"
+  }
+}

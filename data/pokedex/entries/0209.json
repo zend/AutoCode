@@ -1,0 +1,92 @@
+{
+  "entry_id": "0209",
+  "national_id": 209,
+  "form": "default",
+  "names": {
+    "en": "Snubbull",
+    "ja": "ブルー",
+    "zh": "布鲁"
+  },
+  "generation": 2,
+  "types": [
+    "fairy"
+  ],
+  "types_zh": [
+    "妖精"
+  ],
+  "category": "ようせいポケモン",
+  "category_zh": "妖精宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 逃跑",
+      "hidden": false
+    },
+    {
+      "name_en": "run-away",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 7.8,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 60,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 30,
+    "total": 300
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 210,
+        "name_en": "granbull",
+        "name_zh": "布鲁皇",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 123,
+    "阿罗拉": 258,
+    "蓝莓": 151
+  },
+  "flavor_text_zh": "布鲁类似于斗牛犬，全身主色为粉红色。类似裙子的部分盖住了腿。 布鲁性格活泼爱玩，平时是很悠闲的家伙，一天中有一半时间都在睡觉。它和看上去不同，其实相当胆小。所以如果把它和小狗宝可梦放在一起，它就有可能会受到欺负。它有着吓人的脸，但心地十分善良，喜欢亲近人，爱撒娇。它的动作与长相之间的反差好像会让年轻女性为之着迷。它会为了隐藏怯懦而拼命大声吼叫，呜呜声让对手不安。如果露出牙齿摆出一张可怕面孔，小型宝可梦就会被吓跑。布鲁在它们逃走后看起来有点寂寞。它拼命威吓的表情在女性中很有人气，认为它那会吓跑小型宝可梦的可怕面孔很可爱。",
+  "flavor_text_en": "In contrast to its appearance, it’s quite timid. When playing with other puppy Pokémon, it sometimes gets bullied.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 209,
+    "pokeapi_species_id": 209,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/209"
+  }
+}

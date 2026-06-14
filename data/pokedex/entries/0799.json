@@ -1,0 +1,68 @@
+{
+  "entry_id": "0799",
+  "national_id": 799,
+  "form": "default",
+  "names": {
+    "en": "Guzzlord",
+    "ja": "アクジキング",
+    "zh": "恶食大王"
+  },
+  "generation": 7,
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "types_zh": [
+    "恶",
+    "龙"
+  ],
+  "category": "あくじきポケモン",
+  "category_zh": "异食宝可梦",
+  "abilities": [
+    {
+      "name_en": "beast-boost",
+      "name_zh": "异兽提升",
+      "hidden": false
+    }
+  ],
+  "height_m": 5.5,
+  "weight_kg": 888.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 223,
+    "attack": 101,
+    "defense": 53,
+    "special_attack": 97,
+    "special_defense": 53,
+    "speed": 43,
+    "total": 570
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 299
+  },
+  "flavor_text_zh": "恶食大王是 究极异兽 的一种，代号为“ＵＢ０５：大胃王”。 它主体呈黑色的球形，由一对粗壮的腿支撑，膝盖上有黄色的锯齿状斑纹，每个有三个爪子。它的身体中间有一张黄色的大嘴巴。嘴的顶部和底部生长着前黄后黑的两排牙齿。在上颚的后排有两颗弯曲露出的长牙。上颚的上方有两只闪着光的蓝色眼睛，而眼睛上方又有一对边缘为黄色的蝙蝠翅膀，额头则镶嵌着一个黄色的菱形宝石。在它的身体两侧还有其他类似蝙蝠的小翅膀。它的嘴里面是亮蓝色的，喉咙里和黑色的大舌头上都长有小刺。两条钳状的粗大分舌从下颚延伸而出，也可以视作除了爪子以外的第二对手臂。它的主体顶部另有一个圆锥形的小脑袋，以及一对更小的蓝眼睛。四个短小的尖角在它的头上形成一个环，两边长有一对更大的弯角。它的尾巴从背部中央伸出，形似中世纪的狼牙棒。 恶食大王是被称为究极异兽的未知生命。它在这个世界是很危险的异类，但在原本栖息的世界好像只是寻常能见的生物。恶食大王拥有把任何在眼前的东西都吃尽的骇人食欲。据说它连大地、海以及河流，甚至人造物体也会吞干净。不知是不是经常觉得肚子饿，一直都在吃着什么东西。尽管它的食量异常惊人，但据说从未发现过其粪便。虽然它有可能把吃下的食物全部转换成自己的能量，但个中具体的情况不得而知。有人报告过它啃噬山体，以及吞掉大楼的模样。 [ 1 ] 根据 碧珂 的研究，恶食大王最大的特征是拥有无限的食欲。除去睡觉的时间，平时一直不停地在捕食。使用从嘴里伸出来的２条巨大的舌头，也不管是无机物还是有机物，把所有东西都捉来吃掉。进食量异常大，然而恶食大王的粪便还未被发现。人们认为，吃下的食物全部被转换成了它的能量。",
+  "flavor_text_en": "An unknown life-form called a UB. It may be constantly hungry—it is certainly always devouring something.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 799,
+    "pokeapi_species_id": 799,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/799"
+  }
+}

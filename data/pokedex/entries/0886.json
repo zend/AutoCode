@@ -1,0 +1,100 @@
+{
+  "entry_id": "0886",
+  "national_id": 886,
+  "form": "default",
+  "names": {
+    "en": "Drakloak",
+    "ja": "ドロンチ",
+    "zh": "多龙奇"
+  },
+  "generation": 8,
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "types_zh": [
+    "龙",
+    "幽灵"
+  ],
+  "category": "せわやくポケモン",
+  "category_zh": "保姆宝可梦",
+  "abilities": [
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯 / 或 / 穿透",
+      "hidden": false
+    },
+    {
+      "name_en": "infiltrator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "cursed-body",
+      "name_zh": "咒术之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 11.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 144,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "indeterminate",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "不定形",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 60,
+    "special_defense": 50,
+    "speed": 102,
+    "total": 410
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 885,
+        "name_en": "dreepy",
+        "name_zh": "多龙梅西亚",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 887,
+        "name_en": "dragapult",
+        "name_zh": "多龙巴鲁托",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "伽勒尔": 396,
+    "帕底亚": 306
+  },
+  "flavor_text_zh": "多龙奇的体型比多龙梅西亚要大不少，它头部的花纹变得多了起来，线条也变得更加清晰，尾巴出现了尾端透明的情况，多龙奇的头上会固定趴着一只多龙梅西亚。 多龙奇的飞行速度为每小时200公里，会在肺部储存能量并进行攻击。在多龙梅西亚能独当一面之前，它会与多龙梅西亚一起战斗，到它进化为止都会细心照顾。一旦输了对战，多龙梅西亚会二话不说地消失无踪。要是没让自己在照顾的多龙梅西亚乘在头上就静不下心来，甚至会因此试图把别的宝可梦放到头上。",
+  "flavor_text_en": "Without a Dreepy to place on its head and care for, it gets so uneasy it’ll try to substitute any Pokémon it finds for the missing Dreepy.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 886,
+    "pokeapi_species_id": 886,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/886"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "entry_id": "0631",
+  "national_id": 631,
+  "form": "default",
+  "names": {
+    "en": "Heatmor",
+    "ja": "クイタラン",
+    "zh": "熔蚁兽"
+  },
+  "generation": 5,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "アリクイポケモン",
+  "category_zh": "食蚁兽宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼 / 或 / 引火",
+      "hidden": false
+    },
+    {
+      "name_en": "flash-fire",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "white-smoke",
+      "name_zh": "白色烟雾",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 58.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 169,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 97,
+    "defense": 66,
+    "special_attack": 105,
+    "special_defense": 66,
+    "speed": 65,
+    "total": 484
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 137,
+    "伽勒尔": 317
+  },
+  "flavor_text_zh": "熔蚁兽的外观很像食蚁兽，有着尖尖的嘴巴以及相对比较肥壮的身体。熔蚁兽全身通红，身上有着偏橙黄色的花纹。它的腹部有着链接到尾部的管状部位，其手臂有着环形的类似手环的器官，上面有很多黑色的孔。它的手指要比脚趾长得多。 熔蚁兽会从尾部的孔洞吸入空气在体内燃起火焰。如果孔洞被堵住了，身体就会不舒服。它是 铁蚁 的天敌，会用高温燃烧的火焰舌头一点一点地熔化铁蚁坚硬的外骨骼，并吃掉其内部。",
+  "flavor_text_en": "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 631,
+    "pokeapi_species_id": 631,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/631"
+  }
+}

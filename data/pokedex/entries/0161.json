@@ -1,0 +1,89 @@
+{
+  "entry_id": "0161",
+  "national_id": 161,
+  "form": "default",
+  "names": {
+    "en": "Sentret",
+    "ja": "オタチ",
+    "zh": "尾立"
+  },
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "みはりポケモン",
+  "category_zh": "放哨宝可梦",
+  "abilities": [
+    {
+      "name_en": "run-away",
+      "name_zh": "逃跑 / 或 / 锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "keen-eye",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 6.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 43,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 46,
+    "defense": 34,
+    "special_attack": 35,
+    "special_defense": 45,
+    "speed": 20,
+    "total": 215
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 162,
+        "name_en": "furret",
+        "name_zh": "大尾立",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 19,
+    "北上": 26
+  },
+  "flavor_text_zh": "尾立拥有椭圆的褐色身体，深褐色耳朵，它的外耳是桃红色的。它有两颗豆子大小的黑色眼睛，手与身体相接的地方有层厚厚的皮肤。它的肚皮上有一圈状的白色的花纹，背后有一条比身体还长的尾巴，上面布有深黑褐色的圈状花纹。 尾立性格非常神经质，是警戒心非常强的宝可梦，和族群走散后会吓得睡不着觉。为了能看到远处的情况，它会用尾巴让自己站得更高。柔韧摆动的尾巴肌肉发达，摸上去很硬。它在睡觉的时候会轮流放哨，负责放哨的尾立会通过大声尖叫或用尾巴拍打地面来通知伙伴注意危险。遭遇敌人时，它会用尾巴站立，让身体显得比平时更大，并以此来威吓对手。",
+  "flavor_text_en": "When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pokémon becomes separated from its pack, it becomes incapable of sleep due to fear.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 161,
+    "pokeapi_species_id": 161,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/161"
+  }
+}

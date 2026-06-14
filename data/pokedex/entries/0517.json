@@ -1,0 +1,89 @@
+{
+  "entry_id": "0517",
+  "national_id": 517,
+  "form": "default",
+  "names": {
+    "en": "Munna",
+    "ja": "ムンナ",
+    "zh": "食梦梦"
+  },
+  "generation": 5,
+  "types": [
+    "psychic"
+  ],
+  "types_zh": [
+    "超能力"
+  ],
+  "category": "ゆめくいポケモン",
+  "category_zh": "食梦宝可梦",
+  "abilities": [
+    {
+      "name_en": "forewarn",
+      "name_zh": "预知梦 / 或 / 同步",
+      "hidden": false
+    },
+    {
+      "name_en": "synchronize",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "telepathy",
+      "name_zh": "心灵感应",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 23.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 58,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 76,
+    "attack": 25,
+    "defense": 45,
+    "special_attack": 67,
+    "special_defense": 55,
+    "speed": 24,
+    "total": 292
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 518,
+        "name_en": "musharna",
+        "name_zh": "梦梦蚀",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 23,
+    "伽勒尔": 90
+  },
+  "flavor_text_zh": "食梦梦是一种形态近似椭圆球状的宝可梦，全身上下呈淡雅的浅粉色。食梦梦有一双红色的闪亮大眼睛，两根黑色的短短的睫毛轻轻翘起。眼睛下方是 貘 一般的嘴，腹部有四只短短的小脚。食梦梦身上有三朵花形的团纹，最大的那朵在其后背的最高点，其余两朵分别在尾部和后腹右侧；这种花朵图案呈五瓣，花瓣为淡紫色，而花蕊处的正中心为比它肤色更深一点的粉红色。 食梦梦被认为与 催眠貘 有着共同的祖先。它永远飘浮在空中，会在深夜出现在为恶梦所苦的宝可梦和人的枕头边吃掉那个恶梦。被食梦梦吃掉梦的话醒来时会不记得梦的内容。它在吃梦的时候，身上的花纹会微微发亮，在吃掉梦之后会吐出烟雾。吃了快乐的梦时，烟雾是粉红色的；如果是噩梦，烟雾则是黑灰色的。",
+  "flavor_text_en": "It eats dreams and releases mist. The mist is pink when it’s eating a good dream, and black when it’s eating a nightmare.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 517,
+    "pokeapi_species_id": 517,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/517"
+  }
+}

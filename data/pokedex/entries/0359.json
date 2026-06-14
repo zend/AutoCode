@@ -1,0 +1,81 @@
+{
+  "entry_id": "0359",
+  "national_id": 359,
+  "form": "default",
+  "names": {
+    "en": "Absol",
+    "ja": "アブソル",
+    "zh": "阿勃梭鲁"
+  },
+  "generation": 3,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "わざわいポケモン",
+  "category_zh": "灾祸宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "super-luck",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "justified",
+      "name_zh": "正义之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 47.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 163,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "special_attack": 75,
+    "special_defense": 60,
+    "speed": 75,
+    "total": 465
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 152,
+    "神奥": 209,
+    "阿罗拉": 245,
+    "密阿雷": 134
+  },
+  "flavor_text_zh": "阿勃梭鲁拥有白色的毛发，没有毛发的部分是灰蓝色的。它有着红色的眼睛，头的右边是一个类似弓的角。超级阿勃梭鲁更加强壮，体内充盈着超级进化的能量，因此全身的体毛都竖了起来。但这并非是翅膀，所以无法飞行。头上的毛遮住了它的左眼。 阿勃梭鲁栖息在险峻的山岳地带，很少会到山脚下来。它如风一般在山野中奔跑，是能活上100年的长寿宝可梦。它对天空与大地的变化能敏感地察觉，拥有能预知灾害的能力。想要将其用角察觉到的灾难向人类通报时，会从深山之中现形。因为阿勃梭鲁出现在人们面前的话，就一定会发生地震或海啸等灾害，老人们称之为灾祸宝可梦，对它很忌惮。在迷信盛行的过去因被认为会招来灾祸而遭到厌恶，并被赶到深山中去，但人们对它预知灾害的能力非常感兴趣。但不祥的只是它的外表，实际上性格很温和。它是会帮忙守护田地，或是告知人们异变的难能可贵的存在。 超级阿勃梭鲁能像挥动翅膀般挥动着倒立的体毛，让威吓对手的气场迸发出来。超级进化的能量变作威慑的气场，四散播撒，胆怯的人会被惊吓致死。因为原本就不喜欢斗争，所以非常讨厌为了战斗而变成这个样子。",
+  "flavor_text_en": "Because of this Pokémon’s ability to detect danger, people mistook Absol as a bringer of doom.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 359,
+    "pokeapi_species_id": 359,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/359"
+  }
+}

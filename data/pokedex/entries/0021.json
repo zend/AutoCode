@@ -1,0 +1,87 @@
+{
+  "entry_id": "0021",
+  "national_id": 21,
+  "form": "default",
+  "names": {
+    "en": "Spearow",
+    "ja": "オニスズメ",
+    "zh": "烈雀"
+  },
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "types_zh": [
+    "一般",
+    "飞行"
+  ],
+  "category": "ことりポケモン",
+  "category_zh": "小鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "keen-eye",
+      "name_zh": "锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "狙击手",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 2.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 52,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 30,
+    "special_attack": 31,
+    "special_defense": 31,
+    "speed": 70,
+    "total": 262
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 22,
+        "name_en": "fearow",
+        "name_zh": "大嘴雀",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 21,
+    "城都": 13,
+    "阿罗拉": 73
+  },
+  "flavor_text_zh": "烈雀是一种鸟类宝可梦。烈雀背上为黑色，整个胸腹部为米色且有细条纹。它的头上有蓬乱的褐色羽冠。鸟喙形状短而有钩。 烈雀的浅粉红色的脚有三个爪子。它的翅膀为粉红色，边缘为浅粉色的。它有三个褐色的尾羽。 烈雀的翅膀很短，飞行也不大在行，不擅长高空飞行也无法飞远。因为翅膀比较短的缘故，所以会一直频繁地拍动翅膀。它以草丛里的虫子等为食，会跳来跳去忙个不停地用鸟嘴啄食虫宝可梦，偶尔也会袭击 向日种子 。它食欲旺盛且吃得很多，因虫宝可梦而烦恼的农户对烈雀非常重视。它会以超高速在地盘里四处盘旋，以保护自己的地盘不被侵犯。它生性鲁莽，只要是为了保护自己的领地，即便对手是大型宝可梦也仍会冲向对手。为了保护自己的领地，它会发出高亢的声音。响亮的叫声可以传到1公里之外。到处都能听到高亢的声音时，就是它在通知伙伴们有危险的信号。 阿柏蛇 喜食鸟宝可梦的蛋，有时会将 波波 或烈雀的蛋整个吞下去。它的体力虽然很弱，但若进行反击时则会非常可怕。",
+  "flavor_text_en": "Inept at flying high. However, it can fly around very fast to protect its territory.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 21,
+    "pokeapi_species_id": 21,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/21"
+  }
+}

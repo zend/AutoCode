@@ -1,0 +1,69 @@
+{
+  "entry_id": "0781",
+  "national_id": 781,
+  "form": "default",
+  "names": {
+    "en": "Dhelmise",
+    "ja": "ダダリン",
+    "zh": "破破舵轮"
+  },
+  "generation": 7,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "types_zh": [
+    "幽灵",
+    "草"
+  ],
+  "category": "もくずポケモン",
+  "category_zh": "碎藻宝可梦",
+  "abilities": [
+    {
+      "name_en": "steelworker",
+      "name_zh": "钢能力者",
+      "hidden": false
+    }
+  ],
+  "height_m": 3.9,
+  "weight_kg": 210.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 25,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 181,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 131,
+    "defense": 100,
+    "special_attack": 86,
+    "special_defense": 90,
+    "speed": 40,
+    "total": 517
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "阿罗拉": 263,
+    "伽勒尔": 360
+  },
+  "flavor_text_zh": "破破舵轮由船舵和船锚构成，其中船锚部分被水草所缠绕；船舵部分有两个仪表盘，其中左边已经破碎，右边有红色的指针，看起来像眼睛。船舵的右上角和左下角各缺少一个把手。绿色的海藻是它的本体。 破破舵轮是在海底飘荡的海藻吸收了沉船的零件后转生而成的幽灵宝可梦。它会用海藻网罗海里的垃圾，维持身体。像锁链一样的绿色碎藻能绵延数百米。不知为何与 垃垃藻 和 毒藻龙 关系很好。它会把锚抛到海里伏击猎物，去捕捉 吼吼鲸 和巨大的 吼鲸王 ，用缠绕着的绿色海藻，化为己用并吸取生命气息。它咣咣地来回摆动的巨大船锚，连吼鲸王也能一击击倒。",
+  "flavor_text_en": "After lowering its anchor, it waits for its prey. It catches large Wailord and drains their life-force.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 781,
+    "pokeapi_species_id": 781,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/781"
+  }
+}

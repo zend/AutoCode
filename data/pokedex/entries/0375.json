@@ -1,0 +1,93 @@
+{
+  "entry_id": "0375",
+  "national_id": 375,
+  "form": "default",
+  "names": {
+    "en": "Metang",
+    "ja": "メタング",
+    "zh": "金属怪"
+  },
+  "generation": 3,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "types_zh": [
+    "钢",
+    "超能力"
+  ],
+  "category": "てつツメポケモン",
+  "category_zh": "铁爪宝可梦",
+  "abilities": [
+    {
+      "name_en": "clear-body",
+      "name_zh": "恒净之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "light-metal",
+      "name_zh": "轻金属",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 202.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 147,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 100,
+    "special_attack": 55,
+    "special_defense": 80,
+    "speed": 50,
+    "total": 420
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 374,
+        "name_en": "beldum",
+        "name_zh": "铁哑铃",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 376,
+        "name_en": "metagross",
+        "name_zh": "巨金怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 191,
+    "阿罗拉": 215,
+    "蓝莓": 138,
+    "密阿雷": 226
+  },
+  "flavor_text_zh": "金属怪的身体是青蓝的，身体呈碟形，两条手臂上长着巨大的铁爪。金属怪落地时，会用两条手臂来站立。它的两眼为红色，脸上和背后各有一根银色的尖刺，身体左右两侧斜向后伸出两对银色的利刃。 金属怪是两只 铁哑铃 因磁力组合起来的样子，两个大脑会通过磁力神经连接起来从而产生出强大的精神能量，但是智商并没有发生改变。它钢铁的身躯即使和喷气式飞机相撞也不会受伤，两手上的爪子能将厚重的铁板像丝绸一样地撕裂破坏。它用磁力浮在空中，也会向后转动手臂高速移动。它依靠磁力飞行，能以时速100公里在空中飞行，高速穿过险峻的山岳。如果发现猎物就会用锐利的爪子牢牢抓住，用强力的精神能量封住猎物的行动，让追捕的猎物无处可逃。它非常喜欢能放出磁力的矿物。会以100公里的时速穷追 朝北鼻 。",
+  "flavor_text_en": "Using magnetic forces to stay aloft, this Pokémon flies at high speeds, weaving through harsh mountain terrain in pursuit of prey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 375,
+    "pokeapi_species_id": 375,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/375"
+  }
+}

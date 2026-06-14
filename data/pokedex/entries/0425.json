@@ -1,0 +1,94 @@
+{
+  "entry_id": "0425",
+  "national_id": 425,
+  "form": "default",
+  "names": {
+    "en": "Drifloon",
+    "ja": "フワンテ",
+    "zh": "飘飘球"
+  },
+  "generation": 4,
+  "types": [
+    "ghost",
+    "flying"
+  ],
+  "types_zh": [
+    "幽灵",
+    "飞行"
+  ],
+  "category": "ふうせんポケモン",
+  "category_zh": "气球宝可梦",
+  "abilities": [
+    {
+      "name_en": "aftermath",
+      "name_zh": "诱爆 / 或 / 轻装",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "flare-boost",
+      "name_zh": "受热激升",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 1.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 125,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 70,
+  "growth_rate": "fast-then-very-slow",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 50,
+    "defense": 34,
+    "special_attack": 60,
+    "special_defense": 44,
+    "speed": 70,
+    "total": 348
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 426,
+        "name_en": "drifblim",
+        "name_zh": "随风球",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 65,
+    "阿罗拉": 64,
+    "伽勒尔": 124,
+    "洗翠": 37,
+    "帕底亚": 143
+  },
+  "flavor_text_zh": "飘飘球的外形如一只紫色的气球，头上有着云朵状的头发，它面部正中间有X形的黄色花纹，花纹中间是它的嘴巴。飘飘球还有两根细线，线的末端是黄色爱心。 飘飘球由在路上游荡的魂魄们聚积诞生而成，圆圆的身体里塞满了许多魂魄。身体因某种原因弄破的话，就会伴随着呼喊一样的声音溢出魂魄来。它非常喜欢湿哒哒的季节，到了湿气大的季节就有可能大量出现。漫无目的地浮在空中的样子，使它在某些民间故事里被相传为迷途灵魂的路标。它会去拉小孩的手，想将其带到另一个世界去成为自己的伙伴，但却会反被抓着甩来甩去。据说把它误认成气球而拿在手上的小孩，有的会就此消失无踪。每次带着谁一起走的时候，身体就会鼓起来，不喜欢身体重的孩子。",
+  "flavor_text_en": "Said to lure away young children and carry them off to the afterlife. Some whisper that Drifloon are formed of reincarnated human souls, but these rumors are as yet unconfirmed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 425,
+    "pokeapi_species_id": 425,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/425"
+  }
+}

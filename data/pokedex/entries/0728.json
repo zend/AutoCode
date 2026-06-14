@@ -1,0 +1,86 @@
+{
+  "entry_id": "0728",
+  "national_id": 728,
+  "form": "default",
+  "names": {
+    "en": "Popplio",
+    "ja": "アシマリ",
+    "zh": "球球海狮"
+  },
+  "generation": 7,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "あしかポケモン",
+  "category_zh": "海狮宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "liquid-voice",
+      "name_zh": "湿润之声",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 7.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 64,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 54,
+    "defense": 54,
+    "special_attack": 66,
+    "special_defense": 56,
+    "speed": 40,
+    "total": 320
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 729,
+        "name_en": "brionne",
+        "name_zh": "花漾海狮",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 7,
+    "蓝莓": 224
+  },
+  "flavor_text_zh": "球球海狮是蓝色海狮类的宝可梦，它的嘴部呈白色， 带有胡须以及粉色球状的鼻子。一圈淡蓝色的颈圈环绕在它的颈部，它的身体平滑，前后各有一对前肢和尾鳍。 球球海狮是个爱出风头的宝可梦，在战斗中越是受人注目就越能发挥实力。虽然如此，但球球海狮也有着勤奋努力的一面，为了制作大大的球，它会孜孜不倦地反复练习。通过每天不断地重复练习，它用鼻子吹起来的气球也一点点地变大起来。比起陆上，球球海狮较擅长在水中的活动。游泳的速度能够超越时速40公里。它会在战斗中利用鼻子呼出来的气做成水气球，使出各式各样的战术，靠富有弹力的气球破裂时产生的冲击力来痛击对手。即使是在陆上，它也能够利用气球的弹力跳跃，做出杂技般的动作。 [ 1 ] 操纵水气球！ 擅长杂技动作",
+  "flavor_text_en": "If Popplio want to create big, powerful balloons, they must be persistent. It takes daily practice for these Pokémon to develop their skills.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 728,
+    "pokeapi_species_id": 728,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/728"
+  }
+}

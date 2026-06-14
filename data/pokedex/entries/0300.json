@@ -1,0 +1,90 @@
+{
+  "entry_id": "0300",
+  "national_id": 300,
+  "form": "default",
+  "names": {
+    "en": "Skitty",
+    "ja": "エネコ",
+    "zh": "向尾喵"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "こねこポケモン",
+  "category_zh": "小猫宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯 / 或 / 一般皮肤",
+      "hidden": false
+    },
+    {
+      "name_en": "normalize",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "wonder-skin",
+      "name_zh": "奇迹皮肤",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 11.0,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 52,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 45,
+    "defense": 45,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 50,
+    "total": 260
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 301,
+        "name_en": "delcatty",
+        "name_zh": "优雅猫",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 61
+  },
+  "flavor_text_zh": "向尾喵像一只小猫。它的头部、背部、耳朵外侧连同尾巴都是粉色的，腹部是淡黄色，尾巴末端有三个带杆的淡黄色小球。它的眼睛是眯着的，四个脚很小。它的耳朵尖部有三个刺状分叉，耳朵内侧是紫色的。 野生的向尾喵生活在森林中的树洞里。它有看到动的东西就会不顾一切追着到处跑的习性，会追自己的尾巴一圈圈地原地打转，追得头晕眼花。战斗的时候会拍动尾巴上的毛，发出尖锐的叫声威吓敌人。它有着可爱的脸蛋，转动眼睛的表情大受人们欢迎，不过很难与训练家亲近。虽然据说不容易亲近训练家，但由于外貌和动作非常可爱，是非常受欢迎的宝可梦。",
+  "flavor_text_en": "Skitty is known to chase around playfully after its own tail. In the wild, this Pokémon lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 300,
+    "pokeapi_species_id": 300,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/300"
+  }
+}

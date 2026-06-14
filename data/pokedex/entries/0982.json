@@ -1,0 +1,89 @@
+{
+  "entry_id": "0982",
+  "national_id": 982,
+  "form": "default",
+  "names": {
+    "en": "Dudunsparce",
+    "ja": "ノココッチ",
+    "zh": "土龙节节"
+  },
+  "generation": 9,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "つちへびポケモン",
+  "category_zh": "地蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "serene-grace",
+      "name_zh": "天恩",
+      "hidden": false
+    },
+    {
+      "name_en": "run-away",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rattled",
+      "name_zh": "胆怯",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.6,
+  "weight_kg": 39.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 182,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 125,
+    "attack": 100,
+    "defense": 80,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 55,
+    "total": 520
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 206,
+        "name_en": "dunsparce",
+        "name_zh": "土龙弟弟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 189,
+    "北上": 161
+  },
+  "flavor_text_zh": "土龙节节是一种蛇形的宝可梦。它有黄色身体和蓝色的腹部，背部有着蓝色和奶油色相间的条纹。它的下巴上有三个尖，眼睛上有一对眼睑。它身体的节数增多了，每节身体都有一对翅膀。大多数土龙节节都有两节身体，但少数个体有三节。 最近的研究发现，土龙节节的身体会有多少节是由基因决定的。它会用坚硬的尾巴来挖穿地下深处的岩盘筑巢，巢穴长达10公里。二节形态的土龙节节会吸进空气充满细长的肺部，然后掀起强烈的爆炸气浪，将敌人赶出自己的巢穴。而三节形态的土龙节节性情温驯，会让误闯进巢穴的宝可梦骑到自己的背上，并将其送到入口。",
+  "flavor_text_en": "It drives enemies out of its nest by sucking in enough air to fill its long, narrow lungs, then releasing the air in an intense blast.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 982,
+    "pokeapi_species_id": 982,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/982"
+  }
+}

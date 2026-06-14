@@ -1,0 +1,94 @@
+{
+  "entry_id": "0040",
+  "national_id": 40,
+  "form": "default",
+  "names": {
+    "en": "Wigglytuff",
+    "ja": "プクリン",
+    "zh": "胖可丁"
+  },
+  "generation": 1,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "types_zh": [
+    "一般",
+    "妖精"
+  ],
+  "category": "ふうせんポケモン",
+  "category_zh": "气球宝可梦",
+  "abilities": [
+    {
+      "name_en": "cute-charm",
+      "name_zh": "迷人之躯 / 或 / 好胜",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 12.0,
+  "gender_ratio": {
+    "male_percent": 25.0,
+    "female_percent": 75.0,
+    "genderless": false
+  },
+  "capture_rate": 50,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 196,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "fairy"
+  ],
+  "egg_groups_zh": [
+    "妖精"
+  ],
+  "base_stats": {
+    "hp": 140,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 85,
+    "special_defense": 50,
+    "speed": 45,
+    "total": 435
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 39,
+        "name_en": "jigglypuff",
+        "name_zh": "胖丁",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 40,
+    "城都": 45,
+    "丰缘": 139,
+    "阿罗拉": 136,
+    "帕底亚": 61
+  },
+  "flavor_text_zh": "胖可丁是球状的宝可梦，身上是粉色的。在圆圆的大眼睛的表面，总是覆盖着一层薄薄的泪膜，即使粘上灰尘也能立刻洗掉。它有短短的手脚，类似兔耳的耳朵和头上的卷毛，兔耳顶端带有一些白色的毛。 胖可丁是具有无比美丽毛色的宝可梦，它的身上长着纹理细致、非常柔软、令人著迷的毛。它以自己细腻的体毛为傲，尤其是额头上的卷毛更是有着天堂般的极致触感。当两只胖可丁依偎在一起时，它们便会因对方的毛皮太过舒适而难以分开。它的身体非常有弹性，当它用力吸气时，身体可以无限制地膨胀。胖可丁之间会互相比较谁胀得大，胀大后的胖可丁会轻飘飘地跳起来哦。要是心情不好生起气来就会死命地吸气让自己不断膨胀来威吓对方，有时甚至能胀大到原来的20倍。蓬松的毛发会随着季节转换而掉落，收集这些毛发后纺织成的毛线是高级商品。它富有弹性的身体和细腻的毛皮很受人们的喜爱，会让人一摸就舍不得离手。若有胖可丁在身边就能享受顶级睡眠，抱着它睡会感觉很惬意。",
+  "flavor_text_en": "It’s proud of its fur, which is fine and delicate. In particular, the curl on its forehead has a texture that’s perfectly heavenly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 40,
+    "pokeapi_species_id": 40,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/40"
+  }
+}

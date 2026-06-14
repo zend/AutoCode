@@ -1,0 +1,94 @@
+{
+  "entry_id": "0394",
+  "national_id": 394,
+  "form": "default",
+  "names": {
+    "en": "Prinplup",
+    "ja": "ポッタイシ",
+    "zh": "波皇子"
+  },
+  "generation": 4,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ペンギンポケモン",
+  "category_zh": "企鹅宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "competitive",
+      "name_zh": "好胜",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 23.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 64,
+    "attack": 66,
+    "defense": 68,
+    "special_attack": 81,
+    "special_defense": 76,
+    "speed": 50,
+    "total": 405
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 393,
+        "name_en": "piplup",
+        "name_zh": "波加曼",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 395,
+        "name_en": "empoleon",
+        "name_zh": "帝王拿波",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 8,
+    "洗翠": 162,
+    "蓝莓": 198
+  },
+  "flavor_text_zh": "波皇子头上有两个金色的附属物连接着它的喙，进化后前肢变得非常大，脚爪也有了明显的分开而更利，最明显的是羽色变深了，而且腹部上的像泡沫的白球数量也增加为四个。 波皇子在严寒的大海中昂然畅泳，发出彷如海潮声般的音色。它会在冰海里寻找猎物。它拥有强韧的翅膀与一身的傲气。翅膀的一击非常强烈，连大树也能轻易折断。它不结交伙伴，独自生活。每一只波皇子都认为自己是最了不起的，因此不可能形成群体。",
+  "flavor_text_en": "It swims gracefully through the frigid sea and sings with a voice like the roaring tide. It has powerful, sturdy wings and dignity to match.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 394,
+    "pokeapi_species_id": 394,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/394"
+  }
+}

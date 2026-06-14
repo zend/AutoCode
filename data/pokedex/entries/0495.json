@@ -1,0 +1,86 @@
+{
+  "entry_id": "0495",
+  "national_id": 495,
+  "form": "default",
+  "names": {
+    "en": "Snivy",
+    "ja": "ツタージャ",
+    "zh": "藤藤蛇"
+  },
+  "generation": 5,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "くさへびポケモン",
+  "category_zh": "草蛇宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "contrary",
+      "name_zh": "唱反调",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 8.1,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "陆上",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 45,
+    "defense": 55,
+    "special_attack": 45,
+    "special_defense": 55,
+    "speed": 63,
+    "total": 308
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 496,
+        "name_en": "servine",
+        "name_zh": "青藤蛇",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 1,
+    "蓝莓": 200
+  },
+  "flavor_text_zh": "藤藤蛇是蛇形的宝可梦。它身体的大部分都是绿色的，腹部和脚却是奶油色。它的背上直到尾巴有一条黄色的条纹，眼睛周围也有黄色的像是眼影的结构。脖子旁的黄色部分就像小翅膀，从身后看则像一个 百合花饰 。尽管它是蛇形宝可梦，但它有四肢且用双足站立。它的手臂和身体一样是绿色的，有三个手指。它的尾巴末端是一片大叶子，有三个分叉。 藤藤蛇拥有高度的知能和冷静的态度，性情上不喜欢聚在一起。它会用尾巴沐浴着阳光进行光合作用，如果沐浴在阳光下动作会比平时迅速。当尾巴的叶子受到日照制造出能量后，动作就会变得敏捷，招式也会更加强劲。如果没有精神，它的尾巴就会垂下来。它藤蔓用得比手更灵活，在生活中能灵活运用藤蔓来代替短短的手臂。",
+  "flavor_text_en": "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 495,
+    "pokeapi_species_id": 495,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/495"
+  }
+}

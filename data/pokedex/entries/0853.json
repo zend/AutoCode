@@ -1,0 +1,85 @@
+{
+  "entry_id": "0853",
+  "national_id": 853,
+  "form": "default",
+  "names": {
+    "en": "Grapploct",
+    "ja": "オトスパス",
+    "zh": "八爪武师"
+  },
+  "generation": 8,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "じゅうじゅつポケモン",
+  "category_zh": "柔术宝可梦",
+  "abilities": [
+    {
+      "name_en": "limber",
+      "name_zh": "柔软",
+      "hidden": false
+    },
+    {
+      "name_en": "technician",
+      "name_zh": "技术高手",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 39.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 168,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 118,
+    "defense": 90,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 42,
+    "total": 480
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 852,
+        "name_en": "clobbopus",
+        "name_zh": "拳拳蛸",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 352
+  },
+  "flavor_text_zh": "八爪武师外形是一只蓝色的章鱼，拥有黄色的吸盘及斑点，面部花纹形似蝴蝶。八爪武师总共拥有八条触手，其中一条触手如腰带般将三条用于站立的触手缠住，剩下的四条触手则用于打斗。它的嘴位于头部的蓝色和身体的黑色的分界线处。它快速行动时是用八只触手触地蜿蜒爬行。 八爪武师全身都是肌肉，会用自豪的触手施展寝技压制对手，威力无与伦比，即便力量惊人的宝可梦也无法挣脱并逃走。会为了试自己的身手而登上陆地寻找对手。战斗结束后就会回到海里。它会去和 具甲武者 决战，输掉的一方便会成为对方的食物。",
+  "flavor_text_en": "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 853,
+    "pokeapi_species_id": 853,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/853"
+  }
+}

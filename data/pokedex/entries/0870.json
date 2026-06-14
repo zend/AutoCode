@@ -1,0 +1,76 @@
+{
+  "entry_id": "0870",
+  "national_id": 870,
+  "form": "default",
+  "names": {
+    "en": "Falinks",
+    "ja": "タイレーツ",
+    "zh": "列阵兵"
+  },
+  "generation": 8,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "じんけいポケモン",
+  "category_zh": "阵形宝可梦",
+  "abilities": [
+    {
+      "name_en": "battle-armor",
+      "name_zh": "战斗盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "defiant",
+      "name_zh": "不服输",
+      "hidden": true
+    }
+  ],
+  "height_m": 3.0,
+  "weight_kg": 62.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 165,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "fairy",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "妖精",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 100,
+    "defense": 100,
+    "special_attack": 70,
+    "special_defense": 60,
+    "speed": 75,
+    "total": 470
+  },
+  "ev_yield": {
+    "attack": 2,
+    "special_defense": 1
+  },
+  "evolution": {},
+  "regional_dex": {
+    "伽勒尔": 345,
+    "帕底亚": 300,
+    "密阿雷": 212
+  },
+  "flavor_text_zh": "列阵兵是6只为一体的宝可梦。单独的列阵兵身体为黑色球形，有两条粗壮的腿。它们身上覆盖着金色铠甲，外形类似古罗马头盔。它们双手持有两个小圆盾，头头的圆盾上有缺角且额前多一个金色尖角。 列阵兵由1个头头和5个跟班组成，站在最前方下达指令的头头体型稍大于跟班们，是6只里边最强最聪明的。它惯于团队行动，会一边变换阵形一边战斗。被称为头头的队长会用可伸缩的角做出变换阵型的指令，头头的命令不可违抗。 超级列阵兵是仅限拥有牢固牵绊的头头和跟班才能组成的究极阵形。",
+  "flavor_text_en": "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 870,
+    "pokeapi_species_id": 870,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/870"
+  }
+}

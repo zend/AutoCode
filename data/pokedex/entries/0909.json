@@ -1,0 +1,83 @@
+{
+  "entry_id": "0909",
+  "national_id": 909,
+  "form": "default",
+  "names": {
+    "en": "Fuecoco",
+    "ja": "ホゲータ",
+    "zh": "呆火鳄"
+  },
+  "generation": 9,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "ほのおワニポケモン",
+  "category_zh": "火鳄宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "unaware",
+      "name_zh": "纯朴",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.4,
+  "weight_kg": 9.8,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 67,
+    "attack": 45,
+    "defense": 59,
+    "special_attack": 63,
+    "special_defense": 40,
+    "speed": 36,
+    "total": 310
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 910,
+        "name_en": "crocalor",
+        "name_zh": "炙烫鳄",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 4
+  },
+  "flavor_text_zh": "呆火鳄形似鳄鱼，面部和腹部是白色的。它的身体是红色的，肚子和背上有着黄色的鳞片。头上晃动着的是从它体内溢出来的火之能量。 呆火鳄悠然自在又我行我素。它非常爱吃，一旦发现食物就会两眼放光地向其飞奔过去。它会躺在温暖的岩石上，利用腹部和背上的四边形鳞片来吸收外部的热量，并转换为火之能量。它的鳞片总是徐徐发热，有时也会大幅升温。它的火囊很小，因此能量会从头部的凹陷处溢出来，并摇曳晃动着。当呆火鳄的情绪激昂而兴奋时，从头上放出的火焰也会增量。 [ 1 ]",
+  "flavor_text_en": "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco’s head and flickers to and fro.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 909,
+    "pokeapi_species_id": 909,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/909"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "entry_id": "0505",
+  "national_id": 505,
+  "form": "default",
+  "names": {
+    "en": "Watchog",
+    "ja": "ミルホッグ",
+    "zh": "步哨鼠"
+  },
+  "generation": 5,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "Pokémon Alerta",
+  "category_zh": "警戒宝可梦",
+  "abilities": [
+    {
+      "name_en": "illuminate",
+      "name_zh": "发光 / 或 / 锐利目光",
+      "hidden": false
+    },
+    {
+      "name_en": "keen-eye",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "analytic",
+      "name_zh": "分析",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 27.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 147,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 69,
+    "special_attack": 60,
+    "special_defense": 69,
+    "speed": 77,
+    "total": 420
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 504,
+        "name_en": "patrat",
+        "name_zh": "探探鼠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 11,
+    "密阿雷": 28
+  },
+  "flavor_text_zh": "步哨鼠有着细长的身躯，比起进化前的探探鼠，步哨鼠有着更深一点的褐色毛皮。它的毛皮上还有着黄色的类似于荧光背心的花纹，在尾巴接近末端处也有一圈黄色的花纹。它有着尖锐的门牙，细长的脖子和白色的小脚。它的目光近乎可以用凶神恶煞来形容。步哨鼠的尾巴十分的长，甚至高于自己的身高。 步哨鼠会用体内的发光物质让眼珠和身体上的纹路闪闪发光，借以威吓敌人，使来袭的敌人畏缩。它拥有在黑暗中也能看得很清楚的眼睛。一旦发现敌人尾巴就会竖起来，射出藏在颊囊里的树果种子进行攻击。",
+  "flavor_text_en": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 505,
+    "pokeapi_species_id": 505,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/505"
+  }
+}

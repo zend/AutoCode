@@ -1,0 +1,91 @@
+{
+  "entry_id": "0665",
+  "national_id": 665,
+  "form": "default",
+  "names": {
+    "en": "Spewpa",
+    "ja": "コフーライ",
+    "zh": "粉蝶蛹"
+  },
+  "generation": 6,
+  "types": [
+    "bug"
+  ],
+  "types_zh": [
+    "虫"
+  ],
+  "category": "こなふきポケモン",
+  "category_zh": "喷粉宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    },
+    {
+      "name_en": "friend-guard",
+      "name_zh": "友情防守",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 8.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 75,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 22,
+    "defense": 60,
+    "special_attack": 27,
+    "special_defense": 30,
+    "speed": 29,
+    "total": 213
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 664,
+        "name_en": "scatterbug",
+        "name_zh": "粉蝶虫",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 666,
+        "name_en": "vivillon",
+        "name_zh": "彩粉蝶",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 36,
+    "密阿雷": 16
+  },
+  "flavor_text_zh": "粉蝶蛹的外表看起来就像是一只包裹着绒毛的虫子，它的头很圆，由灰色和褐色组成，白色的身体上有红色，黄色，灰色的粉末，虽然看起来不像是蛹，但粉蝶蛹依然属于蛹类的一种，它的头部很像是 粉蝶虫 时期的头部，身上的花纹依然是方块状的。 粉蝶蛹隐藏在繁茂的树荫中生活，没有固定的住处。它会随心所欲地在山野漫步，储存进化时所需的能量。它的身体很坚硬，即便是鸟宝可梦的鸟嘴也伤不了它分毫，会挥撒粉末进行防守。一旦被敌人袭击就会尖尖地竖起体毛威吓对方。被 毛头小鹰 的鸟嘴袭击时，就会靠尖锐的体毛和带毒的黑色粉末来迎战。",
+  "flavor_text_en": "The beaks of bird Pokémon can’t begin to scratch its stalwart body. To defend itself, it spews powder.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 665,
+    "pokeapi_species_id": 665,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/665"
+  }
+}

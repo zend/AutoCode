@@ -1,0 +1,86 @@
+{
+  "entry_id": "0658",
+  "national_id": 658,
+  "form": "default",
+  "names": {
+    "en": "Greninja",
+    "ja": "ゲッコウガ",
+    "zh": "甲贺忍蛙"
+  },
+  "generation": 6,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "types_zh": [
+    "水",
+    "恶"
+  ],
+  "category": "しのびポケモン",
+  "category_zh": "忍者宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "protean",
+      "name_zh": "变幻自如",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 40.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 95,
+    "defense": 67,
+    "special_attack": 103,
+    "special_defense": 71,
+    "speed": 122,
+    "total": 530
+  },
+  "ev_yield": {
+    "speed": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 657,
+        "name_en": "frogadier",
+        "name_zh": "呱头蛙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "蓝莓": 217,
+    "密阿雷": 211
+  },
+  "flavor_text_zh": "甲贺忍蛙是形态为双足大蛙的宝可梦；身体及双腿为深蓝色，胸部为黄色；四肢各有大白泡，腿上各有一个四角星型标记，看起来像 手里剑 ；前肢有三指，后肢有两指，脚上有蹼；面孔下部和尖尖耳朵为浅黄色；眼睛上方有白斑，眼睛里有白巩膜、红虹膜和白瞳孔；围着颈子的粉红“围巾”是它的舌头。小智版甲贺忍蛙跟普通甲贺忍蛙外形大致一样，不一样的是头部出现了红色花纹，头部两侧的发型很像 小智 ，背后有个巨大的水手里剑，再结合本来深蓝色的身躯，整体形象变得跟小智在 宝可梦 XY 中的形象更为相像。 甲贺忍蛙像忍者般神出鬼没，能通过卷在脖子上的长～舌头所接触到的空气流动来察觉看不见身影的敌人的动静。它会以敏捷的动作玩弄对手，再用大腿渗出的粘液所制成的手里剑将对方劈开。压缩水制造出的手里剑高速旋转后飞出能利落地切断钢丝，连金属也能一劈两半。 超级甲贺忍蛙借由解放超级进化的能量，它的反应速度显著提升。为了发挥提升到堪称异常的反应速度，它是忍者宝可梦却不藏身。它会故意现身迫使对手攻击来感知攻击的气息，从而比对手更快速地进攻。曾像忍者一般神出鬼没的甲贺忍蛙在超级进化之后会主动现身，这展现着它必胜的决心。它会让由自身分泌的凝胶状粘膜制作而成的巨大的水之手里剑浮空，并且倒贴在上边。面对被这副模样吓到的对手，它会出其不意地用长舌头卷住对手，并封住对手的攻击。与高速旋转的巨大手里剑一起发动突击，来攻击被它封得不能动弹的对手。 [ 1 ]",
+  "flavor_text_en": "It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 658,
+    "pokeapi_species_id": 658,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/658"
+  }
+}

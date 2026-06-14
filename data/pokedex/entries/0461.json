@@ -1,0 +1,91 @@
+{
+  "entry_id": "0461",
+  "national_id": 461,
+  "form": "default",
+  "names": {
+    "en": "Weavile",
+    "ja": "マニューラ",
+    "zh": "玛狃拉"
+  },
+  "generation": 4,
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "types_zh": [
+    "恶",
+    "冰"
+  ],
+  "category": "かぎづめポケモン",
+  "category_zh": "钩爪宝可梦",
+  "abilities": [
+    {
+      "name_en": "pressure",
+      "name_zh": "压迫感",
+      "hidden": false
+    },
+    {
+      "name_en": "pickpocket",
+      "name_zh": "顺手牵羊",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 34.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "black",
+  "color_zh": "黑色",
+  "base_experience": 179,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 120,
+    "defense": 65,
+    "special_attack": 45,
+    "special_defense": 85,
+    "speed": 125,
+    "total": 510
+  },
+  "ev_yield": {
+    "attack": 1,
+    "speed": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 215,
+        "name_en": "sneasel",
+        "name_zh": "狃拉",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 145,
+    "阿罗拉": 250,
+    "伽勒尔": 293,
+    "洗翠": 204,
+    "帕底亚": 231,
+    "北上": 171
+  },
+  "flavor_text_zh": "玛狃拉总是一副凶神恶煞的样子，额头上镶嵌着椭圆形的金黄色玉石。它有着鲜红色宽羽毛组成的头冠、脖领和尾巴，每只耳朵上也有一根单薄的羽毛。身体主要是深灰色，眼珠呈红色，嘴边露出一些尖牙，手掌和脚趾头是白色的，它也拥有尖锐的爪子。雌性玛狃拉的耳毛更小。 玛狃拉栖息在经常下雪的地方，4~5只一组进行行动，如果被它的爪子勾到就会冻伤。它进化后变得更加狡猾，会通过用爪子在石头上留下记号来与伙伴交流，或在树木和冰块表面刻下不可思议的图形向伙伴传递暗号。据说记号的种类有500种以上。它会通过团队联合行动，在首领的统率下集结成群追捕猎物。伙伴之间会认真地分配猎物，不会因为食物的分配而打架。通过团队合作，连 象牙猪 那样强大的对手也能轻松解决。在阿罗拉的玛狃拉以 六尾 和 穿山鼠 为主要食物。一只会负责绊住穿山鼠的脚将其翻过来，另一只用锐利的爪子给予致命一击。",
+  "flavor_text_en": "This species corners prey as a pack, under the guidance of a leader. Weavile displays increased cunning, leading me to speculate that its evolution caused further brain development.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 461,
+    "pokeapi_species_id": 461,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/461"
+  }
+}

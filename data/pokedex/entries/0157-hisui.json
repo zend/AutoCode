@@ -1,0 +1,86 @@
+{
+  "entry_id": "0157-hisui",
+  "national_id": 157,
+  "form": "hisui",
+  "names": {
+    "en": "Typhlosion",
+    "ja": "バクフーン",
+    "zh": "火暴兽（洗翠的样子）"
+  },
+  "generation": 2,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "types_zh": [
+    "火",
+    "幽灵"
+  ],
+  "category": "かざんポケモン",
+  "category_zh": "火山宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "frisk",
+      "name_zh": "察觉",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 69.8,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 240,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "special_attack": 109,
+    "special_defense": 85,
+    "speed": 100,
+    "total": 534
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 156,
+        "name_en": "quilava",
+        "name_zh": "火岩鼠",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 6,
+    "蓝莓": 178
+  },
+  "flavor_text_zh": "火暴兽与进化前相比，体形变得更大，它的火焰变得更猛，更像围绕脖子一圈的毛发。洗翠火暴兽背部则是深紫色，脖子周围的火焰也变成了紫红色的火焰。由颈部火焰而生的磷火高达108团，会化为可怕的兽形向对手发动袭击。 火暴兽周围的热浪开始摇晃的时候，就是战斗准备完成的信号。它会用灼热的火焰在周围制造出热浪隐藏身影。它会摩擦熊熊燃烧着的体毛，用火焰的爆炸气浪进行攻击，燃起的爆炸气浪能烧净一切。当火暴兽愤怒到极点时，它热得能将碰到的所有东西瞬间点燃。 不同于至今为止所发现的火暴兽，洗翠火暴兽性格非常从容不迫，是举止优雅美丽的宝可梦。据考察，它是受到耸立于洗翠中心的灵山之气影响，才形成了现在的模样。偶尔会看到它的视线在什么都没有的空中游动，据说这个行为是在观看生命能量的流动或灵魂。虽然时而会吃下无处可去的灵魂，但人们相信被吃下的灵魂会通过火焰得到净化，从而回到它所该在的地方。洗翠地区的火暴兽平时性情温和不好战，可一旦动怒就会使情绪爆发，把对手烧得灰飞烟灭。 [ 1 ]",
+  "flavor_text_en": "Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.",
+  "is_default_form": false,
+  "source": {
+    "pokeapi_id": 10233,
+    "pokeapi_species_id": 157,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/10233"
+  }
+}

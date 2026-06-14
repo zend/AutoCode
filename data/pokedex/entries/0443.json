@@ -1,0 +1,92 @@
+{
+  "entry_id": "0443",
+  "national_id": 443,
+  "form": "default",
+  "names": {
+    "en": "Gible",
+    "ja": "フカマル",
+    "zh": "圆陆鲨"
+  },
+  "generation": 4,
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "types_zh": [
+    "龙",
+    "地面"
+  ],
+  "category": "りくザメポケモン",
+  "category_zh": "陆鲨宝可梦",
+  "abilities": [
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": false
+    },
+    {
+      "name_en": "rough-skin",
+      "name_zh": "粗糙皮肤",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 20.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 60,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 58,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 40,
+    "special_defense": 45,
+    "speed": 42,
+    "total": 300
+  },
+  "ev_yield": {
+    "attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 444,
+        "name_en": "gabite",
+        "name_zh": "尖牙陆鲨",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 109,
+    "阿罗拉": 238,
+    "洗翠": 187,
+    "帕底亚": 126,
+    "北上": 164,
+    "密阿雷": 128
+  },
+  "flavor_text_zh": "圆陆鲨形似一只幼小的鲨鱼，头顶有一个巨大的鳍，头部两侧头上长着两个突起物。它全身底色深蓝，下颚到腹部呈红色，背部和头部两个突起物上都有一道浅蓝色的条纹。它有一张巨大的嘴，嘴里长着尖利的牙齿，四肢短小粗壮，且分为三趾。雄性圆陆鲨的背鳍有缺口。 圆陆鲨曾经居住在比阿罗拉更热的热带地区，为了躲避寒冷而生活在因地热而温暖的狭窄洞窟里，这样一来就算外面刮暴风雪也不会冻着了。即便如此，一旦变冷就会和伙伴们紧紧挨在一起。它以日光照不到的洞穴为巢，要是和它一起住的话，要花很多暖气费。它潜伏在地洞内，如果有猎物或敌人经过就会从洞里扑出来大口咬住。遇到会动的东西就会扑上去将其拉回到自己住的横洞内。虽然嘴很大，但胃口却比较小。它用巨大的嘴发动的攻击威力十足，但是还不能很灵活地战斗。有时也会伤到自己，会用力过猛把牙齿豁掉，但也不太在意。锐利的牙齿即使因磨损或冲击而脱落，也能在数天内重新长出。",
+  "flavor_text_en": "It nests in caves untouched by sunlight. Its sharp teeth may fall out when worn away or after an impact, but they regrow within a few days.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 443,
+    "pokeapi_species_id": 443,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/443"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "entry_id": "0976",
+  "national_id": 976,
+  "form": "default",
+  "names": {
+    "en": "Veluza",
+    "ja": "ミガルーサ",
+    "zh": "轻身鳕"
+  },
+  "generation": 9,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "types_zh": [
+    "水",
+    "超能力"
+  ],
+  "category": "きりはなしポケモン",
+  "category_zh": "卸除宝可梦",
+  "abilities": [
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": false
+    },
+    {
+      "name_en": "sharpness",
+      "name_zh": "锋锐",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.5,
+  "weight_kg": 90.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 100,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 167,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 102,
+    "defense": 73,
+    "special_attack": 78,
+    "special_defense": 65,
+    "speed": 70,
+    "total": 478
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "帕底亚": 373
+  },
+  "flavor_text_zh": "轻身鳕拥有强大的再生能力，会丢弃身上的赘肉来让自己变得轻盈后再去突击猎物。舍弃不必要的肉，能让心灵得以磨砺，精神力量得以提升。赘肉口味清淡，却十分美味。不过就算身处20米之外， 海地鼠 也能嗅出轻身鳕散发出的气味。",
+  "flavor_text_en": "Veluza has excellent regenerative capabilities. It sheds spare flesh from its body to boost its agility, then charges at its prey.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 976,
+    "pokeapi_species_id": 976,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/976"
+  }
+}

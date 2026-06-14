@@ -1,0 +1,90 @@
+{
+  "entry_id": "0866",
+  "national_id": 866,
+  "form": "default",
+  "names": {
+    "en": "Mr. Rime",
+    "ja": "バリコオル",
+    "zh": "踏冰人偶"
+  },
+  "generation": 8,
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "types_zh": [
+    "冰",
+    "超能力"
+  ],
+  "category": "コメディアンポケモン",
+  "category_zh": "喜剧演员宝可梦",
+  "abilities": [
+    {
+      "name_en": "tangled-feet",
+      "name_zh": "蹒跚 / 或 / 除障",
+      "hidden": false
+    },
+    {
+      "name_en": "screen-cleaner",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 58.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 182,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 85,
+    "defense": 75,
+    "special_attack": 110,
+    "special_defense": 100,
+    "speed": 70,
+    "total": 520
+  },
+  "ev_yield": {
+    "special_attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 122,
+        "name_en": "mr-mime",
+        "name_zh": "魔墙人偶",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 366
+  },
+  "flavor_text_zh": "踏冰人偶造型如同身穿礼服的绅士，礼帽上的延伸物形似雪花一角，嘴被八字胡盖住，戴着连指手套的手中握着一根冰制成的文明棍，鞋子类似踢踏舞鞋。 踏冰人偶是踢踏舞的达人。它会挥动手中的冰杖，向观众表演轻快的舞步，幽默的动作使它获得了众人的喜爱。滑稽的舞步是它的绝学，会趁着敌方大笑之际，施以零下２００度的冷气。它还能从腹部的图案释放出精神力量。 魔尼尼 会像徒弟一样跟随着擅长跳舞的踏冰人偶，一心一意地拼命模仿它的舞步。",
+  "flavor_text_en": "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 866,
+    "pokeapi_species_id": 866,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/866"
+  }
+}

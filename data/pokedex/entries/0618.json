@@ -1,0 +1,84 @@
+{
+  "entry_id": "0618",
+  "national_id": 618,
+  "form": "default",
+  "names": {
+    "en": "Stunfisk",
+    "ja": "マッギョ",
+    "zh": "泥巴鱼"
+  },
+  "generation": 5,
+  "types": [
+    "ground",
+    "electric"
+  ],
+  "types_zh": [
+    "地面",
+    "电"
+  ],
+  "category": "トラップポケモン",
+  "category_zh": "陷阱宝可梦",
+  "abilities": [
+    {
+      "name_en": "static",
+      "name_zh": "静电",
+      "hidden": false
+    },
+    {
+      "name_en": "limber",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "sand-veil",
+      "name_zh": "沙隐",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 11.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 165,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 109,
+    "attack": 66,
+    "defense": 84,
+    "special_attack": 81,
+    "special_defense": 99,
+    "speed": 32,
+    "total": 471
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 124,
+    "伽勒尔": 226,
+    "密阿雷": 157
+  },
+  "flavor_text_zh": "泥巴鱼是身体扁平的鱼类宝可梦，拥有褐色的身体，一对侧鳍以及黄色的尾鳍。它背上的黄色花纹形似感叹号，面部神情呆滞，但放电时会喜笑颜开。伽勒尔的样子整体呈铁灰色，尾巴已经退化，身体前后两端衍化出了带锯齿的硬鳍，整个身子呈陷阱夹的模样，嘴巴也变成了类似 精灵球 的样子，背上的花纹形似野兽足迹。 潮间带是泥巴鱼的巢穴。它会埋进海边的泥里等待猎物，一旦碰到猎物就会放出电来使其麻痹。它制造电的器官由于泥里的细菌而发达起来，当从身上的黄色斑纹里释放出强大电流时，它会莫名地露出微笑。无法麻痹对手的情况下，就以超乎想象的速度扭动身体，弹跳着逃跑。它的皮肤坚硬，所以即使被相扑力士踩踏也照样淡定自如。 伽勒尔泥巴鱼栖息于富含铁质的泥巴里，因此获得了结实坚固的钢铁身躯。它会藏在泥巴里用显眼的嘴唇吸引猎物接近自己，接着用锯齿般的钢鳍紧紧将对手夹住。",
+  "flavor_text_en": "For some reason, this Pokémon smiles slightly when it emits a strong electric current from the yellow markings on its body.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 618,
+    "pokeapi_species_id": 618,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/618"
+  }
+}

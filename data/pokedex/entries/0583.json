@@ -1,0 +1,98 @@
+{
+  "entry_id": "0583",
+  "national_id": 583,
+  "form": "default",
+  "names": {
+    "en": "Vanillish",
+    "ja": "バニリッチ",
+    "zh": "多多冰"
+  },
+  "generation": 5,
+  "types": [
+    "ice"
+  ],
+  "types_zh": [
+    "冰"
+  ],
+  "category": "ひょうせつポケモン",
+  "category_zh": "冰雪宝可梦",
+  "abilities": [
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯 / 或 / 雪隐",
+      "hidden": false
+    },
+    {
+      "name_en": "snow-cloak",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 41.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 138,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 51,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 80,
+    "special_defense": 75,
+    "speed": 59,
+    "total": 395
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 582,
+        "name_en": "vanillite",
+        "name_zh": "迷你冰",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 584,
+        "name_en": "vanilluxe",
+        "name_zh": "双倍多多冰",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 89,
+    "阿罗拉": 256,
+    "伽勒尔": 73,
+    "密阿雷": 114
+  },
+  "flavor_text_zh": "多多冰的外形类似于现实中的冰淇淋。它的头上铺满了大量的雪，脸颊两旁都有一块冰，它的嘴巴是呈倒半圆形的，它身体下半部中都是蓝色的，旁边拥有两条细小的冰柱。多多冰身旁有一些寒气。 多多冰是栖息在雪山的宝可梦，在遥远过去的冰河时期迁移到了南方的土地，在炎热的地方极受欢迎。它是非常魁梧的宝可梦，通过喝下干净的水来让自己的冰雪身躯成长。它在炎热的天气里身体会融化，天气好的时候很少看到它，阿罗拉的多多冰整体都是小型的。如果让它冻住就会恢复原状，但身体的形状会稍稍歪掉。它性格和善，虽然会用零下100度的冷气冻住敌人，但并不会伤及它们的性命。它会冷却周围的空气制造出大量小冰粒，在敌人眼前隐藏自己的身影，冻住敌人的身体后用头锤将对方打碎。",
+  "flavor_text_en": "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it’s a kind Pokémon.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 583,
+    "pokeapi_species_id": 583,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/583"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entry_id": "0756",
+  "national_id": 756,
+  "form": "default",
+  "names": {
+    "en": "Shiinotic",
+    "ja": "マシェード",
+    "zh": "灯罩夜菇"
+  },
+  "generation": 7,
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "types_zh": [
+    "草",
+    "妖精"
+  ],
+  "category": "はっこうポケモン",
+  "category_zh": "发光宝可梦",
+  "abilities": [
+    {
+      "name_en": "illuminate",
+      "name_zh": "发光 / 或 / 孢子",
+      "hidden": false
+    },
+    {
+      "name_en": "effect-spore",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "rain-dish",
+      "name_zh": "雨盘",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 11.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "purple",
+  "color_zh": "紫色",
+  "base_experience": 142,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 80,
+    "special_attack": 90,
+    "special_defense": 100,
+    "speed": 30,
+    "total": 405
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 755,
+        "name_en": "morelull",
+        "name_zh": "睡睡菇",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 146,
+    "伽勒尔": 341
+  },
+  "flavor_text_zh": "灯罩夜菇是一种巨大的白色宝可梦，类似于蘑菇。它苗条的身体和茎相似，头上有一个紫色的大蘑菇帽。它的眼睛大而黑，外面有浅绿色半圆形的斑纹。不像它的进化前身，它有一个可见的嘴，它是中型和黑色。长而细的手臂末端分成三个浅绿色的尖端，充当手指。它的脚和圆形的下半部是粉红色的，有几个小的淡粉色肿块在中部，宛如穿着松垮的裤子。头上的蘑菇帽上有淡绿色的椭圆形斑纹和浅绿色的底面，可以照明。 一旦围绕着领地问题与 派拉斯特 展开争斗，灯罩夜菇的周围就会变得到处都是孢子。它会用孢子闪烁着的光吸引猎物让对方睡着，然后从手腕处夺走对方的生命气息。伙伴虚弱的话，就会输送生命气息给予拯救。深夜前往灯罩夜菇栖息的森林是很危险的，会被怪异的光线诱惑，再也回不来了。如果大半夜在森林的深处看见光亮，记住千万不要接近。灯罩夜菇会让你睡着的。",
+  "flavor_text_en": "If you see a light deep in a forest at night, don’t go near. Shiinotic will make you fall fast asleep.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 756,
+    "pokeapi_species_id": 756,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/756"
+  }
+}

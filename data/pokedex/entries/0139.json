@@ -1,0 +1,93 @@
+{
+  "entry_id": "0139",
+  "national_id": 139,
+  "form": "default",
+  "names": {
+    "en": "Omastar",
+    "ja": "オムスター",
+    "zh": "多刺菊石兽"
+  },
+  "generation": 1,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "types_zh": [
+    "岩石",
+    "水"
+  ],
+  "category": "うずまきポケモン",
+  "category_zh": "漩涡宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 硬壳盔甲",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 35.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 173,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 60,
+    "defense": 125,
+    "special_attack": 115,
+    "special_defense": 70,
+    "speed": 55,
+    "total": 495
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 138,
+        "name_en": "omanyte",
+        "name_zh": "菊石兽",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 139,
+    "城都": 221
+  },
+  "flavor_text_zh": "多刺菊石兽拥有和蜗牛差不多的壳附在身上，壳上整齐地排布着一排尖刺。他的瞳孔细长，以至于看上去令人感到有些恐惧。它的触手变得更加细长，口部长出了十字形的獠牙。 多刺菊石兽生活在史前时代，部分资料推测其可能是 章鱼桶 的远祖。一般认为其灭绝原因与背上过于巨大且沉重的螺旋状的壳有关。厚重的甲壳虽提供了良好的防护，却也使其行动迟缓，只能捕食触手可及范围内的猎物，难以追逐移动迅速的目标。多刺菊石兽拥有发达的触手与锐利的牙齿，其触手如同手脚般灵活有力，牙齿亦足以咬碎岩石。它会操纵触手捕捉猎物，用触手缠住猎物，封锁对手的行动，随后用利齿予以致命一击。它一旦缠上猎物就绝不会松开，会用锋利的牙齿撕碎并吃掉猎物，即使是藏在壳里的 大舌贝 也能被其咬破外壳并吸食内部组织。尽管如此，它并非没有天敌。例如 肋骨海龟 可以用力量惊人的颚部将它的壳咬得粉碎后轻轻松松地整个吃掉。",
+  "flavor_text_en": "Omastar’s sharp fangs could crush rock, but the Pokémon can attack only the prey that come within reach of its tentacles.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 139,
+    "pokeapi_species_id": 139,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/139"
+  }
+}

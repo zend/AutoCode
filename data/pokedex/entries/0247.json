@@ -1,0 +1,90 @@
+{
+  "entry_id": "0247",
+  "national_id": 247,
+  "form": "default",
+  "names": {
+    "en": "Pupitar",
+    "ja": "サナギラス",
+    "zh": "沙基拉斯"
+  },
+  "generation": 2,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "types_zh": [
+    "岩石",
+    "地面"
+  ],
+  "category": "だんがんポケモン",
+  "category_zh": "子弹宝可梦",
+  "abilities": [
+    {
+      "name_en": "shed-skin",
+      "name_zh": "蜕皮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 152.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 144,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster"
+  ],
+  "egg_groups_zh": [
+    "怪兽"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 84,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 70,
+    "speed": 51,
+    "total": 410
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 246,
+        "name_en": "larvitar",
+        "name_zh": "幼基拉斯",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 248,
+        "name_en": "tyranitar",
+        "name_zh": "班基拉斯",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "城都": 245,
+    "伽勒尔": 384,
+    "帕底亚": 317,
+    "密阿雷": 207
+  },
+  "flavor_text_zh": "沙基拉斯全身被灰蓝色的硬壳覆盖，两侧有四个尖角，额头上也有三个小角。它的双眼眼珠呈红色，透过壳体上的两个孔洞视物，眼孔上方另有两个三角形孔洞。 沙基拉斯会到处胡闹，是相当危险的蛹。在岩盘一样的外壳内，新的身体正在逐渐成形，在坚硬的甲壳之下已经长出了手脚。它全身覆盖着岩盘一样的硬壳，身体就算撞上钢铁也没问题，不等进化完成就会利用压缩气体四处乱飞大闹来纾解压力。它会通过压缩体内制造的气体，然后再将其猛烈喷射出去，如同火箭一样进行飞行，让自己飞起来搞破坏。虽然是蛹却不会呆着不动，能自由自在地跳来跳去。它力量强大，发狂后连山都会崩塌。兼具硬度和速度的它破坏力超群，是令人头痛的宝可梦。",
+  "flavor_text_en": "It will not stay still, even while it’s a pupa. It already has arms and legs under its solid shell.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 247,
+    "pokeapi_species_id": 247,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/247"
+  }
+}

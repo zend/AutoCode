@@ -1,0 +1,95 @@
+{
+  "entry_id": "0388",
+  "national_id": 388,
+  "form": "default",
+  "names": {
+    "en": "Grotle",
+    "ja": "ハヤシガメ",
+    "zh": "树林龟"
+  },
+  "generation": 4,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "こだちポケモン",
+  "category_zh": "树丛宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "硬壳盔甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 97.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 89,
+    "defense": 85,
+    "special_attack": 55,
+    "special_defense": 65,
+    "speed": 36,
+    "total": 405
+  },
+  "ev_yield": {
+    "attack": 1,
+    "defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 387,
+        "name_en": "turtwig",
+        "name_zh": "草苗龟",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 389,
+        "name_en": "torterra",
+        "name_zh": "土台龟",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "神奥": 2,
+    "洗翠": 131,
+    "蓝莓": 192
+  },
+  "flavor_text_zh": "树林龟的龟壳变成黄色，分成了好几块。背部长成了小树，偶尔会结出看起来像橡实的褐色坚果。树林龟的壳上有三条长长的咖啡色隆起物。树林龟的黄色下颚从两颊延伸，形成两个三角形。树林龟的脚也是黄色的，每只脚上有三根爪子。 树林龟生活在森林中的水边，白天会去森林的外面让甲壳上的树木晒晒阳光。它知道哪里会涌出清澈的水，会让伙伴宝可梦骑在它背上将其运到那个地方。据说在森林里生活的树林龟都有着自己专用的清冽泉眼。它的甲壳是泥土变硬后形成的。有些宝可梦会来啄食甲壳上树木所结的果子。",
+  "flavor_text_en": "Appears where there is clean spring water. The fruit that grows on the shrubs on its shell is sweet, nutritious, and truly delicious.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 388,
+    "pokeapi_species_id": 388,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/388"
+  }
+}

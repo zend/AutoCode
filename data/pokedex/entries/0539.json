@@ -1,0 +1,79 @@
+{
+  "entry_id": "0539",
+  "national_id": 539,
+  "form": "default",
+  "names": {
+    "en": "Sawk",
+    "ja": "ダゲキ",
+    "zh": "打击鬼"
+  },
+  "generation": 5,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "からてポケモン",
+  "category_zh": "空手道宝可梦",
+  "abilities": [
+    {
+      "name_en": "sturdy",
+      "name_zh": "结实 / 或 / 精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "inner-focus",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "mold-breaker",
+      "name_zh": "破格",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 51.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 163,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 75,
+    "special_attack": 30,
+    "special_defense": 75,
+    "speed": 85,
+    "total": 465
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 45,
+    "伽勒尔": 249
+  },
+  "flavor_text_zh": "打击鬼是一身精干、蓝色皮肤的宝可梦。打击鬼头部细长，有一双黑色的眼睛，漆黑的鼻梁延伸至左眼上方。其四肢各有三根手指和三个脚趾。打击鬼穿著白色布料、系有黑色带子、膝前有黑色方块的，形似武术装的服饰。打击鬼只有雄性。 打击鬼因追求最强的空手劈而隐居在深山里，不眠不休地修行。在它修行的山中时常听到巨石巨树与拳头碰撞的声音。不断重复练习的打击鬼所使出的空手劈拥有足以劈开大海的破坏力。它系紧带子后会很振奋，拳击的破坏力得到提升。要是看到了在山上修行的打击鬼，就静静地离开吧，如果打扰它修行就会发怒。",
+  "flavor_text_en": "The karate chops of a Sawk that’s trained itself to the limit can cleave the ocean itself.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 539,
+    "pokeapi_species_id": 539,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/539"
+  }
+}

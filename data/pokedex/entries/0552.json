@@ -1,0 +1,101 @@
+{
+  "entry_id": "0552",
+  "national_id": 552,
+  "form": "default",
+  "names": {
+    "en": "Krokorok",
+    "ja": "ワルビル",
+    "zh": "混混鳄"
+  },
+  "generation": 5,
+  "types": [
+    "ground",
+    "dark"
+  ],
+  "types_zh": [
+    "地面",
+    "恶"
+  ],
+  "category": "さばくワニポケモン",
+  "category_zh": "沙漠鳄鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 自信过度",
+      "hidden": false
+    },
+    {
+      "name_en": "moxie",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "anger-point",
+      "name_zh": "愤怒穴位",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 33.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 123,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 82,
+    "defense": 45,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 74,
+    "total": 351
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 551,
+        "name_en": "sandile",
+        "name_zh": "黑眼鳄",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 553,
+        "name_en": "krookodile",
+        "name_zh": "流氓鳄",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 58,
+    "阿罗拉": 233,
+    "帕底亚": 268,
+    "蓝莓": 28,
+    "密阿雷": 123
+  },
+  "flavor_text_zh": "混混鳄用两脚站立。它除了腹部是粉红色之外，全身大多是褐色。身上黑色条纹比进化前更多，背部也多了两排凸起物，并有一大片的黑色块。四只脚上依然有三个爪子，前脚则变得像手一样。 混混鳄会和多只同类组成群体生活。群体的中心大多都是雌性，雄性们会收集食物。它会把猎物的一部分埋在沙子里，作为狩猎失败时的储备粮。混混鳄覆盖住眼球的膜可以保护眼睛不受沙暴伤害，还可以感知物体的热度。因此即便它在黑暗中也能看见周围，精准地进行捕猎。不过它非常害怕身体变冷，虽然拥有能在黑暗中看清事物的特殊双眼，但由于沙漠的夜晚寒冷，所以一般不怎么活动。在气温下降的夜晚会潜藏在沙漠的沙子深处。",
+  "flavor_text_en": "Although this Pokémon has specialized eyes that allow it to see in the dark, Krokorok won’t move much at night—the desert gets cold after sunset.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 552,
+    "pokeapi_species_id": 552,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/552"
+  }
+}

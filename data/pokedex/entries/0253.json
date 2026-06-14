@@ -1,0 +1,93 @@
+{
+  "entry_id": "0253",
+  "national_id": 253,
+  "form": "default",
+  "names": {
+    "en": "Grovyle",
+    "ja": "ジュプトル",
+    "zh": "森林蜥蜴"
+  },
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "もりトカゲポケモン",
+  "category_zh": "林蜥宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "unburden",
+      "name_zh": "轻装",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 21.6,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 142,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "special_attack": 85,
+    "special_defense": 65,
+    "speed": 95,
+    "total": 405
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 252,
+        "name_en": "treecko",
+        "name_zh": "木守宫",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 254,
+        "name_en": "sceptile",
+        "name_zh": "蜥蜴王",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 2,
+    "蓝莓": 183
+  },
+  "flavor_text_zh": "森林蜥蜴有着草绿色的身体，眼睛是黄色的，腹部颜色为玫瑰红，肚皮上有道带状的草绿色纹路。它的手上各有两根手指，脚上长着两根脚趾，看起来都像爪子一样。它的手腕处有三片的叶子，头上有一片很长的叶子，都是深绿色的。它的深绿色的尾巴看着像两片长长的叶子。 森林蜥蜴栖息在密林里，是生活在密林里的爬树高手，会在枝头间跳跃移动着接近猎物。它能在大树的枝干间轻盈地跳跃移动，发达的大腿肌肉会产生出惊人的爆发力和弹跳力。不管是多快的宝可梦，都无法在森林中捉住森林蜥蜴。在繁盛茂密的丛林里时，从身体里长出来的叶子能让森林蜥蜴的身形躲过敌人的视线。",
+  "flavor_text_en": "This Pokémon adeptly flies from branch to branch in trees. In a forest, no Pokémon can ever hope to catch a fleeing Grovyle however fast they may be.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 253,
+    "pokeapi_species_id": 253,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/253"
+  }
+}

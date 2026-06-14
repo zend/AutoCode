@@ -1,0 +1,98 @@
+{
+  "entry_id": "0111",
+  "national_id": 111,
+  "form": "default",
+  "names": {
+    "en": "Rhyhorn",
+    "ja": "サイホーン",
+    "zh": "独角犀牛"
+  },
+  "generation": 1,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "types_zh": [
+    "地面",
+    "岩石"
+  ],
+  "category": "とげとげポケモン",
+  "category_zh": "尖尖宝可梦",
+  "abilities": [
+    {
+      "name_en": "lightning-rod",
+      "name_zh": "避雷针 / 或 / 坚硬脑袋",
+      "hidden": false
+    },
+    {
+      "name_en": "rock-head",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 115.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 69,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 85,
+    "defense": 95,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 25,
+    "total": 345
+  },
+  "ev_yield": {
+    "defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 112,
+        "name_en": "rhydon",
+        "name_zh": "钻角犀兽",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 111,
+    "城都": 206,
+    "丰缘": 169,
+    "神奥": 186,
+    "伽勒尔": 264,
+    "洗翠": 120,
+    "蓝莓": 5
+  },
+  "flavor_text_zh": "独角犀牛全身为灰色，头部有一个小小的角，雌性的角较小。它身上的皮肤坚硬无比，四肢较短背部的一块铠甲带有弧形的缺口，有一个很小的尾巴。它的骨头很结实，是人类硬度的1000倍。 独角犀牛大脑很小，单细胞的脑子只能思考一件事情。一旦开始猛冲，不管理由是什么都会很快感到无所谓而忘掉，甚至会忘记为什么会跑。虽然它头脑很差但力气很大，拥有可以用撞击把任何东西弄坏的身体，可以击把高楼大厦撞得粉粹。好像破坏了什么东西后，偶尔也会记起奔跑的目的。它的四只短腿不擅长回旋，在撞上东西之前无法停止。自己前进的方向如果有什么东西在也不在意，只会用猛撞弄坏。即使是撞上钢块也完全没事，但过了一天会感到稍微有点疼。它因为头脑不好，所以没办法帮人干活。",
+  "flavor_text_en": "Ludicrously strong—when it butts heads with a mountain, it is the mountain that shatters. But its short legs struggle with turns, and it is incapable of stopping unless it collides with something.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 111,
+    "pokeapi_species_id": 111,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/111"
+  }
+}

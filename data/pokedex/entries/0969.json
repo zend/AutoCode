@@ -1,0 +1,86 @@
+{
+  "entry_id": "0969",
+  "national_id": 969,
+  "form": "default",
+  "names": {
+    "en": "Glimmet",
+    "ja": "キラーメ",
+    "zh": "晶光芽"
+  },
+  "generation": 9,
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "types_zh": [
+    "岩石",
+    "毒"
+  ],
+  "category": "こうせきポケモン",
+  "category_zh": "矿石宝可梦",
+  "abilities": [
+    {
+      "name_en": "toxic-debris",
+      "name_zh": "毒满地",
+      "hidden": false
+    },
+    {
+      "name_en": "corrosion",
+      "name_zh": "腐蚀",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 8.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 70,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 70,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 35,
+    "defense": 42,
+    "special_attack": 105,
+    "special_defense": 60,
+    "speed": 60,
+    "total": 350
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 970,
+        "name_en": "glimmora",
+        "name_zh": "晶光花",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 308,
+    "北上": 156
+  },
+  "flavor_text_zh": "晶光芽紧紧贴在洞窟的顶部，从洞窟的壁上吸取营养，用充满有毒成分的花苞撞击敌人来自我保护。它包覆在身上的花瓣是用毒所凝聚的结晶做成的，会像撒花粉一样撒出毒粉来保护自身安全。",
+  "flavor_text_en": "Glimmet’s toxic mineral crystals look just like flower petals. This Pokémon scatters poisonous powder like pollen to protect itself.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 969,
+    "pokeapi_species_id": 969,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/969"
+  }
+}

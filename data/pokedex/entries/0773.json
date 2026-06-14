@@ -1,0 +1,77 @@
+{
+  "entry_id": "0773",
+  "national_id": 773,
+  "form": "default",
+  "names": {
+    "en": "Silvally",
+    "ja": "シルヴァディ",
+    "zh": "银伴战兽"
+  },
+  "generation": 7,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "じんこうポケモン",
+  "category_zh": "人工宝可梦",
+  "abilities": [
+    {
+      "name_en": "rks-system",
+      "name_zh": "ＡＲ系统",
+      "hidden": false
+    }
+  ],
+  "height_m": 2.3,
+  "weight_kg": 100.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 3,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 257,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "egg_groups_zh": [
+    "未发现"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 95,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 95,
+    "total": 570
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 772,
+        "name_en": "type-null",
+        "name_zh": "属性：空",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "阿罗拉": 204,
+    "伽勒尔": 382
+  },
+  "flavor_text_zh": "属性：空 遇到值得信赖的同伴后，因为与伙伴间深厚的牵绊让蕴藏在自己体内的力量觉醒，依靠自己的意志力破坏了束缚的面具。银伴战兽从沉重的面罩里被解放出来，速度大幅提升。这个名字是由第一个让属性：空进化成这个样子的少年来取的。它有着类似鸟类的头部，头顶的部位类似鸟类的翅膀，而身体的部分则看起来像是兽类，尾巴则看起来是鱼类的尾巴，让其看起来就像是几种生物分别组合在一起一样。 银伴战兽由于摆脱了面具的控制，性情变得更具野性，感官亦变得更加敏锐。它的个性虽然粗野，但会服从自己信任的训练家，当危险迫近时便会挺身而出加以保护。它可通过把专用道具 存储碟 插入头部的驱动器，启动 ＡＲ系统 来改变自己的属性，能像传说的宝可梦一样改变自己的属性来战斗。启动ＡＲ系统后，身体细胞会变异，并随着属性的不同而释放不同的光芒。据说银伴战兽是为了对抗 某种威胁 而被创造出来的。 [ 1 ]",
+  "flavor_text_en": "The final factor needed to release this Pokémon’s true power was a strong bond with a Trainer it trusts.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 773,
+    "pokeapi_species_id": 773,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/773"
+  }
+}

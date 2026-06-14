@@ -1,0 +1,92 @@
+{
+  "entry_id": "0595",
+  "national_id": 595,
+  "form": "default",
+  "names": {
+    "en": "Joltik",
+    "ja": "バチュル",
+    "zh": "电电虫"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "types_zh": [
+    "虫",
+    "电"
+  ],
+  "category": "くっつきポケモン",
+  "category_zh": "吸附宝可梦",
+  "abilities": [
+    {
+      "name_en": "compound-eyes",
+      "name_zh": "复眼 / 或 / 紧张感",
+      "hidden": false
+    },
+    {
+      "name_en": "unnerve",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.1,
+  "weight_kg": 0.6,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 64,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 47,
+    "defense": 50,
+    "special_attack": 57,
+    "special_defense": 50,
+    "speed": 65,
+    "total": 319
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 596,
+        "name_en": "galvantula",
+        "name_zh": "电蜘蛛",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 101,
+    "伽勒尔": 64,
+    "蓝莓": 132
+  },
+  "flavor_text_zh": "电电虫的身体是黄色的，腹部是褐色的。它有四只眼睛，两只大的长在头的两边，两只小的长在两只大眼之间，且小的眼睛中没有瞳仁。有两对蓝色的足，上面长着黄色的毛。 电电虫生活在街巷中，可以从民家的插座里吸取电力。因为自己不能制造电，所以会附在其它大型宝可梦身上吸取静电，然后把电储存在蓄电袋里。经常会把自己贴在 来电汪 的屁股上。",
+  "flavor_text_en": "Joltik latch on to other Pokémon and suck out static electricity. They’re often found sticking to Yamper’s hindquarters.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 595,
+    "pokeapi_species_id": 595,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/595"
+  }
+}

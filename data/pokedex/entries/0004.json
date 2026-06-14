@@ -1,0 +1,89 @@
+{
+  "entry_id": "0004",
+  "national_id": 4,
+  "form": "default",
+  "names": {
+    "en": "Charmander",
+    "ja": "ヒトカゲ",
+    "zh": "小火龙"
+  },
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "types_zh": [
+    "火"
+  ],
+  "category": "とかげポケモン",
+  "category_zh": "蜥蜴宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "solar-power",
+      "name_zh": "太阳之力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 8.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 62,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special_attack": 60,
+    "special_defense": 50,
+    "speed": 65,
+    "total": 309
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 5,
+        "name_en": "charmeleon",
+        "name_zh": "火恐龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 4,
+    "城都": 229,
+    "伽勒尔": 378,
+    "蓝莓": 167,
+    "密阿雷": 151
+  },
+  "flavor_text_zh": "小火龙的身体呈橙色，肚子和尾巴下方是奶油色的，尾巴上有燃烧的火焰。它的眼睛呈蓝色，四颗小小的牙齿分立在上下颚。它四肢短小，有四根极短的手指和三根脚爪。 小火龙生下来的时候，尾巴上就有火焰在燃烧。尾巴上的火焰是小火龙生命力的象征，如果精神不错，火焰就会熊熊燃烧。如果干劲不足，火焰就会变得微弱。火焰熄灭时，它的生命也会结束。尾巴上的火焰也代表着它的心情。当它开心时，火焰会摇曳晃动，而当它生气时，火焰就会剧烈燃烧。要是把它带到安静的地方，就能听到它的尾巴燃烧时发出的微小的声音。它天生喜欢热热的东西。据说当它被雨淋湿的时候，尾巴的末端会冒出烟来。如果它很健康，即使在全身湿透的情况下尾巴上的火焰也会十分旺盛地燃烧。",
+  "flavor_text_en": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 4,
+    "pokeapi_species_id": 4,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/4"
+  }
+}

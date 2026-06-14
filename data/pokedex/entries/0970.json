@@ -1,0 +1,86 @@
+{
+  "entry_id": "0970",
+  "national_id": 970,
+  "form": "default",
+  "names": {
+    "en": "Glimmora",
+    "ja": "キラフロル",
+    "zh": "晶光花"
+  },
+  "generation": 9,
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "types_zh": [
+    "岩石",
+    "毒"
+  ],
+  "category": "こうせきポケモン",
+  "category_zh": "矿石宝可梦",
+  "abilities": [
+    {
+      "name_en": "toxic-debris",
+      "name_zh": "毒满地",
+      "hidden": false
+    },
+    {
+      "name_en": "corrosion",
+      "name_zh": "腐蚀",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 45.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 184,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 83,
+    "attack": 55,
+    "defense": 90,
+    "special_attack": 130,
+    "special_defense": 81,
+    "speed": 86,
+    "total": 525
+  },
+  "ev_yield": {
+    "special_attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 969,
+        "name_en": "glimmet",
+        "name_zh": "晶光芽",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 309,
+    "北上": 157
+  },
+  "flavor_text_zh": "只要感应到危险，晶光花就会张开结晶的花瓣，与 晶光芽 们互相配合一起击退敌人。它会绽放出大朵由毒成分构成的花，从圆锥形的身体发射光束。最近发现它的毒之能量结晶化之后所形成的花瓣与太晶的宝石类似。 超级晶光花花瓣变大并分离开来。会一边保护本体并旋转，一边播撒有毒的碎片。",
+  "flavor_text_en": "Glimmora’s petals are made of crystallized poison energy. It has recently become evident that these petals resemble Tera Jewels.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 970,
+    "pokeapi_species_id": 970,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/970"
+  }
+}

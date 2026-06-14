@@ -1,0 +1,92 @@
+{
+  "entry_id": "0294",
+  "national_id": 294,
+  "form": "default",
+  "names": {
+    "en": "Loudred",
+    "ja": "ドゴーム",
+    "zh": "吼爆弹"
+  },
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "おおごえポケモン",
+  "category_zh": "大声宝可梦",
+  "abilities": [
+    {
+      "name_en": "soundproof",
+      "name_zh": "隔音",
+      "hidden": false
+    },
+    {
+      "name_en": "scrappy",
+      "name_zh": "胆量",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.0,
+  "weight_kg": 40.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 120,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 126,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 84,
+    "attack": 71,
+    "defense": 43,
+    "special_attack": 71,
+    "special_defense": 43,
+    "speed": 48,
+    "total": 360
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 293,
+        "name_en": "whismur",
+        "name_zh": "咕妞妞",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 295,
+        "name_en": "exploud",
+        "name_zh": "爆音怪",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 46
+  },
+  "flavor_text_zh": "吼爆弹全身为紫色，头上有一对类似音箱的耳朵，两只脚上分别有两个白色的脚趾。它有着一个巨大的嘴巴，嘴巴对应有四颗牙齿，它的手脚很短。 吼爆弹会深深吸入空气后，靠发达的腹肌将其吐出，并以此来发出大叫声。它圆圆的耳朵有着扬声器的功能，可以转动头部的圆形喇叭，以大音量的超音波重击敌人，大叫所产生的冲击波会掀翻卡车。它还能用脚踩踏地面发出很大的声音，产生的超声波具有能够吹飞一栋房子的威力。它发出的大叫声不仅会刺激听觉，还会压缩空气造成冲击波将敌人吹飞给予伤害。大叫后的一段时间内无法听到任何声音是其弱点。",
+  "flavor_text_en": "The force of this Pokémon’s loud voice isn’t just the sound—it’s also the wave of air pressure that blows opponents away and damages them.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 294,
+    "pokeapi_species_id": 294,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/294"
+  }
+}

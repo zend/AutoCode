@@ -1,0 +1,69 @@
+{
+  "entry_id": "0338",
+  "national_id": 338,
+  "form": "default",
+  "names": {
+    "en": "Solrock",
+    "ja": "ソルロック",
+    "zh": "太阳岩"
+  },
+  "generation": 3,
+  "types": [
+    "rock",
+    "psychic"
+  ],
+  "types_zh": [
+    "岩石",
+    "超能力"
+  ],
+  "category": "いんせきポケモン",
+  "category_zh": "陨石宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.2,
+  "weight_kg": 154.0,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 161,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 95,
+    "defense": 85,
+    "special_attack": 55,
+    "special_defense": 65,
+    "speed": 70,
+    "total": 460
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "丰缘": 126,
+    "伽勒尔": 363
+  },
+  "flavor_text_zh": "太阳岩的圆形身体是橙色的，有八只黄色的岩石刺从身体侧面伸出来，身体前后有由许多小的黄色石头形成的图案。太阳岩的眼睛大而特别，有很厚的半圆形眼睑，中间黑色的缝隙能看到红色的瞳仁。它每只眼睛上、下方都有一个环形的图案和三个黑色的花纹。 太阳岩据说是从宇宙中落下来的新品种，据传是太阳分身。太阳的能量是其力量的来源，会在晴天时面对太阳一字排开积蓄太阳能量，所以白天会很强。它会飘浮在空中无声无息地移动，总是一副面无表情的样子，会读取对方的想法。当它旋转自己的身体时，会发出太阳般的光芒让敌人的眼睛暂时失明。",
+  "flavor_text_en": "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 338,
+    "pokeapi_species_id": 338,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/338"
+  }
+}

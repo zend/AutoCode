@@ -1,0 +1,94 @@
+{
+  "entry_id": "0349",
+  "national_id": 349,
+  "form": "default",
+  "names": {
+    "en": "Feebas",
+    "ja": "ヒンバス",
+    "zh": "丑丑鱼"
+  },
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "さかなポケモン",
+  "category_zh": "鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "swift-swim",
+      "name_zh": "悠游自如 / 或 / 迟钝",
+      "hidden": false
+    },
+    {
+      "name_en": "oblivious",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "适应力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 7.4,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 255,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 40,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 15,
+    "defense": 20,
+    "special_attack": 10,
+    "special_defense": 55,
+    "speed": 80,
+    "total": 200
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 350,
+        "name_en": "milotic",
+        "name_zh": "美纳斯",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "丰缘": 140,
+    "神奥": 138,
+    "阿罗拉": 155,
+    "伽勒尔": 152,
+    "北上": 158
+  },
+  "flavor_text_zh": "丑丑鱼的鳍是蓝色的，它的身体由土黄色和蓝色为主、身上有些坑坑巴巴的，眼睛呈现呆滞的表情。它的鳍天生就破破烂烂的很不好看，外形长得实在太丑，以样子寒酸而闻名。 丑丑鱼栖息在有许多水草的水池里面，会大量聚集在水草众多的河底生活。尽管数量非常多，但还是会聚居在一处。它在海洋和河流里都能生活，拥有惊人的生命力，因而成为了研究对象。丑丑鱼的游泳速度很快，与水中的 大尾狸 不相上下。它什么都吃，是即使在脏水里也完全不介意的强壮的宝可梦，呆在浑浊臭水沟里的大概就是 龙虾小兵 和这家伙。不过它行动迟缓，很容易被捉住。但因为破破烂烂的，谁也不要捉。因为看起来不好吃，也不会被当做猎物。结果就是，数量嗖嗖地增加起来。因为长得寒碜，大多数人看都不看，会培养它的训练家似乎很少。但是有只收集丑丑鱼的收藏家。",
+  "flavor_text_en": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 349,
+    "pokeapi_species_id": 349,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/349"
+  }
+}

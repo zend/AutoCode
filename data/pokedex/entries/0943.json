@@ -1,0 +1,88 @@
+{
+  "entry_id": "0943",
+  "national_id": 943,
+  "form": "default",
+  "names": {
+    "en": "Mabosstiff",
+    "ja": "マフィティフ",
+    "zh": "獒教父"
+  },
+  "generation": 9,
+  "types": [
+    "dark"
+  ],
+  "types_zh": [
+    "恶"
+  ],
+  "category": "おやぶんポケモン",
+  "category_zh": "大佬宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 看门犬",
+      "hidden": false
+    },
+    {
+      "name_en": "guard-dog",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "stakeout",
+      "name_zh": "蹲守",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.1,
+  "weight_kg": 61.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 177,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 90,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 85,
+    "total": 505
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 942,
+        "name_en": "maschiff",
+        "name_zh": "偶叫獒",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 197
+  },
+  "flavor_text_zh": "獒教父拥有和外表不相称的好心肠。它平时性情温和，非常喜欢和小孩玩耍，但在保护家人时表情会发生改变。但如果家人受到对手威胁，则会无情地追击并了结对手。它大大的喉囊里可以储存能量，会一口气释放能量将敌人轰飞。",
+  "flavor_text_en": "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 943,
+    "pokeapi_species_id": 943,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/943"
+  }
+}

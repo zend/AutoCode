@@ -1,0 +1,94 @@
+{
+  "entry_id": "0723",
+  "national_id": 723,
+  "form": "default",
+  "names": {
+    "en": "Dartrix",
+    "ja": "フクスロー",
+    "zh": "投羽枭"
+  },
+  "generation": 7,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "types_zh": [
+    "草",
+    "飞行"
+  ],
+  "category": "はばねポケモン",
+  "category_zh": "刃羽宝可梦",
+  "abilities": [
+    {
+      "name_en": "overgrow",
+      "name_zh": "茂盛",
+      "hidden": false
+    },
+    {
+      "name_en": "long-reach",
+      "name_zh": "远隔",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 16.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 147,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "egg_groups_zh": [
+    "飞行"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 75,
+    "defense": 75,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 52,
+    "total": 420
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 722,
+        "name_en": "rowlet",
+        "name_zh": "木木枭",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 724,
+        "name_en": "decidueye",
+        "name_zh": "狙射树枭",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "阿罗拉": 2,
+    "洗翠": 2,
+    "蓝莓": 219
+  },
+  "flavor_text_zh": "投掷刀刃般锋利的羽毛进行攻击 投羽枭的外形就像是一只猫头鹰，它的身体整体颜色以白色和绿色为主，身体的中间部位是深绿色羽毛，前面的绿色部位看起来就像是它的领结，投羽枭的眼睛上面的两撇羽毛非常粗，体型相对也大了不少，大部分时候它都是眯着眼睛的。投羽枭非常自恋，又爱美，是注重外表，很在意自己的外观的宝可梦。 投羽枭经常为了积蓄力量而沐浴阳光，只要有空便会整理翅膀，对整理翅膀丝毫不会怠慢。如果不勤快地给它打理，或许会不听话。这不单是因为它注重形象，也是为了让刃羽保持锐利。有时投羽枭会因为过于在意羽毛有否弄脏或不整齐，而变得无法集中战斗。亦有投羽枭由于无法集中战斗而从战斗中退下来。但超越了这段敏感时期的投羽枭便会突飞猛进地变得更强。投羽枭的翅膀内侧藏着刀刃般锋利的羽毛，会准确地射出这些羽毛进行攻击。不只是直线射出羽毛，它亦可让羽毛弯曲使轨道转弯，使用被称为刃羽的锐利羽毛能精准地贯穿敌人要害，确切地了结敌人。它对于四周的气息与一举一动非常敏感。它可从气息察觉身后对手的举动，即使没有看见对手亦可百发百中地射出羽毛给予致命一击。但实际上投羽枭也有冒冒失失且笨拙的一面，一旦失败，有时会为了想解决问题而令自己陷入困境。 [ 1 ]",
+  "flavor_text_en": "Regularly basks in sunlight to gather power—presumably due to the frigid climate. Nonetheless, the edges of the blade quills set into its wings are keen as ever.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 723,
+    "pokeapi_species_id": 723,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/723"
+  }
+}

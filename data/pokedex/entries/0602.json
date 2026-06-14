@@ -1,0 +1,82 @@
+{
+  "entry_id": "0602",
+  "national_id": 602,
+  "form": "default",
+  "names": {
+    "en": "Tynamo",
+    "ja": "シビシラス",
+    "zh": "麻麻小鱼"
+  },
+  "generation": 5,
+  "types": [
+    "electric"
+  ],
+  "types_zh": [
+    "电"
+  ],
+  "category": "でんきうおポケモン",
+  "category_zh": "电鱼宝可梦",
+  "abilities": [
+    {
+      "name_en": "levitate",
+      "name_zh": "飘浮",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "white",
+  "color_zh": "白色",
+  "base_experience": 55,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 40,
+    "special_attack": 45,
+    "special_defense": 40,
+    "speed": 60,
+    "total": 275
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 603,
+        "name_en": "eelektrik",
+        "name_zh": "麻麻鳗",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 108,
+    "帕底亚": 341,
+    "北上": 175,
+    "蓝莓": 134,
+    "密阿雷": 142
+  },
+  "flavor_text_zh": "麻麻小鱼是一条白色的小鱼，它的身侧有波浪形的黄色线，嘴巴是像忍者刀的星状。 麻麻小鱼是会成群行动的宝可梦。它拥有制造电力的器官，遇到危机时就会发电。1条的麻麻小鱼的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。",
+  "flavor_text_en": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 602,
+    "pokeapi_species_id": 602,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/602"
+  }
+}

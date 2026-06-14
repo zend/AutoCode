@@ -1,0 +1,79 @@
+{
+  "entry_id": "0292",
+  "national_id": 292,
+  "form": "default",
+  "names": {
+    "en": "Shedinja",
+    "ja": "ヌケニン",
+    "zh": "脱壳忍者"
+  },
+  "generation": 3,
+  "types": [
+    "bug",
+    "ghost"
+  ],
+  "types_zh": [
+    "虫",
+    "幽灵"
+  ],
+  "category": "ぬけがらポケモン",
+  "category_zh": "空壳宝可梦",
+  "abilities": [
+    {
+      "name_en": "wonder-guard",
+      "name_zh": "神奇守护",
+      "hidden": false
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 1.2,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 83,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 1,
+    "attack": 90,
+    "defense": 45,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 40,
+    "total": 236
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 290,
+        "name_en": "nincada",
+        "name_zh": "土居忍士",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 44,
+    "伽勒尔": 106
+  },
+  "flavor_text_zh": "脱壳忍者头部，背部，翅膀呈棕黄色，腹部为灰褐色，头上还生出了白色的“光环”。身体是中空的，里面什么也没有。 脱壳忍者是灵魂寄宿到了 土居忍士 进化时蜕下的壳中而诞生的宝可梦，会神不知鬼不觉地出现在精灵球。它身体坚硬，不拍动翅膀也能四处飞行，是一种不呼吸的奇妙宝可梦。人们相信如果从背上窥视它体内的空洞，灵魂就会被吸走。",
+  "flavor_text_en": "A strange Pokémon—it flies without moving its wings, has a hollow shell for a body, and does not breathe.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 292,
+    "pokeapi_species_id": 292,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/292"
+  }
+}

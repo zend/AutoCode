@@ -1,0 +1,89 @@
+{
+  "entry_id": "0463",
+  "national_id": 463,
+  "form": "default",
+  "names": {
+    "en": "Lickilicky",
+    "ja": "ベロベルト",
+    "zh": "大舌舔"
+  },
+  "generation": 4,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "なめまわしポケモン",
+  "category_zh": "舔舔宝可梦",
+  "abilities": [
+    {
+      "name_en": "own-tempo",
+      "name_zh": "我行我素 / 或 / 迟钝",
+      "hidden": false
+    },
+    {
+      "name_en": "oblivious",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "cloud-nine",
+      "name_zh": "无关天气",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.7,
+  "weight_kg": 140.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 30,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 180,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster"
+  ],
+  "egg_groups_zh": [
+    "怪兽"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 85,
+    "defense": 95,
+    "special_attack": 80,
+    "special_defense": 95,
+    "speed": 50,
+    "total": 515
+  },
+  "ev_yield": {
+    "hp": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 108,
+        "name_en": "lickitung",
+        "name_zh": "大舌头",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "神奥": 162,
+    "洗翠": 126
+  },
+  "flavor_text_zh": "大舌舔的身体更胖，尾巴和腿却变得更短了。它身体的粉色变得更深，头上多出了一个装饰，像是打了发蜡一样向后弯曲。它拥有一个非常大的舌头，它的头下面有白色的、形似围嘴的图案。身体上则有向下扩散的三条黄色涟漪形花纹。 大舌舔拥有不可思议的舌头，它不断伸出的舌头会卷住任何东西送到喉咙深处积满唾液的地方里，全伸出来能有身体的数倍之长。有时会举行看谁舌头伸得远的大赛，目前的最高纪录是25米。它舌头的灵巧程度甚至不输给人手，没有它做不到的事，哪怕是1粒小小的豆子也能灵活地摘下。相反，它的手指却相当笨拙。它长长的舌头总是淌着唾液，一不留神靠近的话，就会被唾液弄得黏糊糊的。唾液中含有溶解物体的成份，一旦接触到就会发麻。",
+  "flavor_text_en": "Its tongue can extend and contract freely, and it is capable of reaching lengths over 10 times Lickilicky's height. Beware of the saliva, as it contains corrosive elements.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 463,
+    "pokeapi_species_id": 463,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/463"
+  }
+}

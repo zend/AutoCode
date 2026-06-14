@@ -1,0 +1,83 @@
+{
+  "entry_id": "0567",
+  "national_id": 567,
+  "form": "default",
+  "names": {
+    "en": "Archeops",
+    "ja": "アーケオス",
+    "zh": "始祖大鸟"
+  },
+  "generation": 5,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "types_zh": [
+    "岩石",
+    "飞行"
+  ],
+  "category": "さいこどりポケモン",
+  "category_zh": "远古鸟宝可梦",
+  "abilities": [
+    {
+      "name_en": "defeatist",
+      "name_zh": "软弱",
+      "hidden": false
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 32.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "yellow",
+  "color_zh": "黄色",
+  "base_experience": 177,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying",
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "飞行",
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 140,
+    "defense": 65,
+    "special_attack": 112,
+    "special_defense": 65,
+    "speed": 110,
+    "total": 567
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 566,
+        "name_en": "archen",
+        "name_zh": "始祖小鸟",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 73,
+    "阿罗拉": 193
+  },
+  "flavor_text_zh": "始祖大鸟身体主要以红、黄、蓝和少许的青色组成。它从头背部直到颈背部都有青色的条状皮肤，正面则面是红色的，它的颈部有一撮尖尖的黄色羽毛。它的腹部是黄色的，巨大的翅膀是由黄色与末端的蓝色组成的。它四肢都有三个锐利的爪子，在他腿部的位置的羽毛分别有青色与蓝色。它也拥有一条长长的、红色的条状尾巴，尾巴末端的蓝色羽毛排列成五角星的样子。 始祖大鸟是古代的宝可梦，据说是鸟宝可梦的祖先。因为羽毛很细，所以如果不是熟练的匠人，就会复原失败。它虽然也会飞行，但挥动翅膀的肌肉还很弱，必须助跑才能飞起来，助跑的距离大约为4公里。比起飞行，它更擅长奔跑，跑步的速度为每小时40公里。它拥有与伙伴合作捕猎的智商，将猎物追到无路可逃时，其他伙伴就会从空中发动突袭。 菊石兽 好像曾是它的食物。",
+  "flavor_text_en": "Though capable of flight, Archeops was apparently better at hunting on the ground.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 567,
+    "pokeapi_species_id": 567,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/567"
+  }
+}

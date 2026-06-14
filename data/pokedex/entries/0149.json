@@ -1,0 +1,91 @@
+{
+  "entry_id": "0149",
+  "national_id": 149,
+  "form": "default",
+  "names": {
+    "en": "Dragonite",
+    "ja": "カイリュー",
+    "zh": "快龙"
+  },
+  "generation": 1,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "types_zh": [
+    "龙",
+    "飞行"
+  ],
+  "category": "ドラゴンポケモン",
+  "category_zh": "龙宝可梦",
+  "abilities": [
+    {
+      "name_en": "inner-focus",
+      "name_zh": "精神力",
+      "hidden": false
+    },
+    {
+      "name_en": "multiscale",
+      "name_zh": "多重鳞片",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.2,
+  "weight_kg": 210.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 270,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 91,
+    "attack": 134,
+    "defense": 95,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 80,
+    "total": 600
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 148,
+        "name_en": "dragonair",
+        "name_zh": "哈克龙",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "关都": 149,
+    "城都": 243,
+    "阿罗拉": 283,
+    "帕底亚": 349,
+    "密阿雷": 147
+  },
+  "flavor_text_zh": "快龙是一种双足行走的龙宝可梦，通体橘黄。快龙的眼睛大而灰，口鼻圆滑，鼻孔小。在其头部顶端有两根长而细的触角和一只小角。快龙带有条纹的腹部呈奶油色，并一直延伸到长尾的尖端。 快龙粗壮的四肢末端各有三只爪子。它的腿部与身体的结合处界限分明，但臂与身体的连接处却十分光滑。快龙的翅膀相较其躯体显得很小，长有翼膜，可以将其托上天空。 超级快龙的特征是类似哈克龙的头部白色翅膀，以及尾巴的珠子。 快龙大约只需16小时就能绕地球1周，似乎智力可以和人类匹敌。在广阔大海的某处，似乎存在着只有快龙群居的岛。遇难得救的男人被带去的那个孤岛，是曾属于快龙的乐园。它是心地善良的宝可梦，经常能听到它救助了在海里溺水的人或宝可梦的消息。据说它为了救助在海中溺水的人会一直在浩瀚的大海上飞来飞去。凭借着了不起的体格，即便是狂风暴雨的海上它也能波澜不惊地飞过。如果发现有在暴风雨中遇难的船只，就会将其引导到陆地边上。目睹过它那身姿的船长称其为大海的化身，很多船都会把快龙的雕像设置在船头。快龙平常都是非常稳重的，但如果触碰到了它的逆鳞，就会不毁灭一切不罢休。如果 刺龙王 遇到快龙，二者便会开始激烈的争斗。 超级快龙头部拥有触觉功能的大翅膀，让它能够四处飞翔得更快更远了。对它来说，快速结束宝可梦对战是对对手的善举，会以慈悲之心终结敌人。超级进化让它的情感变得过于温柔，心地更加善良，它不但会笑着朝对手使出强力的攻击，而且在激烈的宝可梦对战途中感受到有人需要帮助的话，也会立即前去帮助。 [ 1 ]",
+  "flavor_text_en": "This Pokémon is known as the Sea Incarnate. Figureheads that resemble Dragonite decorate the bows of many ships.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 149,
+    "pokeapi_species_id": 149,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/149"
+  }
+}

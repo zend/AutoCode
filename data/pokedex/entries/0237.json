@@ -1,0 +1,90 @@
+{
+  "entry_id": "0237",
+  "national_id": 237,
+  "form": "default",
+  "names": {
+    "en": "Hitmontop",
+    "ja": "カポエラー",
+    "zh": "战舞郎"
+  },
+  "generation": 2,
+  "types": [
+    "fighting"
+  ],
+  "types_zh": [
+    "格斗"
+  ],
+  "category": "さかだちポケモン",
+  "category_zh": "倒立宝可梦",
+  "abilities": [
+    {
+      "name_en": "intimidate",
+      "name_zh": "威吓 / 或 / 技术高手",
+      "hidden": false
+    },
+    {
+      "name_en": "technician",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "steadfast",
+      "name_zh": "不屈之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.4,
+  "weight_kg": 48.0,
+  "gender_ratio": {
+    "male_percent": 100.0,
+    "female_percent": 0.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 159,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "humanshape"
+  ],
+  "egg_groups_zh": [
+    "人型"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 95,
+    "special_attack": 35,
+    "special_defense": 110,
+    "speed": 70,
+    "total": 455
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 236,
+        "name_en": "tyrogue",
+        "name_zh": "无畏小子",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 146,
+    "伽勒尔": 110,
+    "蓝莓": 95
+  },
+  "flavor_text_zh": "战舞郎的身体是褐色的，四肢及尾巴部分有绷带状和蓝色护具构造。它的头上的角拥有与体毛和指甲相同的成分，角会在一生中不停生长。战舞郎只有雄性，也没有与之配对的雌性宝可梦。 战舞郎擅长如舞蹈般的踢技。比起走路，它旋转着前进会来得更快。它会以角为轴像陀螺一样旋转着战斗，通过倒立来扰乱对方的节奏，然后趁隙旋转身体施展华丽的踢击。高速旋转时施展出的脚踢是兼具攻击与防御的出色招式，由于离心力的作用，破坏力可达到原来的10倍。如果陶醉于它那如舞蹈般华丽流畅的脚踢招式，就会受到强力一击的问候。当它高速旋转身体时，会直接钻进地底下。",
+  "flavor_text_en": "After doing a handstand to throw off the opponent’s timing, it presents its fancy kick moves.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 237,
+    "pokeapi_species_id": 237,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/237"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "entry_id": "0945",
+  "national_id": 945,
+  "form": "default",
+  "names": {
+    "en": "Grafaiai",
+    "ja": "タギングル",
+    "zh": "涂标客"
+  },
+  "generation": 9,
+  "types": [
+    "poison",
+    "normal"
+  ],
+  "types_zh": [
+    "毒",
+    "一般"
+  ],
+  "category": "どくざるポケモン",
+  "category_zh": "毒猴宝可梦",
+  "abilities": [
+    {
+      "name_en": "unburden",
+      "name_zh": "轻装 / 或 / 毒手",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-touch",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "prankster",
+      "name_zh": "恶作剧之心",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.7,
+  "weight_kg": 27.2,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 170,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 63,
+    "attack": 95,
+    "defense": 65,
+    "special_attack": 80,
+    "special_defense": 72,
+    "speed": 110,
+    "total": 485
+  },
+  "ev_yield": {
+    "speed": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 944,
+        "name_en": "shroodle",
+        "name_zh": "滋汁鼹",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "帕底亚": 203
+  },
+  "flavor_text_zh": "涂标客具有夜行性，它的唾液会因食物种类而变色。太阳落山之后，它会舔舐手指并涂上毒液，然后在地盘内各处的树木上画图案，设下有毒的陷阱。毒液会散发甜美的芳香，受其吸引而来的虫宝可梦们会被麻痹。等到快天亮时，涂标客就会去捕捉无法动弹的宝可梦们。它画出的图案会随个体而有所不同，一生都持续画着相同的图案。它擅长使用随着自己所吃食物而变色的毒液来进行攻击，例如从口中喷出毒液，或是用沾有毒液的利爪撕裂对手。一旦感觉到危险，体内的毒素浓度就会急剧提升，毒唾液的毒性会更加剧烈，成为吸入后整整三天都无法动弹的剧毒。 [ 1 ]",
+  "flavor_text_en": "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 945,
+    "pokeapi_species_id": 945,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/945"
+  }
+}

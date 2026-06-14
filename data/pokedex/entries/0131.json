@@ -1,0 +1,86 @@
+{
+  "entry_id": "0131",
+  "national_id": 131,
+  "form": "default",
+  "names": {
+    "en": "Lapras",
+    "ja": "ラプラス",
+    "zh": "拉普拉斯"
+  },
+  "generation": 1,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "types_zh": [
+    "水",
+    "冰"
+  ],
+  "category": "のりものポケモン",
+  "category_zh": "乘载宝可梦",
+  "abilities": [
+    {
+      "name_en": "water-absorb",
+      "name_zh": "储水",
+      "hidden": false
+    },
+    {
+      "name_en": "shell-armor",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "hydration",
+      "name_zh": "湿润之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.5,
+  "weight_kg": 220.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 187,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "special_attack": 85,
+    "special_defense": 95,
+    "speed": 60,
+    "total": 535
+  },
+  "ev_yield": {
+    "hp": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "关都": 131,
+    "城都": 219,
+    "阿罗拉": 268,
+    "伽勒尔": 361,
+    "蓝莓": 145
+  },
+  "flavor_text_zh": "拉普拉斯身体上半部分是蓝色，从下巴到尾尖的下部皮肤则是白色的。它的头上有一个凸起，头两旁有螺旋状的结构。它背上有灰色的壳，壳上有许多凹凸不平的凸起。它有着四个鳍，前两只鳍比较大。它的皮肤滑滑的，摸上去会有点凉。超极巨化拉普拉斯背上的壳发生了改变，其背上的壳变成了多重结构，上方仍然有凸起的部位，而最上方的凸起变得非常大。它壳的四周环绕着一圈冰晶，冰晶上有四条线，就像是五线谱一般。 拉普拉斯是头脑聪慧，心地善良的宝可梦。它十分耐寒，不畏冰海。它有着可以理解人类语言的高智商，喜欢乘载着人在海上前行，心情好的时候似乎会用美妙的声音唱歌。在阿罗拉地区，这是重要的水上交通方式。据说它到了黄昏会去寻找为数不多的伙伴，并用好似哀伤的声音唱歌。由于它几乎不参与争斗，因此被大量捕捉，数量骤减而濒临绝灭。但听说重点保护却反而导致它有点泛滥成灾，据说在拉普拉斯过多的海域，鱼宝可梦的数量已经减少了。 超极巨化拉普拉斯冰粒集中在身体周围，形成巨大的圆环。会一边用圆环击碎冰山，一边悠然地游泳。它可以让超过5000个人乘在自己背部的甲壳上。完全不会摇晃，坐起来非常舒适。",
+  "flavor_text_en": "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 131,
+    "pokeapi_species_id": 131,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/131"
+  }
+}

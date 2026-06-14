@@ -1,0 +1,84 @@
+{
+  "entry_id": "0515",
+  "national_id": 515,
+  "form": "default",
+  "names": {
+    "en": "Panpour",
+    "ja": "ヒヤップ",
+    "zh": "冷水猴"
+  },
+  "generation": 5,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "みずかけポケモン",
+  "category_zh": "泼水宝可梦",
+  "abilities": [
+    {
+      "name_en": "gluttony",
+      "name_zh": "贪吃鬼",
+      "hidden": false
+    },
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.6,
+  "weight_kg": 13.5,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 190,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 63,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 48,
+    "special_attack": 53,
+    "special_defense": 48,
+    "speed": 64,
+    "total": 316
+  },
+  "ev_yield": {
+    "speed": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 516,
+        "name_en": "simipour",
+        "name_zh": "冷水猿",
+        "trigger": "use-item"
+      }
+    ]
+  },
+  "regional_dex": {
+    "合众": 21,
+    "密阿雷": 81
+  },
+  "flavor_text_zh": "冷水猴有一双巨大的扇形耳朵，头顶有一团如水蓝色的穗子般的绒毛。冷水猴的上半身的小部分区域为水蓝色，下方为浅黄色，由一条波浪状的纹路所相隔。冷水猴的臀部后方长出一条又细又长的土黄色的尾巴。在尾巴的末端，是一团水蓝色云朵状的绒毛。 冷水猴头上的毛发丛里储藏的水充满了营养。它会用尾巴给草木浇这种水，如果给植物浇了这种水就会茁壮成长。它是对付干燥的环境苦手，会将头部穗子里储存的水从尾部喷洒出来湿润四周。",
+  "flavor_text_en": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 515,
+    "pokeapi_species_id": 515,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/515"
+  }
+}

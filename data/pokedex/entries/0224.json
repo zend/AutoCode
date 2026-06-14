@@ -1,0 +1,94 @@
+{
+  "entry_id": "0224",
+  "national_id": 224,
+  "form": "default",
+  "names": {
+    "en": "Octillery",
+    "ja": "オクタン",
+    "zh": "章鱼桶"
+  },
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "ふんしゃポケモン",
+  "category_zh": "喷射宝可梦",
+  "abilities": [
+    {
+      "name_en": "suction-cups",
+      "name_zh": "吸盘 / 或 / 狙击手",
+      "hidden": false
+    },
+    {
+      "name_en": "sniper",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "moody",
+      "name_zh": "心情不定",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 28.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 168,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "water2"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "水中2"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 105,
+    "defense": 75,
+    "special_attack": 105,
+    "special_defense": 75,
+    "speed": 45,
+    "total": 480
+  },
+  "ev_yield": {
+    "attack": 1,
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 223,
+        "name_en": "remoraid",
+        "name_zh": "铁炮鱼",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 173,
+    "神奥": 133,
+    "伽勒尔": 149,
+    "洗翠": 147
+  },
+  "flavor_text_zh": "章鱼桶是全身红色，拥有黄色吸盘的章鱼形状宝可梦。它滚圆的头上有两个黄色圆形斑点。每条触手上都有两个吸盘，触手大多集中在身体后侧，前侧为两条较长触手。相比雄性章鱼桶，雌性的吸盘更小。 章鱼桶栖息在海底岩石的背后或洞穴里。有着爱钻洞的习性，喜欢待在岩洞或罐子里，有时就会这样伸出嘴从那里面喷出墨汁来攻击。它会化为己用其他宝可梦筑的巢穴，在里面睡觉。它有着结实的坚硬脑袋，会用带吸盘的脚缠住对手使其无法逃脱，然后再一个劲地用头猛撞，等对手不能动时就会给其最后一击。它会从嘴里喷出漆黑的墨汁以蒙蔽对手的视觉，如果打不过对手就会喷出墨汁逃走。但逃跑时吐出来的墨汁很特别，里面有着能让嗅觉变迟钝的成分，连鼻子灵敏的宝可梦也能迷惑。章鱼桶吐出的漆黑墨汁还会被当成制作料理时的食材。虽然同样能从口中喷射水流，但由于外貌实在天差地远，长久以来人们一直不相信它是由铁炮鱼进化而来。 多刺菊石兽 好像是章鱼桶的远祖。",
+  "flavor_text_en": "While Octillery still shoots water from its mouth, the drastic anatomical difference between it and Remoraid meant that for a long time, no one believed the former evolved from the latter.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 224,
+    "pokeapi_species_id": 224,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/224"
+  }
+}

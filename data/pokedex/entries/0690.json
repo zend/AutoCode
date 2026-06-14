@@ -1,0 +1,93 @@
+{
+  "entry_id": "0690",
+  "national_id": 690,
+  "form": "default",
+  "names": {
+    "en": "Skrelp",
+    "ja": "クズモー",
+    "zh": "垃垃藻"
+  },
+  "generation": 6,
+  "types": [
+    "poison",
+    "water"
+  ],
+  "types_zh": [
+    "毒",
+    "水"
+  ],
+  "category": "クサモドキポケモン",
+  "category_zh": "似草宝可梦",
+  "abilities": [
+    {
+      "name_en": "poison-point",
+      "name_zh": "毒刺 / 或 / 毒手",
+      "hidden": false
+    },
+    {
+      "name_en": "poison-touch",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "adaptability",
+      "name_zh": "适应力",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 7.3,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 225,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 64,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "dragon"
+  ],
+  "egg_groups_zh": [
+    "水中1",
+    "龙"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 30,
+    "total": 320
+  },
+  "ev_yield": {
+    "special_defense": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 691,
+        "name_en": "dragalge",
+        "name_zh": "毒藻龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 337,
+    "密阿雷": 161
+  },
+  "flavor_text_zh": "垃垃藻有褐色的身体，紫色的脸部和腹部。它整体看起来就像是一只海马，并且全身好似腐烂，如同游动在水里的海藻一般，它有着吸管式的嘴巴，头部的后方有一条凸出来的部位，垃垃藻的尾部分为三瓣，其背部也有凸起，脖子很瘦小。垃垃藻的鳍是半透明的。 垃垃藻看上去很像腐烂的海藻，因此会藏身于漂在海里的碎藻中，以此来避开敌方的耳目。它以腐烂的海藻为主要食物，吃下腐坏的海藻后就能制造出毒素。它为了不被大型宝可梦袭击一直一动不动的，一边骗过敌人的眼睛，一边积蓄进化的力量。它会模拟成腐烂海藻的形态，向没注意到而靠近来吃海藻的宝可梦泼洒毒液来了结对方。因为它不擅长游泳，所以会缠住碎藻。一旦被卷进狂风暴雨里，就有可能被冲到远处而无法回家。在阿罗拉地区，经常能在 破破舵轮 旁边发现它。",
+  "flavor_text_en": "Skrelp looks like a piece of rotten seaweed, so it can blend in with seaweed drifting on the ocean and avoid being detected by enemies.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 690,
+    "pokeapi_species_id": 690,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/690"
+  }
+}

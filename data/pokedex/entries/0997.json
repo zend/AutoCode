@@ -1,0 +1,94 @@
+{
+  "entry_id": "0997",
+  "national_id": 997,
+  "form": "default",
+  "names": {
+    "en": "Arctibax",
+    "ja": "セゴール",
+    "zh": "冻脊龙"
+  },
+  "generation": 9,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "types_zh": [
+    "龙",
+    "冰"
+  ],
+  "category": "こおりビレポケモン",
+  "category_zh": "冰鳍宝可梦",
+  "abilities": [
+    {
+      "name_en": "thermal-exchange",
+      "name_zh": "热交换",
+      "hidden": false
+    },
+    {
+      "name_en": "ice-body",
+      "name_zh": "冰冻之躯",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 30.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 25,
+  "color": "gray",
+  "color_zh": "蓝色",
+  "base_experience": 148,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon",
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "龙",
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 95,
+    "defense": 66,
+    "special_attack": 45,
+    "special_defense": 65,
+    "speed": 62,
+    "total": 423
+  },
+  "ev_yield": {
+    "attack": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 996,
+        "name_en": "frigibax",
+        "name_zh": "凉脊龙",
+        "trigger": ""
+      }
+    ],
+    "to": [
+      {
+        "national_id": 998,
+        "name_en": "baxcalibur",
+        "name_zh": "戟脊龙",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 389
+  },
+  "flavor_text_zh": "冻脊龙会冻结周围的空气，以冰之面罩和背鳍的剑来武装自己。它也会冻住背鳍，并使其形成剑，再使出前空翻来攻击对手，以敏捷的动作扑向对手并进行切斩。完成此举需要强健的腰腿。",
+  "flavor_text_en": "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 997,
+    "pokeapi_species_id": 997,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/997"
+  }
+}

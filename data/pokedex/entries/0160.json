@@ -1,0 +1,88 @@
+{
+  "entry_id": "0160",
+  "national_id": 160,
+  "form": "default",
+  "names": {
+    "en": "Feraligatr",
+    "ja": "オーダイル",
+    "zh": "大力鳄"
+  },
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "types_zh": [
+    "水"
+  ],
+  "category": "おおあごポケモン",
+  "category_zh": "大颚宝可梦",
+  "abilities": [
+    {
+      "name_en": "torrent",
+      "name_zh": "激流",
+      "hidden": false
+    },
+    {
+      "name_en": "sheer-force",
+      "name_zh": "强行",
+      "hidden": true
+    }
+  ],
+  "height_m": 2.3,
+  "weight_kg": 88.8,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "blue",
+  "color_zh": "蓝色",
+  "base_experience": 239,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "monster",
+    "water1"
+  ],
+  "egg_groups_zh": [
+    "怪兽",
+    "水中1"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 105,
+    "defense": 100,
+    "special_attack": 79,
+    "special_defense": 83,
+    "speed": 78,
+    "total": 530
+  },
+  "ev_yield": {
+    "attack": 2,
+    "defense": 1
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 159,
+        "name_en": "croconaw",
+        "name_zh": "蓝鳄",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 9,
+    "蓝莓": 181,
+    "密阿雷": 9
+  },
+  "flavor_text_zh": "大力鳄全身上下的鳞片呈蓝色，并且有长方形鳞甲凸出，前肢也变得更加强壮。其下颚和腹部骨甲为米色，头部、背部和尾部长着锯齿状的红色骨板。 超级大力鳄巨大化的背鳍被称为“小锯鳄面罩”，其形状与小锯鳄的头部相似的理由仍然不明。有种说法认为小锯鳄的头形适合“咬合”，因此这一特征通过超级进化以“小锯鳄面罩”的形式得以复活，但此说法的真伪尚无定论。 大力鳄虽然平时动作慢慢悠悠，但在扑咬猎物的时候，速度却快得无法看清。尽管身体庞大，在地上支撑身体很辛苦，但匍匐下来使用有力的后肢也可以在陆地上快速移动。它会张开大嘴威吓对手，用强韧的后脚蹬地，并以惊人的速度猛撞过来。它也会用大而有力的颚咬住对手，然后就那样甩动脖子将对手撕得粉碎。 超级大力鳄背鳍变得巨大，让咬合力大幅提升，但人们认为除此之外还具备其他功能。一说是为了强化防御。用又大又硬的鳍包覆头部，从而减少物理攻击的伤害。另一个说法，是为了提升散热效果。它会使用背鳍散热，以此来降低因超级进化而急速上升的体温。它会用兜帽般的鳍和双臂构成一个巨大的颚，咬合的威力提升为１０倍。即使是大力鳄叼不住的庞然大物，在超级进化后使用巨大化的背鳍和双臂，也可以将其咬碎。 [ 1 ]",
+  "flavor_text_en": "Feraligatr intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 160,
+    "pokeapi_species_id": 160,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/160"
+  }
+}

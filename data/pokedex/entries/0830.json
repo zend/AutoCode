@@ -1,0 +1,88 @@
+{
+  "entry_id": "0830",
+  "national_id": 830,
+  "form": "default",
+  "names": {
+    "en": "Eldegoss",
+    "ja": "ワタシラガ",
+    "zh": "白蓬蓬"
+  },
+  "generation": 8,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "わたかざりポケモン",
+  "category_zh": "棉饰宝可梦",
+  "abilities": [
+    {
+      "name_en": "cotton-down",
+      "name_zh": "棉絮 / 或 / 再生力",
+      "hidden": false
+    },
+    {
+      "name_en": "regenerator",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "effect-spore",
+      "name_zh": "孢子",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.5,
+  "weight_kg": 2.5,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 161,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "egg_groups_zh": [
+    "植物"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 90,
+    "special_attack": 80,
+    "special_defense": 120,
+    "speed": 60,
+    "total": 460
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 829,
+        "name_en": "gossifleur",
+        "name_zh": "幼棉棉",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "伽勒尔": 127
+  },
+  "flavor_text_zh": "白蓬蓬是从幼棉棉进化而来的宝可梦，头部有着大量的棉絮，背后有着一个黄色的披风。头部的棉絮能够减缓对头部造成的伤害，就像有缓冲垫保护一般。 附着在棉絮上的种子营养丰富，据说对人和宝可梦都有着滋养强壮的效果。它会把种子和棉絮一起通过风散播到各处，为大地带去养分，让草木和宝可梦变得活力十足。用它头上的棉絮制成的线有着十分美丽动人的光泽，是伽勒尔地区的名产。将 木棉球 和白蓬蓬的棉花混合后编织出的布料极其精致，因此常被高级品牌选用。 [ 1 ]",
+  "flavor_text_en": "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 830,
+    "pokeapi_species_id": 830,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/830"
+  }
+}

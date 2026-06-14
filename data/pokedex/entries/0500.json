@@ -1,0 +1,87 @@
+{
+  "entry_id": "0500",
+  "national_id": 500,
+  "form": "default",
+  "names": {
+    "en": "Emboar",
+    "ja": "エンブオー",
+    "zh": "炎武王"
+  },
+  "generation": 5,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "types_zh": [
+    "火",
+    "格斗"
+  ],
+  "category": "おおひぶたポケモン",
+  "category_zh": "大火猪宝可梦",
+  "abilities": [
+    {
+      "name_en": "blaze",
+      "name_zh": "猛火",
+      "hidden": false
+    },
+    {
+      "name_en": "reckless",
+      "name_zh": "舍身",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.6,
+  "weight_kg": 150.0,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 238,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 123,
+    "defense": 65,
+    "special_attack": 100,
+    "special_defense": 65,
+    "speed": 65,
+    "total": 528
+  },
+  "ev_yield": {
+    "attack": 3
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 499,
+        "name_en": "pignite",
+        "name_zh": "炒炒猪",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "合众": 6,
+    "蓝莓": 205,
+    "密阿雷": 6
+  },
+  "flavor_text_zh": "炎武王的颈部围绕着熊熊火焰，黑色眉毛向上翘起。它两个粗壮的臂膀呈黑色，手腕部有一个红色的圈。它有着爆炸型的黑色尾巴，肥大的身躯，肚子的一圈黑色上有着几个似乎象征着武斗的图案。 超级炎武王超级进化之后肌肉增强，身体也大了一圈左右。胡须的火焰燃烧得更加旺盛，会像护具一样包裹上半身。 炎武王在胸内熊熊燃烧的火焰从颚部猛烈地喷出，形成了火焰的胡须，胡须上燃烧着的火焰是精神集中的体现。据说它越是陷入危机就越高兴，使它颈部周围的火焰猛烈燃烧，力量和速度都会得到提升。它身怀兼具力量与速度的格斗招式，会用下颚的火焰燃烧拳头，连续使出 火焰拳 。它是对伙伴非常体贴的宝可梦。 超级炎武王是个豪杰，性格豪迈，但也是个粗暴的家伙，很爱生气。受到超级进化的影响，它总是很亢奋。战斗一旦开始，它就会不断地对眼前的敌人不由分说地挑起战斗。它倾向于单打独斗，往往会对敌人穷追不舍，喜欢横冲直撞。因此对于训练家来说，引导它的能力是不可或缺的。另一方面，它对伙伴重情重义的性格与超级进化前没有什么不同。在伙伴陷入困境时一定会赶去救援，拼命战斗。它的肌肉力量增强之后，拳头轻轻一挥就能让钢筋混凝土大楼毁掉一半。另外，不只是肌肉力量，火能量也大幅增强。胡须的火焰会随着精神的高昂而愈加猛烈地燃烧。当它处于兴奋状态时热气过强，甚至都无法靠近它。在情绪高涨到顶点时，用手掌释放的火能量所做出的蛇矛前端的温度会高达1万度。 [ 1 ]",
+  "flavor_text_en": "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 500,
+    "pokeapi_species_id": 500,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/500"
+  }
+}

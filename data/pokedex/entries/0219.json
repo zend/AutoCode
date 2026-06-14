@@ -1,0 +1,92 @@
+{
+  "entry_id": "0219",
+  "national_id": 219,
+  "form": "default",
+  "names": {
+    "en": "Magcargo",
+    "ja": "マグカルゴ",
+    "zh": "熔岩蜗牛"
+  },
+  "generation": 2,
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "types_zh": [
+    "火",
+    "岩石"
+  ],
+  "category": "ようがんポケモン",
+  "category_zh": "熔岩宝可梦",
+  "abilities": [
+    {
+      "name_en": "magma-armor",
+      "name_zh": "熔岩铠甲 / 或 / 火焰之躯",
+      "hidden": false
+    },
+    {
+      "name_en": "flame-body",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "weak-armor",
+      "name_zh": "碎裂铠甲",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 55.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 75,
+  "color": "red",
+  "color_zh": "红色",
+  "base_experience": 151,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "egg_groups_zh": [
+    "不定形"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 120,
+    "special_attack": 90,
+    "special_defense": 80,
+    "speed": 30,
+    "total": 430
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 218,
+        "name_en": "slugma",
+        "name_zh": "熔岩虫",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "城都": 212,
+    "丰缘": 104,
+    "北上": 145
+  },
+  "flavor_text_zh": "熔岩蜗牛背上有了一个壳，上面布满熔岩。 熔岩蜗牛数万年以来都居住在火山口，使得身体也变成了岩浆。传说野生的熔岩蜗牛数量突然增加是火山爆发的前兆。据说体温它的约有一万度，因此被雨点打到后会蒸汽弥漫，身体周围会被浓厚的雾气所笼罩。它的壳是由岩浆皮肤冷却后凝固而成的，壳里积蓄着火之能量，只要碰一下就会崩裂成碎片，进入熔岩中就会恢复到原来的大小。它的身体总在不断起伏着，像熔岩一样灼热，体内循环着的高热火焰会时不时地从岩浆凝固后形成的壳的缝隙处喷发出来。",
+  "flavor_text_en": "Magcargo’s body temperature is approximately 18,000 degrees Fahrenheit. Water is vaporized on contact. If this Pokémon is caught in the rain, the raindrops instantly turn into steam, cloaking the area in a thick fog.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 219,
+    "pokeapi_species_id": 219,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/219"
+  }
+}

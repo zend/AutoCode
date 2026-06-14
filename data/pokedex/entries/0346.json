@@ -1,0 +1,85 @@
+{
+  "entry_id": "0346",
+  "national_id": 346,
+  "form": "default",
+  "names": {
+    "en": "Cradily",
+    "ja": "ユレイドル",
+    "zh": "摇篮百合"
+  },
+  "generation": 3,
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "types_zh": [
+    "岩石",
+    "草"
+  ],
+  "category": "いわつぼポケモン",
+  "category_zh": "藤壶宝可梦",
+  "abilities": [
+    {
+      "name_en": "suction-cups",
+      "name_zh": "吸盘",
+      "hidden": false
+    },
+    {
+      "name_en": "storm-drain",
+      "name_zh": "引水",
+      "hidden": true
+    }
+  ],
+  "height_m": 1.5,
+  "weight_kg": 60.4,
+  "gender_ratio": {
+    "male_percent": 87.5,
+    "female_percent": 12.5,
+    "genderless": false
+  },
+  "capture_rate": 45,
+  "color": "green",
+  "color_zh": "绿色",
+  "base_experience": 173,
+  "growth_rate": "slow-then-very-fast",
+  "egg_groups": [
+    "water3"
+  ],
+  "egg_groups_zh": [
+    "水中3"
+  ],
+  "base_stats": {
+    "hp": 86,
+    "attack": 81,
+    "defense": 97,
+    "special_attack": 81,
+    "special_defense": 107,
+    "speed": 43,
+    "total": 495
+  },
+  "ev_yield": {
+    "special_defense": 2
+  },
+  "evolution": {
+    "from": [
+      {
+        "national_id": 345,
+        "name_en": "lileep",
+        "name_zh": "触手百合",
+        "trigger": ""
+      }
+    ],
+    "to": []
+  },
+  "regional_dex": {
+    "丰缘": 134
+  },
+  "flavor_text_zh": "摇篮百合是一种与植物相似的绿色宝可梦。它的头部、脖子和躯干上有着不同式样的黄色标记。它的头上有着新月形的开口，开口上还有一对圆形的黄色眼点，有八条粉色的触须环绕在它的头部根处。它依靠四条粗短的腿蹲坐在地上，腹部部上还有一个椭圆形的黄色靶状物。 摇篮百合是古代海里的食肉宝可梦。它平常栖息在温暖的海洋浅滩底部，会拖着沉重的身体在海底来回走动寻找食物。它会在退潮的时候爬到陆地上四处寻找猎物，把那些藏在沙滩里的猎物挖出来吃掉。它的身体像秤砣一样，所以就算大海再波涛汹涌也不会被冲走。它虽然脚很短走得慢，但脖子和触手能伸长3倍。因为它无法快速移动，所以会藏在海藻之间，靠伸长触手来获取食物。它会随意地伸长如同树枝般的脖子，然后再用八只触手捕捉猎物。用触手将猎物缠住后，它会从触手分泌出强力的消化液将其溶化，然后大口大口地吃掉，吸收其中的养分。",
+  "flavor_text_en": "Once Cradily catches prey in its tentacles, it digests them whole and absorbs their nutrients.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 346,
+    "pokeapi_species_id": 346,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/346"
+  }
+}

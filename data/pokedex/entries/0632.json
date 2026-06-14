@@ -1,0 +1,81 @@
+{
+  "entry_id": "0632",
+  "national_id": 632,
+  "form": "default",
+  "names": {
+    "en": "Durant",
+    "ja": "アイアント",
+    "zh": "铁蚁"
+  },
+  "generation": 5,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "types_zh": [
+    "虫",
+    "钢"
+  ],
+  "category": "てつアリポケモン",
+  "category_zh": "铁蚁宝可梦",
+  "abilities": [
+    {
+      "name_en": "swarm",
+      "name_zh": "虫之预感 / 或 / 活力",
+      "hidden": false
+    },
+    {
+      "name_en": "hustle",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "truant",
+      "name_zh": "懒惰",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.3,
+  "weight_kg": 33.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 90,
+  "color": "gray",
+  "color_zh": "灰色",
+  "base_experience": 169,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "egg_groups_zh": [
+    "虫"
+  ],
+  "base_stats": {
+    "hp": 58,
+    "attack": 109,
+    "defense": 112,
+    "special_attack": 48,
+    "special_defense": 48,
+    "speed": 109,
+    "total": 484
+  },
+  "ev_yield": {
+    "defense": 2
+  },
+  "evolution": {},
+  "regional_dex": {
+    "合众": 138,
+    "伽勒尔": 316
+  },
+  "flavor_text_zh": "铁蚁就像是蚂蚁，全身是灰色的。它身上裹着钢铁的铠甲，身体有着圆圈花纹。它有着一对巨大的獠牙以及结构分明的眼睛。 铁蚁会挖山造巢穴，复杂的隧道是铁蚁制造的迷宫。面对天敌 熔蚁兽 时大家会分工合作，以群体之力防御并把它从巢穴中驱赶出去。它会用大大的颚部咬住对方进行反击，巨大的颚部能咬碎岩石。但是它的牙却无法咬穿 沙螺蟒 那伸缩性和厚度都很强的沙囊。它会在巢穴的深处产卵，为了不让沙螺蟒把蛋抢走，会和其他同类一起并肩战斗。",
+  "flavor_text_en": "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 632,
+    "pokeapi_species_id": 632,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/632"
+  }
+}

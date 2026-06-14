@@ -1,0 +1,84 @@
+{
+  "entry_id": "0672",
+  "national_id": 672,
+  "form": "default",
+  "names": {
+    "en": "Skiddo",
+    "ja": "メェークル",
+    "zh": "坐骑小羊"
+  },
+  "generation": 6,
+  "types": [
+    "grass"
+  ],
+  "types_zh": [
+    "草"
+  ],
+  "category": "ライドポケモン",
+  "category_zh": "坐骑宝可梦",
+  "abilities": [
+    {
+      "name_en": "sap-sipper",
+      "name_zh": "食草",
+      "hidden": false
+    },
+    {
+      "name_en": "grass-pelt",
+      "name_zh": "草之毛皮",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.9,
+  "weight_kg": 31.0,
+  "gender_ratio": {
+    "male_percent": 50.0,
+    "female_percent": 50.0,
+    "genderless": false
+  },
+  "capture_rate": 200,
+  "color": "brown",
+  "color_zh": "褐色",
+  "base_experience": 70,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "egg_groups_zh": [
+    "陆上"
+  ],
+  "base_stats": {
+    "hp": 66,
+    "attack": 65,
+    "defense": 48,
+    "special_attack": 62,
+    "special_defense": 57,
+    "speed": 52,
+    "total": 350
+  },
+  "ev_yield": {
+    "hp": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 673,
+        "name_en": "gogoat",
+        "name_zh": "坐骑山羊",
+        "trigger": "level-up"
+      }
+    ]
+  },
+  "regional_dex": {
+    "帕底亚": 221,
+    "密阿雷": 41
+  },
+  "flavor_text_zh": "坐骑小羊的外貌就如同一只山羊，它们长满毛茸茸的深棕色皮毛。它有一个白色的脸，而脸部中间有一个棕色的毛，它有一个圆形的黑色鼻子和黑色的眼睛。头顶上有一对尖尖的黑角。它的每条腿上都有白色的毛和橙色的蹄。脖子上有一片叶状的绿色鬃毛，尾部由三片短叶组成。 坐骑小羊性格很温和。如果有水和阳光，它就能用背上的叶子制造能量，因此在没有食粮的岩山也能生存。据说它是最早能够和人一起生活的宝可梦，直到最近为止都还有山岳的居民乘坐在坐骑小羊的背上，在山路上移动。",
+  "flavor_text_en": "If it has sunshine and water, it doesn’t need to eat, because it can generate energy from the leaves on its back.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 672,
+    "pokeapi_species_id": 672,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/672"
+  }
+}

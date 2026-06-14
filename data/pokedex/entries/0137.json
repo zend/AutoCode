@@ -1,0 +1,91 @@
+{
+  "entry_id": "0137",
+  "national_id": 137,
+  "form": "default",
+  "names": {
+    "en": "Porygon",
+    "ja": "ポリゴン",
+    "zh": "多边兽"
+  },
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "types_zh": [
+    "一般"
+  ],
+  "category": "バーチャルポケモン",
+  "category_zh": "虚拟宝可梦",
+  "abilities": [
+    {
+      "name_en": "trace",
+      "name_zh": "复制 / 或 / 下载",
+      "hidden": false
+    },
+    {
+      "name_en": "download",
+      "name_zh": "",
+      "hidden": false
+    },
+    {
+      "name_en": "analytic",
+      "name_zh": "分析",
+      "hidden": true
+    }
+  ],
+  "height_m": 0.8,
+  "weight_kg": 36.5,
+  "gender_ratio": {
+    "genderless": true
+  },
+  "capture_rate": 45,
+  "color": "pink",
+  "color_zh": "粉红色",
+  "base_experience": 79,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "egg_groups_zh": [
+    "矿物"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 70,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 40,
+    "total": 395
+  },
+  "ev_yield": {
+    "special_attack": 1
+  },
+  "evolution": {
+    "from": [],
+    "to": [
+      {
+        "national_id": 233,
+        "name_en": "porygon2",
+        "name_zh": "多边兽２型",
+        "trigger": "trade"
+      }
+    ]
+  },
+  "regional_dex": {
+    "关都": 137,
+    "城都": 215,
+    "神奥": 192,
+    "阿罗拉": 217,
+    "洗翠": 133,
+    "蓝莓": 129
+  },
+  "flavor_text_zh": "多边兽的身体由程序构成，它的头是红色的，嘴巴是蓝色的。它的身体后部是红色的，尾部和胸前则是蓝色的。 多边兽是为了宝可梦研究使用最先进的科学技术，终于成功制造出人工的宝可梦。它是人工制造出来的宝可梦，只被编入了一些基本动作，没编程的动作就做不出来。它由大约20年前的科学力量创造出来的宝可梦，所以现在很多部分已经过时了。因为它能将身体化为数字数据，所以可以将全身转回程序数据并进入电子空间，有着能在电子空间自由移动的能力。因为有防拷贝保护，所以无法复制。因为不需要呼吸，人们期待它能成为唯一能够飞到宇宙的宝可梦，然而至今也努力未果。近年来它十分活跃于电脑空间，到处检查有没有可疑的数据。",
+  "flavor_text_en": "It has no discernible heartbeat and does not seem to draw breath, and yet it appears to function without issue. I cannot even begin to explain this utterly bizarre anomaly.",
+  "is_default_form": true,
+  "source": {
+    "pokeapi_id": 137,
+    "pokeapi_species_id": 137,
+    "pokeapi_url": "https://pokeapi.co/api/v2/pokemon/137"
+  }
+}
