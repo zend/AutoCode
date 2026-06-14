@@ -31,4 +31,6 @@ tmp/
 # Pokedex build cache and source markdown (regenerate via scripts/build_pokedex_kb.py)
 data/pokedex/.build_cache/
 data/pokedex/build.log
+data/pokedex/assets/.sprite_cache/
+data/pokedex/spritesheet-build.log
 docs/全国宝可梦完整资料.md

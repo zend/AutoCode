@@ -301,6 +301,40 @@ func TestPokedexTool(t *testing.T) {
 	if !contains(notFound, "未找到") {
 		t.Errorf("expected not-found message, got: %s", notFound)
 	}
+
+	spriteData := `{
+  "schema_version": "1.0.0",
+  "image": "assets/spritesheet.png",
+  "entry_count": 1,
+  "by_entry_id": {
+    "0025": {
+      "entry_id": "0025",
+      "national_id": 25,
+      "names": {"zh": "皮卡丘", "en": "Pikachu"},
+      "x": 0, "y": 0, "width": 128, "height": 128,
+      "col": 0, "row": 0, "index": 0,
+      "pokeapi_id": 25,
+      "source_url": "https://example.com/25.png",
+      "sprite_style": "home"
+    }
+  }
+}`
+	if err := os.WriteFile(filepath.Join(dataDir, "spritesheet.json"), []byte(spriteData), 0644); err != nil {
+		t.Fatal(err)
+	}
+
+	tool, err = NewPokedexTool(dataDir)
+	if err != nil {
+		t.Fatalf("NewPokedexTool failed: %v", err)
+	}
+
+	spriteResult, err := tool.Execute(context.Background(), `{"entry_id": "0025", "sprite_only": true}`)
+	if err != nil {
+		t.Fatalf("sprite Execute failed: %v", err)
+	}
+	if !contains(spriteResult, "x=0") || !contains(spriteResult, "皮卡丘") {
+		t.Errorf("expected sprite info, got: %s", spriteResult)
+	}
 }
 
 func TestRegistry(t *testing.T) {

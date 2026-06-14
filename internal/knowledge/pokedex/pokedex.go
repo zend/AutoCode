@@ -148,6 +148,7 @@ type KB struct {
 	manifest Manifest
 	index    []IndexEntry
 	byID     map[string]*IndexEntry
+	sprites  *SpriteAtlas
 }
 
 // Load reads the knowledge base from dataDir (expects manifest.json, index.json, entries/).
@@ -179,17 +180,40 @@ func Load(dataDir string) (*KB, error) {
 		byID[index[i].EntryID] = &index[i]
 	}
 
-	return &KB{
+	kb := &KB{
 		dir:      dataDir,
 		manifest: manifest,
 		index:    index,
 		byID:     byID,
-	}, nil
+	}
+	if atlas, err := LoadSpriteAtlas(dataDir); err == nil {
+		kb.sprites = atlas
+	}
+
+	return kb, nil
 }
 
 // Manifest returns knowledge base metadata.
 func (kb *KB) Manifest() Manifest {
 	return kb.manifest
+}
+
+// DataDir returns the knowledge base root directory.
+func (kb *KB) DataDir() string {
+	return kb.dir
+}
+
+// SpriteAtlas returns the loaded spritesheet metadata, if available.
+func (kb *KB) SpriteAtlas() *SpriteAtlas {
+	return kb.sprites
+}
+
+// GetSprite returns sprite coordinates for an entry ID.
+func (kb *KB) GetSprite(entryID string) (*SpriteRect, bool) {
+	if kb.sprites == nil {
+		return nil, false
+	}
+	return kb.sprites.GetSprite(entryID)
 }
 
 // EntryCount returns total indexed entries.

@@ -11,15 +11,17 @@ import (
 
 // PokedexInput defines structured query parameters for the pokedex tool.
 type PokedexInput struct {
-	NationalID int    `json:"national_id,omitempty"`
-	EntryID    string `json:"entry_id,omitempty"`
-	Name       string `json:"name,omitempty"`
-	Type       string `json:"type,omitempty"`
-	Generation int    `json:"generation,omitempty"`
-	Form       string `json:"form,omitempty"`
-	Limit      int    `json:"limit,omitempty"`
-	List       bool   `json:"list,omitempty"`
-	Format     string `json:"format,omitempty"` // "text" (default) or "json"
+	NationalID    int    `json:"national_id,omitempty"`
+	EntryID       string `json:"entry_id,omitempty"`
+	Name          string `json:"name,omitempty"`
+	Type          string `json:"type,omitempty"`
+	Generation    int    `json:"generation,omitempty"`
+	Form          string `json:"form,omitempty"`
+	Limit         int    `json:"limit,omitempty"`
+	List          bool   `json:"list,omitempty"`
+	IncludeSprite bool   `json:"include_sprite,omitempty"`
+	SpriteOnly    bool   `json:"sprite_only,omitempty"`
+	Format        string `json:"format,omitempty"` // "text" (default) or "json"
 }
 
 // PokedexTool provides grounded National Pokédex lookups.
@@ -51,6 +53,8 @@ Parameters (JSON):
 - form: Regional form (alola, galar, hisui, paldea)
 - limit: Max results for list queries (default 20, max 50)
 - list: If true, return compact index listing
+- include_sprite: If true, append spritesheet coordinates to results
+- sprite_only: If true, return only spritesheet coordinates (requires entry_id or national_id)
 - format: "text" (default) or "json"
 Only returns data stored in the knowledge base. If not found, explicitly says so.`
 }
@@ -65,6 +69,10 @@ func (t *PokedexTool) Execute(ctx context.Context, input string) (string, error)
 
 	if params.List {
 		return t.listResult(params)
+	}
+
+	if params.SpriteOnly {
+		return t.spriteResult(params)
 	}
 
 	result, err := t.kb.Query(pokedex.QueryParams{
@@ -88,7 +96,40 @@ func (t *PokedexTool) Execute(ctx context.Context, input string) (string, error)
 		return string(data), nil
 	}
 
-	return t.formatTextResult(result), nil
+	return t.formatTextResult(result, params.IncludeSprite), nil
+}
+
+func (t *PokedexTool) spriteResult(params PokedexInput) (string, error) {
+	atlas := t.kb.SpriteAtlas()
+	if atlas == nil {
+		return "雪碧图元数据未加载", nil
+	}
+
+	entryID := params.EntryID
+	if entryID == "" && params.NationalID > 0 {
+		entryID = fmt.Sprintf("%04d", params.NationalID)
+		if params.Form != "" {
+			entryID = fmt.Sprintf("%04d-%s", params.NationalID, params.Form)
+		}
+	}
+	if entryID == "" {
+		return "sprite_only 需要 entry_id 或 national_id", nil
+	}
+
+	rect, ok := t.kb.GetSprite(entryID)
+	if !ok {
+		return fmt.Sprintf("雪碧图中未找到条目 %s", entryID), nil
+	}
+
+	if params.Format == "json" {
+		data, err := json.MarshalIndent(rect, "", "  ")
+		if err != nil {
+			return "", fmt.Errorf("marshal sprite: %w", err)
+		}
+		return string(data), nil
+	}
+
+	return pokedex.FormatSpriteRect(*rect, atlas.ImagePath(t.kb.DataDir())), nil
 }
 
 func (t *PokedexTool) listResult(params PokedexInput) (string, error) {
@@ -125,7 +166,7 @@ func (t *PokedexTool) listResult(params PokedexInput) (string, error) {
 	return b.String(), nil
 }
 
-func (t *PokedexTool) formatTextResult(result *pokedex.QueryResult) string {
+func (t *PokedexTool) formatTextResult(result *pokedex.QueryResult, includeSprite bool) string {
 	if !result.Found {
 		return fmt.Sprintf("未找到匹配条目。\n%s\n来源: %s", result.Message, result.Source)
 	}
@@ -137,6 +178,12 @@ func (t *PokedexTool) formatTextResult(result *pokedex.QueryResult) string {
 			b.WriteString("\n---\n\n")
 		}
 		b.WriteString(pokedex.FormatEntry(entry))
+		if includeSprite {
+			if rect, ok := t.kb.GetSprite(entry.EntryID); ok {
+				b.WriteString("\n")
+				b.WriteString(pokedex.FormatSpriteRect(*rect, t.kb.SpriteAtlas().ImagePath(t.kb.DataDir())))
+			}
+		}
 	}
 	return b.String()
 }

@@ -18,6 +18,14 @@
   ],
   "content_sha256": "001332813703a4c7ef13dc1378ab970c2c4b1c6ec5c569da3d01a014540dbf0e",
   "built_at": "2026-06-14T06:57:09Z",
+  "spritesheet": {
+    "image": "assets/spritesheet.png",
+    "metadata": "spritesheet.json",
+    "entry_count": 1078,
+    "cell_size": 128,
+    "grid": "33x33",
+    "sprite_style": "home"
+  },
   "anti_hallucination": {
     "policy": "所有事实必须来自本知识库 JSON 文件；查询工具仅返回已存储字段",
     "not_found_message": "知识库中未找到该条目，请勿编造"
